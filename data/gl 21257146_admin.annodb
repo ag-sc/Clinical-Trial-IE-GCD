@@ -1,0 +1,72 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 15, "Am J Ophthalmol", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasJournal> \"Am J Ophthalmol\"."
+1, PublicationYear, 18, 22, "2011", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasPublicationYear> \"2011\"."
+6, Title, 117, 254, "A randomized trial of brimonidine versus timolol in preserving visual function : results from the Low - Pressure Glaucoma Treatment Study", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasTitle> \"A randomized trial of brimonidine versus timolol in preserving visual function : results from the Low - Pressure Glaucoma Treatment Study\"."
+2, Randomized, 119, 129, "randomized", "", 
+3, Brimonidine, 139, 150, "brimonidine", "", "<http://ctro/data#Medication_43162> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+4, Timolol, 158, 165, "timolol", "", "<http://ctro/data#Medication_43169> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+37006, NormalTensionGlaucoma, 215, 238, "Low - Pressure Glaucoma", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma>."
+7, Author, 257, 265, "Krupin T", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> \"Krupin T\"."
+8, Author, 274, 285, "Liebmann JM", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> \"Liebmann JM\"."
+9, Author, 288, 301, "Greenfield DS", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> \"Greenfield DS\"."
+10, Author, 304, 311, "Ritch R", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> \"Ritch R\"."
+11, Author, 314, 324, "Gardiner S", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> \"Gardiner S\"."
+37007, NormalTensionGlaucoma, 327, 350, "Low - Pressure Glaucoma", "", 
+12, USA, 846, 849, "USA", "", "<http://ctro/data#Population_43102> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+84, ObjectiveDescription, 1151, 1341, "To compare the alpha2 - adrenergic agonist brimonidine tartrate 0 . 2 % to the beta - adrenergic antagonist timolol maleate 0 . 5 % in preserving visual function in low - pressure glaucoma .", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasObjectiveDescription> \"To compare the alpha2 - adrenergic agonist brimonidine tartrate 0 . 2 % to the beta - adrenergic antagonist timolol maleate 0 . 5 % in preserving visual function in low - pressure glaucoma .\"."
+13, Brimonidine, 1194, 1214, "brimonidine tartrate", "", 
+16, DoseValue, 1215, 1220, "0 . 2", "", "<http://ctro/data#Medication_43162> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+18, Percentage, 1221, 1222, "%", "", 
+14, Timolol, 1259, 1274, "timolol maleate", "", 
+17, DoseValue, 1275, 1280, "0 . 5", "", "<http://ctro/data#Medication_43169> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+19, Percentage, 1281, 1282, "%", "", 
+37005, NormalTensionGlaucoma, 1316, 1339, "low - pressure glaucoma", "", 
+20, Randomized, 1351, 1361, "Randomized", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+21, DoubleBlind, 1364, 1379, "double - masked", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+22, Multicenter, 1382, 1393, "multicenter", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+24, IOP, 1459, 1479, "intraocular pressure", "", 
+25, IOP, 1482, 1485, "IOP", "", 
+26, mmHg, 1493, 1498, "mm Hg", "", "<http://ctro/data#Endpoint_43110> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+27, Frequency, 1619, 1632, "twice - daily", "", "<http://ctro/data#Intervention_43150> <http://ctro/data#hasFrequency> \"twice - daily\". <http://ctro/data#Intervention_43156> <http://ctro/data#hasFrequency> \"twice - daily\"."
+28, Randomized, 1645, 1655, "randomized", "", 
+29, Brimonidine, 1675, 1686, "brimonidine", "", 
+30, Timolol, 1692, 1699, "timolol", "", 
+111, EndPointDescription, 1812, 1829, "field progression", "", "<http://ctro/data#EndPointDescription_43117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_43116> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_43117>."
+31, Glaucoma, 2053, 2061, "glaucoma", "", "<http://ctro/data#Glaucoma_84281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_43084> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_84281>."
+32, NumberPatientsArm, 2188, 2201, "Ninety - nine", "", "<http://ctro/data#Arm_43131> <http://ctro/data#hasNumberPatientsArm> \"Ninety - nine\"."
+34, Randomized, 2216, 2226, "randomized", "", 
+35, Brimonidine, 2230, 2241, "brimonidine", "", 
+33, NumberPatientsArm, 2246, 2248, "79", "", "<http://ctro/data#Arm_43140> <http://ctro/data#hasNumberPatientsArm> \"79\"."
+36, Timolol, 2252, 2259, "timolol", "", 
+37, Mean, 2262, 2266, "Mean", "", 
+38, Brimonidine, 2352, 2363, "brimonidine", "", 
+105, NumberAffected, 2385, 2386, "9", "", "<http://ctro/data#Outcome_43176> <http://ctro/data#hasNumberAffected> \"9\"."
+40, PercentageAffected, 2389, 2394, "9 . 1", "", "<http://ctro/data#Outcome_43176> <http://ctro/data#hasPercentageAffected> \"9 . 1\"."
+111, EndPointDescription, 2403, 2427, "visual field progression", "", "<http://ctro/data#EndPointDescription_43117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_43116> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_43117>."
+43, Timolol, 2464, 2471, "timolol", "", 
+108, NumberAffected, 2493, 2495, "31", "", "<http://ctro/data#Outcome_43203> <http://ctro/data#hasNumberAffected> \"31\"."
+42, PercentageAffected, 2498, 2504, "39 . 2", "", "<http://ctro/data#Outcome_43203> <http://ctro/data#hasPercentageAffected> \"39 . 2\"."
+44, PvalueDiff, 2529, 2538, "P = . 001", "", "<http://ctro/data#DiffBetweenGroups_43230> <http://ctro/data#hasPvalueDiff> \"P = . 001\"."
+106251, ObservedResult, 2543, 2639, "Mean treated IOP was similar for brimonidine - and timolol - treated patients at all time points", "", "<http://ctro/data#Outcome_43242> <http://ctro/data#hasObservedResult> \"Mean treated IOP was similar for brimonidine - and timolol - treated patients at all time points\". <http://ctro/data#Outcome_43269> <http://ctro/data#hasObservedResult> \"Mean treated IOP was similar for brimonidine - and timolol - treated patients at all time points\"."
+45, Mean, 2543, 2547, "Mean", "", "<http://ctro/data#Mean_43112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_43110> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_43112>."
+46, IOP, 2556, 2559, "IOP", "", "<http://ctro/data#IOP_43115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_43110> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_43115>."
+47, Brimonidine, 2576, 2587, "brimonidine", "", 
+48, Timolol, 2594, 2601, "timolol", "", 
+50, Brimonidine, 2647, 2658, "brimonidine", "", 
+118, NumPatientsLeftArm, 2671, 2673, "28", "", "<http://ctro/data#Arm_43131> <http://ctro/data#hasNumPatientsLeftArm> \"28\"."
+58, RelNumPatientsLeftArm, 2676, 2682, "28 . 3", "", "<http://ctro/data#Arm_43131> <http://ctro/data#hasRelNumPatientsLeftArm> \"28 . 3\"."
+55, Timolol, 2692, 2699, "timolol", "", 
+119, NumPatientsLeftArm, 2712, 2713, "9", "", "<http://ctro/data#Arm_43140> <http://ctro/data#hasNumPatientsLeftArm> \"9\"."
+60, RelNumPatientsLeftArm, 2716, 2722, "11 . 4", "", "<http://ctro/data#Arm_43140> <http://ctro/data#hasRelNumPatientsLeftArm> \"11 . 4\"."
+56, PvalueDiff, 2812, 2821, "P = . 008", "", 
+37009, NormalTensionGlaucoma, 2940, 2963, "Low - pressure glaucoma", "", 
+120, ConclusionComment, 2940, 3126, "Low - pressure glaucoma patients treated with brimonidine 0 . 2 % who do not develop ocular allergy are less likely to have field progression than patients treated with timolol 0 . 5 % .", "", "<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasConclusionComment> \"Low - pressure glaucoma patients treated with brimonidine 0 . 2 % who do not develop ocular allergy are less likely to have field progression than patients treated with timolol 0 . 5 % .\"."
+63, Brimonidine, 2986, 2997, "brimonidine", "", 
+65, DoseValue, 2998, 3003, "0 . 2", "", 
+67, Percentage, 3004, 3005, "%", "", 
+105207, Ocular_Allergy, 3025, 3039, "ocular allergy", "", "<http://ctro/data#Endpoint_43126> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Ocular_Allergy>."
+111, EndPointDescription, 3064, 3081, "field progression", "", "<http://ctro/data#EndPointDescription_43117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_43116> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_43117>."
+64, Timolol, 3109, 3116, "timolol", "", 
+66, DoseValue, 3117, 3122, "0 . 5", "", 
+68, Percentage, 3123, 3124, "%", "", 
+69, PMID, 3232, 3240, "21257146", "", "<http://ctro/data#Publication_43073> <http://ctro/data#hasPMID> \"21257146\"."

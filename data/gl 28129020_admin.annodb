@@ -1,0 +1,94 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2017", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasPublicationYear> \"2017\"."
+12, Title, 115, 252, "The 24 - Hour Effects of Brinzolamide / Brimonidine Fixed Combination and Timolol on Intraocular Pressure and Ocular Perfusion Pressure .", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasTitle> \"The 24 - Hour Effects of Brinzolamide / Brimonidine Fixed Combination and Timolol on Intraocular Pressure and Ocular Perfusion Pressure .\"."
+53867, Brinz/BrimoFC, 140, 166, "Brinzolamide / Brimonidine", "", "<http://ctro/data#Medication_96556> <http://ctro/data#hasDrug> <http://ctro/data#Brinz/BrimoFC>."
+4, Timolol, 189, 196, "Timolol", "", "<http://ctro/data#Medication_96563> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+5, IOP, 200, 220, "Intraocular Pressure", "", "<http://ctro/data#IOP_102073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_102072> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_102073>."
+6, Author, 253, 263, "Seibold LK", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasAuthor> \"Seibold LK\"."
+7, Author, 272, 281, "DeWitt PE", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasAuthor> \"DeWitt PE\"."
+8, Author, 290, 299, "Kroehl ME", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasAuthor> \"Kroehl ME\"."
+9, Author, 308, 317, "Kahook MY", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasAuthor> \"Kahook MY\"."
+10, USA, 437, 445, "Colorado", "", "<http://ctro/data#Population_96508> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+11, USA, 546, 554, "Colorado", "", 
+21, ObjectiveDescription, 567, 794, "To determine the 24 - h effects of brinzolamide / brimonidine tartrate 1 % / 0 . 2 % fixed combination ( BBFC ) on intraocular pressure ( IOP ) , ocular perfusion pressure ( OPP ) , blood pressure ( BP ) , and heart rate ( HR )", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasObjectiveDescription> \"To determine the 24 - h effects of brinzolamide / brimonidine tartrate 1 % / 0 . 2 % fixed combination ( BBFC ) on intraocular pressure ( IOP ) , ocular perfusion pressure ( OPP ) , blood pressure ( BP ) , and heart rate ( HR )\"."
+53868, Brinz/BrimoFC, 602, 669, "brinzolamide / brimonidine tartrate 1 % / 0 . 2 % fixed combination", "", 
+15, DoseValue, 638, 639, "1", "", 
+17, Percentage, 640, 641, "%", "", 
+16, DoseValue, 644, 649, "0 . 2", "", 
+18, Percentage, 650, 651, "%", "", 
+53869, Brinz/BrimoFC, 672, 676, "BBFC", "", 
+19, IOP, 682, 702, "intraocular pressure", "", 
+20, IOP, 705, 708, "IOP", "", 
+102, EndPointDescription, 713, 738, "ocular perfusion pressure", "", "<http://ctro/data#EndPointDescription_96517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_96516> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_96517>."
+103, EndPointDescription, 741, 744, "OPP", "", 
+32, BloodPressure, 749, 763, "blood pressure", "", 
+31, BloodPressure, 766, 768, "BP", "", 
+29, HeartRate, 777, 787, "heart rate", "", 
+30, HeartRate, 790, 792, "HR", "", 
+22, NumberPatientsCT, 807, 812, "Sixty", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasNumberPatientsCT> \"Sixty\"."
+54364, Precondition, 813, 886, "subjects with open angle glaucoma ( OAG ) or ocular hypertension ( OHTN )", "", "<http://ctro/data#Population_96508> <http://ctro/data#hasPrecondition> \"subjects with open angle glaucoma ( OAG ) or ocular hypertension ( OHTN )\"."
+23, OpenAngleGlaucoma, 827, 846, "open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+24, OpenAngleGlaucoma, 849, 852, "OAG", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+25, OcularHypertension, 858, 877, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+26, OcularHypertension, 880, 884, "OHTN", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+27, IOP, 936, 939, "IOP", "", 
+33, BloodPressure, 942, 944, "BP", "", 
+28, HeartRate, 951, 953, "HR", "", 
+34, Randomized, 1082, 1092, "randomized", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, Timolol, 1117, 1132, "timolol maleate", "", 
+36, DoseValue, 1133, 1138, "0 . 5", "", "<http://ctro/data#Medication_96563> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+119, Percentage, 1139, 1140, "%", "", "<http://ctro/data#Medication_96563> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+37, Frequency, 1141, 1152, "twice daily", "", "<http://ctro/data#Intervention_96550> <http://ctro/data#hasFrequency> \"twice daily\"."
+53870, Brinz/BrimoFC, 1162, 1166, "BBFC", "", 
+38, Frequency, 1167, 1180, "3 times daily", "", "<http://ctro/data#Intervention_96544> <http://ctro/data#hasFrequency> \"3 times daily\"."
+39, Duration, 1189, 1196, "4 weeks", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasCTduration> \"4 weeks\"."
+40, IOP, 1292, 1295, "IOP", "", 
+41, BloodPressure, 1298, 1300, "BP", "", 
+42, HeartRate, 1307, 1309, "HR", "", 
+131, EndPointDescription, 1363, 1366, "OPP", "", 
+43, BloodPressure, 1403, 1405, "BP", "", 
+44, BloodPressure, 1425, 1427, "BP", "", 
+45, BloodPressure, 1440, 1442, "BP", "", 
+46, IOP, 1449, 1452, "IOP", "", 
+53871, Brinz/BrimoFC, 1480, 1484, "BBFC", "", 
+53881, Diurnal_IOP, 1507, 1536, "IOP during the diurnal period", "", 
+48, Reduction, 1541, 1546, "2 . 7", "", "<http://ctro/data#Outcome_96629> <http://ctro/data#hasChangeValue> \"2 . 7\"."
+49, SdDevChangeValue, 1551, 1556, "0 . 4", "", "<http://ctro/data#Outcome_96629> <http://ctro/data#hasSdDevChangeValue> \"0 . 4\"."
+50, mmHg, 1559, 1563, "mmHg", "", "<http://ctro/data#Endpoint_102072> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+51, PValueChangeValue, 1566, 1578, "P  <  0 . 01", "", "<http://ctro/data#Outcome_96629> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 01\"."
+53882, EndPointDescription, 1585, 1601, "nocturnal period", "", "<http://ctro/data#EndPointDescription_96625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_96624> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_96625>."
+53, Reduction, 1606, 1611, "0 . 8", "", "<http://ctro/data#Outcome_96656> <http://ctro/data#hasChangeValue> \"0 . 8\"."
+54, SdDevChangeValue, 1616, 1621, "0 . 3", "", "<http://ctro/data#Outcome_96656> <http://ctro/data#hasSdDevChangeValue> \"0 . 3\"."
+55, mmHg, 1624, 1628, "mmHg", "", "<http://ctro/data#Endpoint_96624> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+56, PValueChangeValue, 1631, 1643, "P  <  0 . 01", "", "<http://ctro/data#Outcome_96656> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 01\"."
+106363, ObservedResult, 1648, 1703, "Timolol similarly reduced IOP during the diurnal period", "", "<http://ctro/data#Outcome_102784> <http://ctro/data#hasObservedResult> \"Timolol similarly reduced IOP during the diurnal period\"."
+57, Timolol, 1648, 1655, "Timolol", "", 
+58, Diurnal_IOP, 1674, 1703, "IOP during the diurnal period", "", "<http://ctro/data#Endpoint_96521> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+106364, ObservedResult, 1706, 1739, "but did not lower IOP overnight .", "", "<http://ctro/data#Outcome_96710> <http://ctro/data#hasObservedResult> \"but did not lower IOP overnight .\"."
+53879, EndPointDescription, 1724, 1737, "IOP overnight", "", 
+106413, SubGroupDescription, 1747, 1760, "24 - h period", "", "<http://ctro/data#Outcome_102077> <http://ctro/data#hasSubGroupDescription> \"24 - h period\". <http://ctro/data#Outcome_102748> <http://ctro/data#hasSubGroupDescription> \"24 - h period\"."
+53875, Brinz/BrimoFC, 1763, 1767, "BBFC", "", 
+60, IOP, 1801, 1804, "IOP", "", 
+61, Timolol, 1820, 1827, "timolol", "", 
+106410, DiffGroupAbsValue, 1830, 1837, "- 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_102775> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 7\"."
+106411, SdDevDiff, 1842, 1847, "0 . 4", "", "<http://ctro/data#DiffBetweenGroups_102775> <http://ctro/data#hasStandardDevDiff> \"0 . 4\"."
+64, mmHg, 1850, 1854, "mmHg", "", "<http://ctro/data#Endpoint_96521> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+106412, PvalueDiff, 1857, 1869, "P  =  0 . 04", "", "<http://ctro/data#DiffBetweenGroups_102775> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 04\"."
+66, ObservedResult, 1874, 1938, "BBFC failed to achieve an increase in OPP during any time period", "", "<http://ctro/data#Outcome_96570> <http://ctro/data#hasObservedResult> \"BBFC failed to achieve an increase in OPP during any time period\"."
+53876, Brinz/BrimoFC, 1874, 1878, "BBFC", "", 
+150, EndPointDescription, 1912, 1915, "OPP", "", 
+67, Timolol, 1947, 1954, "timolol", "", 
+53883, ObservedResult, 1947, 1999, "timolol increased OPP during the diurnal period only", "", "<http://ctro/data#Outcome_96597> <http://ctro/data#hasObservedResult> \"timolol increased OPP during the diurnal period only\"."
+152, EndPointDescription, 1965, 1968, "OPP", "", 
+106414, ObservedResult, 2002, 2071, "A significantly greater reduction in HR occurred in the timolol group", "", "<http://ctro/data#Outcome_102827> <http://ctro/data#hasObservedResult> \"A significantly greater reduction in HR occurred in the timolol group\"."
+68, HeartRate, 2039, 2041, "HR", "", "<http://ctro/data#HeartRate_102823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_102822> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_102823>."
+69, Timolol, 2058, 2065, "timolol", "", 
+155, ConclusionComment, 2088, 2192, "BBFC significantly lowers IOP during both the diurnal and nocturnal periods , but has no effect on OPP .", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasConclusionComment> \"BBFC significantly lowers IOP during both the diurnal and nocturnal periods , but has no effect on OPP .\"."
+53877, Brinz/BrimoFC, 2088, 2092, "BBFC", "", 
+70, IOP, 2114, 2117, "IOP", "", 
+158, EndPointDescription, 2187, 2190, "OPP", "", 
+71, Timolol, 2193, 2200, "Timolol", "", 
+156, ConclusionComment, 2193, 2244, "Timolol only lowers IOP during the diurnal period .", "", "<http://ctro/data#ClinicalTrial_96488> <http://ctro/data#hasConclusionComment> \"Timolol only lowers IOP during the diurnal period .\"."
+72, Diurnal_IOP, 2213, 2242, "IOP during the diurnal period", "", 
+73, PMID, 2307, 2315, "28129020", "", "<http://ctro/data#Publication_96478> <http://ctro/data#hasPMID> \"28129020\"."

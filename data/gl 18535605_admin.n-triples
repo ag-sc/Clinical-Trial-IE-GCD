@@ -1,0 +1,111 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_71011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_71011> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasTitle> "Bimatoprost / timolol fixed combination vs latanoprost / timolol fixed combination in open - angle glaucoma patients ." .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasAuthor> "Martinez A" .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasPublicationYear> "2009" .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasJournal> "Eye ( Lond ) ." .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasPMID> "18535605" .
+<http://ctro/data#Publication_71011> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_71019> .
+<http://ctro/data#Publication_71011> <http://ctro/data#hasAuthor> "Sanchez M" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_71019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_71019> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasObjectiveDescription> "To evaluate bimatoprost / timolol fixed combination ( BTFC ) vs latanoprost / timolol fixed combination ( LTFC ) given each evening over the 12 - h intraocular pressure ( IOP ) diurnal curve ." .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasNumberPatientsCT> "54" .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTduration> "12 - week" .
+<http://ctro/data#AllocationRatio_71023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_71024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasConclusionComment> "This study suggests that the evening - dosed BTFC provides better IOP control than that of LTFC over 12 h . However , the IOP difference was small and may not be clinically meaningful ." .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasArm> <http://ctro/data#Arm_71059> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasPopulation> <http://ctro/data#Population_71041> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_71157> .
+<http://ctro/data#EvidenceQuality_71031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#Glaucoma_71040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_71040> .
+<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasArm> <http://ctro/data#Arm_71068> .
+# RDF export of group: Population
+<http://ctro/data#Population_71041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_71041> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_71041> <http://ctro/data#hasPrecondition> "Patients with an IOP of > or = 19 mmHg , under treatment with prostaglandin analogues" .
+<http://ctro/data#Ethnicity_71043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_71041> <http://ctro/data#hasCountry> <http://ctro/data#Spain> .
+<http://ctro/data#Gender_71048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_71049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_71049> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#Endpoint_71049> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_71051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_71049> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71051> .
+<http://ctro/data#Endpoint_71049> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_71053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_71054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_71054> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_H" .
+<http://ctro/data#Endpoint_71054> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia> .
+<http://ctro/data#AggregationMethod_71056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_71057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_71058> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_71059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_71059> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_BTFC" .
+<http://ctro/data#Arm_71059> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_71077> .
+<http://ctro/data#Arm_71059> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_71103> .
+<http://ctro/data#Outcome_71064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_71068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_71068> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_LTFC" .
+<http://ctro/data#Arm_71068> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_71083> .
+<http://ctro/data#Arm_71068> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_71130> .
+<http://ctro/data#Arm_71068> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_71166> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_71077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_71077> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_BTFC" .
+<http://ctro/data#Intervention_71077> <http://ctro/data#hasMedication> <http://ctro/data#Medication_71089> .
+<http://ctro/data#RelativeTime_71082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_71083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_71083> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_LTFC" .
+<http://ctro/data#Intervention_71083> <http://ctro/data#hasMedication> <http://ctro/data#Medication_71096> .
+<http://ctro/data#RelativeTime_71088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_71089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_71089> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_BTFC" .
+<http://ctro/data#Medication_71089> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_71092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_71093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_71096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_71096> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_LTFC" .
+<http://ctro/data#Medication_71096> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_71099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_71100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_71103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_71103> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_BTFC" .
+<http://ctro/data#Outcome_71103> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_71049> .
+<http://ctro/data#Outcome_71103> <http://ctro/data#hasBaselineValue> "22 . 0" .
+<http://ctro/data#Outcome_71103> <http://ctro/data#hasSdDevBL> "1 . 0" .
+<http://ctro/data#Outcome_71103> <http://ctro/data#hasResultMeasuredValue> "17 . 7" .
+<http://ctro/data#Outcome_71103> <http://ctro/data#hasSdDevResValue> "0 . 8" .
+<http://ctro/data#Outcome_71130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_71130> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_LTFC" .
+<http://ctro/data#Outcome_71130> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_71049> .
+<http://ctro/data#Outcome_71130> <http://ctro/data#hasBaselineValue> "22 . 0" .
+<http://ctro/data#Outcome_71130> <http://ctro/data#hasSdDevBL> "1 . 0" .
+<http://ctro/data#Outcome_71130> <http://ctro/data#hasResultMeasuredValue> "18 . 5" .
+<http://ctro/data#Outcome_71130> <http://ctro/data#hasSdDevResValue> "0 . 8" .
+<http://ctro/data#Outcome_71166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_71166> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_H" .
+<http://ctro/data#Outcome_71166> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_71054> .
+<http://ctro/data#Outcome_71166> <http://ctro/data#hasObservedResult> "Average hyperaemia scores were slightly but significantly lower in the LTFC treatment period" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_71157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_71157> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups" .
+<http://ctro/data#DiffBetweenGroups_71157> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_71157> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_71103> .
+<http://ctro/data#DiffBetweenGroups_71157> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_71130> .
+# RDF export of group: EvidenceQuality

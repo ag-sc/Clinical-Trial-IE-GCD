@@ -1,0 +1,124 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 24, "Diabetes Metab Res Rev .", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasJournal> \"Diabetes Metab Res Rev .\"."
+1, PublicationYear, 25, 29, "2009", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasPublicationYear> \"2009\"."
+117, Title, 88, 247, "Comparison of insulin detemir and insulin glargine using a basal - bolus regimen in a randomized , controlled clinical study in patients with type 2 diabetes .", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasTitle> \"Comparison of insulin detemir and insulin glargine using a basal - bolus regimen in a randomized , controlled clinical study in patients with type 2 diabetes .\"."
+2, InsulinDetemir, 102, 117, "insulin detemir", "", 
+3, InsulinGlargine, 122, 138, "insulin glargine", "", 
+4, Randomized, 174, 184, "randomized", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+5, CTDesign, 187, 197, "controlled", "", "<http://ctro/data#CTDesign_67159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_67159>."
+6, Type2Diabetes, 230, 245, "type 2 diabetes", "", 
+7, Author, 248, 256, "Raskin P", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasAuthor> \"Raskin P\"."
+8, Author, 265, 273, "Gylvin T", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasAuthor> \"Gylvin T\"."
+9, Author, 276, 282, "Weng W", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasAuthor> \"Weng W\"."
+10, Author, 285, 294, "Chaykin L", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasAuthor> \"Chaykin L\"."
+11, USA, 414, 417, "USA", "", "<http://ctro/data#Population_67161> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+138, ObjectiveDescription, 472, 660, "This treat - to - target study compared the efficacy and safety of insulin detemir ( IDet ) and insulin glargine ( IGla ) in a basal - bolus ( insulin aspart ) regimen in type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasObjectiveDescription> \"This treat - to - target study compared the efficacy and safety of insulin detemir ( IDet ) and insulin glargine ( IGla ) in a basal - bolus ( insulin aspart ) regimen in type 2 diabetes .\"."
+13, InsulinDetemir, 539, 554, "insulin detemir", "", 
+14, InsulinDetemir, 557, 561, "IDet", "", 
+15, InsulinGlargine, 568, 584, "insulin glargine", "", 
+16, InsulinGlargine, 587, 591, "IGla", "", 
+68832, Precondition, 599, 658, "basal - bolus ( insulin aspart ) regimen in type 2 diabetes", "", "<http://ctro/data#Population_67161> <http://ctro/data#hasPrecondition> \"basal - bolus ( insulin aspart ) regimen in type 2 diabetes\"."
+18, InsulinAspart, 615, 629, "insulin aspart", "", 
+17, Type2Diabetes, 643, 658, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+19, NumberPatientsCT, 671, 674, "385", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasNumberPatientsCT> \"385\"."
+20, Randomized, 689, 699, "randomized", "", 
+21, AllocationRatio, 700, 705, "2 : 1", "", "<http://ctro/data#AllocationRatio_67147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_67147>."
+22, InsulinDetemir, 708, 712, "IDet", "", "<http://ctro/data#Medication_67224> <http://ctro/data#hasDrug> <http://ctro/data#InsulinDetemir>."
+23, InsulinGlargine, 715, 719, "IGla", "", "<http://ctro/data#Medication_67231> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+24, InsulinDetemir, 745, 749, "IDet", "", 
+25, InsulinGlargine, 753, 757, "IGla", "", 
+26, HbA1c, 776, 786, "HbA ( 1c )", "", 
+242, Percentage, 790, 791, "%", "", 
+28, InsulinDetemir, 827, 831, "IDet", "", 
+29, InsulinGlargine, 836, 840, "IGla", "", 
+30, HbA1c, 868, 878, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_67169> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+106279, Duration, 892, 900, "26 weeks", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasCTduration> \"26 weeks\"."
+231, TimePoint, 949, 957, "26 weeks", "", 
+145, LeastSquaresMean, 960, 967, "LS mean", "", "<http://ctro/data#Endpoint_67169> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+33, InsulinDetemir, 970, 973, "Det", "", 
+34, InsulinGlargine, 976, 979, "Gla", "", 
+226, DiffGroupAbsValue, 984, 991, "0 . 207", "", "<http://ctro/data#DiffBetweenGroups_67292> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 207\"."
+146, ConfIntervalDiff, 994, 1023, "95 % CI : 0 . 0149 , 0 . 3995", "", "<http://ctro/data#DiffBetweenGroups_67292> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : 0 . 0149 , 0 . 3995\"."
+38, InsulinGlargine, 1045, 1049, "IGla", "", 
+39, InsulinDetemir, 1080, 1084, "IDet", "", 
+40, HbA1c, 1097, 1107, "HbA ( 1c )", "", 
+41, DiffGroupAbsValue, 1131, 1138, "0 . 207", "", 
+42, Percentage, 1139, 1140, "%", "", "<http://ctro/data#Endpoint_67169> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+43, MeasurementDevice, 1245, 1258, "LOCF approach", "", "<http://ctro/data#MeasurementDevice_67178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_67174> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_67178>."
+44, EndPointDescription, 1310, 1321, "delta 0 . 4", "", "<http://ctro/data#EndPointDescription_67175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_67174> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_67175>."
+151, LeastSquaresMean, 1324, 1331, "LS mean", "", "<http://ctro/data#Endpoint_67174> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+46, InsulinDetemir, 1337, 1340, "Det", "", 
+47, InsulinGlargine, 1343, 1346, "Gla", "", 
+228, DiffGroupAbsValue, 1351, 1358, "0 . 307", "", "<http://ctro/data#DiffBetweenGroups_67355> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 307\"."
+154, ConfIntervalDiff, 1361, 1390, "95 % CI : 0 . 1023 , 0 . 5109", "", "<http://ctro/data#DiffBetweenGroups_67355> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : 0 . 1023 , 0 . 5109\"."
+51, HbA1c, 1395, 1405, "HbA ( 1c )", "", 
+237, TimePoint, 1435, 1443, "baseline", "", 
+52, InsulinDetemir, 1447, 1451, "IDet", "", 
+53, Reduction, 1456, 1461, "1 . 1", "", "<http://ctro/data#Outcome_67238> <http://ctro/data#hasChangeValue> \"1 . 1\"."
+55, Percentage, 1462, 1463, "%", "", 
+236, TimePoint, 1466, 1474, "26 weeks", "", "<http://ctro/data#Outcome_67238> <http://ctro/data#hasTimePoint> \"26 weeks\"."
+61, Reduction, 1481, 1486, "0 . 9", "", 
+62, Percentage, 1487, 1488, "%", "", 
+57, MeasurementDevice, 1491, 1495, "LOCF", "", "<http://ctro/data#MeasurementDevice_67173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_67169> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_67173>."
+59, PValueChangeValue, 1500, 1511, "p < 0 . 001", "", "<http://ctro/data#Outcome_67238> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 001\"."
+63, InsulinGlargine, 1521, 1525, "IGla", "", 
+54, Reduction, 1530, 1535, "1 . 3", "", "<http://ctro/data#Outcome_67265> <http://ctro/data#hasChangeValue> \"1 . 3\"."
+56, Percentage, 1536, 1537, "%", "", 
+235, TimePoint, 1540, 1548, "26 weeks", "", "<http://ctro/data#Outcome_67265> <http://ctro/data#hasTimePoint> \"26 weeks\"."
+58, MeasurementDevice, 1551, 1555, "LOCF", "", 
+60, PValueChangeValue, 1560, 1571, "p < 0 . 001", "", "<http://ctro/data#Outcome_67265> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 001\"."
+64, HbA1c, 1582, 1592, "HbA ( 1c )", "", 
+65, ResultMeasuredValue, 1598, 1603, "7 . 1", "", "<http://ctro/data#Outcome_67238> <http://ctro/data#hasResultMeasuredValue> \"7 . 1\"."
+69, Percentage, 1604, 1605, "%", "", 
+238, TimePoint, 1608, 1616, "26 weeks", "", 
+66, ResultMeasuredValue, 1623, 1628, "7 . 3", "", "<http://ctro/data#Outcome_67238> <http://ctro/data#hasResultMeasuredValue> \"7 . 3\"."
+70, Percentage, 1629, 1630, "%", "", 
+73, MeasurementDevice, 1633, 1637, "LOCF", "", 
+75, InsulinDetemir, 1643, 1647, "IDet", "", 
+67, ResultMeasuredValue, 1654, 1659, "6 . 9", "", "<http://ctro/data#Outcome_67265> <http://ctro/data#hasResultMeasuredValue> \"6 . 9\"."
+71, Percentage, 1660, 1661, "%", "", 
+232, TimePoint, 1664, 1672, "26 weeks", "", 
+68, ResultMeasuredValue, 1679, 1684, "7 . 0", "", "<http://ctro/data#Outcome_67265> <http://ctro/data#hasResultMeasuredValue> \"7 . 0\"."
+72, Percentage, 1685, 1686, "%", "", 
+74, MeasurementDevice, 1689, 1693, "LOCF", "", 
+76, InsulinGlargine, 1699, 1703, "IGla", "", 
+77, FastingPlasmaGlucose, 1712, 1715, "FPG", "", "<http://ctro/data#Endpoint_67179> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+78, ResultMeasuredValue, 1721, 1724, "130", "", "<http://ctro/data#Outcome_67366> <http://ctro/data#hasResultMeasuredValue> \"130\"."
+82, Mg_per_deciliter, 1725, 1732, "mg / dL", "", "<http://ctro/data#Endpoint_67179> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+233, TimePoint, 1735, 1743, "26 weeks", "", "<http://ctro/data#Outcome_67366> <http://ctro/data#hasTimePoint> \"26 weeks\"."
+79, ResultMeasuredValue, 1750, 1753, "135", "", "<http://ctro/data#Outcome_67366> <http://ctro/data#hasResultMeasuredValue> \"135\"."
+83, Mg_per_deciliter, 1754, 1761, "mg / dL", "", 
+86, MeasurementDevice, 1764, 1768, "LOCF", "", "<http://ctro/data#MeasurementDevice_67183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_67179> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_67183>."
+88, InsulinDetemir, 1774, 1778, "IDet", "", 
+80, ResultMeasuredValue, 1785, 1788, "134", "", "<http://ctro/data#Outcome_67393> <http://ctro/data#hasResultMeasuredValue> \"134\"."
+84, Mg_per_deciliter, 1789, 1796, "mg / dL", "", 
+234, TimePoint, 1799, 1807, "26 weeks", "", "<http://ctro/data#Outcome_67393> <http://ctro/data#hasTimePoint> \"26 weeks\"."
+81, ResultMeasuredValue, 1814, 1817, "137", "", "<http://ctro/data#Outcome_67393> <http://ctro/data#hasResultMeasuredValue> \"137\"."
+85, Mg_per_deciliter, 1818, 1825, "mg / dL", "", 
+87, MeasurementDevice, 1828, 1832, "LOCF", "", 
+89, InsulinGlargine, 1838, 1842, "IGla", "", 
+54998, BodyWeight, 1874, 1880, "weight", "", "<http://ctro/data#Endpoint_67184> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+91, InsulinDetemir, 1889, 1893, "IDet", "", 
+92, Increment, 1915, 1920, "1 . 2", "", "<http://ctro/data#Outcome_67422> <http://ctro/data#hasChangeValue> \"1 . 2\"."
+94, SdDevChangeValue, 1927, 1933, "3 . 96", "", "<http://ctro/data#Outcome_67422> <http://ctro/data#hasSdDevChangeValue> \"3 . 96\"."
+96, Kg, 1934, 1936, "kg", "", "<http://ctro/data#Endpoint_67184> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+93, Increment, 1944, 1949, "2 . 7", "", "<http://ctro/data#Outcome_67449> <http://ctro/data#hasChangeValue> \"2 . 7\"."
+95, SdDevChangeValue, 1956, 1962, "3 . 94", "", "<http://ctro/data#Outcome_67449> <http://ctro/data#hasSdDevChangeValue> \"3 . 94\"."
+97, Kg, 1963, 1965, "kg", "", 
+98, PvalueDiff, 1968, 1979, "p = 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_67476> <http://ctro/data#hasPvalueDiff> \"p = 0 . 001\"."
+99, Hypoglycemia, 1984, 1996, "Hypoglycemia", "", "<http://ctro/data#Endpoint_67189> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+100, ObservedResult, 1997, 2031, "risk was comparable between groups", "", "<http://ctro/data#Outcome_67485> <http://ctro/data#hasObservedResult> \"risk was comparable between groups\"."
+101, InsulinDetemir, 2050, 2054, "IDet", "", 
+102, PercentageAffected, 2076, 2082, "87 . 4", "", 
+210, Frequency, 2101, 2113, "once - daily", "", "<http://ctro/data#Intervention_67212> <http://ctro/data#hasFrequency> \"once - daily\"."
+68833, Insulin, 2120, 2127, "insulin", "", 
+104, InsulinDetemir, 2173, 2177, "IDet", "", 
+221, ConclusionComment, 2173, 2296, "IDet and IGla were both effective and safe treatments for glycemic control in a basal - bolus regimen for type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasConclusionComment> \"IDet and IGla were both effective and safe treatments for glycemic control in a basal - bolus regimen for type 2 diabetes .\"."
+105, InsulinGlargine, 2182, 2186, "IGla", "", 
+106, Type2Diabetes, 2279, 2294, "type 2 diabetes", "", 
+222, ConclusionComment, 2297, 2470, "Clinically significant reductions in HbA ( 1c ) were achieved in both groups , but with significantly less weight gain in the IDet group at comparable basal insulin dosage .", "", "<http://ctro/data#ClinicalTrial_67143> <http://ctro/data#hasConclusionComment> \"Clinically significant reductions in HbA ( 1c ) were achieved in both groups , but with significantly less weight gain in the IDet group at comparable basal insulin dosage .\"."
+107, HbA1c, 2334, 2344, "HbA ( 1c )", "", 
+108, BodyWeight, 2404, 2410, "weight", "", 
+109, InsulinDetemir, 2423, 2427, "IDet", "", 
+220, Insulin, 2454, 2461, "insulin", "", 
+110, PMID, 2507, 2515, "19565569", "", "<http://ctro/data#Publication_67133> <http://ctro/data#hasPMID> \"19565569\"."

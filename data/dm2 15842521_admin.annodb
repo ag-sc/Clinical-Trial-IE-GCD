@@ -1,0 +1,94 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+161, Journal, 0, 12, "Diabet Med .", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasJournal> \"Diabet Med .\"."
+0, PublicationYear, 13, 17, "2005", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasPublicationYear> \"2005\"."
+162, Title, 46, 180, "Continuing metformin when starting insulin in patients with Type 2 diabetes : a double - blind randomized placebo - controlled trial .", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasTitle> \"Continuing metformin when starting insulin in patients with Type 2 diabetes : a double - blind randomized placebo - controlled trial .\"."
+16, Metformin, 57, 66, "metformin", "", 
+17, Insulin, 81, 88, "insulin", "", 
+9, Type2Diabetes, 106, 121, "Type 2 diabetes", "", 
+13, DoubleBlind, 126, 140, "double - blind", "", 
+14, Randomized, 141, 151, "randomized", "", 
+82, Placebo, 152, 159, "placebo", "", 
+1, Author, 181, 189, "Douek IF", "", 
+2, Author, 198, 206, "Allen SE", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasAuthor> \"Allen SE\"."
+3, Author, 209, 217, "Ewings P", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasAuthor> \"Ewings P\"."
+4, Author, 220, 227, "Gale EA", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasAuthor> \"Gale EA\"."
+5, Author, 230, 240, "Bingley PJ", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasAuthor> \"Bingley PJ\"."
+88, Metformin, 243, 252, "Metformin", "", 
+6, UK, 377, 379, "UK", "", "<http://ctro/data#Population_32311> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+164, ObjectiveDescription, 389, 547, "To test the effect of continuing metformin on weight gain and glycaemic control in patients with poorly controlled Type 2 diabetes who need to start insulin .", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasObjectiveDescription> \"To test the effect of continuing metformin on weight gain and glycaemic control in patients with poorly controlled Type 2 diabetes who need to start insulin .\"."
+15, Metformin, 422, 431, "metformin", "", 
+46, BodyWeight, 435, 441, "weight", "", 
+18, Precondition, 472, 545, "patients with poorly controlled Type 2 diabetes who need to start insulin", "", 
+10, Type2Diabetes, 504, 519, "Type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+19, Insulin, 538, 545, "insulin", "", 
+11, Type2Diabetes, 572, 587, "Type 2 diabetes", "", 
+96, Precondition, 588, 652, "on maximum tolerated oral agents referred for insulin conversion", "", "<http://ctro/data#Population_32311> <http://ctro/data#hasPrecondition> \"on maximum tolerated oral agents referred for insulin conversion\"."
+71, OralAntidiabeticAgent, 609, 620, "oral agents", "", 
+72, Insulin, 634, 641, "insulin", "", 
+22, DoubleBlind, 706, 720, "double - blind", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+21, Randomized, 721, 731, "randomized", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+99, Placebo, 732, 739, "placebo", "", 
+7, NumberPatientsCT, 765, 768, "183", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasNumberPatientsCT> \"183\"."
+23, Metformin, 791, 800, "metformin", "", "<http://ctro/data#Medication_32380> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+24, Placebo, 804, 811, "placebo", "", "<http://ctro/data#Medication_32387> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+93007, DoseDescription, 814, 864, "titrated up to 2 g a day or maximum tolerated dose", "", "<http://ctro/data#Medication_32380> <http://ctro/data#hasDoseDescription> \"titrated up to 2 g a day or maximum tolerated dose\". <http://ctro/data#Medication_32387> <http://ctro/data#hasDoseDescription> \"titrated up to 2 g a day or maximum tolerated dose\"."
+25, DoseValue, 829, 830, "2", "", "<http://ctro/data#Medication_32380> <http://ctro/data#hasDoseValue> \"2\". <http://ctro/data#Medication_32387> <http://ctro/data#hasDoseValue> \"2\"."
+26, Gram, 831, 832, "g", "", "<http://ctro/data#Medication_32380> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram>. <http://ctro/data#Medication_32387> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram>."
+27, Frequency, 833, 838, "a day", "", "<http://ctro/data#Intervention_32368> <http://ctro/data#hasFrequency> \"a day\". <http://ctro/data#Intervention_32374> <http://ctro/data#hasFrequency> \"a day\"."
+28, Insulin, 872, 879, "insulin", "", 
+29, BodyWeight, 949, 955, "weight", "", 
+30, Duration, 968, 977, "12 months", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasCTduration> \"12 months\"."
+31, HbA1c, 980, 985, "HbA1c", "", 
+166, InsulinDose, 988, 1000, "insulin dose", "", 
+32, Hypoglycemia, 1016, 1029, "hypoglycaemia", "", 
+110, EndPointDescription, 1032, 1054, "treatment satisfaction", "", 
+111, EndPointDescription, 1061, 1073, "well - being", "", 
+33, Duration, 1091, 1100, "12 months", "", 
+34, Metformin, 1103, 1112, "metformin", "", 
+35, BodyWeight, 1138, 1144, "weight", "", "<http://ctro/data#Endpoint_32320> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+36, Placebo, 1155, 1162, "placebo", "", 
+118, Mean, 1165, 1169, "mean", "", "<http://ctro/data#Mean_32322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_32320> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_32322>."
+65, Increment, 1170, 1175, "6 . 1", "", "<http://ctro/data#Outcome_32394> <http://ctro/data#hasChangeValue> \"6 . 1\"."
+62, Kg, 1176, 1178, "kg", "", "<http://ctro/data#Endpoint_32320> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+66, Increment, 1184, 1189, "7 . 6", "", "<http://ctro/data#Outcome_32421> <http://ctro/data#hasChangeValue> \"7 . 6\"."
+63, Kg, 1190, 1192, "kg", "", 
+67, DiffGroupAbsValue, 1215, 1220, "1 . 5", "", "<http://ctro/data#DiffBetweenGroups_32448> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 5\"."
+64, Kg, 1221, 1223, "kg", "", 
+123, ConfIntervalDiff, 1226, 1264, "95 % confidence interval 0 . 2 - 2 . 9", "", "<http://ctro/data#DiffBetweenGroups_32448> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval 0 . 2 - 2 . 9\"."
+49, PvalueDiff, 1269, 1279, "P = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_32448> <http://ctro/data#hasPvalueDiff> \"P = 0 . 02\"."
+47, HbA1c, 1307, 1312, "HbA1c", "", "<http://ctro/data#Endpoint_32325> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+50, Reduction, 1315, 1320, "1 . 5", "", "<http://ctro/data#Outcome_32457> <http://ctro/data#hasChangeValue> \"1 . 5\"."
+52, Percentage, 1321, 1322, "%", "", "<http://ctro/data#Endpoint_32325> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+51, Reduction, 1328, 1333, "1 . 3", "", "<http://ctro/data#Outcome_32484> <http://ctro/data#hasChangeValue> \"1 . 3\"."
+53, Percentage, 1334, 1335, "%", "", "<http://ctro/data#Endpoint_32325> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+68, DiffGroupAbsValue, 1358, 1363, "0 . 5", "", "<http://ctro/data#DiffBetweenGroups_32511> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 5\"."
+54, Percentage, 1364, 1365, "%", "", 
+69, ConfIntervalDiff, 1368, 1381, "0 . 1 - 0 . 9", "", "<http://ctro/data#DiffBetweenGroups_32511> <http://ctro/data#hasConfIntervalDiff> \"0 . 1 - 0 . 9\"."
+55, PvalueDiff, 1386, 1396, "P = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_32511> <http://ctro/data#hasPvalueDiff> \"P = 0 . 02\"."
+168, InsulinDose, 1411, 1430, "insulin requirement", "", "<http://ctro/data#InsulinDose_32331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_32330> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_32331>."
+135, ResultMeasuredValue, 1433, 1435, "62", "", "<http://ctro/data#Outcome_32520> <http://ctro/data#hasResultMeasuredValue> \"62\"."
+137, BioAndMedicalUnit, 1436, 1441, "units", "", "<http://ctro/data#BioAndMedicalUnit_32333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_32330> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_32333>."
+136, ResultMeasuredValue, 1447, 1449, "86", "", "<http://ctro/data#Outcome_32547> <http://ctro/data#hasResultMeasuredValue> \"86\"."
+138, DiffGroupAbsValue, 1472, 1474, "25", "", "<http://ctro/data#DiffBetweenGroups_32574> <http://ctro/data#hasDiffGroupAbsValue> \"25\"."
+139, BioAndMedicalUnit, 1475, 1480, "units", "", 
+140, ConfIntervalDiff, 1483, 1490, "15 - 34", "", "<http://ctro/data#DiffBetweenGroups_32574> <http://ctro/data#hasConfIntervalDiff> \"15 - 34\"."
+56, PvalueDiff, 1495, 1506, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_32574> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+48, Hypoglycemia, 1525, 1538, "hypoglycaemia", "", "<http://ctro/data#Endpoint_32335> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+146, BioAndMedicalUnit, 1541, 1569, "relative risk of any episode", "", "<http://ctro/data#BioAndMedicalUnit_32338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_32335> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_32338>."
+143, DiffGroupRelValue, 1570, 1576, "1 . 24", "", "<http://ctro/data#DiffBetweenGroups_32637> <http://ctro/data#hasDiffGroupRelValue> \"1 . 24\"."
+144, ConfIntervalDiff, 1579, 1593, "1 . 02 - 1 . 1", "", "<http://ctro/data#DiffBetweenGroups_32637> <http://ctro/data#hasConfIntervalDiff> \"1 . 02 - 1 . 1\"."
+145, PvalueDiff, 1598, 1608, "P = 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_32637> <http://ctro/data#hasPvalueDiff> \"P = 0 . 03\"."
+40, EndPointDescription, 1613, 1635, "Treatment satisfaction", "", "<http://ctro/data#EndPointDescription_32341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32340> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32341>."
+70, ObservedResult, 1636, 1690, "improved more in patients on metformin than on placebo", "", "<http://ctro/data#Outcome_32646> <http://ctro/data#hasObservedResult> \"improved more in patients on metformin than on placebo\". <http://ctro/data#Outcome_32673> <http://ctro/data#hasObservedResult> \"improved more in patients on metformin than on placebo\". <http://ctro/data#Outcome_32709> <http://ctro/data#hasObservedResult> \"improved more in patients on metformin than on placebo\". <http://ctro/data#Outcome_32736> <http://ctro/data#hasObservedResult> \"improved more in patients on metformin than on placebo\"."
+37, Metformin, 1665, 1674, "metformin", "", 
+38, Placebo, 1683, 1690, "placebo", "", 
+39, PvalueDiff, 1693, 1704, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_32700> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+152, EndPointDescription, 1720, 1747, "positive well - being score", "", "<http://ctro/data#EndPointDescription_32346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32345> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32346>."
+42, PvalueDiff, 1750, 1760, "P = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_32763> <http://ctro/data#hasPvalueDiff> \"P = 0 . 02\"."
+43, Metformin, 1779, 1788, "Metformin", "", 
+171, ConclusionComment, 1779, 1957, "Metformin decreases weight gain , lowers insulin requirement , and improves glycaemic control , and should be continued in patients with Type 2 diabetes who transfer to insulin .", "", "<http://ctro/data#ClinicalTrial_32294> <http://ctro/data#hasConclusionComment> \"Metformin decreases weight gain , lowers insulin requirement , and improves glycaemic control , and should be continued in patients with Type 2 diabetes who transfer to insulin .\"."
+44, BodyWeight, 1799, 1805, "weight", "", 
+172, InsulinDose, 1820, 1839, "insulin requirement", "", 
+12, Type2Diabetes, 1916, 1931, "Type 2 diabetes", "", 
+73, Insulin, 1948, 1955, "insulin", "", 
+8, PMID, 2018, 2026, "15842521", "", "<http://ctro/data#Publication_32283> <http://ctro/data#hasPMID> \"15842521\"."

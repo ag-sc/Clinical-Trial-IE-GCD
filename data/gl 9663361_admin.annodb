@@ -1,0 +1,107 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 11, "Clin Ther .", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasJournal> \"Clin Ther .\"."
+1, PublicationYear, 12, 16, "1998", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasPublicationYear> \"1998\"."
+9, Title, 51, 181, "Comparison of the efficacy and safety of 2 % dorzolamide and 0 . 5 % betaxolol in the treatment of elevated intraocular pressure .", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasTitle> \"Comparison of the efficacy and safety of 2 % dorzolamide and 0 . 5 % betaxolol in the treatment of elevated intraocular pressure .\"."
+5, DoseValue, 92, 93, "2", "", 
+7, Percentage, 94, 95, "%", "", 
+2, Dorzolamide, 96, 107, "dorzolamide", "", 
+6, DoseValue, 112, 117, "0 . 5", "", 
+8, Percentage, 118, 119, "%", "", 
+3, Betaxolol, 120, 129, "betaxolol", "", 
+4, IOP, 159, 179, "intraocular pressure", "", 
+10, Dorzolamide, 182, 193, "Dorzolamide", "", 
+11, Author, 219, 225, "Rusk C", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasAuthor> \"Rusk C\"."
+12, Author, 234, 242, "Sharpe E", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasAuthor> \"Sharpe E\"."
+13, Author, 245, 255, "Laurence J", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasAuthor> \"Laurence J\"."
+14, Author, 258, 265, "Polis A", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasAuthor> \"Polis A\"."
+15, Author, 268, 278, "Adamsons I", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasAuthor> \"Adamsons I\"."
+106, USA, 365, 368, "USA", "", "<http://ctro/data#Population_103158> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+17, Multicenter, 373, 384, "multicenter", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+108, Parallel, 387, 404, "parallel - design", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+19, Randomized, 407, 417, "randomized", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+20, DoubleBlind, 420, 435, "double - masked", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+29, ObjectiveDescription, 459, 607, "compare the efficacy and safety of 2 % dorzolamide with those of 0 . 5 % betaxolol in the treatment of elevated intraocular pressure ( i . o . p ) .", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasObjectiveDescription> \"compare the efficacy and safety of 2 % dorzolamide with those of 0 . 5 % betaxolol in the treatment of elevated intraocular pressure ( i . o . p ) .\"."
+25, DoseValue, 494, 495, "2", "", 
+27, Percentage, 496, 497, "%", "", 
+21, Dorzolamide, 498, 509, "dorzolamide", "", 
+26, DoseValue, 524, 529, "0 . 5", "", 
+28, Percentage, 530, 531, "%", "", 
+22, Betaxolol, 532, 541, "betaxolol", "", 
+23, IOP, 571, 591, "intraocular pressure", "", 
+24, IOP, 594, 603, "i . o . p", "", 
+30, NumberPatientsCT, 619, 622, "311", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasNumberPatientsCT> \"311\"."
+31, OcularHypertension, 635, 654, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+32, OpenAngleGlaucoma, 658, 679, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+120, Randomized, 685, 693, "randomly", "", 
+33, DoseValue, 722, 723, "2", "", "<http://ctro/data#Medication_103207> <http://ctro/data#hasDoseValue> \"2\"."
+35, Percentage, 724, 725, "%", "", "<http://ctro/data#Medication_103207> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+37, Dorzolamide, 726, 737, "dorzolamide", "", "<http://ctro/data#Medication_103207> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+101434, DeliveryMethod, 751, 760, "topically", "", "<http://ctro/data#DeliveryMethod_103211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_103207> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_103211>."
+39, Frequency, 761, 764, "TID", "", "<http://ctro/data#Intervention_103189> <http://ctro/data#hasFrequency> \"TID\"."
+34, DoseValue, 768, 773, "0 . 5", "", "<http://ctro/data#Medication_103214> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+36, Percentage, 774, 775, "%", "", "<http://ctro/data#Medication_103214> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+38, Betaxolol, 776, 785, "betaxolol", "", "<http://ctro/data#Medication_103214> <http://ctro/data#hasDrug> <http://ctro/data#Betaxolol>."
+101438, DeliveryMethod, 799, 808, "topically", "", "<http://ctro/data#DeliveryMethod_103218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_103214> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_103218>."
+40, Frequency, 809, 812, "BID", "", "<http://ctro/data#Intervention_103195> <http://ctro/data#hasFrequency> \"BID\"."
+41, Placebo, 818, 825, "placebo", "", "<http://ctro/data#Medication_103221> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+101439, DeliveryMethod, 839, 848, "topically", "", "<http://ctro/data#DeliveryMethod_103225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_103221> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_103225>."
+42, Frequency, 849, 851, "QD", "", "<http://ctro/data#Intervention_103201> <http://ctro/data#hasFrequency> \"QD\"."
+129, Duration, 856, 864, "12 weeks", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasCTduration> \"12 weeks\"."
+132, Precondition, 924, 1009, "patients with IOP > or = 23 mm Hg in at least one eye at 10 AM or 4 PM on study day 1", "", "<http://ctro/data#Population_103158> <http://ctro/data#hasPrecondition> \"patients with IOP > or = 23 mm Hg in at least one eye at 10 AM or 4 PM on study day 1\"."
+43, IOP, 938, 941, "IOP", "", 
+44, mmHg, 952, 957, "mm Hg", "", 
+45, TimePoint, 981, 986, "10 AM", "", 
+46, TimePoint, 990, 994, "4 PM", "", 
+47, TimePoint, 1004, 1009, "day 1", "", 
+133, Randomized, 1015, 1023, "randomly", "", 
+49, IOP, 1098, 1101, "IOP", "", 
+50, Morning, 1176, 1183, "morning", "", 
+57, Peak_IOP, 1184, 1195, "peak effect", "", 
+62, TimePoint, 1198, 1204, "hour 2", "", 
+56, Trough_IOP, 1221, 1234, "trough effect", "", 
+58, TimePoint, 1237, 1243, "hour 8", "", 
+51, Duration, 1254, 1262, "12 weeks", "", 
+52, Mean, 1280, 1284, "mean", "", 
+53, IOP, 1295, 1298, "IOP", "", 
+54, Dorzolamide, 1343, 1354, "dorzolamide", "", 
+55, Betaxolol, 1359, 1368, "betaxolol", "", 
+59, TimePoint, 1389, 1395, "hour 8", "", "<http://ctro/data#Outcome_103228> <http://ctro/data#hasTimePoint> \"hour 8\". <http://ctro/data#Outcome_103255> <http://ctro/data#hasTimePoint> \"hour 8\"."
+60, Reduction, 1400, 1405, "3 . 6", "", "<http://ctro/data#Outcome_103228> <http://ctro/data#hasChangeValue> \"3 . 6\". <http://ctro/data#Outcome_103255> <http://ctro/data#hasChangeValue> \"3 . 6\"."
+61, mmHg, 1406, 1411, "mm Hg", "", 
+63, TimePoint, 1432, 1438, "hour 2", "", "<http://ctro/data#Outcome_103282> <http://ctro/data#hasTimePoint> \"hour 2\". <http://ctro/data#Outcome_103309> <http://ctro/data#hasTimePoint> \"hour 2\"."
+64, Reduction, 1443, 1448, "5 . 4", "", "<http://ctro/data#Outcome_103282> <http://ctro/data#hasChangeValue> \"5 . 4\"."
+65, Reduction, 1454, 1459, "5 . 3", "", "<http://ctro/data#Outcome_103309> <http://ctro/data#hasChangeValue> \"5 . 3\"."
+66, mmHg, 1460, 1465, "mm Hg", "", 
+67, Mean, 1574, 1578, "mean", "", "<http://ctro/data#Mean_103168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_103166> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_103168>."
+68, IOP, 1579, 1582, "IOP", "", "<http://ctro/data#IOP_103167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_103166> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_103167>."
+69, DiffGroupAbsValue, 1610, 1616, "0 . 02", "", "<http://ctro/data#DiffBetweenGroups_103336> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 02\"."
+71, mmHg, 1617, 1622, "mm Hg", "", "<http://ctro/data#Endpoint_103166> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+75, ConfIntervalDiff, 1625, 1645, "- 0 . 870 to 0 . 901", "", "<http://ctro/data#DiffBetweenGroups_103336> <http://ctro/data#hasConfIntervalDiff> \"- 0 . 870 to 0 . 901\"."
+73, TimePoint, 1652, 1658, "hour 8", "", 
+70, DiffGroupAbsValue, 1663, 1671, "- 0 . 14", "", "<http://ctro/data#DiffBetweenGroups_103345> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 14\"."
+72, mmHg, 1672, 1677, "mm Hg", "", 
+76, ConfIntervalDiff, 1680, 1700, "- 0 . 959 to 0 . 685", "", "<http://ctro/data#DiffBetweenGroups_103345> <http://ctro/data#hasConfIntervalDiff> \"- 0 . 959 to 0 . 685\"."
+74, TimePoint, 1707, 1713, "hour 2", "", 
+101444, ObservedResult, 1753, 1777, "most frequently reported", "", "<http://ctro/data#Outcome_103379> <http://ctro/data#hasObservedResult> \"most frequently reported\". <http://ctro/data#Outcome_103406> <http://ctro/data#hasObservedResult> \"most frequently reported\"."
+101440, EndPointDescription, 1794, 1808, "ocular burning", "", "<http://ctro/data#EndPointDescription_103355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_103354> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_103355>."
+77, Stinging, 1818, 1826, "stinging", "", "<http://ctro/data#Endpoint_103359> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Stinging>."
+101445, ObservedResult, 1833, 1875, "the most frequently reported nonocular AEs", "", "<http://ctro/data#Outcome_103433> <http://ctro/data#hasObservedResult> \"the most frequently reported nonocular AEs\". <http://ctro/data#Outcome_103460> <http://ctro/data#hasObservedResult> \"the most frequently reported nonocular AEs\". <http://ctro/data#Outcome_103487> <http://ctro/data#hasObservedResult> \"the most frequently reported nonocular AEs\". <http://ctro/data#Outcome_103514> <http://ctro/data#hasObservedResult> \"the most frequently reported nonocular AEs\"."
+101441, EndPointDescription, 1881, 1897, "taste perversion", "", "<http://ctro/data#EndPointDescription_103370> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_103369> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_103370>."
+101442, EndPointDescription, 1900, 1927, "upper respiratory infection", "", "<http://ctro/data#EndPointDescription_103365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_103364> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_103365>."
+158, Headache, 1934, 1942, "headache", "", "<http://ctro/data#Endpoint_103374> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Headache>."
+101443, EndPointDescription, 1967, 1983, "taste perversion", "", 
+84, PercentageAffected, 2039, 2045, "14 . 6", "", "<http://ctro/data#Outcome_103460> <http://ctro/data#hasPercentageAffected> \"14 . 6\"."
+86, Dorzolamide, 2056, 2067, "dorzolamide", "", 
+85, PercentageAffected, 2078, 2083, "0 . 0", "", "<http://ctro/data#Outcome_103514> <http://ctro/data#hasPercentageAffected> \"0 . 0\"."
+87, Betaxolol, 2094, 2103, "betaxolol", "", 
+88, RelNumPatientsLeftCT, 2114, 2117, "Two", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasRelNumPatientsLeftCT> \"Two\"."
+94, ConclusionComment, 2198, 2295, "This study confirmed the similar IOP - lowering effect of 2 % dorzolamide and 0 . 5 % betaxolol .", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasConclusionComment> \"This study confirmed the similar IOP - lowering effect of 2 % dorzolamide and 0 . 5 % betaxolol .\"."
+89, IOP, 2231, 2234, "IOP", "", 
+90, DoseValue, 2256, 2257, "2", "", 
+92, Percentage, 2258, 2259, "%", "", 
+168, Dorzolamide, 2260, 2271, "dorzolamide", "", 
+91, DoseValue, 2276, 2281, "0 . 5", "", 
+93, Percentage, 2282, 2283, "%", "", 
+169, Betaxolol, 2284, 2293, "betaxolol", "", 
+95, ConclusionComment, 2296, 2384, "Both treatments were generally well tolerated , and their safety profiles were similar .", "", "<http://ctro/data#ClinicalTrial_103137> <http://ctro/data#hasConclusionComment> \"Both treatments were generally well tolerated , and their safety profiles were similar .\"."
+96, PMID, 2440, 2447, "9663361", "", "<http://ctro/data#Publication_103126> <http://ctro/data#hasPMID> \"9663361\"."

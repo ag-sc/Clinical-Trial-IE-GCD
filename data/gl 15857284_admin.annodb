@@ -1,0 +1,92 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "J Ocul Pharmacol Ther", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther\"."
+1, PublicationYear, 24, 28, "2005", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasPublicationYear> \"2005\"."
+2, Title, 56, 221, "The efficacy and safety of topical brinzolamide and dorzolamide when added to the combination therapy of latanoprost and a beta - blocker in patients with glaucoma .", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasTitle> \"The efficacy and safety of topical brinzolamide and dorzolamide when added to the combination therapy of latanoprost and a beta - blocker in patients with glaucoma .\"."
+34845, Topic, 83, 90, "topical", "", 
+3, Brinzolamide, 91, 103, "brinzolamide", "", 
+4, Dorzolamide, 108, 119, "dorzolamide", "", 
+5, Latanoprost, 161, 172, "latanoprost", "", 
+34870, Drug, 179, 193, "beta - blocker", "", 
+6, Glaucoma, 211, 219, "glaucoma", "", "<http://ctro/data#Glaucoma_53116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_53107> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_53116>."
+76, Author, 222, 233, "Tsukamoto H", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasAuthor> \"Tsukamoto H\"."
+77, Author, 242, 248, "Noma H", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasAuthor> \"Noma H\"."
+78, Author, 251, 262, "Matsuyama S", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasAuthor> \"Matsuyama S\"."
+79, Author, 265, 272, "Ikeda H", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasAuthor> \"Ikeda H\"."
+80, Author, 275, 285, "Mishima HK", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasAuthor> \"Mishima HK\"."
+7, Japan, 439, 444, "Japan", "", "<http://ctro/data#Population_53124> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+9, Brinzolamide, 490, 502, "Brinzolamide", "", 
+10, Dorzolamide, 507, 518, "dorzolamide", "", 
+8, ObjectiveDescription, 587, 796, "The purpose of this study was to compare the efficacy and safety of brinzolamide 1 % versus dorzolamide 1 % when added to the combination therapy of latanoprost and a beta - blocker in patients with glaucoma .", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasObjectiveDescription> \"The purpose of this study was to compare the efficacy and safety of brinzolamide 1 % versus dorzolamide 1 % when added to the combination therapy of latanoprost and a beta - blocker in patients with glaucoma .\"."
+11, Brinzolamide, 655, 667, "brinzolamide", "", 
+13, DoseValue, 668, 669, "1", "", 
+14, Percentage, 670, 671, "%", "", 
+12, Dorzolamide, 679, 690, "dorzolamide", "", 
+16, DoseValue, 691, 692, "1", "", 
+15, Percentage, 693, 694, "%", "", 
+17, Latanoprost, 736, 747, "latanoprost", "", 
+37053, Drug, 754, 768, "beta - blocker", "", 
+18, Glaucoma, 786, 794, "glaucoma", "", 
+81, Duration, 810, 818, "8 - week", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasCTduration> \"8 - week\"."
+19, Randomized, 821, 831, "randomized", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+20, OpenLabel, 834, 846, "open - label", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+21, NumberPatientsCT, 882, 884, "52", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasNumberPatientsCT> \"52\"."
+22, Glaucoma, 899, 907, "glaucoma", "", 
+23, Brinzolamide, 910, 922, "Brinzolamide", "", "<http://ctro/data#Medication_53172> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+24, DoseValue, 923, 924, "1", "", "<http://ctro/data#Medication_53172> <http://ctro/data#hasDoseValue> \"1\"."
+25, Percentage, 925, 926, "%", "", "<http://ctro/data#Medication_53172> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+26, Frequency, 929, 940, "twice a day", "", "<http://ctro/data#Intervention_53160> <http://ctro/data#hasFrequency> \"twice a day\"."
+27, Dorzolamide, 946, 957, "dorzolamide", "", "<http://ctro/data#Medication_53179> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+28, DoseValue, 958, 959, "1", "", "<http://ctro/data#Medication_53179> <http://ctro/data#hasDoseValue> \"1\"."
+29, Percentage, 960, 961, "%", "", "<http://ctro/data#Medication_53179> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+30, Frequency, 964, 977, "3 times a day", "", "<http://ctro/data#Intervention_53166> <http://ctro/data#hasFrequency> \"3 times a day\"."
+31, Randomized, 984, 992, "randomly", "", 
+34862, Precondition, 1013, 1082, "patients who had been treated with both latanoprost and a betablocker", "", "<http://ctro/data#Population_53124> <http://ctro/data#hasPrecondition> \"patients who had been treated with both latanoprost and a betablocker\"."
+32, Latanoprost, 1053, 1064, "latanoprost", "", 
+34861, Drug, 1071, 1082, "betablocker", "", 
+33, IOP, 1095, 1115, "Intraocular pressure", "", "<http://ctro/data#IOP_53133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_53132> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_53133>."
+34, IOP, 1118, 1121, "IOP", "", 
+35, PValueChangeValue, 1160, 1172, "P < 0 . 0001", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\". <http://ctro/data#Outcome_53213> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+36, BaseLineValue, 1180, 1186, "18 . 6", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasBaselineValue> \"18 . 6\"."
+34863, SdDevBL, 1193, 1198, "2 . 3", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasSdDevBL> \"2 . 3\"."
+37, mmHg, 1199, 1203, "mmHg", "", 
+39, ResultMeasuredValue, 1207, 1213, "16 . 7", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasResultMeasuredValue> \"16 . 7\"."
+34864, SdDevResValue, 1220, 1225, "2 . 3", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasSdDevResValue> \"2 . 3\"."
+38, mmHg, 1226, 1230, "mmHg", "", 
+40, BaseLineValue, 1240, 1246, "18 . 4", "", "<http://ctro/data#Outcome_53213> <http://ctro/data#hasBaselineValue> \"18 . 4\"."
+34865, SdDevBL, 1253, 1258, "2 . 6", "", "<http://ctro/data#Outcome_53213> <http://ctro/data#hasSdDevBL> \"2 . 6\"."
+41, mmHg, 1259, 1263, "mmHg", "", 
+42, ResultMeasuredValue, 1267, 1273, "16 . 6", "", "<http://ctro/data#Outcome_53213> <http://ctro/data#hasResultMeasuredValue> \"16 . 6\"."
+34866, SdDevResValue, 1280, 1285, "2 . 5", "", "<http://ctro/data#Outcome_53213> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+43, mmHg, 1286, 1290, "mmHg", "", "<http://ctro/data#Endpoint_53132> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+136, TimePoint, 1308, 1315, "8 weeks", "", "<http://ctro/data#Outcome_53186> <http://ctro/data#hasTimePoint> \"8 weeks\". <http://ctro/data#Outcome_53213> <http://ctro/data#hasTimePoint> \"8 weeks\"."
+44, Brinzolamide, 1338, 1350, "brinzolamide", "", 
+45, Dorzolamide, 1354, 1365, "dorzolamide", "", 
+50, PvalueDiff, 1434, 1444, "P = 0 . 86", "", "<http://ctro/data#DiffBetweenGroups_53353> <http://ctro/data#hasPvalueDiff> \"P = 0 . 86\"."
+34867, EndPointDescription, 1466, 1483, "ocular irritation", "AdverseEffect", "<http://ctro/data#EndPointDescription_53138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_53137> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_53138>."
+142, PvalueDiff, 1511, 1523, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_53362> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+52, Dorzolamide, 1533, 1544, "dorzolamide", "", 
+53, PercentageAffected, 1553, 1555, "74", "", "<http://ctro/data#Outcome_53267> <http://ctro/data#hasPercentageAffected> \"74\"."
+54, Brinzolamide, 1569, 1581, "brinzolamide", "", 
+55, PercentageAffected, 1590, 1592, "16", "", "<http://ctro/data#Outcome_53240> <http://ctro/data#hasPercentageAffected> \"16\"."
+92865, BlurredVison, 1642, 1656, "blurred vision", "", "<http://ctro/data#Endpoint_53294> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BlurredVison>."
+56, Dorzolamide, 1678, 1689, "dorzolamide", "", 
+58, PercentageAffected, 1690, 1692, "37", "", "<http://ctro/data#Outcome_53326> <http://ctro/data#hasPercentageAffected> \"37\"."
+57, Brinzolamide, 1702, 1714, "brinzolamide", "", 
+59, PercentageAffected, 1715, 1717, "52", "", "<http://ctro/data#Outcome_53299> <http://ctro/data#hasPercentageAffected> \"52\"."
+152, PvalueDiff, 1722, 1732, "P = 0 . 40", "", "<http://ctro/data#DiffBetweenGroups_53371> <http://ctro/data#hasPvalueDiff> \"P = 0 . 40\"."
+61, ConclusionComment, 1751, 1991, "We concluded that the efficacy of brinzolamide 1 % was equivalent to dorzolamide 1 % ; however , the safety of brinzolamide 1 % was superior to dorzolamide 1 % as adjunctive therapy to the combination with latanoprost and a beta - blocker .", "", "<http://ctro/data#ClinicalTrial_53107> <http://ctro/data#hasConclusionComment> \"We concluded that the efficacy of brinzolamide 1 % was equivalent to dorzolamide 1 % ; however , the safety of brinzolamide 1 % was superior to dorzolamide 1 % as adjunctive therapy to the combination with latanoprost and a beta - blocker .\"."
+62, Brinzolamide, 1785, 1797, "brinzolamide", "", 
+67, DoseValue, 1798, 1799, "1", "", 
+71, Percentage, 1800, 1801, "%", "", 
+63, Dorzolamide, 1820, 1831, "dorzolamide", "", 
+68, DoseValue, 1832, 1833, "1", "", 
+72, Percentage, 1834, 1835, "%", "", 
+64, Brinzolamide, 1862, 1874, "brinzolamide", "", 
+69, DoseValue, 1875, 1876, "1", "", 
+73, Percentage, 1877, 1878, "%", "", 
+65, Dorzolamide, 1895, 1906, "dorzolamide", "", 
+70, DoseValue, 1907, 1908, "1", "", 
+74, Percentage, 1909, 1910, "%", "", 
+66, Latanoprost, 1957, 1968, "latanoprost", "", 
+34869, Drug, 1975, 1989, "beta - blocker", "", 
+75, PMID, 2039, 2047, "15857284", "", "<http://ctro/data#Publication_53096> <http://ctro/data#hasPMID> \"15857284\"."

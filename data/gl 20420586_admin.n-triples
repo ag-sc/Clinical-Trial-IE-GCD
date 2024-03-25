@@ -1,0 +1,100 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_80965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_80965> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasTitle> "Efficacy and safety of tafluprost 0 . 0015 % versus latanoprost 0 . 005 % eye drops in open - angle glaucoma and ocular hypertension : 24 - month results of a randomized , double - masked phase III study ." .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> "Uusitalo H" .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasPublicationYear> "2010" .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasJournal> "Acta Ophthalmol" .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasPMID> "20420586" .
+<http://ctro/data#Publication_80965> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_80974> .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> "Pillunat LE" .
+<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> "Ropo A" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_80974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_80974> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasObjectiveDescription> "The objective of the study was to compare the long - term efficacy and safety of tafluprost 0 . 0015 % with latanoprost 0 . 005 % eye drops in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasNumberPatientsCT> "533" .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTduration> "24 - month" .
+<http://ctro/data#AllocationRatio_80978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_80979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasConclusionComment> "Tafluprost is a new effective and well - tolerated treatment for glaucoma and ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasArm> <http://ctro/data#Arm_81009> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasPopulation> <http://ctro/data#Population_80996> .
+<http://ctro/data#DiffBetweenGroups_80985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_80986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#CTDesign_80991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_80991> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#CTDesign_80993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_80993> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasArm> <http://ctro/data#Arm_81018> .
+# RDF export of group: Population
+<http://ctro/data#Population_80996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_80996> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Ethnicity_80998> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_80996> <http://ctro/data#hasCountry> <http://ctro/data#Finland> .
+<http://ctro/data#Gender_81003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_81004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_81004> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#IOP_81005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_81004> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_81005> .
+<http://ctro/data#AggregationMethod_81006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_81004> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_81008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_81009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_81009> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_taf" .
+<http://ctro/data#Arm_81009> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_81027> .
+<http://ctro/data#Arm_81009> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_81053> .
+<http://ctro/data#Outcome_81014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_81018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_81018> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_lat" .
+<http://ctro/data#Arm_81018> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_81033> .
+<http://ctro/data#Arm_81018> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_81080> .
+<http://ctro/data#Outcome_81023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_81027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_81027> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_taf" .
+<http://ctro/data#Intervention_81027> <http://ctro/data#hasMedication> <http://ctro/data#Medication_81039> .
+<http://ctro/data#Intervention_81027> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_81032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_81033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_81033> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_lat" .
+<http://ctro/data#Intervention_81033> <http://ctro/data#hasMedication> <http://ctro/data#Medication_81046> .
+<http://ctro/data#Intervention_81033> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_81038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_81039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_81039> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_taf" .
+<http://ctro/data#Medication_81039> <http://ctro/data#hasDrug> <http://ctro/data#Tafluprost> .
+<http://ctro/data#Medication_81039> <http://ctro/data#hasDoseValue> "0 . 0015" .
+<http://ctro/data#Medication_81039> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_81039> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_81039> <http://ctro/data#hasApplicationCondition> "20 : 00" .
+<http://ctro/data#Medication_81046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_81046> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_lat" .
+<http://ctro/data#Latanoprost_81047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_81046> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_81047> .
+<http://ctro/data#Medication_81046> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_81046> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_81046> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_81046> <http://ctro/data#hasApplicationCondition> "20 : 00" .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_81053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_81053> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_taf" .
+<http://ctro/data#Outcome_81053> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_81004> .
+<http://ctro/data#Outcome_81053> <http://ctro/data#hasChangeValue> "7 . 1" .
+<http://ctro/data#Outcome_81053> <http://ctro/data#hasTimePoint> "24 months" .
+<http://ctro/data#Outcome_81080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_81080> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat" .
+<http://ctro/data#Outcome_81080> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_81004> .
+<http://ctro/data#Outcome_81080> <http://ctro/data#hasChangeValue> "7 . 7" .
+<http://ctro/data#Outcome_81080> <http://ctro/data#hasTimePoint> "24 months" .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

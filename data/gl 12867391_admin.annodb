@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "2003", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasPublicationYear> \"2003\"."
+13, Title, 51, 199, "Twenty - four - hour diurnal curve comparison of commercially available latanoprost 0 . 005 % versus the timolol and dorzolamide fixed combination .", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasTitle> \"Twenty - four - hour diurnal curve comparison of commercially available latanoprost 0 . 005 % versus the timolol and dorzolamide fixed combination .\"."
+2, Latanoprost, 123, 134, "latanoprost", "", 
+6, DoseValue, 135, 142, "0 . 005", "", 
+7, Percentage, 143, 144, "%", "", 
+105, Dorz/TimFC, 156, 197, "timolol and dorzolamide fixed combination", "", 
+3, Timolol, 156, 163, "timolol", "", 
+4, Dorzolamide, 168, 179, "dorzolamide", "", 
+8, Author, 200, 210, "Konstas AG", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+9, Author, 219, 230, "Papapanos P", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasAuthor> \"Papapanos P\"."
+10, Author, 233, 241, "Tersis I", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasAuthor> \"Tersis I\"."
+11, Author, 244, 254, "Houliara D", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasAuthor> \"Houliara D\"."
+12, Author, 257, 267, "Stewart WC", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+14, Greece, 370, 376, "Greece", "", 
+112, ObjectiveDescription, 389, 562, "To evaluate the efficacy and safety of commercially available latanoprost 0 . 005 % given every evening versus timolol 0 . 5 % and dorzolamide 2 % fixed combination ( TDFC )", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of commercially available latanoprost 0 . 005 % given every evening versus timolol 0 . 5 % and dorzolamide 2 % fixed combination ( TDFC )\"."
+15, Latanoprost, 451, 462, "latanoprost", "", "<http://ctro/data#Latanoprost_88712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_88711> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_88712>."
+16, DoseValue, 463, 470, "0 . 005", "", "<http://ctro/data#Medication_88711> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+19, Percentage, 471, 472, "%", "", "<http://ctro/data#Medication_88711> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+123, Evening, 485, 492, "evening", "", "<http://ctro/data#Intervention_88699> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+120, Dorz/TimFC, 500, 553, "timolol 0 . 5 % and dorzolamide 2 % fixed combination", "", "<http://ctro/data#Medication_97010> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+24, Timolol, 500, 507, "timolol", "", 
+17, DoseValue, 508, 513, "0 . 5", "", 
+20, Percentage, 514, 515, "%", "", 
+22, Dorzolamide, 520, 531, "dorzolamide", "", 
+18, DoseValue, 532, 533, "2", "", 
+21, Percentage, 534, 535, "%", "", 
+23, Dorz/TimFC, 556, 560, "TDFC", "", 
+112, ObjectiveDescription, 563, 666, "given twice daily to white Greeks with primary open - angle glaucoma and ocular hypertensive patients .", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasObjectiveDescription> \"given twice daily to white Greeks with primary open - angle glaucoma and ocular hypertensive patients .\"."
+25, Frequency, 569, 580, "twice daily", "", "<http://ctro/data#Intervention_88705> <http://ctro/data#hasFrequency> \"twice daily\"."
+100499, Precondition, 584, 664, "white Greeks with primary open - angle glaucoma and ocular hypertensive patients", "", "<http://ctro/data#Population_88673> <http://ctro/data#hasPrecondition> \"white Greeks with primary open - angle glaucoma and ocular hypertensive patients\"."
+28, Ethnicity, 584, 596, "white Greeks", "", "<http://ctro/data#Ethnicity_88675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_88673> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_88675>."
+26, Primary_OpenAngleGlaucoma, 602, 631, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+27, OcularHypertension, 636, 655, "ocular hypertensive", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+127, Blind, 678, 693, "single - masked", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+32, Multicenter, 696, 708, "two - center", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+33, Crossover, 711, 720, "crossover", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+130, Duration, 741, 749, "6 - week", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasCTduration> \"6 - week\"."
+35, Diurnal_IOP, 829, 864, "Diurnal curve intraocular pressures", "", 
+36, TimePoint, 879, 888, "2 : 00 AM", "", 
+37, TimePoint, 891, 900, "6 : 00 AM", "", 
+38, TimePoint, 903, 913, "10 : 00 AM", "", 
+39, TimePoint, 916, 925, "2 : 00 PM", "", 
+40, TimePoint, 928, 937, "6 : 00 PM", "", 
+41, TimePoint, 944, 954, "10 : 00 PM", "", 
+42, NumberPatientsCT, 972, 985, "Thirty - four", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasNumberPatientsCT> \"Thirty - four\"."
+100501, Precondition, 986, 1052, "subjects with primary open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_88673> <http://ctro/data#hasPrecondition> \"subjects with primary open - angle glaucoma or ocular hypertension\"."
+43, Primary_OpenAngleGlaucoma, 1000, 1029, "primary open - angle glaucoma", "", 
+44, OcularHypertension, 1033, 1052, "ocular hypertension", "", 
+45, Latanoprost, 1085, 1096, "Latanoprost", "", 
+46, DoseValue, 1097, 1104, "0 . 005", "", 
+47, Percentage, 1105, 1106, "%", "", 
+50, Frequency, 1113, 1126, "every evening", "", "<http://ctro/data#Intervention_88699> <http://ctro/data#hasFrequency> \"every evening\"."
+49, Evening, 1119, 1126, "evening", "", 
+81, Dorz/TimFC, 1131, 1135, "TDFC", "", 
+48, Frequency, 1136, 1147, "twice daily", "", 
+51, Diurnal_IOP, 1208, 1236, "diurnal intraocular pressure", "", 
+52, FinalNumPatientsCT, 1249, 1263, "Thirty - three", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasFinalNumberPatientsCT> \"Thirty - three\"."
+100502, TimePoint, 1298, 1310, "the last day", "", 
+53, Mean, 1330, 1334, "mean", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasFinalNumberPatientsCT> \"Thirty - three\"."
+54, Diurnal_IOP, 1335, 1363, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_88743> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+55, Latanoprost, 1368, 1379, "latanoprost", "", 
+56, ResultMeasuredValue, 1384, 1390, "15 . 9", "", "<http://ctro/data#Outcome_88748> <http://ctro/data#hasResultMeasuredValue> \"15 . 9\"."
+60, SdDevResValue, 1397, 1402, "2 . 3", "", "<http://ctro/data#Outcome_88748> <http://ctro/data#hasSdDevResValue> \"2 . 3\"."
+58, mmHg, 1403, 1407, "mmHg", "", "<http://ctro/data#Endpoint_88743> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+82, Dorz/TimFC, 1416, 1420, "TDFC", "", 
+57, ResultMeasuredValue, 1425, 1431, "15 . 3", "", "<http://ctro/data#Outcome_88775> <http://ctro/data#hasResultMeasuredValue> \"15 . 3\"."
+61, SdDevResValue, 1438, 1443, "2 . 0", "", "<http://ctro/data#Outcome_88775> <http://ctro/data#hasSdDevResValue> \"2 . 0\"."
+59, mmHg, 1444, 1448, "mmHg", "", 
+62, PvalueDiff, 1453, 1461, "= 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_88802> <http://ctro/data#hasPvalueDiff> \"= 0 . 05\"."
+63, IOP, 1493, 1513, "intraocular pressure", "", 
+64, TimePoint, 1576, 1586, "10 : 00 PM", "", "<http://ctro/data#Outcome_88811> <http://ctro/data#hasTimePoint> \"10 : 00 PM\". <http://ctro/data#Outcome_88838> <http://ctro/data#hasTimePoint> \"10 : 00 PM\"."
+65, Mean, 1609, 1613, "mean", "", 
+83, Dorz/TimFC, 1618, 1622, "TDFC", "", 
+66, ResultMeasuredValue, 1627, 1633, "14 . 6", "", "<http://ctro/data#Outcome_88838> <http://ctro/data#hasResultMeasuredValue> \"14 . 6\"."
+68, SdDevResValue, 1640, 1645, "2 . 7", "", "<http://ctro/data#Outcome_88838> <http://ctro/data#hasSdDevResValue> \"2 . 7\"."
+71, mmHg, 1646, 1650, "mmHg", "", 
+72, Latanoprost, 1659, 1670, "latanoprost", "", 
+67, ResultMeasuredValue, 1675, 1681, "16 . 6", "", "<http://ctro/data#Outcome_88811> <http://ctro/data#hasResultMeasuredValue> \"16 . 6\"."
+69, SdDevResValue, 1688, 1693, "3 . 1", "", "<http://ctro/data#Outcome_88811> <http://ctro/data#hasSdDevResValue> \"3 . 1\"."
+70, mmHg, 1694, 1698, "mmHg", "", 
+100503, PvalueDiff, 1701, 1717, "P & lt ; 0 . 006", "", "<http://ctro/data#DiffBetweenGroups_88865> <http://ctro/data#hasPvalueDiff> \"P & lt ; 0 . 006\"."
+73, Latanoprost, 1758, 1769, "latanoprost", "", 
+74, Frequency, 1864, 1874, "once daily", "", 
+100504, EndPointDescription, 1884, 1898, "Adverse events", "", 
+100505, ObservedResult, 1899, 1946, "were not significantly different between groups", "", 
+100506, EndPointDescription, 1961, 1973, "bitter taste", "", "<http://ctro/data#EndPointDescription_88875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_88874> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_88875>."
+79, Dorz/TimFC, 2005, 2009, "TDFC", "", 
+84, NumberAffected, 2016, 2017, "9", "", "<http://ctro/data#Outcome_88906> <http://ctro/data#hasNumberAffected> \"9\"."
+87, Latanoprost, 2030, 2041, "latanoprost", "", 
+85, NumberAffected, 2048, 2049, "0", "", 
+86, PvalueDiff, 2054, 2063, "= 0 . 009", "", "<http://ctro/data#DiffBetweenGroups_88933> <http://ctro/data#hasPvalueDiff> \"= 0 . 009\"."
+171, NumPatientsLeftArm, 2132, 2138, "single", "", "<http://ctro/data#Arm_88690> <http://ctro/data#hasNumPatientsLeftArm> \"single\"."
+88, Dorz/TimFC, 2170, 2174, "TDFC", "", 
+100507, EndPointDescription, 2186, 2204, "new - onset asthma", "", 
+96, ConclusionComment, 2221, 2461, "This study indicates that the 24 - hour diurnal intraocular pressure is lowered more , by a small but statistically significant amount , with TDFC compared with latanoprost in primary open - angle glaucoma and ocular hypertensive patients .", "", "<http://ctro/data#ClinicalTrial_88657> <http://ctro/data#hasConclusionComment> \"This study indicates that the 24 - hour diurnal intraocular pressure is lowered more , by a small but statistically significant amount , with TDFC compared with latanoprost in primary open - angle glaucoma and ocular hypertensive patients .\"."
+91, Diurnal_IOP, 2261, 2289, "diurnal intraocular pressure", "", 
+92, Dorz/TimFC, 2363, 2367, "TDFC", "", 
+93, Latanoprost, 2382, 2393, "latanoprost", "", 
+94, Primary_OpenAngleGlaucoma, 2397, 2426, "primary open - angle glaucoma", "", 
+95, OcularHypertension, 2431, 2450, "ocular hypertensive", "", 
+97, PMID, 2517, 2525, "12867391", "", "<http://ctro/data#Publication_88650> <http://ctro/data#hasPMID> \"12867391\"."

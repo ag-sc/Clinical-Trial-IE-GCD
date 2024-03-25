@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+171, Journal, 0, 10, "Horm Res .", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasJournal> \"Horm Res .\"."
+0, PublicationYear, 11, 15, "2004", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasPublicationYear> \"2004\"."
+84, Title, 57, 130, "Does bromocriptine improve glycemic control of obese type - 2 diabetics ?", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasTitle> \"Does bromocriptine improve glycemic control of obese type - 2 diabetics ?\"."
+73, Bromocriptine, 62, 75, "bromocriptine", "", 
+75, Precondition, 104, 128, "obese type - 2 diabetics", "", 
+74, Type2Diabetes, 110, 128, "type - 2 diabetics", "", 
+23, Author, 131, 144, "Aminorroaya A", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasAuthor> \"Aminorroaya A\"."
+24, Author, 153, 166, "Janghorbani M", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasAuthor> \"Janghorbani M\"."
+25, Author, 169, 179, "Ramezani M", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasAuthor> \"Ramezani M\"."
+26, Author, 182, 192, "Haghighi S", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasAuthor> \"Haghighi S\"."
+27, Author, 195, 202, "Amini M", "", "<http://ctro/data#Publication_26195> <http://ctro/data#hasAuthor> \"Amini M\"."
+2, Iran, 358, 362, "Iran", "", "<http://ctro/data#Population_26222> <http://ctro/data#hasCountry> <http://ctro/data#Iran>."
+76, OralAntidiabeticAgent, 420, 444, "oral hypoglycemic agents", "", 
+40, Type2Diabetes, 479, 496, "type - 2 diabetic", "", 
+173, PlasmaGlucose, 525, 539, "plasma glucose", "", 
+41, Bromocriptine, 628, 641, "bromocriptine", "", 
+167, ObjectiveDescription, 705, 802, "the effect of bromocriptine on glycemic control was evaluated in obese type - 2 diabetic patients", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasObjectiveDescription> \"32\". <http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasObjectiveDescription> \"the effect of bromocriptine on glycemic control was evaluated in obese type - 2 diabetic patients\"."
+42, Bromocriptine, 719, 732, "bromocriptine", "", 
+3, Precondition, 770, 802, "obese type - 2 diabetic patients", "", 
+43, Type2Diabetes, 776, 793, "type - 2 diabetic", "", 
+7, DoubleBlind, 820, 834, "double - blind", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+100, Placebo, 835, 842, "placebo", "", 
+6, NumberPatientsCT, 873, 875, "40", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasNumberPatientsCT> \"40\"."
+77, Precondition, 876, 913, "obese patients with type - 2 diabetes", "", "<http://ctro/data#Population_26222> <http://ctro/data#hasPrecondition> \"obese patients with type - 2 diabetes\"."
+44, Type2Diabetes, 896, 913, "type - 2 diabetes", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+4, MinAge, 921, 923, "32", "", "<http://ctro/data#Population_26222> <http://ctro/data#hasMinAge> \"32\"."
+5, MaxAge, 926, 928, "70", "", "<http://ctro/data#Population_26222> <http://ctro/data#hasMaxAge> \"70\"."
+92889, Randomized, 942, 950, "randomly", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+45, Bromocriptine, 1016, 1029, "bromocriptine", "", "<http://ctro/data#Medication_26281> <http://ctro/data#hasDrug> <http://ctro/data#Bromocriptine>."
+10, DoseValue, 1032, 1037, "2 . 5", "", "<http://ctro/data#Medication_26281> <http://ctro/data#hasDoseValue> \"2 . 5\"."
+11, mg, 1038, 1040, "mg", "", "<http://ctro/data#Medication_26281> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+78, Frequency, 1041, 1046, "daily", "", "<http://ctro/data#Intervention_26269> <http://ctro/data#hasFrequency> \"daily\"."
+9, Duration, 1064, 1072, "3 months", "", 
+46, Placebo, 1101, 1108, "placebo", "", "<http://ctro/data#Medication_26288> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+113, Precondition, 1125, 1249, "uncontrolled on fixed doses of glibenclamide or its combination with metformin in the 3 months before enrolling in the study", "", "<http://ctro/data#Population_26222> <http://ctro/data#hasPrecondition> \"uncontrolled on fixed doses of glibenclamide or its combination with metformin in the 3 months before enrolling in the study\"."
+115, Drug, 1156, 1169, "glibenclamide", "", 
+114, Metformin, 1194, 1203, "metformin", "", 
+38176, Duration, 1211, 1219, "3 months", "", 
+47, FastingPlasmaGlucose, 1256, 1278, "fasting plasma glucose", "", 
+48, FastingPlasmaGlucose, 1281, 1284, "FPG", "", 
+49, HbA1c, 1297, 1320, "glycosylated hemoglobin", "", 
+50, HbA1c, 1323, 1327, "HbA1", "", 
+51, BMI, 1348, 1363, "body mass index", "", 
+52, BMI, 1366, 1369, "BMI", "", 
+38177, TimePoint, 1398, 1416, "1 , 2 and 3 months", "", 
+38178, TimePoint, 1402, 1416, "2 and 3 months", "", 
+38179, TimePoint, 1408, 1416, "3 months", "", 
+12, FastingPlasmaGlucose, 1449, 1452, "FPG", "", "<http://ctro/data#Endpoint_26231> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+53, Bromocriptine, 1476, 1489, "bromocriptine", "", 
+28, BaseLineValue, 1511, 1518, "10 . 59", "", "<http://ctro/data#Outcome_26295> <http://ctro/data#hasBaselineValue> \"10 . 59\"."
+33, SdErrorBL, 1525, 1531, "0 . 42", "", "<http://ctro/data#Outcome_26295> <http://ctro/data#hasSdErrorBL> \"0 . 42\"."
+124, ResultMeasuredValue, 1535, 1541, "9 . 06", "", "<http://ctro/data#Outcome_26295> <http://ctro/data#hasResultMeasuredValue> \"9 . 06\"."
+125, SdErrorResValue, 1548, 1554, "0 . 41", "", "<http://ctro/data#Outcome_26295> <http://ctro/data#hasSdErrorResValue> \"0 . 41\"."
+54, Millimoles_per_litre, 1555, 1563, "mmol / l", "", 
+170, Mean, 1566, 1570, "mean", "", 
+38180, PValueChangeValue, 1583, 1593, "p < 0 . 01", "", "<http://ctro/data#Outcome_26295> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 01\"."
+55, Placebo, 1613, 1620, "placebo", "", 
+29, BaseLineValue, 1648, 1655, "10 . 69", "", "<http://ctro/data#Outcome_26322> <http://ctro/data#hasBaselineValue> \"10 . 69\"."
+34, SdErrorBL, 1662, 1668, "0 . 52", "", "<http://ctro/data#Outcome_26322> <http://ctro/data#hasSdErrorBL> \"0 . 52\"."
+130, ResultMeasuredValue, 1673, 1679, "10 . 6", "", "<http://ctro/data#Outcome_26322> <http://ctro/data#hasResultMeasuredValue> \"10 . 6\"."
+131, SdErrorResValue, 1686, 1692, "0 . 57", "", "<http://ctro/data#Outcome_26322> <http://ctro/data#hasSdErrorResValue> \"0 . 57\"."
+56, Millimoles_per_litre, 1693, 1701, "mmol / l", "", 
+57, HbA1c, 1723, 1727, "HbA1", "", "<http://ctro/data#Endpoint_26236> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+58, Bromocriptine, 1761, 1774, "bromocriptine", "", 
+30, BaseLineValue, 1796, 1801, "9 . 9", "", "<http://ctro/data#Outcome_26349> <http://ctro/data#hasBaselineValue> \"9 . 9\"."
+35, SdErrorBL, 1808, 1813, "0 . 3", "", "<http://ctro/data#Outcome_26349> <http://ctro/data#hasSdErrorBL> \"0 . 3\"."
+137, ResultMeasuredValue, 1817, 1822, "9 . 5", "", "<http://ctro/data#Outcome_26349> <http://ctro/data#hasResultMeasuredValue> \"9 . 5\"."
+138, SdErrorResValue, 1829, 1834, "0 . 2", "", "<http://ctro/data#Outcome_26349> <http://ctro/data#hasSdErrorResValue> \"0 . 2\"."
+80, Percentage, 1835, 1836, "%", "", "<http://ctro/data#Endpoint_26236> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+63, PValueChangeValue, 1839, 1849, "p = 0 . 06", "", "<http://ctro/data#Outcome_26349> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 06\"."
+61, Placebo, 1882, 1889, "placebo", "", 
+31, BaseLineValue, 1911, 1917, "10 . 2", "", "<http://ctro/data#Outcome_26376> <http://ctro/data#hasBaselineValue> \"10 . 2\"."
+36, SdErrorBL, 1924, 1929, "0 . 3", "", "<http://ctro/data#Outcome_26376> <http://ctro/data#hasSdErrorBL> \"0 . 3\"."
+144, ResultMeasuredValue, 1933, 1939, "11 . 3", "", "<http://ctro/data#Outcome_26376> <http://ctro/data#hasResultMeasuredValue> \"11 . 3\"."
+62, SdErrorChangeValue, 1946, 1951, "0 . 6", "", "<http://ctro/data#Outcome_26376> <http://ctro/data#hasSdErrorChangeValue> \"0 . 6\"."
+81, Percentage, 1952, 1953, "%", "", 
+17, PValueChangeValue, 1956, 1966, "p < 0 . 05", "", "<http://ctro/data#Outcome_26376> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\"."
+64, HbA1c, 1990, 1994, "HbA1", "", 
+154, DiffGroupAbsValue, 1997, 2002, "1 . 8", "", "<http://ctro/data#DiffBetweenGroups_26403> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 8\"."
+155, Percentage, 2003, 2004, "%", "", 
+19, PvalueDiff, 2007, 2017, "p < 0 . 01", "", 
+65, FastingPlasmaGlucose, 2024, 2027, "FPG", "", 
+20, DiffGroupAbsValue, 2030, 2036, "1 . 55", "", 
+22, Millimoles_per_litre, 2037, 2045, "mmol / l", "", 
+21, PvalueDiff, 2048, 2058, "p < 0 . 05", "", 
+66, Bromocriptine, 2080, 2093, "bromocriptine", "", 
+67, Placebo, 2098, 2105, "placebo", "", 
+158, TimePoint, 2116, 2124, "3 months", "", 
+179, ObservedResult, 2144, 2257, "No changes in body weight or BMI occurred during the study in either placebo - or bromocriptine - treated group .", "", "<http://ctro/data#Outcome_26421> <http://ctro/data#hasObservedResult> \"double - blind\". <http://ctro/data#Outcome_26421> <http://ctro/data#hasObservedResult> \"No changes in body weight or BMI occurred during the study in either placebo - or bromocriptine - treated group .\". <http://ctro/data#Outcome_26448> <http://ctro/data#hasObservedResult> \"double - blind\". <http://ctro/data#Outcome_26448> <http://ctro/data#hasObservedResult> \"No changes in body weight or BMI occurred during the study in either placebo - or bromocriptine - treated group .\"."
+13, BodyWeight, 2158, 2169, "body weight", "", "<http://ctro/data#Endpoint_26241> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+68, BMI, 2173, 2176, "BMI", "", "<http://ctro/data#Endpoint_26246> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BMI>."
+69, Placebo, 2213, 2220, "placebo", "", 
+70, Bromocriptine, 2226, 2239, "bromocriptine", "", 
+168, ConclusionComment, 2271, 2451, "The data further support the contention that bromocriptine improves glycemic control in obese type - 2 diabetic patients , although the mechanism of action remains to be determined", "", "<http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasConclusionComment> \"The data further support the contention that bromocriptine improves glycemic control in obese type - 2 diabetic patients , although the mechanism of action remains to be determined\". <http://ctro/data#ClinicalTrial_26206> <http://ctro/data#hasConclusionComment> \"70\"."
+71, Bromocriptine, 2316, 2329, "bromocriptine", "", 
+79, Precondition, 2359, 2391, "obese type - 2 diabetic patients", "", 
+72, Type2Diabetes, 2365, 2382, "type - 2 diabetic", "", 
+1, PMID, 2489, 2497, "15205563", "", 

@@ -1,0 +1,117 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 15, "Pharmacotherapy", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasJournal> \"Pharmacotherapy\"."
+1, PublicationYear, 18, 22, "2015", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasPublicationYear> \"2015\"."
+21, Title, 102, 273, "Effect of Acarbose on Glycemic Variability in Patients with Poorly Controlled Type 2 Diabetes Mellitus Receiving Stable Background Therapy : A Placebo - Controlled Trial .", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasTitle> \"Effect of Acarbose on Glycemic Variability in Patients with Poorly Controlled Type 2 Diabetes Mellitus Receiving Stable Background Therapy : A Placebo - Controlled Trial .\"."
+100165, Acarbose, 112, 120, "Acarbose", "", 
+14, Precondition, 148, 240, "Patients with Poorly Controlled Type 2 Diabetes Mellitus Receiving Stable Background Therapy", "", "<http://ctro/data#Population_68540> <http://ctro/data#hasPrecondition> \"Patients with Poorly Controlled Type 2 Diabetes Mellitus Receiving Stable Background Therapy\"."
+10, Type2Diabetes, 180, 204, "Type 2 Diabetes Mellitus", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+15, Placebo, 245, 252, "Placebo", "", 
+22, Author, 274, 282, "Derosa G", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasAuthor> \"Derosa G\"."
+23, Author, 303, 314, "Franzetti I", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasAuthor> \"Franzetti I\"."
+24, Author, 323, 331, "Querci F", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasAuthor> \"Querci F\"."
+25, Author, 340, 352, "D ' Angelo A", "", 
+26, Author, 367, 377, "Maffioli P", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasAuthor> \"Maffioli P\"."
+27, Italy, 546, 551, "Italy", "", 
+28, Italy, 676, 681, "Italy", "", 
+29, Italy, 755, 760, "Italy", "", 
+30, Italy, 836, 841, "Italy", "", 
+31, Italy, 906, 911, "Italy", "", 
+32, Italy, 988, 993, "Italy", "", 
+40, ObjectiveDescription, 1014, 1255, "To evaluate the effect of acarbose on glycemic control and glycemic variability , using a continuous glucose - monitoring system , in patients with type 2 diabetes mellitus who were not well controlled on metformin and vildagliptin therapy .", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasObjectiveDescription> \"To evaluate the effect of acarbose on glycemic control and glycemic variability , using a continuous glucose - monitoring system , in patients with type 2 diabetes mellitus who were not well controlled on metformin and vildagliptin therapy .\"."
+100163, Acarbose, 1040, 1048, "acarbose", "", 
+39, Precondition, 1148, 1253, "patients with type 2 diabetes mellitus who were not well controlled on metformin and vildagliptin therapy", "", "<http://ctro/data#Population_68540> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes mellitus who were not well controlled on metformin and vildagliptin therapy\"."
+11, Type2Diabetes, 1162, 1186, "type 2 diabetes mellitus", "", 
+33, Metformin, 1219, 1228, "metformin", "", 
+36, Vildagliptin, 1233, 1245, "vildagliptin", "", 
+41, Multicenter, 1265, 1276, "Multicenter", "", 
+42, Randomized, 1279, 1289, "randomized", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+43, DoubleBlind, 1292, 1306, "double - blind", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+16, Placebo, 1309, 1316, "placebo", "", 
+145, Multicenter, 1375, 1390, "three hospitals", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+146, Italy, 1394, 1399, "Italy", "", "<http://ctro/data#Population_68540> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+147, NumberPatientsCT, 1413, 1426, "Fifty - three", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasNumberPatientsCT> \"Fifty - three\"."
+12, Type2Diabetes, 1441, 1456, "type 2 diabetes", "", 
+46, Metformin, 1491, 1500, "metformin", "", 
+48, DoseValue, 1501, 1504, "850", "", 
+50, mg, 1505, 1507, "mg", "", 
+52, Frequency, 1508, 1521, "3 times / day", "", 
+47, Vildagliptin, 1526, 1538, "vildagliptin", "", 
+49, DoseValue, 1539, 1541, "50", "", 
+51, mg, 1542, 1544, "mg", "", 
+53, Frequency, 1545, 1556, "twice / day", "", 
+54, Duration, 1570, 1578, "3 months", "", 
+56, Randomized, 1670, 1680, "randomized", "", 
+17, Placebo, 1691, 1698, "placebo", "", "<http://ctro/data#Medication_68597> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+100164, Acarbose, 1702, 1710, "acarbose", "", 
+57, DoseValue, 1711, 1714, "100", "", "<http://ctro/data#Medication_68590> <http://ctro/data#hasDoseValue> \"100\"."
+58, mg, 1715, 1717, "mg", "", "<http://ctro/data#Medication_68590> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+59, Frequency, 1718, 1731, "3 times / day", "", "<http://ctro/data#Intervention_68566> <http://ctro/data#hasFrequency> \"3 times / day\"."
+34, Metformin, 1753, 1762, "metformin", "", 
+37, Vildagliptin, 1765, 1777, "vildagliptin", "", 
+60, MeasurementDevice, 1865, 1903, "continuous glucose - monitoring system", "", 
+167, Duration, 1908, 1914, "1 week", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasCTduration> \"1 week\"."
+100175, Mean, 1955, 1959, "mean", "", "<http://ctro/data#Mean_68629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_68627> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_68629>."
+100173, BloodGlucose, 1960, 1973, "blood glucose", "", "<http://ctro/data#Endpoint_68627> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodGlucose>."
+62, BloodGlucose, 1976, 1979, "MBG", "", 
+100176, EndPointDescription, 1994, 2080, "area under the glucose concentration - time curve for a glucose level above 70 mg / dl", "", "<http://ctro/data#EndPointDescription_68696> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68695> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68696>."
+63, Mg_per_deciliter, 2073, 2080, "mg / dl", "", 
+186, EndPointDescription, 2083, 2095, "AUC above 70", "", 
+187, EndPointDescription, 2101, 2112, "180 mg / dl", "", 
+64, Mg_per_deciliter, 2105, 2112, "mg / dl", "", 
+188, EndPointDescription, 2115, 2128, "AUC above 180", "", "<http://ctro/data#EndPointDescription_68760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68759> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68760>."
+195, EndPointDescription, 2137, 2203, "the percentage of time that the glucose level was above 70 mg / dl", "", 
+65, Mg_per_deciliter, 2196, 2203, "mg / dl", "", 
+196, EndPointDescription, 2206, 2216, "T above 70", "", 
+197, EndPointDescription, 2222, 2233, "180 mg / dl", "", 
+66, Mg_per_deciliter, 2226, 2233, "mg / dl", "", 
+198, EndPointDescription, 2236, 2247, "T above 180", "", "<http://ctro/data#EndPointDescription_68828> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68827> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68828>."
+67, BloodGlucose, 2328, 2341, "blood glucose", "", 
+78, EndPointDescription, 2354, 2391, "mean amplitude of glycemic excursions", "", "<http://ctro/data#EndPointDescription_68896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68895> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68896>."
+77, EndPointDescription, 2394, 2398, "MAGE", "", 
+79, EndPointDescription, 2407, 2414, "M value", "", 
+83, EndPointDescription, 2522, 2546, "mean of daily difference", "", "<http://ctro/data#EndPointDescription_68928> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68927> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68928>."
+82, EndPointDescription, 2549, 2553, "MODD", "", 
+68, EndPointDescription, 2562, 2565, "MBG", "", 
+85, ObservedResult, 2572, 2703, "was ~ 20 mg / dl lower in the acarbose group than in the placebo group ( p < 0 . 05 ) , particularly during the postprandial period", "", "<http://ctro/data#Outcome_68632> <http://ctro/data#hasObservedResult> \"was ~ 20 mg / dl lower in the acarbose group than in the placebo group ( p < 0 . 05 ) , particularly during the postprandial period\". <http://ctro/data#Outcome_68659> <http://ctro/data#hasObservedResult> \"was ~ 20 mg / dl lower in the acarbose group than in the placebo group ( p < 0 . 05 ) , particularly during the postprandial period\"."
+180, DiffGroupAbsValue, 2576, 2580, "~ 20", "", "<http://ctro/data#DiffBetweenGroups_68686> <http://ctro/data#hasDiffGroupAbsValue> \"~ 20\"."
+84, Mg_per_deciliter, 2581, 2588, "mg / dl", "", "<http://ctro/data#Endpoint_68627> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+100166, Acarbose, 2602, 2610, "acarbose", "", 
+18, Placebo, 2629, 2636, "placebo", "", 
+183, PvalueDiff, 2645, 2655, "p < 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_68686> <http://ctro/data#hasPvalueDiff> \"p < 0 . 05\"."
+184, EndPointDescription, 2710, 2722, "AUC above 70", "", 
+97, ObservedResult, 2723, 2774, "did not significantly differ between the two groups", "", "<http://ctro/data#Outcome_68700> <http://ctro/data#hasObservedResult> \"did not significantly differ between the two groups\". <http://ctro/data#Outcome_68727> <http://ctro/data#hasObservedResult> \"did not significantly differ between the two groups\"."
+189, EndPointDescription, 2789, 2802, "AUC above 180", "", 
+98, ObservedResult, 2803, 2886, "was ~ 40 % lower in the acarbose group than in the placebo group during the daytime", "", "<http://ctro/data#Outcome_68764> <http://ctro/data#hasObservedResult> \"was ~ 40 % lower in the acarbose group than in the placebo group during the daytime\". <http://ctro/data#Outcome_68791> <http://ctro/data#hasObservedResult> \"was ~ 40 % lower in the acarbose group than in the placebo group during the daytime\"."
+190, DiffGroupRelValue, 2807, 2811, "~ 40", "", "<http://ctro/data#DiffBetweenGroups_68818> <http://ctro/data#hasDiffGroupRelValue> \"~ 40\"."
+100168, Acarbose, 2827, 2835, "acarbose", "", 
+19, Placebo, 2854, 2861, "placebo", "", 
+100, RelativeTime, 2879, 2886, "daytime", "", 
+101, PvalueDiff, 2889, 2899, "p < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_68818> <http://ctro/data#hasPvalueDiff> \"p < 0 . 01\"."
+199, EndPointDescription, 2908, 2919, "T above 180", "", 
+20, Placebo, 2952, 2959, "placebo", "", 
+100169, Acarbose, 2978, 2986, "acarbose", "", 
+102, ResultMeasuredValue, 2995, 2997, "31", "", "<http://ctro/data#Outcome_68859> <http://ctro/data#hasResultMeasuredValue> \"31\"."
+104, Percentage, 2998, 2999, "%", "", 
+103, ResultMeasuredValue, 3003, 3004, "8", "", "<http://ctro/data#Outcome_68832> <http://ctro/data#hasResultMeasuredValue> \"8\"."
+105, Percentage, 3005, 3006, "%", "", 
+106, PvalueDiff, 3009, 3019, "p < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_68886> <http://ctro/data#hasPvalueDiff> \"p < 0 . 01\"."
+87, ObservedResult, 3033, 3118, "the standard deviation and MAGE values were significantly lower in the acarbose group", "", "<http://ctro/data#Outcome_68900> <http://ctro/data#hasObservedResult> \"the standard deviation and MAGE values were significantly lower in the acarbose group\"."
+76, EndPointDescription, 3060, 3064, "MAGE", "", 
+86, ObservedResult, 3121, 3245, "The MODD value was not significantly changed in either group , and no significant differences were recorded between groups .", "", "<http://ctro/data#Outcome_68932> <http://ctro/data#hasObservedResult> \"The MODD value was not significantly changed in either group , and no significant differences were recorded between groups .\". <http://ctro/data#Outcome_68959> <http://ctro/data#hasObservedResult> \"The MODD value was not significantly changed in either group , and no significant differences were recorded between groups .\"."
+80, EndPointDescription, 3125, 3129, "MODD", "", 
+93667, ObservedResult, 3246, 3289, "All adverse events were mild in both groups", "", "<http://ctro/data#Outcome_68991> <http://ctro/data#hasObservedResult> \"All adverse events were mild in both groups\". <http://ctro/data#Outcome_69018> <http://ctro/data#hasObservedResult> \"All adverse events were mild in both groups\"."
+81, EndPointDescription, 3250, 3264, "adverse events", "", "<http://ctro/data#EndPointDescription_68987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68986> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68987>."
+207, EndPointDescription, 3339, 3349, "flatulence", "", "<http://ctro/data#EndPointDescription_69046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_69045> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_69046>."
+100170, Acarbose, 3363, 3371, "acarbose", "", 
+213, PercentageAffected, 3380, 3381, "5", "", "<http://ctro/data#Outcome_69050> <http://ctro/data#hasPercentageAffected> \"5\"."
+100171, Acarbose, 3389, 3397, "acarbose", "", 
+214, PercentageAffected, 3401, 3406, "0 . 5", "", "<http://ctro/data#Outcome_69077> <http://ctro/data#hasPercentageAffected> \"0 . 5\"."
+112, Placebo, 3414, 3421, "placebo", "", 
+113, PvalueDiff, 3424, 3434, "p < 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_69104> <http://ctro/data#hasPvalueDiff> \"p < 0 . 05\"."
+114, ConclusionComment, 3452, 3662, "The addition of acarbose to metformin and vildagliptin background therapy in patients with inadequately controlled type 2 diabetes decreased intraday glycemic variability , especially postprandial variability ,", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasConclusionComment> \"The addition of acarbose to metformin and vildagliptin background therapy in patients with inadequately controlled type 2 diabetes decreased intraday glycemic variability , especially postprandial variability ,\"."
+100172, Acarbose, 3468, 3476, "acarbose", "", 
+35, Metformin, 3480, 3489, "metformin", "", 
+38, Vildagliptin, 3494, 3506, "vildagliptin", "", 
+13, Type2Diabetes, 3567, 3582, "type 2 diabetes", "", 
+115, ConclusionComment, 3663, 3749, "but it was not associated with a significant change in interday glycemic variability .", "", "<http://ctro/data#ClinicalTrial_68524> <http://ctro/data#hasConclusionComment> \"but it was not associated with a significant change in interday glycemic variability .\"."
+116, PMID, 3831, 3839, "26598090", "", "<http://ctro/data#Publication_68517> <http://ctro/data#hasPMID> \"26598090\"."

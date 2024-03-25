@@ -1,0 +1,143 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_69127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_69127> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 69127" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasTitle> "Effects of vildagliptin versus saxagliptin on daily acute glucose fluctuations in Chinese patients with T2DM inadequately controlled with a combination of metformin and sulfonylurea ." .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Xiaoyan C" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasPublicationYear> "2016" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasJournal> "Curr Med Res Opin ." .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasPMID> "26950829" .
+<http://ctro/data#Publication_69127> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_69134> .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Jing W" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Xiaochun H" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Yuyu T" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Shunyou D" .
+<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> "Yingyu F" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_69134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_69134> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 69134" .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasObjectiveDescription> "The present study aimed to compare the effects of the dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitors vildagliptin and saxagliptin on 24   hour acute glucose fluctuations in Chinese patients" .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasNumberPatientsCT> "73" .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTduration> "24 week" .
+<http://ctro/data#AllocationRatio_69138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_69139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasConclusionComment> "Vildagliptin produced a significantly greater reduction in acute glucose fluctuations compared with saxagliptin when added to a dual combination of metformin and sulfonylurea in Chinese patients with T2DM ." .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasArm> <http://ctro/data#Arm_69158> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasPopulation> <http://ctro/data#Population_69150> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_69414> .
+<http://ctro/data#EvidenceQuality_69146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasObjectiveDescription> "with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea ." .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasArm> <http://ctro/data#Arm_69167> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#CTDesign_69290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_69290> .
+# RDF export of group: Population
+<http://ctro/data#Population_69150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_69150> <http://www.w3.org/2000/01/rdf-schema#label> "Population 69150" .
+<http://ctro/data#Population_69150> <http://ctro/data#hasPrecondition> "Chinese patients with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea" .
+<http://ctro/data#Ethnicity_69152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_69150> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_69152> .
+<http://ctro/data#Country_69153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Population_69150> <http://ctro/data#hasAvgAge> "62 . 9" .
+<http://ctro/data#Gender_69157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_69296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_69296> <http://www.w3.org/2000/01/rdf-schema#label> "mag" .
+<http://ctro/data#EndPointDescription_69297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_69296> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_69297> .
+<http://ctro/data#Mean_69298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_69296> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_69298> .
+<http://ctro/data#Endpoint_69296> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre> .
+<http://ctro/data#MeasurementDevice_69300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_69355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_69355> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_69355> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#Mean_69357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_69355> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_69357> .
+<http://ctro/data#Endpoint_69355> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_69359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_69158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_69158> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Arm_69158> <http://ctro/data#hasNumberPatientsArm> "37" .
+<http://ctro/data#Arm_69158> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_69176> .
+<http://ctro/data#Arm_69158> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_69301> .
+<http://ctro/data#Outcome_69163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_69158> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_69360> .
+<http://ctro/data#Arm_69167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_69167> <http://www.w3.org/2000/01/rdf-schema#label> "sax" .
+<http://ctro/data#Arm_69167> <http://ctro/data#hasNumberPatientsArm> "36" .
+<http://ctro/data#Arm_69167> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_69182> .
+<http://ctro/data#Arm_69167> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_69328> .
+<http://ctro/data#Outcome_69172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_69167> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_69387> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_69176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_69176> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Intervention_69176> <http://ctro/data#hasMedication> <http://ctro/data#Medication_69200> .
+<http://ctro/data#Intervention_69176> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_69181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_69182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_69182> <http://www.w3.org/2000/01/rdf-schema#label> "sax" .
+<http://ctro/data#Intervention_69182> <http://ctro/data#hasMedication> <http://ctro/data#Medication_69207> .
+<http://ctro/data#Intervention_69182> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_69187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_69200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_69200> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Medication_69200> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin> .
+<http://ctro/data#Medication_69200> <http://ctro/data#hasDoseValue> "50" .
+<http://ctro/data#Medication_69200> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#DeliveryMethod_69204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_69207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_69207> <http://www.w3.org/2000/01/rdf-schema#label> "sax" .
+<http://ctro/data#Medication_69207> <http://ctro/data#hasDrug> <http://ctro/data#Saxagliptin> .
+<http://ctro/data#Medication_69207> <http://ctro/data#hasDoseValue> "5" .
+<http://ctro/data#Medication_69207> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#DeliveryMethod_69211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_69301> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_69301> <http://www.w3.org/2000/01/rdf-schema#label> "mag 1" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_69296> .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasBaselineValue> "5 . 81" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevBL> "1 . 16" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasResultMeasuredValue> "4 . 06" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevResValue> "0 . 86" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasChangeValue> "1 . 74" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasPValueChangeValue> "p < 0 . 001" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevChangeValue> "0 . 48" .
+<http://ctro/data#Outcome_69301> <http://ctro/data#hasTimePoint> "24 weeks" .
+<http://ctro/data#Outcome_69328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_69328> <http://www.w3.org/2000/01/rdf-schema#label> "mag 2" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_69296> .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasBaselineValue> "5 . 66" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevBL> "1 . 14" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasResultMeasuredValue> "4 . 79" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevResValue> "1 . 25" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasChangeValue> "0 . 87" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasPValueChangeValue> "p  =  0 . 003" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevChangeValue> "0 . 40" .
+<http://ctro/data#Outcome_69328> <http://ctro/data#hasTimePoint> "24 weeks" .
+<http://ctro/data#Outcome_69360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_69360> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_69360> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_69355> .
+<http://ctro/data#Outcome_69360> <http://ctro/data#hasBaselineValue> "8 . 4" .
+<http://ctro/data#Outcome_69360> <http://ctro/data#hasSdDevBL> "0 . 68" .
+<http://ctro/data#Outcome_69360> <http://ctro/data#hasChangeValue> "1 . 22" .
+<http://ctro/data#Outcome_69360> <http://ctro/data#hasSdDevChangeValue> "0 . 40" .
+<http://ctro/data#Outcome_69387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_69387> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_69387> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_69355> .
+<http://ctro/data#Outcome_69387> <http://ctro/data#hasBaselineValue> "8 . 4" .
+<http://ctro/data#Outcome_69387> <http://ctro/data#hasSdDevBL> "0 . 68" .
+<http://ctro/data#Outcome_69387> <http://ctro/data#hasChangeValue> "1 . 07" .
+<http://ctro/data#Outcome_69387> <http://ctro/data#hasSdDevChangeValue> "0 . 36" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_69414> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_69414> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#DiffBetweenGroups_69414> <http://ctro/data#hasPvalueDiff> "p  =  0 . 091" .
+<http://ctro/data#DiffBetweenGroups_69414> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_69360> .
+<http://ctro/data#DiffBetweenGroups_69414> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_69387> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,110 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2018", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasPublicationYear> \"2018\"."
+2, Saxagliptin, 109, 120, "Saxagliptin", "", 
+27, Title, 109, 333, "Saxagliptin add - on therapy in Chinese patients with type 2 diabetes inadequately controlled by insulin with or without metformin : Results from the SUPER study , a randomized , double - blind , placebo - controlled trial .", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasTitle> \"Saxagliptin add - on therapy in Chinese patients with type 2 diabetes inadequately controlled by insulin with or without metformin : Results from the SUPER study , a randomized , double - blind , placebo - controlled trial .\"."
+8, Ethnicity, 141, 148, "Chinese", "", 
+22, Precondition, 149, 239, "patients with type 2 diabetes inadequately controlled by insulin with or without metformin", "", "<http://ctro/data#Population_78023> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes inadequately controlled by insulin with or without metformin\"."
+11, Type2Diabetes, 163, 178, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+112, Precondition, 179, 239, "inadequately controlled by insulin with or without metformin", "", 
+14, Insulin, 206, 213, "insulin", "", 
+17, Metformin, 230, 239, "metformin", "", 
+20, Randomized, 275, 285, "randomized", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+21, DoubleBlind, 288, 302, "double - blind", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+23, Placebo, 305, 312, "placebo", "", 
+28, Author, 334, 340, "Chen Y", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Chen Y\"."
+29, Author, 349, 354, "Liu X", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Liu X\"."
+30, Author, 363, 367, "Li Q", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Li Q\"."
+31, Author, 376, 380, "Ma J", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Ma J\"."
+32, Author, 389, 393, "Lv X", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Lv X\"."
+33, Author, 402, 407, "Guo L", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Guo L\"."
+34, Author, 416, 422, "Wang C", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Wang C\"."
+35, Author, 431, 436, "Shi Y", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Shi Y\"."
+36, Author, 445, 449, "Li Y", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Li Y\"."
+37, Author, 458, 468, "Johnsson E", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Johnsson E\"."
+38, Author, 478, 484, "Wang M", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Wang M\"."
+39, Author, 494, 500, "Zhao J", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Zhao J\"."
+40, Author, 510, 514, "Ji L", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasAuthor> \"Ji L\"."
+41, China, 645, 650, "China", "", 
+42, China, 755, 760, "China", "", 
+43, China, 856, 861, "China", "", 
+44, China, 935, 940, "China", "", 
+45, China, 1009, 1014, "China", "", 
+46, China, 1115, 1120, "China", "", 
+47, China, 1223, 1228, "China", "", 
+48, China, 1309, 1314, "China", "", 
+49, China, 1421, 1426, "China", "", "<http://ctro/data#Population_78023> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+51, Sweden, 1473, 1479, "Sweden", "", 
+50, China, 1538, 1543, "China", "", 
+52, USA, 1582, 1590, "Maryland", "", 
+56, ObjectiveDescription, 1593, 1815, "This prospective , multicentre , phase III study ( NCT02104804 ) evaluated the efficacy and safety of saxagliptin add - on therapy in Chinese patients with type 2 diabetes inadequately controlled by insulin  ±  metformin .", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasObjectiveDescription> \"This prospective , multicentre , phase III study ( NCT02104804 ) evaluated the efficacy and safety of saxagliptin add - on therapy in Chinese patients with type 2 diabetes inadequately controlled by insulin  ±  metformin .\"."
+53, Prospective, 1598, 1609, "prospective", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+54, Multicenter, 1612, 1623, "multicentre", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+3, Saxagliptin, 1695, 1706, "saxagliptin", "", 
+9, Ethnicity, 1727, 1734, "Chinese", "", "<http://ctro/data#Ethnicity_78025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_78023> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_78025>."
+55, Precondition, 1735, 1813, "patients with type 2 diabetes inadequately controlled by insulin  ±  metformin", "", 
+12, Type2Diabetes, 1749, 1764, "type 2 diabetes", "", 
+15, Insulin, 1792, 1799, "insulin", "", 
+18, Metformin, 1804, 1813, "metformin", "", 
+57, HbA1c, 1830, 1850, "glycated haemoglobin", "", 
+58, HbA1c, 1853, 1858, "HbA1c", "", 
+61, Percentage, 1867, 1868, "%", "", 
+62, Percentage, 1879, 1880, "%", "", 
+63, FastingPlasmaGlucose, 1885, 1907, "fasting plasma glucose", "", 
+64, FastingPlasmaGlucose, 1910, 1913, "FPG", "", 
+65, Millimoles_per_litre, 1921, 1929, "mmol / L", "", 
+66, Mg_per_deciliter, 1938, 1945, "mg / dL", "", 
+67, Insulin, 1958, 1965, "insulin", "", 
+68, DoseValue, 1976, 1984, "20 - 150", "", 
+85184, Int_Unit, 1987, 1988, "U", "", 
+106234, Frequency, 1991, 1992, "d", "", 
+71, Randomized, 2000, 2010, "randomized", "", 
+72, AllocationRatio, 2013, 2018, "1 : 1", "", "<http://ctro/data#AllocationRatio_78011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_78011>."
+4, Saxagliptin, 2024, 2035, "saxagliptin", "", "<http://ctro/data#Medication_78061> <http://ctro/data#hasDrug> <http://ctro/data#Saxagliptin>."
+74, DoseValue, 2036, 2037, "5", "", "<http://ctro/data#Medication_78061> <http://ctro/data#hasDoseValue> \"5\"."
+75, mg, 2038, 2040, "mg", "", "<http://ctro/data#Medication_78061> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+76, Frequency, 2041, 2051, "once daily", "", "<http://ctro/data#Intervention_78049> <http://ctro/data#hasFrequency> \"once daily\"."
+77, NumberPatientsArm, 2060, 2063, "232", "", "<http://ctro/data#Arm_78031> <http://ctro/data#hasNumberPatientsArm> \"232\"."
+24, Placebo, 2069, 2076, "placebo", "", "<http://ctro/data#Medication_78068> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+78, NumberPatientsArm, 2085, 2088, "230", "", "<http://ctro/data#Arm_78040> <http://ctro/data#hasNumberPatientsArm> \"230\"."
+79, Duration, 2095, 2105, "24   weeks", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasCTduration> \"24   weeks\"."
+80, Metformin, 2122, 2131, "metformin", "", 
+59, HbA1c, 2181, 2186, "HbA1c", "", 
+5, Saxagliptin, 2189, 2200, "Saxagliptin", "", 
+181, Mean, 2242, 2246, "mean", "", "<http://ctro/data#Mean_78125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_78123> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_78125>."
+60, HbA1c, 2257, 2262, "HbA1c", "", "<http://ctro/data#Endpoint_78123> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+81, TimePoint, 2268, 2276, "baseline", "", 
+82, TimePoint, 2280, 2287, "week 24", "", 
+25, Placebo, 2293, 2300, "placebo", "", 
+83, DiffGroupAbsValue, 2303, 2311, "- 0 . 58", "", "<http://ctro/data#DiffBetweenGroups_78241> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 58\"."
+84, Percentage, 2312, 2313, "%", "", "<http://ctro/data#Endpoint_78123> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+85, PvalueDiff, 2316, 2326, "P  < . 001", "", "<http://ctro/data#DiffBetweenGroups_78241> <http://ctro/data#hasPvalueDiff> \"P  < . 001\"."
+87, Metformin, 2347, 2356, "metformin", "", 
+187, Mean, 2377, 2381, "mean", "", "<http://ctro/data#Mean_78130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_78128> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_78130>."
+88, FastingPlasmaGlucose, 2392, 2395, "FPG", "", "<http://ctro/data#Endpoint_78128> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+89, DiffGroupAbsValue, 2398, 2403, "0 . 9", "", "<http://ctro/data#DiffBetweenGroups_78250> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 9\"."
+91, Millimoles_per_litre, 2404, 2412, "mmol / L", "", "<http://ctro/data#Endpoint_78128> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+90, DiffGroupAbsValue, 2415, 2423, "- 15 . 9", "", 
+92, Mg_per_deciliter, 2424, 2431, "mg / dL", "", 
+86, PvalueDiff, 2436, 2446, "P  < . 001", "", "<http://ctro/data#DiffBetweenGroups_78250> <http://ctro/data#hasPvalueDiff> \"P  < . 001\"."
+93, HbA1c_target, 2474, 2485, "HbA1c < 7 %", "", "<http://ctro/data#Endpoint_78259> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+162, Percentage, 2484, 2485, "%", "", 
+6, Saxagliptin, 2491, 2502, "saxagliptin", "", 
+94, PercentageAffected, 2505, 2511, "11 . 4", "", "<http://ctro/data#Outcome_78264> <http://ctro/data#hasPercentageAffected> \"11 . 4\"."
+26, Placebo, 2526, 2533, "placebo", "", 
+95, PercentageAffected, 2536, 2541, "3 . 5", "", "<http://ctro/data#Outcome_78291> <http://ctro/data#hasPercentageAffected> \"3 . 5\"."
+96, PvalueDiff, 2546, 2556, "P  = . 002", "", "<http://ctro/data#DiffBetweenGroups_78318> <http://ctro/data#hasPvalueDiff> \"P  = . 002\"."
+97, EndPointDescription, 2561, 2575, "Adverse events", "", 
+99, ObservedResult, 2561, 2636, "Adverse events and incidence of hypoglycaemia were similar in both groups .", "", 
+98, Hypoglycemia, 2593, 2606, "hypoglycaemia", "", 
+105, ConclusionComment, 2637, 2879, "Overall , add - on saxagliptin 5 mg once daily significantly improved glycaemic control without increasing hypoglycaemia risk and was well tolerated in Chinese patients with type 2 diabetes inadequately controlled by insulin ( ± metformin ) .", "", "<http://ctro/data#ClinicalTrial_78007> <http://ctro/data#hasConclusionComment> \"Overall , add - on saxagliptin 5 mg once daily significantly improved glycaemic control without increasing hypoglycaemia risk and was well tolerated in Chinese patients with type 2 diabetes inadequately controlled by insulin ( ± metformin ) .\"."
+7, Saxagliptin, 2656, 2667, "saxagliptin", "", 
+100, DoseValue, 2668, 2669, "5", "", 
+101, mg, 2670, 2672, "mg", "", 
+102, Frequency, 2673, 2683, "once daily", "", 
+103, Hypoglycemia, 2744, 2757, "hypoglycaemia", "", 
+10, Ethnicity, 2789, 2796, "Chinese", "", 
+13, Type2Diabetes, 2811, 2826, "type 2 diabetes", "", 
+16, Insulin, 2854, 2861, "insulin", "", 
+19, Metformin, 2866, 2875, "metformin", "", 
+106, PMID, 2948, 2956, "29144061", "", "<http://ctro/data#Publication_78000> <http://ctro/data#hasPMID> \"29144061\"."

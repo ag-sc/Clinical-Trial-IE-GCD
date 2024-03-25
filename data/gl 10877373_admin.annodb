@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasTitle> \"J Glaucoma\". <http://ctro/data#Publication_26724> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2000", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasPublicationYear> \"2000\"."
+36936, EndPointDescription, 45, 61, "Clinical success", "", 
+0, Title, 45, 211, "Clinical success and quality of life with brimonidine 0 . 2 % or timolol 0 . 5 % used twice daily in glaucoma or ocular t hypertension : a randomized clinical trial .", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasTitle> \"Clinical success and quality of life with brimonidine 0 . 2 % or timolol 0 . 5 % used twice daily in glaucoma or ocular t hypertension : a randomized clinical trial .\". <http://ctro/data#Publication_26724> <http://ctro/data#hasJournal> \"Clinical success and quality of life with brimonidine 0 . 2 % or timolol 0 . 5 % used twice daily in glaucoma or ocular t hypertension : a randomized clinical trial .\"."
+36935, EndPointDescription, 66, 81, "quality of life", "", 
+64, Brimonidine, 87, 98, "brimonidine", "", 
+69, DoseValue, 99, 104, "0 . 2", "", 
+71, Percentage, 105, 106, "%", "", 
+65, Timolol, 110, 117, "timolol", "", 
+70, DoseValue, 118, 123, "0 . 5", "", 
+72, Percentage, 124, 125, "%", "", 
+73, Frequency, 131, 142, "twice daily", "", 
+66, Glaucoma, 146, 154, "glaucoma", "", "<http://ctro/data#Glaucoma_26741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_26732> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_26741>."
+67, OcularHypertension, 158, 179, "ocular t hypertension", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+68, Randomized, 184, 194, "randomized", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+20562, Brimonidine, 212, 223, "Brimonidine", "", 
+3, Author, 249, 258, "Javitt JC", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasAuthor> \"Javitt JC\"."
+4, Author, 267, 279, "Schiffman RM", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasAuthor> \"Schiffman RM\"."
+61, USA, 396, 399, "USA", "", "<http://ctro/data#Population_26753> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+5, ObjectiveDescription, 412, 576, "To compare the clinical success rates and quality of life impact of brimonidine 0 . 2 % with timolol 0 . 5 % in newly diagnosed patients naive to glaucoma therapy .", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasObjectiveDescription> \"To compare the clinical success rates and quality of life impact of brimonidine 0 . 2 % with timolol 0 . 5 % in newly diagnosed patients naive to glaucoma therapy .\"."
+36937, EndPointDescription, 427, 443, "clinical success", "", "<http://ctro/data#EndPointDescription_26762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_26761> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26762>."
+36938, EndPointDescription, 454, 469, "quality of life", "", "<http://ctro/data#EndPointDescription_26767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_26766> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26767>."
+27, Brimonidine, 480, 491, "brimonidine", "", 
+28, DoseValue, 492, 497, "0 . 2", "", 
+29, Percentage, 498, 499, "%", "", 
+30, Timolol, 505, 512, "timolol", "", 
+31, DoseValue, 513, 518, "0 . 5", "", 
+32, Percentage, 519, 520, "%", "", 
+33, Precondition, 524, 574, "newly diagnosed patients naive to glaucoma therapy", "", "<http://ctro/data#Population_26753> <http://ctro/data#hasPrecondition> \"newly diagnosed patients naive to glaucoma therapy\"."
+20563, Glaucoma, 558, 566, "glaucoma", "", 
+36934, Prospective, 589, 600, "prospective", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+7, Multicenter, 603, 614, "multicenter", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+8, Randomized, 617, 627, "randomized", "", 
+9, DoubleBlind, 630, 645, "double - masked", "", 
+10, Frequency, 711, 722, "twice daily", "", "<http://ctro/data#Intervention_26819> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_26825> <http://ctro/data#hasFrequency> \"twice daily\"."
+11, Brimonidine, 723, 743, "brimonidine tartrate", "", "<http://ctro/data#Medication_26838> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+12, DoseValue, 744, 749, "0 . 2", "", "<http://ctro/data#Medication_26838> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+13, Percentage, 750, 751, "%", "", "<http://ctro/data#Medication_26838> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+14, Timolol, 780, 795, "timolol maleate", "", "<http://ctro/data#Medication_26831> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+15, DoseValue, 796, 801, "0 . 5", "", 
+16, Percentage, 802, 803, "%", "", "<http://ctro/data#Medication_26831> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+17, Glaucoma, 821, 829, "glaucoma", "", 
+18, OcularHypertension, 836, 855, "ocular hypertension", "", 
+19, NumberPatientsCT, 872, 892, "Two hundred nineteen", "", 
+20, NumberPatientsArm, 920, 923, "111", "", 
+22, Brimonidine, 931, 942, "brimonidine", "", 
+21, NumberPatientsArm, 953, 956, "108", "", 
+23, Timolol, 964, 971, "timolol", "", 
+24, Frequency, 1023, 1034, "twice daily", "", 
+25, Duration, 1039, 1047, "4 months", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTduration> \"4 months\"."
+36939, EndPointDescription, 1074, 1090, "clinical success", "", 
+25351, IOP, 1109, 1129, "intraocular pressure", "", 
+25352, IOP, 1132, 1135, "IOP", "", 
+20572, EndPointDescription, 1170, 1185, "Quality of life", "", 
+109, MeasurementDevice, 1217, 1283, "SF - 36 Health Survey and Glaucoma Disability Index questionnaires", "", 
+60, EndPointDescription, 1296, 1312, "Clinical success", "", 
+135, PercentageAffected, 1317, 1319, "71", "", "<http://ctro/data#Outcome_26872> <http://ctro/data#hasPercentageAffected> \"71\"."
+137, NumberAffected, 1324, 1326, "75", "", "<http://ctro/data#Outcome_26872> <http://ctro/data#hasNumberAffected> \"75\"."
+110, FinalNumPatientsArm, 1329, 1332, "106", "", "<http://ctro/data#Arm_26810> <http://ctro/data#hasFinalNumPatientsArm> \"106\"."
+36, Brimonidine, 1340, 1351, "brimonidine", "", 
+136, PercentageAffected, 1356, 1358, "70", "", "<http://ctro/data#Outcome_26845> <http://ctro/data#hasPercentageAffected> \"70\"."
+138, NumberAffected, 1363, 1365, "73", "", "<http://ctro/data#Outcome_26845> <http://ctro/data#hasNumberAffected> \"73\"."
+111, FinalNumPatientsArm, 1368, 1371, "105", "", "<http://ctro/data#Arm_26801> <http://ctro/data#hasFinalNumPatientsArm> \"105\"."
+37, Timolol, 1379, 1386, "timolol", "", 
+38, Mean, 1422, 1426, "mean", "", 
+39, IOP, 1439, 1442, "IOP", "", "<http://ctro/data#IOP_26772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_26771> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_26772>."
+116, Reduction, 1447, 1452, "6 . 5", "", "<http://ctro/data#Outcome_26899> <http://ctro/data#hasChangeValue> \"6 . 5\"."
+41, mmHg, 1453, 1458, "mm Hg", "", "<http://ctro/data#Endpoint_26771> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+42, Brimonidine, 1464, 1475, "brimonidine", "", 
+117, Reduction, 1480, 1485, "6 . 2", "", "<http://ctro/data#Outcome_26926> <http://ctro/data#hasChangeValue> \"6 . 2\"."
+44, mmHg, 1486, 1491, "mm Hg", "", 
+45, Timolol, 1497, 1504, "timolol", "", 
+92910, ObservedResult, 1584, 1635, "slightly higher rate of ocular burning and stinging", "", 
+20565, EndPointDescription, 1608, 1622, "ocular burning", "", "<http://ctro/data#EndPointDescription_26782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_26781> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26782>."
+20564, Smarting, 1627, 1635, "stinging", "", "<http://ctro/data#Endpoint_26786> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Smarting>."
+46, Brimonidine, 1643, 1654, "brimonidine", "", 
+92908, ObservedResult, 1719, 1777, "No significant chronotropic effects on the heart were seen", "", "<http://ctro/data#Outcome_27007> <http://ctro/data#hasObservedResult> \"No significant chronotropic effects on the heart were seen\"."
+20567, EndPointDescription, 1734, 1767, "chronotropic effects on the heart", "", "<http://ctro/data#EndPointDescription_26792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_26791> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26792>."
+47, Brimonidine, 1783, 1794, "brimonidine", "", 
+92909, ObservedResult, 1803, 1881, "small but significant mean decreases in heart rate were seen at months 1 and 4", "", "<http://ctro/data#Outcome_27034> <http://ctro/data#hasObservedResult> \"small but significant mean decreases in heart rate were seen at months 1 and 4\"."
+126, Mean, 1825, 1829, "mean", "", "<http://ctro/data#Mean_26798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_26796> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_26798>."
+20569, HeartRate, 1843, 1853, "heart rate", "", "<http://ctro/data#HeartRate_26797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_26796> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_26797>."
+123, TimePoint, 1867, 1875, "months 1", "", 
+124, TimePoint, 1880, 1881, "4", "", 
+48, Timolol, 1887, 1894, "timolol", "", 
+20570, ObservedResult, 1984, 2067, "Quality of life remained stable , with no significant between - group differences .", "", "<http://ctro/data#Outcome_27061> <http://ctro/data#hasObservedResult> \"Quality of life remained stable , with no significant between - group differences .\"."
+20571, EndPointDescription, 1984, 1999, "Quality of life", "", 
+49, ConclusionComment, 2082, 2273, "As a first - line agent for the treatment of glaucoma and ocular hypertension , brimonidine has clinical effectiveness equivalent to timolol , but with less chronotropic effect on the heart .", "", "<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasConclusionComment> \"As a first - line agent for the treatment of glaucoma and ocular hypertension , brimonidine has clinical effectiveness equivalent to timolol , but with less chronotropic effect on the heart .\"."
+50, Glaucoma, 2127, 2135, "glaucoma", "", 
+51, OcularHypertension, 2140, 2159, "ocular hypertension", "", 
+52, Brimonidine, 2162, 2173, "brimonidine", "", 
+53, Timolol, 2215, 2222, "timolol", "", 
+54, ConclusionComment, 2274, 2383, "Brimonidine is a viable alternative to timolol for first - line therapy in glaucoma and ocular hypertension .", "", 
+55, Brimonidine, 2274, 2285, "Brimonidine", "", 
+56, Timolol, 2313, 2320, "timolol", "", 
+57, Glaucoma, 2349, 2357, "glaucoma", "", 
+58, OcularHypertension, 2362, 2381, "ocular hypertension", "", 
+59, PMID, 2391, 2399, "10877373", "", "<http://ctro/data#Publication_26724> <http://ctro/data#hasPMID> \"10877373\"."

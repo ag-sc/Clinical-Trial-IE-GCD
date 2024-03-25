@@ -1,0 +1,65 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+2, Journal, 0, 15, "Acta Ophthalmol", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasJournal> \"Acta Ophthalmol\"."
+3, PublicationYear, 18, 22, "2010", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasPublicationYear> \"2010\"."
+16, Title, 104, 309, "Efficacy and safety of tafluprost 0 . 0015 % versus latanoprost 0 . 005 % eye drops in open - angle glaucoma and ocular hypertension : 24 - month results of a randomized , double - masked phase III study .", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasTitle> \"Efficacy and safety of tafluprost 0 . 0015 % versus latanoprost 0 . 005 % eye drops in open - angle glaucoma and ocular hypertension : 24 - month results of a randomized , double - masked phase III study .\"."
+4, Tafluprost, 127, 137, "tafluprost", "", "<http://ctro/data#Medication_81039> <http://ctro/data#hasDrug> <http://ctro/data#Tafluprost>."
+12, DoseValue, 138, 146, "0 . 0015", "", 
+15, Percentage, 147, 148, "%", "", 
+5, Latanoprost, 156, 167, "latanoprost", "", 
+13, DoseValue, 168, 175, "0 . 005", "", 
+97, Percentage, 176, 177, "%", "", 
+6, Eyedrops, 178, 187, "eye drops", "", 
+7, OpenAngleGlaucoma, 191, 212, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+8, OcularHypertension, 217, 236, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+9, Duration, 239, 249, "24 - month", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTduration> \"24 - month\"."
+10, Randomized, 263, 273, "randomized", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+11, DoubleBlind, 276, 291, "double - masked", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+17, Author, 310, 320, "Uusitalo H", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> \"Uusitalo H\"."
+18, Author, 329, 340, "Pillunat LE", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> \"Pillunat LE\"."
+19, Author, 343, 349, "Ropo A", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasAuthor> \"Ropo A\"."
+20, Finland, 505, 512, "Finland", "", "<http://ctro/data#Population_80996> <http://ctro/data#hasCountry> <http://ctro/data#Finland>."
+30, ObjectiveDescription, 553, 756, "The objective of the study was to compare the long - term efficacy and safety of tafluprost 0 . 0015 % with latanoprost 0 . 005 % eye drops in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasObjectiveDescription> \"The objective of the study was to compare the long - term efficacy and safety of tafluprost 0 . 0015 % with latanoprost 0 . 005 % eye drops in patients with open - angle glaucoma or ocular hypertension .\"."
+21, Tafluprost, 634, 644, "tafluprost", "", 
+26, DoseValue, 645, 653, "0 . 0015", "", "<http://ctro/data#Medication_81039> <http://ctro/data#hasDoseValue> \"0 . 0015\"."
+28, Percentage, 654, 655, "%", "", "<http://ctro/data#Medication_81039> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+22, Latanoprost, 661, 672, "latanoprost", "", "<http://ctro/data#Latanoprost_81047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_81046> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_81047>."
+27, DoseValue, 673, 680, "0 . 005", "", "<http://ctro/data#Medication_81046> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+29, Percentage, 681, 682, "%", "", "<http://ctro/data#Medication_81046> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+23, Eyedrops, 683, 692, "eye drops", "", "<http://ctro/data#Medication_81039> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_81046> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+24, OpenAngleGlaucoma, 710, 731, "open - angle glaucoma", "", 
+25, OcularHypertension, 735, 754, "ocular hypertension", "", 
+31, DoubleBlind, 772, 787, "double - masked", "", 
+71, CTDesign, 790, 809, "active - controlled", "", "<http://ctro/data#CTDesign_80991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_80991>."
+32, Parallel, 812, 820, "parallel", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+73, CTDesign, 831, 844, "multinational", "", "<http://ctro/data#CTDesign_80993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_80993>."
+33, Multicenter, 847, 858, "multicentre", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36992, Frequency, 980, 990, "once daily", "", "<http://ctro/data#Intervention_81027> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_81033> <http://ctro/data#hasFrequency> \"once daily\"."
+36994, ApplicationCondition, 994, 1001, "20 : 00", "", "<http://ctro/data#Medication_81039> <http://ctro/data#hasApplicationCondition> \"20 : 00\". <http://ctro/data#Medication_81046> <http://ctro/data#hasApplicationCondition> \"20 : 00\"."
+35, Duration, 1016, 1025, "24 months", "", 
+36, IOP, 1049, 1069, "intraocular pressure", "", "<http://ctro/data#IOP_81005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_81004> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_81005>."
+37, IOP, 1072, 1075, "IOP", "", 
+38, Tafluprost, 1182, 1192, "tafluprost", "", 
+39, Latanoprost, 1197, 1208, "latanoprost", "", 
+0, NumberPatientsCT, 1268, 1271, "533", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasNumberPatientsCT> \"533\"."
+40, Randomized, 1281, 1291, "randomized", "", 
+1, FinalNumPatientsCT, 1294, 1297, "402", "", 
+41, Duration, 1317, 1326, "24 months", "", 
+42, IOP, 1374, 1377, "IOP", "", 
+82, Reduction, 1437, 1442, "7 . 1", "", "<http://ctro/data#Outcome_81053> <http://ctro/data#hasChangeValue> \"7 . 1\"."
+45, mmHg, 1443, 1447, "mmHg", "", "<http://ctro/data#Endpoint_81004> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+49, Tafluprost, 1452, 1462, "tafluprost", "", 
+83, Reduction, 1469, 1474, "7 . 7", "", "<http://ctro/data#Outcome_81080> <http://ctro/data#hasChangeValue> \"7 . 7\"."
+46, mmHg, 1475, 1479, "mmHg", "", 
+47, Latanoprost, 1484, 1495, "latanoprost", "", 
+48, TimePoint, 1499, 1508, "24 months", "", "<http://ctro/data#Outcome_81053> <http://ctro/data#hasTimePoint> \"24 months\". <http://ctro/data#Outcome_81080> <http://ctro/data#hasTimePoint> \"24 months\"."
+50, IOP, 1526, 1529, "IOP", "", 
+51, Latanoprost, 1590, 1601, "latanoprost", "", 
+53, Tafluprost, 1667, 1677, "tafluprost", "", 
+52, Latanoprost, 1681, 1692, "latanoprost", "", 
+54, Diurnal_IOP, 1702, 1713, "diurnal IOP", "", 
+56, mmHg, 1922, 1926, "mmHg", "", 
+57, Tafluprost, 1943, 1953, "Tafluprost", "", 
+60, ConclusionComment, 1943, 2042, "Tafluprost is a new effective and well - tolerated treatment for glaucoma and ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_80974> <http://ctro/data#hasConclusionComment> \"Tafluprost is a new effective and well - tolerated treatment for glaucoma and ocular hypertension .\"."
+58, Glaucoma, 2008, 2016, "glaucoma", "", 
+59, OcularHypertension, 2021, 2040, "ocular hypertension", "", 
+61, PMID, 2103, 2111, "20420586", "", "<http://ctro/data#Publication_80965> <http://ctro/data#hasPMID> \"20420586\"."

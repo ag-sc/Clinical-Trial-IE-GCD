@@ -1,0 +1,91 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Br J Ophthalmol .", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasJournal> \"Br J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "2013", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasPublicationYear> \"2013\"."
+4, Title, 120, 278, "Efficacy and safety of preservative - free latanoprost eyedrops , compared with BAK - preserved latanoprost in patients with ocular hypertension or glaucoma .", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasTitle> \"Efficacy and safety of preservative - free latanoprost eyedrops , compared with BAK - preserved latanoprost in patients with ocular hypertension or glaucoma .\"."
+79455, Preservative-Free_Latanoprost, 143, 174, "preservative - free latanoprost", "", "<http://ctro/data#Medication_66848> <http://ctro/data#hasDrug> <http://ctro/data#Preservative-Free_Latanoprost>."
+73, Eyedrops, 175, 183, "eyedrops", "", "<http://ctro/data#Medication_66848> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+70, OcularHypertension, 245, 264, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+71, Glaucoma, 268, 276, "glaucoma", "", "<http://ctro/data#Glaucoma_66823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_66802> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_66823>."
+5, Author, 279, 289, "Rouland JF", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Rouland JF\"."
+6, Author, 298, 309, "Traverso CE", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Traverso CE\"."
+7, Author, 312, 322, "Stalmans I", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Stalmans I\"."
+8, Author, 325, 333, "Fekih LE", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Fekih LE\"."
+9, Author, 336, 344, "Delval L", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Delval L\"."
+10, Author, 347, 356, "Renault D", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Renault D\"."
+11, Author, 359, 369, "Baudouin C", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasAuthor> \"Baudouin C\"."
+79515, Preservative-Free_Latanoprost, 372, 377, "T2345", "", 
+65, France, 491, 497, "France", "", "<http://ctro/data#Population_66825> <http://ctro/data#hasCountry> <http://ctro/data#France>."
+101, ObjectiveDescription, 526, 772, "To compare efficacy ( intraocular pressure ( IOP ) reduction ) and safety of preservative - free latanoprost ( T2345 ) to benzalkonium chloride ( BAK ) - preserved latanoprost ( BPL ; Xalatan ) in ocular hypertension ( OHT ) or primary open angle", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasObjectiveDescription> \"To compare efficacy ( intraocular pressure ( IOP ) reduction ) and safety of preservative - free latanoprost ( T2345 ) to benzalkonium chloride ( BAK ) - preserved latanoprost ( BPL ; Xalatan ) in ocular hypertension ( OHT ) or primary open angle\"."
+13, IOP, 548, 568, "intraocular pressure", "", "<http://ctro/data#IOP_66834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_66833> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_66834>."
+14, IOP, 571, 574, "IOP", "", 
+79460, Preservative-Free_Latanoprost, 603, 634, "preservative - free latanoprost", "", 
+79461, Preservative-Free_Latanoprost, 637, 642, "T2345", "", 
+79484, BAK-preserved_Latanoprost, 648, 701, "benzalkonium chloride ( BAK ) - preserved latanoprost", "", "<http://ctro/data#Medication_66855> <http://ctro/data#hasDrug> <http://ctro/data#BAK-preserved_Latanoprost>."
+79494, BAK-preserved_Latanoprost, 704, 707, "BPL", "", 
+18, OcularHypertension, 723, 742, "ocular hypertension", "", 
+18, OcularHypertension, 745, 748, "OHT", "", 
+94, Primary_OpenAngleGlaucoma, 754, 781, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+102, ObjectiveDescription, 773, 801, "glaucoma ( POAG ) patients .", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasObjectiveDescription> \"glaucoma ( POAG ) patients .\"."
+95, Primary_OpenAngleGlaucoma, 784, 788, "POAG", "", 
+96, Prospective, 812, 823, "Prospective", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+22, Multicenter, 842, 853, "multicentre", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+23, Randomized, 856, 866, "randomised", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+24, Blind, 869, 890, "investigator - masked", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+25, Parallel, 893, 901, "parallel", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+103, Primary_OpenAngleGlaucoma, 946, 950, "POAG", "", 
+18, OcularHypertension, 954, 957, "OHT", "", 
+79496, BAK-preserved_Latanoprost, 991, 994, "BPL", "", 
+23, Randomized, 1009, 1017, "randomly", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+79517, Preservative-Free_Latanoprost, 1027, 1032, "T2345", "", 
+79519, BAK-preserved_Latanoprost, 1036, 1039, "BPL", "", 
+26, Eyedrops, 1046, 1050, "drop", "", "<http://ctro/data#Medication_66855> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+27, Frequency, 1081, 1091, "once daily", "", "<http://ctro/data#Intervention_66862> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_66868> <http://ctro/data#hasFrequency> \"once daily\"."
+28, Duration, 1097, 1106, "D0 to D84", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasCTduration> \"D0 to D84\". <http://ctro/data#Intervention_66862> <http://ctro/data#hasDuration> \"D0 to D84\". <http://ctro/data#Intervention_66868> <http://ctro/data#hasDuration> \"D0 to D84\"."
+29, IOP, 1119, 1122, "IOP", "", 
+108, TimePoint, 1139, 1156, "09 : 00 ( ± 1 h )", "", 
+30, Duration, 1162, 1171, "D0 to D84", "", 
+31, Mean, 1201, 1205, "Mean", "", "<http://ctro/data#Mean_66835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_66833> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_66835>."
+32, IOP, 1206, 1209, "IOP", "", 
+33, Duration, 1222, 1230, "D0 - D84", "", 
+34, Reduction, 1239, 1244, "8 . 6", "", "<http://ctro/data#Outcome_66874> <http://ctro/data#hasChangeValue> \"8 . 6\"."
+115, SdDevChangeValue, 1245, 1252, "± 2 . 6", "", "<http://ctro/data#Outcome_66874> <http://ctro/data#hasSdDevChangeValue> \"± 2 . 6\"."
+37, mmHg, 1253, 1258, "mm Hg", "", "<http://ctro/data#Endpoint_66833> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+39, RelativeReduction, 1263, 1265, "36", "", "<http://ctro/data#Outcome_66874> <http://ctro/data#hasRelativeChangeValue> \"36\"."
+79475, Preservative-Free_Latanoprost, 1273, 1278, "T2345", "", 
+40, Reduction, 1285, 1290, "9 . 0", "", "<http://ctro/data#Outcome_66901> <http://ctro/data#hasChangeValue> \"9 . 0\"."
+116, SdDevChangeValue, 1293, 1298, "2 . 4", "", "<http://ctro/data#Outcome_66901> <http://ctro/data#hasSdDevChangeValue> \"2 . 4\"."
+38, mmHg, 1299, 1304, "mm Hg", "", 
+41, RelativeReduction, 1309, 1311, "38", "", "<http://ctro/data#Outcome_66901> <http://ctro/data#hasRelativeChangeValue> \"38\"."
+79498, BAK-preserved_Latanoprost, 1319, 1322, "BPL", "", 
+79477, Preservative-Free_Latanoprost, 1354, 1362, "of T2345", "", 
+79500, BAK-preserved_Latanoprost, 1366, 1369, "BPL", "", 
+79513, Preservative-Free_Latanoprost, 1393, 1398, "T2345", "", 
+42, TimePoint, 1417, 1420, "D15", "", 
+79396, EndPointDescription, 1464, 1480, "drug intolerance", "", "<http://ctro/data#EndPointDescription_66839> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_66838> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66839>."
+44, NumberAffected, 1499, 1500, "1", "", "<http://ctro/data#Outcome_66928> <http://ctro/data#hasNumberAffected> \"1\"."
+46, PercentageAffected, 1503, 1508, "0 . 5", "", "<http://ctro/data#Outcome_66928> <http://ctro/data#hasPercentageAffected> \"0 . 5\"."
+79472, Preservative-Free_Latanoprost, 1524, 1529, "T2345", "", 
+45, NumberAffected, 1537, 1538, "4", "", "<http://ctro/data#Outcome_66955> <http://ctro/data#hasNumberAffected> \"4\"."
+47, PercentageAffected, 1541, 1546, "2 . 1", "", "<http://ctro/data#Outcome_66955> <http://ctro/data#hasPercentageAffected> \"2 . 1\"."
+79502, BAK-preserved_Latanoprost, 1563, 1566, "BPL", "", 
+49, ConjunctivalHyperemia, 1588, 1611, "conjunctival hyperaemia", "", "<http://ctro/data#Endpoint_66843> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+79468, Preservative-Free_Latanoprost, 1633, 1638, "T2345", "", 
+79505, BAK-preserved_Latanoprost, 1647, 1650, "BPL", "", 
+50, TimePoint, 1654, 1657, "D42", "", "<http://ctro/data#Outcome_66982> <http://ctro/data#hasTimePoint> \"D42\". <http://ctro/data#Outcome_67009> <http://ctro/data#hasTimePoint> \"D42\"."
+51, PercentageAffected, 1660, 1666, "20 . 2", "", "<http://ctro/data#Outcome_66982> <http://ctro/data#hasPercentageAffected> \"20 . 2\"."
+52, PercentageAffected, 1672, 1678, "30 . 6", "", "<http://ctro/data#Outcome_67009> <http://ctro/data#hasPercentageAffected> \"30 . 6\"."
+55, PvalueDiff, 1683, 1694, "p = 0 . 003", "", "<http://ctro/data#DiffBetweenGroups_67090> <http://ctro/data#hasPvalueDiff> \"p = 0 . 003\"."
+57, TimePoint, 1701, 1704, "D84", "", 
+53, PercentageAffected, 1707, 1713, "21 . 4", "", "<http://ctro/data#Outcome_67009> <http://ctro/data#hasPercentageAffected> \"30 . 6\"."
+54, PercentageAffected, 1719, 1725, "29 . 1", "", "<http://ctro/data#Outcome_67063> <http://ctro/data#hasPercentageAffected> \"29 . 1\"."
+56, PvalueDiff, 1730, 1740, "p = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_67099> <http://ctro/data#hasPvalueDiff> \"p = 0 . 02\"."
+79470, Preservative-Free_Latanoprost, 1835, 1840, "T2345", "", 
+79503, BAK-preserved_Latanoprost, 1846, 1849, "BPL", "", 
+58, TimePoint, 1853, 1856, "D42", "", 
+59, PvalueDiff, 1878, 1889, "p = 0 . 001", "", 
+61, TimePoint, 1896, 1899, "D84", "", "<http://ctro/data#Outcome_67036> <http://ctro/data#hasTimePoint> \"D84\". <http://ctro/data#Outcome_67063> <http://ctro/data#hasTimePoint> \"D84\"."
+60, PvalueDiff, 1921, 1932, "p = 0 . 001", "", 
+79466, Preservative-Free_Latanoprost, 1951, 1982, "Preservative - free latanoprost", "", 
+62, ConclusionComment, 1951, 2045, "Preservative - free latanoprost has the same efficacy as BPL , with improved local tolerance .", "", "<http://ctro/data#ClinicalTrial_66802> <http://ctro/data#hasConclusionComment> \"Preservative - free latanoprost has the same efficacy as BPL , with improved local tolerance .\"."
+79507, BAK-preserved_Latanoprost, 2008, 2011, "BPL", "", 
+64, PMID, 2100, 2108, "23203707", "", "<http://ctro/data#Publication_66789> <http://ctro/data#hasPMID> \"23203707\"."

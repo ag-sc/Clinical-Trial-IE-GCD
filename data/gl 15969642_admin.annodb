@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2005", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasPublicationYear> \"2005\"."
+101, Title, 56, 283, "Efficacy of the dorzolamide / timolol fixed combination versus latanoprost in the treatment of ocular hypertension or glaucoma : combined analysis of pooled data from two large randomized observer and patient - masked studies .", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasTitle> \"Efficacy of the dorzolamide / timolol fixed combination versus latanoprost in the treatment of ocular hypertension or glaucoma : combined analysis of pooled data from two large randomized observer and patient - masked studies .\"."
+95, Dorz/TimFC, 72, 111, "dorzolamide / timolol fixed combination", "", 
+56223, Dorzolamide, 72, 83, "dorzolamide", "", 
+56221, Timolol, 86, 93, "timolol", "", 
+5, Latanoprost, 119, 130, "latanoprost", "", 
+6, OcularHypertension, 151, 170, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+7, Glaucoma, 174, 182, "glaucoma", "", "<http://ctro/data#Glaucoma_63153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_63090> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_63153>."
+8, Randomized, 233, 243, "randomized", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, DoubleBlind, 244, 273, "observer and patient - masked", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+10, Author, 284, 295, "Fechtner RD", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasAuthor> \"Fechtner RD\"."
+11, Author, 304, 316, "McCarroll KA", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasAuthor> \"McCarroll KA\"."
+12, Author, 319, 327, "Lines CR", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasAuthor> \"Lines CR\"."
+13, Author, 330, 341, "Adamsons IA", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasAuthor> \"Adamsons IA\"."
+14, USA, 441, 444, "USA", "", "<http://ctro/data#Population_55380> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+15, Randomized, 502, 512, "randomized", "", 
+109, Dorz/TimFC, 563, 602, "dorzolamide / timolol fixed combination", "", 
+56211, Dorzolamide, 563, 574, "dorzolamide", "", 
+56220, Timolol, 577, 584, "timolol", "", 
+110, Dorz/TimFC, 605, 611, "COSOPT", "", 
+22, Latanoprost, 618, 629, "latanoprost", "", 
+23, Latanoprost, 632, 639, "XALATAN", "", 
+24, Mean, 709, 713, "mean", "", "<http://ctro/data#Mean_63163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_63161> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_63163>."
+113, Diurnal_IOP, 722, 750, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_63161> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+26, IOP, 753, 756, "IOP", "", 
+27, Duration, 920, 929, "3 - month", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasCTduration> \"3 - month\"."
+116, Parallel, 932, 946, "parallel group", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+29, Randomized, 949, 959, "randomized", "", 
+30, DoubleBlind, 962, 1000, "observer - masked and patient - masked", "", 
+31, Multicenter, 1003, 1014, "multicenter", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+33, Precondition, 1025, 1069, "Patients with a baseline IOP > or = 24 mm Hg", "", "<http://ctro/data#Population_55380> <http://ctro/data#hasPrecondition> \"Patients with a baseline IOP > or = 24 mm Hg\"."
+32, IOP, 1050, 1053, "IOP", "", 
+121, mmHg, 1064, 1069, "mm Hg", "", 
+34, Randomized, 1075, 1085, "randomized", "", 
+35, DoseValue, 1100, 1101, "2", "", 
+56215, Dorz/TimFC, 1100, 1145, "2 % dorzolamide / 0 . 5 % timolol combination", "", "<http://ctro/data#Medication_63476> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+38, Percentage, 1102, 1103, "%", "", 
+41, Dorzolamide, 1104, 1115, "dorzolamide", "", 
+36, DoseValue, 1118, 1123, "0 . 5", "", 
+39, Percentage, 1124, 1125, "%", "", 
+42, Timolol, 1126, 1133, "timolol", "", 
+43, Eyedrops, 1146, 1155, "eye drops", "", "<http://ctro/data#Medication_63476> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+44, Frequency, 1156, 1167, "twice daily", "", "<http://ctro/data#Intervention_63464> <http://ctro/data#hasFrequency> \"twice daily\"."
+45, NumberPatientsArm, 1174, 1177, "273", "", "<http://ctro/data#Arm_63173> <http://ctro/data#hasNumberPatientsArm> \"273\"."
+37, DoseValue, 1183, 1190, "0 . 005", "", "<http://ctro/data#Medication_63609> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+40, Percentage, 1191, 1192, "%", "", "<http://ctro/data#Medication_63609> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+46, Latanoprost, 1193, 1204, "latanoprost", "", "<http://ctro/data#Latanoprost_63610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_63609> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_63610>."
+47, Eyedrops, 1205, 1214, "eye drops", "", "<http://ctro/data#Medication_63609> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+48, Frequency, 1215, 1225, "once daily", "", "<http://ctro/data#Intervention_63470> <http://ctro/data#hasFrequency> \"once daily\"."
+49, NumberPatientsArm, 1232, 1235, "271", "", "<http://ctro/data#Arm_63199> <http://ctro/data#hasNumberPatientsArm> \"271\"."
+50, IOP, 1244, 1247, "IOP", "", 
+138, TimePoint, 1274, 1278, "8 AM", "", 
+139, TimePoint, 1281, 1286, "10 AM", "", 
+140, TimePoint, 1289, 1293, "2 PM", "", 
+141, TimePoint, 1300, 1304, "4 PM", "", 
+56207, TimePoint, 1312, 1320, "baseline", "", 
+52, IOP, 1491, 1494, "IOP", "", 
+51, Mean, 1511, 1515, "mean", "", 
+53, IOP, 1516, 1519, "IOP", "", 
+144, SubGroupDescription, 1539, 1592, "patients with high IOP ( > or = 30 mmHg ) at baseline", "", 
+143, IOP, 1558, 1561, "IOP", "", 
+55, Mean, 1599, 1603, "mean", "", 
+56, IOP, 1604, 1607, "IOP", "", 
+57, FinalNumPatientsArm, 1672, 1675, "259", "", "<http://ctro/data#Arm_63173> <http://ctro/data#hasFinalNumPatientsArm> \"259\"."
+151, Dorz/TimFC, 1692, 1713, "dorzolamide / timolol", "", 
+56212, Dorzolamide, 1692, 1703, "dorzolamide", "", 
+56225, Timolol, 1706, 1713, "timolol", "", 
+58, FinalNumPatientsArm, 1724, 1727, "268", "", "<http://ctro/data#Arm_63199> <http://ctro/data#hasFinalNumPatientsArm> \"268\"."
+61, Latanoprost, 1744, 1755, "latanoprost", "", 
+153, TimePoint, 1803, 1814, "At 3 months", "", "<http://ctro/data#Outcome_63815> <http://ctro/data#hasTimePoint> \"At 3 months\". <http://ctro/data#Outcome_63842> <http://ctro/data#hasTimePoint> \"At 3 months\". <http://ctro/data#Outcome_63869> <http://ctro/data#hasTimePoint> \"At 3 months\". <http://ctro/data#Outcome_63896> <http://ctro/data#hasTimePoint> \"At 3 months\"."
+63, IOP, 1930, 1933, "IOP", "", 
+100522, IOP_target, 1956, 1974, "40 % IOP reduction", "", "<http://ctro/data#Endpoint_63166> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_target>."
+66, PercentageAffected, 1978, 1980, "15", "", "<http://ctro/data#Outcome_63815> <http://ctro/data#hasPercentageAffected> \"15\"."
+157, Dorz/TimFC, 1986, 2019, "dorzolamide / timolol combination", "", 
+56224, Dorzolamide, 1986, 1997, "dorzolamide", "", 
+56222, Timolol, 2000, 2007, "timolol", "", 
+69, PercentageAffected, 2033, 2035, "13", "", "<http://ctro/data#Outcome_63842> <http://ctro/data#hasPercentageAffected> \"13\"."
+70, Latanoprost, 2041, 2052, "latanoprost", "", 
+71, Mean, 2066, 2070, "mean", "", 
+72, IOP, 2071, 2074, "IOP", "", 
+73, IOP, 2113, 2116, "IOP", "", 
+56210, TimePoint, 2120, 2128, "baseline", "", 
+56209, Dorz/TimFC, 2131, 2164, "dorzolamide / timolol combination", "", 
+56216, Dorzolamide, 2131, 2142, "dorzolamide", "", 
+56218, Timolol, 2145, 2152, "timolol", "", 
+77, Reduction, 2167, 2173, "12 . 5", "", "<http://ctro/data#Outcome_63869> <http://ctro/data#hasChangeValue> \"12 . 5\"."
+78, mmHg, 2174, 2178, "mmHg", "", "<http://ctro/data#Endpoint_63161> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+76, Latanoprost, 2181, 2192, "latanoprost", "", 
+79, Reduction, 2195, 2201, "12 . 6", "", "<http://ctro/data#Outcome_63896> <http://ctro/data#hasChangeValue> \"12 . 6\"."
+80, mmHg, 2202, 2206, "mmHg", "", 
+81, Mean, 2215, 2219, "mean", "", 
+82, IOP, 2220, 2223, "IOP", "", 
+175, ConclusionComment, 2260, 2443, "By the measures used in this analysis , the dorzolamide / timolol combination and latanoprost were equally effective at lowering IOP in patients with ocular hypertension or glaucoma .", "", "<http://ctro/data#ClinicalTrial_63090> <http://ctro/data#hasConclusionComment> \"By the measures used in this analysis , the dorzolamide / timolol combination and latanoprost were equally effective at lowering IOP in patients with ocular hypertension or glaucoma .\"."
+170, Dorz/TimFC, 2304, 2337, "dorzolamide / timolol combination", "", 
+56217, Dorzolamide, 2304, 2315, "dorzolamide", "", 
+56219, Timolol, 2318, 2325, "timolol", "", 
+85, Latanoprost, 2342, 2353, "latanoprost", "", 
+86, IOP, 2389, 2392, "IOP", "", 
+87, OcularHypertension, 2410, 2429, "ocular hypertension", "", 
+88, Glaucoma, 2433, 2441, "glaucoma", "", 
+90, PMID, 2491, 2499, "15969642", "", "<http://ctro/data#Publication_53480> <http://ctro/data#hasPMID> \"15969642\"."

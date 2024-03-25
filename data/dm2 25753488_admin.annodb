@@ -1,0 +1,115 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Diabetes", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasJournal> \"J Diabetes\"."
+1, PublicationYear, 13, 17, "2016", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasPublicationYear> \"2016\"."
+29, Title, 104, 281, "Efficacy and safety of linagliptin in Asian patients with type 2 diabetes mellitus inadequately controlled by metformin : A multinational 24 - week , randomized clinical trial .", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasTitle> \"Efficacy and safety of linagliptin in Asian patients with type 2 diabetes mellitus inadequately controlled by metformin : A multinational 24 - week , randomized clinical trial .\"."
+2, Linagliptin, 127, 138, "linagliptin", "", 
+25, Ethnicity, 142, 147, "Asian", "", "<http://ctro/data#Ethnicity_67970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_67900> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_67970>."
+9, Type2Diabetes, 162, 186, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+113, Precondition, 187, 223, "inadequately controlled by metformin", "", "<http://ctro/data#Population_67900> <http://ctro/data#hasPrecondition> \"inadequately controlled by metformin\"."
+14, Metformin, 214, 223, "metformin", "", 
+20, Multicenter, 228, 241, "multinational", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+21, Duration, 242, 251, "24 - week", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasCTduration> \"24 - week\"."
+22, Randomized, 254, 264, "randomized", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+30, Author, 282, 288, "Wang W", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Wang W\"."
+31, Author, 297, 303, "Yang J", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Yang J\"."
+32, Author, 312, 318, "Yang G", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Yang G\"."
+33, Author, 327, 333, "Gong Y", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Gong Y\"."
+34, Author, 342, 349, "Patel S", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Patel S\"."
+35, Author, 358, 365, "Zhang C", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Zhang C\"."
+36, Author, 374, 383, "Izumoto T", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Izumoto T\"."
+37, Author, 392, 398, "Ning G", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasAuthor> \"Ning G\"."
+38, China, 514, 519, "China", "", 
+39, China, 594, 599, "China", "", 
+40, China, 684, 689, "China", "", 
+42, Germany, 740, 747, "Germany", "", 
+43, UK, 791, 793, "UK", "", 
+41, China, 858, 863, "China", "", 
+44, Japan, 910, 915, "Japan", "", 
+12, Type2Diabetes, 968, 992, "type 2 diabetes mellitus", "", 
+11, Type2Diabetes, 995, 999, "T2DM", "", 
+228, Ethnicity, 1084, 1093, "Caucasian", "", 
+54, ObjectiveDescription, 1125, 1343, "The present Phase III randomized placebo - controlled double - blind , 24 - week study evaluated the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor linagliptin added to metformin in Asian T2DM patients .", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasObjectiveDescription> \"The present Phase III randomized placebo - controlled double - blind , 24 - week study evaluated the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor linagliptin added to metformin in Asian T2DM patients .\"."
+24, Randomized, 1147, 1157, "randomized", "", 
+45, Placebo, 1158, 1165, "placebo", "", 
+51, DoubleBlind, 1179, 1193, "double - blind", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+52, Duration, 1196, 1205, "24 - week", "", 
+3, Linagliptin, 1288, 1299, "linagliptin", "", 
+15, Metformin, 1309, 1318, "metformin", "", 
+53, Ethnicity, 1322, 1327, "Asian", "", 
+10, Type2Diabetes, 1328, 1332, "T2DM", "", 
+55, NumberPatientsCT, 1363, 1366, "306", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasNumberPatientsCT> \"306\"."
+64, Precondition, 1367, 1526, "patients ( n  =  265 Chinese ; n  =  24 Malaysian ; n  =  17 Filipino ) , aged 18 - 80 years with HbA1c between ≥ 7 . 0 and ≤ 10 . 0 % and on metformin therapy", "", "<http://ctro/data#Population_67900> <http://ctro/data#hasPrecondition> \"patients ( n  =  265 Chinese ; n  =  24 Malaysian ; n  =  17 Filipino ) , aged 18 - 80 years with HbA1c between ≥ 7 . 0 and ≤ 10 . 0 % and on metformin therapy\"."
+26, Ethnicity, 1388, 1395, "Chinese", "", "<http://ctro/data#Ethnicity_67902> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_67900> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_67902>."
+27, Ethnicity, 1407, 1416, "Malaysian", "", "<http://ctro/data#Ethnicity_67968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_67900> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_67968>."
+28, Ethnicity, 1428, 1436, "Filipino", "", "<http://ctro/data#Ethnicity_67969> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_67900> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_67969>."
+56, MinAge, 1446, 1448, "18", "", "<http://ctro/data#Population_67900> <http://ctro/data#hasMinAge> \"18\"."
+57, MaxAge, 1451, 1453, "80", "", "<http://ctro/data#Population_67900> <http://ctro/data#hasMaxAge> \"80\"."
+159, Year, 1454, 1459, "years", "", 
+58, HbA1c, 1465, 1470, "HbA1c", "", 
+59, Percentage, 1500, 1501, "%", "", 
+16, Metformin, 1509, 1518, "metformin", "", 
+23, Randomized, 1532, 1542, "randomized", "", 
+60, AllocationRatio, 1545, 1550, "2 : 1", "", "<http://ctro/data#AllocationRatio_67888> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_67888>."
+4, Linagliptin, 1563, 1574, "linagliptin", "", "<http://ctro/data#Medication_67944> <http://ctro/data#hasDrug> <http://ctro/data#Linagliptin>."
+61, DoseValue, 1575, 1576, "5", "", "<http://ctro/data#Medication_67944> <http://ctro/data#hasDoseValue> \"5\"."
+62, mg, 1579, 1581, "mg", "", "<http://ctro/data#Medication_67944> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+63, Frequency, 1582, 1587, "daily", "", "<http://ctro/data#Intervention_67926> <http://ctro/data#hasFrequency> \"daily\"."
+46, Placebo, 1591, 1598, "placebo", "", "<http://ctro/data#Medication_67951> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+17, Metformin, 1608, 1617, "metformin", "", 
+18, Metformin, 1650, 1659, "metformin", "", 
+164, Randomized, 1685, 1698, "randomization", "", 
+166, Mean, 1736, 1740, "mean", "", 
+66, HbA1c, 1741, 1746, "HbA1c", "", 
+67, TimePoint, 1752, 1760, "baseline", "", 
+68, TimePoint, 1767, 1775, "24 weeks", "", 
+171, Mean, 1862, 1866, "mean", "", 
+69, HbA1c, 1875, 1880, "HbA1c", "", 
+71, BaseLineValue, 1881, 1886, "8 . 0", "", "<http://ctro/data#Outcome_67981> <http://ctro/data#hasBaselineValue> \"8 . 0\". <http://ctro/data#Outcome_68013> <http://ctro/data#hasBaselineValue> \"8 . 0\"."
+72, SdDevBL, 1891, 1896, "0 . 8", "", "<http://ctro/data#Outcome_67981> <http://ctro/data#hasSdDevBL> \"0 . 8\". <http://ctro/data#Outcome_68013> <http://ctro/data#hasSdDevBL> \"0 . 8\"."
+73, Percentage, 1897, 1898, "%", "", 
+186, Mean, 1912, 1916, "mean", "", "<http://ctro/data#Mean_68010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_68008> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_68010>."
+75, HbA1c, 1926, 1931, "HbA1c", "", "<http://ctro/data#Endpoint_68008> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+5, Linagliptin, 1949, 1960, "linagliptin", "", 
+48, Placebo, 1965, 1972, "placebo", "", 
+76, Reduction, 1985, 1991, "0 . 66", "", "<http://ctro/data#Outcome_67981> <http://ctro/data#hasChangeValue> \"0 . 66\"."
+78, SdErrorChangeValue, 1996, 2002, "0 . 05", "", "<http://ctro/data#Outcome_67981> <http://ctro/data#hasSdErrorChangeValue> \"0 . 05\"."
+77, Reduction, 2009, 2015, "0 . 14", "", "<http://ctro/data#Outcome_68013> <http://ctro/data#hasChangeValue> \"0 . 14\"."
+79, SdErrorChangeValue, 2020, 2026, "0 . 07", "", "<http://ctro/data#Outcome_68013> <http://ctro/data#hasSdErrorChangeValue> \"0 . 07\"."
+80, Percentage, 2027, 2028, "%", "", "<http://ctro/data#Endpoint_68008> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+47, Placebo, 2046, 2053, "placebo", "", 
+82, DiffGroupAbsValue, 2077, 2085, "- 0 . 52", "", "<http://ctro/data#DiffBetweenGroups_68040> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 52\"."
+83, SdErrorDiff, 2090, 2096, "0 . 09", "", "<http://ctro/data#DiffBetweenGroups_68040> <http://ctro/data#hasStandardErrorDiff> \"0 . 09\"."
+81, Percentage, 2097, 2098, "%", "", 
+84, ConfIntervalDiff, 2101, 2152, "95 % confidence interval [ CI ] - 0 . 70 , - 0 . 34", "", "<http://ctro/data#DiffBetweenGroups_68040> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval [ CI ] - 0 . 70 , - 0 . 34\"."
+85, PvalueDiff, 2155, 2169, "P  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_68040> <http://ctro/data#hasPvalueDiff> \"P  <  0 . 0001\"."
+106171, SubGroupDescription, 2177, 2215, "patients with baseline HbA1c ≥ 8 . 5 %", "", "<http://ctro/data#Outcome_68049> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≥ 8 . 5 %\"."
+199, HbA1c, 2200, 2205, "HbA1c", "", 
+179, Percentage, 2214, 2215, "%", "", 
+49, Placebo, 2222, 2229, "placebo", "", 
+87, HbA1c, 2254, 2259, "HbA1c", "", 
+88, Reduction, 2266, 2272, "0 . 89", "", "<http://ctro/data#Outcome_68049> <http://ctro/data#hasChangeValue> \"0 . 89\"."
+89, SdErrorChangeValue, 2277, 2283, "0 . 17", "", "<http://ctro/data#Outcome_68049> <http://ctro/data#hasSdErrorChangeValue> \"0 . 17\"."
+90, Percentage, 2284, 2285, "%", "", 
+91, PValueChangeValue, 2288, 2302, "P  <  0 . 0001", "", "<http://ctro/data#Outcome_68049> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 0001\"."
+92, EndPointDescription, 2307, 2321, "Adverse events", "", "<http://ctro/data#EndPointDescription_68077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68076> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68077>."
+6, Linagliptin, 2361, 2372, "linagliptin", "", 
+50, Placebo, 2377, 2384, "placebo", "", 
+94, PercentageAffected, 2396, 2402, "27 . 3", "", "<http://ctro/data#Outcome_68081> <http://ctro/data#hasPercentageAffected> \"27 . 3\"."
+95, PercentageAffected, 2409, 2415, "28 . 0", "", "<http://ctro/data#Outcome_68108> <http://ctro/data#hasPercentageAffected> \"28 . 0\"."
+211, EndPointDescription, 2459, 2473, "drug - related", "", "<http://ctro/data#EndPointDescription_68136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_68135> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_68136>."
+96, PercentageAffected, 2476, 2481, "2 . 4", "", "<http://ctro/data#Outcome_68140> <http://ctro/data#hasPercentageAffected> \"2 . 4\"."
+97, PercentageAffected, 2488, 2493, "0 . 0", "", "<http://ctro/data#Outcome_68167> <http://ctro/data#hasPercentageAffected> \"0 . 0\"."
+99, Hypoglycemia, 2515, 2527, "Hypoglycemia", "", "<http://ctro/data#Endpoint_68194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+98, PercentageAffected, 2540, 2545, "1 . 0", "", "<http://ctro/data#Outcome_68199> <http://ctro/data#hasPercentageAffected> \"1 . 0\". <http://ctro/data#Outcome_68226> <http://ctro/data#hasPercentageAffected> \"1 . 0\"."
+7, Linagliptin, 2577, 2588, "Linagliptin", "", 
+101, ObservedResult, 2577, 2617, "Linagliptin therapy was weight neutral .", "", "<http://ctro/data#Outcome_68258> <http://ctro/data#hasObservedResult> \"Linagliptin therapy was weight neutral .\"."
+100, BodyWeight, 2601, 2607, "weight", "", "<http://ctro/data#Endpoint_68253> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+8, Linagliptin, 2632, 2643, "Linagliptin", "", 
+107, ConclusionComment, 2632, 2766, "Linagliptin 5   mg was efficacious and well tolerated over 24 weeks in Asian patients with T2DM inadequately controlled by metformin .", "", "<http://ctro/data#ClinicalTrial_67884> <http://ctro/data#hasConclusionComment> \"Linagliptin 5   mg was efficacious and well tolerated over 24 weeks in Asian patients with T2DM inadequately controlled by metformin .\"."
+102, DoseValue, 2644, 2645, "5", "", 
+103, mg, 2648, 2650, "mg", "", 
+104, Duration, 2691, 2699, "24 weeks", "", 
+105, Ethnicity, 2703, 2708, "Asian", "", 
+13, Type2Diabetes, 2723, 2727, "T2DM", "", 
+19, Metformin, 2755, 2764, "metformin", "", 
+108, PMID, 2921, 2929, "25753488", "", "<http://ctro/data#Publication_67877> <http://ctro/data#hasPMID> \"25753488\"."

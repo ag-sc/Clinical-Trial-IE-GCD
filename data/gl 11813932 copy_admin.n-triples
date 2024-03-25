@@ -1,0 +1,165 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_105239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_105239> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 105239#" .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasTitle> "A comparison of the efficacy and tolerability of brimonidine and latanoprost in adults with open - angle glaucoma or ocular hypertension : a three - month , multicenter , randomized , double - masked , parallel - group trial ." .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasAuthor> "DuBiner HB" .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasPublicationYear> "2001" .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasJournal> "Clin Ther ." .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasPMID> "11813932" .
+<http://ctro/data#Publication_105239> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_105246> .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasAuthor> "Mroz M" .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasAuthor> "Shapiro AM" .
+<http://ctro/data#Publication_105239> <http://ctro/data#hasAuthor> "Dirks MS" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_105246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_105246> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 105246" .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasObjectiveDescription> "This study compared the clinical efficacy and tolerability of brimonidine 0 . 2 % twice daily with those of latanoprost 0 . 005 % once daily as monotherapy in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasNumberPatientsCT> "127" .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasCTduration> "three - month" .
+<http://ctro/data#AllocationRatio_105250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_105251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasConclusionComment> "At peak effect , brimonidine twice daily was as effective as latanoprost once daily in lowering IOP ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasArm> <http://ctro/data#Arm_105270> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasPopulation> <http://ctro/data#Population_105262> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_105444> .
+<http://ctro/data#EvidenceQuality_105258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasArm> <http://ctro/data#Arm_105279> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasConclusionComment> "In treatment - naive patients , latanoprost was associated with a significantly higher rate of nonresponse after 3 months of treatment compared with brimonidine ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasConclusionComment> "This suggests that brimonidine may be the more reliable choice for first - line therapy of newly diagnosed open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasConclusionComment> "In previously treated patients , however , latanoprost provided greater mean IOP reduction than did brimonidine ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasConclusionComment> "Significantly more patients achieved clinical success with brimonidine monotherapy than with latanoprost monotherapy ." .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_105246> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_105566> .
+# RDF export of group: Population
+<http://ctro/data#Population_105262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_105262> <http://www.w3.org/2000/01/rdf-schema#label> "Population 105262" .
+<http://ctro/data#Population_105262> <http://ctro/data#hasPrecondition> "treatment - naive and previously treated patients with open - angle glaucoma or ocular hypertension and bilateral intraocular pressure ( IOP ) after washout of between 22 and 34 mm Hg" .
+<http://ctro/data#Ethnicity_105264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_105265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Gender_105269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_105326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_105326> <http://www.w3.org/2000/01/rdf-schema#label> "iop" .
+<http://ctro/data#IOP_105327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_105326> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_105327> .
+<http://ctro/data#Mean_105328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_105326> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_105328> .
+<http://ctro/data#Endpoint_105326> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_105330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_105385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_105385> <http://www.w3.org/2000/01/rdf-schema#label> "iopt" .
+<http://ctro/data#Endpoint_105385> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_target> .
+<http://ctro/data#AggregationMethod_105387> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_105388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_105389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_105453> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_105453> <http://www.w3.org/2000/01/rdf-schema#label> "succ" .
+<http://ctro/data#EndPointDescription_105454> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_105453> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_105454> .
+<http://ctro/data#AggregationMethod_105455> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_105456> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_105457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_105270> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_105270> <http://www.w3.org/2000/01/rdf-schema#label> "brim" .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasNumberPatientsArm> "66" .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_105288> .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105331> .
+<http://ctro/data#Outcome_105275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105390> .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105458> .
+<http://ctro/data#Arm_105270> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105512> .
+<http://ctro/data#Arm_105279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_105279> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasNumberPatientsArm> "61" .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_105294> .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105358> .
+<http://ctro/data#Outcome_105284> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105417> .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105485> .
+<http://ctro/data#Arm_105279> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_105539> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_105288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_105288> <http://www.w3.org/2000/01/rdf-schema#label> "brim" .
+<http://ctro/data#Intervention_105288> <http://ctro/data#hasMedication> <http://ctro/data#Medication_105300> .
+<http://ctro/data#Intervention_105288> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_105293> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_105294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_105294> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
+<http://ctro/data#Intervention_105294> <http://ctro/data#hasMedication> <http://ctro/data#Medication_105307> .
+<http://ctro/data#Intervention_105294> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_105299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_105300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_105300> <http://www.w3.org/2000/01/rdf-schema#label> "brim" .
+<http://ctro/data#Medication_105300> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_105300> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_105300> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_105304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_105307> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_105307> <http://www.w3.org/2000/01/rdf-schema#label> "lat" .
+<http://ctro/data#Latanoprost_105308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_105307> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_105308> .
+<http://ctro/data#Medication_105307> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_105307> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_105311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_105331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105331> <http://www.w3.org/2000/01/rdf-schema#label> "iop1" .
+<http://ctro/data#Outcome_105331> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105326> .
+<http://ctro/data#Outcome_105331> <http://ctro/data#hasChangeValue> "6 . 8" .
+<http://ctro/data#Outcome_105331> <http://ctro/data#hasRelativeChangeValue> "27 . 8" .
+<http://ctro/data#Outcome_105331> <http://ctro/data#hasTimePoint> "month 3" .
+<http://ctro/data#Outcome_105358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105358> <http://www.w3.org/2000/01/rdf-schema#label> "iop2" .
+<http://ctro/data#Outcome_105358> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105326> .
+<http://ctro/data#Outcome_105358> <http://ctro/data#hasChangeValue> "6 . 5" .
+<http://ctro/data#Outcome_105358> <http://ctro/data#hasRelativeChangeValue> "27 . 0" .
+<http://ctro/data#Outcome_105358> <http://ctro/data#hasTimePoint> "month 3" .
+<http://ctro/data#Outcome_105390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105390> <http://www.w3.org/2000/01/rdf-schema#label> "iopt1" .
+<http://ctro/data#Outcome_105390> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105385> .
+<http://ctro/data#Outcome_105390> <http://ctro/data#hasPercentageAffected> "88" .
+<http://ctro/data#Outcome_105390> <http://ctro/data#hasSubGroupDescription> "treatment - naive patients" .
+<http://ctro/data#Outcome_105417> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105417> <http://www.w3.org/2000/01/rdf-schema#label> "iopt2" .
+<http://ctro/data#Outcome_105417> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105385> .
+<http://ctro/data#Outcome_105417> <http://ctro/data#hasPercentageAffected> "59" .
+<http://ctro/data#Outcome_105417> <http://ctro/data#hasSubGroupDescription> "treatment - naive patients" .
+<http://ctro/data#Outcome_105458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105458> <http://www.w3.org/2000/01/rdf-schema#label> "usc1" .
+<http://ctro/data#Outcome_105458> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105453> .
+<http://ctro/data#Outcome_105458> <http://ctro/data#hasPercentageAffected> "91" .
+<http://ctro/data#Outcome_105458> <http://ctro/data#hasTimePoint> "month 3" .
+<http://ctro/data#Outcome_105485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105485> <http://www.w3.org/2000/01/rdf-schema#label> "suc2" .
+<http://ctro/data#Outcome_105485> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105453> .
+<http://ctro/data#Outcome_105485> <http://ctro/data#hasPercentageAffected> "74" .
+<http://ctro/data#Outcome_105485> <http://ctro/data#hasTimePoint> "month 3" .
+<http://ctro/data#Outcome_105512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105512> <http://www.w3.org/2000/01/rdf-schema#label> "iopt21" .
+<http://ctro/data#Outcome_105512> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105385> .
+<http://ctro/data#Outcome_105512> <http://ctro/data#hasPercentageAffected> "74" .
+<http://ctro/data#Outcome_105512> <http://ctro/data#hasSubGroupDescription> "previously treated" .
+<http://ctro/data#Outcome_105539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_105539> <http://www.w3.org/2000/01/rdf-schema#label> "iopt22" .
+<http://ctro/data#Outcome_105539> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_105385> .
+<http://ctro/data#Outcome_105539> <http://ctro/data#hasPercentageAffected> "88" .
+<http://ctro/data#Outcome_105539> <http://ctro/data#hasSubGroupDescription> "previously treated" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_105444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_105444> <http://www.w3.org/2000/01/rdf-schema#label> "iopt" .
+<http://ctro/data#DiffBetweenGroups_105444> <http://ctro/data#hasPvalueDiff> "P = 0 . 01" .
+<http://ctro/data#DiffBetweenGroups_105444> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_105390> .
+<http://ctro/data#DiffBetweenGroups_105444> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_105417> .
+<http://ctro/data#DiffBetweenGroups_105566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_105566> <http://www.w3.org/2000/01/rdf-schema#label> "succ" .
+<http://ctro/data#DiffBetweenGroups_105566> <http://ctro/data#hasPvalueDiff> "P = 0 . 01" .
+<http://ctro/data#DiffBetweenGroups_105566> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_105458> .
+<http://ctro/data#DiffBetweenGroups_105566> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_105485> .
+# RDF export of group: EvidenceQuality

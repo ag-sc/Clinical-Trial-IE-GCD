@@ -1,0 +1,90 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+160, Journal, 0, 14, "Arch Med Res .", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasJournal> \"Arch Med Res .\"."
+0, PublicationYear, 15, 19, "2006", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasPublicationYear> \"2006\"."
+161, Title, 49, 150, "Therapy in type 2 diabetes : insulin glargine vs . NPH insulin both in combination with glimepiride .", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasTitle> \"Therapy in type 2 diabetes : insulin glargine vs . NPH insulin both in combination with glimepiride .\"."
+1, Type2Diabetes, 60, 75, "type 2 diabetes", "", 
+2, InsulinGlargine, 78, 94, "insulin glargine", "", 
+3, IsophaneInsulin_NPH, 100, 111, "NPH insulin", "", 
+4, Glimepiride, 137, 148, "glimepiride", "", 
+5, Author, 151, 166, "Eliaschewitz FG", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Eliaschewitz FG\"."
+6, Author, 175, 182, "Calvo C", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Calvo C\"."
+7, Author, 185, 195, "Valbuena H", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Valbuena H\"."
+8, Author, 198, 204, "Ruiz M", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Ruiz M\"."
+9, Author, 207, 216, "Aschner P", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Aschner P\"."
+10, Author, 219, 228, "Villena J", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Villena J\"."
+11, Author, 231, 241, "Ramirez LA", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Ramirez LA\"."
+12, Author, 244, 253, "Jimenez J", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasAuthor> \"Jimenez J\"."
+13, Brazil, 353, 359, "Brazil", "", "<http://ctro/data#Population_37823> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+14, Type2Diabetes, 403, 418, "Type 2 diabetes", "", 
+15, Type2Diabetes, 421, 425, "T2DM", "", 
+16, OralAntidiabeticAgent, 490, 513, "oral antidiabetic drugs", "", 
+17, OralAntidiabeticAgent, 516, 520, "OADs", "", 
+18, Insulin, 525, 532, "Insulin", "", 
+19, Hypoglycemia, 621, 633, "hypoglycemia", "", 
+162, ObjectiveDescription, 636, 846, "This study compared the efficacy and safety of insulin glargine and NPH insulin , both in combination with a once - daily fixed dose of glimepiride , in terms of glycemic control and incidence of hypoglycemia .", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasObjectiveDescription> \"This study compared the efficacy and safety of insulin glargine and NPH insulin , both in combination with a once - daily fixed dose of glimepiride , in terms of glycemic control and incidence of hypoglycemia .\"."
+20, InsulinGlargine, 683, 699, "insulin glargine", "", 
+21, IsophaneInsulin_NPH, 704, 715, "NPH insulin", "", 
+104, Frequency, 745, 757, "once - daily", "", "<http://ctro/data#Intervention_37879> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_37885> <http://ctro/data#hasFrequency> \"once - daily\"."
+23, Glimepiride, 772, 783, "glimepiride", "", 
+24, Hypoglycemia, 832, 844, "hypoglycemia", "", 
+25, OpenLabel, 865, 877, "open - label", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+27, Duration, 880, 889, "24 - week", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasCTduration> \"24 - week\"."
+26, Randomized, 890, 900, "randomized", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+28, Multicenter, 910, 938, "ten Latin American countries", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+29, Type2Diabetes, 941, 945, "T2DM", "", 
+33, Precondition, 941, 1023, "T2DM patients poorly controlled on OADs ( HbA1c > or = 7 . 5 and < or = 10 . 5 % )", "", "<http://ctro/data#Population_37823> <http://ctro/data#hasPrecondition> \"T2DM patients poorly controlled on OADs ( HbA1c > or = 7 . 5 and < or = 10 . 5 % )\"."
+30, OralAntidiabeticAgent, 976, 980, "OADs", "", 
+31, HbA1c, 983, 988, "HbA1c", "", 
+32, Percentage, 1020, 1021, "%", "", 
+34, Glimepiride, 1033, 1044, "glimepiride", "", "<http://ctro/data#Medication_37891> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride>."
+35, InsulinGlargine, 1050, 1066, "insulin glargine", "", "<http://ctro/data#Medication_37898> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+36, NumberPatientsArm, 1073, 1076, "231", "", "<http://ctro/data#Arm_37861> <http://ctro/data#hasNumberPatientsArm> \"231\"."
+37, IsophaneInsulin_NPH, 1082, 1093, "NPH insulin", "", "<http://ctro/data#Medication_37905> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+38, NumberPatientsArm, 1100, 1103, "250", "", "<http://ctro/data#Arm_37870> <http://ctro/data#hasNumberPatientsArm> \"250\"."
+51230, DoseDescription, 1106, 1140, "using a forced titration algorithm", "", "<http://ctro/data#Medication_37891> <http://ctro/data#hasDoseDescription> \"using a forced titration algorithm\". <http://ctro/data#Medication_37898> <http://ctro/data#hasDoseDescription> \"using a forced titration algorithm\". <http://ctro/data#Medication_37905> <http://ctro/data#hasDoseDescription> \"using a forced titration algorithm\"."
+39, Duration, 1187, 1196, "24 - week", "", 
+158, Mean, 1197, 1201, "mean", "", 
+40, HbA1c, 1213, 1218, "HbA1c", "", 
+41, InsulinGlargine, 1231, 1247, "Insulin glargine", "", 
+42, IsophaneInsulin_NPH, 1252, 1263, "NPH insulin", "", 
+43, HbA1c, 1281, 1286, "HbA1c", "", "<http://ctro/data#Endpoint_37831> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+159, Mean, 1309, 1313, "mean", "", "<http://ctro/data#Mean_37833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_37831> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_37833>."
+124, DiffGroupAbsValue, 1325, 1334, "- 0 . 047", "", "<http://ctro/data#DiffBetweenGroups_37966> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 047\"."
+125, ConfIntervalDiff, 1337, 1364, "90 % CI - 0 . 232 , 0 . 138", "", "<http://ctro/data#DiffBetweenGroups_37966> <http://ctro/data#hasConfIntervalDiff> \"90 % CI - 0 . 232 , 0 . 138\"."
+45874, SubGroupDescription, 1367, 1390, "per - protocol analysis", "", "<http://ctro/data#Outcome_37912> <http://ctro/data#hasSubGroupDescription> \"per - protocol analysis\". <http://ctro/data#Outcome_37939> <http://ctro/data#hasSubGroupDescription> \"per - protocol analysis\"."
+80, PerProtocol, 1367, 1381, "per - protocol", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+46, NocturnalHypoglycemia, 1405, 1427, "nocturnal hypoglycemia", "", "<http://ctro/data#Endpoint_37836> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+47, InsulinGlargine, 1457, 1473, "insulin glargine", "", 
+48, IsophaneInsulin_NPH, 1479, 1490, "NPH insulin", "", 
+49, PercentageAffected, 1493, 1499, "16 . 9", "", "<http://ctro/data#Outcome_37975> <http://ctro/data#hasPercentageAffected> \"16 . 9\"."
+50, PercentageAffected, 1505, 1511, "30 . 0", "", "<http://ctro/data#Outcome_38002> <http://ctro/data#hasPercentageAffected> \"30 . 0\"."
+51, PvalueDiff, 1516, 1526, "p < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_38029> <http://ctro/data#hasPvalueDiff> \"p < 0 . 01\"."
+52, InsulinGlargine, 1568, 1584, "insulin glargine", "", 
+53, HbA1c_target, 1627, 1649, "HbA1c levels < 7 . 0 %", "", "<http://ctro/data#Endpoint_37841> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+54, Percentage, 1648, 1649, "%", "", 
+55, Hypoglycemia, 1658, 1670, "hypoglycemia", "", "<http://ctro/data#Endpoint_37846> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+57, PercentageAffected, 1673, 1675, "27", "", "<http://ctro/data#Outcome_38038> <http://ctro/data#hasPercentageAffected> \"27\"."
+58, PercentageAffected, 1681, 1683, "17", "", "<http://ctro/data#Outcome_38065> <http://ctro/data#hasPercentageAffected> \"17\"."
+59, PvalueDiff, 1688, 1699, "p = 0 . 014", "", "<http://ctro/data#DiffBetweenGroups_38092> <http://ctro/data#hasPvalueDiff> \"p = 0 . 014\"."
+45873, SubGroupDescription, 1702, 1725, "per - protocol analysis", "", "<http://ctro/data#Outcome_38038> <http://ctro/data#hasSubGroupDescription> \"per - protocol analysis\". <http://ctro/data#Outcome_38065> <http://ctro/data#hasSubGroupDescription> \"per - protocol analysis\"."
+78, PerProtocol, 1702, 1716, "per - protocol", "", 
+62, EndPointDescription, 1758, 1780, "treatment satisfaction", "", "<http://ctro/data#EndPointDescription_37852> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_37851> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_37852>."
+60, InsulinGlargine, 1798, 1814, "insulin glargine", "", 
+61, IsophaneInsulin_NPH, 1820, 1831, "NPH insulin", "", 
+63, PvalueDiff, 1834, 1844, "p < 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_38155> <http://ctro/data#hasPvalueDiff> \"p < 0 . 02\"."
+45875, SubGroupDescription, 1847, 1860, "full analysis", "", "<http://ctro/data#Outcome_38101> <http://ctro/data#hasSubGroupDescription> \"full analysis\". <http://ctro/data#Outcome_38128> <http://ctro/data#hasSubGroupDescription> \"full analysis\"."
+68, EndPointDescription, 1883, 1952, "patients who lost time from work or normal activities due to diabetes", "", "<http://ctro/data#EndPointDescription_37857> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_37856> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_37857>."
+64, InsulinGlargine, 1968, 1984, "insulin glargine", "", 
+65, IsophaneInsulin_NPH, 1990, 1993, "NPH", "", 
+66, PercentageAffected, 1996, 2001, "1 . 8", "", "<http://ctro/data#Outcome_38164> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+67, PercentageAffected, 2007, 2012, "3 . 3", "", "<http://ctro/data#Outcome_38191> <http://ctro/data#hasPercentageAffected> \"3 . 3\"."
+45872, SubGroupDescription, 2017, 2030, "full analysis", "", "<http://ctro/data#Outcome_38164> <http://ctro/data#hasSubGroupDescription> \"full analysis\". <http://ctro/data#Outcome_38191> <http://ctro/data#hasSubGroupDescription> \"full analysis\"."
+163, ConclusionComment, 2049, 2276, "In patients with T2DM , inadequately controlled on OADs , once - daily insulin glargine plus glimepiride is effective in improving metabolic control with a reduced incidence of nocturnal hypoglycemia compared with NPH insulin .", "", "<http://ctro/data#ClinicalTrial_37804> <http://ctro/data#hasConclusionComment> \"In patients with T2DM , inadequately controlled on OADs , once - daily insulin glargine plus glimepiride is effective in improving metabolic control with a reduced incidence of nocturnal hypoglycemia compared with NPH insulin .\"."
+69, Type2Diabetes, 2066, 2070, "T2DM", "", 
+70, OralAntidiabeticAgent, 2100, 2104, "OADs", "", 
+72, Frequency, 2107, 2119, "once - daily", "", 
+73, InsulinGlargine, 2120, 2136, "insulin glargine", "", 
+74, Glimepiride, 2142, 2153, "glimepiride", "", 
+75, NocturnalHypoglycemia, 2226, 2248, "nocturnal hypoglycemia", "", 
+76, IsophaneInsulin_NPH, 2263, 2274, "NPH insulin", "", 
+77, PMID, 2284, 2292, "16715577", "", "<http://ctro/data#Publication_37790> <http://ctro/data#hasPMID> \"16715577\"."

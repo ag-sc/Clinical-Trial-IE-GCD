@@ -1,0 +1,136 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_103060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_103060> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasTitle> "A comparative study of two dose regimens of latanoprost in patients with elevated intraocular pressure ." .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Lusky M" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasPublicationYear> "1997" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasJournal> "Ophthalmology" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasPMID> "9331215" .
+<http://ctro/data#Publication_103060> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_103073> .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Ticho U" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Glovinsky J" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Nesher R" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Weinberger D" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Yassur Y" .
+<http://ctro/data#Publication_103060> <http://ctro/data#hasAuthor> "Melamed S" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_103073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_103073> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasObjectiveDescription> "The purpose of the study was to determine whether latanoprost ( 13 , 14 - dihydro - 17 - phenyl - 18 , 19 , 20 - trinor PGF2a - isopropyl ester ) , a new prostaglandin analogue" .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasNumberPatientsCT> "Fifty" .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasCTduration> "3 weeks" .
+<http://ctro/data#AllocationRatio_103077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_103078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasConclusionComment> "Latanoprost administered at a concentration of 50 microg / ml once daily effectively reduces IOP in patients with elevated IOP ." .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasArm> <http://ctro/data#Arm_103108> .
+<http://ctro/data#Glaucoma_103082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_103082> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasPopulation> <http://ctro/data#Population_103094> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_103876> .
+<http://ctro/data#EvidenceQuality_103085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasObjectiveDescription> "that has been found effective in reducing intraocular pressure ( IOP ) in humans , is equally effective at lower concentrations than those currently employed ." .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasConclusionComment> "Administration of a lower concentration ( 15 microg / ml ) twice daily is less effective , but still significant ." .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_103073> <http://ctro/data#hasArm> <http://ctro/data#Arm_103117> .
+# RDF export of group: Population
+<http://ctro/data#Population_103094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_103094> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_103094> <http://ctro/data#hasPrecondition> "patients with elevated intraocular pressure" .
+<http://ctro/data#Ethnicity_103096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_103094> <http://ctro/data#hasCountry> <http://ctro/data#Israel> .
+<http://ctro/data#Gender_103101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_103094> <http://ctro/data#hasPrecondition> "patients with glaucoma or ocular hypertension" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_103103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_103103> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#Endpoint_103103> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_103105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_103103> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_103105> .
+<http://ctro/data#Endpoint_103103> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_103107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_103885> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_103885> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_AE_H" .
+<http://ctro/data#Endpoint_103885> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia> .
+<http://ctro/data#AggregationMethod_103887> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_103888> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_103889> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_103108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_103108> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_15" .
+<http://ctro/data#Arm_103108> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_103783> .
+<http://ctro/data#Arm_103108> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_103822> .
+<http://ctro/data#Arm_103108> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_103890> .
+<http://ctro/data#Arm_103117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_103117> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_50" .
+<http://ctro/data#Arm_103117> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_103789> .
+<http://ctro/data#Arm_103117> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_103849> .
+<http://ctro/data#Arm_103117> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_103890> .
+<http://ctro/data#Arm_103117> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_103795> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_103783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_103783> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_lat_15" .
+<http://ctro/data#Intervention_103783> <http://ctro/data#hasMedication> <http://ctro/data#Medication_103801> .
+<http://ctro/data#Intervention_103783> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_103788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_103789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_103789> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_lat_50" .
+<http://ctro/data#Intervention_103789> <http://ctro/data#hasMedication> <http://ctro/data#Medication_103808> .
+<http://ctro/data#Intervention_103789> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_103794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_103795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_103795> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_pla" .
+<http://ctro/data#Intervention_103795> <http://ctro/data#hasMedication> <http://ctro/data#Medication_103815> .
+<http://ctro/data#RelativeTime_103800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_103801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_103801> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_lat_15" .
+<http://ctro/data#Latanoprost_103802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_103801> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_103802> .
+<http://ctro/data#Medication_103801> <http://ctro/data#hasDoseValue> "15" .
+<http://ctro/data#BioAndMedicalUnit_103804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_103801> <http://ctro/data#hasDoseUnit> <http://ctro/data#BioAndMedicalUnit_103804> .
+<http://ctro/data#Medication_103801> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_103801> <http://ctro/data#hasDoseDescription> "1 drop" .
+<http://ctro/data#Medication_103808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_103808> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_lat_50" .
+<http://ctro/data#Latanoprost_103809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_103808> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_103809> .
+<http://ctro/data#Medication_103808> <http://ctro/data#hasDoseValue> "50" .
+<http://ctro/data#BioAndMedicalUnit_103811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_103808> <http://ctro/data#hasDoseUnit> <http://ctro/data#BioAndMedicalUnit_103811> .
+<http://ctro/data#Medication_103808> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_103808> <http://ctro/data#hasDoseDescription> "1 drop" .
+<http://ctro/data#Medication_103815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_103815> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_pla" .
+<http://ctro/data#Medication_103815> <http://ctro/data#hasDrug> <http://ctro/data#Placebo> .
+<http://ctro/data#BioAndMedicalUnit_103818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_103815> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_103822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_103822> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_15" .
+<http://ctro/data#Outcome_103822> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_103103> .
+<http://ctro/data#Outcome_103822> <http://ctro/data#hasPValueResValue> "P & lt ; 0 . 001" .
+<http://ctro/data#Outcome_103822> <http://ctro/data#hasChangeValue> "6 . 1" .
+<http://ctro/data#Outcome_103822> <http://ctro/data#hasObservedResult> "Results with both regimens were significant" .
+<http://ctro/data#Outcome_103849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_103849> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_50" .
+<http://ctro/data#Outcome_103849> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_103103> .
+<http://ctro/data#Outcome_103849> <http://ctro/data#hasPValueResValue> "P & lt ; 0 . 001" .
+<http://ctro/data#Outcome_103849> <http://ctro/data#hasChangeValue> "7 . 5" .
+<http://ctro/data#Outcome_103849> <http://ctro/data#hasObservedResult> "Results with both regimens were significant" .
+<http://ctro/data#Outcome_103890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_103890> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_AE_H" .
+<http://ctro/data#Outcome_103890> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_103885> .
+<http://ctro/data#Outcome_103890> <http://ctro/data#hasObservedResult> "The higher dose did not cause more hyperemia at 3 weeks than the lower one" .
+<http://ctro/data#Outcome_103890> <http://ctro/data#hasTimePoint> "3 weeks" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_103876> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_103876> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_iop" .
+<http://ctro/data#DiffBetweenGroups_103876> <http://ctro/data#hasDiffGroupAbsValue> "1 . 4" .
+<http://ctro/data#DiffBetweenGroups_103876> <http://ctro/data#hasPvalueDiff> "P & lt ; 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_103876> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_103822> .
+<http://ctro/data#DiffBetweenGroups_103876> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_103849> .
+# RDF export of group: EvidenceQuality

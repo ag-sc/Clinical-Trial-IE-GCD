@@ -1,0 +1,108 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+102, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2002", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasPublicationYear> \"2002\"."
+2, Title, 47, 198, "A comparative clinical study of latanoprost and isopropyl unoprostone in Japanese patients with primary open - angle glaucoma and ocular hypertension .", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasTitle> \"A comparative clinical study of latanoprost and isopropyl unoprostone in Japanese patients with primary open - angle glaucoma and ocular hypertension .\"."
+3, Latanoprost, 79, 90, "latanoprost", "", 
+4, Unoprostone, 95, 116, "isopropyl unoprostone", "", 
+5, Ethnicity, 120, 128, "Japanese", "", "<http://ctro/data#Ethnicity_101295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_101293> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_101295>."
+6, Primary_OpenAngleGlaucoma, 143, 172, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+7, OcularHypertension, 177, 196, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+8, Author, 199, 210, "Tsukamoto H", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Tsukamoto H\"."
+9, Author, 219, 229, "Mishima HK", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Mishima HK\"."
+10, Author, 232, 242, "Kitazawa Y", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Kitazawa Y\"."
+11, Author, 245, 252, "Araie M", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Araie M\"."
+12, Author, 255, 260, "Abe H", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Abe H\"."
+13, Author, 263, 269, "Negi A", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasAuthor> \"Negi A\"."
+14, Glaucoma, 272, 280, "Glaucoma", "", "<http://ctro/data#Glaucoma_101292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_101274> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_101292>."
+15, Japan, 444, 449, "Japan", "", "<http://ctro/data#Population_101293> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+16, ObjectiveDescription, 462, 653, "To compare the efficacy and safety of latanoprost versus isopropyl unoprostone ( unoprostone ) in Japanese patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) .", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of latanoprost versus isopropyl unoprostone ( unoprostone ) in Japanese patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) .\"."
+17, Latanoprost, 500, 511, "latanoprost", "", 
+18, Unoprostone, 519, 540, "isopropyl unoprostone", "", 
+19, Unoprostone, 543, 554, "unoprostone", "", 
+20, Ethnicity, 560, 568, "Japanese", "", 
+21, Primary_OpenAngleGlaucoma, 583, 612, "primary open - angle glaucoma", "", 
+22, Primary_OpenAngleGlaucoma, 615, 619, "POAG", "", 
+24, OcularHypertension, 625, 644, "ocular hypertension", "", 
+25, OcularHypertension, 647, 649, "OH", "", 
+27, Duration, 667, 675, "8 - week", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasCTduration> \"8 - week\"."
+28, Multicenter, 678, 689, "multicenter", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+29, Randomized, 692, 702, "randomized", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+30, NumberPatientsCT, 740, 742, "48", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasNumberPatientsCT> \"48\"."
+131, Ethnicity, 743, 751, "Japanese", "", 
+23, Primary_OpenAngleGlaucoma, 766, 770, "POAG", "", 
+26, OcularHypertension, 774, 776, "OH", "", 
+31, NumPatientsLeftCT, 779, 783, "Four", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasNumPatientsLeftCT> \"Four\"."
+32, NumPatientsLeftArm, 795, 798, "two", "", "<http://ctro/data#Arm_101306> <http://ctro/data#hasNumPatientsLeftArm> \"two\". <http://ctro/data#Arm_101315> <http://ctro/data#hasNumPatientsLeftArm> \"two\"."
+33, IOP, 910, 930, "intraocular pressure", "", "<http://ctro/data#IOP_101302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_101301> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_101302>."
+34, IOP, 933, 936, "IOP", "", 
+35, Randomized, 970, 978, "randomly", "", 
+36, Latanoprost, 992, 1003, "latanoprost", "", "<http://ctro/data#Latanoprost_101337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_101336> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_101337>."
+38, DoseValue, 1004, 1011, "0 . 005", "", "<http://ctro/data#Medication_101336> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+144, Percentage, 1012, 1013, "%", "", "<http://ctro/data#Medication_101336> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+40, Frequency, 1014, 1024, "once daily", "", "<http://ctro/data#Intervention_101324> <http://ctro/data#hasFrequency> \"once daily\"."
+37, Unoprostone, 1028, 1039, "unoprostone", "", "<http://ctro/data#Medication_101343> <http://ctro/data#hasDrug> <http://ctro/data#Unoprostone>."
+39, DoseValue, 1040, 1046, "0 . 12", "", "<http://ctro/data#Medication_101343> <http://ctro/data#hasDoseValue> \"0 . 12\"."
+145, Percentage, 1047, 1048, "%", "", "<http://ctro/data#Medication_101343> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+41, Frequency, 1049, 1060, "twice daily", "", "<http://ctro/data#Intervention_101330> <http://ctro/data#hasFrequency> \"twice daily\"."
+146, Duration, 1065, 1072, "8 weeks", "", 
+43, IOP, 1075, 1078, "IOP", "", 
+44, TimePoint, 1095, 1103, "baseline", "", 
+151, TimePoint, 1108, 1143, "2 , 4 , and 8 weeks after treatment", "", 
+150, TimePoint, 1112, 1143, "4 , and 8 weeks after treatment", "", 
+149, TimePoint, 1120, 1143, "8 weeks after treatment", "", 
+48, IOP, 1234, 1238, "IOPs", "", 
+49, Latanoprost, 1264, 1275, "latanoprost", "", 
+186, FinalNumPatientsArm, 1282, 1284, "25", "", "<http://ctro/data#Arm_101306> <http://ctro/data#hasFinalNumPatientsArm> \"25\"."
+51, Unoprostone, 1291, 1302, "unoprostone", "", 
+187, FinalNumPatientsArm, 1309, 1311, "19", "", "<http://ctro/data#Arm_101315> <http://ctro/data#hasFinalNumPatientsArm> \"19\"."
+53, BaseLineValue, 1323, 1329, "24 . 3", "", 
+157, SdDevBL, 1336, 1341, "2 . 4", "", 
+58, mmHg, 1342, 1347, "mm Hg", "", 
+54, BaseLineValue, 1351, 1357, "23 . 3", "", 
+158, SdDevBL, 1364, 1369, "2 . 1", "", 
+57, mmHg, 1370, 1375, "mm Hg", "", "<http://ctro/data#Endpoint_101301> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+59, PValueBL, 1393, 1401, "= 0 . 18", "", 
+60, IOP, 1410, 1413, "IOP", "", 
+164, TimePoint, 1442, 1477, "2 , 4 , and 8 weeks after treatment", "", "<http://ctro/data#Outcome_101350> <http://ctro/data#hasTimePoint> \"2 , 4 , and 8 weeks after treatment\". <http://ctro/data#Outcome_101431> <http://ctro/data#hasTimePoint> \"2 , 4 , and 8 weeks after treatment\"."
+163, TimePoint, 1446, 1477, "4 , and 8 weeks after treatment", "", "<http://ctro/data#Outcome_101377> <http://ctro/data#hasTimePoint> \"4 , and 8 weeks after treatment\". <http://ctro/data#Outcome_101458> <http://ctro/data#hasTimePoint> \"4 , and 8 weeks after treatment\"."
+162, TimePoint, 1454, 1477, "8 weeks after treatment", "", "<http://ctro/data#Outcome_101404> <http://ctro/data#hasTimePoint> \"8 weeks after treatment\". <http://ctro/data#Outcome_101485> <http://ctro/data#hasTimePoint> \"8 weeks after treatment\"."
+64, Reduction, 1483, 1488, "5 . 8", "", "<http://ctro/data#Outcome_101350> <http://ctro/data#hasChangeValue> \"5 . 8\"."
+171, SdDevChangeValue, 1495, 1500, "2 . 4", "", "<http://ctro/data#Outcome_101350> <http://ctro/data#hasSdDevChangeValue> \"2 . 4\"."
+65, Reduction, 1503, 1508, "6 . 6", "", "<http://ctro/data#Outcome_101377> <http://ctro/data#hasChangeValue> \"6 . 6\"."
+172, SdDevChangeValue, 1515, 1520, "2 . 5", "", "<http://ctro/data#Outcome_101377> <http://ctro/data#hasSdDevChangeValue> \"2 . 5\"."
+66, Reduction, 1527, 1532, "6 . 7", "", "<http://ctro/data#Outcome_101404> <http://ctro/data#hasChangeValue> \"6 . 7\"."
+173, SdDevChangeValue, 1539, 1544, "2 . 0", "", "<http://ctro/data#Outcome_101404> <http://ctro/data#hasSdDevChangeValue> \"2 . 0\"."
+70, mmHg, 1545, 1550, "mm Hg", "", 
+71, Latanoprost, 1558, 1569, "latanoprost", "", 
+72, Reduction, 1582, 1587, "3 . 8", "", "<http://ctro/data#Outcome_101431> <http://ctro/data#hasChangeValue> \"3 . 8\"."
+174, SdDevChangeValue, 1594, 1599, "2 . 0", "", "<http://ctro/data#Outcome_101431> <http://ctro/data#hasSdDevChangeValue> \"2 . 0\"."
+73, Reduction, 1602, 1607, "3 . 5", "", "<http://ctro/data#Outcome_101458> <http://ctro/data#hasChangeValue> \"3 . 5\"."
+175, SdDevChangeValue, 1614, 1619, "2 . 3", "", "<http://ctro/data#Outcome_101458> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+74, Reduction, 1626, 1631, "3 . 3", "", "<http://ctro/data#Outcome_101485> <http://ctro/data#hasChangeValue> \"3 . 3\"."
+176, SdDevChangeValue, 1638, 1643, "3 . 0", "", "<http://ctro/data#Outcome_101485> <http://ctro/data#hasSdDevChangeValue> \"3 . 0\"."
+78, mmHg, 1644, 1649, "mm Hg", "", 
+79, Unoprostone, 1657, 1668, "unoprostone", "", 
+80, IOP, 1696, 1699, "IOP", "", 
+81, Latanoprost, 1717, 1728, "latanoprost", "", 
+82, TimePoint, 1738, 1745, "8 weeks", "", 
+83, Unoprostone, 1774, 1785, "unoprostone", "", 
+84, PvalueDiff, 1794, 1803, "< 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_101512> <http://ctro/data#hasPvalueDiff> \"< 0 . 001\"."
+106405, EndPointDescription, 1838, 1852, "adverse events", "", "<http://ctro/data#EndPointDescription_101522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_101521> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_101522>."
+85, NumberAffected, 1870, 1871, "4", "", "<http://ctro/data#Outcome_101526> <http://ctro/data#hasNumberAffected> \"4\"."
+87, PercentageAffected, 1874, 1876, "15", "", "<http://ctro/data#Outcome_101526> <http://ctro/data#hasPercentageAffected> \"15\"."
+89, NumberPatientsArm, 1884, 1886, "27", "", "<http://ctro/data#Arm_101306> <http://ctro/data#hasNumberPatientsArm> \"27\"."
+91, Latanoprost, 1903, 1914, "latanoprost", "", 
+86, NumberAffected, 1964, 1965, "4", "", "<http://ctro/data#Outcome_101553> <http://ctro/data#hasNumberAffected> \"4\"."
+88, PercentageAffected, 1968, 1970, "20", "", "<http://ctro/data#Outcome_101553> <http://ctro/data#hasPercentageAffected> \"20\"."
+90, NumberPatientsArm, 1978, 1980, "21", "", "<http://ctro/data#Arm_101315> <http://ctro/data#hasNumberPatientsArm> \"21\"."
+92, Unoprostone, 1997, 2008, "unoprostone", "", 
+198, ObservedResult, 2017, 2105, "There was no difference in the incidence of adverse events between groups ( = 0 . 71 ) .", "", "<http://ctro/data#Outcome_101526> <http://ctro/data#hasObservedResult> \"There was no difference in the incidence of adverse events between groups ( = 0 . 71 ) .\". <http://ctro/data#Outcome_101553> <http://ctro/data#hasObservedResult> \"There was no difference in the incidence of adverse events between groups ( = 0 . 71 ) .\"."
+197, PvalueDiff, 2093, 2101, "= 0 . 71", "", "<http://ctro/data#DiffBetweenGroups_101580> <http://ctro/data#hasPvalueDiff> \"= 0 . 71\"."
+94, ConclusionComment, 2119, 2236, "Latanoprost produced a statistically greater reduction in IOP than unoprostone in Japanese patients with POAG or OH .", "", "<http://ctro/data#ClinicalTrial_101274> <http://ctro/data#hasConclusionComment> \"Latanoprost produced a statistically greater reduction in IOP than unoprostone in Japanese patients with POAG or OH .\"."
+95, Latanoprost, 2119, 2130, "Latanoprost", "", 
+96, IOP, 2177, 2180, "IOP", "", 
+97, Unoprostone, 2186, 2197, "unoprostone", "", 
+98, Ethnicity, 2201, 2209, "Japanese", "", 
+99, Primary_OpenAngleGlaucoma, 2224, 2228, "POAG", "", 
+100, OcularHypertension, 2232, 2234, "OH", "", 
+101, PMID, 2291, 2299, "12483094", "", "<http://ctro/data#Publication_101262> <http://ctro/data#hasPMID> \"12483094\"."

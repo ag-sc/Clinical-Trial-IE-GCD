@@ -1,0 +1,51 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_16373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_16373> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Rosenstock J" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasPublicationYear> "2008" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasJournal> "Diabetologia" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasPMID> "18204830" .
+<http://ctro/data#Publication_16373> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_16385> .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Davies M" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Home PD" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Larsen J" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Koenen C" .
+<http://ctro/data#Publication_16373> <http://ctro/data#hasAuthor> "Schernthaner G" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_16385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_16385> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasObjectiveDescription> "This 52 - week multinational , randomised , open - label , parallel - group , non - inferiority trial compared clinical outcomes following supplementation of oral glucose - lowering drugs with" .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasNumberPatientsCT> "582" .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasCTduration> "52 - week" .
+<http://ctro/data#AllocationRatio_16389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_16389> .
+<http://ctro/data#CTAnalysisApproach_16390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#CTAnalysisApproach_16390> .
+<http://ctro/data#Arm_16393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasPopulation> <http://ctro/data#Population_16409> .
+<http://ctro/data#DiffBetweenGroups_16396> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_16397> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#CTDesign_16407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_16385> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_16407> .
+<http://ctro/data#Arm_58256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#DiffBetweenGroups_58257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+# RDF export of group: Population
+<http://ctro/data#Population_16409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_16409> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_16409> <http://ctro/data#hasPrecondition> "insulin - naive people with type 2 diabetes" .
+<http://ctro/data#Ethnicity_16411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_16409> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_16416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_16409> <http://ctro/data#hasPrecondition> "Insulin - naive adults ( n = 582 , HbA ( 1c ) 7 . 5 - 10 . 0 % , BMI < or = 40 . 0 kg / m ( 2 ) )" .
+# RDF export of group: Endpoint
+# RDF export of group: Arm
+# RDF export of group: Intervention
+# RDF export of group: Medication
+# RDF export of group: Outcome
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,105 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "2006", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasPublicationYear> \"2006\"."
+2, Title, 67, 222, "Efficacy of latanoprost or fixed - combination latanoprost - timolol in patients switched from a combination of timolol and a nonprostaglandin medication .", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasTitle> \"Efficacy of latanoprost or fixed - combination latanoprost - timolol in patients switched from a combination of timolol and a nonprostaglandin medication .\"."
+3, Latanoprost, 79, 90, "latanoprost", "", 
+6, Lat/TimFC, 94, 135, "fixed - combination latanoprost - timolol", "", 
+4, Latanoprost, 114, 125, "latanoprost", "", 
+5, Timolol, 128, 135, "timolol", "", 
+123, Precondition, 139, 220, "patients switched from a combination of timolol and a nonprostaglandin medication", "", 
+7, Timolol, 179, 186, "timolol", "", 
+9, Author, 223, 232, "Magacho L", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasAuthor> \"Magacho L\"."
+10, Author, 241, 247, "Reis R", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasAuthor> \"Reis R\"."
+11, Author, 250, 259, "Shetty RK", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasAuthor> \"Shetty RK\"."
+12, Author, 262, 271, "Santos LC", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasAuthor> \"Santos LC\"."
+107, Author, 274, 282, "Avila MP", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasAuthor> \"Avila MP\"."
+13, Brazil, 383, 389, "Brazil", "", "<http://ctro/data#Population_86124> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+14, ObjectiveDescription, 427, 644, "To compare latanoprost with the fixed - combination latanoprost - timolol in glaucoma or ocular hypertension patients switched from a combination glaucoma therapy with timolol and another nonprostaglandin medication .", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasObjectiveDescription> \"To compare latanoprost with the fixed - combination latanoprost - timolol in glaucoma or ocular hypertension patients switched from a combination glaucoma therapy with timolol and another nonprostaglandin medication .\"."
+15, Latanoprost, 438, 449, "latanoprost", "", 
+18, Lat/TimFC, 459, 500, "fixed - combination latanoprost - timolol", "", 
+16, Latanoprost, 479, 490, "latanoprost", "", 
+17, Timolol, 493, 500, "timolol", "", 
+19, Glaucoma, 504, 512, "glaucoma", "", 
+124, Precondition, 504, 642, "glaucoma or ocular hypertension patients switched from a combination glaucoma therapy with timolol and another nonprostaglandin medication", "", 
+20, OcularHypertension, 516, 535, "ocular hypertension", "", 
+21, Glaucoma, 573, 581, "glaucoma", "", 
+22, Timolol, 595, 602, "timolol", "", 
+24, Prospective, 654, 665, "Prospective", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+25, Randomized, 666, 676, "randomized", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+26, Glaucoma, 704, 712, "Glaucoma", "", "<http://ctro/data#Glaucoma_86113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_86104> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_86113>."
+136, Precondition, 704, 954, "Glaucoma or ocular hypertension patients receiving a combined treatment of timolol 0 . 5 % and another nonprostaglandin medication ( pilocarpine 4 % , alpha - agonist , or a topical carbonic anhydrase inhibitor ) underwent a 30 - day washout of their", "", "<http://ctro/data#Population_86124> <http://ctro/data#hasPrecondition> \"Glaucoma or ocular hypertension patients receiving a combined treatment of timolol 0 . 5 % and another nonprostaglandin medication ( pilocarpine 4 % , alpha - agonist , or a topical carbonic anhydrase inhibitor ) underwent a 30 - day washout of their\"."
+27, OcularHypertension, 716, 735, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+28, Timolol, 779, 786, "timolol", "", 
+29, DoseValue, 787, 792, "0 . 5", "", 
+130, Percentage, 793, 794, "%", "", 
+30, Pilocarpine, 837, 848, "pilocarpine", "", 
+31, DoseValue, 849, 850, "4", "", 
+133, Percentage, 851, 852, "%", "", 
+32, Duration, 929, 937, "30 - day", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasCTduration> \"30 - day\"."
+136, Precondition, 955, 968, "medications .", "", "<http://ctro/data#Population_86124> <http://ctro/data#hasPrecondition> \"medications .\"."
+33, Blind, 971, 986, "masked observer", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+34, IOP, 1007, 1027, "intraocular pressure", "", 
+35, IOP, 1030, 1033, "IOP", "", 
+36, Randomized, 1056, 1066, "randomized", "", 
+37, Latanoprost, 1077, 1088, "latanoprost", "", 
+40, Lat/TimFC, 1092, 1133, "fixed - combination latanoprost - timolol", "", 
+38, Latanoprost, 1112, 1123, "latanoprost", "", 
+39, Timolol, 1126, 1133, "timolol", "", 
+41, Eyedrops, 1134, 1142, "eyedrops", "", 
+42, Frequency, 1150, 1160, "once daily", "", "<http://ctro/data#Intervention_86157> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_86163> <http://ctro/data#hasFrequency> \"once daily\"."
+106351, Morning, 1164, 1168, "7 am", "", "<http://ctro/data#Intervention_86157> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>. <http://ctro/data#Intervention_86163> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+43, IOP, 1175, 1178, "IOP", "", 
+44, TimePoint, 1198, 1205, "30 days", "", 
+46, Latanoprost, 1425, 1436, "latanoprost", "", "<http://ctro/data#Latanoprost_86170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_86169> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_86170>."
+47, Latanoprost, 1457, 1468, "latanoprost", "", 
+155, Lat/TimFC, 1457, 1478, "latanoprost - timolol", "", "<http://ctro/data#Medication_86176> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+48, Timolol, 1471, 1478, "timolol", "", 
+45, NumberPatientsCT, 1492, 1494, "28", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasNumberPatientsCT> \"28\"."
+49, IOP, 1537, 1540, "IOP", "", "<http://ctro/data#IOP_86135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_86134> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_86135>."
+50, Timolol, 1636, 1643, "timolol", "", 
+51, mmHg, 1687, 1709, "millimeters of mercury", "", "<http://ctro/data#Endpoint_86134> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+52, Reduction, 1712, 1717, "7 . 7", "", "<http://ctro/data#Outcome_86183> <http://ctro/data#hasChangeValue> \"7 . 7\"."
+163, SdDevChangeValue, 1724, 1729, "2 . 3", "", "<http://ctro/data#Outcome_86183> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+53, Reduction, 1735, 1740, "5 . 5", "", "<http://ctro/data#Outcome_86183> <http://ctro/data#hasChangeValue> \"7 . 7\"."
+164, SdDevChangeValue, 1747, 1752, "2 . 3", "", 
+167, PvalueDiff, 1757, 1771, "& lt ; 0 . 001", "", 
+72, Latanoprost, 1782, 1793, "latanoprost", "", 
+54, Reduction, 1802, 1807, "8 . 5", "", "<http://ctro/data#Outcome_86210> <http://ctro/data#hasChangeValue> \"8 . 5\"."
+165, SdDevChangeValue, 1814, 1819, "3 . 5", "", "<http://ctro/data#Outcome_86210> <http://ctro/data#hasSdDevChangeValue> \"3 . 5\"."
+55, Reduction, 1825, 1830, "6 . 3", "", 
+166, SdDevChangeValue, 1837, 1842, "2 . 7", "", 
+169, PvalueDiff, 1845, 1861, "P & lt ; 0 . 001", "", 
+172, Lat/TimFC, 1872, 1893, "latanoprost - timolol", "", 
+73, Latanoprost, 1872, 1883, "latanoprost", "", 
+74, Timolol, 1886, 1893, "timolol", "", 
+56, RelativeReduction, 1919, 1925, "35 . 8", "", "<http://ctro/data#Outcome_86183> <http://ctro/data#hasRelativeChangeValue> \"35 . 8\"."
+183, SdDevChangeValue, 1932, 1937, "8 . 2", "", 
+57, RelativeReduction, 1945, 1951, "25 . 6", "", 
+184, SdDevChangeValue, 1958, 1963, "8 . 9", "", 
+180, PvalueDiff, 1968, 1984, "P & lt ; 0 . 001", "", 
+75, Latanoprost, 1995, 2006, "latanoprost", "", 
+58, RelativeReduction, 2015, 2021, "38 . 6", "", "<http://ctro/data#Outcome_86210> <http://ctro/data#hasRelativeChangeValue> \"38 . 6\"."
+185, SdDevChangeValue, 2028, 2033, "8 . 7", "", 
+59, RelativeReduction, 2041, 2047, "28 . 6", "", 
+186, SdDevChangeValue, 2054, 2059, "9 . 0", "", 
+182, PvalueDiff, 2064, 2080, "P & lt ; 0 . 001", "", 
+179, Lat/TimFC, 2091, 2112, "latanoprost - timolol", "", 
+76, Latanoprost, 2091, 2102, "latanoprost", "", 
+77, Timolol, 2105, 2112, "timolol", "", 
+78, Latanoprost, 2167, 2178, "latanoprost", "", 
+81, Lat/TimFC, 2183, 2224, "fixed - combination latanoprost - timolol", "", 
+79, Latanoprost, 2203, 2214, "latanoprost", "", 
+80, Timolol, 2217, 2224, "timolol", "", 
+82, IOP, 2237, 2240, "IOP", "", 
+83, mmHg, 2253, 2275, "millimeters of mercury", "", 
+192, PvalueDiff, 2280, 2287, "= 0 . 3", "", "<http://ctro/data#DiffBetweenGroups_86293> <http://ctro/data#hasPvalueDiff> \"= 0 . 3\"."
+193, PvalueDiff, 2308, 2315, "= 0 . 2", "", 
+86, ConclusionComment, 2334, 2520, "Both latanoprost and fixed - combination latanoprost - timolol may be viable substitutes for timolol and another nonprostaglandin medication in glaucoma or ocular hypertension patients .", "", "<http://ctro/data#ClinicalTrial_86104> <http://ctro/data#hasConclusionComment> \"Both latanoprost and fixed - combination latanoprost - timolol may be viable substitutes for timolol and another nonprostaglandin medication in glaucoma or ocular hypertension patients .\"."
+87, Latanoprost, 2339, 2350, "latanoprost", "", 
+90, Lat/TimFC, 2355, 2396, "fixed - combination latanoprost - timolol", "", 
+88, Latanoprost, 2375, 2386, "latanoprost", "", 
+89, Timolol, 2389, 2396, "timolol", "", 
+91, Timolol, 2427, 2434, "timolol", "", 
+92, Glaucoma, 2478, 2486, "glaucoma", "", 
+93, OcularHypertension, 2490, 2509, "ocular hypertension", "", 
+94, PMID, 2575, 2583, "16458964", "", "<http://ctro/data#Publication_86093> <http://ctro/data#hasPMID> \"16458964\"."

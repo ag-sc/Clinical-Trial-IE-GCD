@@ -1,0 +1,90 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "1996", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasPublicationYear> \"1996\"."
+24, Title, 50, 186, "A six - month , randomized , double - masked study comparing latanoprost with timolol in open - angle glaucoma and ocular hypertension .", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasTitle> \"A six - month , randomized , double - masked study comparing latanoprost with timolol in open - angle glaucoma and ocular hypertension .\"."
+106379, Duration, 52, 63, "six - month", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTduration> \"six - month\"."
+3, Randomized, 66, 76, "randomized", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, DoubleBlind, 79, 94, "double - masked", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+5, Latanoprost, 111, 122, "latanoprost", "", 
+6, Timolol, 128, 135, "timolol", "", 
+7, OpenAngleGlaucoma, 139, 160, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+8, OcularHypertension, 165, 184, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+79, Latanoprost, 191, 202, "Latanoprost", "", 
+106377, Author, 217, 225, "Watson P", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasAuthor> \"Watson P\"."
+10, Author, 234, 249, "Stjernschantz J", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasAuthor> \"Stjernschantz J\"."
+106378, UK, 318, 325, "England", "", "<http://ctro/data#Population_96769> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+25, ObjectiveDescription, 338, 575, "To compare the intraocular pressure ( IOP ) - reducing effect and side effects of 0 . 005 % latanoprost administered once daily with 0 . 5 % timolol administered twice daily in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure ( IOP ) - reducing effect and side effects of 0 . 005 % latanoprost administered once daily with 0 . 5 % timolol administered twice daily in patients with open - angle glaucoma or ocular hypertension .\"."
+12, IOP, 353, 373, "intraocular pressure", "", 
+13, IOP, 376, 379, "IOP", "", 
+14, DoseValue, 420, 427, "0 . 005", "", 
+20, Percentage, 428, 429, "%", "", 
+22, Latanoprost, 430, 441, "latanoprost", "", "<http://ctro/data#Latanoprost_97615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_96822> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_97615>."
+23, Frequency, 455, 465, "once daily", "", 
+15, DoseValue, 471, 476, "0 . 5", "", 
+21, Percentage, 477, 478, "%", "", 
+16, Timolol, 479, 486, "timolol", "", 
+17, Frequency, 500, 511, "twice daily", "", 
+54362, Precondition, 515, 573, "patients with open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_96769> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma or ocular hypertension\"."
+18, OpenAngleGlaucoma, 529, 550, "open - angle glaucoma", "", 
+19, OcularHypertension, 554, 573, "ocular hypertension", "", 
+26, Randomized, 597, 607, "randomized", "", 
+27, DoubleBlind, 610, 625, "double - masked", "", 
+28, Parallel, 641, 649, "parallel", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+29, Duration, 683, 691, "6 months", "", 
+34, ObjectiveDescription, 694, 852, "The primary objective of the study is to compare the IOP - reducing effect of lantanoprost with that of timolol at the end of the 6 - month treatment period .", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasObjectiveDescription> \"The primary objective of the study is to compare the IOP - reducing effect of lantanoprost with that of timolol at the end of the 6 - month treatment period .\"."
+30, IOP, 747, 750, "IOP", "", 
+31, Latanoprost, 772, 784, "lantanoprost", "", 
+32, Timolol, 798, 805, "timolol", "", 
+33, Duration, 824, 833, "6 - month", "", 
+35, NumberPatientsCT, 864, 867, "294", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasNumberPatientsCT> \"294\"."
+36, NumberPatientsArm, 893, 896, "149", "", "<http://ctro/data#Arm_96792> <http://ctro/data#hasNumberPatientsArm> \"149\"."
+38, Latanoprost, 909, 920, "latanoprost", "", 
+37, NumberPatientsArm, 931, 934, "145", "", "<http://ctro/data#Arm_96801> <http://ctro/data#hasNumberPatientsArm> \"145\"."
+39, Timolol, 943, 950, "timolol", "", 
+40, Latanoprost, 959, 970, "Latanoprost", "", 
+54045, Evening, 995, 1002, "evening", "", 
+41, Diurnal_IOP, 1015, 1026, "Diurnal IOP", "", "<http://ctro/data#Endpoint_96777> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+42, TimePoint, 1029, 1038, "9 : 00 am", "", 
+43, TimePoint, 1041, 1050, "1 : 00 pm", "", 
+44, TimePoint, 1053, 1062, "5 : 00 pm", "", 
+45, BaseLineValue, 1082, 1088, "25 . 2", "", "<http://ctro/data#Outcome_96836> <http://ctro/data#hasBaselineValue> \"25 . 2\"."
+46, ResultMeasuredValue, 1092, 1098, "16 . 7", "", "<http://ctro/data#Outcome_96836> <http://ctro/data#hasResultMeasuredValue> \"16 . 7\"."
+47, mmHg, 1099, 1103, "mmHg", "", "<http://ctro/data#Endpoint_96777> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+48, RelativeReduction, 1106, 1112, "33 . 7", "", "<http://ctro/data#Outcome_96836> <http://ctro/data#hasRelativeChangeValue> \"33 . 7\"."
+49, Latanoprost, 1122, 1134, "lantanoprost", "", 
+50, BaseLineValue, 1144, 1150, "25 . 4", "", "<http://ctro/data#Outcome_96863> <http://ctro/data#hasBaselineValue> \"25 . 4\"."
+51, ResultMeasuredValue, 1154, 1160, "17 . 1", "", "<http://ctro/data#Outcome_96863> <http://ctro/data#hasResultMeasuredValue> \"17 . 1\"."
+52, mmHg, 1161, 1165, "mmHg", "", 
+53, RelativeReduction, 1168, 1174, "32 . 7", "", "<http://ctro/data#Outcome_96863> <http://ctro/data#hasRelativeChangeValue> \"32 . 7\"."
+54, Timolol, 1184, 1191, "timolol", "", 
+55, Duration, 1224, 1233, "6 - month", "", 
+57, ObservedResult, 1253, 1331, "No upward drift in IOP occurred with either drug during the treatment period .", "", 
+56, IOP, 1272, 1275, "IOP", "", 
+58, Latanoprost, 1332, 1343, "Latanoprost", "", 
+60, ObservedResult, 1332, 1451, "Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions .", "", "<http://ctro/data#Outcome_96890> <http://ctro/data#hasObservedResult> \"Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions .\". <http://ctro/data#Outcome_96951> <http://ctro/data#hasObservedResult> \"Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions .\"."
+136, ConjunctivalHyperemia, 1367, 1389, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_96782> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+59, Timolol, 1395, 1402, "timolol", "", 
+106371, Corneal_PPE, 1412, 1449, "corneal punctuate epithelial erosions", "", "<http://ctro/data#Endpoint_96946> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Corneal_PPE>."
+61, ObservedResult, 1462, 1504, "both drugs were generally well tolerated .", "", 
+62, Latanoprost, 1541, 1552, "latanoprost", "", 
+140, IrisPigmentation, 1567, 1591, "pigmentation of the iris", "", "<http://ctro/data#IrisPigmentation_96788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation>. <http://ctro/data#Endpoint_96787> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_96788>."
+63, NumberAffected, 1614, 1616, "15", "", "<http://ctro/data#Outcome_96917> <http://ctro/data#hasNumberAffected> \"15\"."
+64, PercentageAffected, 1628, 1634, "10 . 1", "", "<http://ctro/data#Outcome_96917> <http://ctro/data#hasPercentageAffected> \"10 . 1\"."
+65, Timolol, 1641, 1648, "Timolol", "", 
+66, Latanoprost, 1688, 1699, "latanoprost", "", 
+145, ConclusionComment, 1716, 1851, "Latanoprost 0 . 005 % administered once daily in the evening reduced IOP at least as well as timolol 0 . 5 % administered twice daily .", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> \"Latanoprost 0 . 005 % administered once daily in the evening reduced IOP at least as well as timolol 0 . 5 % administered twice daily .\"."
+67, Latanoprost, 1716, 1727, "Latanoprost", "", 
+68, DoseValue, 1728, 1735, "0 . 005", "", "<http://ctro/data#Medication_96822> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+70, Percentage, 1736, 1737, "%", "", "<http://ctro/data#Medication_96822> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+72, Frequency, 1751, 1761, "once daily", "", "<http://ctro/data#Intervention_96810> <http://ctro/data#hasFrequency> \"once daily\"."
+54048, Evening, 1769, 1776, "evening", "", "<http://ctro/data#Intervention_96810> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+154, IOP, 1785, 1788, "IOP", "", 
+75, Timolol, 1809, 1816, "timolol", "", "<http://ctro/data#Medication_96829> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+69, DoseValue, 1817, 1822, "0 . 5", "", "<http://ctro/data#Medication_96829> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+71, Percentage, 1823, 1824, "%", "", "<http://ctro/data#Medication_96829> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+73, Frequency, 1838, 1849, "twice daily", "", "<http://ctro/data#Intervention_96816> <http://ctro/data#hasFrequency> \"twice daily\"."
+146, ConclusionComment, 1852, 1922, "Latanoprost was generally well tolerated systemically and in the eye .", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> \"Latanoprost was generally well tolerated systemically and in the eye .\"."
+76, Latanoprost, 1852, 1863, "Latanoprost", "", 
+147, ConclusionComment, 1923, 2083, "However , the drug has an unusual side effect of increasing the pigmentation of the iris , particularly in individuals with green - brown or blue - brown eyes .", "", "<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> \"However , the drug has an unusual side effect of increasing the pigmentation of the iris , particularly in individuals with green - brown or blue - brown eyes .\"."
+160, IrisPigmentation, 1987, 2011, "pigmentation of the iris", "", 
+80, PMID, 2091, 2098, "8628543", "", "<http://ctro/data#Publication_96739> <http://ctro/data#hasPMID> \"8628543\"."

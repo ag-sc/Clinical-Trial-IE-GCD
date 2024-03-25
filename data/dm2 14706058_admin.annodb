@@ -1,0 +1,85 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+152, Journal, 0, 12, "Diabet Med .", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasJournal> \"Diabet Med .\"."
+106298, PublicationYear, 13, 17, "2004", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasPublicationYear> \"2004\"."
+105, Title, 44, 162, "Nine weeks of bedtime diazoxide is well tolerated and improves beta - cell function in subjects with Type 2 diabetes .", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasTitle> \"Nine weeks of bedtime diazoxide is well tolerated and improves beta - cell function in subjects with Type 2 diabetes .\"."
+13, Duration, 44, 54, "Nine weeks", "", 
+33, Bedtime, 58, 65, "bedtime", "", 
+106336, Diazoxide, 66, 75, "diazoxide", "", 
+7, Type2Diabetes, 145, 160, "Type 2 diabetes", "", 
+2, Author, 163, 173, "Qvigstad E", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasAuthor> \"Qvigstad E\"."
+3, Author, 182, 191, "Kollind M", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasAuthor> \"Kollind M\"."
+4, Author, 194, 201, "Grill V", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasAuthor> \"Grill V\"."
+15, Country, 307, 313, "Norway", "", "<http://ctro/data#Country_25868> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_25865> <http://ctro/data#hasCountry> <http://ctro/data#Country_25868>."
+154, ObjectiveDescription, 410, 538, "To test whether a bedtime dose of diazoxide can improve daytime beta - cell function without side - effects in Type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasObjectiveDescription> \"To test whether a bedtime dose of diazoxide can improve daytime beta - cell function without side - effects in Type 2 diabetes .\"."
+34, Bedtime, 428, 435, "bedtime", "", 
+106331, Diazoxide, 444, 453, "diazoxide", "", 
+8, Type2Diabetes, 521, 536, "Type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+11, DoubleBlind, 551, 565, "double - blind", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+12, Randomized, 566, 576, "randomized", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+5, NumberPatientsCT, 600, 602, "27", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasNumberPatientsCT> \"27\"."
+9, Type2Diabetes, 603, 618, "Type 2 diabetic", "", 
+20, Precondition, 603, 703, "Type 2 diabetic subjects ( 17 male , 10 female ) who were treated with bedtime insulin and metformin", "", 
+16, Male, 630, 637, "17 male", "", "<http://ctro/data#Population_25865> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+17, Female, 640, 649, "10 female", "", "<http://ctro/data#Population_25865> <http://ctro/data#hasGender> <http://ctro/data#Female>."
+55, Bedtime, 674, 681, "bedtime", "", 
+56, Insulin, 682, 689, "insulin", "", 
+57, Metformin, 694, 703, "metformin", "", 
+35, Bedtime, 731, 738, "bedtime", "", "<http://ctro/data#Intervention_25917> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+106337, Diazoxide, 739, 748, "diazoxide", "", 
+36, DoseValue, 751, 754, "100", "", "<http://ctro/data#Medication_25929> <http://ctro/data#hasDoseValue> \"100\"."
+37, mg, 755, 757, "mg", "", 
+28, Placebo, 763, 770, "placebo", "", "<http://ctro/data#Medication_25936> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+14, Duration, 775, 782, "9 weeks", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasCTduration> \"9 weeks\"."
+149, ObservedResult, 893, 939, "No side - effects of diazoxide were detected .", "", "<http://ctro/data#Outcome_30634> <http://ctro/data#hasObservedResult> \"No side - effects of diazoxide were detected .\"."
+92900, EndPointDescription, 896, 910, "side - effects", "", "<http://ctro/data#EndPointDescription_30662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_30661> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_30662>."
+106332, Diazoxide, 914, 923, "diazoxide", "", 
+106333, Diazoxide, 955, 964, "diazoxide", "", 
+65, Bedtime, 995, 1002, "bedtime", "", 
+66, Insulin, 1003, 1010, "insulin", "", 
+67, EndPointDescription, 1013, 1046, "C - peptide responses to glucagon", "", "<http://ctro/data#EndPointDescription_25875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_25874> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_25875>."
+106359, Increment, 1068, 1074, "0 . 15", "", "<http://ctro/data#Outcome_25943> <http://ctro/data#hasChangeValue> \"0 . 15\"."
+110, SdDevChangeValue, 1081, 1087, "0 . 06", "", "<http://ctro/data#Outcome_25943> <http://ctro/data#hasSdDevChangeValue> \"0 . 06\"."
+70, Nanomol_per_litre, 1088, 1096, "nmol / l", "", "<http://ctro/data#Endpoint_25874> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Nanomol_per_litre>."
+112, Reduction, 1104, 1110, "0 . 01", "", "<http://ctro/data#Outcome_25970> <http://ctro/data#hasChangeValue> \"0 . 01\"."
+113, SdDevChangeValue, 1117, 1123, "0 . 04", "", "<http://ctro/data#Outcome_25970> <http://ctro/data#hasSdDevChangeValue> \"0 . 04\"."
+71, Nanomol_per_litre, 1124, 1132, "nmol / l", "", 
+29, Placebo, 1137, 1144, "placebo", "", 
+73, PvalueDiff, 1147, 1157, "P < 0 . 06", "", "<http://ctro/data#DiffBetweenGroups_25997> <http://ctro/data#hasPvalueDiff> \"P < 0 . 06\"."
+137, EndPointDescription, 1189, 1207, "effects on insulin", "", "<http://ctro/data#EndPointDescription_25880> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_25879> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_25880>."
+116, Increment, 1213, 1219, "66 . 2", "", "<http://ctro/data#Outcome_26015> <http://ctro/data#hasChangeValue> \"66 . 2\"."
+117, SdDevChangeValue, 1226, 1232, "41 . 7", "", "<http://ctro/data#Outcome_26015> <http://ctro/data#hasSdDevChangeValue> \"41 . 7\"."
+76, Picomole_per_liter, 1233, 1241, "pmol / l", "", "<http://ctro/data#Endpoint_25879> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Picomole_per_liter>."
+106334, Diazoxide, 1246, 1255, "diazoxide", "", 
+119, Reduction, 1263, 1269, "84 . 2", "", "<http://ctro/data#Outcome_26042> <http://ctro/data#hasChangeValue> \"84 . 2\"."
+120, SdDevChangeValue, 1276, 1282, "51 . 5", "", "<http://ctro/data#Outcome_26042> <http://ctro/data#hasSdDevChangeValue> \"51 . 5\"."
+30, Placebo, 1287, 1294, "placebo", "", 
+80, PvalueDiff, 1297, 1307, "P < 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_26006> <http://ctro/data#hasPvalueDiff> \"P < 0 . 03\"."
+106338, Diazoxide, 1325, 1334, "diazoxide", "", 
+124, FastingPlasmaGlucose, 1345, 1361, "fasting glucagon", "", "<http://ctro/data#Endpoint_25884> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+122, RelativeReduction, 1372, 1374, "41", "", "<http://ctro/data#Outcome_26069> <http://ctro/data#hasRelativeChangeValue> \"41\"."
+31, Placebo, 1382, 1389, "placebo", "", 
+85, PvalueDiff, 1392, 1402, "P < 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_26123> <http://ctro/data#hasPvalueDiff> \"P < 0 . 03\"."
+126, HbA1c, 1405, 1425, "Glycated haemoglobin", "", "<http://ctro/data#Endpoint_25889> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+127, HbA1c, 1428, 1433, "HbA1c", "", 
+151, ObservedResult, 1443, 1460, "were not affected", "", "<http://ctro/data#Outcome_26132> <http://ctro/data#hasObservedResult> \"were not affected\". <http://ctro/data#Outcome_91729> <http://ctro/data#hasObservedResult> \"were not affected\"."
+37993, PostprandialBloodGlucose, 1481, 1509, "blood glucose post breakfast", "", "<http://ctro/data#Endpoint_25894> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+26, Drug, 1529, 1538, "diazoxide", "", 
+129, ResultMeasuredValue, 1541, 1547, "1 . 34", "", "<http://ctro/data#Outcome_26159> <http://ctro/data#hasResultMeasuredValue> \"1 . 34\"."
+130, SdDevResValue, 1554, 1560, "0 . 43", "", "<http://ctro/data#Outcome_26159> <http://ctro/data#hasSdDevResValue> \"0 . 43\"."
+90, Millimoles_per_litre, 1561, 1569, "mmol / l", "", "<http://ctro/data#Endpoint_25894> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+132, PValueResValue, 1572, 1582, "P < 0 . 01", "", "<http://ctro/data#Outcome_26159> <http://ctro/data#hasPValueResValue> \"P < 0 . 01\"."
+32, Placebo, 1588, 1595, "placebo", "", 
+93, Bedtime, 1614, 1621, "Bedtime", "", 
+6, ConclusionComment, 1614, 1795, "Bedtime treatment with diazoxide in Type 2 diabetic subjects on bedtime insulin and metformin has no significant side - effects , does not increase bedtime insulin supplementation ,", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasConclusionComment> \"Bedtime treatment with diazoxide in Type 2 diabetic subjects on bedtime insulin and metformin has no significant side - effects , does not increase bedtime insulin supplementation ,\"."
+106335, Diazoxide, 1637, 1646, "diazoxide", "", 
+133, Precondition, 1650, 1707, "Type 2 diabetic subjects on bedtime insulin and metformin", "", 
+10, Type2Diabetes, 1650, 1665, "Type 2 diabetic", "", 
+96, Bedtime, 1678, 1685, "bedtime", "", 
+97, Insulin, 1686, 1693, "insulin", "", 
+98, Metformin, 1698, 1707, "metformin", "", 
+100, Bedtime, 1762, 1769, "bedtime", "", 
+99, Insulin, 1770, 1777, "insulin", "", 
+155, ConclusionComment, 1796, 1877, "tends to ameliorate beta - cell function but fails to improve metabolic control .", "", "<http://ctro/data#ClinicalTrial_25846> <http://ctro/data#hasConclusionComment> \"tends to ameliorate beta - cell function but fails to improve metabolic control .\"."
+101, EndPointDescription, 1816, 1836, "beta - cell function", "", 
+102, EndPointDescription, 1850, 1875, "improve metabolic control", "", 
+1, PMID, 1885, 1893, "14706058", "", "<http://ctro/data#Publication_25837> <http://ctro/data#hasPMID> \"14706058\"."

@@ -1,0 +1,124 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Ann Intern Med .", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasJournal> \"Ann Intern Med .\"."
+1, PublicationYear, 17, 21, "2008", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasPublicationYear> \"2008\"."
+97, Title, 53, 219, "Addition of neutral protamine lispro insulin or insulin glargine to oral type 2 diabetes regimens for patients with suboptimal glycemic control : a randomized trial .", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasTitle> \"Addition of neutral protamine lispro insulin or insulin glargine to oral type 2 diabetes regimens for patients with suboptimal glycemic control : a randomized trial .\"."
+52171, LisproProtamine, 65, 97, "neutral protamine lispro insulin", "", 
+2, InsulinGlargine, 101, 117, "insulin glargine", "", 
+94, Type2Diabetes, 126, 141, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+4, Precondition, 155, 196, "patients with suboptimal glycemic control", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasPrecondition> \"patients with suboptimal glycemic control\"."
+5, Randomized, 201, 211, "randomized", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+6, Author, 220, 230, "Esposito K", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Esposito K\"."
+7, Author, 239, 248, "Ciotola M", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Ciotola M\"."
+8, Author, 251, 262, "Maiorino MI", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Maiorino MI\"."
+9, Author, 265, 276, "Gualdiero R", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Gualdiero R\"."
+10, Author, 279, 289, "Schisano B", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Schisano B\"."
+11, Author, 292, 302, "Ceriello A", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Ceriello A\"."
+12, Author, 305, 315, "Beneduce F", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Beneduce F\"."
+13, Author, 318, 325, "Feola G", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Feola G\"."
+14, Author, 328, 339, "Giugliano D", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasAuthor> \"Giugliano D\"."
+15, Italy, 446, 451, "Italy", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+16, Insulin, 686, 693, "insulin", "", 
+108, Bedtime, 697, 704, "bedtime", "", 
+19, Precondition, 742, 816, "patients with type 2 diabetes that is poorly controlled with oral regimens", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes that is poorly controlled with oral regimens\"."
+17, Type2Diabetes, 756, 771, "type 2 diabetes", "", 
+52176, LisproProtamine, 819, 843, "Neutral protamine lispro", "", 
+52177, LisproProtamine, 846, 849, "NPL", "", 
+20, Insulin, 852, 859, "insulin", "", 
+21, Hypoglycemia, 926, 938, "hypoglycemic", "", 
+114, Insulin, 959, 993, "neutral protamine Hagedorn insulin", "", 
+125, ObjectiveDescription, 1008, 1224, "To compare the clinical efficacy and safety of bedtime NPL insulin or insulin glargine in patients with type 2 diabetes who had suboptimal glycemic control while receiving stable doses of metformin and sulfonylurea .", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasObjectiveDescription> \"To compare the clinical efficacy and safety of bedtime NPL insulin or insulin glargine in patients with type 2 diabetes who had suboptimal glycemic control while receiving stable doses of metformin and sulfonylurea .\"."
+118, Bedtime, 1055, 1062, "bedtime", "", 
+52179, LisproProtamine, 1063, 1074, "NPL insulin", "", 
+22, InsulinGlargine, 1078, 1094, "insulin glargine", "", 
+26, Precondition, 1098, 1222, "patients with type 2 diabetes who had suboptimal glycemic control while receiving stable doses of metformin and sulfonylurea", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes who had suboptimal glycemic control while receiving stable doses of metformin and sulfonylurea\"."
+23, Type2Diabetes, 1112, 1127, "type 2 diabetes", "", 
+24, Metformin, 1196, 1205, "metformin", "", 
+25, Sulfonylureas, 1210, 1222, "sulfonylurea", "", 
+27, OpenLabel, 1234, 1246, "Open - label", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+28, Randomized, 1249, 1259, "randomized", "", 
+29, Italy, 1375, 1380, "Italy", "", 
+30, NumberPatientsCT, 1394, 1397, "116", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasNumberPatientsCT> \"116\"."
+137, Precondition, 1398, 1548, "adults receiving stable doses of metformin plus sulfonylurea for longer than 90 days with hemoglobin A ( 1c ) ( HbA ( 1c ) ) levels of 7 . 5 % to 10 %", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasPrecondition> \"adults receiving stable doses of metformin plus sulfonylurea for longer than 90 days with hemoglobin A ( 1c ) ( HbA ( 1c ) ) levels of 7 . 5 % to 10 %\"."
+31, Metformin, 1431, 1440, "metformin", "", 
+32, Sulfonylureas, 1446, 1458, "sulfonylurea", "", 
+33, Duration, 1463, 1482, "longer than 90 days", "", 
+34, HbA1c, 1488, 1507, "hemoglobin A ( 1c )", "", 
+131, HbA1c, 1510, 1520, "HbA ( 1c )", "", 
+36, Percentage, 1539, 1540, "%", "", 
+37, Percentage, 1547, 1548, "%", "", 
+119911, Precondition, 1553, 1634, "fasting plasma glucose levels of 6 . 7 mmol / L or greater ( > or = 120 mg / dL )", "", "<http://ctro/data#Population_110389> <http://ctro/data#hasPrecondition> \"fasting plasma glucose levels of 6 . 7 mmol / L or greater ( > or = 120 mg / dL )\"."
+38, FastingPlasmaGlucose, 1553, 1575, "fasting plasma glucose", "", 
+39, Millimoles_per_litre, 1592, 1600, "mmol / L", "", 
+40, Mg_per_deciliter, 1625, 1632, "mg / dL", "", 
+42, DoseValue, 1652, 1654, "10", "", "<http://ctro/data#Medication_110467> <http://ctro/data#hasDoseValue> \"10\". <http://ctro/data#Medication_110474> <http://ctro/data#hasDoseValue> \"10\"."
+226, Int_Unit, 1655, 1657, "IU", "", "<http://ctro/data#Medication_110467> <http://ctro/data#hasDoseUnit> <http://ctro/data#Int_Unit>. <http://ctro/data#Medication_110474> <http://ctro/data#hasDoseUnit> <http://ctro/data#Int_Unit>."
+52178, LisproProtamine, 1661, 1672, "NPL insulin", "", "<http://ctro/data#Medication_110467> <http://ctro/data#hasDrug> <http://ctro/data#LisproProtamine>."
+43, InsulinGlargine, 1676, 1692, "insulin glargine", "", "<http://ctro/data#Medication_110474> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+144, SubcutaneousInjection, 1693, 1716, "injected subcutaneously", "", "<http://ctro/data#Medication_110467> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#SubcutaneousInjection>. <http://ctro/data#Medication_110474> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#SubcutaneousInjection>."
+145, Bedtime, 1720, 1727, "bedtime", "", "<http://ctro/data#Intervention_110449> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>. <http://ctro/data#Intervention_110455> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+46, Frequency, 1733, 1739, "weekly", "", 
+102222, DoseDescription, 1740, 1867, "dose titrations to target fasting glucose levels less than 5 . 6 mmol / L ( < 100 mg / dL ) in addition to stable oral regimens", "", "<http://ctro/data#Medication_110467> <http://ctro/data#hasDoseDescription> \"dose titrations to target fasting glucose levels less than 5 . 6 mmol / L ( < 100 mg / dL ) in addition to stable oral regimens\". <http://ctro/data#Medication_110474> <http://ctro/data#hasDoseDescription> \"dose titrations to target fasting glucose levels less than 5 . 6 mmol / L ( < 100 mg / dL ) in addition to stable oral regimens\"."
+146, FastingPlasmaGlucose_target, 1766, 1831, "fasting glucose levels less than 5 . 6 mmol / L ( < 100 mg / dL )", "", 
+147, Millimoles_per_litre, 1805, 1813, "mmol / L", "", 
+148, Mg_per_deciliter, 1822, 1829, "mg / dL", "", 
+45, OralAntidiabeticAgent, 1854, 1867, "oral regimens", "", "<http://ctro/data#Medication_110481> <http://ctro/data#hasDrug> <http://ctro/data#OralAntidiabeticAgent>."
+149, Bedtime, 1889, 1898, "nighttime", "", 
+47, Sulfonylureas, 1899, 1911, "sulfonylurea", "", 
+48, Metformin, 1946, 1955, "metformin", "", 
+49, HbA1c, 2007, 2017, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_110401> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+230, TimePoint, 2030, 2038, "baseline", "", 
+231, TimePoint, 2042, 2049, "week 36", "", "<http://ctro/data#Outcome_110488> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110515> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110551> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110578> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110619> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110646> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110687> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_110714> <http://ctro/data#hasTimePoint> \"week 36\"."
+50, HbA1c_target, 2076, 2107, "HbA ( 1c ) levels less than 7 %", "", "<http://ctro/data#Endpoint_110406> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+154, Percentage, 2106, 2107, "%", "", "<http://ctro/data#Endpoint_110406> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+51, Hypoglycemia, 2126, 2147, "hypoglycemic episodes", "", 
+232, InsulinDose, 2150, 2162, "insulin dose", "", 
+233, Glucose, 2182, 2195, "glucose level", "", 
+52, BodyWeight, 2202, 2213, "body weight", "", 
+53, Insulin, 2317, 2324, "insulin", "", 
+234, TimePoint, 2332, 2339, "week 36", "", 
+54, HbA1c, 2367, 2377, "HbA ( 1c )", "", 
+55, Reduction, 2414, 2420, "1 . 83", "", "<http://ctro/data#Outcome_110488> <http://ctro/data#hasChangeValue> \"1 . 83\"."
+57, Percentage, 2421, 2422, "%", "", "<http://ctro/data#Endpoint_110401> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+56, Reduction, 2427, 2433, "1 . 89", "", "<http://ctro/data#Outcome_110515> <http://ctro/data#hasChangeValue> \"1 . 89\"."
+58, Percentage, 2434, 2435, "%", "", 
+52180, LisproProtamine, 2440, 2443, "NPL", "", 
+60, InsulinGlargine, 2448, 2456, "glargine", "", 
+52181, DiffGroupRelValue, 2514, 2520, "0 . 06", "", "<http://ctro/data#DiffBetweenGroups_110542> <http://ctro/data#hasDiffGroupRelValue> \"0 . 06\"."
+63, ConfIntervalDiff, 2540, 2567, "95 % CI , - 0 . 1 to 0 . 15", "", "<http://ctro/data#DiffBetweenGroups_110542> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 1 to 0 . 15\"."
+65, HbA1c_target, 2641, 2681, "Hemoglobin A ( 1c ) levels less than 7 %", "", 
+172, Percentage, 2680, 2681, "%", "", 
+66, PercentageAffected, 2694, 2696, "62", "", "<http://ctro/data#Outcome_110551> <http://ctro/data#hasPercentageAffected> \"62\"."
+52182, LisproProtamine, 2721, 2724, "NPL", "", 
+67, PercentageAffected, 2729, 2731, "64", "", "<http://ctro/data#Outcome_110578> <http://ctro/data#hasPercentageAffected> \"64\". <http://ctro/data#Outcome_110646> <http://ctro/data#hasPercentageAffected> \"64\"."
+68, InsulinGlargine, 2756, 2764, "glargine", "", 
+81, DiffGroupRelValue, 2780, 2785, "2 . 0", "", "<http://ctro/data#DiffBetweenGroups_110605> <http://ctro/data#hasDiffGroupRelValue> \"2 . 0\". <http://ctro/data#DiffBetweenGroups_110673> <http://ctro/data#hasDiffGroupRelValue> \"2 . 0\"."
+69, ConfIntervalDiff, 2806, 2827, "CI , - 1 . 1 to 5 . 0", "", "<http://ctro/data#DiffBetweenGroups_110605> <http://ctro/data#hasConfIntervalDiff> \"CI , - 1 . 1 to 5 . 0\". <http://ctro/data#DiffBetweenGroups_110673> <http://ctro/data#hasConfIntervalDiff> \"CI , - 1 . 1 to 5 . 0\"."
+70, FastingPlasmaGlucose_target, 2852, 2924, "Fasting plasma glucose levels less than 5 . 6 mmol / L ( < 100 mg / dL )", "", "<http://ctro/data#Endpoint_110614> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose_target>."
+182, Millimoles_per_litre, 2898, 2906, "mmol / L", "", "<http://ctro/data#Endpoint_110614> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+183, Mg_per_deciliter, 2915, 2922, "mg / dL", "", 
+71, PercentageAffected, 2937, 2939, "40", "", "<http://ctro/data#Outcome_110619> <http://ctro/data#hasPercentageAffected> \"40\"."
+52183, LisproProtamine, 2964, 2967, "NPL", "", 
+72, PercentageAffected, 2972, 2974, "41", "", 
+73, InsulinGlargine, 2999, 3007, "glargine", "", 
+82, DiffGroupRelValue, 3023, 3028, "1 . 0", "", 
+74, ConfIntervalDiff, 3048, 3069, "CI , - 0 . 9 to 3 . 0", "", 
+75, Hypoglycemia, 3098, 3110, "hypoglycemic", "", "<http://ctro/data#Endpoint_110682> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+76, PercentageAffected, 3129, 3131, "74", "", "<http://ctro/data#Outcome_110687> <http://ctro/data#hasPercentageAffected> \"74\"."
+52184, LisproProtamine, 3156, 3159, "NPL", "", 
+77, PercentageAffected, 3164, 3166, "67", "", "<http://ctro/data#Outcome_110714> <http://ctro/data#hasPercentageAffected> \"67\"."
+78, InsulinGlargine, 3191, 3199, "glargine", "", 
+79, DiffGroupRelValue, 3215, 3216, "7", "", "<http://ctro/data#DiffBetweenGroups_110741> <http://ctro/data#hasDiffGroupRelValue> \"7\"."
+80, ConfIntervalDiff, 3237, 3251, "CI , - 5 to 13", "", "<http://ctro/data#DiffBetweenGroups_110741> <http://ctro/data#hasConfIntervalDiff> \"CI , - 5 to 13\"."
+240, ObservedResult, 3276, 3383, "Continuous glucose level monitoring in the patients who had this measurement did not differ statistically .", "", "<http://ctro/data#Outcome_110755> <http://ctro/data#hasObservedResult> \"Continuous glucose level monitoring in the patients who had this measurement did not differ statistically .\"."
+239, Glucose, 3287, 3294, "glucose", "", "<http://ctro/data#Glucose_110751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glucose>. <http://ctro/data#Endpoint_110750> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Glucose_110751>."
+207, OpenLabel, 3411, 3422, "not blinded", "", 
+83, Hypoglycemia, 3468, 3480, "hypoglycemic", "", 
+241, Glucose, 3520, 3527, "glucose", "", 
+213, ConclusionComment, 3577, 3725, "Similar glycemic control occurred with the addition of NPL or glargine insulin to oral regimens in patients with poorly controlled type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasConclusionComment> \"Similar glycemic control occurred with the addition of NPL or glargine insulin to oral regimens in patients with poorly controlled type 2 diabetes .\"."
+52185, LisproProtamine, 3632, 3635, "NPL", "", 
+84, InsulinGlargine, 3639, 3655, "glargine insulin", "", 
+85, OralAntidiabeticAgent, 3659, 3672, "oral regimens", "", 
+86, Type2Diabetes, 3708, 3723, "type 2 diabetes", "", 
+88, Hypoglycemia, 3726, 3738, "Hypoglycemia", "", 
+215, ConclusionComment, 3726, 3843, "Hypoglycemia was similar in the 2 groups , but sample size limited the ability to make a definite safety assessment .", "", "<http://ctro/data#ClinicalTrial_110371> <http://ctro/data#hasConclusionComment> \"Hypoglycemia was similar in the 2 groups , but sample size limited the ability to make a definite safety assessment .\"."
+89, PMID, 3911, 3919, "18936501", "", "<http://ctro/data#Publication_110356> <http://ctro/data#hasPMID> \"18936501\"."

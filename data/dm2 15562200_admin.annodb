@@ -1,0 +1,118 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+9, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+0, PublicationYear, 16, 20, "2004", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasPublicationYear> \"2004\"."
+119, Duration, 51, 73, "Twelve - and 52 - week", "", 
+212, Title, 51, 185, "Twelve - and 52 - week efficacy of the dipeptidyl peptidase IV inhibitor LAF237 in metformin - treated patients with type 2 diabetes .", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasTitle> \"Twelve - and 52 - week efficacy of the dipeptidyl peptidase IV inhibitor LAF237 in metformin - treated patients with type 2 diabetes .\"."
+38502, Vildagliptin, 124, 130, "LAF237", "", 
+8, Precondition, 134, 183, "metformin - treated patients with type 2 diabetes", "", "<http://ctro/data#Population_30694> <http://ctro/data#hasPrecondition> \"metformin - treated patients with type 2 diabetes\"."
+12, Metformin, 134, 143, "metformin", "", 
+13, Type2Diabetes, 168, 183, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+1, Author, 186, 195, "Ahr é n B", "", 
+2, Author, 204, 211, "Gomis R", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasAuthor> \"Gomis R\"."
+3, Author, 214, 222, "Standl E", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasAuthor> \"Standl E\"."
+4, Author, 225, 232, "Mills D", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasAuthor> \"Mills D\"."
+5, Author, 235, 246, "Schweizer A", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasAuthor> \"Schweizer A\"."
+7, Sweden, 346, 352, "Sweden", "", "<http://ctro/data#Population_30694> <http://ctro/data#hasCountry> <http://ctro/data#Sweden>."
+213, ObjectiveDescription, 394, 564, "To assess the 12 - and 52 - week efficacy of the dipeptidyl peptidase IV inhibitor LAF237 versus placebo in patients with type 2 diabetes continuing metformin treatment .", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasObjectiveDescription> \"To assess the 12 - and 52 - week efficacy of the dipeptidyl peptidase IV inhibitor LAF237 versus placebo in patients with type 2 diabetes continuing metformin treatment .\"."
+120, Duration, 408, 426, "12 - and 52 - week", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasCTduration> \"12 - and 52 - week\"."
+38402, Duration, 417, 426, "52 - week", "", 
+38503, Vildagliptin, 477, 483, "LAF237", "", 
+71, Placebo, 491, 498, "placebo", "", 
+72, Type2Diabetes, 516, 531, "type 2 diabetes", "", 
+73, Metformin, 543, 552, "metformin", "", 
+19, Duration, 610, 619, "12 - week", "", 
+20, Randomized, 622, 632, "randomized", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+21, DoubleBlind, 635, 649, "double - blind", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+22, Placebo, 652, 659, "placebo", "", 
+23, NumberPatientsCT, 682, 685, "107", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasNumberPatientsCT> \"107\"."
+24, Type2Diabetes, 700, 715, "type 2 diabetes", "", 
+216, Duration, 723, 732, "40 - week", "", 
+66, Duration, 849, 855, "1 year", "", 
+25, Placebo, 858, 865, "Placebo", "", "<http://ctro/data#Medication_30759> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+88, NumberPatientsArm, 872, 874, "51", "", "<http://ctro/data#Arm_30731> <http://ctro/data#hasNumberPatientsArm> \"51\"."
+38501, Vildagliptin, 880, 886, "LAF237", "", "<http://ctro/data#Medication_30752> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+28, DoseValue, 889, 891, "50", "", "<http://ctro/data#Medication_30752> <http://ctro/data#hasDoseValue> \"50\"."
+29, mg, 892, 894, "mg", "", "<http://ctro/data#Medication_30752> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+30, Frequency, 895, 905, "once daily", "", "<http://ctro/data#Intervention_30740> <http://ctro/data#hasFrequency> \"once daily\"."
+89, NumberPatientsArm, 912, 914, "56", "", "<http://ctro/data#Arm_30722> <http://ctro/data#hasNumberPatientsArm> \"56\"."
+31, Metformin, 938, 947, "metformin", "", 
+32, DoseValue, 960, 977, "1 , 500 - 3 , 000", "", 
+33, mg, 978, 980, "mg", "", 
+38403, Interval, 983, 986, "day", "", 
+35, HbA1c, 991, 996, "HbA1c", "", 
+142, FastingPlasmaGlucose, 1001, 1023, "fasting plasma glucose", "", 
+143, FastingPlasmaGlucose, 1026, 1029, "FPG", "", 
+144, TimePoint, 1107, 1115, "baseline", "", 
+67, TimePoint, 1118, 1125, "week 12", "", 
+68, TimePoint, 1132, 1139, "week 52", "", 
+147, Randomized, 1164, 1174, "randomized", "", 
+38506, Vildagliptin, 1178, 1184, "LAF237", "", 
+38, HbA1c, 1196, 1201, "HbA1c", "", 
+39, BaseLineValue, 1211, 1216, "7 . 7", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasBaselineValue> \"7 . 7\"."
+151, SdDevBL, 1223, 1228, "0 . 1", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasSdDevBL> \"0 . 1\"."
+101, Percentage, 1229, 1230, "%", "", "<http://ctro/data#Endpoint_30702> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+110, TimePoint, 1248, 1255, "week 12", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_30854> <http://ctro/data#hasTimePoint> \"week 12\"."
+154, Reduction, 1268, 1273, "0 . 6", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasChangeValue> \"0 . 6\"."
+155, SdDevChangeValue, 1280, 1285, "0 . 1", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasSdDevChangeValue> \"0 . 1\"."
+102, Percentage, 1286, 1287, "%", "", 
+43, HbA1c, 1300, 1305, "HbA1c", "", 
+93000, ObservedResult, 1306, 1336, "did not change from a baseline", "", "<http://ctro/data#Outcome_30854> <http://ctro/data#hasObservedResult> \"did not change from a baseline\"."
+44, BaseLineValue, 1340, 1345, "7 . 9", "", "<http://ctro/data#Outcome_30854> <http://ctro/data#hasBaselineValue> \"7 . 9\"."
+159, SdDevBL, 1352, 1357, "0 . 1", "", "<http://ctro/data#Outcome_30854> <http://ctro/data#hasSdDevBL> \"0 . 1\"."
+103, Percentage, 1358, 1359, "%", "", 
+46, Placebo, 1378, 1385, "placebo", "", 
+47, DiffGroupAbsValue, 1431, 1438, "- 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_41712> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 7\"."
+162, SdDevDiff, 1445, 1450, "0 . 1", "", "<http://ctro/data#DiffBetweenGroups_41712> <http://ctro/data#hasStandardDevDiff> \"0 . 1\"."
+104, Percentage, 1451, 1452, "%", "", 
+49, PvalueDiff, 1455, 1467, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_41712> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+114, Mean, 1472, 1476, "Mean", "", 
+219, PostprandialBloodGlucose, 1477, 1493, "prandial glucose", "", "<http://ctro/data#Endpoint_30707> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+50, FastingPlasmaGlucose, 1498, 1501, "FPG", "", "<http://ctro/data#Endpoint_30712> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+38507, Vildagliptin, 1551, 1557, "LAF237", "", 
+53, Placebo, 1565, 1572, "placebo", "", 
+168, Reduction, 1576, 1581, "2 . 2", "", "<http://ctro/data#Outcome_13070> <http://ctro/data#hasChangeValue> \"2 . 2\"."
+170, SdDevChangeValue, 1588, 1593, "0 . 4", "", "<http://ctro/data#Outcome_13070> <http://ctro/data#hasSdDevChangeValue> \"0 . 4\"."
+56, Millimoles_per_litre, 1594, 1602, "mmol / l", "", "<http://ctro/data#Endpoint_30707> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+38508, PValueChangeValue, 1605, 1617, "P < 0 . 0001", "", "<http://ctro/data#Outcome_13070> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+172, Reduction, 1624, 1629, "1 . 2", "", "<http://ctro/data#Outcome_30773> <http://ctro/data#hasChangeValue> \"1 . 2\"."
+174, SdDevChangeValue, 1636, 1641, "0 . 4", "", "<http://ctro/data#Outcome_30773> <http://ctro/data#hasSdDevChangeValue> \"0 . 4\"."
+60, Millimoles_per_litre, 1642, 1650, "mmol / l", "", 
+38509, PValueChangeValue, 1653, 1665, "P = 0 . 0057", "", "<http://ctro/data#Outcome_30773> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 0057\"."
+93001, Insulin, 1689, 1703, "plasma insulin", "", 
+62, ObservedResult, 1704, 1728, "levels were not affected", "", "<http://ctro/data#Outcome_30800> <http://ctro/data#hasObservedResult> \"levels were not affected\"."
+113, TimePoint, 1734, 1760, "end point of the extension", "", 
+115, Mean, 1808, 1812, "mean", "", 
+179, EndPointDescription, 1813, 1829, "prandial glucose", "", 
+93002, Insulin, 1832, 1839, "insulin", "", 
+65, FastingPlasmaGlucose, 1846, 1849, "FPG", "", 
+74, DiffGroupAbsValue, 1855, 1862, "- 2 . 4", "", 
+184, SdDevDiff, 1869, 1874, "0 . 6", "", 
+76, Millimoles_per_litre, 1875, 1883, "mmol / l", "", 
+77, PvalueDiff, 1886, 1898, "P = 0 . 0001", "", 
+78, DiffGroupAbsValue, 1903, 1905, "40", "", 
+192, SdDevDiff, 1912, 1914, "16", "", 
+80, Picomole_per_liter, 1915, 1923, "pmol / l", "", 
+81, PvalueDiff, 1926, 1938, "P = 0 . 0153", "", 
+82, DiffGroupAbsValue, 1947, 1954, "- 1 . 1", "", 
+185, SdDevDiff, 1961, 1966, "0 . 5", "", 
+84, Millimoles_per_litre, 1967, 1975, "mmol / l", "", 
+85, PvalueDiff, 1978, 1990, "P = 0 . 0312", "", 
+93003, ObservedResult, 2010, 2054, "HbA1c did not change from week 12 to week 52", "", "<http://ctro/data#Outcome_30827> <http://ctro/data#hasObservedResult> \"HbA1c did not change from week 12 to week 52\"."
+86, HbA1c, 2010, 2015, "HbA1c", "", 
+93, TimePoint, 2036, 2043, "week 12", "", 
+92, TimePoint, 2047, 2054, "week 52", "", 
+38505, Vildagliptin, 2058, 2064, "LAF237", "", 
+93005, NumberPatientsArm, 2090, 2092, "42", "", 
+93004, ObservedResult, 2099, 2138, "increased in participants given placebo", "", 
+94, Placebo, 2131, 2138, "placebo", "", 
+93006, NumberPatientsArm, 2145, 2147, "29", "", 
+203, TimePoint, 2203, 2209, "1 year", "", 
+97, DiffGroupAbsValue, 2214, 2221, "- 1 . 1", "", 
+205, SdDevDiff, 2228, 2233, "0 . 2", "", 
+99, Percentage, 2234, 2235, "%", "", 
+100, PvalueDiff, 2238, 2250, "P < 0 . 0001", "", 
+218, ConclusionComment, 2269, 2425, "Data from this study demonstrate that LAF237 effectively prevents deterioration of glycemic control when added to metformin monotherapy in type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_30677> <http://ctro/data#hasConclusionComment> \"Data from this study demonstrate that LAF237 effectively prevents deterioration of glycemic control when added to metformin monotherapy in type 2 diabetes .\"."
+38504, Vildagliptin, 2307, 2313, "LAF237", "", 
+107, Metformin, 2383, 2392, "metformin", "", 
+108, Type2Diabetes, 2408, 2423, "type 2 diabetes", "", 
+6, PMID, 2476, 2484, "15562200", "", "<http://ctro/data#Publication_30666> <http://ctro/data#hasPMID> \"15562200\"."

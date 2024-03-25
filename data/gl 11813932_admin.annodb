@@ -1,0 +1,119 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 11, "Clin Ther .", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasJournal> \"Clin Ther .\"."
+1, PublicationYear, 12, 16, "2001", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasPublicationYear> \"2001\"."
+2, Title, 47, 273, "A comparison of the efficacy and tolerability of brimonidine and latanoprost in adults with open - angle glaucoma or ocular hypertension : a three - month , multicenter , randomized , double - masked , parallel - group trial .", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasTitle> \"A comparison of the efficacy and tolerability of brimonidine and latanoprost in adults with open - angle glaucoma or ocular hypertension : a three - month , multicenter , randomized , double - masked , parallel - group trial .\"."
+52, Brimonidine, 96, 107, "brimonidine", "", 
+53, Latanoprost, 112, 123, "latanoprost", "", 
+54, OpenAngleGlaucoma, 139, 160, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+55, OcularHypertension, 164, 183, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+56, Duration, 188, 201, "three - month", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasCTduration> \"three - month\"."
+57, Multicenter, 204, 215, "multicenter", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+58, Randomized, 218, 228, "randomized", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+128, DoubleBlind, 231, 246, "double - masked", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+129, Parallel, 249, 257, "parallel", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+3, Author, 274, 284, "DuBiner HB", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasAuthor> \"DuBiner HB\"."
+4, Author, 293, 299, "Mroz M", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasAuthor> \"Mroz M\"."
+5, Author, 302, 312, "Shapiro AM", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasAuthor> \"Shapiro AM\"."
+6, Author, 315, 323, "Dirks MS", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasAuthor> \"Dirks MS\"."
+135, Brimonidine, 326, 337, "Brimonidine", "", 
+136, Latanoprost, 343, 354, "Latanoprost", "", 
+8, USA, 442, 445, "USA", "", "<http://ctro/data#Population_36717> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+61, Brimonidine, 494, 505, "brimonidine", "", 
+62, Latanoprost, 509, 520, "latanoprost", "", 
+63, OpenAngleGlaucoma, 554, 575, "open - angle glaucoma", "", 
+64, OcularHypertension, 579, 598, "ocular hypertension", "", 
+9, ObjectiveDescription, 754, 973, "This study compared the clinical efficacy and tolerability of brimonidine 0 . 2 % twice daily with those of latanoprost 0 . 005 % once daily as monotherapy in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasObjectiveDescription> \"This study compared the clinical efficacy and tolerability of brimonidine 0 . 2 % twice daily with those of latanoprost 0 . 005 % once daily as monotherapy in patients with open - angle glaucoma or ocular hypertension .\"."
+65, Brimonidine, 816, 827, "brimonidine", "", "<http://ctro/data#Medication_36770> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+10, DoseValue, 828, 833, "0 . 2", "", "<http://ctro/data#Medication_36770> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+11, Percentage, 834, 835, "%", "", "<http://ctro/data#Medication_36770> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+12, Frequency, 836, 847, "twice daily", "", "<http://ctro/data#Intervention_36756> <http://ctro/data#hasFrequency> \"twice daily\"."
+66, Latanoprost, 862, 873, "latanoprost", "", "<http://ctro/data#Latanoprost_36778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_36777> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_36778>."
+13, DoseValue, 874, 881, "0 . 005", "", "<http://ctro/data#Medication_36777> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+14, Percentage, 882, 883, "%", "", "<http://ctro/data#Medication_36777> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+15, Frequency, 884, 894, "once daily", "", "<http://ctro/data#Intervention_36762> <http://ctro/data#hasFrequency> \"once daily\"."
+67, OpenAngleGlaucoma, 927, 948, "open - angle glaucoma", "", 
+68, OcularHypertension, 952, 971, "ocular hypertension", "", 
+69, Duration, 992, 1001, "3 - month", "", 
+70, Multicenter, 1004, 1015, "multicenter", "", 
+71, DoubleBlind, 1018, 1033, "double - masked", "", 
+174, Parallel, 1036, 1044, "parallel", "", 
+175, Precondition, 1073, 1256, "treatment - naive and previously treated patients with open - angle glaucoma or ocular hypertension and bilateral intraocular pressure ( IOP ) after washout of between 22 and 34 mm Hg", "", "<http://ctro/data#Population_36717> <http://ctro/data#hasPrecondition> \"treatment - naive and previously treated patients with open - angle glaucoma or ocular hypertension and bilateral intraocular pressure ( IOP ) after washout of between 22 and 34 mm Hg\"."
+73, OpenAngleGlaucoma, 1128, 1149, "open - angle glaucoma", "", 
+74, OcularHypertension, 1153, 1172, "ocular hypertension", "", 
+18, IOP, 1187, 1207, "intraocular pressure", "", 
+19, IOP, 1210, 1213, "IOP", "", 
+49, mmHg, 1251, 1256, "mm Hg", "", "<http://ctro/data#Endpoint_36725> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+76, Randomized, 1262, 1272, "randomized", "", 
+77, Brimonidine, 1291, 1302, "brimonidine", "", 
+78, Latanoprost, 1306, 1317, "latanoprost", "", 
+93009, IOP_target, 1515, 1543, "> or = 20 % reduction in IOP", "", "<http://ctro/data#Endpoint_36731> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_target>."
+225, TimePoint, 1549, 1557, "baseline", "", 
+80, TimePoint, 1561, 1568, "month 3", "", 
+184, Mean, 1603, 1607, "mean", "", "<http://ctro/data#Mean_36727> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_36725> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_36727>."
+21, IOP, 1608, 1611, "IOP", "", 
+81, TimePoint, 1639, 1646, "month 3", "", 
+22, NumberPatientsCT, 1802, 1805, "127", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasNumberPatientsCT> \"127\"."
+23, NumberPatientsArm, 1854, 1856, "66", "", "<http://ctro/data#Arm_36738> <http://ctro/data#hasNumberPatientsArm> \"66\"."
+82, Brimonidine, 1864, 1875, "brimonidine", "", 
+24, NumberPatientsArm, 1886, 1888, "61", "", "<http://ctro/data#Arm_36747> <http://ctro/data#hasNumberPatientsArm> \"61\"."
+83, Latanoprost, 1896, 1907, "latanoprost", "", 
+89, TimePoint, 1922, 1930, "3 months", "", "<http://ctro/data#Outcome_36838> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_36865> <http://ctro/data#hasTimePoint> \"3 months\"."
+25, PercentageAffected, 1946, 1948, "80", "", "<http://ctro/data#Outcome_36838> <http://ctro/data#hasPercentageAffected> \"80\"."
+84, Brimonidine, 1970, 1981, "brimonidine", "", 
+26, PercentageAffected, 1992, 1994, "74", "", "<http://ctro/data#Outcome_36865> <http://ctro/data#hasPercentageAffected> \"74\"."
+85, Latanoprost, 2016, 2027, "latanoprost", "", 
+93012, IOP_target, 2047, 2075, "> or = 20 % reduction in IOP", "", 
+87, Mean, 2096, 2100, "mean", "", 
+27, IOP, 2114, 2117, "IOP", "", 
+88, TimePoint, 2135, 2142, "month 3", "", "<http://ctro/data#Outcome_36784> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_36811> <http://ctro/data#hasTimePoint> \"month 3\"."
+28, Reduction, 2147, 2152, "6 . 8", "", "<http://ctro/data#Outcome_36784> <http://ctro/data#hasChangeValue> \"6 . 8\"."
+50, mmHg, 2153, 2158, "mm Hg", "", "<http://ctro/data#Endpoint_36731> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+90, Brimonidine, 2164, 2175, "brimonidine", "", 
+29, Reduction, 2180, 2185, "6 . 5", "", "<http://ctro/data#Outcome_36811> <http://ctro/data#hasChangeValue> \"6 . 5\"."
+51, mmHg, 2186, 2191, "mm Hg", "", 
+91, Latanoprost, 2197, 2208, "latanoprost", "", 
+30, RelativeReduction, 2211, 2217, "27 . 8", "", "<http://ctro/data#Outcome_36784> <http://ctro/data#hasRelativeChangeValue> \"27 . 8\"."
+31, RelativeReduction, 2223, 2229, "27 . 0", "", "<http://ctro/data#Outcome_36811> <http://ctro/data#hasRelativeChangeValue> \"27 . 0\"."
+198, SubGroupDescription, 2257, 2283, "treatment - naive patients", "", "<http://ctro/data#Outcome_36892> <http://ctro/data#hasSubGroupDescription> \"treatment - naive patients\". <http://ctro/data#Outcome_36919> <http://ctro/data#hasSubGroupDescription> \"treatment - naive patients\"."
+92, Brimonidine, 2323, 2334, "brimonidine", "", 
+93011, IOP_target, 2363, 2390, "> or = 20 % decrease in IOP", "", 
+94, Latanoprost, 2405, 2416, "latanoprost", "", 
+200, PercentageAffected, 2438, 2440, "88", "", "<http://ctro/data#Outcome_36892> <http://ctro/data#hasPercentageAffected> \"88\"."
+201, PercentageAffected, 2446, 2448, "59", "", 
+202, PvalueDiff, 2468, 2478, "P = 0 . 01", "", 
+35, SubGroupDescription, 2486, 2504, "previously treated", "", "<http://ctro/data#Outcome_36951> <http://ctro/data#hasSubGroupDescription> \"previously treated\". <http://ctro/data#Outcome_36978> <http://ctro/data#hasSubGroupDescription> \"previously treated\"."
+95, Latanoprost, 2543, 2554, "latanoprost", "", 
+93010, IOP_target, 2570, 2598, "> or = 20 % reduction in IOP", "", 
+97, Brimonidine, 2617, 2628, "brimonidine", "", 
+209, PercentageAffected, 2637, 2639, "88", "", "<http://ctro/data#Outcome_36978> <http://ctro/data#hasPercentageAffected> \"88\"."
+210, PercentageAffected, 2645, 2647, "74", "", "<http://ctro/data#Outcome_36951> <http://ctro/data#hasPercentageAffected> \"74\"."
+100, Brimonidine, 2765, 2776, "brimonidine", "", 
+40989, EndPointDescription, 2792, 2808, "clinical success", "", "<http://ctro/data#EndPointDescription_37024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_37023> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_37024>."
+98, TimePoint, 2812, 2819, "month 3", "", "<http://ctro/data#Outcome_37028> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_37055> <http://ctro/data#hasTimePoint> \"month 3\"."
+99, Latanoprost, 2850, 2861, "latanoprost", "", 
+101, PercentageAffected, 2870, 2872, "91", "", "<http://ctro/data#Outcome_37028> <http://ctro/data#hasPercentageAffected> \"91\"."
+102, PercentageAffected, 2878, 2880, "74", "", "<http://ctro/data#Outcome_37055> <http://ctro/data#hasPercentageAffected> \"74\"."
+206, PvalueDiff, 2885, 2895, "P = 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_37087> <http://ctro/data#hasPvalueDiff> \"P = 0 . 01\"."
+38, ConclusionComment, 2914, 3015, "At peak effect , brimonidine twice daily was as effective as latanoprost once daily in lowering IOP .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasConclusionComment> \"At peak effect , brimonidine twice daily was as effective as latanoprost once daily in lowering IOP .\"."
+104, Brimonidine, 2931, 2942, "brimonidine", "", 
+105, Frequency, 2943, 2954, "twice daily", "", 
+106, Latanoprost, 2975, 2986, "latanoprost", "", 
+107, Frequency, 2987, 2997, "once daily", "", 
+108, IOP, 3010, 3013, "IOP", "", 
+39, ConclusionComment, 3016, 3178, "In treatment - naive patients , latanoprost was associated with a significantly higher rate of nonresponse after 3 months of treatment compared with brimonidine .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasConclusionComment> \"In treatment - naive patients , latanoprost was associated with a significantly higher rate of nonresponse after 3 months of treatment compared with brimonidine .\"."
+109, Latanoprost, 3048, 3059, "latanoprost", "", 
+110, TimePoint, 3129, 3137, "3 months", "", 
+111, Brimonidine, 3165, 3176, "brimonidine", "", 
+40, ConclusionComment, 3179, 3332, "This suggests that brimonidine may be the more reliable choice for first - line therapy of newly diagnosed open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasConclusionComment> \"This suggests that brimonidine may be the more reliable choice for first - line therapy of newly diagnosed open - angle glaucoma or ocular hypertension .\"."
+112, Brimonidine, 3198, 3209, "brimonidine", "", 
+113, OpenAngleGlaucoma, 3286, 3307, "open - angle glaucoma", "", 
+114, OcularHypertension, 3311, 3330, "ocular hypertension", "", 
+41, ConclusionComment, 3333, 3446, "In previously treated patients , however , latanoprost provided greater mean IOP reduction than did brimonidine .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasConclusionComment> \"In previously treated patients , however , latanoprost provided greater mean IOP reduction than did brimonidine .\"."
+115, Latanoprost, 3376, 3387, "latanoprost", "", 
+43, Mean, 3405, 3409, "mean", "", 
+44, IOP, 3410, 3413, "IOP", "", 
+116, Brimonidine, 3433, 3444, "brimonidine", "", 
+42, ConclusionComment, 3447, 3565, "Significantly more patients achieved clinical success with brimonidine monotherapy than with latanoprost monotherapy .", "", "<http://ctro/data#ClinicalTrial_36693> <http://ctro/data#hasConclusionComment> \"Significantly more patients achieved clinical success with brimonidine monotherapy than with latanoprost monotherapy .\"."
+117, Brimonidine, 3506, 3517, "brimonidine", "", 
+118, Latanoprost, 3540, 3551, "latanoprost", "", 
+45, PMID, 3573, 3581, "11813932", "", "<http://ctro/data#Publication_36683> <http://ctro/data#hasPMID> \"11813932\"."

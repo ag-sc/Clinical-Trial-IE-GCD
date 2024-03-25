@@ -1,0 +1,109 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2018", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasPublicationYear> \"2018\"."
+24, Title, 110, 305, "A randomized clinical trial of the efficacy and safety of sitagliptin compared with dapagliflozin in patients with type 2 diabetes mellitus and mild renal insufficiency : The CompoSIT - R study .", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasTitle> \"A randomized clinical trial of the efficacy and safety of sitagliptin compared with dapagliflozin in patients with type 2 diabetes mellitus and mild renal insufficiency : The CompoSIT - R study .\"."
+2, Randomized, 112, 122, "randomized", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, Sitagliptin, 168, 179, "sitagliptin", "", 
+11, Dapagliflozin, 194, 207, "dapagliflozin", "", 
+21, Type2Diabetes, 225, 249, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+96529, DisorderOrSyndrome, 259, 278, "renal insufficiency", "", "<http://ctro/data#DisorderOrSyndrome_82585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DisorderOrSyndrome>. <http://ctro/data#ClinicalTrial_82483> <http://ctro/data#analysesHealthCondition> <http://ctro/data#DisorderOrSyndrome_82585>."
+25, Author, 306, 313, "Scott R", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Scott R\"."
+26, Author, 322, 330, "Morgan J", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Morgan J\"."
+27, Author, 339, 347, "Zimmer Z", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Zimmer Z\"."
+28, Author, 356, 363, "Lam RLH", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Lam RLH\"."
+29, Author, 372, 384, "O ' Neill EA", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"O ' Neill EA\"."
+30, Author, 393, 403, "Kaufman KD", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+31, Author, 412, 420, "Engel SS", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Engel SS\"."
+32, Author, 429, 435, "Raji A", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasAuthor> \"Raji A\"."
+33, Country, 556, 567, "New Zealand", "", "<http://ctro/data#Country_91575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_82499> <http://ctro/data#hasCountry> <http://ctro/data#Country_91575>."
+34, USA, 612, 622, "New Jersey", "", "<http://ctro/data#Population_82499> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+36, ObjectiveDescription, 631, 849, "To compare the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor sitagliptin with the sodium - glucose transporter - 2 inhibitor dapagliflozin in patients with type 2 diabetes and mild renal insufficiency .", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor sitagliptin with the sodium - glucose transporter - 2 inhibitor dapagliflozin in patients with type 2 diabetes and mild renal insufficiency .\"."
+4, Sitagliptin, 708, 719, "sitagliptin", "", 
+13, Dapagliflozin, 772, 785, "dapagliflozin", "", 
+35, Precondition, 789, 847, "patients with type 2 diabetes and mild renal insufficiency", "", "<http://ctro/data#Population_82499> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes and mild renal insufficiency\"."
+22, Type2Diabetes, 803, 818, "type 2 diabetes", "", 
+96528, DisorderOrSyndrome, 828, 847, "renal insufficiency", "", 
+106274, Precondition, 874, 1070, "Patients with HbA1c ≥ 7 . 0 to ≤ 9 . 5 % ( ≥ 53 to ≤ 80   mmol / mol ) and estimated glomerular filtration rate ≥ 60 to < 90   mL / min / 1 . 73m2 on metformin ( ≥ 1500   mg / d )  ±  sulfonylurea", "", "<http://ctro/data#Population_82499> <http://ctro/data#hasPrecondition> \"Patients with HbA1c ≥ 7 . 0 to ≤ 9 . 5 % ( ≥ 53 to ≤ 80   mmol / mol ) and estimated glomerular filtration rate ≥ 60 to < 90   mL / min / 1 . 73m2 on metformin ( ≥ 1500   mg / d )  ±  sulfonylurea\"."
+37, HbA1c, 888, 893, "HbA1c", "", 
+38, Percentage, 913, 914, "%", "", 
+135, Millimoles_per_litre, 932, 942, "mmol / mol", "", 
+73, EndPointDescription, 949, 985, "estimated glomerular filtration rate", "", 
+74, BioAndMedicalUnit, 1001, 1020, "mL / min / 1 . 73m2", "", 
+40, Metformin, 1024, 1033, "metformin", "", 
+42, DoseValue, 1036, 1042, "≥ 1500", "", 
+45, mg, 1045, 1047, "mg", "", 
+50, Frequency, 1050, 1051, "d", "", 
+52, Sulfonylureas, 1058, 1070, "sulfonylurea", "", 
+55, Randomized, 1076, 1086, "randomized", "", 
+5, Sitagliptin, 1090, 1101, "sitagliptin", "", "<http://ctro/data#Medication_82549> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+43, DoseValue, 1102, 1105, "100", "", "<http://ctro/data#Medication_82549> <http://ctro/data#hasDoseValue> \"100\"."
+46, mg, 1108, 1110, "mg", "", "<http://ctro/data#Medication_82549> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+56, NumberPatientsArm, 1119, 1122, "307", "", "<http://ctro/data#Arm_82507> <http://ctro/data#hasNumberPatientsArm> \"307\"."
+12, Dapagliflozin, 1128, 1141, "dapagliflozin", "", "<http://ctro/data#Medication_82556> <http://ctro/data#hasDrug> <http://ctro/data#Dapagliflozin>."
+44, DoseValue, 1142, 1143, "5", "", 
+58, DoseDescription, 1142, 1164, "5 mg titrated to 10 mg", "", "<http://ctro/data#Medication_82556> <http://ctro/data#hasDoseDescription> \"5 mg titrated to 10 mg\"."
+47, mg, 1144, 1146, "mg", "", 
+49, DoseValue, 1159, 1161, "10", "", 
+48, mg, 1162, 1164, "mg", "", 
+57, NumberPatientsArm, 1173, 1176, "306", "", "<http://ctro/data#Arm_82516> <http://ctro/data#hasNumberPatientsArm> \"306\"."
+51, Frequency, 1179, 1189, "once daily", "", "<http://ctro/data#Intervention_82525> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_82531> <http://ctro/data#hasFrequency> \"once daily\"."
+59, Duration, 1194, 1204, "24   weeks", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#hasCTduration> \"24   weeks\"."
+60, MeasurementDevice, 1209, 1241, "longitudinal data analysis model", "", 
+20, Sitagliptin, 1287, 1298, "sitagliptin", "", 
+14, Dapagliflozin, 1320, 1333, "dapagliflozin", "", 
+61, HbA1c, 1346, 1351, "HbA1c", "", 
+62, TimePoint, 1355, 1362, "Week 24", "", 
+162, TimePoint, 1470, 1478, "Baseline", "", 
+163, Mean, 1479, 1483, "mean", "", 
+65, HbA1c, 1484, 1489, "HbA1c", "", "<http://ctro/data#Endpoint_82594> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+66, Percentage, 1492, 1493, "%", "", "<http://ctro/data#Endpoint_82594> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+136, Millimoles_per_litre, 1496, 1506, "mmol / mol", "", 
+68, BaseLineValue, 1515, 1520, "7 . 7", "", "<http://ctro/data#Outcome_82599> <http://ctro/data#hasBaselineValue> \"7 . 7\"."
+69, BaseLineValue, 1523, 1529, "60 . 9", "", 
+70, BaseLineValue, 1536, 1541, "7 . 8", "", "<http://ctro/data#Outcome_82626> <http://ctro/data#hasBaselineValue> \"7 . 8\"."
+71, BaseLineValue, 1544, 1550, "61 . 2", "", 
+169, Mean, 1559, 1563, "mean", "", 
+72, EndPointDescription, 1564, 1568, "eGFR", "", "<http://ctro/data#EndPointDescription_82663> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82662> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82663>."
+75, BioAndMedicalUnit, 1571, 1590, "mL / min / 1 . 73m2", "", "<http://ctro/data#BioAndMedicalUnit_82665> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_82662> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_82665>."
+76, BaseLineValue, 1597, 1603, "79 . 4", "", 
+77, BaseLineValue, 1608, 1614, "76 . 9", "", "<http://ctro/data#Outcome_82667> <http://ctro/data#hasBaselineValue> \"76 . 9\"."
+6, Sitagliptin, 1623, 1634, "sitagliptin", "", 
+15, Dapagliflozin, 1639, 1652, "dapagliflozin", "", 
+63, TimePoint, 1683, 1693, "24   weeks", "", "<http://ctro/data#Outcome_82599> <http://ctro/data#hasTimePoint> \"24   weeks\". <http://ctro/data#Outcome_82626> <http://ctro/data#hasTimePoint> \"24   weeks\"."
+78, LeastSquaresMean, 1730, 1748, "least squares mean", "", "<http://ctro/data#Endpoint_82594> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+79, ConfIntervalChangeValue, 1751, 1758, "95 % CI", "", 
+64, TimePoint, 1774, 1782, "baseline", "", 
+80, HbA1c, 1786, 1791, "HbA1c", "", 
+181, DiffGroupAbsValue, 1796, 1804, "- 0 . 15", "", "<http://ctro/data#DiffBetweenGroups_82653> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 15\"."
+83, Percentage, 1805, 1806, "%", "", 
+183, ConfIntervalDiff, 1809, 1828, "- 0 . 26 , - 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_82653> <http://ctro/data#hasConfIntervalDiff> \"- 0 . 26 , - 0 . 04\"."
+182, DiffGroupAbsValue, 1833, 1841, "- 1 . 67", "", 
+137, Millimoles_per_litre, 1844, 1854, "mmol / mol", "", 
+184, ConfIntervalDiff, 1857, 1876, "- 2 . 86 , - 0 . 48", "", 
+185, PvalueDiff, 1883, 1896, "P  =  0 . 006", "", "<http://ctro/data#DiffBetweenGroups_82653> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 006\"."
+7, Sitagliptin, 1989, 2000, "sitagliptin", "", 
+16, Dapagliflozin, 2008, 2021, "dapagliflozin", "", 
+88, HbA1c_target, 2028, 2069, "HbA1c goal of < 7 % ( < 53   mmol / mol )", "", "<http://ctro/data#Endpoint_82721> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+129, Percentage, 2046, 2047, "%", "", 
+138, Millimoles_per_litre, 2057, 2067, "mmol / mol", "", 
+89, PercentageAffected, 2081, 2083, "43", "", "<http://ctro/data#Outcome_82726> <http://ctro/data#hasPercentageAffected> \"43\"."
+8, Sitagliptin, 2088, 2099, "sitagliptin", "", 
+90, PercentageAffected, 2106, 2108, "27", "", "<http://ctro/data#Outcome_82753> <http://ctro/data#hasPercentageAffected> \"27\"."
+17, Dapagliflozin, 2113, 2126, "dapagliflozin", "", 
+92, ObservedResult, 2143, 2283, "No meaningful between - group difference was observed in a pre - specified analysis of 2 - hour incremental postprandial glucose excursion .", "", "<http://ctro/data#Outcome_82785> <http://ctro/data#hasObservedResult> \"No meaningful between - group difference was observed in a pre - specified analysis of 2 - hour incremental postprandial glucose excursion .\". <http://ctro/data#Outcome_82812> <http://ctro/data#hasObservedResult> \"No meaningful between - group difference was observed in a pre - specified analysis of 2 - hour incremental postprandial glucose excursion .\"."
+91, PostprandialBloodGlucose, 2230, 2281, "2 - hour incremental postprandial glucose excursion", "", "<http://ctro/data#Endpoint_82780> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+93, EndPointDescription, 2296, 2310, "adverse events", "", "<http://ctro/data#EndPointDescription_82840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82839> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82840>."
+94, EndPointDescription, 2313, 2316, "AEs", "", 
+97, ObservedResult, 2317, 2419, ") was notable for a lower incidence of drug - related AEs with sitagliptin compared with dapagliflozin", "", "<http://ctro/data#Outcome_82844> <http://ctro/data#hasObservedResult> \") was notable for a lower incidence of drug - related AEs with sitagliptin compared with dapagliflozin\". <http://ctro/data#Outcome_82871> <http://ctro/data#hasObservedResult> \") was notable for a lower incidence of drug - related AEs with sitagliptin compared with dapagliflozin\"."
+95, EndPointDescription, 2371, 2374, "AEs", "", 
+9, Sitagliptin, 2380, 2391, "sitagliptin", "", 
+18, Dapagliflozin, 2406, 2419, "dapagliflozin", "", 
+99, ConclusionComment, 2436, 2635, "In patients with type 2 diabetes , mild renal insufficiency and inadequate glycaemic control on metformin  ±  sulfonylurea , sitagliptin treatment resulted in greater improvement in glycaemic control", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#hasConclusionComment> \"In patients with type 2 diabetes , mild renal insufficiency and inadequate glycaemic control on metformin  ±  sulfonylurea , sitagliptin treatment resulted in greater improvement in glycaemic control\"."
+23, Type2Diabetes, 2453, 2468, "type 2 diabetes", "", 
+96512, DisorderOrSyndrome, 2476, 2495, "renal insufficiency", "", 
+41, Metformin, 2532, 2541, "metformin", "", 
+53, Sulfonylureas, 2546, 2558, "sulfonylurea", "", 
+10, Sitagliptin, 2561, 2572, "sitagliptin", "", 
+100, ConclusionComment, 2636, 2698, "compared with dapagliflozin and was generally well tolerated .", "", "<http://ctro/data#ClinicalTrial_82483> <http://ctro/data#hasConclusionComment> \"compared with dapagliflozin and was generally well tolerated .\"."
+19, Dapagliflozin, 2650, 2663, "dapagliflozin", "", 
+101, PMID, 2847, 2855, "30019498", "", "<http://ctro/data#Publication_82476> <http://ctro/data#hasPMID> \"30019498\"."

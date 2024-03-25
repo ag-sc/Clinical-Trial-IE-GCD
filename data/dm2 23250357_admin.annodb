@@ -1,0 +1,79 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+82, Journal, 0, 8, "Diabetes", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasJournal> \"Diabetes\"."
+1, PublicationYear, 11, 15, "2013", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasPublicationYear> \"2013\"."
+4, Title, 97, 191, "The effect of a bile acid sequestrant on glucose metabolism in subjects with type 2 diabetes .", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasTitle> \"The effect of a bile acid sequestrant on glucose metabolism in subjects with type 2 diabetes .\"."
+106320, Precondition, 160, 189, "subjects with type 2 diabetes", "", "<http://ctro/data#Population_44201> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes\"."
+2, Type2Diabetes, 174, 189, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+5, Author, 192, 202, "Smushkin G", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Smushkin G\"."
+6, Author, 211, 225, "Sathananthan M", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Sathananthan M\"."
+7, Author, 228, 239, "Piccinini F", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Piccinini F\"."
+8, Author, 242, 253, "Dalla Man C", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Dalla Man C\"."
+9, Author, 256, 262, "Law JH", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Law JH\"."
+10, Author, 265, 274, "Cobelli C", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Cobelli C\"."
+11, Author, 277, 291, "Zinsmeister AR", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Zinsmeister AR\"."
+12, Author, 294, 302, "Rizza RA", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Rizza RA\"."
+13, Author, 305, 312, "Vella A", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasAuthor> \"Vella A\"."
+14, USA, 454, 457, "USA", "", "<http://ctro/data#Population_44201> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+29, ObjectiveDescription, 460, 619, "We designed an experiment to examine the effect of bile acid sequestration with Colesevelam on fasting and postprandial glucose metabolism in type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasObjectiveDescription> \"We designed an experiment to examine the effect of bile acid sequestration with Colesevelam on fasting and postprandial glucose metabolism in type 2 diabetes .\"."
+79881, Colesevelam, 540, 551, "Colesevelam", "", 
+119923, FastingBloodGlucose, 555, 562, "fasting", "", 
+65212, PostprandialBloodGlucose, 567, 587, "postprandial glucose", "", 
+18, Type2Diabetes, 602, 617, "type 2 diabetes", "", 
+30, ObjectiveDescription, 620, 817, "To do so , we tested the hypothesis that Colesevelam increases the disposition index ( DI ) , and this increase is associated with increased glucagon - like peptide - 1 ( GLP - 1 ) concentrations .", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasObjectiveDescription> \"To do so , we tested the hypothesis that Colesevelam increases the disposition index ( DI ) , and this increase is associated with increased glucagon - like peptide - 1 ( GLP - 1 ) concentrations .\"."
+79882, Colesevelam, 661, 672, "Colesevelam", "", 
+20, EndPointDescription, 687, 704, "disposition index", "", 
+21, EndPointDescription, 707, 709, "DI", "", 
+22, EndPointDescription, 761, 788, "glucagon - like peptide - 1", "", 
+23, EndPointDescription, 791, 798, "GLP - 1", "", 
+24, NumberPatientsCT, 818, 832, "Thirty - eight", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasNumberPatientsCT> \"Thirty - eight\"."
+106319, Precondition, 827, 879, "eight subjects on metformin monotherapy were studied", "", "<http://ctro/data#Population_44201> <http://ctro/data#hasPrecondition> \"eight subjects on metformin monotherapy were studied\"."
+25, Metformin, 845, 854, "metformin", "", 
+26, DoubleBlind, 888, 902, "double - blind", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+27, Placebo, 905, 912, "placebo", "", 
+28, Parallel, 928, 944, "parallel - group", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+31, Duration, 993, 1001, "12 weeks", "", "<http://ctro/data#ClinicalTrial_44185> <http://ctro/data#hasCTduration> \"12 weeks\"."
+79883, Colesevelam, 1005, 1016, "Colesevelam", "", "<http://ctro/data#Medication_44245> <http://ctro/data#hasDrug> <http://ctro/data#Colesevelam>."
+33, Placebo, 1020, 1027, "placebo", "", "<http://ctro/data#Medication_44252> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+34, MeasurementDevice, 1036, 1070, "labeled triple - tracer mixed meal", "", "<http://ctro/data#MeasurementDevice_44347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_44343> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_44347>."
+35, EndPointDescription, 1086, 1109, "rate of meal appearance", "", 
+36, EndPointDescription, 1112, 1119, "Meal Ra", "", 
+37, EndPointDescription, 1124, 1153, "endogenous glucose production", "", 
+38, EndPointDescription, 1156, 1159, "EGP", "", 
+39, EndPointDescription, 1168, 1189, "glucose disappearance", "", 
+40, EndPointDescription, 1192, 1194, "Rd", "", 
+44, EndPointDescription, 1323, 1325, "DI", "", 
+79884, Colesevelam, 1341, 1352, "Colesevelam", "", 
+119922, FastingBloodGlucose, 1387, 1394, "fasting", "", 
+65232, BaseLineValue, 1397, 1402, "7 . 0", "", "<http://ctro/data#Outcome_44284> <http://ctro/data#hasBaselineValue> \"7 . 0\"."
+65235, SdDevBL, 1405, 1410, "0 . 2", "", "<http://ctro/data#Outcome_44284> <http://ctro/data#hasSdDevBL> \"0 . 2\"."
+65238, ResultMeasuredValue, 1416, 1421, "6 . 6", "", "<http://ctro/data#Outcome_44284> <http://ctro/data#hasResultMeasuredValue> \"6 . 6\"."
+65240, SdDevResValue, 1424, 1429, "0 . 2", "", "<http://ctro/data#Outcome_44284> <http://ctro/data#hasSdDevResValue> \"0 . 2\"."
+57, Millimoles_per_litre, 1430, 1438, "mmol / L", "", "<http://ctro/data#Endpoint_44279> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+65242, PValueResValue, 1441, 1452, "P = 0 . 004", "", "<http://ctro/data#Outcome_44284> <http://ctro/data#hasPValueResValue> \"P = 0 . 004\"."
+65221, PostprandialBloodGlucose, 1459, 1479, "postprandial glucose", "", "<http://ctro/data#Endpoint_44311> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+65234, BaseLineValue, 1497, 1504, "3 , 145", "", "<http://ctro/data#Outcome_44316> <http://ctro/data#hasBaselineValue> \"3 , 145\"."
+65236, SdDevBL, 1507, 1510, "138", "", "<http://ctro/data#Outcome_44316> <http://ctro/data#hasSdDevBL> \"138\"."
+65237, ResultMeasuredValue, 1516, 1523, "2 , 896", "", "<http://ctro/data#Outcome_44316> <http://ctro/data#hasResultMeasuredValue> \"2 , 896\"."
+65241, SdDevResValue, 1526, 1529, "127", "", "<http://ctro/data#Outcome_44316> <http://ctro/data#hasSdDevResValue> \"127\"."
+58, BioAndMedicalUnit, 1530, 1540, "mmol / 6 h", "", "<http://ctro/data#BioAndMedicalUnit_44314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_44311> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_44314>."
+65243, PValueResValue, 1543, 1553, "P = 0 . 01", "", "<http://ctro/data#Outcome_44316> <http://ctro/data#hasPValueResValue> \"P = 0 . 01\"."
+64, ObservedResult, 1611, 1691, "Minimal model - derived indices of insulin secretion and action were unchanged .", "", 
+61, EndPointDescription, 1646, 1663, "insulin secretion", "", 
+65222, ObservedResult, 1675, 1689, "were unchanged", "", 
+62, EndPointDescription, 1692, 1712, "Postprandial GLP - 1", "", 
+65, ObservedResult, 1728, 1744, "were not altered", "", 
+79885, Colesevelam, 1748, 1759, "Colesevelam", "", 
+66, EndPointDescription, 1771, 1774, "EGP", "", 
+67, EndPointDescription, 1779, 1781, "Rd", "", 
+69, ObservedResult, 1782, 1796, "were unchanged", "", 
+68, EndPointDescription, 1810, 1817, "Meal Ra", "", "<http://ctro/data#EndPointDescription_44344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_44343> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_44344>."
+79886, Colesevelam, 1835, 1846, "Colesevelam", "", 
+71, BaseLineValue, 1849, 1856, "5 , 191", "", "<http://ctro/data#Outcome_44348> <http://ctro/data#hasBaselineValue> \"5 , 191\"."
+72, SdDevBL, 1859, 1862, "204", "", "<http://ctro/data#Outcome_44348> <http://ctro/data#hasSdDevBL> \"204\"."
+78, ResultMeasuredValue, 1868, 1875, "5 , 817", "", "<http://ctro/data#Outcome_44348> <http://ctro/data#hasResultMeasuredValue> \"5 , 817\"."
+73, SdDevResValue, 1878, 1881, "204", "", "<http://ctro/data#Outcome_44348> <http://ctro/data#hasSdDevResValue> \"204\"."
+74, MicroMole, 1882, 1887, "μ mol", "", 
+120, BioAndMedicalUnit, 1882, 1898, "μ mol / kg / 6 h", "", "<http://ctro/data#BioAndMedicalUnit_44346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_44343> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_44346>."
+75, Kg, 1890, 1892, "kg", "", 
+77, PValueResValue, 1901, 1911, "P = 0 . 04", "", "<http://ctro/data#Outcome_44348> <http://ctro/data#hasPValueResValue> \"P = 0 . 04\"."
+79, PMID, 2046, 2054, "23250357", "", "<http://ctro/data#Publication_44178> <http://ctro/data#hasPMID> \"23250357\"."

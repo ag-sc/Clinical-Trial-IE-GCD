@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+86, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2013", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasPublicationYear> \"2013\"."
+6, Title, 101, 228, "Effects of metformin versus glipizide on cardiovascular outcomes in patients with type 2 diabetes and coronary artery disease .", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasTitle> \"Effects of metformin versus glipizide on cardiovascular outcomes in patients with type 2 diabetes and coronary artery disease .\"."
+2, Metformin, 112, 121, "metformin", "", 
+3, Glipizide, 129, 138, "glipizide", "", 
+5, Precondition, 169, 226, "patients with type 2 diabetes and coronary artery disease", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes and coronary artery disease\"."
+4, Type2Diabetes, 183, 198, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+7, Author, 229, 235, "Hong J", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Hong J\"."
+8, Author, 244, 251, "Zhang Y", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Zhang Y\"."
+9, Author, 254, 259, "Lai S", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Lai S\"."
+10, Author, 262, 266, "Lv A", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Lv A\"."
+11, Author, 269, 273, "Su Q", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Su Q\"."
+12, Author, 276, 282, "Dong Y", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Dong Y\"."
+13, Author, 285, 291, "Zhou Z", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Zhou Z\"."
+14, Author, 294, 300, "Tang W", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Tang W\"."
+15, Author, 303, 309, "Zhao J", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Zhao J\"."
+16, Author, 312, 317, "Cui L", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Cui L\"."
+17, Author, 320, 325, "Zou D", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Zou D\"."
+18, Author, 328, 334, "Wang D", "", 
+19, Author, 337, 341, "Li H", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Li H\"."
+20, Author, 344, 349, "Liu C", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Liu C\"."
+21, Author, 352, 356, "Wu G", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Wu G\"."
+22, Author, 359, 365, "Shen J", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Shen J\"."
+23, Author, 368, 373, "Zhu D", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Zhu D\"."
+26, Author, 376, 382, "Wang W", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Wang W\"."
+25, Author, 385, 391, "Shen W", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Shen W\"."
+24, Author, 394, 400, "Ning G", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> \"Ning G\"."
+85, China, 1035, 1040, "China", "", 
+120, ObjectiveDescription, 1200, 1366, "The two major classes of antidiabetic drugs , sulfonylureas and metformin , may differentially affect macrovascular complications and mortality in diabetic patients .", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasObjectiveDescription> \"The two major classes of antidiabetic drugs , sulfonylureas and metformin , may differentially affect macrovascular complications and mortality in diabetic patients .\"."
+27, Sulfonylureas, 1246, 1259, "sulfonylureas", "", 
+28, Metformin, 1264, 1273, "metformin", "", 
+34, ObjectiveDescription, 1367, 1547, "We compared the long - term effects of glipizide and metformin on the major cardiovascular events in type 2 diabetic patients who had a history of coronary artery disease ( CAD ) .", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasObjectiveDescription> \"We compared the long - term effects of glipizide and metformin on the major cardiovascular events in type 2 diabetic patients who had a history of coronary artery disease ( CAD ) .\"."
+30, Glipizide, 1406, 1415, "glipizide", "", 
+31, Metformin, 1420, 1429, "metformin", "", 
+32, Type2Diabetes, 1468, 1483, "type 2 diabetic", "", 
+33, Precondition, 1468, 1545, "type 2 diabetic patients who had a history of coronary artery disease ( CAD )", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> \"type 2 diabetic patients who had a history of coronary artery disease ( CAD )\"."
+35, Multicenter, 1594, 1605, "multicenter", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36, Randomized, 1608, 1618, "randomized", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+37, DoubleBlind, 1621, 1635, "double - blind", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+38, Placebo, 1638, 1645, "placebo", "", 
+39, NumberPatientsCT, 1687, 1690, "304", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasNumberPatientsCT> \"304\"."
+40, Type2Diabetes, 1691, 1706, "type 2 diabetic", "", 
+41, Precondition, 1691, 1724, "type 2 diabetic patients with CAD", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> \"type 2 diabetic patients with CAD\"."
+42, AvgAge, 1738, 1744, "63 . 3", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasAvgAge> \"63 . 3\"."
+43, MinAge, 1761, 1763, "36", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasMinAge> \"36\"."
+44, MaxAge, 1766, 1768, "80", "", "<http://ctro/data#Population_41505> <http://ctro/data#hasMaxAge> \"80\"."
+45, Randomized, 1813, 1821, "randomly", "", 
+46, Glipizide, 1849, 1858, "glipizide", "", "<http://ctro/data#Medication_41543> <http://ctro/data#hasDrug> <http://ctro/data#Glipizide>."
+48, DoseValue, 1861, 1863, "30", "", "<http://ctro/data#Medication_41543> <http://ctro/data#hasDoseValue> \"30\"."
+50, mg, 1864, 1866, "mg", "", "<http://ctro/data#Medication_41543> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+51, Frequency, 1867, 1872, "daily", "", "<http://ctro/data#Intervention_41531> <http://ctro/data#hasFrequency> \"daily\"."
+47, Metformin, 1878, 1887, "metformin", "", "<http://ctro/data#Medication_41550> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+49, DoseValue, 1890, 1895, "1 . 5", "", "<http://ctro/data#Medication_41550> <http://ctro/data#hasDoseValue> \"1 . 5\"."
+53, Gram, 1896, 1897, "g", "", "<http://ctro/data#Intervention_41537> <http://ctro/data#hasFrequency> \"daily\"."
+52, Frequency, 1898, 1903, "daily", "", "<http://ctro/data#Intervention_41537> <http://ctro/data#hasFrequency> \"daily\"."
+54, Duration, 1910, 1917, "3 years", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTduration> \"3 years\"."
+55, EndPointDescription, 1948, 2005, "times to the composite of recurrent cardiovascular events", "", "<http://ctro/data#EndPointDescription_41648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_41647> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_41648>."
+59, ObservedResult, 2247, 2255, "decrease", "", 
+56, HbA1c, 2272, 2291, "glycated hemoglobin", "", "<http://ctro/data#Endpoint_41583> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+65071, Reduction, 2294, 2299, "7 . 1", "", "<http://ctro/data#Outcome_41588> <http://ctro/data#hasChangeValue> \"7 . 1\"."
+60, Percentage, 2300, 2301, "%", "", "<http://ctro/data#Endpoint_41583> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+62, Glipizide, 2309, 2318, "glipizide", "", 
+65077, Reduction, 2329, 2334, "7 . 0", "", "<http://ctro/data#Outcome_41615> <http://ctro/data#hasChangeValue> \"7 . 0\"."
+61, Percentage, 2335, 2336, "%", "", 
+65, Metformin, 2344, 2353, "metformin", "", 
+147, TimePoint, 2391, 2402, "5 . 0 years", "", 
+69, NumberAffected, 2405, 2407, "91", "", 
+71, ObservedResult, 2421, 2457, "had developed 103 primary end points", "", 
+72, IntentionToTreat, 2460, 2491, "Intention - to - treat analysis", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+92996, AggregationMethod, 2511, 2523, "hazard ratio", "", "<http://ctro/data#AggregationMethod_41649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod>. <http://ctro/data#Endpoint_41647> <http://ctro/data#hasAggregationMethod> <http://ctro/data#AggregationMethod_41649>."
+92997, AggregationMethod, 2526, 2528, "HR", "", 
+75, ResultMeasuredValue, 2534, 2540, "0 . 54", "", "<http://ctro/data#Outcome_41652> <http://ctro/data#hasResultMeasuredValue> \"0 . 54\"."
+76, ConfIntervalResValue, 2543, 2566, "95 % CI 0 . 30 - 0 . 90", "", "<http://ctro/data#Outcome_41652> <http://ctro/data#hasConfIntervalResValue> \"95 % CI 0 . 30 - 0 . 90\"."
+77, PValueResValue, 2569, 2580, "P = 0 . 026", "", "<http://ctro/data#Outcome_41652> <http://ctro/data#hasPValueResValue> \"P = 0 . 026\"."
+78, EndPointDescription, 2605, 2626, "cardiovascular events", "", 
+66, Metformin, 2660, 2669, "metformin", "", 
+63, Glipizide, 2686, 2695, "glipizide", "", 
+65079, EndPointDescription, 2702, 2722, "secondary end points", "", 
+79, EndPointDescription, 2727, 2741, "adverse events", "", 
+65078, ObservedResult, 2742, 2797, "were not significantly different between the two groups", "", 
+82, ConclusionComment, 2814, 2965, "Treatment with metformin for 3 years substantially reduced major cardiovascular events in a median follow - up of 5 . 0 years compared with glipizide .", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasConclusionComment> \"Treatment with metformin for 3 years substantially reduced major cardiovascular events in a median follow - up of 5 . 0 years compared with glipizide .\"."
+67, Metformin, 2829, 2838, "metformin", "", 
+81, Duration, 2843, 2850, "3 years", "", 
+154, Duration, 2928, 2939, "5 . 0 years", "", 
+64, Glipizide, 2954, 2963, "glipizide", "", 
+83, ConclusionComment, 2966, 3081, "Our results indicated a potential benefit of metformin therapy on cardiovascular outcomes in high - risk patients .", "", "<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasConclusionComment> \"Our results indicated a potential benefit of metformin therapy on cardiovascular outcomes in high - risk patients .\"."
+68, Metformin, 3011, 3020, "metformin", "", 
+84, PMID, 3138, 3146, "23230096", "", "<http://ctro/data#Publication_41482> <http://ctro/data#hasPMID> \"23230096\"."

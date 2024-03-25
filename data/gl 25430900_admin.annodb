@@ -1,0 +1,114 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "Adv Ther .", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasJournal> \"Adv Ther .\"."
+1, PublicationYear, 11, 15, "2014", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasPublicationYear> \"2014\"."
+2, Randomized, 109, 119, "Randomized", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+54, Title, 109, 243, "Randomized trial of brinzolamide / brimonidine versus brinzolamide plus brimonidine for open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasTitle> \"Randomized trial of brinzolamide / brimonidine versus brinzolamide plus brimonidine for open - angle glaucoma or ocular hypertension .\"."
+38466, Brinz/BrimoFC, 129, 155, "brinzolamide / brimonidine", "", 
+3, Brinzolamide, 129, 141, "brinzolamide", "", 
+4, Brimonidine, 144, 155, "brimonidine", "", 
+5, Brinzolamide, 163, 175, "brinzolamide", "", 
+6, Brimonidine, 181, 192, "brimonidine", "", 
+7, OpenAngleGlaucoma, 197, 218, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+8, OcularHypertension, 222, 241, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+9, Author, 244, 255, "Gandolfi SA", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> \"Gandolfi SA\"."
+10, Author, 264, 269, "Lim J", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> \"Lim J\"."
+11, Author, 272, 282, "Sanseau AC", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> \"Sanseau AC\"."
+12, Author, 285, 302, "Parra Restrepo JC", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> \"Parra Restrepo JC\"."
+13, Author, 305, 315, "Hamacher T", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> \"Hamacher T\"."
+14, Italy, 471, 476, "Italy", "", "<http://ctro/data#Population_94507> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+18, ObjectiveDescription, 528, 713, "Fixed - combination intraocular pressure ( IOP ) - lowering medications simplify treatment regimens for patients requiring 2 ocular hypotensive agents to maintain sufficiently low IOP .", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> \"Fixed - combination intraocular pressure ( IOP ) - lowering medications simplify treatment regimens for patients requiring 2 ocular hypotensive agents to maintain sufficiently low IOP .\"."
+15, IOP, 548, 568, "intraocular pressure", "", 
+16, IOP, 571, 574, "IOP", "", 
+17, IOP, 708, 711, "IOP", "", 
+92, ObjectiveDescription, 714, 900, "The aim of this study was to evaluate the safety and efficacy of fixed - combination brinzolamide 1 % / brimonidine 0 . 2 % ( BBFC ) versus concomitant administration of brinzolamide 1 %", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was to evaluate the safety and efficacy of fixed - combination brinzolamide 1 % / brimonidine 0 . 2 % ( BBFC ) versus concomitant administration of brinzolamide 1 %\"."
+94, Brinzolamide, 799, 811, "brinzolamide", "", "<http://ctro/data#Medication_94515> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+38467, Brinz/BrimoFC, 799, 837, "brinzolamide 1 % / brimonidine 0 . 2 %", "", 
+96, DoseValue, 812, 813, "1", "", "<http://ctro/data#Medication_94515> <http://ctro/data#hasDoseValue> \"1\"."
+33381, Percentage, 814, 815, "%", "", "<http://ctro/data#Medication_94515> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+95, Brimonidine, 818, 829, "brimonidine", "", "<http://ctro/data#Medication_94522> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+97, DoseValue, 830, 835, "0 . 2", "", "<http://ctro/data#Medication_94522> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+33382, Percentage, 836, 837, "%", "", "<http://ctro/data#Medication_94522> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+38468, Brinz/BrimoFC, 840, 844, "BBFC", "", 
+101, Brinzolamide, 884, 896, "brinzolamide", "", "<http://ctro/data#Medication_94545> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+99, DoseValue, 897, 898, "1", "", "<http://ctro/data#Medication_94545> <http://ctro/data#hasDoseValue> \"1\"."
+33383, Percentage, 899, 900, "%", "", "<http://ctro/data#Medication_94545> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+93, ObjectiveDescription, 901, 1008, "plus brimonidine 0 . 2 % ( BRINZ  +  BRIM ) in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> \"plus brimonidine 0 . 2 % ( BRINZ  +  BRIM ) in patients with open - angle glaucoma or ocular hypertension .\"."
+102, Brimonidine, 906, 917, "brimonidine", "", "<http://ctro/data#Medication_94552> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+98, DoseValue, 918, 923, "0 . 2", "", "<http://ctro/data#Medication_94552> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+33384, Percentage, 924, 925, "%", "", "<http://ctro/data#Medication_94552> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+103, OpenAngleGlaucoma, 962, 983, "open - angle glaucoma", "", 
+104, OcularHypertension, 987, 1006, "ocular hypertension", "", 
+60185, Prospective, 1030, 1041, "prospective", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+21, Multicenter, 1054, 1065, "multicenter", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+22, DoubleBlind, 1068, 1083, "double - masked", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+23, Duration, 1086, 1095, "6 - month", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTduration> \"6 - month\"."
+33387, Precondition, 1104, 1215, "Patients who had insufficient IOP control with monotherapy or who were receiving   2 IOP - lowering medications", "", "<http://ctro/data#Population_94507> <http://ctro/data#hasPrecondition> \"Patients who had insufficient IOP control with monotherapy or who were receiving   2 IOP - lowering medications\"."
+24, IOP, 1134, 1137, "IOP", "", 
+25, IOP, 1189, 1192, "IOP", "", 
+26, Randomized, 1221, 1231, "randomized", "", 
+115, AllocationRatio, 1232, 1237, "1 : 1", "", "<http://ctro/data#AllocationRatio_94488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_94488>."
+116, Frequency, 1249, 1262, "twice - daily", "", "<http://ctro/data#Intervention_94529> <http://ctro/data#hasFrequency> \"twice - daily\". <http://ctro/data#Intervention_94559> <http://ctro/data#hasFrequency> \"twice - daily\"."
+38469, Brinz/BrimoFC, 1263, 1267, "BBFC", "", 
+38475, Brinzolamide, 1271, 1276, "BRINZ", "", 
+38476, Brimonidine, 1281, 1285, "BRIM", "", 
+29, IOP, 1288, 1291, "IOP", "", 
+119, TimePoint, 1340, 1346, "week 2", "", 
+120, TimePoint, 1349, 1355, "week 6", "", 
+121, TimePoint, 1358, 1365, "month 3", "", 
+122, TimePoint, 1372, 1379, "month 6", "", 
+31, Mean, 1423, 1427, "mean", "", 
+30, Diurnal_IOP, 1428, 1439, "diurnal IOP", "", 
+121, TimePoint, 1464, 1471, "month 3", "", 
+33, Mean, 1623, 1627, "mean", "", 
+34, IOP, 1628, 1631, "IOP", "", 
+35, IOP, 1634, 1637, "IOP", "", 
+33394, EndPointDescription, 1665, 1709, "percentage of patients with IOP  < 18   mmHg", "", 
+129, IOP, 1693, 1696, "IOP", "", 
+130, mmHg, 1705, 1709, "mmHg", "", 
+37, Mean, 1757, 1761, "mean", "", "<http://ctro/data#Mean_94577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_94575> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_94577>."
+38, Diurnal_IOP, 1762, 1773, "diurnal IOP", "", "<http://ctro/data#Endpoint_94575> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+38474, Brinz/BrimoFC, 1800, 1804, "BBFC", "", 
+133, LeastSquaresMean, 1807, 1825, "least squares mean", "", 
+42, Reduction, 1847, 1852, "8 . 5", "", "<http://ctro/data#Outcome_94615> <http://ctro/data#hasChangeValue> \"8 . 5\"."
+135, SdErrorChangeValue, 1857, 1863, "0 . 16", "", "<http://ctro/data#Outcome_94615> <http://ctro/data#hasSdErrorChangeValue> \"0 . 16\"."
+46, mmHg, 1866, 1870, "mmHg", "", "<http://ctro/data#Endpoint_94575> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38472, Brinzolamide, 1902, 1907, "BRINZ", "", 
+38473, Brimonidine, 1912, 1916, "BRIM", "", 
+44, Reduction, 1921, 1926, "8 . 3", "", "<http://ctro/data#Outcome_94642> <http://ctro/data#hasChangeValue> \"8 . 3\"."
+138, SdErrorChangeValue, 1931, 1937, "0 . 16", "", "<http://ctro/data#Outcome_94642> <http://ctro/data#hasSdErrorChangeValue> \"0 . 16\"."
+47, mmHg, 1940, 1944, "mmHg", "", 
+48, Mean, 1947, 1951, "mean", "", 
+33398, DiffGroupAbsValue, 1963, 1970, "- 0 . 1", "", "<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 1\"."
+50, mmHg, 1973, 1977, "mmHg", "", 
+143, ConfIntervalDiff, 1980, 2004, "95 % CI - 0 . 5 to 0 . 2", "", "<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 5 to 0 . 2\"."
+52, mmHg, 2007, 2011, "mmHg", "", 
+39, ObservedResult, 2016, 2088, "The upper limits of the 95 % CIs were  < 1 . 5   mmHg at all time points", "", "<http://ctro/data#Outcome_94615> <http://ctro/data#hasObservedResult> \"The upper limits of the 95 % CIs were  < 1 . 5   mmHg at all time points\". <http://ctro/data#Outcome_94642> <http://ctro/data#hasObservedResult> \"The upper limits of the 95 % CIs were  < 1 . 5   mmHg at all time points\"."
+145, mmHg, 2065, 2069, "mmHg", "", 
+38477, TimePoint, 2106, 2114, "baseline", "", 
+58, mmHg, 2122, 2126, "mmHg", "", 
+33399, LeastSquaresMean, 2145, 2163, "least squares mean", "", 
+56, Diurnal_IOP, 2164, 2175, "diurnal IOP", "", 
+57, TimePoint, 2203, 2209, "week 2", "", 
+167, TimePoint, 2227, 2247, "the end of the study", "", 
+61, ObservedResult, 2344, 2540, "The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort .", "", "<http://ctro/data#Outcome_94678> <http://ctro/data#hasObservedResult> \"The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort .\". <http://ctro/data#Outcome_94705> <http://ctro/data#hasObservedResult> \"The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort .\". <http://ctro/data#Outcome_94732> <http://ctro/data#hasObservedResult> \"The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort .\". <http://ctro/data#Outcome_94759> <http://ctro/data#hasObservedResult> \"The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort .\"."
+59, ConjunctivalHyperemia, 2395, 2404, "hyperemia", "", "<http://ctro/data#Endpoint_94580> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+60, ConjunctivalHyperemia, 2440, 2462, "conjunctival hyperemia", "", 
+33403, EndPointDescription, 2467, 2486, "visual disturbances", "AdverseEffect", "<http://ctro/data#EndPointDescription_94586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94585> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94586>."
+33401, EndPointDescription, 2489, 2514, "ocular allergic reactions", "AdverseEffect", "<http://ctro/data#EndPointDescription_94591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94590> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94591>."
+33402, EndPointDescription, 2521, 2538, "ocular discomfort", "AdverseEffect", "<http://ctro/data#EndPointDescription_94596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94595> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94596>."
+62, ObservedResult, 2541, 2642, "Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness .", "", "<http://ctro/data#Outcome_94786> <http://ctro/data#hasObservedResult> \"Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness .\". <http://ctro/data#Outcome_94813> <http://ctro/data#hasObservedResult> \"Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness .\". <http://ctro/data#Outcome_94840> <http://ctro/data#hasObservedResult> \"Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness .\"."
+33404, EndPointDescription, 2589, 2598, "dysgeusia", "AdverseEffect", "<http://ctro/data#EndPointDescription_94601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94600> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94601>."
+92879, OralDryness, 2601, 2613, "oral dryness", "", "<http://ctro/data#Endpoint_94605> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#OralDryness>."
+33406, EndPointDescription, 2620, 2640, "fatigue / drowsiness", "AdverseEffect", "<http://ctro/data#EndPointDescription_94611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94610> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94611>."
+69, ConclusionComment, 2656, 2793, "Brinzolamide 1 % / brimonidine 0 . 2 % fixed combination was as well tolerated and effective as concomitant therapy with its components .", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasConclusionComment> \"Brinzolamide 1 % / brimonidine 0 . 2 % fixed combination was as well tolerated and effective as concomitant therapy with its components .\"."
+38470, Brinz/BrimoFC, 2656, 2694, "Brinzolamide 1 % / brimonidine 0 . 2 %", "", 
+63, Brinzolamide, 2656, 2668, "Brinzolamide", "", 
+65, DoseValue, 2669, 2670, "1", "", 
+67, Percentage, 2671, 2672, "%", "", 
+64, Brimonidine, 2675, 2686, "brimonidine", "", 
+66, DoseValue, 2687, 2692, "0 . 2", "", 
+68, Percentage, 2693, 2694, "%", "", 
+160, ConclusionComment, 2794, 2885, "BBFC reduces treatment burden in patients who require multiple IOP - lowering medications .", "", "<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasConclusionComment> \"BBFC reduces treatment burden in patients who require multiple IOP - lowering medications .\"."
+38471, Brinz/BrimoFC, 2794, 2798, "BBFC", "", 
+70, IOP, 2857, 2860, "IOP", "", 
+72, PMID, 2954, 2962, "25430900", "", "<http://ctro/data#Publication_94473> <http://ctro/data#hasPMID> \"25430900\"."

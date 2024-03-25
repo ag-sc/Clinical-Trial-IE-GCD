@@ -1,0 +1,133 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_68292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_68292> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 68292" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasTitle> "Comparison of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment : a randomised clinical trial ." .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> "Kothny W" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasPublicationYear> "2015" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasJournal> "Diabetologia" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasPMID> "26067186" .
+<http://ctro/data#Publication_68292> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_68299> .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> "Lukashevich V" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> "Foley JE" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> "Rendell MS" .
+<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> "Schweizer A" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_68299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_68299> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 68299" .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasObjectiveDescription> "We compared the safety and efficacy of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment ( RI ) ." .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasNumberPatientsCT> "148" .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTduration> "24 week" .
+<http://ctro/data#AllocationRatio_68303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_68304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasConclusionComment> "At their recommended doses for severe RI , vildagliptin ( 50 mg once daily ) compared with sitagliptin ( 25 mg once daily ) demonstrated similar efficacy and both drugs were well tolerated ." .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasArm> <http://ctro/data#Arm_68323> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasPopulation> <http://ctro/data#Population_68315> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_68437> .
+<http://ctro/data#EvidenceQuality_68311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#DisorderOrSyndrome_68369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DisorderOrSyndrome> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#analysesHealthCondition> <http://ctro/data#DisorderOrSyndrome_68369> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasConclusionComment> "This study provides further support for the use of DPP - 4 inhibitors in patients with severe RI ." .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_68505> .
+<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasArm> <http://ctro/data#Arm_68332> .
+# RDF export of group: Population
+<http://ctro/data#Population_68315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_68315> <http://www.w3.org/2000/01/rdf-schema#label> "Population 68315" .
+<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> "patients with type 2 diabetes and severe renal impairment ( RI )" .
+<http://ctro/data#Ethnicity_68317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_68318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Gender_68322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> "Patients with type 2 diabetes , either drug naive or treated with any glucose - lowering agents , who had inadequate glycaemic control" .
+<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> "estimated GFR < 30 ml min" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_68378> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_68378> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_68378> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#Mean_68380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_68378> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_68380> .
+<http://ctro/data#Endpoint_68378> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_68382> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_68446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_68446> <http://www.w3.org/2000/01/rdf-schema#label> "fpg" .
+<http://ctro/data#Endpoint_68446> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose> .
+<http://ctro/data#AggregationMethod_68448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_68446> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre> .
+<http://ctro/data#MeasurementDevice_68450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_68323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_68323> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Arm_68323> <http://ctro/data#hasNumberPatientsArm> "83" .
+<http://ctro/data#Arm_68323> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_68341> .
+<http://ctro/data#Arm_68323> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_68383> .
+<http://ctro/data#Outcome_68328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_68323> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_68451> .
+<http://ctro/data#Arm_68332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_68332> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Arm_68332> <http://ctro/data#hasNumberPatientsArm> "65" .
+<http://ctro/data#Arm_68332> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_68347> .
+<http://ctro/data#Arm_68332> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_68410> .
+<http://ctro/data#Outcome_68337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_68332> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_68478> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_68341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_68341> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Intervention_68341> <http://ctro/data#hasMedication> <http://ctro/data#Medication_68353> .
+<http://ctro/data#Intervention_68341> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_68346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_68347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_68347> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Intervention_68347> <http://ctro/data#hasMedication> <http://ctro/data#Medication_68360> .
+<http://ctro/data#Intervention_68347> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_68352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_68353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_68353> <http://www.w3.org/2000/01/rdf-schema#label> "vil" .
+<http://ctro/data#Medication_68353> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin> .
+<http://ctro/data#Medication_68353> <http://ctro/data#hasDoseValue> "50" .
+<http://ctro/data#Medication_68353> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#DeliveryMethod_68357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_68360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_68360> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Medication_68360> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin> .
+<http://ctro/data#Medication_68360> <http://ctro/data#hasDoseValue> "25" .
+<http://ctro/data#Medication_68360> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#DeliveryMethod_68364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_68383> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_68383> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_68383> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_68378> .
+<http://ctro/data#Outcome_68383> <http://ctro/data#hasBaselineValue> "7 . 52" .
+<http://ctro/data#Outcome_68383> <http://ctro/data#hasChangeValue> "0 . 54" .
+<http://ctro/data#Outcome_68383> <http://ctro/data#hasTimePoint> "24 weeks" .
+<http://ctro/data#Outcome_68410> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_68410> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_68410> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_68378> .
+<http://ctro/data#Outcome_68410> <http://ctro/data#hasBaselineValue> "7 . 80" .
+<http://ctro/data#Outcome_68410> <http://ctro/data#hasChangeValue> "0 . 56" .
+<http://ctro/data#Outcome_68410> <http://ctro/data#hasTimePoint> "24 weeks" .
+<http://ctro/data#Outcome_68451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_68451> <http://www.w3.org/2000/01/rdf-schema#label> "fpg 1" .
+<http://ctro/data#Outcome_68451> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_68446> .
+<http://ctro/data#Outcome_68451> <http://ctro/data#hasChangeValue> "0 . 47" .
+<http://ctro/data#Outcome_68451> <http://ctro/data#hasSdDevChangeValue> "0 . 37" .
+<http://ctro/data#Outcome_68478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_68478> <http://www.w3.org/2000/01/rdf-schema#label> "fpg 2" .
+<http://ctro/data#Outcome_68478> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_68446> .
+<http://ctro/data#Outcome_68478> <http://ctro/data#hasChangeValue> "0 . 16" .
+<http://ctro/data#Outcome_68478> <http://ctro/data#hasSdDevChangeValue> "0 . 43" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_68437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_68437> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#DiffBetweenGroups_68437> <http://ctro/data#hasPvalueDiff> "p  =  0 . 874" .
+<http://ctro/data#DiffBetweenGroups_68437> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_68383> .
+<http://ctro/data#DiffBetweenGroups_68437> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_68410> .
+<http://ctro/data#DiffBetweenGroups_68505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_68505> <http://www.w3.org/2000/01/rdf-schema#label> "fpg" .
+<http://ctro/data#DiffBetweenGroups_68505> <http://ctro/data#hasPvalueDiff> "p  =  0 . 185" .
+<http://ctro/data#DiffBetweenGroups_68505> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_68451> .
+<http://ctro/data#DiffBetweenGroups_68505> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_68478> .
+# RDF export of group: EvidenceQuality

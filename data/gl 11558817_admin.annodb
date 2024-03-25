@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2001", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasPublicationYear> \"2001\"."
+2, Title, 46, 288, "Comparison of the additive intraocular pressure - lowering effect of latanoprost and dorzolamide when added to timolol in patients with open - angle glaucoma or ocular hypertension : a randomized , open - label , multicenter study in Greece .", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasTitle> \"Comparison of the additive intraocular pressure - lowering effect of latanoprost and dorzolamide when added to timolol in patients with open - angle glaucoma or ocular hypertension : a randomized , open - label , multicenter study in Greece .\"."
+6, IOP, 73, 93, "intraocular pressure", "", 
+7, Latanoprost, 115, 126, "latanoprost", "", "<http://ctro/data#Latanoprost_36583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_36582> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_36583>."
+8, Dorzolamide, 131, 142, "dorzolamide", "", 
+9, Timolol, 157, 164, "timolol", "", 
+10, OpenAngleGlaucoma, 182, 203, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+11, OcularHypertension, 207, 226, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+75, Randomized, 231, 241, "randomized", "", 
+12, OpenLabel, 244, 256, "open - label", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+13, Multicenter, 259, 270, "multicenter", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+78, Greece, 280, 286, "Greece", "", "<http://ctro/data#Population_33575> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+14, Author, 289, 299, "Petounis A", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasAuthor> \"Petounis A\"."
+15, Author, 308, 320, "Mylopoulos N", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasAuthor> \"Mylopoulos N\"."
+16, Author, 323, 335, "Kandarakis A", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasAuthor> \"Kandarakis A\"."
+17, Author, 338, 349, "Andreanos D", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasAuthor> \"Andreanos D\"."
+18, Author, 352, 368, "Dimitrakoulias N", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasAuthor> \"Dimitrakoulias N\"."
+84, Greece, 465, 471, "Greece", "", 
+3, ObjectiveDescription, 515, 632, "To compare the intraocular pressure - lowering effect of latanoprost with that of dorzolamide when added to timolol .", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure - lowering effect of latanoprost with that of dorzolamide when added to timolol .\"."
+86, IOP, 530, 550, "intraocular pressure", "", 
+87, Latanoprost, 572, 583, "latanoprost", "", 
+88, Dorzolamide, 597, 608, "dorzolamide", "", 
+89, Timolol, 623, 630, "timolol", "", 
+105, Randomized, 661, 671, "randomized", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, OpenLabel, 674, 686, "open - label", "", 
+5, Parallel, 702, 710, "parallel", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+36962, Multicenter, 735, 747, "five centers", "", 
+109, Greece, 751, 757, "Greece", "", 
+19, NumberPatientsCT, 779, 782, "148", "", 
+113, Precondition, 783, 978, "patients with inadequately controlled open - angle or pseudoexfoliation glaucoma ( intraocular pressure of at least 22 mm Hg ) or ocular hypertension ( intraocular pressure of at least 27 mm Hg )", "", "<http://ctro/data#Population_33575> <http://ctro/data#hasPrecondition> \"patients with inadequately controlled open - angle or pseudoexfoliation glaucoma ( intraocular pressure of at least 22 mm Hg ) or ocular hypertension ( intraocular pressure of at least 27 mm Hg )\"."
+20, OpenAngleGlaucoma, 821, 863, "open - angle or pseudoexfoliation glaucoma", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+148, IOP, 866, 886, "intraocular pressure", "", 
+150, mmHg, 902, 907, "mm Hg", "", "<http://ctro/data#Endpoint_36603> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+151, OcularHypertension, 913, 932, "ocular hypertension", "", 
+152, IOP, 935, 955, "intraocular pressure", "", 
+153, mmHg, 971, 976, "mm Hg", "", 
+36956, Precondition, 979, 1097, "who were receiving monotherapy with a beta - blocker or dual therapy in which one of the agents was a beta - blocker .", "", "<http://ctro/data#Population_33575> <http://ctro/data#hasPrecondition> \"who were receiving monotherapy with a beta - blocker or dual therapy in which one of the agents was a beta - blocker .\"."
+23, Timolol, 1128, 1135, "timolol", "", "<http://ctro/data#Medication_36596> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+24, DoseValue, 1136, 1141, "0 . 5", "", "<http://ctro/data#Medication_36596> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+25, Percentage, 1142, 1143, "%", "", "<http://ctro/data#Medication_36596> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+26, Frequency, 1144, 1155, "twice daily", "", "<http://ctro/data#Intervention_36576> <http://ctro/data#hasFrequency> \"twice daily\"."
+36958, Duration, 1160, 1172, "2 to 4 weeks", "", 
+36959, TimePoint, 1241, 1249, "baseline", "", 
+36960, Randomized, 1270, 1280, "randomized", "", 
+27, Latanoprost, 1292, 1303, "latanoprost", "", 
+29, DoseValue, 1304, 1311, "0 . 005", "", "<http://ctro/data#Medication_36582> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+28, Percentage, 1312, 1313, "%", "", "<http://ctro/data#Medication_36582> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+30, Frequency, 1314, 1324, "once daily", "", "<http://ctro/data#Intervention_36564> <http://ctro/data#hasFrequency> \"once daily\"."
+31, Dorzolamide, 1328, 1339, "dorzolamide", "", "<http://ctro/data#Medication_36589> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+32, DoseValue, 1340, 1341, "2", "", "<http://ctro/data#Medication_36589> <http://ctro/data#hasDoseValue> \"2\"."
+33, Percentage, 1342, 1343, "%", "", "<http://ctro/data#Medication_36589> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+34, Frequency, 1344, 1355, "twice daily", "", "<http://ctro/data#Intervention_36570> <http://ctro/data#hasFrequency> \"twice daily\"."
+35, Timolol, 1379, 1386, "timolol", "", 
+36, IOP, 1393, 1413, "intraocular pressure", "", 
+36961, TimePoint, 1472, 1480, "baseline", "", 
+26587, Duration, 1488, 1496, "3 months", "", 
+39, Diurnal_IOP, 1556, 1584, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_36603> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+40, PValueChangeValue, 1628, 1639, "P < 0 . 001", "", "<http://ctro/data#Outcome_36608> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\". <http://ctro/data#Outcome_36651> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+41, Mean, 1648, 1652, "mean", "", 
+42, IOP, 1653, 1673, "intraocular pressure", "", 
+43, RelativeReduction, 1702, 1704, "32", "", "<http://ctro/data#Outcome_36608> <http://ctro/data#hasRelativeChangeValue> \"32\"."
+44, Latanoprost, 1715, 1726, "latanoprost", "", 
+45, Timolol, 1732, 1739, "timolol", "", 
+46, RelativeReduction, 1750, 1752, "20", "", "<http://ctro/data#Outcome_36651> <http://ctro/data#hasRelativeChangeValue> \"20\"."
+47, Dorzolamide, 1763, 1774, "dorzolamide", "", 
+48, Timolol, 1780, 1787, "timolol", "", 
+49, LeastSquaresMean, 1800, 1833, "least square estimate of the mean", "", "<http://ctro/data#Endpoint_36603> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+125, Mean, 1829, 1833, "mean", "", 
+50, Diurnal_IOP, 1834, 1862, "diurnal intraocular pressure", "", 
+26594, Duration, 1879, 1887, "3 months", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasCTduration> \"3 months\"."
+52, Reduction, 1894, 1900, "7 . 06", "", "<http://ctro/data#Outcome_36608> <http://ctro/data#hasChangeValue> \"7 . 06\"."
+53, mmHg, 1901, 1906, "mm Hg", "", "<http://ctro/data#Outcome_36608> <http://ctro/data#hasChangeValue> \"7 . 06\"."
+54, Latanoprost, 1914, 1925, "latanoprost", "", 
+55, Timolol, 1931, 1938, "timolol", "", 
+56, Reduction, 1951, 1957, "4 . 44", "", "<http://ctro/data#Outcome_36651> <http://ctro/data#hasChangeValue> \"4 . 44\"."
+57, mmHg, 1958, 1963, "mm Hg", "", 
+58, Dorzolamide, 1971, 1982, "dorzolamide", "", 
+59, Timolol, 1988, 1995, "timolol", "", 
+60, PValueChangeValue, 2004, 2015, "P < 0 . 001", "", 
+61, ConclusionComment, 2099, 2274, "This study clearly showed that the additive diurnal intraocular pressure - lowering effect of latanoprost is superior to that of dorzolamide in patients treated with timolol .", "", "<http://ctro/data#ClinicalTrial_33554> <http://ctro/data#hasConclusionComment> \"This study clearly showed that the additive diurnal intraocular pressure - lowering effect of latanoprost is superior to that of dorzolamide in patients treated with timolol .\"."
+62, Diurnal_IOP, 2143, 2171, "diurnal intraocular pressure", "", 
+63, Latanoprost, 2193, 2204, "latanoprost", "", 
+64, Dorzolamide, 2228, 2239, "dorzolamide", "", 
+65, Timolol, 2265, 2272, "timolol", "", 
+66, PMID, 2282, 2290, "11558817", "", "<http://ctro/data#Publication_33543> <http://ctro/data#hasPMID> \"11558817\"."

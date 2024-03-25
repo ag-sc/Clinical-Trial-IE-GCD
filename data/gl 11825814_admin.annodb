@@ -1,0 +1,128 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "2002", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasPublicationYear> \"2002\"."
+2, Title, 71, 278, "Three - month comparison of brimonidine and latanoprost as adjunctive therapy in glaucoma and ocular hypertension patients uncontrolled on beta - blockers : tolerance and peak intraocular pressure lowering .", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasTitle> \"Three - month comparison of brimonidine and latanoprost as adjunctive therapy in glaucoma and ocular hypertension patients uncontrolled on beta - blockers : tolerance and peak intraocular pressure lowering .\"."
+71, Duration, 71, 84, "Three - month", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTduration> \"Three - month\"."
+72, Brimonidine, 99, 110, "brimonidine", "", 
+73, Latanoprost, 115, 126, "latanoprost", "", 
+3, Glaucoma, 152, 160, "glaucoma", "", "<http://ctro/data#Glaucoma_100151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_100142> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_100151>."
+4, OcularHypertension, 165, 184, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+5, Peak_IOP, 242, 267, "peak intraocular pressure", "", 
+6, Author, 279, 289, "Simmons ST", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasAuthor> \"Simmons ST\"."
+7, Author, 298, 305, "Earl ML", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasAuthor> \"Earl ML\"."
+136, Drug, 308, 316, "Alphagan", "", 
+135, Drug, 319, 326, "Xalatan", "", 
+67, USA, 433, 436, "USA", "", "<http://ctro/data#Population_100164> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+8, ObjectiveDescription, 528, 746, "To compare the tolerance and peak intraocular pressure ( IOP ) - lowering efficacy of brimonidine and latanoprost as adjunctive therapy in patients with ocular hypertension or glaucoma uncontrolled on beta - blockers .", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasObjectiveDescription> \"To compare the tolerance and peak intraocular pressure ( IOP ) - lowering efficacy of brimonidine and latanoprost as adjunctive therapy in patients with ocular hypertension or glaucoma uncontrolled on beta - blockers .\"."
+9, Peak_IOP, 557, 582, "peak intraocular pressure", "", 
+10, IOP, 585, 588, "IOP", "", 
+74, Brimonidine, 614, 625, "brimonidine", "", 
+75, Latanoprost, 630, 641, "latanoprost", "", 
+11, OcularHypertension, 681, 700, "ocular hypertension", "", 
+12, Glaucoma, 704, 712, "glaucoma", "", 
+145, Precondition, 713, 744, "uncontrolled on beta - blockers", "", "<http://ctro/data#Population_100164> <http://ctro/data#hasPrecondition> \"uncontrolled on beta - blockers\"."
+123, Prospective, 758, 769, "prospective", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+13, Multicenter, 772, 783, "multicenter", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+14, DoubleBlind, 786, 801, "double - masked", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+15, Parallel, 804, 812, "parallel", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+16, NumberPatientsCT, 854, 873, "One hundred fifteen", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasNumberPatientsCT> \"One hundred fifteen\"."
+17, IOP, 888, 891, "IOP", "", 
+154, Precondition, 892, 953, "inadequately controlled on topical beta - blocker monotherapy", "", "<http://ctro/data#Population_100164> <http://ctro/data#hasPrecondition> \"inadequately controlled on topical beta - blocker monotherapy\"."
+18, Randomized, 980, 988, "randomly", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+155, Brimonidine, 1009, 1020, "brimonidine", "", "<http://ctro/data#Medication_100218> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+19, DoseValue, 1023, 1028, "0 . 2", "", "<http://ctro/data#Medication_100218> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+76, Percentage, 1029, 1030, "%", "", "<http://ctro/data#Medication_100218> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+77, Frequency, 1033, 1044, "twice a day", "", "<http://ctro/data#Intervention_100206> <http://ctro/data#hasFrequency> \"twice a day\"."
+78, Latanoprost, 1048, 1059, "latanoprost", "", "<http://ctro/data#Latanoprost_100226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_100225> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_100226>."
+20, DoseValue, 1062, 1069, "0 . 005", "", "<http://ctro/data#Medication_100225> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+21, Percentage, 1070, 1071, "%", "", "<http://ctro/data#Medication_100225> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+79, Frequency, 1074, 1083, "every day", "", "<http://ctro/data#Intervention_100212> <http://ctro/data#hasFrequency> \"every day\"."
+80, Duration, 1110, 1118, "3 months", "", 
+81, TimePoint, 1127, 1134, "1 month", "", 
+69, Peak_IOP, 1216, 1227, "IOP at peak", "", 
+83, Crossover, 1245, 1257, "crossed over", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+22, DiffGroupAbsValue, 1376, 1377, "1", "", 
+23, mmHg, 1378, 1382, "mmHg", "", 
+24, Mean, 1386, 1390, "mean", "", 
+25, IOP, 1391, 1394, "IOP", "", 
+94023, Peak_IOP, 1493, 1518, "IOP from baseline at peak", "", 
+27, Mean, 1629, 1633, "Mean", "", "<http://ctro/data#Mean_100175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_100173> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_100175>."
+28, IOP, 1668, 1671, "IOP", "", "<http://ctro/data#IOP_100174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_100173> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_100174>."
+29, BaseLineValue, 1728, 1734, "21 . 3", "", "<http://ctro/data#Outcome_100232> <http://ctro/data#hasBaselineValue> \"21 . 3\". <http://ctro/data#Outcome_100259> <http://ctro/data#hasBaselineValue> \"21 . 3\". <http://ctro/data#Outcome_100358> <http://ctro/data#hasBaselineValue> \"21 . 3\". <http://ctro/data#Outcome_100385> <http://ctro/data#hasBaselineValue> \"21 . 3\"."
+30, mmHg, 1735, 1740, "mm Hg", "", "<http://ctro/data#Endpoint_100173> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+68, TimePoint, 1751, 1758, "1 month", "", "<http://ctro/data#Outcome_100232> <http://ctro/data#hasTimePoint> \"1 month\". <http://ctro/data#Outcome_100259> <http://ctro/data#hasTimePoint> \"1 month\"."
+84, Brimonidine, 1783, 1794, "brimonidine", "", 
+85, Latanoprost, 1799, 1810, "latanoprost", "", 
+31, IOP, 1831, 1834, "IOP", "", 
+32, Reduction, 1846, 1852, "4 . 88", "", "<http://ctro/data#Outcome_100232> <http://ctro/data#hasChangeValue> \"4 . 88\"."
+33, mmHg, 1853, 1857, "mmHg", "", 
+34, RelativeReduction, 1860, 1866, "22 . 8", "", "<http://ctro/data#Outcome_100232> <http://ctro/data#hasRelativeChangeValue> \"22 . 8\"."
+86, Brimonidine, 1876, 1887, "brimonidine", "", 
+35, Reduction, 1892, 1898, "5 . 01", "", "<http://ctro/data#Outcome_100259> <http://ctro/data#hasChangeValue> \"5 . 01\"."
+36, mmHg, 1899, 1903, "mmHg", "", 
+37, RelativeReduction, 1906, 1912, "23 . 5", "", "<http://ctro/data#Outcome_100259> <http://ctro/data#hasRelativeChangeValue> \"23 . 5\"."
+87, Latanoprost, 1922, 1933, "latanoprost", "", 
+186, PvalueDiff, 1938, 1947, "= 0 . 798", "", "<http://ctro/data#DiffBetweenGroups_100286> <http://ctro/data#hasPvalueDiff> \"= 0 . 798\"."
+40, NumberAffected, 2002, 2004, "44", "", "<http://ctro/data#Outcome_100295> <http://ctro/data#hasNumberAffected> \"44\"."
+88, NumberPatientsArm, 2008, 2010, "54", "", "<http://ctro/data#Arm_100188> <http://ctro/data#hasNumberPatientsArm> \"54\"."
+89, Brimonidine, 2011, 2022, "brimonidine", "", 
+41, NumberAffected, 2036, 2038, "43", "", "<http://ctro/data#Outcome_100322> <http://ctro/data#hasNumberAffected> \"43\"."
+90, NumberPatientsArm, 2042, 2044, "53", "", "<http://ctro/data#Arm_100197> <http://ctro/data#hasNumberPatientsArm> \"53\"."
+91, Latanoprost, 2045, 2056, "latanoprost", "", 
+92, EndPointDescription, 2095, 2121, "15 % IOP reduction at peak", "", "<http://ctro/data#EndPointDescription_100179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_100178> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_100179>."
+39, TimePoint, 2137, 2144, "month 1", "", "<http://ctro/data#Outcome_100295> <http://ctro/data#hasTimePoint> \"month 1\". <http://ctro/data#Outcome_100322> <http://ctro/data#hasTimePoint> \"month 1\"."
+196, PvalueDiff, 2149, 2158, "= 0 . 963", "", "<http://ctro/data#DiffBetweenGroups_100349> <http://ctro/data#hasPvalueDiff> \"= 0 . 963\"."
+197, TimePoint, 2201, 2208, "month 1", "", 
+44, Mean, 2257, 2261, "mean", "", 
+45, IOP, 2262, 2265, "IOP", "", 
+46, Reduction, 2282, 2288, "4 . 55", "", "<http://ctro/data#Outcome_100358> <http://ctro/data#hasChangeValue> \"4 . 55\"."
+47, mmHg, 2289, 2293, "mmHg", "", 
+94, Brimonidine, 2299, 2310, "brimonidine", "", 
+48, Reduction, 2315, 2321, "5 . 49", "", "<http://ctro/data#Outcome_100385> <http://ctro/data#hasChangeValue> \"5 . 49\"."
+49, mmHg, 2322, 2326, "mmHg", "", 
+95, Latanoprost, 2332, 2343, "latanoprost", "", 
+207, PvalueDiff, 2348, 2357, "= 0 . 149", "", "<http://ctro/data#DiffBetweenGroups_100412> <http://ctro/data#hasPvalueDiff> \"= 0 . 149\"."
+51, TimePoint, 2363, 2370, "month 3", "", "<http://ctro/data#Outcome_100358> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_100385> <http://ctro/data#hasTimePoint> \"month 3\"."
+96, Brimonidine, 2427, 2438, "brimonidine", "", 
+97, Latanoprost, 2443, 2454, "latanoprost", "", 
+104, EndPointDescription, 2467, 2523, "at least a 15 % additional reduction in IOP for 3 months", "", 
+53, IOP, 2507, 2510, "IOP", "", 
+98, Duration, 2515, 2523, "3 months", "", 
+54, NumberAffected, 2526, 2528, "28", "", "<http://ctro/data#Outcome_100430> <http://ctro/data#hasNumberAffected> \"28\"."
+94032, NumberPatientsArm, 2532, 2534, "38", "", 
+99, Brimonidine, 2547, 2558, "brimonidine", "", 
+55, NumberAffected, 2564, 2566, "30", "", "<http://ctro/data#Outcome_100457> <http://ctro/data#hasNumberAffected> \"30\"."
+94033, NumberPatientsArm, 2570, 2572, "36", "", 
+100, Latanoprost, 2585, 2596, "latanoprost", "", 
+101, EndPointDescription, 2606, 2631, "> or = 15 % IOP reduction", "", 
+103, TimePoint, 2635, 2642, "month 3", "", "<http://ctro/data#Outcome_100430> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_100457> <http://ctro/data#hasTimePoint> \"month 3\"."
+221, PvalueDiff, 2647, 2656, "= 0 . 314", "", "<http://ctro/data#DiffBetweenGroups_100421> <http://ctro/data#hasPvalueDiff> \"= 0 . 314\"."
+105, Latanoprost, 2677, 2688, "latanoprost", "", 
+106, Brimonidine, 2782, 2793, "brimonidine", "", 
+107, Latanoprost, 2821, 2832, "latanoprost", "", 
+94034, EndPointDescription, 2851, 2871, "watery or teary eyes", "", "<http://ctro/data#EndPointDescription_100184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_100183> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_100184>."
+56, NumberAffected, 2874, 2876, "34", "", "<http://ctro/data#Outcome_100511> <http://ctro/data#hasNumberAffected> \"34\"."
+109, NumberPatientsArm, 2880, 2882, "53", "", 
+58, PercentageAffected, 2885, 2891, "64 . 2", "", "<http://ctro/data#Outcome_100511> <http://ctro/data#hasPercentageAffected> \"64 . 2\"."
+57, NumberAffected, 2899, 2901, "23", "", "<http://ctro/data#Outcome_100484> <http://ctro/data#hasNumberAffected> \"23\"."
+110, NumberPatientsArm, 2905, 2907, "54", "", 
+59, PercentageAffected, 2910, 2916, "42 . 6", "", "<http://ctro/data#Outcome_100484> <http://ctro/data#hasPercentageAffected> \"42 . 6\"."
+111, Brimonidine, 2924, 2935, "brimonidine", "", 
+236, PvalueDiff, 2940, 2949, "= 0 . 025", "", "<http://ctro/data#DiffBetweenGroups_100538> <http://ctro/data#hasPvalueDiff> \"= 0 . 025\"."
+106400, EndPointDescription, 2956, 2994, "hands and feet that became cold easily", "", "<http://ctro/data#EndPointDescription_100548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_100547> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_100548>."
+61, NumberAffected, 2997, 2999, "24", "", "<http://ctro/data#Outcome_100579> <http://ctro/data#hasNumberAffected> \"24\"."
+113, NumberPatientsArm, 3003, 3005, "53", "", 
+62, PercentageAffected, 3008, 3014, "45 . 3", "", "<http://ctro/data#Outcome_100579> <http://ctro/data#hasPercentageAffected> \"45 . 3\"."
+63, NumberAffected, 3022, 3024, "12", "", "<http://ctro/data#Outcome_100552> <http://ctro/data#hasNumberAffected> \"12\"."
+114, NumberPatientsArm, 3028, 3030, "54", "", 
+64, PercentageAffected, 3033, 3039, "22 . 2", "", "<http://ctro/data#Outcome_100552> <http://ctro/data#hasPercentageAffected> \"22 . 2\"."
+115, Brimonidine, 3047, 3058, "brimonidine", "", 
+245, PvalueDiff, 3063, 3072, "= 0 . 012", "", "<http://ctro/data#DiffBetweenGroups_100606> <http://ctro/data#hasPvalueDiff> \"= 0 . 012\"."
+66, ConclusionComment, 3091, 3330, "As adjunct therapy with beta - blockers , brimonidine twice daily and latanoprost every day were comparable in lowering IOP at peak effect , but brimonidine was better tolerated , with fewer reports of adverse quality - of - life effects .", "", "<http://ctro/data#ClinicalTrial_100142> <http://ctro/data#hasConclusionComment> \"As adjunct therapy with beta - blockers , brimonidine twice daily and latanoprost every day were comparable in lowering IOP at peak effect , but brimonidine was better tolerated , with fewer reports of adverse quality - of - life effects .\"."
+116, Brimonidine, 3133, 3144, "brimonidine", "", 
+117, Frequency, 3145, 3156, "twice daily", "", 
+118, Latanoprost, 3161, 3172, "latanoprost", "", 
+119, Frequency, 3173, 3182, "every day", "", 
+120, Peak_IOP, 3211, 3222, "IOP at peak", "", 
+121, Brimonidine, 3236, 3247, "brimonidine", "", 
+122, PMID, 3338, 3346, "11825814", "", "<http://ctro/data#Publication_100134> <http://ctro/data#hasPMID> \"11825814\"."

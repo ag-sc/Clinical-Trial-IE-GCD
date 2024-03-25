@@ -1,0 +1,73 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+33147, Journal, 0, 16, "Horm Metab Res .", "", 
+5953, PublicationYear, 17, 21, "2007", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasPublicationYear> \"2007\"."
+33148, Title, 50, 217, "Improved meal - related insulin processing contributes to the enhancement of B - cell function by the DPP - 4 inhibitor vildagliptin in patients with type 2 diabetes .", "", 
+5954, Insulin, 74, 81, "insulin", "", 
+5955, Vildagliptin, 170, 182, "vildagliptin", "", 
+5956, Type2Diabetes, 200, 215, "type 2 diabetes", "", 
+5958, Author, 218, 227, "Ahr é n B", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> \"Ahr é n B\"."
+5959, Author, 236, 244, "Pacini G", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> \"Pacini G\"."
+5960, Author, 247, 253, "Tura A", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> \"Tura A\"."
+5961, Author, 256, 264, "Foley JE", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> \"Foley JE\"."
+5962, Author, 267, 278, "Schweizer A", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> \"Schweizer A\"."
+5963, Sweden, 390, 396, "Sweden", "", "<http://ctro/data#Population_14113> <http://ctro/data#hasCountry> <http://ctro/data#Sweden>."
+33149, ObjectiveDescription, 426, 610, "The aim of this study was to evaluate the contribution of insulin processing to the improved meal - related B - cell function previously shown with the DPP - 4 inhibitor vildagliptin .", "", 
+5964, Insulin, 484, 491, "insulin", "", 
+5965, Vildagliptin, 596, 608, "vildagliptin", "", 
+5967, NumberPatientsCT, 611, 623, "Fifty - five", "", "<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#hasNumberPatientsCT> \"Fifty - five\"."
+5984, Precondition, 624, 787, "patients with type 2 diabetes ( 56 . 5 + / - 1 . 5 years ; BMI = 29 . 6 + / - 0 . 5 kg / m ( 2 ) ; FPG = 9 . 9 + / - 0 . 2 mmol / l ; HbA1c = 7 . 7 + / - 0 . 1 % )", "", "<http://ctro/data#Population_14113> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes ( 56 . 5 + / - 1 . 5 years ; BMI = 29 . 6 + / - 0 . 5 kg / m ( 2 ) ; FPG = 9 . 9 + / - 0 . 2 mmol / l ; HbA1c = 7 . 7 + / - 0 . 1 % )\"."
+5968, Type2Diabetes, 638, 653, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+5969, AvgAge, 656, 662, "56 . 5", "", "<http://ctro/data#Population_14113> <http://ctro/data#hasAvgAge> \"56 . 5\"."
+5970, BMI, 683, 686, "BMI", "", 
+5971, Kg_per_squareMeter, 708, 720, "kg / m ( 2 )", "", 
+5972, FastingPlasmaGlucose, 723, 726, "FPG", "", 
+5973, Millimoles_per_litre, 747, 755, "mmol / l", "", 
+5974, HbA1c, 758, 763, "HbA1c", "", 
+5975, Percentage, 784, 785, "%", "", 
+5976, NumberPatientsArm, 803, 805, "29", "", 
+5977, Vildagliptin, 833, 845, "vildagliptin", "", 
+5978, NumberPatientsArm, 850, 852, "26", "", 
+5979, Placebo, 867, 874, "placebo", "", 
+5980, Metformin, 902, 911, "metformin", "", 
+5981, DoseValue, 922, 935, "1 . 5 - 3 . 0", "", 
+5982, Gram, 936, 937, "g", "", 
+5983, Interval, 940, 943, "day", "", 
+33150, TimePoint, 986, 994, "baseline", "", 
+5985, Duration, 1005, 1013, "52 weeks", "", "<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#hasCTduration> \"52 weeks\"."
+5987, Insulin, 1033, 1043, "proinsulin", "", 
+5986, Insulin, 1055, 1062, "insulin", "", 
+5992, EndPointDescription, 1091, 1102, "C - peptide", "", 
+5988, FastingPlasmaGlucose, 1110, 1117, "fasting", "", 
+33151, PostprandialPlasmaGlucose, 1122, 1134, "postprandial", "", 
+5990, TimePoint, 1142, 1157, "4 h post - meal", "", 
+5991, EndPointDescription, 1179, 1196, "B - cell function", "", 
+5993, Vildagliptin, 1236, 1248, "vildagliptin", "", 
+5994, Placebo, 1251, 1258, "placebo", "", 
+5995, EndPointDescription, 1293, 1332, "fasting proinsulin to C - peptide ratio", "", 
+5996, EndPointDescription, 1335, 1344, "fastP / C", "", 
+6001, DiffGroupRelValue, 1353, 1360, "0 . 007", "", 
+6002, SdDevDiff, 1367, 1374, "0 . 009", "", 
+6003, PvalueDiff, 1377, 1388, "p = 0 . 052", "", 
+6004, Duration, 1428, 1436, "52 weeks", "", 
+6005, Vildagliptin, 1455, 1467, "vildagliptin", "", 
+5997, EndPointDescription, 1496, 1535, "dynamic proinsulin to C - peptide ratio", "", 
+5998, EndPointDescription, 1538, 1546, "dynP / C", "", 
+6006, Placebo, 1561, 1568, "placebo", "", 
+6007, Reduction, 1572, 1579, "0 . 010", "", 
+6008, SdDevChangeValue, 1586, 1593, "0 . 008", "", 
+6009, PValueChangeValue, 1596, 1607, "p = 0 . 037", "", 
+6010, EndPointDescription, 1635, 1640, "P / C", "", 
+6012, FastingPlasmaGlucose, 1707, 1722, "fasting glucose", "", 
+6013, EndPointDescription, 1727, 1738, "glucose AUC", "", 
+6011, EndPointDescription, 1778, 1783, "P / C", "", 
+6014, Vildagliptin, 1835, 1847, "vildagliptin", "", 
+6015, Placebo, 1853, 1860, "placebo", "", 
+6016, FastingPlasmaGlucose, 1875, 1882, "fasting", "", 
+6018, PvalueDiff, 1891, 1902, "p = 0 . 023", "", 
+33152, PostprandialPlasmaGlucose, 1909, 1923, "postprandially", "", 
+6019, PvalueDiff, 1926, 1937, "p = 0 . 004", "", 
+33153, ConclusionComment, 1942, 2130, "In conclusion , a more efficient B - cell insulin processing provides further evidence that vildagliptin treatment ameliorates abnormal B - cell function in patients with type 2 diabetes .", "", 
+6020, Insulin, 1984, 1991, "insulin", "", 
+6021, Vildagliptin, 2034, 2046, "vildagliptin", "", 
+6022, Type2Diabetes, 2113, 2128, "type 2 diabetes", "", 
+6024, PMID, 2174, 2182, "17992639", "", "<http://ctro/data#Publication_14085> <http://ctro/data#hasPMID> \"17992639\"."

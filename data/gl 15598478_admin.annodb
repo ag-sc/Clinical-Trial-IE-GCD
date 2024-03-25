@@ -1,0 +1,129 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 9, "Clin Ther", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasJournal> \"Clin Ther\"."
+1, PublicationYear, 12, 16, "2004", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasPublicationYear> \"2004\"."
+2, Title, 47, 237, "Switching from latanoprost to fixed - combination latanoprost - timolol : a 21 - day , randomized , double - masked , active - control study in patients with glaucoma and ocular hypertension", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasTitle> \"Switching from latanoprost to fixed - combination latanoprost - timolol : a 21 - day , randomized , double - masked , active - control study in patients with glaucoma and ocular hypertension\"."
+3, Latanoprost, 62, 73, "latanoprost", "", 
+4, Latanoprost, 97, 108, "latanoprost", "", 
+38492, Lat/TimFC, 97, 118, "latanoprost - timolol", "", 
+5, Timolol, 111, 118, "timolol", "", 
+71, Duration, 123, 131, "21 - day", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasCTduration> \"21 - day\"."
+72, Randomized, 134, 144, "randomized", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+73, DoubleBlind, 147, 162, "double - masked", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+34525, Precondition, 191, 237, "patients with glaucoma and ocular hypertension", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasPrecondition> \"patients with glaucoma and ocular hypertension\"."
+6, Glaucoma, 205, 213, "glaucoma", "", "<http://ctro/data#Glaucoma_52910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_52901> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_52910>."
+7, OcularHypertension, 218, 237, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+8, Author, 240, 249, "Olander K", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasAuthor> \"Olander K\"."
+9, Author, 258, 270, "Zimmerman TJ", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasAuthor> \"Zimmerman TJ\"."
+10, Author, 273, 281, "Downes N", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasAuthor> \"Downes N\"."
+11, Author, 284, 298, "Schoenfelder J", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasAuthor> \"Schoenfelder J\"."
+136, Latanoprost, 311, 322, "Latanoprost", "", 
+12, USA, 432, 435, "USA", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+75, Glaucoma, 509, 517, "glaucoma", "", 
+13, IOP, 566, 586, "intraocular pressure", "", 
+14, IOP, 589, 592, "IOP", "", 
+140, Frequency, 692, 704, "once - daily", "", 
+15, ObjectiveDescription, 763, 911, "The purpose of this study was to compare the efficacy and safety profile of the fixed combination latanoprost 0 . 005 % + timolol maleate 0 . 5 % QD", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasObjectiveDescription> \"The purpose of this study was to compare the efficacy and safety profile of the fixed combination latanoprost 0 . 005 % + timolol maleate 0 . 5 % QD\"."
+17, Latanoprost, 861, 872, "latanoprost", "", 
+38491, Lat/TimFC, 861, 908, "latanoprost 0 . 005 % + timolol maleate 0 . 5 %", "", "<http://ctro/data#Medication_55123> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+18, DoseValue, 873, 880, "0 . 005", "", 
+19, Percentage, 881, 882, "%", "", 
+20, Timolol, 885, 900, "timolol maleate", "", 
+21, DoseValue, 901, 906, "0 . 5", "", 
+22, Percentage, 907, 908, "%", "", 
+76, Frequency, 909, 911, "QD", "", "<http://ctro/data#Intervention_55104> <http://ctro/data#hasFrequency> \"QD\"."
+16, ObjectiveDescription, 912, 1058, "with those of latanoprost 0 . 005 % monotherapy QD in patients whose elevated IOP ( > or = 21 mm Hg ) was inadequately controlled by latanoprost .", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasObjectiveDescription> \"with those of latanoprost 0 . 005 % monotherapy QD in patients whose elevated IOP ( > or = 21 mm Hg ) was inadequately controlled by latanoprost .\"."
+77, Latanoprost, 926, 937, "latanoprost", "", "<http://ctro/data#Latanoprost_55117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_55116> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_55117>."
+78, DoseValue, 938, 945, "0 . 005", "", "<http://ctro/data#Medication_55116> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+79, Percentage, 946, 947, "%", "", "<http://ctro/data#Medication_55116> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+80, Frequency, 960, 962, "QD", "", "<http://ctro/data#Intervention_55110> <http://ctro/data#hasFrequency> \"QD\"."
+81, Precondition, 966, 1058, "patients whose elevated IOP ( > or = 21 mm Hg ) was inadequately controlled by latanoprost .", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasPrecondition> \"patients whose elevated IOP ( > or = 21 mm Hg ) was inadequately controlled by latanoprost .\"."
+82, IOP, 990, 993, "IOP", "", 
+83, mmHg, 1006, 1011, "mm Hg", "", 
+84, Latanoprost, 1045, 1056, "latanoprost", "", 
+85, Duration, 1074, 1082, "21 - day", "", 
+86, Randomized, 1085, 1095, "randomized", "", 
+87, DoubleBlind, 1098, 1113, "double - masked", "", 
+88, CTDesign, 1116, 1132, "active - control", "", "<http://ctro/data#CTDesign_52920> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_52920>."
+89, Multicenter, 1156, 1170, "49 study sites", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+23, Argentina, 1174, 1183, "Argentina", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#Argentina>."
+24, Brazil, 1186, 1192, "Brazil", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+25, Colombia, 1195, 1203, "Colombia", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#Colombia>."
+26, Mexico, 1206, 1212, "Mexico", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#Mexico>."
+27, Peru, 1215, 1219, "Peru", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasCountry> <http://ctro/data#Peru>."
+28, USA, 1226, 1239, "United States", "", 
+29, Venezuela, 1246, 1255, "Venezuela", "", 
+34526, Precondition, 1258, 1395, "Adults with glaucoma or ocular hypertension who had failed to reach an IOP of < 21 mm Hg while receiving latanoprost for at least 28 days", "", "<http://ctro/data#Population_52924> <http://ctro/data#hasPrecondition> \"Adults with glaucoma or ocular hypertension who had failed to reach an IOP of < 21 mm Hg while receiving latanoprost for at least 28 days\"."
+31, Glaucoma, 1270, 1278, "glaucoma", "", 
+32, OcularHypertension, 1282, 1301, "ocular hypertension", "", 
+34, IOP, 1329, 1332, "IOP", "", 
+35, mmHg, 1341, 1346, "mm Hg", "", 
+90, Latanoprost, 1363, 1374, "latanoprost", "", 
+34527, Duration, 1388, 1395, "28 days", "", 
+34528, Duration, 1432, 1439, "28 days", "", 
+91, Latanoprost, 1443, 1454, "latanoprost", "", 
+92, Randomized, 1480, 1488, "randomly", "", 
+93, Latanoprost, 1510, 1521, "latanoprost", "", 
+36, Duration, 1576, 1583, "21 days", "", 
+37, IntentionToTreat, 1590, 1609, "intent - to - treat", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+38, IntentionToTreat, 1612, 1615, "ITT", "", 
+94, DoubleBlind, 1683, 1698, "double - masked", "", 
+39, PerProtocol, 1722, 1736, "per - protocol", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+40, PerProtocol, 1739, 1741, "PP", "", 
+41, IOP, 1842, 1845, "IOP", "", 
+96, TimePoint, 1867, 1875, "baseline", "", 
+95, TimePoint, 1883, 1889, "day 21", "", 
+42, EndPointDescription, 1922, 2017, "proportion of patients whose IOP was decreased > or = 2 mm Hg from the baseline level on day 21", "", "<http://ctro/data#EndPointDescription_52940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_52939> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52940>."
+98, IOP, 1951, 1954, "IOP", "", 
+97, mmHg, 1978, 1983, "mm Hg", "", 
+99, TimePoint, 2011, 2017, "day 21", "", 
+100, IOP, 2058, 2061, "IOP", "", 
+34530, EndPointDescription, 2058, 2111, "IOP decreases > or = 3 , > or = 4 , or > or = 5 mm Hg", "", 
+101, mmHg, 2106, 2111, "mm Hg", "", 
+102, IOP, 2164, 2167, "10P", "", 
+34531, EndPointDescription, 2164, 2183, "10P < or = 18 mm Hg", "", 
+103, mmHg, 2178, 2183, "mm Hg", "", 
+43, NumberPatientsCT, 2266, 2269, "350", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasNumberPatientsCT> \"350\"."
+70, FinalNumPatientsCT, 2304, 2307, "348", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasFinalNumberPatientsCT> \"348\"."
+69, IntentionToTreat, 2338, 2341, "ITT", "", 
+44, NumberPatientsArm, 2394, 2397, "175", "", "<http://ctro/data#Arm_55086> <http://ctro/data#hasNumberPatientsArm> \"175\"."
+104, Latanoprost, 2400, 2411, "latanoprost", "", 
+45, NumberPatientsArm, 2418, 2421, "173", "", "<http://ctro/data#Arm_55095> <http://ctro/data#hasNumberPatientsArm> \"173\"."
+185, Mean, 2424, 2428, "mean", "", 
+46, AvgAge, 2442, 2448, "64 . 4", "", 
+47, AvgAge, 2464, 2470, "63 . 2", "", 
+42, EndPointDescription, 2681, 2715, "IOP decreases of 2 mm Hg on day 21", "", "<http://ctro/data#EndPointDescription_52940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_52939> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52940>."
+50, IOP, 2681, 2684, "IOP", "", 
+51, mmHg, 2700, 2705, "mm Hg", "", "<http://ctro/data#Endpoint_52939> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+52, TimePoint, 2709, 2715, "day 21", "", "<http://ctro/data#Outcome_55130> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55157> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55184> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55211> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55238> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55265> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55292> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55319> <http://ctro/data#hasTimePoint> \"day 21\"."
+194, Latanoprost, 2751, 2762, "latanoprost", "", 
+53, PercentageAffected, 2784, 2790, "79 . 4", "", "<http://ctro/data#Outcome_55130> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55157> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55184> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55211> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55238> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55265> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55292> <http://ctro/data#hasTimePoint> \"day 21\". <http://ctro/data#Outcome_55319> <http://ctro/data#hasTimePoint> \"day 21\"."
+54, PercentageAffected, 2796, 2802, "51 . 4", "", "<http://ctro/data#Outcome_55130> <http://ctro/data#hasPercentageAffected> \"51 . 4\"."
+55, PvalueDiff, 2822, 2833, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_55346> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+39, PerProtocol, 2838, 2840, "PP", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+57, ObservedResult, 2861, 2965, "more patients in the fixed - combination group had IOP decreases > or = 3 , > or = 4 , or > or = 5 mm Hg", "", 
+56, IOP, 2912, 2915, "IOP", "", 
+34529, EndPointDescription, 2912, 2965, "IOP decreases > or = 3 , > or = 4 , or > or = 5 mm Hg", "", "<http://ctro/data#EndPointDescription_55072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55071> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55072>."
+61, mmHg, 2960, 2965, "mm Hg", "", "<http://ctro/data#Endpoint_55071> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+200, PvalueDiff, 2992, 3003, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_55355> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+105, Latanoprost, 3007, 3018, "latanoprost", "", 
+58, EndPointDescription, 3030, 3048, "final IOP 18 mm Hg", "", "<http://ctro/data#EndPointDescription_55077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55076> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55077>."
+59, IOP, 3036, 3039, "IOP", "", 
+60, mmHg, 3043, 3048, "mm Hg", "", "<http://ctro/data#Endpoint_55076> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+62, PercentageAffected, 3073, 3079, "35 . 1", "", "<http://ctro/data#Outcome_55265> <http://ctro/data#hasPercentageAffected> \"35 . 1\"."
+106, Latanoprost, 3084, 3095, "latanoprost", "", 
+63, PercentageAffected, 3098, 3104, "17 . 8", "", "<http://ctro/data#Outcome_55238> <http://ctro/data#hasPercentageAffected> \"17 . 8\"."
+64, PvalueDiff, 3109, 3120, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_55364> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+208, ObservedResult, 3125, 3162, "Both treatments were well tolerated .", "", 
+65, ObservedResult, 3163, 3331, "Similar proportions of patients in the fixed - combination and latanoprost groups reported at least 1 treatment - emergent AE ( 10 . 9 % and 12 . 1 % , respectively ) .", "", 
+115, Latanoprost, 3226, 3237, "latanoprost", "", 
+34535, EndPointDescription, 3277, 3288, "emergent AE", "AdverseEffect", "<http://ctro/data#EndPointDescription_55082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55081> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55082>."
+66, PercentageAffected, 3291, 3297, "10 . 9", "", "<http://ctro/data#Outcome_55319> <http://ctro/data#hasPercentageAffected> \"10 . 9\"."
+67, PercentageAffected, 3304, 3310, "12 . 1", "", "<http://ctro/data#Outcome_55292> <http://ctro/data#hasPercentageAffected> \"12 . 1\"."
+116, ConclusionComment, 3345, 3593, "In this selected population of patients with an inadequate initial IOP response to latanoprost , switching to fixed - combination latanoprosttimolol resulted in a greater decrease in IOP and similar tolerability compared with continuing latanoprost", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasConclusionComment> \"In this selected population of patients with an inadequate initial IOP response to latanoprost , switching to fixed - combination latanoprosttimolol resulted in a greater decrease in IOP and similar tolerability compared with continuing latanoprost\"."
+118, IOP, 3412, 3415, "IOP", "", 
+119, Latanoprost, 3428, 3439, "latanoprost", "", 
+38493, Lat/TimFC, 3475, 3493, "latanoprosttimolol", "", 
+120, IOP, 3528, 3531, "IOP", "", 
+121, Latanoprost, 3582, 3593, "latanoprost", "", 
+117, ConclusionComment, 3594, 3603, "therapy .", "", "<http://ctro/data#ClinicalTrial_52901> <http://ctro/data#hasConclusionComment> \"therapy .\"."
+68, PMID, 3661, 3669, "15598478", "", "<http://ctro/data#Publication_52891> <http://ctro/data#hasPMID> \"15598478\"."

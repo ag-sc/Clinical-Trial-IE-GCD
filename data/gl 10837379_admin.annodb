@@ -1,0 +1,88 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+20239, Journal, 0, 17, "Br J Ophthalmol .", "", "<http://ctro/data#Publication_25430> <http://ctro/data#hasJournal> \"Br J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "2000", "", "<http://ctro/data#Publication_25430> <http://ctro/data#hasPublicationYear> \"2000\"."
+2, Title, 51, 177, "A comparison of latanoprost and dorzolamide in patients with glaucoma and ocular hypertension : a 3 month , randomised study .", "", "<http://ctro/data#Publication_25430> <http://ctro/data#hasTitle> \"A comparison of latanoprost and dorzolamide in patients with glaucoma and ocular hypertension : a 3 month , randomised study .\"."
+7, Latanoprost, 67, 78, "latanoprost", "", "<http://ctro/data#Latanoprost_26513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_26512> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_26513>."
+8, Dorzolamide, 83, 94, "dorzolamide", "", "<http://ctro/data#Medication_26519> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+9, Glaucoma, 112, 120, "glaucoma", "", "<http://ctro/data#Glaucoma_25446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_25437> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_25446>."
+64, OcularHypertension, 125, 144, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+25348, Duration, 149, 156, "3 month", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasCTduration> \"3 month\"."
+11, Randomized, 159, 169, "randomised", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+67, Ireland, 178, 185, "Ireland", "", "<http://ctro/data#Population_25457> <http://ctro/data#hasCountry> <http://ctro/data#Ireland>."
+18307, Latanoprost, 186, 197, "Latanoprost", "", 
+106183, Author, 212, 227, "O ' Donoghue EP", "", "<http://ctro/data#Publication_25430> <http://ctro/data#hasAuthor> \"O ' Donoghue EP\"."
+12, Ireland, 332, 339, "Ireland", "", 
+4, ObjectiveDescription, 366, 542, "To compare the effects on intraocular pressure ( IOP ) and side effects of monotherapy with either latanoprost or dorzolamide in patients with glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasObjectiveDescription> \"To compare the effects on intraocular pressure ( IOP ) and side effects of monotherapy with either latanoprost or dorzolamide in patients with glaucoma or ocular hypertension .\"."
+71, IOP, 392, 412, "intraocular pressure", "", 
+70, IOP, 415, 418, "IOP", "", 
+72, Latanoprost, 465, 476, "latanoprost", "", 
+73, Dorzolamide, 480, 491, "dorzolamide", "", 
+74, Glaucoma, 509, 517, "glaucoma", "", 
+75, OcularHypertension, 521, 540, "ocular hypertension", "", 
+14, OpenAngleGlaucoma, 571, 590, "open angle glaucoma", "", 
+15, OcularHypertension, 594, 613, "ocular hypertension", "", 
+25349, Duration, 634, 641, "3 month", "", 
+16, OpenLabel, 642, 655, "open labelled", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+82, Precondition, 664, 709, "Previous glaucoma medications were washed out", "", "<http://ctro/data#Population_25457> <http://ctro/data#hasPrecondition> \"Previous glaucoma medications were washed out\"."
+162, Glaucoma, 673, 681, "glaucoma", "", 
+83, Randomized, 732, 742, "randomised", "", 
+17, Latanoprost, 761, 772, "latanoprost", "", 
+18, DoseValue, 773, 780, "0 . 005", "", "<http://ctro/data#Medication_26512> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+19, Percentage, 781, 782, "%", "", "<http://ctro/data#Medication_26512> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>. <http://ctro/data#Medication_26519> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+20, Frequency, 783, 793, "once daily", "", "<http://ctro/data#Intervention_26500> <http://ctro/data#hasFrequency> \"once daily\"."
+21, Dorzolamide, 797, 808, "dorzolamide", "", 
+22, DoseValue, 809, 810, "2", "", "<http://ctro/data#Medication_26519> <http://ctro/data#hasDoseValue> \"2\"."
+23, Percentage, 811, 812, "%", "", 
+24, Frequency, 813, 830, "three times daily", "", "<http://ctro/data#Intervention_26506> <http://ctro/data#hasFrequency> \"three times daily\"."
+17542, FinalNumPatientsCT, 859, 862, "213", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasFinalNumberPatientsCT> \"213\"."
+36933, TimePoint, 913, 921, "3 months", "", "<http://ctro/data#Outcome_26526> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_26553> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_26580> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_26607> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_26634> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_26661> <http://ctro/data#hasTimePoint> \"3 months\"."
+25, Latanoprost, 924, 935, "latanoprost", "", 
+26, Mean, 944, 948, "mean", "", "<http://ctro/data#Mean_25467> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_25465> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25467>."
+27, Diurnal_IOP, 958, 969, "diurnal IOP", "", "<http://ctro/data#Endpoint_25465> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+28, BaseLineValue, 975, 981, "27 . 2", "", "<http://ctro/data#Outcome_26526> <http://ctro/data#hasBaselineValue> \"27 . 2\"."
+29, SdDevBL, 987, 992, "3 . 0", "", "<http://ctro/data#Outcome_26526> <http://ctro/data#hasSdDevBL> \"3 . 0\"."
+30, mmHg, 995, 1000, "mm Hg", "", 
+31, Reduction, 1004, 1009, "8 . 5", "", "<http://ctro/data#Outcome_26526> <http://ctro/data#hasChangeValue> \"8 . 5\"."
+32, SdDevChangeValue, 1012, 1017, "3 . 3", "", "<http://ctro/data#Outcome_26526> <http://ctro/data#hasSdDevChangeValue> \"3 . 3\"."
+33, mmHg, 1020, 1025, "mm Hg", "", "<http://ctro/data#Endpoint_25465> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+34, Dorzolamide, 1058, 1069, "dorzolamide", "", 
+35, BaseLineValue, 1075, 1081, "27 . 2", "", "<http://ctro/data#Outcome_26553> <http://ctro/data#hasBaselineValue> \"27 . 2\"."
+36, SdDevBL, 1084, 1089, "3 . 4", "", "<http://ctro/data#Outcome_26553> <http://ctro/data#hasSdDevBL> \"3 . 4\"."
+37, Reduction, 1096, 1101, "5 . 6", "", "<http://ctro/data#Outcome_26553> <http://ctro/data#hasChangeValue> \"5 . 6\"."
+38, SdDevChangeValue, 1104, 1109, "2 . 6", "", "<http://ctro/data#Outcome_26553> <http://ctro/data#hasSdDevChangeValue> \"2 . 6\"."
+39, mmHg, 1112, 1117, "mm Hg", "", 
+40, DiffGroupAbsValue, 1138, 1143, "2 . 9", "", "<http://ctro/data#DiffBetweenGroups_26688> <http://ctro/data#hasDiffGroupAbsValue> \"2 . 9\"."
+41, mmHg, 1144, 1149, "mm Hg", "", 
+42, ConfIntervalDiff, 1152, 1175, "95 % CI : 2 . 3 - 3 . 6", "", "<http://ctro/data#DiffBetweenGroups_26688> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : 2 . 3 - 3 . 6\"."
+43, PvalueDiff, 1203, 1214, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_26688> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+44, Latanoprost, 1228, 1239, "Latanoprost", "", 
+20419, Peak_IOP, 1248, 1259, "IOP at peak", "", "<http://ctro/data#Endpoint_25470> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+46, Reduction, 1263, 1268, "8 . 6", "", "<http://ctro/data#Outcome_26580> <http://ctro/data#hasChangeValue> \"8 . 6\"."
+47, mmHg, 1269, 1274, "mm Hg", "", "<http://ctro/data#Endpoint_25470> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+118, RelativeReduction, 1277, 1279, "32", "", "<http://ctro/data#Outcome_26580> <http://ctro/data#hasRelativeChangeValue> \"32\"."
+48, Reduction, 1298, 1303, "6 . 2", "", "<http://ctro/data#Outcome_26607> <http://ctro/data#hasChangeValue> \"6 . 2\"."
+49, mmHg, 1304, 1309, "mm Hg", "", 
+121, RelativeReduction, 1312, 1314, "23", "", "<http://ctro/data#Outcome_26607> <http://ctro/data#hasRelativeChangeValue> \"23\"."
+50, Dorzolamide, 1323, 1334, "dorzolamide", "", 
+51, DiffGroupAbsValue, 1359, 1364, "2 . 4", "", "<http://ctro/data#DiffBetweenGroups_26697> <http://ctro/data#hasDiffGroupAbsValue> \"2 . 4\"."
+52, mmHg, 1365, 1370, "mm Hg", "", 
+53, PvalueDiff, 1389, 1400, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_26697> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+150, Trough_IOP, 1443, 1449, "trough", "", "<http://ctro/data#Endpoint_25475> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Trough_IOP>."
+127, Reduction, 1455, 1460, "8 . 1", "", "<http://ctro/data#Outcome_26634> <http://ctro/data#hasChangeValue> \"8 . 1\"."
+128, mmHg, 1461, 1466, "mm Hg", "", "<http://ctro/data#Endpoint_25475> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+129, RelativeReduction, 1469, 1471, "31", "", "<http://ctro/data#Outcome_26634> <http://ctro/data#hasRelativeChangeValue> \"31\"."
+130, Latanoprost, 1480, 1491, "latanoprost", "", 
+131, Reduction, 1496, 1501, "4 . 7", "", "<http://ctro/data#Outcome_26661> <http://ctro/data#hasChangeValue> \"4 . 7\"."
+132, mmHg, 1502, 1507, "mm Hg", "", 
+133, RelativeReduction, 1510, 1512, "17", "", "<http://ctro/data#Outcome_26661> <http://ctro/data#hasRelativeChangeValue> \"17\"."
+134, Dorzolamide, 1521, 1532, "dorzolamide", "", 
+158, DiffGroupAbsValue, 1563, 1568, "3 . 4", "", "<http://ctro/data#DiffBetweenGroups_26706> <http://ctro/data#hasDiffGroupAbsValue> \"3 . 4\"."
+136, mmHg, 1569, 1574, "mm Hg", "", 
+137, PvalueDiff, 1577, 1588, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_26706> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+5, ConclusionComment, 1673, 1823, "Latanoprost was superior to dorzolamide in reducing the IOP , judged both from the effect on IOP at peak and trough and by the effect on diurnal IOP .", "", "<http://ctro/data#ClinicalTrial_25437> <http://ctro/data#hasConclusionComment> \"Latanoprost was superior to dorzolamide in reducing the IOP , judged both from the effect on IOP at peak and trough and by the effect on diurnal IOP .\"."
+54, Latanoprost, 1673, 1684, "Latanoprost", "", 
+55, Dorzolamide, 1701, 1712, "dorzolamide", "", 
+56, IOP, 1729, 1732, "IOP", "", 
+17577, Peak_IOP, 1766, 1777, "IOP at peak", "", 
+58, Diurnal_IOP, 1810, 1821, "diurnal IOP", "", 
+6, PMID, 1887, 1895, "10837379", "", "<http://ctro/data#Publication_25430> <http://ctro/data#hasPMID> \"10837379\"."

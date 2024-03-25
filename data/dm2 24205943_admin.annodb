@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2014", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasPublicationYear> \"2014\"."
+23, Title, 105, 298, "A randomized controlled trial of the efficacy and safety of saxagliptin as add - on therapy in patients with type 2 diabetes and inadequate glycaemic control on metformin plus a sulphonylurea .", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasTitle> \"A randomized controlled trial of the efficacy and safety of saxagliptin as add - on therapy in patients with type 2 diabetes and inadequate glycaemic control on metformin plus a sulphonylurea .\"."
+2, Randomized, 107, 117, "randomized", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, Saxagliptin, 165, 176, "saxagliptin", "", 
+22, Precondition, 200, 296, "patients with type 2 diabetes and inadequate glycaemic control on metformin plus a sulphonylurea", "", "<http://ctro/data#Population_51273> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes and inadequate glycaemic control on metformin plus a sulphonylurea\"."
+13, Type2Diabetes, 214, 229, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+15, Metformin, 266, 275, "metformin", "", 
+19, Sulfonylureas, 283, 296, "sulphonylurea", "", 
+24, Author, 299, 307, "Moses RG", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Moses RG\"."
+25, Author, 316, 323, "Kalra S", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Kalra S\"."
+26, Author, 326, 333, "Brook D", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Brook D\"."
+27, Author, 336, 345, "Sockler J", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Sockler J\"."
+28, Author, 348, 356, "Monyak J", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Monyak J\"."
+29, Author, 359, 372, "Visvanathan J", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Visvanathan J\"."
+30, Author, 375, 386, "Montanaro M", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Montanaro M\"."
+31, Author, 389, 398, "Fisher SA", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasAuthor> \"Fisher SA\"."
+32, Australia, 516, 525, "Australia", "", 
+35, ObjectiveDescription, 535, 706, "To evaluate the efficacy and safety of saxagliptin as add - on therapy in adults with type 2 diabetes with inadequate glycaemic control on metformin plus a sulphonylurea .", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of saxagliptin as add - on therapy in adults with type 2 diabetes with inadequate glycaemic control on metformin plus a sulphonylurea .\"."
+4, Saxagliptin, 574, 585, "saxagliptin", "", 
+34, Precondition, 609, 704, "adults with type 2 diabetes with inadequate glycaemic control on metformin plus a sulphonylurea", "", 
+14, Type2Diabetes, 621, 636, "type 2 diabetes", "", 
+16, Metformin, 674, 683, "metformin", "", 
+33, Sulfonylureas, 691, 704, "sulphonylurea", "", 
+36, Duration, 725, 734, "24 - week", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasCTduration> \"24 - week\"."
+37, Multicenter, 737, 748, "multicentre", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+38, Randomized, 751, 761, "randomized", "", 
+39, Parallel, 764, 780, "parallel - group", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+40, DoubleBlind, 783, 797, "double - blind", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+45, Precondition, 806, 927, "outpatients aged ≥ 18   years with type 2 diabetes , body mass index ≤ 40   kg / m ( 2 ) and inadequate glycaemic control", "", "<http://ctro/data#Population_51273> <http://ctro/data#hasPrecondition> \"outpatients aged ≥ 18   years with type 2 diabetes , body mass index ≤ 40   kg / m ( 2 ) and inadequate glycaemic control\"."
+41, MinAge, 825, 827, "18", "", "<http://ctro/data#Population_51273> <http://ctro/data#hasMinAge> \"18\"."
+42, Type2Diabetes, 841, 856, "type 2 diabetes", "", 
+43, BMI, 859, 874, "body mass index", "", 
+44, Kg_per_squareMeter, 882, 894, "kg / m ( 2 )", "", 
+5, Saxagliptin, 939, 950, "saxagliptin", "", "<http://ctro/data#Medication_51311> <http://ctro/data#hasDrug> <http://ctro/data#Saxagliptin>."
+46, DoseValue, 951, 952, "5", "", "<http://ctro/data#Medication_51311> <http://ctro/data#hasDoseValue> \"5\"."
+47, mg, 955, 957, "mg", "", "<http://ctro/data#Medication_51311> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+48, Placebo, 961, 968, "placebo", "", "<http://ctro/data#Medication_51318> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+55, Frequency, 969, 981, "once - daily", "", "<http://ctro/data#Intervention_51299> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_51305> <http://ctro/data#hasFrequency> \"once - daily\"."
+17, Metformin, 1062, 1071, "metformin", "", 
+20, Sulfonylureas, 1079, 1092, "sulphonylurea", "", 
+56, HbA1c, 1131, 1151, "glycated haemoglobin", "", 
+57, HbA1c, 1154, 1159, "HbA1c", "", 
+59, TimePoint, 1167, 1175, "baseline", "", 
+60, TimePoint, 1179, 1186, "week 24", "", 
+61, EndPointDescription, 1234, 1248, "adverse events", "", 
+62, EndPointDescription, 1251, 1254, "AEs", "", 
+64, Hypoglycemia, 1259, 1272, "hypoglycaemia", "", 
+67, BodyWeight, 1277, 1288, "body weight", "", 
+69, NumberPatientsCT, 1312, 1315, "257", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasNumberPatientsCT> \"257\"."
+70, Randomized, 1330, 1340, "randomized", "", 
+6, Saxagliptin, 1389, 1400, "saxagliptin", "", 
+71, NumberPatientsArm, 1409, 1412, "129", "", "<http://ctro/data#Arm_51281> <http://ctro/data#hasNumberPatientsArm> \"129\"."
+49, Placebo, 1415, 1422, "placebo", "", 
+72, NumberPatientsArm, 1431, 1434, "128", "", "<http://ctro/data#Arm_51290> <http://ctro/data#hasNumberPatientsArm> \"128\"."
+75, FinalNumPatientsCT, 1439, 1442, "255", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasFinalNumberPatientsCT> \"255\"."
+7, Saxagliptin, 1484, 1495, "saxagliptin", "", 
+73, FinalNumPatientsArm, 1504, 1507, "127", "", "<http://ctro/data#Arm_51281> <http://ctro/data#hasFinalNumPatientsArm> \"127\"."
+50, Placebo, 1510, 1517, "placebo", "", 
+74, FinalNumPatientsArm, 1526, 1529, "128", "", "<http://ctro/data#Arm_51290> <http://ctro/data#hasFinalNumPatientsArm> \"128\"."
+58, HbA1c, 1534, 1539, "HbA1c", "", "<http://ctro/data#Endpoint_51367> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+8, Saxagliptin, 1567, 1578, "saxagliptin", "", 
+51, Placebo, 1586, 1593, "placebo", "", 
+163, Mean, 1635, 1639, "mean", "", "<http://ctro/data#Mean_51369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_51367> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_51369>."
+164, TimePoint, 1652, 1660, "baseline", "", 
+76, DiffGroupAbsValue, 1663, 1671, "- 0 . 66", "", "<http://ctro/data#DiffBetweenGroups_51426> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 66\"."
+77, Percentage, 1672, 1673, "%", "", "<http://ctro/data#Endpoint_51367> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+78, ConfIntervalDiff, 1676, 1770, "95 % confidence interval ( CI ) , - 0 . 86 to - 0 . 47 ( 7   mmol / mol , - 9 . 4 to - 5 . 1 )", "", "<http://ctro/data#DiffBetweenGroups_51426> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval ( CI ) , - 0 . 86 to - 0 . 47 ( 7   mmol / mol , - 9 . 4 to - 5 . 1 )\"."
+79851, Millimoles_per_mole, 1737, 1747, "mmol / mol", "", 
+80, PvalueDiff, 1773, 1787, "p  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_51426> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 0001\"."
+174, EndPointDescription, 1824, 1830, "≥ 1 AE", "", "<http://ctro/data#EndPointDescription_51436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_51435> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_51436>."
+81, PercentageAffected, 1835, 1841, "62 . 8", "", "<http://ctro/data#Outcome_51440> <http://ctro/data#hasPercentageAffected> \"62 . 8\"."
+9, Saxagliptin, 1849, 1860, "saxagliptin", "", 
+82, PercentageAffected, 1865, 1871, "71 . 7", "", "<http://ctro/data#Outcome_51467> <http://ctro/data#hasPercentageAffected> \"71 . 7\"."
+52, Placebo, 1879, 1886, "placebo", "", 
+10, Saxagliptin, 1896, 1907, "saxagliptin", "", 
+53, Placebo, 1912, 1919, "placebo", "", 
+65, Hypoglycemia, 1947, 1960, "hypoglycaemia", "", "<http://ctro/data#Endpoint_51494> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+184, PercentageAffected, 1966, 1972, "10 . 1", "", "<http://ctro/data#Outcome_51504> <http://ctro/data#hasPercentageAffected> \"10 . 1\"."
+89, PercentageAffected, 1977, 1982, "6 . 3", "", "<http://ctro/data#Outcome_51531> <http://ctro/data#hasPercentageAffected> \"6 . 3\"."
+66, Hypoglycemia, 2025, 2038, "hypoglycaemia", "", "<http://ctro/data#Endpoint_51499> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+188, BloodGlucose, 2054, 2061, "glucose", "", 
+86, Millimoles_per_litre, 2074, 2082, "mmol / l", "", 
+190, PercentageAffected, 2090, 2095, "1 . 6", "", "<http://ctro/data#Outcome_51558> <http://ctro/data#hasPercentageAffected> \"1 . 6\"."
+90, PercentageAffected, 2100, 2101, "0", "", 
+193, Mean, 2106, 2110, "Mean", "", "<http://ctro/data#Mean_51614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_51612> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_51614>."
+68, BodyWeight, 2121, 2132, "body weight", "", "<http://ctro/data#Endpoint_51612> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+91, Increment, 2137, 2142, "0 . 2", "", "<http://ctro/data#Outcome_51617> <http://ctro/data#hasChangeValue> \"0 . 2\"."
+93, Kg, 2145, 2147, "kg", "", "<http://ctro/data#Endpoint_51612> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+11, Saxagliptin, 2152, 2163, "saxagliptin", "", 
+92, Reduction, 2170, 2175, "0 . 6", "", "<http://ctro/data#Outcome_51644> <http://ctro/data#hasChangeValue> \"0 . 6\"."
+94, Kg, 2178, 2180, "kg", "", 
+54, Placebo, 2185, 2192, "placebo", "", 
+95, PvalueDiff, 2195, 2209, "p  =  0 . 0272", "", "<http://ctro/data#DiffBetweenGroups_51671> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 0272\"."
+100, ConclusionComment, 2227, 2394, "Addition of saxagliptin 5   mg / day in patients inadequately controlled on metformin and sulphonylurea effectively improved glycaemic control and was well tolerated .", "", "<http://ctro/data#ClinicalTrial_51257> <http://ctro/data#hasConclusionComment> \"Addition of saxagliptin 5   mg / day in patients inadequately controlled on metformin and sulphonylurea effectively improved glycaemic control and was well tolerated .\"."
+12, Saxagliptin, 2239, 2250, "saxagliptin", "", 
+96, DoseValue, 2251, 2252, "5", "", 
+97, mg, 2255, 2257, "mg", "", 
+98, Frequency, 2260, 2263, "day", "", 
+18, Metformin, 2303, 2312, "metformin", "", 
+21, Sulfonylureas, 2317, 2330, "sulphonylurea", "", 
+101, PMID, 2463, 2471, "24205943", "", "<http://ctro/data#Publication_51250> <http://ctro/data#hasPMID> \"24205943\"."

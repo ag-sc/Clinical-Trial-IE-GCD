@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Jpn J Ophthalmol", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasJournal> \"Jpn J Ophthalmol\"."
+1, PublicationYear, 19, 23, "2003", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasPublicationYear> \"2003\"."
+2, Title, 56, 195, "Comparison of the intraocular pressure lowering effect of latanoprost and carteolol - pilocarpine combination in newly diagnosed glaucoma .", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasTitle> \"Comparison of the intraocular pressure lowering effect of latanoprost and carteolol - pilocarpine combination in newly diagnosed glaucoma .\"."
+3, IOP, 74, 94, "intraocular pressure", "", 
+60, Latanoprost, 114, 125, "latanoprost", "", 
+61, Carteolol, 130, 139, "carteolol", "", 
+62, Pilocarpine, 142, 153, "pilocarpine", "", 
+33783, Precondition, 169, 193, "newly diagnosed glaucoma", "", "<http://ctro/data#Population_38800> <http://ctro/data#hasPrecondition> \"newly diagnosed glaucoma\"."
+63, Glaucoma, 185, 193, "glaucoma", "", "<http://ctro/data#Glaucoma_19398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_19389> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_19398>."
+4, Author, 196, 205, "Ozdemir M", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasAuthor> \"Ozdemir M\"."
+5, Author, 214, 223, "Ozdemir G", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasAuthor> \"Ozdemir G\"."
+6, Turkey, 323, 329, "Turkey", "", "<http://ctro/data#Population_38800> <http://ctro/data#hasCountry> <http://ctro/data#Turkey>."
+108, ObjectiveDescription, 342, 499, "To evaluate the comparative efficacy of latanoprost monotherapy versus combined carteolol and pilocarpine therapy in patients with newly diagnosed glaucoma .", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasObjectiveDescription> \"To evaluate the comparative efficacy of latanoprost monotherapy versus combined carteolol and pilocarpine therapy in patients with newly diagnosed glaucoma .\"."
+65, Latanoprost, 382, 393, "latanoprost", "", 
+66, Carteolol, 422, 431, "carteolol", "", 
+67, Pilocarpine, 436, 447, "pilocarpine", "", 
+33793, Precondition, 473, 497, "newly diagnosed glaucoma", "", 
+69, Glaucoma, 489, 497, "glaucoma", "", 
+8, Blind, 510, 516, "Masked", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+70, Randomized, 517, 527, "randomized", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+10, NumberPatientsCT, 568, 570, "51", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasNumberPatientsCT> \"51\"."
+33794, Precondition, 597, 644, "newly diagnosed glaucoma or ocular hypertension", "", "<http://ctro/data#Population_38800> <http://ctro/data#hasPrecondition> \"newly diagnosed glaucoma or ocular hypertension\"."
+72, Glaucoma, 613, 621, "glaucoma", "", 
+11, OcularHypertension, 625, 644, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+74, Latanoprost, 727, 738, "latanoprost", "", "<http://ctro/data#Latanoprost_38851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_38850> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_38851>."
+12, DoseValue, 739, 746, "0 . 005", "", "<http://ctro/data#Medication_38850> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+13, Percentage, 747, 748, "%", "", "<http://ctro/data#Medication_38850> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+14, Frequency, 749, 759, "once daily", "", "<http://ctro/data#Intervention_38832> <http://ctro/data#hasFrequency> \"once daily\"."
+75, Carteolol, 768, 777, "carteolol", "", "<http://ctro/data#Medication_38857> <http://ctro/data#hasDrug> <http://ctro/data#Carteolol>."
+15, DoseValue, 778, 779, "2", "", "<http://ctro/data#Medication_38857> <http://ctro/data#hasDoseValue> \"2\"."
+16, Percentage, 780, 781, "%", "", "<http://ctro/data#Medication_38857> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+17, Frequency, 782, 793, "twice daily", "", "<http://ctro/data#Intervention_38838> <http://ctro/data#hasFrequency> \"twice daily\"."
+76, Pilocarpine, 798, 809, "pilocarpine", "", "<http://ctro/data#Medication_38864> <http://ctro/data#hasDrug> <http://ctro/data#Pilocarpine>."
+18, DoseValue, 810, 811, "2", "", 
+19, Percentage, 812, 813, "%", "", 
+20, Frequency, 814, 825, "twice daily", "", "<http://ctro/data#Intervention_38844> <http://ctro/data#hasFrequency> \"twice daily\"."
+21, Mean, 828, 832, "Mean", "", "<http://ctro/data#Mean_38811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_38809> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_38811>."
+22, Diurnal_IOP, 833, 861, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_38809> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+23, IOP, 864, 867, "IOP", "", 
+33795, TimePoint, 886, 894, "baseline", "", 
+33796, TimePoint, 897, 903, "week 2", "", 
+33797, TimePoint, 906, 912, "week 4", "", 
+33798, TimePoint, 919, 926, "month 3", "", 
+24, Mean, 973, 977, "mean", "", 
+25, IOP, 978, 981, "IOP", "", 
+77, Duration, 1003, 1012, "3 - month", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasCTduration> \"3 - month\"."
+26, Mean, 1074, 1078, "Mean", "", 
+27, Diurnal_IOP, 1079, 1090, "diurnal IOP", "", 
+28, BaseLineValue, 1103, 1109, "25 . 1", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasBaselineValue> \"25 . 1\"."
+33799, SdDevBL, 1116, 1121, "3 . 1", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasSdDevBL> \"3 . 1\"."
+32, mmHg, 1122, 1127, "mm Hg", "", "<http://ctro/data#Endpoint_38809> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+29, BaseLineValue, 1132, 1138, "25 . 5", "", "<http://ctro/data#Outcome_38871> <http://ctro/data#hasBaselineValue> \"25 . 5\"."
+33800, SdDevBL, 1145, 1150, "2 . 5", "", "<http://ctro/data#Outcome_38871> <http://ctro/data#hasSdDevBL> \"2 . 5\"."
+33, mmHg, 1151, 1156, "mm Hg", "", 
+33801, TimePoint, 1160, 1168, "baseline", "", 
+78, Latanoprost, 1176, 1187, "latanoprost", "", 
+79, Carteolol, 1217, 1226, "carteolol", "", 
+80, Pilocarpine, 1236, 1247, "pilocarpine", "", 
+34, Diurnal_IOP, 1271, 1282, "Diurnal IOP", "", 
+144, TimePoint, 1328, 1336, "3 months", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasTimePoint> \"3 months\"."
+35, PValueChangeValue, 1354, 1363, "P < . 001", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_38871> <http://ctro/data#hasPValueChangeValue> \"P < . 001\"."
+82, Latanoprost, 1389, 1400, "latanoprost", "", 
+36, Mean, 1425, 1429, "mean", "", 
+37, Diurnal_IOP, 1430, 1441, "diurnal IOP", "", 
+38, Reduction, 1445, 1450, "7 . 2", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasChangeValue> \"7 . 2\"."
+33803, SdDevChangeValue, 1457, 1462, "2 . 5", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasSdDevChangeValue> \"2 . 5\"."
+40, mmHg, 1463, 1468, "mm Hg", "", 
+41, RelativeReduction, 1471, 1477, "28 . 7", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasRelativeChangeValue> \"28 . 7\"."
+83, Carteolol, 1486, 1495, "carteolol", "", 
+84, Pilocarpine, 1501, 1512, "pilocarpine", "", 
+42, Mean, 1525, 1529, "mean", "", 
+43, Diurnal_IOP, 1530, 1541, "diurnal IOP", "", 
+44, Reduction, 1545, 1550, "7 . 4", "", "<http://ctro/data#Outcome_38871> <http://ctro/data#hasChangeValue> \"7 . 4\"."
+33804, SdDevChangeValue, 1557, 1562, "2 . 7", "", "<http://ctro/data#Outcome_38871> <http://ctro/data#hasSdDevChangeValue> \"2 . 7\"."
+46, mmHg, 1563, 1568, "mm Hg", "", 
+47, RelativeReduction, 1571, 1573, "29", "", "<http://ctro/data#Outcome_38871> <http://ctro/data#hasRelativeChangeValue> \"29\"."
+159, ObservedResult, 1580, 1676, "There was no difference between the groups in terms of their IOP reduction effect ( P = . 51 ) .", "", "<http://ctro/data#Outcome_19405> <http://ctro/data#hasObservedResult> \"There was no difference between the groups in terms of their IOP reduction effect ( P = . 51 ) .\". <http://ctro/data#Outcome_38871> <http://ctro/data#hasObservedResult> \"There was no difference between the groups in terms of their IOP reduction effect ( P = . 51 ) .\"."
+49, IOP, 1641, 1644, "IOP", "", 
+48, PvalueDiff, 1664, 1672, "P = . 51", "", "<http://ctro/data#DiffBetweenGroups_38898> <http://ctro/data#hasPvalueDiff> \"P = . 51\"."
+33805, EndPointDescription, 1677, 1700, "Decreased visual acuity", "AdverseEffect", 
+33806, EndPointDescription, 1705, 1720, "twilight vision", "AdverseEffect", 
+92863, BlurredVison, 1723, 1737, "blurred vision", "", 
+163, Headache, 1744, 1752, "headache", "", 
+93008, ObservedResult, 1753, 1845, "were more frequent in the carteolol - plus - pilocarpine group than in the latanoprost group", "", 
+85, Carteolol, 1779, 1788, "carteolol", "", 
+86, Pilocarpine, 1798, 1809, "pilocarpine", "", 
+87, Latanoprost, 1828, 1839, "latanoprost", "", 
+167, PvalueDiff, 1848, 1856, "P < . 05", "", 
+55, ConclusionComment, 1875, 2075, "We concluded that latanoprost monotherapy was at least as effective as the carteolol - pilocarpine combination therapy in reducing mean diurnal IOP in newly diagnosed glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_19389> <http://ctro/data#hasConclusionComment> \"We concluded that latanoprost monotherapy was at least as effective as the carteolol - pilocarpine combination therapy in reducing mean diurnal IOP in newly diagnosed glaucoma or ocular hypertension .\"."
+88, Latanoprost, 1893, 1904, "latanoprost", "", 
+89, Carteolol, 1950, 1959, "carteolol", "", 
+90, Pilocarpine, 1962, 1973, "pilocarpine", "", 
+56, Mean, 2006, 2010, "mean", "", 
+57, Diurnal_IOP, 2011, 2022, "diurnal IOP", "", 
+33809, Precondition, 2026, 2073, "newly diagnosed glaucoma or ocular hypertension", "", 
+91, Glaucoma, 2042, 2050, "glaucoma", "", 
+58, OcularHypertension, 2054, 2073, "ocular hypertension", "", 
+59, PMID, 2083, 2091, "12586182", "", "<http://ctro/data#Publication_38790> <http://ctro/data#hasPMID> \"12586182\"."

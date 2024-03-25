@@ -1,0 +1,82 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Acta Ophthalmol Scand", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasJournal> \"Acta Ophthalmol Scand\"."
+1, PublicationYear, 24, 28, "2007", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasPublicationYear> \"2007\"."
+2, Title, 55, 221, "Comparison of the ocular hypotensive effects of bimatoprost and timolol - dorzolamide combination in patients with elevated intraocular pressure : a 6 - month study .", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasTitle> \"Comparison of the ocular hypotensive effects of bimatoprost and timolol - dorzolamide combination in patients with elevated intraocular pressure : a 6 - month study .\"."
+3, Bimatoprost, 103, 114, "bimatoprost", "", "<http://ctro/data#Medication_64603> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+4, Timolol, 119, 126, "timolol", "", 
+38495, Dorz/TimFC, 119, 140, "timolol - dorzolamide", "", "<http://ctro/data#Medication_64596> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+5, Dorzolamide, 129, 140, "dorzolamide", "", 
+8, Precondition, 170, 199, "elevated intraocular pressure", "", "<http://ctro/data#Population_64559> <http://ctro/data#hasPrecondition> \"elevated intraocular pressure\"."
+6, IOP, 179, 199, "intraocular pressure", "", "<http://ctro/data#IOP_64568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_64567> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_64568>."
+7, Duration, 204, 213, "6 - month", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasCTduration> \"6 - month\"."
+9, Author, 222, 230, "Ozturk F", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> \"Ozturk F\"."
+10, Author, 239, 247, "Ermis SS", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> \"Ermis SS\"."
+11, Author, 250, 257, "Inan UU", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> \"Inan UU\"."
+12, Turkey, 377, 383, "Turkey", "", "<http://ctro/data#Population_64559> <http://ctro/data#hasCountry> <http://ctro/data#Turkey>."
+88, ObjectiveDescription, 396, 620, "To compare the ocular hypotensive efficacy and safety of topical bimatoprost and timolol - dorzolamide combination in patients with primary open - angle glaucoma ( POAG ) or ocular hypertension during 6 months of treatment .", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasObjectiveDescription> \"To compare the ocular hypotensive efficacy and safety of topical bimatoprost and timolol - dorzolamide combination in patients with primary open - angle glaucoma ( POAG ) or ocular hypertension during 6 months of treatment .\"."
+14, Bimatoprost, 461, 472, "bimatoprost", "", 
+15, Timolol, 477, 484, "timolol", "", 
+38494, Dorz/TimFC, 477, 498, "timolol - dorzolamide", "", 
+16, Dorzolamide, 487, 498, "dorzolamide", "", 
+62, Primary_OpenAngleGlaucoma, 528, 557, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+63, Primary_OpenAngleGlaucoma, 560, 564, "POAG", "", 
+86, OcularHypertension, 570, 589, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+17, Duration, 597, 605, "6 months", "", 
+18, NumberPatientsCT, 643, 645, "65", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasNumberPatientsCT> \"65\"."
+64, Primary_OpenAngleGlaucoma, 675, 679, "POAG", "", 
+91, OcularHypertension, 683, 702, "ocular hypertension", "", 
+19, Randomized, 708, 718, "randomized", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+20, Bimatoprost, 737, 748, "bimatoprost", "", 
+21, DoseValue, 749, 755, "0 . 03", "", "<http://ctro/data#Medication_64603> <http://ctro/data#hasDoseValue> \"0 . 03\"."
+22, Percentage, 756, 757, "%", "", "<http://ctro/data#Medication_64603> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+23, Frequency, 758, 768, "once daily", "", "<http://ctro/data#Intervention_64590> <http://ctro/data#hasFrequency> \"once daily\"."
+24, Timolol, 772, 779, "timolol", "", 
+38500, Dorz/TimFC, 772, 793, "timolol - dorzolamide", "", 
+25, Dorzolamide, 782, 793, "dorzolamide", "", 
+26, Frequency, 806, 817, "twice daily", "", "<http://ctro/data#Intervention_19432> <http://ctro/data#hasFrequency> \"twice daily\"."
+66, TimePoint, 845, 853, "baseline", "", 
+67, TimePoint, 864, 871, "2 weeks", "", 
+68, TimePoint, 876, 894, "1 , 3 and 6 months", "", 
+37054, TimePoint, 880, 894, "3 and 6 months", "", 
+37055, TimePoint, 886, 894, "6 months", "", 
+27, IOP, 908, 928, "Intraocular pressure", "", 
+28, IOP, 931, 934, "IOP", "", 
+29, TimePoint, 1062, 1071, "6 - month", "", 
+30, IOP, 1254, 1257, "IOP", "", 
+121, ObservedResult, 1277, 1422, "Differences in IOP between the bimatoprost and timolol - dorzolamide groups were statistically insignificant at all study visits ( p > 0 . 05 ) .", "", "<http://ctro/data#Outcome_64610> <http://ctro/data#hasObservedResult> \"Differences in IOP between the bimatoprost and timolol - dorzolamide groups were statistically insignificant at all study visits ( p > 0 . 05 ) .\". <http://ctro/data#Outcome_64637> <http://ctro/data#hasObservedResult> \"Differences in IOP between the bimatoprost and timolol - dorzolamide groups were statistically insignificant at all study visits ( p > 0 . 05 ) .\"."
+31, IOP, 1292, 1295, "IOP", "", 
+32, Bimatoprost, 1308, 1319, "bimatoprost", "", 
+33, Timolol, 1324, 1331, "timolol", "", 
+38496, Dorz/TimFC, 1324, 1345, "timolol - dorzolamide", "", 
+34, Dorzolamide, 1334, 1345, "dorzolamide", "", 
+35, PvalueDiff, 1408, 1418, "p > 0 . 05", "", 
+36, Bimatoprost, 1430, 1441, "bimatoprost", "", 
+37, IOP, 1464, 1467, "IOP", "", 
+38, Reduction, 1482, 1487, "6 . 2", "", "<http://ctro/data#Outcome_64610> <http://ctro/data#hasChangeValue> \"6 . 2\"."
+35011, SdDevChangeValue, 1494, 1499, "1 . 8", "", "<http://ctro/data#Outcome_64610> <http://ctro/data#hasSdDevChangeValue> \"1 . 8\"."
+40, mmHg, 1500, 1504, "mmHg", "", "<http://ctro/data#Endpoint_64567> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+41, Reduction, 1522, 1527, "6 . 5", "", "<http://ctro/data#Outcome_64637> <http://ctro/data#hasChangeValue> \"6 . 5\"."
+35012, SdDevChangeValue, 1534, 1539, "2 . 3", "", "<http://ctro/data#Outcome_64637> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+43, mmHg, 1540, 1544, "mmHg", "", 
+38497, Dorz/TimFC, 1552, 1573, "timolol - dorzolamide", "", 
+44, Timolol, 1552, 1559, "timolol", "", 
+45, Dorzolamide, 1562, 1573, "dorzolamide", "", 
+119, TimePoint, 1586, 1594, "6 months", "", "<http://ctro/data#Outcome_64610> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_64637> <http://ctro/data#hasTimePoint> \"6 months\"."
+47, PvalueDiff, 1661, 1671, "p = 0 . 48", "", "<http://ctro/data#DiffBetweenGroups_64664> <http://ctro/data#hasPvalueDiff> \"p = 0 . 48\"."
+127, ConclusionComment, 1690, 1816, "The IOP - lowering efficacies of bimatoprost and timolol - dorzolamide combination were similar over a 6 - month follow - up .", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> \"The IOP - lowering efficacies of bimatoprost and timolol - dorzolamide combination were similar over a 6 - month follow - up .\"."
+49, IOP, 1694, 1697, "IOP", "", 
+50, Bimatoprost, 1723, 1734, "bimatoprost", "", 
+38498, Dorz/TimFC, 1739, 1760, "timolol - dorzolamide", "", 
+51, Timolol, 1739, 1746, "timolol", "", 
+52, Dorzolamide, 1749, 1760, "dorzolamide", "", 
+53, Duration, 1793, 1802, "6 - month", "", 
+54, ConclusionComment, 1817, 1897, "Both bimatoprost and the timolol - dorzolamide combination were well tolerated .", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> \"Both bimatoprost and the timolol - dorzolamide combination were well tolerated .\"."
+56, Bimatoprost, 1822, 1833, "bimatoprost", "", 
+38499, Dorz/TimFC, 1842, 1863, "timolol - dorzolamide", "", 
+57, Timolol, 1842, 1849, "timolol", "", 
+58, Dorzolamide, 1852, 1863, "dorzolamide", "", 
+55, ConclusionComment, 1898, 2004, "Bimatoprost can be used as a longterm monotherapy agent in the treatment of POAG and ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> \"Bimatoprost can be used as a longterm monotherapy agent in the treatment of POAG and ocular hypertension .\"."
+59, Bimatoprost, 1898, 1909, "Bimatoprost", "", 
+65, Primary_OpenAngleGlaucoma, 1974, 1978, "POAG", "", 
+60, OcularHypertension, 1983, 2002, "ocular hypertension", "", 
+61, PMID, 2065, 2073, "17244215", "", "<http://ctro/data#Publication_64531> <http://ctro/data#hasPMID> \"17244215\"."

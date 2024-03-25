@@ -1,0 +1,78 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Am J Ophthalmol .", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasJournal> \"Am J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "1991", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasPublicationYear> \"1991\"."
+2, Title, 54, 167, "Evaluation of once - daily levobunolol 0 . 25 % and timolol 0 . 25 % therapy for increased intraocular pressure .", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasTitle> \"Evaluation of once - daily levobunolol 0 . 25 % and timolol 0 . 25 % therapy for increased intraocular pressure .\"."
+3, Frequency, 68, 80, "once - daily", "", 
+4, Levobunolol, 81, 92, "levobunolol", "", 
+6, DoseValue, 93, 99, "0 . 25", "", 
+71, Percentage, 100, 101, "%", "", 
+5, Timolol, 106, 113, "timolol", "", 
+7, DoseValue, 114, 120, "0 . 25", "", 
+72, Percentage, 121, 122, "%", "", 
+8, IOP, 145, 165, "intraocular pressure", "", 
+9, Author, 168, 181, "Silverstone D", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Silverstone D\"."
+10, Author, 190, 201, "Zimmerman T", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Zimmerman T\"."
+11, Author, 204, 213, "Choplin N", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Choplin N\"."
+12, Author, 216, 225, "Mundorf T", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Mundorf T\"."
+13, Author, 228, 234, "Rose A", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Rose A\"."
+14, Author, 237, 247, "Stoecker J", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Stoecker J\"."
+15, Author, 250, 258, "Kelley E", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Kelley E\"."
+16, Author, 261, 266, "Lue J", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasAuthor> \"Lue J\"."
+104102, USA, 395, 406, "Connecticut", "", "<http://ctro/data#Population_88031> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+23, ObjectiveDescription, 409, 645, "In a three - month , double - masked , randomized clinical trial , we evaluated the once - daily ocular hypotensive efficacy of 0 . 25 % levobunolol and 0 . 25 % timolol in 80 patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasObjectiveDescription> \"In a three - month , double - masked , randomized clinical trial , we evaluated the once - daily ocular hypotensive efficacy of 0 . 25 % levobunolol and 0 . 25 % timolol in 80 patients with open - angle glaucoma or ocular hypertension .\"."
+17, Duration, 414, 427, "three - month", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasCTduration> \"three - month\"."
+18, DoubleBlind, 430, 445, "double - masked", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+19, Randomized, 448, 458, "randomized", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+20, Frequency, 493, 505, "once - daily", "", "<http://ctro/data#Intervention_88057> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_88063> <http://ctro/data#hasFrequency> \"once - daily\"."
+21, DoseValue, 537, 543, "0 . 25", "", 
+95, Percentage, 544, 545, "%", "", 
+24, Levobunolol, 546, 557, "levobunolol", "", 
+22, DoseValue, 562, 568, "0 . 25", "", 
+96, Percentage, 569, 570, "%", "", 
+25, Timolol, 571, 578, "timolol", "", 
+26, NumberPatientsCT, 582, 584, "80", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasNumberPatientsCT> \"80\"."
+92, Precondition, 585, 643, "patients with open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_88031> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma or ocular hypertension\"."
+27, OpenAngleGlaucoma, 599, 620, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+28, OcularHypertension, 624, 643, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+31, FinalNumPatientsArm, 646, 660, "Thirty - seven", "", "<http://ctro/data#Arm_88039> <http://ctro/data#hasFinalNumPatientsArm> \"Thirty - seven\"."
+29, NumberPatientsArm, 668, 670, "39", "", "<http://ctro/data#Arm_88039> <http://ctro/data#hasNumberPatientsArm> \"39\"."
+104, PercentageAffected, 682, 684, "95", "", 
+33, DoseValue, 696, 702, "0 . 25", "", "<http://ctro/data#Medication_88069> <http://ctro/data#hasDoseValue> \"0 . 25\"."
+111, Percentage, 703, 704, "%", "", "<http://ctro/data#Medication_88069> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+35, Levobunolol, 705, 716, "levobunolol", "", "<http://ctro/data#Medication_88069> <http://ctro/data#hasDrug> <http://ctro/data#Levobunolol>."
+32, FinalNumPatientsArm, 727, 729, "35", "", "<http://ctro/data#Arm_88048> <http://ctro/data#hasFinalNumPatientsArm> \"35\"."
+30, NumberPatientsArm, 737, 739, "41", "", "<http://ctro/data#Arm_88048> <http://ctro/data#hasNumberPatientsArm> \"41\"."
+105, PercentageAffected, 751, 753, "85", "", 
+34, DoseValue, 765, 771, "0 . 25", "", "<http://ctro/data#Medication_88076> <http://ctro/data#hasDoseValue> \"0 . 25\"."
+110, Percentage, 772, 773, "%", "", "<http://ctro/data#Medication_88076> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+36, Timolol, 774, 781, "timolol", "", "<http://ctro/data#Medication_88076> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+37, Duration, 815, 828, "three - month", "", 
+38, Mean, 856, 860, "mean", "", "<http://ctro/data#Mean_88085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_88083> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_88085>."
+39, IOP, 873, 893, "intraocular pressure", "", "<http://ctro/data#IOP_88084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_88083> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_88084>."
+40, Reduction, 898, 903, "5 . 3", "", "<http://ctro/data#Outcome_88088> <http://ctro/data#hasChangeValue> \"5 . 3\"."
+42, mmHg, 904, 909, "mm Hg", "", "<http://ctro/data#Endpoint_88083> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+44, RelativeReduction, 912, 914, "22", "", "<http://ctro/data#Outcome_88088> <http://ctro/data#hasRelativeChangeValue> \"22\"."
+46, DoseValue, 926, 932, "0 . 25", "", 
+124, Percentage, 933, 934, "%", "", 
+48, Levobunolol, 935, 946, "levobunolol", "", 
+41, Reduction, 957, 962, "5 . 4", "", "<http://ctro/data#Outcome_88115> <http://ctro/data#hasChangeValue> \"5 . 4\"."
+43, mmHg, 963, 968, "mm Hg", "", 
+45, RelativeReduction, 971, 973, "22", "", "<http://ctro/data#Outcome_88115> <http://ctro/data#hasRelativeChangeValue> \"22\"."
+47, DoseValue, 985, 991, "0 . 25", "", 
+125, Percentage, 992, 993, "%", "", 
+49, Timolol, 994, 1001, "timolol", "", 
+104105, ObservedResult, 1062, 1147, "In both treatment groups , effects on mean heart rate and blood pressure were minimal", "", "<http://ctro/data#Outcome_88152> <http://ctro/data#hasObservedResult> \"In both treatment groups , effects on mean heart rate and blood pressure were minimal\". <http://ctro/data#Outcome_88179> <http://ctro/data#hasObservedResult> \"In both treatment groups , effects on mean heart rate and blood pressure were minimal\"."
+50, Mean, 1100, 1104, "mean", "", "<http://ctro/data#Mean_88144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_88142> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_88144>. <http://ctro/data#Mean_88149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_88147> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_88149>."
+51, HeartRate, 1105, 1115, "heart rate", "", "<http://ctro/data#HeartRate_88143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_88142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_88143>."
+52, BloodPressure, 1120, 1134, "blood pressure", "", "<http://ctro/data#BloodPressure_88148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_88147> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_88148>."
+54, ConclusionComment, 1150, 1331, "The data suggest that levobunolol 0 . 25 % and timolol 0 . 25 % , administered once daily , are equally effective in the treatment of open - angle glaucoma and ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_88013> <http://ctro/data#hasConclusionComment> \"The data suggest that levobunolol 0 . 25 % and timolol 0 . 25 % , administered once daily , are equally effective in the treatment of open - angle glaucoma and ocular hypertension .\"."
+55, Levobunolol, 1172, 1183, "levobunolol", "", 
+57, DoseValue, 1184, 1190, "0 . 25", "", 
+138, Percentage, 1191, 1192, "%", "", 
+56, Timolol, 1197, 1204, "timolol", "", 
+58, DoseValue, 1205, 1211, "0 . 25", "", 
+139, Percentage, 1212, 1213, "%", "", 
+59, Frequency, 1229, 1239, "once daily", "", 
+60, OpenAngleGlaucoma, 1284, 1305, "open - angle glaucoma", "", 
+61, OcularHypertension, 1310, 1329, "ocular hypertension", "", 
+62, PMID, 1387, 1394, "1882923", "", "<http://ctro/data#Publication_87999> <http://ctro/data#hasPMID> \"1882923\"."

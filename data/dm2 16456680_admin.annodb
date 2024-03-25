@@ -1,0 +1,153 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+127, Journal, 0, 12, "Diabetologia", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasJournal> \"Diabetologia\"."
+106431, PublicationYear, 15, 19, "2006", "", 
+106430, PublicationYear, 53, 57, "2006", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasPublicationYear> \"2006\"."
+130, InsulinGlargine, 66, 82, "Insulin glargine", "", 
+268, Title, 66, 153, "Insulin glargine or NPH combined with metformin in type 2 diabetes : the LANMET study .", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasTitle> \"Insulin glargine or NPH combined with metformin in type 2 diabetes : the LANMET study .\"."
+131, IsophaneInsulin_NPH, 86, 89, "NPH", "", 
+132, Metformin, 104, 113, "metformin", "", 
+133, Type2Diabetes, 117, 132, "type 2 diabetes", "", 
+119895, Author, 154, 172, "Yki - J ä rvinen H", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Yki - J ä rvinen H\"."
+2, Author, 181, 204, "Kauppinen - M ä kelin R", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Kauppinen - M ä kelin R\"."
+3, Author, 207, 219, "Tiikkainen M", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Tiikkainen M\"."
+4, Author, 222, 236, "V ä h ä talo M", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"V ä h ä talo M\"."
+5, Author, 239, 248, "Virtamo H", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Virtamo H\"."
+6, Author, 251, 261, "Nikkil ä K", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Nikkil ä K\"."
+7, Author, 264, 273, "Tulokas T", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Tulokas T\"."
+8, Author, 276, 283, "Hulme S", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Hulme S\"."
+9, Author, 286, 293, "Hardy K", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Hardy K\"."
+10, Author, 296, 305, "McNulty S", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"McNulty S\"."
+11, Author, 308, 320, "H ä nninen J", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"H ä nninen J\"."
+12, Author, 323, 334, "Lev ä nen H", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Lev ä nen H\"."
+13, Author, 337, 350, "Lahdenper ä S", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Lahdenper ä S\"."
+14, Author, 353, 363, "Lehtonen R", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Lehtonen R\"."
+15, Author, 366, 373, "Ryysy L", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasAuthor> \"Ryysy L\"."
+16, Finland, 501, 508, "Finland", "", "<http://ctro/data#Population_32828> <http://ctro/data#hasCountry> <http://ctro/data#Finland>."
+273, ObjectiveDescription, 561, 723, "In type 2 diabetic patients we compared 9 months of combination therapy with insulin glargine and metformin with 9 months of NPH insulin combined with metformin .", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasObjectiveDescription> \"In type 2 diabetic patients we compared 9 months of combination therapy with insulin glargine and metformin with 9 months of NPH insulin combined with metformin .\"."
+17, Type2Diabetes, 564, 579, "type 2 diabetic", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+18, Duration, 601, 609, "9 months", "", 
+106429, InsulinGlargine, 633, 654, "with insulin glargine", "", 
+119893, Metformin, 659, 668, "metformin", "", 
+119894, Duration, 674, 682, "9 months", "", 
+22, IsophaneInsulin_NPH, 686, 697, "NPH insulin", "", 
+23, Metformin, 712, 721, "metformin", "", 
+24, HbA1c, 757, 767, "HbA ( 1c )", "", 
+274, Glucose, 790, 805, "diurnal glucose", "", 
+117, SymptomaticHypoglycemia, 819, 844, "symptomatic hypoglycaemia", "", 
+26, OpenLabel, 890, 894, "open", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+25, Parallel, 897, 913, "parallel - group", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+161, Multicenter, 939, 952, "seven centres", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+27, NumberPatientsCT, 955, 958, "110", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasNumberPatientsCT> \"110\"."
+28, Precondition, 959, 1129, "insulin - naive type 2 diabetic patients with poor glycaemic control ( HbA ( 1c ) > or = 8 . 0 % ) on oral hypoglycaemic agents ( 90 % using sulfonylurea plus metformin )", "", "<http://ctro/data#Population_32828> <http://ctro/data#hasPrecondition> \"insulin - naive type 2 diabetic patients with poor glycaemic control ( HbA ( 1c ) > or = 8 . 0 % ) on oral hypoglycaemic agents ( 90 % using sulfonylurea plus metformin )\"."
+29, Type2Diabetes, 975, 990, "type 2 diabetic", "", 
+122, HbA1c, 1030, 1040, "HbA ( 1c )", "", 
+121, Percentage, 1054, 1055, "%", "", 
+123, OralAntidiabeticAgent, 1061, 1086, "oral hypoglycaemic agents", "", 
+124, Sulfonylureas, 1100, 1112, "sulfonylurea", "", 
+125, Metformin, 1118, 1127, "metformin", "", 
+30, Randomized, 1135, 1145, "randomised", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Bedtime, 1157, 1164, "bedtime", "", "<http://ctro/data#Intervention_32889> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+32, InsulinGlargine, 1165, 1181, "insulin glargine", "", "<http://ctro/data#Medication_32901> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+33, Metformin, 1187, 1196, "metformin", "", "<http://ctro/data#Medication_32915> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+34, InsulinGlargine, 1199, 1200, "G", "", 
+35, Metformin, 1203, 1206, "MET", "", 
+38, Bedtime, 1212, 1219, "bedtime", "", "<http://ctro/data#Intervention_32895> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+39, IsophaneInsulin_NPH, 1220, 1223, "NPH", "", "<http://ctro/data#Medication_32908> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+36, Metformin, 1229, 1238, "metformin", "", 
+40, IsophaneInsulin_NPH, 1241, 1244, "NPH", "", 
+37, Metformin, 1247, 1250, "MET", "", 
+41, Duration, 1257, 1265, "36 weeks", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasCTduration> \"36 weeks\". <http://ctro/data#Intervention_32889> <http://ctro/data#hasDuration> \"36 weeks\". <http://ctro/data#Intervention_32895> <http://ctro/data#hasDuration> \"36 weeks\"."
+51229, DoseDescription, 1272, 1332, "patients were taught how to self - adjust their insulin dose", "", "<http://ctro/data#Medication_32901> <http://ctro/data#hasDoseDescription> \"patients were taught how to self - adjust their insulin dose\". <http://ctro/data#Medication_32908> <http://ctro/data#hasDoseDescription> \"patients were taught how to self - adjust their insulin dose\". <http://ctro/data#Medication_32915> <http://ctro/data#hasDoseDescription> \"patients were taught how to self - adjust their insulin dose\"."
+276, InsulinDose, 1320, 1332, "insulin dose", "", 
+45514, FastingPlasmaGlucose, 1445, 1467, "fasting plasma glucose", "", 
+42, FastingPlasmaGlucose_target, 1445, 1502, "fasting plasma glucose ( FPG ) of 4 . 0 to 5 . 5 mmol / l", "", 
+45512, FastingPlasmaGlucose, 1470, 1473, "FPG", "", 
+178, Millimoles_per_litre, 1494, 1502, "mmol / l", "", 
+179, TimePoint, 1541, 1554, "last 12 weeks", "", 
+44, FastingPlasmaGlucose, 1557, 1561, "FPGs", "", "<http://ctro/data#Endpoint_32836> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+45, ResultMeasuredValue, 1571, 1577, "5 . 75", "", "<http://ctro/data#Outcome_36056> <http://ctro/data#hasResultMeasuredValue> \"5 . 75\"."
+51, SdDevResValue, 1584, 1590, "0 . 02", "", "<http://ctro/data#Outcome_36056> <http://ctro/data#hasSdDevResValue> \"0 . 02\"."
+46, ResultMeasuredValue, 1595, 1601, "5 . 96", "", "<http://ctro/data#Outcome_36083> <http://ctro/data#hasResultMeasuredValue> \"5 . 96\"."
+52, SdDevResValue, 1608, 1614, "0 . 03", "", "<http://ctro/data#Outcome_36083> <http://ctro/data#hasSdDevResValue> \"0 . 03\"."
+57, Millimoles_per_litre, 1615, 1623, "mmol / l", "", "<http://ctro/data#Endpoint_32836> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+58, PvalueDiff, 1626, 1637, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_36110> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+60999, InsulinDose, 1644, 1657, "insulin doses", "", "<http://ctro/data#InsulinDose_32842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_32841> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_32842>."
+61000, ResultMeasuredValue, 1663, 1665, "68", "", "<http://ctro/data#Outcome_36119> <http://ctro/data#hasResultMeasuredValue> \"68\"."
+61005, SdDevResValue, 1672, 1673, "5", "", "<http://ctro/data#Outcome_36119> <http://ctro/data#hasSdDevResValue> \"5\"."
+61001, ResultMeasuredValue, 1678, 1680, "70", "", "<http://ctro/data#Outcome_36146> <http://ctro/data#hasResultMeasuredValue> \"70\"."
+61004, SdDevResValue, 1687, 1688, "6", "", "<http://ctro/data#Outcome_36146> <http://ctro/data#hasSdDevResValue> \"6\"."
+61008, BioAndMedicalUnit, 1689, 1697, "IU / day", "", "<http://ctro/data#BioAndMedicalUnit_32844> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_32841> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_32844>."
+61002, ResultMeasuredValue, 1700, 1706, "0 . 69", "", 
+61006, SdDevResValue, 1713, 1719, "0 . 05", "", 
+61003, ResultMeasuredValue, 1724, 1730, "0 . 66", "", 
+61007, SdDevResValue, 1737, 1743, "0 . 04", "", 
+57595, IntUnit_per_Kg, 1744, 1749, "IU kg", "", 
+57597, Interval, 1758, 1761, "day", "", 
+62, InsulinGlargine, 1784, 1785, "G", "", 
+61, Metformin, 1788, 1791, "MET", "", 
+118, IsophaneInsulin_NPH, 1796, 1799, "NPH", "", 
+60, Metformin, 1802, 1805, "MET", "", 
+206, TimePoint, 1833, 1841, "36 weeks", "", 
+266, Mean, 1844, 1848, "mean", "", "<http://ctro/data#Mean_32848> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_32846> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_32848>."
+64, HbA1c, 1849, 1859, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_32846> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+65, ResultMeasuredValue, 1864, 1870, "7 . 14", "", "<http://ctro/data#Outcome_36173> <http://ctro/data#hasResultMeasuredValue> \"7 . 14\"."
+67, SdDevResValue, 1877, 1883, "0 . 12", "", "<http://ctro/data#Outcome_36173> <http://ctro/data#hasSdDevResValue> \"0 . 12\"."
+66, ResultMeasuredValue, 1888, 1894, "7 . 16", "", "<http://ctro/data#Outcome_36200> <http://ctro/data#hasResultMeasuredValue> \"7 . 16\"."
+68, SdDevResValue, 1901, 1907, "0 . 14", "", "<http://ctro/data#Outcome_36200> <http://ctro/data#hasSdDevResValue> \"0 . 14\"."
+69, Percentage, 1908, 1909, "%", "", "<http://ctro/data#Endpoint_32846> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+70, SymptomaticHypoglycemia, 1934, 1993, "Symptomatic , but not confirmed symptomatic , hypoglycaemia", "", "<http://ctro/data#Endpoint_32851> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+71, TimePoint, 2029, 2043, "first 12 weeks", "", "<http://ctro/data#Outcome_36227> <http://ctro/data#hasTimePoint> \"first 12 weeks\". <http://ctro/data#Outcome_36254> <http://ctro/data#hasTimePoint> \"first 12 weeks\"."
+72, InsulinGlargine, 2051, 2052, "G", "", 
+73, Metformin, 2055, 2058, "MET", "", 
+217, ResultMeasuredValue, 2067, 2072, "4 . 1", "", "<http://ctro/data#Outcome_36227> <http://ctro/data#hasResultMeasuredValue> \"4 . 1\"."
+45515, SdDevResValue, 2079, 2084, "0 . 8", "", "<http://ctro/data#Outcome_36227> <http://ctro/data#hasSdDevResValue> \"0 . 8\"."
+219, BioAndMedicalUnit, 2085, 2110, "episodes / patient - year", "", "<http://ctro/data#BioAndMedicalUnit_32854> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_32851> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_32854>."
+77, IsophaneInsulin_NPH, 2125, 2128, "NPH", "", 
+74, Metformin, 2131, 2134, "MET", "", 
+222, ResultMeasuredValue, 2143, 2148, "9 . 0", "", "<http://ctro/data#Outcome_36254> <http://ctro/data#hasResultMeasuredValue> \"9 . 0\"."
+45517, SdDevResValue, 2155, 2160, "2 . 3", "", "<http://ctro/data#Outcome_36254> <http://ctro/data#hasSdDevResValue> \"2 . 3\"."
+224, BioAndMedicalUnit, 2161, 2186, "episodes / patient - year", "", 
+80, PvalueDiff, 2189, 2199, "p < 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_36281> <http://ctro/data#hasPvalueDiff> \"p < 0 . 05\"."
+45518, Glucose, 2249, 2277, "Glucose levels before dinner", "", "<http://ctro/data#Glucose_32857> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glucose>. <http://ctro/data#Endpoint_32856> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Glucose_32857>."
+227, RelativeTime, 2264, 2277, "before dinner", "", 
+82, IsophaneInsulin_NPH, 2297, 2300, "NPH", "", 
+83, Metformin, 2303, 2306, "MET", "", 
+85, ResultMeasuredValue, 2315, 2321, "10 . 1", "", 
+87, SdDevResValue, 2328, 2333, "0 . 3", "", 
+90, Millimoles_per_litre, 2334, 2342, "mmol / l", "", "<http://ctro/data#Endpoint_32856> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+89, InsulinGlargine, 2357, 2358, "G", "", 
+84, Metformin, 2361, 2364, "MET", "", 
+86, ResultMeasuredValue, 2373, 2378, "8 . 6", "", 
+88, SdDevResValue, 2385, 2390, "0 . 3", "", 
+91, Millimoles_per_litre, 2391, 2399, "mmol / l", "", 
+92, PvalueDiff, 2402, 2413, "p = 0 . 002", "", 
+93, Duration, 2431, 2440, "36 - week", "", 
+279, HbA1c_target, 2611, 2631, "HbA ( 1c ) < 7 . 0 %", "", "<http://ctro/data#Endpoint_32861> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+96, BodyWeight, 2723, 2729, "weight", "", 
+97, Insulin, 2766, 2773, "insulin", "", 
+94, FastingPlasmaGlucose, 2788, 2791, "FPG", "", 
+243, TimePoint, 2803, 2816, "last 12 weeks", "", 
+100, ResultMeasuredValue, 2819, 2824, "5 . 7", "", 
+102, SdDevResValue, 2831, 2836, "0 . 2", "", 
+101, ResultMeasuredValue, 2840, 2845, "6 . 7", "", 
+103, SdDevResValue, 2852, 2857, "0 . 3", "", 
+98, Millimoles_per_litre, 2858, 2866, "mmol / l", "", 
+244, SubGroupDescription, 2871, 2888, "patients reaching", "", 
+245, SubGroupDescription, 2892, 2917, "those not reaching target", "", 
+99, PvalueDiff, 2920, 2930, "p < 0 . 01", "", 
+281, ConclusionComment, 2966, 3038, "Good glycaemic control can be achieved with both G + MET and NPH + MET .", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasConclusionComment> \"Good glycaemic control can be achieved with both G + MET and NPH + MET .\"."
+104, InsulinGlargine, 3015, 3016, "G", "", 
+105, Metformin, 3019, 3022, "MET", "", 
+107, IsophaneInsulin_NPH, 3027, 3030, "NPH", "", 
+106, Metformin, 3033, 3036, "MET", "", 
+282, ConclusionComment, 3039, 3170, "Use of G + MET reduces symptomatic hypoglycaemia during the first 12 weeks and dinner time hyperglycaemia compared with NPH + MET .", "", "<http://ctro/data#ClinicalTrial_32808> <http://ctro/data#hasConclusionComment> \"Use of G + MET reduces symptomatic hypoglycaemia during the first 12 weeks and dinner time hyperglycaemia compared with NPH + MET .\"."
+108, InsulinGlargine, 3046, 3047, "G", "", 
+109, Metformin, 3050, 3053, "MET", "", 
+112, SymptomaticHypoglycemia, 3062, 3087, "symptomatic hypoglycaemia", "", 
+260, TimePoint, 3099, 3113, "first 12 weeks", "", 
+261, Hypoglycemia, 3118, 3144, "dinner time hyperglycaemia", "", 
+45511, RelativeTime, 3118, 3129, "dinner time", "", 
+115, Hypoglycemia, 3130, 3144, "hyperglycaemia", "", 
+111, IsophaneInsulin_NPH, 3159, 3162, "NPH", "", 
+110, Metformin, 3165, 3168, "MET", "", 
+116, PMID, 3220, 3228, "16456680", "", "<http://ctro/data#Publication_32787> <http://ctro/data#hasPMID> \"16456680\"."

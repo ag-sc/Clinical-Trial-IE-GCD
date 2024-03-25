@@ -1,0 +1,83 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Am J Ophthalmol .", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasJournal> \"Am J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "1992", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasPublicationYear> \"1992\"."
+2, Title, 54, 116, "Short - term effects of levobunolol on ocular pulsatile flow .", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasTitle> \"Short - term effects of levobunolol on ocular pulsatile flow .\"."
+6, Levobunolol, 78, 89, "levobunolol", "", 
+7, OcularBloodFlow, 93, 114, "ocular pulsatile flow", "", 
+3, Author, 117, 125, "Bosem ME", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasAuthor> \"Bosem ME\"."
+4, Author, 134, 141, "Lusky M", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasAuthor> \"Lusky M\"."
+5, Author, 144, 154, "Weinreb RN", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasAuthor> \"Weinreb RN\"."
+102211, Country, 228, 250, "California , San Diego", "", 
+87, ObjectiveDescription, 253, 505, "In a randomized , double - masked , placebo - controlled study , we evaluated the effect of levobunolol 0 . 5 % , a nonselective beta - blocker , on intraocular pressure , volume amplitude , and ocular pulsatile flow in healthy individuals and patients", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasObjectiveDescription> \"In a randomized , double - masked , placebo - controlled study , we evaluated the effect of levobunolol 0 . 5 % , a nonselective beta - blocker , on intraocular pressure , volume amplitude , and ocular pulsatile flow in healthy individuals and patients\". <http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasObjectiveDescription> \"with glaucoma .\"."
+8, Randomized, 258, 268, "randomized", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, DoubleBlind, 271, 286, "double - masked", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+10, Placebo, 289, 296, "placebo", "", "<http://ctro/data#Medication_90358> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+11, CTDesign, 289, 309, "placebo - controlled", "", "<http://ctro/data#CTDesign_90369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_90369>."
+12, Levobunolol, 345, 356, "levobunolol", "", "<http://ctro/data#Medication_90351> <http://ctro/data#hasDrug> <http://ctro/data#Levobunolol>."
+13, DoseValue, 357, 362, "0 . 5", "", "<http://ctro/data#Medication_90351> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+86, Percentage, 363, 364, "%", "", "<http://ctro/data#Medication_90351> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+83, Precondition, 402, 519, "intraocular pressure , volume amplitude , and ocular pulsatile flow in healthy individuals and patients with glaucoma", "", "<http://ctro/data#Population_90313> <http://ctro/data#hasPrecondition> \"intraocular pressure , volume amplitude , and ocular pulsatile flow in healthy individuals and patients with glaucoma\"."
+14, IOP, 402, 422, "intraocular pressure", "", 
+15, EndPointDescription, 425, 441, "volume amplitude", "", 
+16, OcularBloodFlow, 448, 469, "ocular pulsatile flow", "", 
+87, ObjectiveDescription, 506, 521, "with glaucoma .", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasObjectiveDescription> \"with glaucoma .\"."
+17, Glaucoma, 511, 519, "glaucoma", "", "<http://ctro/data#Glaucoma_90306> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_90297> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_90306>."
+18, EndPointDescription, 522, 538, "Volume amplitude", "", 
+19, OcularBloodFlow, 543, 564, "ocular pulsatile flow", "", 
+20, MeasurementDevice, 622, 637, "pneumatonometer", "", "<http://ctro/data#MeasurementDevice_90436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_90432> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_90436>. <http://ctro/data#MeasurementDevice_90576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_90572> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_90576>."
+102216, DoseDescription, 640, 668, "Two hours after instillation", "", "<http://ctro/data#Medication_90351> <http://ctro/data#hasDoseDescription> \"Two hours after instillation\"."
+102214, DeliveryMethod, 656, 668, "instillation", "", "<http://ctro/data#DeliveryMethod_90355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_90351> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_90355>."
+21, Levobunolol, 672, 683, "levobunolol", "", 
+22, IOP, 686, 706, "intraocular pressure", "", "<http://ctro/data#IOP_90374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_90373> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_90374>."
+23, BaseLineValue, 722, 728, "26 . 0", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasBaselineValue> \"26 . 0\"."
+92, SdDevBL, 735, 740, "5 . 1", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasSdDevBL> \"5 . 1\"."
+26, mmHg, 741, 746, "mm Hg", "", "<http://ctro/data#Endpoint_90373> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+24, ResultMeasuredValue, 750, 756, "17 . 8", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasResultMeasuredValue> \"17 . 8\"."
+97, SdDevResValue, 763, 768, "3 . 9", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasSdDevResValue> \"3 . 9\"."
+27, mmHg, 769, 774, "mm Hg", "", 
+29, RelativeReduction, 777, 783, "28 . 3", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasRelativeChangeValue> \"28 . 3\"."
+30, PValueResValue, 790, 807, "P less than . 001", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasPValueResValue> \"P less than . 001\"."
+106256, SubGroupDescription, 813, 830, "glaucomatous eyes", "", "<http://ctro/data#Outcome_90378> <http://ctro/data#hasSubGroupDescription> \"glaucomatous eyes\"."
+31, BaseLineValue, 835, 841, "20 . 2", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasBaselineValue> \"20 . 2\"."
+100, SdDevBL, 848, 853, "3 . 6", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasSdDevBL> \"3 . 6\"."
+35, mmHg, 854, 859, "mm Hg", "", 
+32, ResultMeasuredValue, 863, 869, "14 . 5", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasResultMeasuredValue> \"14 . 5\"."
+98, SdDevResValue, 876, 881, "4 . 2", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasSdDevResValue> \"4 . 2\"."
+36, mmHg, 882, 887, "mm Hg", "", 
+37, RelativeReduction, 890, 896, "29 . 6", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasRelativeChangeValue> \"29 . 6\"."
+38, PValueResValue, 903, 920, "P less than . 001", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasPValueResValue> \"P less than . 001\"."
+106257, SubGroupDescription, 926, 938, "healthy eyes", "", "<http://ctro/data#Outcome_90405> <http://ctro/data#hasSubGroupDescription> \"healthy eyes\"."
+39, OcularBloodFlow, 941, 962, "Ocular pulsatile flow", "", "<http://ctro/data#Endpoint_90432> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#OcularBloodFlow>."
+40, Levobunolol, 998, 1009, "levobunolol", "", 
+41, BaseLineValue, 1015, 1022, "482 . 1", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasBaselineValue> \"482 . 1\"."
+109, SdDevBL, 1029, 1036, "133 . 3", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasSdDevBL> \"133 . 3\"."
+43, BioAndMedicalUnit, 1037, 1056, "microliter / minute", "", "<http://ctro/data#BioAndMedicalUnit_90435> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_90432> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_90435>."
+44, ResultMeasuredValue, 1060, 1067, "548 . 5", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasResultMeasuredValue> \"548 . 5\"."
+111, SdDevResValue, 1074, 1081, "180 . 3", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasSdDevResValue> \"180 . 3\"."
+46, BioAndMedicalUnit, 1082, 1101, "microliter / minute", "", 
+47, RelativeIncrement, 1104, 1110, "13 . 3", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasRelativeChangeValue> \"13 . 3\"."
+48, PValueResValue, 1117, 1134, "P less than . 006", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasPValueResValue> \"P less than . 006\"."
+106258, SubGroupDescription, 1140, 1157, "glaucomatous eyes", "", "<http://ctro/data#Outcome_90437> <http://ctro/data#hasSubGroupDescription> \"glaucomatous eyes\"."
+49, BaseLineValue, 1162, 1169, "457 . 6", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasBaselineValue> \"457 . 6\"."
+115, SdDevBL, 1176, 1183, "178 . 2", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasSdDevBL> \"178 . 2\"."
+51, BioAndMedicalUnit, 1184, 1203, "microliter / minute", "", 
+53, ResultMeasuredValue, 1207, 1210, "528", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasResultMeasuredValue> \"528\"."
+117, SdDevResValue, 1217, 1224, "223 . 8", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasSdDevResValue> \"223 . 8\"."
+52, BioAndMedicalUnit, 1225, 1244, "microliter / minute", "", 
+55, RelativeIncrement, 1247, 1253, "12 . 3", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasRelativeChangeValue> \"12 . 3\"."
+56, PValueResValue, 1260, 1279, "P greater than . 05", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasPValueResValue> \"P greater than . 05\"."
+106259, SubGroupDescription, 1285, 1297, "healthy eyes", "", "<http://ctro/data#Outcome_90464> <http://ctro/data#hasSubGroupDescription> \"healthy eyes\"."
+102217, ObservedResult, 1300, 1334, "There was no significant change in", "", "<http://ctro/data#Outcome_90491> <http://ctro/data#hasObservedResult> \"There was no significant change in\". <http://ctro/data#Outcome_90491> <http://ctro/data#hasObservedResult> \"in placebo - treated eyes\". <http://ctro/data#Outcome_90518> <http://ctro/data#hasObservedResult> \"There was no significant change in\". <http://ctro/data#Outcome_90518> <http://ctro/data#hasObservedResult> \"in placebo - treated eyes\". <http://ctro/data#Outcome_90545> <http://ctro/data#hasObservedResult> \"There was no significant change in\". <http://ctro/data#Outcome_90545> <http://ctro/data#hasObservedResult> \"in placebo - treated eyes\"."
+57, IOP, 1335, 1355, "intraocular pressure", "", 
+58, EndPointDescription, 1358, 1374, "volume amplitude", "", "<http://ctro/data#EndPointDescription_90573> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_90572> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_90573>."
+59, OcularBloodFlow, 1380, 1401, "ocular pulsatile flow", "", 
+102217, ObservedResult, 1402, 1427, "in placebo - treated eyes", "", 
+60, Placebo, 1405, 1412, "placebo", "", 
+66, ConclusionComment, 1430, 1495, "The implication of these data for glaucoma therapy is not clear .", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasConclusionComment> \"The implication of these data for glaucoma therapy is not clear .\". <http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasConclusionComment> \"Although we used an instrument that supposedly measures total pulsatile flow , it may be that optic nerve blood flow is dependent on total , both pulsatile and nonpulsatile , flow .\". <http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasConclusionComment> \"Further , even though retinal blood flow is a small component of total ocular blood flow , it may be equally or more important than choroidal flow because of the necessity to maintain the perfusion of the retinal ganglion cells .\"."
+62, Glaucoma, 1464, 1472, "glaucoma", "", 
+66, ConclusionComment, 1496, 1677, "Although we used an instrument that supposedly measures total pulsatile flow , it may be that optic nerve blood flow is dependent on total , both pulsatile and nonpulsatile , flow .", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasConclusionComment> \"Although we used an instrument that supposedly measures total pulsatile flow , it may be that optic nerve blood flow is dependent on total , both pulsatile and nonpulsatile , flow .\"."
+63, OcularBloodFlow, 1558, 1572, "pulsatile flow", "", 
+135, OcularBloodFlow, 1590, 1612, "optic nerve blood flow", "", 
+66, ConclusionComment, 1678, 1907, "Further , even though retinal blood flow is a small component of total ocular blood flow , it may be equally or more important than choroidal flow because of the necessity to maintain the perfusion of the retinal ganglion cells .", "", "<http://ctro/data#ClinicalTrial_90297> <http://ctro/data#hasConclusionComment> \"Further , even though retinal blood flow is a small component of total ocular blood flow , it may be equally or more important than choroidal flow because of the necessity to maintain the perfusion of the retinal ganglion cells .\"."
+65, OcularBloodFlow, 1749, 1766, "ocular blood flow", "", 
+69, PMID, 1963, 1970, "1524115", "", "<http://ctro/data#Publication_90290> <http://ctro/data#hasPMID> \"1524115\"."

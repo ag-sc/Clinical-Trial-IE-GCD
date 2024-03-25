@@ -1,0 +1,121 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2017", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasPublicationYear> \"2017\"."
+10, Title, 110, 305, "Postprandial renal haemodynamic effect of lixisenatide vs once - daily insulin - glulisine in patients with type 2 diabetes on insulin - glargine : An 8 - week , randomised , open - label trial .", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasTitle> \"Postprandial renal haemodynamic effect of lixisenatide vs once - daily insulin - glulisine in patients with type 2 diabetes on insulin - glargine : An 8 - week , randomised , open - label trial .\"."
+98984, Lixisenatide, 152, 164, "lixisenatide", "", 
+4, Frequency, 168, 180, "once - daily", "", 
+3, InsulinGlulisine, 181, 200, "insulin - glulisine", "", 
+5, Type2Diabetes, 218, 233, "type 2 diabetes", "", 
+6, InsulinGlargine, 237, 255, "insulin - glargine", "", 
+7, Duration, 261, 269, "8 - week", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasCTduration> \"8 - week\"."
+8, Randomized, 272, 282, "randomised", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, OpenLabel, 285, 297, "open - label", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+11, Author, 306, 317, "Tonneijck L", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Tonneijck L\"."
+12, Author, 326, 337, "Muskiet MHA", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Muskiet MHA\"."
+13, Author, 346, 354, "Smits MM", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Smits MM\"."
+14, Author, 363, 373, "Hoekstra T", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Hoekstra T\"."
+15, Author, 388, 398, "Kramer MHH", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Kramer MHH\"."
+16, Author, 407, 417, "Danser AHJ", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Danser AHJ\"."
+17, Author, 426, 435, "Diamant M", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Diamant M\"."
+18, Author, 444, 452, "Joles JA", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"Joles JA\"."
+19, Author, 461, 474, "van Raalte DH", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasAuthor> \"van Raalte DH\"."
+20, Netherlands, 605, 620, "The Netherlands", "", "<http://ctro/data#Population_80957> <http://ctro/data#hasCountry> <http://ctro/data#Netherlands>."
+21, Netherlands, 751, 766, "The Netherlands", "", 
+22, Netherlands, 865, 880, "The Netherlands", "", 
+23, Netherlands, 1020, 1035, "The Netherlands", "", 
+24, Netherlands, 1126, 1141, "The Netherlands", "", 
+30, ObjectiveDescription, 1150, 1371, "To determine whether lixisenatide , a prandial short - acting glucagon - like peptide receptor agonist ( GLP - 1RA ) , ameliorates postprandial glomerular hyperfiltration in patients with type 2 diabetes mellitus ( T2DM )", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasObjectiveDescription> \"To determine whether lixisenatide , a prandial short - acting glucagon - like peptide receptor agonist ( GLP - 1RA ) , ameliorates postprandial glomerular hyperfiltration in patients with type 2 diabetes mellitus ( T2DM )\"."
+98989, Lixisenatide, 1171, 1183, "lixisenatide", "", 
+26, Type2Diabetes, 1338, 1362, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+27, Type2Diabetes, 1365, 1369, "T2DM", "", 
+31, ObjectiveDescription, 1372, 1416, "compared with insulin - glulisine ( iGlu ) .", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasObjectiveDescription> \"compared with insulin - glulisine ( iGlu ) .\"."
+28, InsulinGlulisine, 1386, 1405, "insulin - glulisine", "", 
+29, InsulinGlulisine, 1408, 1412, "iGlu", "", 
+32, Duration, 1470, 1478, "8 - week", "", 
+98988, Lixisenatide, 1494, 1506, "lixisenatide", "", "<http://ctro/data#Medication_83214> <http://ctro/data#hasDrug> <http://ctro/data#Lixisenatide>."
+156, DoseValue, 1507, 1509, "20", "", "<http://ctro/data#Medication_83214> <http://ctro/data#hasDoseValue> \"20\"."
+35, Microgram, 1510, 1513, "µ g", "", "<http://ctro/data#Medication_83214> <http://ctro/data#hasDoseUnit> <http://ctro/data#Microgram>."
+36, Frequency, 1517, 1529, "once - daily", "", "<http://ctro/data#Intervention_83234> <http://ctro/data#hasFrequency> \"once - daily\"."
+37, InsulinGlulisine, 1539, 1543, "iGlu", "", "<http://ctro/data#Medication_83221> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlulisine>."
+38, NumberPatientsCT, 1561, 1563, "35", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasNumberPatientsCT> \"35\"."
+98996, Precondition, 1575, 1667, "patients with T2DM inadequately controlled on insulin - glargine , with or without metformin", "", "<http://ctro/data#Population_80957> <http://ctro/data#hasPrecondition> \"patients with T2DM inadequately controlled on insulin - glargine , with or without metformin\"."
+40, Type2Diabetes, 1589, 1593, "T2DM", "", 
+132, InsulinGlargine, 1621, 1639, "insulin - glargine", "", 
+43, Metformin, 1658, 1667, "metformin", "", 
+44, Mean, 1670, 1674, "mean", "", 
+45, AvgAge, 1684, 1686, "62", "", "<http://ctro/data#Population_80957> <http://ctro/data#hasAvgAge> \"62\"."
+46, HbA1c, 1699, 1704, "HbA1c", "", 
+49, BaseLineValue, 1705, 1710, "8 . 0", "", 
+47, Percentage, 1711, 1712, "%", "", 
+50, SdDevBL, 1715, 1720, "0 . 9", "", 
+48, Percentage, 1721, 1722, "%", "", 
+98997, EndPointDescription, 1735, 1761, "glomerular filtration rate", "", 
+98998, EndPointDescription, 1764, 1767, "GFR", "", 
+55, BaseLineValue, 1770, 1772, "85", "", "<http://ctro/data#Outcome_83258> <http://ctro/data#hasBaselineValue> \"85\". <http://ctro/data#Outcome_83285> <http://ctro/data#hasBaselineValue> \"85\"."
+56, SdDevBL, 1775, 1777, "12", "", "<http://ctro/data#Outcome_83258> <http://ctro/data#hasSdDevBL> \"12\". <http://ctro/data#Outcome_83285> <http://ctro/data#hasSdDevBL> \"12\"."
+165, BioAndMedicalUnit, 1778, 1798, "mL / min / 1 . 73 m2", "", 
+51, BioAndMedicalUnit, 1875, 1884, "mg / mmol", "", 
+58, EndPointDescription, 1922, 1925, "GFR", "", 
+171, EndPointDescription, 1951, 1978, "effective renal plasma flow", "", 
+172, EndPointDescription, 1981, 1985, "ERPF", "", 
+173, Insulin, 2007, 2013, "inulin", "", 
+174, MeasurementDevice, 2164, 2179, "Gomez equations", "", 
+59, InsulinGlulisine, 2206, 2210, "iGlu", "", 
+98990, Lixisenatide, 2213, 2225, "lixisenatide", "", 
+61, EndPointDescription, 2241, 2244, "GFR", "", "<http://ctro/data#EndPointDescription_83155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83154> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83155>."
+106262, DiffGroupAbsValue, 2247, 2254, "+ 0 . 1", "", "<http://ctro/data#DiffBetweenGroups_83318> <http://ctro/data#hasDiffGroupAbsValue> \"+ 0 . 1\"."
+186, BioAndMedicalUnit, 2255, 2275, "mL / min / 1 . 73 m2", "", "<http://ctro/data#BioAndMedicalUnit_83157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_83154> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_83157>."
+99000, ConfIntervalDiff, 2278, 2294, "95 % CI - 9 to 9", "", "<http://ctro/data#DiffBetweenGroups_83318> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 9 to 9\"."
+63, EndPointDescription, 2301, 2305, "ERPF", "", "<http://ctro/data#EndPointDescription_83160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83159> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83160>."
+106263, DiffGroupAbsValue, 2308, 2312, "- 17", "", "<http://ctro/data#DiffBetweenGroups_83381> <http://ctro/data#hasDiffGroupAbsValue> \"- 17\"."
+187, BioAndMedicalUnit, 2313, 2333, "mL / min / 1 . 73 m2", "", "<http://ctro/data#BioAndMedicalUnit_83162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_83159> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_83162>."
+99002, ConfIntervalDiff, 2336, 2346, "- 61 to 26", "", "<http://ctro/data#DiffBetweenGroups_83381> <http://ctro/data#hasConfIntervalDiff> \"- 61 to 26\"."
+179, EndPointDescription, 2353, 2414, "other ( intra - ) renal haemodynamics or renal damage markers", "", "<http://ctro/data#EndPointDescription_83165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83164> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83165>."
+74, EndPointDescription, 2431, 2458, "fractional sodium excretion", "", "<http://ctro/data#EndPointDescription_83170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83169> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83170>."
+106265, DiffGroupAbsValue, 2461, 2469, "+ 0 . 25", "", "<http://ctro/data#DiffBetweenGroups_83444> <http://ctro/data#hasDiffGroupAbsValue> \"+ 0 . 25\"."
+73, Percentage, 2470, 2471, "%", "", "<http://ctro/data#Endpoint_83169> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+99004, ConfIntervalDiff, 2474, 2489, "0 . 09 - 0 . 41", "", "<http://ctro/data#DiffBetweenGroups_83444> <http://ctro/data#hasConfIntervalDiff> \"0 . 09 - 0 . 41\"."
+75, EndPointDescription, 2498, 2508, "urinary pH", "", "<http://ctro/data#EndPointDescription_83175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83174> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83175>."
+106264, DiffGroupAbsValue, 2511, 2518, "+ 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_83507> <http://ctro/data#hasDiffGroupAbsValue> \"+ 0 . 7\"."
+99005, ConfIntervalDiff, 2521, 2534, "0 . 3 - 1 . 2", "", "<http://ctro/data#DiffBetweenGroups_83507> <http://ctro/data#hasConfIntervalDiff> \"0 . 3 - 1 . 2\"."
+197, EndPointDescription, 2541, 2553, "Plasma renin", "", "<http://ctro/data#EndPointDescription_83180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83179> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83180>."
+198, EndPointDescription, 2556, 2572, "angiotensin - II", "", "<http://ctro/data#EndPointDescription_83185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83184> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83185>."
+199, EndPointDescription, 2577, 2588, "aldosterone", "", "<http://ctro/data#EndPointDescription_83190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83189> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83190>."
+200, ObservedResult, 2589, 2603, "were unchanged", "", "<http://ctro/data#Outcome_83516> <http://ctro/data#hasObservedResult> \"were unchanged\". <http://ctro/data#Outcome_83543> <http://ctro/data#hasObservedResult> \"were unchanged\". <http://ctro/data#Outcome_83570> <http://ctro/data#hasObservedResult> \"were unchanged\"."
+98991, Lixisenatide, 2606, 2618, "Lixisenatide", "", 
+81, InsulinGlulisine, 2623, 2627, "iGlu", "", 
+85, HbA1c, 2636, 2641, "HbA1c", "", "<http://ctro/data#Endpoint_83194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+86, Reduction, 2657, 2662, "0 . 8", "", "<http://ctro/data#Outcome_83597> <http://ctro/data#hasChangeValue> \"0 . 8\"."
+88, Percentage, 2663, 2664, "%", "", 
+94, SdDevChangeValue, 2667, 2672, "0 . 1", "", "<http://ctro/data#Outcome_83597> <http://ctro/data#hasSdDevChangeValue> \"0 . 1\"."
+89, Percentage, 2673, 2674, "%", "", "<http://ctro/data#Endpoint_83194> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+87, Reduction, 2679, 2684, "0 . 6", "", "<http://ctro/data#Outcome_83624> <http://ctro/data#hasChangeValue> \"0 . 6\"."
+90, Percentage, 2685, 2686, "%", "", 
+95, SdDevChangeValue, 2689, 2694, "0 . 1", "", "<http://ctro/data#Outcome_83624> <http://ctro/data#hasSdDevChangeValue> \"0 . 1\"."
+91, Percentage, 2695, 2696, "%", "", 
+103, PostprandialBloodGlucose, 2720, 2740, "postprandial glucose", "", "<http://ctro/data#Endpoint_83199> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+212, ObservedResult, 2741, 2750, "was lower", "", "<http://ctro/data#Outcome_83651> <http://ctro/data#hasObservedResult> \"was lower\"."
+98992, Lixisenatide, 2756, 2768, "lixisenatide", "", 
+92, PvalueDiff, 2771, 2780, "P = . 002", "", "<http://ctro/data#DiffBetweenGroups_83705> <http://ctro/data#hasPvalueDiff> \"P = . 002\"."
+82, InsulinGlulisine, 2799, 2803, "iGlu", "", 
+98993, Lixisenatide, 2806, 2818, "lixisenatide", "", 
+93, BodyWeight, 2827, 2837, "bodyweight", "", "<http://ctro/data#Endpoint_83204> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+217, Reduction, 2842, 2847, "1 . 4", "", "<http://ctro/data#Outcome_83714> <http://ctro/data#hasChangeValue> \"1 . 4\"."
+100, Kg, 2848, 2850, "kg", "", "<http://ctro/data#Endpoint_83204> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+96, ConfIntervalChangeValue, 2853, 2871, "- 2 . 5 to - 0 . 2", "", "<http://ctro/data#Outcome_83714> <http://ctro/data#hasConfIntervalChangeValue> \"- 2 . 5 to - 0 . 2\"."
+216, EndPointDescription, 2890, 2925, "postprandial mean arterial pressure", "", "<http://ctro/data#EndPointDescription_83210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_83209> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_83210>."
+218, Increment, 2930, 2931, "9", "", "<http://ctro/data#Outcome_83741> <http://ctro/data#hasChangeValue> \"9\"."
+222, mmHg, 2932, 2937, "mm Hg", "", "<http://ctro/data#Endpoint_83209> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+97, ConfIntervalChangeValue, 2940, 2946, "4 - 14", "", "<http://ctro/data#Outcome_83741> <http://ctro/data#hasConfIntervalChangeValue> \"4 - 14\"."
+104, Duration, 2966, 2978, "Eight - week", "", 
+110, ConclusionComment, 2966, 3164, "Eight - week lixisenatide treatment does not affect postprandial ( intra - ) renal haemodynamics compared with iGlu when added to insulin - glargine in patients with T2DM without overt nephropathy .", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasConclusionComment> \"Eight - week lixisenatide treatment does not affect postprandial ( intra - ) renal haemodynamics compared with iGlu when added to insulin - glargine in patients with T2DM without overt nephropathy .\"."
+98994, Lixisenatide, 2979, 2991, "lixisenatide", "", 
+83, InsulinGlulisine, 3077, 3081, "iGlu", "", 
+105, InsulinGlargine, 3096, 3114, "insulin - glargine", "", 
+106, Type2Diabetes, 3132, 3136, "T2DM", "", 
+111, ConclusionComment, 3165, 3387, "Prolonged lixisenatide treatment has a sustained natriuretic effect , which is in contrast to previous reports on long - acting GLP - 1RA , reduces body weight and increases postprandial blood pressure compared with iGlu .", "", "<http://ctro/data#ClinicalTrial_80938> <http://ctro/data#hasConclusionComment> \"Prolonged lixisenatide treatment has a sustained natriuretic effect , which is in contrast to previous reports on long - acting GLP - 1RA , reduces body weight and increases postprandial blood pressure compared with iGlu .\"."
+98995, Lixisenatide, 3175, 3187, "lixisenatide", "", 
+107, BodyWeight, 3313, 3324, "body weight", "", 
+108, BloodPressure, 3339, 3366, "postprandial blood pressure", "", 
+84, InsulinGlulisine, 3381, 3385, "iGlu", "", 
+112, PMID, 3523, 3531, "28449402", "", "<http://ctro/data#Publication_80923> <http://ctro/data#hasPMID> \"28449402\"."

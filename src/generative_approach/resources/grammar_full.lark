@@ -1,0 +1,144 @@
+hasadverseeffect: "[start:hasAdverseEffect]" outcome "[end:hasAdverseEffect]"
+hasfinalnumpatientsarm: "[start:hasFinalNumPatientsArm]" POINT+ "[end:hasFinalNumPatientsArm]"
+hasintervention: "[start:hasIntervention]" intervention "[end:hasIntervention]"
+hasnumberpatientsarm: "[start:hasNumberPatientsArm]" POINT+ "[end:hasNumberPatientsArm]"
+hasoutcome: "[start:hasOutcome]" outcome "[end:hasOutcome]"
+
+arm: "[start:Arm]" _arm* "[end:Arm]"
+_arm: hasadverseeffect
+   | hasfinalnumpatientsarm
+   | hasintervention
+   | hasnumberpatientsarm
+   | hasoutcome
+
+analyseshealthcondition: "[start:analysesHealthCondition]" POINT+ "[end:analysesHealthCondition]"
+hasallocationratio: "[start:hasAllocationRatio]" POINT+ "[end:hasAllocationRatio]"
+hasarm: "[start:hasArm]" arm "[end:hasArm]"
+hasctdesign: "[start:hasCTDesign]" POINT+ "[end:hasCTDesign]"
+hasctduration: "[start:hasCTduration]" POINT+ "[end:hasCTduration]"
+hasconclusioncomment: "[start:hasConclusionComment]" POINT+ "[end:hasConclusionComment]"
+hasdiffbetweengroups: "[start:hasDiffBetweenGroups]" diffbetweengroups "[end:hasDiffBetweenGroups]"
+hasfinalnumberpatientsct: "[start:hasFinalNumberPatientsCT]" POINT+ "[end:hasFinalNumberPatientsCT]"
+hasnumberpatientsct: "[start:hasNumberPatientsCT]" POINT+ "[end:hasNumberPatientsCT]"
+hasobjectivedescription: "[start:hasObjectiveDescription]" POINT+ "[end:hasObjectiveDescription]"
+haspopulation: "[start:hasPopulation]" population "[end:hasPopulation]"
+
+clinicaltrial: "[start:ClinicalTrial]" _clinicaltrial* "[end:ClinicalTrial]"
+_clinicaltrial: analyseshealthcondition
+             | hasallocationratio
+             | hasarm
+             | hasctdesign
+             | hasctduration
+             | hasconclusioncomment
+             | hasdiffbetweengroups
+             | hasfinalnumberpatientsct
+             | hasnumberpatientsct
+             | hasobjectivedescription
+             | haspopulation
+
+hasconfintervaldiff: "[start:hasConfIntervalDiff]" POINT+ "[end:hasConfIntervalDiff]"
+hasdiffgroupabsvalue: "[start:hasDiffGroupAbsValue]" POINT+ "[end:hasDiffGroupAbsValue]"
+haspvaluediff: "[start:hasPvalueDiff]" POINT+ "[end:hasPvalueDiff]"
+
+diffbetweengroups: "[start:DiffBetweenGroups]" _diffbetweengroups* "[end:DiffBetweenGroups]"
+_diffbetweengroups: hasconfintervaldiff
+                 | hasdiffgroupabsvalue
+                 | haspvaluediff
+
+hasaggregationmethod: "[start:hasAggregationMethod]" POINT+ "[end:hasAggregationMethod]"
+hasbaselineunit: "[start:hasBaselineUnit]" POINT+ "[end:hasBaselineUnit]"
+hasendopointdescription: "[start:hasEndoPointDescription]" POINT+ "[end:hasEndoPointDescription]"
+hasmeasurementdevice: "[start:hasMeasurementDevice]" POINT+ "[end:hasMeasurementDevice]"
+
+endpoint: "[start:Endpoint]" _endpoint* "[end:Endpoint]"
+_endpoint: hasaggregationmethod
+        | hasbaselineunit
+        | hasendopointdescription
+        | hasmeasurementdevice
+
+hasfrequency: "[start:hasFrequency]" POINT+ "[end:hasFrequency]"
+hasmedication: "[start:hasMedication]" medication "[end:hasMedication]"
+hasrelativefreqtime: "[start:hasRelativeFreqTime]" POINT+ "[end:hasRelativeFreqTime]"
+
+intervention: "[start:Intervention]" _intervention* "[end:Intervention]"
+_intervention: hasfrequency
+            | hasmedication
+            | hasrelativefreqtime
+
+hasdeliverymethod: "[start:hasDeliveryMethod]" POINT+ "[end:hasDeliveryMethod]"
+hasdosedescription: "[start:hasDoseDescription]" POINT+ "[end:hasDoseDescription]"
+hasdoseunit: "[start:hasDoseUnit]" POINT+ "[end:hasDoseUnit]"
+hasdosevalue: "[start:hasDoseValue]" POINT+ "[end:hasDoseValue]"
+hasdrug: "[start:hasDrug]" POINT+ "[end:hasDrug]"
+
+medication: "[start:Medication]" _medication* "[end:Medication]"
+_medication: hasdeliverymethod
+          | hasdosedescription
+          | hasdoseunit
+          | hasdosevalue
+          | hasdrug
+
+hasbaselinevalue: "[start:hasBaselineValue]" POINT+ "[end:hasBaselineValue]"
+haschangevalue: "[start:hasChangeValue]" POINT+ "[end:hasChangeValue]"
+hasconfintervalchangevalue: "[start:hasConfIntervalChangeValue]" POINT+ "[end:hasConfIntervalChangeValue]"
+hasendpoint: "[start:hasEndpoint]" endpoint "[end:hasEndpoint]"
+hasnumberaffected: "[start:hasNumberAffected]" POINT+ "[end:hasNumberAffected]"
+hasobservedresult: "[start:hasObservedResult]" POINT+ "[end:hasObservedResult]"
+haspvaluechangevalue: "[start:hasPValueChangeValue]" POINT+ "[end:hasPValueChangeValue]"
+haspercentageaffected: "[start:hasPercentageAffected]" POINT+ "[end:hasPercentageAffected]"
+hasrelativechangevalue: "[start:hasRelativeChangeValue]" POINT+ "[end:hasRelativeChangeValue]"
+hasresultmeasuredvalue: "[start:hasResultMeasuredValue]" POINT+ "[end:hasResultMeasuredValue]"
+hassddevbl: "[start:hasSdDevBL]" POINT+ "[end:hasSdDevBL]"
+hassddevchangevalue: "[start:hasSdDevChangeValue]" POINT+ "[end:hasSdDevChangeValue]"
+hassddevresvalue: "[start:hasSdDevResValue]" POINT+ "[end:hasSdDevResValue]"
+hassubgroupdescription: "[start:hasSubGroupDescription]" POINT+ "[end:hasSubGroupDescription]"
+hassderrorchangevalue: "[start:hasSdErrorChangeValue]" POINT+ "[end:hasSdErrorChangeValue]"
+hastimepoint: "[start:hasTimePoint]" POINT+ "[end:hasTimePoint]"
+
+outcome: "[start:Outcome]" _outcome* "[end:Outcome]"
+_outcome: hasbaselinevalue
+       | haschangevalue
+       | hasconfintervalchangevalue
+       | hasendpoint
+       | hasnumberaffected
+       | hasobservedresult
+       | haspvaluechangevalue
+       | haspercentageaffected
+       | hasrelativechangevalue
+       | hasresultmeasuredvalue
+       | hassddevbl
+       | hassddevchangevalue
+       | hassddevresvalue
+       | hassubgroupdescription
+       | hassderrorchangevalue
+       | hastimepoint
+
+hasavgage: "[start:hasAvgAge]" POINT+ "[end:hasAvgAge]"
+hascountry: "[start:hasCountry]" POINT+ "[end:hasCountry]"
+hasminage: "[start:hasMinAge]" POINT+ "[end:hasMinAge]"
+hasprecondition: "[start:hasPrecondition]" POINT+ "[end:hasPrecondition]"
+
+population: "[start:Population]" _population* "[end:Population]"
+_population: hasavgage
+          | hascountry
+          | hasminage
+          | hasprecondition
+
+describes: "[start:describes]" clinicaltrial "[end:describes]"
+hasauthor: "[start:hasAuthor]" POINT+ "[end:hasAuthor]"
+hasjournal: "[start:hasJournal]" POINT+ "[end:hasJournal]"
+haspmid: "[start:hasPMID]" POINT+ "[end:hasPMID]"
+haspublicationyear: "[start:hasPublicationYear]" POINT+ "[end:hasPublicationYear]"
+hastitle: "[start:hasTitle]" POINT+ "[end:hasTitle]"
+
+publication: "[start:Publication]" describes? _publication* "[end:Publication]"
+_publication: hasauthor
+           | hasjournal
+           | haspmid
+           | haspublicationyear
+           | hastitle
+
+//POINT: /[^[]+/
+
+//%import common.WS
+//%ignore WS

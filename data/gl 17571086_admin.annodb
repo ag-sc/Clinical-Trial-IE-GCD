@@ -1,0 +1,76 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 14, "Eye ( Lond ) .", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasJournal> \"Eye ( Lond ) .\"."
+1, PublicationYear, 15, 19, "2008", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasPublicationYear> \"2008\"."
+2, Title, 68, 189, "Twenty - four - hour efficacy of the brimonidine / timolol fixed combination versus therapy with the unfixed components .", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasTitle> \"Twenty - four - hour efficacy of the brimonidine / timolol fixed combination versus therapy with the unfixed components .\"."
+73, Brimo/TimFC, 105, 144, "brimonidine / timolol fixed combination", "", "<http://ctro/data#Medication_64751> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+3, Brimonidine, 105, 116, "brimonidine", "", 
+4, Timolol, 119, 126, "timolol", "", 
+5, Author, 190, 200, "Konstas AG", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+6, Author, 209, 222, "Katsimpris IE", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Katsimpris IE\"."
+7, Author, 225, 234, "Kaltsos K", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Kaltsos K\"."
+8, Author, 237, 249, "Georgiadou I", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Georgiadou I\"."
+9, Author, 252, 262, "Kordelou A", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Kordelou A\"."
+10, Author, 265, 274, "Nelson LA", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Nelson LA\"."
+11, Author, 277, 287, "Stewart WC", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+12, Greece, 410, 416, "Greece", "", "<http://ctro/data#Population_64708> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+86891, ObjectiveDescription, 429, 599, "To evaluate the 24 - h intraocular pressure ( IOP ) control of brimonidine / timolol fixed combination ( BTFC ) versusthe unfixed combination of its individual components", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasObjectiveDescription> \"To evaluate the 24 - h intraocular pressure ( IOP ) control of brimonidine / timolol fixed combination ( BTFC ) versusthe unfixed combination of its individual components\"."
+86887, Diurnal_IOP, 445, 472, "24 - h intraocular pressure", "", "<http://ctro/data#Endpoint_64716> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+17, IOP, 475, 478, "IOP", "", 
+87, Brimo/TimFC, 492, 531, "brimonidine / timolol fixed combination", "", 
+18, Brimonidine, 492, 503, "brimonidine", "", 
+19, Timolol, 506, 513, "timolol", "", 
+20, Brimo/TimFC, 534, 538, "BTFC", "", 
+21, Frequency, 613, 624, "twice daily", "", "<http://ctro/data#Intervention_64739> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_64745> <http://ctro/data#hasFrequency> \"twice daily\"."
+86894, Precondition, 630, 696, "patients with primary open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_64708> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma or ocular hypertension\"."
+22, Primary_OpenAngleGlaucoma, 644, 673, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+23, OcularHypertension, 677, 696, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+24, Blind, 712, 729, "observer - masked", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+25, Randomized, 732, 742, "randomized", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+26, Crossover, 745, 754, "crossover", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+27, Multicenter, 779, 791, "two - centre", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+28, Duration, 817, 825, "6 - week", "", 
+29, Randomized, 865, 875, "randomized", "", 
+30, Brimo/TimFC, 879, 883, "BTFC", "", 
+31, Brimonidine, 917, 928, "brimonidine", "", "<http://ctro/data#Medication_64758> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+32, Timolol, 933, 940, "timolol", "", "<http://ctro/data#Medication_64766> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+33, Duration, 945, 953, "3 months", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasCTduration> \"3 months\"."
+34, Crossover, 975, 987, "crossed over", "", 
+35, Duration, 1026, 1034, "3 months", "", 
+86895, Diurnal_IOP, 1127, 1137, "24 - h IOP", "", 
+109, TimePoint, 1154, 1158, "0600", "", 
+110, TimePoint, 1161, 1165, "1000", "", 
+111, TimePoint, 1168, 1172, "1400", "", 
+112, TimePoint, 1175, 1179, "1800", "", 
+113, TimePoint, 1182, 1186, "2200", "", 
+114, TimePoint, 1193, 1197, "0200", "", 
+37, FinalNumPatientsCT, 1216, 1230, "Twenty - eight", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasFinalNumberPatientsCT> \"Twenty - eight\"."
+38, Brimo/TimFC, 1268, 1272, "BTFC", "", 
+39, IOP, 1321, 1324, "IOP", "", 
+40, PValueChangeValue, 1361, 1373, "P < 0 . 0001", "", 
+86897, Diurnal_IOP, 1475, 1485, "24 - h IOP", "", 
+119, PvalueDiff, 1496, 1504, "> 0 . 05", "", 
+43, Mean, 1513, 1517, "mean", "", "<http://ctro/data#Mean_64718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_64716> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_64718>."
+86901, Diurnal_IOP, 1518, 1528, "24 - h IOP", "", 
+45, BaseLineValue, 1533, 1539, "24 . 6", "", "<http://ctro/data#Outcome_64773> <http://ctro/data#hasBaselineValue> \"24 . 6\". <http://ctro/data#Outcome_64800> <http://ctro/data#hasBaselineValue> \"24 . 6\"."
+123, SdDevBL, 1546, 1551, "1 . 9", "", "<http://ctro/data#Outcome_64773> <http://ctro/data#hasSdDevBL> \"1 . 9\". <http://ctro/data#Outcome_64800> <http://ctro/data#hasSdDevBL> \"1 . 9\"."
+59, ResultMeasuredValue, 1567, 1573, "19 . 2", "", "<http://ctro/data#Outcome_64773> <http://ctro/data#hasResultMeasuredValue> \"19 . 2\"."
+126, SdDevResValue, 1580, 1585, "1 . 9", "", "<http://ctro/data#Outcome_64773> <http://ctro/data#hasSdDevResValue> \"1 . 9\"."
+62, Brimo/TimFC, 1590, 1594, "BTFC", "", 
+60, ResultMeasuredValue, 1601, 1607, "19 . 2", "", "<http://ctro/data#Outcome_64800> <http://ctro/data#hasResultMeasuredValue> \"19 . 2\"."
+127, SdDevResValue, 1614, 1619, "1 . 6", "", "<http://ctro/data#Outcome_64800> <http://ctro/data#hasSdDevResValue> \"1 . 6\"."
+64, mmHg, 1620, 1624, "mmHg", "", "<http://ctro/data#Endpoint_64716> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+130, PvalueDiff, 1654, 1663, "P = 1 . 0", "", "<http://ctro/data#DiffBetweenGroups_64827> <http://ctro/data#hasPvalueDiff> \"P = 1 . 0\"."
+47, NumPatientsLeftCT, 1668, 1672, "Four", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasNumPatientsLeftCT> \"Four\"."
+86910, EndPointDescription, 1707, 1719, "side effects", "", 
+48, ConjunctivalHyperemia, 1763, 1780, "ocular hyperaemia", "", "<http://ctro/data#Endpoint_64836> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+49, NumberAffected, 1787, 1788, "3", "", "<http://ctro/data#Outcome_64841> <http://ctro/data#hasNumberAffected> \"3\"."
+51, Brimo/TimFC, 1794, 1798, "BTFC", "", 
+50, NumberAffected, 1807, 1808, "5", "", "<http://ctro/data#Outcome_64868> <http://ctro/data#hasNumberAffected> \"5\"."
+137, PvalueDiff, 1839, 1848, "P = 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_64895> <http://ctro/data#hasPvalueDiff> \"P = 0 . 7\"."
+52, ConclusionComment, 1904, 2061, "This study suggests that both BTFC and the unfixed components of brimonidine and timolol provide a significant 24 - h IOP reduction from untreated baseline ,", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasConclusionComment> \"This study suggests that both BTFC and the unfixed components of brimonidine and timolol provide a significant 24 - h IOP reduction from untreated baseline ,\"."
+54, Brimo/TimFC, 1934, 1938, "BTFC", "", 
+55, Brimonidine, 1969, 1980, "brimonidine", "", 
+56, Timolol, 1985, 1992, "timolol", "", 
+86916, Diurnal_IOP, 2015, 2025, "24 - h IOP", "", 
+52, ConclusionComment, 2062, 2173, "and statistically equal control when compared directly , at each time point and for the 24 - h pressure curve .", "", "<http://ctro/data#ClinicalTrial_64687> <http://ctro/data#hasConclusionComment> \"and statistically equal control when compared directly , at each time point and for the 24 - h pressure curve .\"."
+58, PMID, 2218, 2226, "17571086", "", "<http://ctro/data#Publication_64674> <http://ctro/data#hasPMID> \"17571086\"."

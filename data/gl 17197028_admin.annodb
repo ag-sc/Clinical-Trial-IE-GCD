@@ -1,0 +1,79 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+66, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "2007", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasPublicationYear> \"2007\"."
+2, Title, 68, 155, "Efficacy and safety of latanoprost versus travoprost in exfoliative glaucoma patients .", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasTitle> \"Efficacy and safety of latanoprost versus travoprost in exfoliative glaucoma patients .\"."
+68, Latanoprost, 91, 102, "latanoprost", "", 
+69, Travoprost, 110, 120, "travoprost", "", "<http://ctro/data#Medication_64325> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+70, Glaucoma, 136, 144, "glaucoma", "", "<http://ctro/data#Glaucoma_64265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_64256> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_64265>."
+3, Author, 156, 166, "Konstas AG", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+4, Author, 175, 187, "Kozobolis VP", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Kozobolis VP\"."
+5, Author, 190, 203, "Katsimpris IE", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Katsimpris IE\"."
+6, Author, 206, 217, "Boboridis K", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Boboridis K\"."
+7, Author, 220, 230, "Koukoula S", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Koukoula S\"."
+8, Author, 233, 243, "Jenkins JN", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Jenkins JN\"."
+9, Author, 246, 256, "Stewart WC", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+10, Greece, 362, 368, "Greece", "", "<http://ctro/data#Population_64275> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+11, ObjectiveDescription, 383, 539, "To evaluate 24 - hour intraocular pressure ( IOP ) efficacy of latanoprost versus travoprost , each given every evening , in exfoliative glaucoma patients .", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasObjectiveDescription> \"To evaluate 24 - hour intraocular pressure ( IOP ) efficacy of latanoprost versus travoprost , each given every evening , in exfoliative glaucoma patients .\"."
+12, IOP, 405, 425, "intraocular pressure", "", 
+13, IOP, 428, 431, "IOP", "", 
+14, Latanoprost, 446, 457, "latanoprost", "", 
+15, Travoprost, 465, 475, "travoprost", "", 
+84, Frequency, 489, 502, "every evening", "", "<http://ctro/data#Intervention_64306> <http://ctro/data#hasFrequency> \"every evening\". <http://ctro/data#Intervention_64312> <http://ctro/data#hasFrequency> \"every evening\"."
+16, Glaucoma, 520, 528, "glaucoma", "", 
+17, Prospective, 549, 560, "Prospective", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+18, Blind, 563, 580, "observer - masked", "", 
+19, Crossover, 583, 592, "crossover", "", 
+20, NumberPatientsCT, 621, 626, "Forty", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasNumberPatientsCT> \"Forty\"."
+21, Glaucoma, 653, 661, "glaucoma", "", 
+98, Precondition, 674, 711, "Patients with a pressure of > 24 mmHg", "", "<http://ctro/data#Population_64275> <http://ctro/data#hasPrecondition> \"Patients with a pressure of > 24 mmHg\"."
+92, mmHg, 707, 711, "mmHg", "", 
+24, Randomized, 717, 727, "randomized", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+25, Latanoprost, 731, 742, "latanoprost", "", "<http://ctro/data#Latanoprost_64319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_64318> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_64319>."
+26, Travoprost, 746, 756, "travoprost", "", 
+27, Duration, 764, 772, "8 - week", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasCTduration> \"8 - week\"."
+28, Duration, 798, 806, "6 - week", "", 
+29, IOP, 976, 979, "IOP", "", 
+86725, TimePoint, 996, 1000, "6 am", "", 
+86727, TimePoint, 1003, 1008, "10 am", "", 
+86728, TimePoint, 1011, 1015, "2 pm", "", 
+86729, TimePoint, 1018, 1022, "6 pm", "", 
+86730, TimePoint, 1025, 1030, "10 pm", "", 
+86731, TimePoint, 1037, 1041, "2 am", "", 
+30, Diurnal_IOP, 1067, 1078, "Diurnal IOP", "", "<http://ctro/data#Endpoint_64283> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+31, Mean, 1095, 1099, "mean", "", "<http://ctro/data#Mean_64285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_64283> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_64285>."
+108, Diurnal_IOP, 1100, 1113, "24 - hour IOP", "", 
+33, BaseLineValue, 1118, 1124, "25 . 1", "", "<http://ctro/data#Outcome_64332> <http://ctro/data#hasBaselineValue> \"25 . 1\". <http://ctro/data#Outcome_64359> <http://ctro/data#hasBaselineValue> \"25 . 1\"."
+110, SdDevBL, 1131, 1136, "2 . 5", "", "<http://ctro/data#Outcome_64332> <http://ctro/data#hasSdDevBL> \"2 . 5\". <http://ctro/data#Outcome_64359> <http://ctro/data#hasSdDevBL> \"2 . 5\"."
+35, mmHg, 1137, 1141, "mmHg", "", "<http://ctro/data#Endpoint_64283> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+86736, TimePoint, 1145, 1153, "baseline", "", 
+37, ResultMeasuredValue, 1156, 1162, "17 . 8", "", "<http://ctro/data#Outcome_64332> <http://ctro/data#hasResultMeasuredValue> \"17 . 8\"."
+118, SdDevResValue, 1169, 1174, "2 . 1", "", "<http://ctro/data#Outcome_64332> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+36, mmHg, 1175, 1179, "mmHg", "", 
+39, Latanoprost, 1183, 1194, "latanoprost", "", 
+40, ResultMeasuredValue, 1201, 1207, "17 . 3", "", "<http://ctro/data#Outcome_64359> <http://ctro/data#hasResultMeasuredValue> \"17 . 3\"."
+119, SdDevResValue, 1214, 1219, "2 . 2", "", "<http://ctro/data#Outcome_64359> <http://ctro/data#hasSdDevResValue> \"2 . 2\"."
+42, mmHg, 1220, 1224, "mmHg", "", 
+43, Travoprost, 1228, 1238, "travoprost", "", 
+120, PvalueDiff, 1243, 1252, "= 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_64386> <http://ctro/data#hasPvalueDiff> \"= 0 . 001\"."
+121, TimePoint, 1324, 1328, "6 pm", "", "<http://ctro/data#Outcome_64395> <http://ctro/data#hasTimePoint> \"6 pm\". <http://ctro/data#Outcome_64422> <http://ctro/data#hasTimePoint> \"6 pm\"."
+45, Travoprost, 1334, 1344, "travoprost", "", 
+46, IOP, 1360, 1363, "IOP", "", 
+47, ResultMeasuredValue, 1366, 1372, "16 . 7", "", "<http://ctro/data#Outcome_64395> <http://ctro/data#hasResultMeasuredValue> \"16 . 7\"."
+126, SdDevResValue, 1379, 1384, "2 . 6", "", "<http://ctro/data#Outcome_64395> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+48, ResultMeasuredValue, 1388, 1394, "17 . 9", "", "<http://ctro/data#Outcome_64422> <http://ctro/data#hasResultMeasuredValue> \"17 . 9\"."
+127, SdDevResValue, 1401, 1406, "2 . 5", "", "<http://ctro/data#Outcome_64422> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+51, mmHg, 1407, 1411, "mmHg", "", 
+129, PvalueDiff, 1414, 1425, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_64449> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+53, ConjunctivalHyperemia, 1457, 1479, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_64458> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+54, Travoprost, 1485, 1495, "travoprost", "", 
+55, NumberAffected, 1502, 1504, "15", "", "<http://ctro/data#Outcome_64490> <http://ctro/data#hasNumberAffected> \"15\"."
+56, Latanoprost, 1512, 1523, "latanoprost", "", 
+57, NumberAffected, 1530, 1531, "6", "", "<http://ctro/data#Outcome_64463> <http://ctro/data#hasNumberAffected> \"6\"."
+134, PvalueDiff, 1536, 1544, "= 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_64517> <http://ctro/data#hasPvalueDiff> \"= 0 . 03\"."
+59, ConclusionComment, 1563, 1759, "Latanoprost and travoprost both significantly reduce the 24 - hour IOP from baseline in exfoliative glaucoma , but travoprost may demonstrate a greater hypotensive efficacy in the late afternoon .", "", "<http://ctro/data#ClinicalTrial_64256> <http://ctro/data#hasConclusionComment> \"Latanoprost and travoprost both significantly reduce the 24 - hour IOP from baseline in exfoliative glaucoma , but travoprost may demonstrate a greater hypotensive efficacy in the late afternoon .\"."
+60, Latanoprost, 1563, 1574, "Latanoprost", "", 
+61, Travoprost, 1579, 1589, "travoprost", "", 
+138, Diurnal_IOP, 1620, 1633, "24 - hour IOP", "", 
+63, Glaucoma, 1663, 1671, "glaucoma", "", 
+64, Travoprost, 1678, 1688, "travoprost", "", 
+65, PMID, 1814, 1822, "17197028", "", "<http://ctro/data#Publication_64243> <http://ctro/data#hasPMID> \"17197028\"."

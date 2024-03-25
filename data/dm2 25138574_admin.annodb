@@ -1,0 +1,82 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "J Endocrinol Invest .", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasJournal> \"J Endocrinol Invest .\"."
+1, PublicationYear, 22, 26, "2014", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasPublicationYear> \"2014\"."
+20, Title, 119, 231, "Comparative effects of metformin and pioglitazone on YKL - 40 in type 2 diabetes : a randomized clinical trial .", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasTitle> \"Comparative effects of metformin and pioglitazone on YKL - 40 in type 2 diabetes : a randomized clinical trial .\"."
+2, Metformin, 142, 151, "metformin", "", 
+10, Pioglitazone, 156, 168, "pioglitazone", "", 
+78, EndPointDescription, 172, 180, "YKL - 40", "", 
+16, Type2Diabetes, 184, 199, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+18, Randomized, 204, 214, "randomized", "", 
+21, Author, 232, 245, "Esteghamati A", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Esteghamati A\"."
+22, Author, 254, 263, "Rezvani S", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Rezvani S\"."
+23, Author, 266, 274, "Khajeh E", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Khajeh E\"."
+24, Author, 277, 284, "Ebadi M", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Ebadi M\"."
+25, Author, 287, 299, "Nakhjavani M", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Nakhjavani M\"."
+26, Author, 302, 310, "Noshad S", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasAuthor> \"Noshad S\"."
+27, Iran, 514, 518, "Iran", "", "<http://ctro/data#Population_63412> <http://ctro/data#hasCountry> <http://ctro/data#Iran>."
+3, Metformin, 562, 571, "Metformin", "", 
+11, Pioglitazone, 576, 588, "pioglitazone", "", 
+28, ObjectiveDescription, 776, 956, "The present trial was designed to investigate the comparative efficacy of the two anti - diabetes medications on serum concentrations of YKL - 40 , a novel marker of inflammation .", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#hasObjectiveDescription> \"The present trial was designed to investigate the comparative efficacy of the two anti - diabetes medications on serum concentrations of YKL - 40 , a novel marker of inflammation .\"."
+79, EndPointDescription, 913, 921, "YKL - 40", "", 
+29, Parallel, 972, 988, "parallel - group", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+30, OpenLabel, 991, 1003, "open - label", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+19, Randomized, 1006, 1016, "randomized", "", 
+31, NumberPatientsCT, 1086, 1088, "84", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#hasNumberPatientsCT> \"84\"."
+32, Precondition, 1089, 1152, "newly diagnosed , medication - na ï ve type 2 diabetes patients", "", "<http://ctro/data#Population_63412> <http://ctro/data#hasPrecondition> \"newly diagnosed , medication - na ï ve type 2 diabetes patients\"."
+17, Type2Diabetes, 1128, 1143, "type 2 diabetes", "", 
+4, Metformin, 1170, 1179, "metformin", "", "<http://ctro/data#Medication_63450> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+33, DoseValue, 1180, 1187, "1 , 000", "", "<http://ctro/data#Medication_63450> <http://ctro/data#hasDoseValue> \"1 , 000\"."
+35, mg, 1188, 1190, "mg", "", "<http://ctro/data#Medication_63450> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+37, Frequency, 1191, 1196, "daily", "", "<http://ctro/data#Intervention_63438> <http://ctro/data#hasFrequency> \"daily\"."
+39, NumberPatientsArm, 1203, 1205, "42", "", "<http://ctro/data#Arm_63420> <http://ctro/data#hasNumberPatientsArm> \"42\"."
+12, Pioglitazone, 1211, 1223, "pioglitazone", "", "<http://ctro/data#Medication_63457> <http://ctro/data#hasDrug> <http://ctro/data#Pioglitazone>."
+34, DoseValue, 1224, 1226, "30", "", "<http://ctro/data#Medication_63457> <http://ctro/data#hasDoseValue> \"30\"."
+36, mg, 1227, 1229, "mg", "", "<http://ctro/data#Medication_63457> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+38, Frequency, 1230, 1235, "daily", "", "<http://ctro/data#Intervention_63444> <http://ctro/data#hasFrequency> \"daily\"."
+40, NumberPatientsArm, 1242, 1244, "42", "", "<http://ctro/data#Arm_63429> <http://ctro/data#hasNumberPatientsArm> \"42\"."
+156, EndPointDescription, 1273, 1281, "YKL - 40", "", 
+41, TimePoint, 1398, 1406, "baseline", "", 
+42, TimePoint, 1417, 1425, "3 months", "", 
+5, Metformin, 1463, 1472, "metformin", "", 
+121, FinalNumPatientsArm, 1475, 1477, "40", "", "<http://ctro/data#Arm_63420> <http://ctro/data#hasFinalNumPatientsArm> \"40\"."
+13, Pioglitazone, 1480, 1492, "pioglitazone", "", 
+122, FinalNumPatientsArm, 1495, 1497, "42", "", "<http://ctro/data#Arm_63420> <http://ctro/data#hasFinalNumPatientsArm> \"40\"."
+47, ObservedResult, 1502, 1567, "both medications were equally effective with regard to control of", "", "<http://ctro/data#Outcome_63501> <http://ctro/data#hasObservedResult> \"both medications were equally effective with regard to control of\". <http://ctro/data#Outcome_63528> <http://ctro/data#hasObservedResult> \"both medications were equally effective with regard to control of\". <http://ctro/data#Outcome_63555> <http://ctro/data#hasObservedResult> \"both medications were equally effective with regard to control of\". <http://ctro/data#Outcome_63582> <http://ctro/data#hasObservedResult> \"both medications were equally effective with regard to control of\"."
+45, Hypoglycemia, 1568, 1581, "hyperglycemia", "", "<http://ctro/data#Endpoint_63491> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+46, EndPointDescription, 1588, 1593, "hsCRP", "", "<http://ctro/data#EndPointDescription_63497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_63496> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_63497>."
+124, PvalueDiff, 1606, 1616, "p > 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_63616> <http://ctro/data#hasPvalueDiff> \"p > 0 . 05\". <http://ctro/data#DiffBetweenGroups_63625> <http://ctro/data#hasPvalueDiff> \"p > 0 . 05\"."
+6, Metformin, 1631, 1640, "metformin", "", 
+51, ObservedResult, 1641, 1672, "caused a significant decline in", "", 
+49, BodyWeight, 1673, 1679, "weight", "", "<http://ctro/data#Endpoint_63634> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+53, PValueChangeValue, 1682, 1693, "p = 0 . 005", "", "<http://ctro/data#Endpoint_63639> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BMI>."
+52, BMI, 1698, 1701, "BMI", "", "<http://ctro/data#Endpoint_63639> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BMI>."
+54, PValueChangeValue, 1704, 1715, "p = 0 . 004", "", "<http://ctro/data#Outcome_63676> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 004\"."
+50, EndPointDescription, 1730, 1748, "cholesterol levels", "", "<http://ctro/data#EndPointDescription_63645> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_63644> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_63645>."
+55, PValueChangeValue, 1751, 1762, "p = 0 . 028", "", "<http://ctro/data#Outcome_63703> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 028\"."
+7, Metformin, 1783, 1792, "Metformin", "", 
+56, EndPointDescription, 1820, 1828, "YKL - 40", "", "<http://ctro/data#EndPointDescription_63731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_63730> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_63731>."
+57, TimePoint, 1850, 1858, "3 months", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasTimePoint> \"3 months\"."
+77301, BaseLineValue, 1861, 1867, "1 . 90", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasBaselineValue> \"1 . 90\"."
+77302, SdDevBL, 1870, 1872, "17", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasSdDevBL> \"17\"."
+77303, ResultMeasuredValue, 1878, 1884, "1 . 66", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasResultMeasuredValue> \"1 . 66\"."
+77305, SdDevResValue, 1887, 1893, "0 . 15", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasSdDevResValue> \"0 . 15\"."
+139, ConcentrationUnit, 1894, 1901, "µ g / L", "", "<http://ctro/data#ConcentrationUnit_63733> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ConcentrationUnit>. <http://ctro/data#Endpoint_63730> <http://ctro/data#hasBaselineUnit> <http://ctro/data#ConcentrationUnit_63733>."
+77306, PValueChangeValue, 1904, 1915, "p = 0 . 019", "", "<http://ctro/data#Outcome_63735> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 019\"."
+14, Pioglitazone, 1948, 1960, "pioglitazone", "", 
+64, BaseLineValue, 2006, 2012, "2 . 18", "", "<http://ctro/data#Outcome_63762> <http://ctro/data#hasBaselineValue> \"2 . 18\"."
+65, SdDevBL, 2015, 2021, "0 . 14", "", "<http://ctro/data#Outcome_63762> <http://ctro/data#hasSdDevBL> \"0 . 14\"."
+66, ResultMeasuredValue, 2027, 2033, "2 . 25", "", "<http://ctro/data#Outcome_63762> <http://ctro/data#hasResultMeasuredValue> \"2 . 25\"."
+67, SdDevResValue, 2036, 2042, "0 . 16", "", "<http://ctro/data#Outcome_63762> <http://ctro/data#hasSdDevResValue> \"0 . 16\"."
+140, ConcentrationUnit, 2043, 2050, "µ g / L", "", 
+69, PValueChangeValue, 2053, 2064, "p = 0 . 687", "", "<http://ctro/data#Outcome_63762> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 687\"."
+8, Metformin, 2085, 2094, "metformin", "", 
+15, Pioglitazone, 2133, 2145, "pioglitazone", "", 
+146, EndPointDescription, 2162, 2170, "YKL - 40", "", 
+73, PvalueDiff, 2202, 2213, "p = 0 . 020", "", "<http://ctro/data#DiffBetweenGroups_63789> <http://ctro/data#hasPvalueDiff> \"p = 0 . 020\"."
+77307, DiffGroupRelValue, 2230, 2235, "6 . 7", "", "<http://ctro/data#DiffBetweenGroups_63789> <http://ctro/data#hasDiffGroupRelValue> \"6 . 7\"."
+74, PvalueDiff, 2266, 2277, "p = 0 . 047", "", "<http://ctro/data#DiffBetweenGroups_63798> <http://ctro/data#hasPvalueDiff> \"p = 0 . 047\"."
+77308, DiffGroupRelValue, 2294, 2299, "5 . 7", "", "<http://ctro/data#DiffBetweenGroups_63798> <http://ctro/data#hasDiffGroupRelValue> \"5 . 7\"."
+9, Metformin, 2320, 2329, "Metformin", "", 
+80, ConclusionComment, 2320, 2492, "Metformin is more effective in reduction of YKL - 40 concentration in short term and the effect seems to be independent of degree of glycemic control , or hsCRP reduction .", "", "<http://ctro/data#ClinicalTrial_63396> <http://ctro/data#hasConclusionComment> \"Metformin is more effective in reduction of YKL - 40 concentration in short term and the effect seems to be independent of degree of glycemic control , or hsCRP reduction .\"."
+77, EndPointDescription, 2364, 2372, "YKL - 40", "", 
+81, PMID, 2542, 2550, "25138574", "", "<http://ctro/data#Publication_63389> <http://ctro/data#hasPMID> \"25138574\"."

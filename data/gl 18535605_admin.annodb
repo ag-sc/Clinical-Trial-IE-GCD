@@ -1,0 +1,96 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 14, "Eye ( Lond ) .", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasJournal> \"Eye ( Lond ) .\"."
+1, PublicationYear, 15, 19, "2009", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasPublicationYear> \"2009\"."
+2, Bimatoprost, 102, 113, "Bimatoprost", "", 
+6, Title, 102, 220, "Bimatoprost / timolol fixed combination vs latanoprost / timolol fixed combination in open - angle glaucoma patients .", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasTitle> \"Bimatoprost / timolol fixed combination vs latanoprost / timolol fixed combination in open - angle glaucoma patients .\"."
+7, Bima/TimFC, 102, 141, "Bimatoprost / timolol fixed combination", "", 
+3, Timolol, 116, 123, "timolol", "", 
+4, Latanoprost, 145, 156, "latanoprost", "", 
+8, Lat/TimFC, 145, 184, "latanoprost / timolol fixed combination", "", 
+5, Timolol, 159, 166, "timolol", "", 
+9, OpenAngleGlaucoma, 188, 209, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+10, Author, 221, 231, "Martinez A", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasAuthor> \"Martinez A\"."
+11, Author, 240, 249, "Sanchez M", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasAuthor> \"Sanchez M\"."
+12, Spain, 380, 385, "Spain", "", "<http://ctro/data#Population_71041> <http://ctro/data#hasCountry> <http://ctro/data#Spain>."
+13, ObjectiveDescription, 426, 618, "To evaluate bimatoprost / timolol fixed combination ( BTFC ) vs latanoprost / timolol fixed combination ( LTFC ) given each evening over the 12 - h intraocular pressure ( IOP ) diurnal curve .", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasObjectiveDescription> \"To evaluate bimatoprost / timolol fixed combination ( BTFC ) vs latanoprost / timolol fixed combination ( LTFC ) given each evening over the 12 - h intraocular pressure ( IOP ) diurnal curve .\"."
+14, Bimatoprost, 438, 449, "bimatoprost", "", 
+17, Bima/TimFC, 438, 477, "bimatoprost / timolol fixed combination", "", "<http://ctro/data#Medication_71089> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC>."
+15, Timolol, 452, 459, "timolol", "", 
+18, Bima/TimFC, 480, 484, "BTFC", "", 
+19, Latanoprost, 490, 501, "latanoprost", "", 
+97, Lat/TimFC, 490, 529, "latanoprost / timolol fixed combination", "", "<http://ctro/data#Medication_71096> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+16, Timolol, 504, 511, "timolol", "", 
+98, Lat/TimFC, 532, 536, "LTFC", "", 
+100, Diurnal_IOP, 574, 610, "intraocular pressure ( IOP ) diurnal", "", "<http://ctro/data#Endpoint_71049> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+23, IOP, 597, 600, "IOP", "", 
+24, NumberPatientsCT, 651, 653, "54", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasNumberPatientsCT> \"54\"."
+87724, Precondition, 654, 662, "patients", "", 
+106, NumberAffected, 665, 667, "24", "", 
+87724, Precondition, 668, 702, "with primary open - angle glaucoma", "", 
+25, Primary_OpenAngleGlaucoma, 673, 702, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+26, Primary_OpenAngleGlaucoma, 705, 709, "POAG", "", 
+107, NumberAffected, 716, 718, "30", "", 
+87724, Precondition, 719, 750, "with pseudoexfoliative glaucoma", "", 
+27, Glaucoma, 724, 750, "pseudoexfoliative glaucoma", "", "<http://ctro/data#Glaucoma_71040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_71019> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_71040>."
+28, Glaucoma, 753, 756, "PXG", "", 
+29, Prospective, 783, 794, "prospective", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+30, Randomized, 797, 807, "randomized", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Blind, 810, 828, "evaluator - masked", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+32, SingleCenter, 829, 842, "single centre", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+33, Crossover, 843, 852, "crossover", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+87723, Precondition, 861, 946, "Patients with an IOP of > or = 19 mmHg , under treatment with prostaglandin analogues", "", "<http://ctro/data#Population_71041> <http://ctro/data#hasPrecondition> \"Patients with an IOP of > or = 19 mmHg , under treatment with prostaglandin analogues\"."
+34, IOP, 878, 881, "IOP", "", 
+35, mmHg, 895, 899, "mmHg", "", 
+87714, Drug, 923, 946, "prostaglandin analogues", "", 
+38, Randomized, 954, 964, "randomized", "", 
+39, Bima/TimFC, 968, 972, "BTFC", "", 
+40, Lat/TimFC, 976, 980, "LTFC", "", 
+41, Duration, 987, 996, "12 - week", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasCTduration> \"12 - week\"."
+42, Duration, 1022, 1030, "6 - week", "", 
+43, Timolol, 1050, 1065, "timolol maleate", "", 
+44, DoseValue, 1066, 1071, "0 . 5", "", 
+121, Percentage, 1072, 1073, "%", "", 
+87728, DoseDescription, 1076, 1096, "one drop in each eye", "", 
+45, Frequency, 1097, 1111, "twice each day", "", 
+46, IOP, 1205, 1208, "IOP", "", 
+87730, TimePoint, 1250, 1258, "baseline", "", 
+47, Timolol, 1282, 1297, "timolol maleate", "", 
+48, DoseValue, 1298, 1303, "0 . 5", "", 
+129, Percentage, 1304, 1305, "%", "", 
+49, Frequency, 1306, 1309, "BID", "", 
+50, TimePoint, 1314, 1327, "week 6 and 12", "", 
+51, TimePoint, 1314, 1320, "week 6", "", 
+52, IOP, 1377, 1380, "IOP", "", 
+53, Mean, 1383, 1387, "mean", "", "<http://ctro/data#Mean_71051> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71049> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71051>."
+54, BaseLineValue, 1409, 1415, "22 . 0", "", "<http://ctro/data#Outcome_71103> <http://ctro/data#hasBaselineValue> \"22 . 0\". <http://ctro/data#Outcome_71130> <http://ctro/data#hasBaselineValue> \"22 . 0\"."
+55, SdDevBL, 1418, 1423, "1 . 0", "", "<http://ctro/data#Outcome_71103> <http://ctro/data#hasSdDevBL> \"1 . 0\". <http://ctro/data#Outcome_71130> <http://ctro/data#hasSdDevBL> \"1 . 0\"."
+56, mmHg, 1426, 1430, "mmHg", "", "<http://ctro/data#Endpoint_71049> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+87731, TimePoint, 1434, 1442, "baseline", "", 
+57, ResultMeasuredValue, 1445, 1451, "17 . 7", "", "<http://ctro/data#Outcome_71103> <http://ctro/data#hasResultMeasuredValue> \"17 . 7\"."
+59, SdDevResValue, 1454, 1459, "0 . 8", "", "<http://ctro/data#Outcome_71103> <http://ctro/data#hasSdDevResValue> \"0 . 8\"."
+62, mmHg, 1462, 1466, "mmHg", "", 
+63, Bima/TimFC, 1470, 1474, "BTFC", "", 
+58, ResultMeasuredValue, 1481, 1487, "18 . 5", "", "<http://ctro/data#Outcome_71130> <http://ctro/data#hasResultMeasuredValue> \"18 . 5\"."
+60, SdDevResValue, 1490, 1495, "0 . 8", "", "<http://ctro/data#Outcome_71130> <http://ctro/data#hasSdDevResValue> \"0 . 8\"."
+61, mmHg, 1498, 1502, "mmHg", "", 
+64, Lat/TimFC, 1506, 1510, "LTFC", "", 
+146, PvalueDiff, 1513, 1524, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_71157> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+147, TimePoint, 1610, 1614, "0800", "", 
+148, TimePoint, 1617, 1621, "0100", "", 
+149, TimePoint, 1624, 1628, "1200", "", 
+150, TimePoint, 1631, 1635, "1800", "", 
+151, TimePoint, 1642, 1646, "2000", "", 
+66, Bima/TimFC, 1658, 1662, "BTFC", "", 
+153, PvalueDiff, 1706, 1717, "P < 0 . 001", "", 
+159, ObservedResult, 1720, 1779, "The most frequently reported adverse event in the study was", "", 
+68, ConjunctivalHyperemia, 1780, 1803, "conjunctival hyperaemia", "", "<http://ctro/data#Endpoint_71054> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+158, ObservedResult, 1806, 1898, "Average hyperaemia scores were slightly but significantly lower in the LTFC treatment period", "", "<http://ctro/data#Outcome_71166> <http://ctro/data#hasObservedResult> \"Average hyperaemia scores were slightly but significantly lower in the LTFC treatment period\"."
+69, ConjunctivalHyperemia, 1814, 1824, "hyperaemia", "", 
+70, Lat/TimFC, 1877, 1881, "LTFC", "", 
+157, PvalueDiff, 1901, 1911, "P = 0 . 04", "", 
+72, ConclusionComment, 1929, 2114, "This study suggests that the evening - dosed BTFC provides better IOP control than that of LTFC over 12 h . However , the IOP difference was small and may not be clinically meaningful .", "", "<http://ctro/data#ClinicalTrial_71019> <http://ctro/data#hasConclusionComment> \"This study suggests that the evening - dosed BTFC provides better IOP control than that of LTFC over 12 h . However , the IOP difference was small and may not be clinically meaningful .\"."
+73, Bima/TimFC, 1974, 1978, "BTFC", "", 
+74, IOP, 1995, 1998, "IOP", "", 
+75, Lat/TimFC, 2020, 2024, "LTFC", "", 
+76, IOP, 2051, 2054, "IOP", "", 
+77, PMID, 2157, 2165, "18535605", "", "<http://ctro/data#Publication_71011> <http://ctro/data#hasPMID> \"18535605\"."

@@ -1,0 +1,146 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_12875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_12875> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> "Zieve FJ" .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasPublicationYear> "2007" .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasPMID> "17379048" .
+<http://ctro/data#ClinicalTrial_12881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> "Kalin MF" .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> "Schwartz SL" .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> "Jones MR" .
+<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> "Bailey WL" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_12886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_12886> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasNumberPatientsCT> "65" .
+<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTduration> "12 weeks" .
+<http://ctro/data#AllocationRatio_12890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_12891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#Arm_12894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#Population_12896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#DiffBetweenGroups_12897> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_12898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+# RDF export of group: Population
+<http://ctro/data#Population_12903> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_12903> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_12903> <http://ctro/data#hasPrecondition> "subjects with type 2 diabetes that was inadequately controlled by existing antihyperglycemic therapy" .
+<http://ctro/data#Ethnicity_12905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_12903> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_12905> .
+<http://ctro/data#Population_12903> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Population_12903> <http://ctro/data#hasAvgAge> "56 . 2" .
+<http://ctro/data#Population_12903> <http://ctro/data#hasGender> <http://ctro/data#Male> .
+<http://ctro/data#Population_12903> <http://ctro/data#hasPrecondition> "subjects with type 2 diabetes and an HbA ( 1c ) value of 7 . 0 % to 10 . 0 %" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_12929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12929> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint HbA1c" .
+<http://ctro/data#Endpoint_12929> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#AggregationMethod_12931> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12934> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12934> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint Fructosamine" .
+<http://ctro/data#Endpoint_12934> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Fructosamine> .
+<http://ctro/data#AggregationMethod_12936> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_12934> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Picomole_per_liter> .
+<http://ctro/data#MeasurementDevice_12938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12939> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12939> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint Postprandial Glucose" .
+<http://ctro/data#AggregationMethod_12941> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_12939> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter> .
+<http://ctro/data#MeasurementDevice_12943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12944> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint cholesterol 1" .
+<http://ctro/data#EndPointDescription_12945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_12944> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12945> .
+<http://ctro/data#AggregationMethod_12946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12949> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint cholesterol 2" .
+<http://ctro/data#EndPointDescription_12950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_12949> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12950> .
+<http://ctro/data#AggregationMethod_12951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12954> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint apolipoprotein 1" .
+<http://ctro/data#EndPointDescription_12955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_12954> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12955> .
+<http://ctro/data#AggregationMethod_12956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12959> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12959> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint apolipoprotein 2" .
+<http://ctro/data#EndPointDescription_12960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_12959> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12960> .
+<http://ctro/data#AggregationMethod_12961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12964> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint TEAEs" .
+<http://ctro/data#AggregationMethod_12966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12968> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#EndPointDescription_19105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_12964> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_19105> .
+<http://ctro/data#Endpoint_12969> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12969> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint gastrointestinal Problem" .
+<http://ctro/data#Endpoint_12969> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#GastrointestinalProblem> .
+<http://ctro/data#AggregationMethod_12971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12974> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint body weight" .
+<http://ctro/data#Endpoint_12974> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight> .
+<http://ctro/data#AggregationMethod_12976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_12979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_12979> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint Hypoglycaemia" .
+<http://ctro/data#Endpoint_12979> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia> .
+<http://ctro/data#AggregationMethod_12981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_12982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_12983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_12984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_12984> <http://www.w3.org/2000/01/rdf-schema#label> "Arm Drug" .
+<http://ctro/data#Arm_12984> <http://ctro/data#hasNumberPatientsArm> "31" .
+<http://ctro/data#Intervention_12987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Outcome_12988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_12989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_12990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_12990> <http://www.w3.org/2000/01/rdf-schema#label> "Arm Placebo" .
+<http://ctro/data#Arm_12990> <http://ctro/data#hasNumberPatientsArm> "34" .
+<http://ctro/data#Intervention_12993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Outcome_12994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_12995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_12996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_12996> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention Drug" .
+<http://ctro/data#Medication_12997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Intervention_12996> <http://ctro/data#hasDuration> "12 weeks" .
+<http://ctro/data#RelativeTime_13001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_13002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_13002> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention Placebo" .
+<http://ctro/data#Medication_13003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Intervention_13002> <http://ctro/data#hasDuration> "12 weeks" .
+<http://ctro/data#RelativeTime_13007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_13008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_13008> <http://www.w3.org/2000/01/rdf-schema#label> "Medication Drug" .
+<http://ctro/data#Drug_13009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug> .
+<http://ctro/data#Medication_13008> <http://ctro/data#hasDrug> <http://ctro/data#Drug_13009> .
+<http://ctro/data#Medication_13008> <http://ctro/data#hasDoseValue> "3 . 75" .
+<http://ctro/data#Medication_13008> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram> .
+<http://ctro/data#DeliveryMethod_13012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_13014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_13014> <http://www.w3.org/2000/01/rdf-schema#label> "Medication Placebo" .
+<http://ctro/data#Medication_13014> <http://ctro/data#hasDrug> <http://ctro/data#Placebo> .
+<http://ctro/data#BioAndMedicalUnit_13017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_13018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

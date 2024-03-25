@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2007", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasPublicationYear> \"2007\"."
+2, Title, 54, 245, "A comparison of the safety and intraocular pressure lowering of bimatoprost / timolol fixed combination versus latanoprost / timolol fixed combination in patients with open - angle glaucoma .", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasTitle> \"A comparison of the safety and intraocular pressure lowering of bimatoprost / timolol fixed combination versus latanoprost / timolol fixed combination in patients with open - angle glaucoma .\"."
+81, IOP, 85, 105, "intraocular pressure", "", 
+82, Bimatoprost, 118, 129, "bimatoprost", "", 
+84, Bima/TimFC, 118, 157, "bimatoprost / timolol fixed combination", "", 
+83, Timolol, 132, 139, "timolol", "", 
+85, Latanoprost, 165, 176, "latanoprost", "", 
+87, Lat/TimFC, 165, 204, "latanoprost / timolol fixed combination", "", 
+86, Timolol, 179, 186, "timolol", "", 
+90, Precondition, 208, 243, "patients with open - angle glaucoma", "", 
+88, OpenAngleGlaucoma, 222, 243, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+3, Author, 246, 256, "Martinez A", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasAuthor> \"Martinez A\"."
+4, Author, 265, 274, "Sanchez M", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasAuthor> \"Sanchez M\"."
+5, Spain, 381, 386, "Spain", "", "<http://ctro/data#Population_87774> <http://ctro/data#hasCountry> <http://ctro/data#Spain>."
+6, ObjectiveDescription, 425, 647, "To compare the efficacy and tolerability of a once daily evening dose of the latanoprost / timolol fixed combination ( LTFC ) with that of a once - daily evening dose of the bimatoprost / timolol fixed combination ( BTFC )", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and tolerability of a once daily evening dose of the latanoprost / timolol fixed combination ( LTFC ) with that of a once - daily evening dose of the bimatoprost / timolol fixed combination ( BTFC )\"."
+8, Frequency, 471, 481, "once daily", "", "<http://ctro/data#Intervention_87792> <http://ctro/data#hasFrequency> \"once daily\"."
+9, Evening, 482, 489, "evening", "", "<http://ctro/data#Intervention_87792> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+10, Latanoprost, 502, 513, "latanoprost", "", 
+13, Lat/TimFC, 502, 541, "latanoprost / timolol fixed combination", "", "<http://ctro/data#Medication_87798> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+96, Timolol, 516, 523, "timolol", "", 
+14, Lat/TimFC, 544, 548, "LTFC", "", 
+15, Frequency, 566, 578, "once - daily", "", "<http://ctro/data#Intervention_87814> <http://ctro/data#hasFrequency> \"once - daily\"."
+16, Evening, 579, 586, "evening", "", "<http://ctro/data#Intervention_87814> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+17, Bimatoprost, 599, 610, "bimatoprost", "", 
+18, Bima/TimFC, 599, 638, "bimatoprost / timolol fixed combination", "", "<http://ctro/data#Medication_87820> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC>."
+12, Timolol, 613, 620, "timolol", "", 
+19, Bima/TimFC, 641, 645, "BTFC", "", 
+7, ObjectiveDescription, 648, 815, "in patients with open - angle glaucoma with elevated intraocular pressure ( IOP ) insufficiently responsive to monotherapy with prostaglandin analogues / prostamides .", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasObjectiveDescription> \"in patients with open - angle glaucoma with elevated intraocular pressure ( IOP ) insufficiently responsive to monotherapy with prostaglandin analogues / prostamides .\"."
+108, Precondition, 651, 813, "patients with open - angle glaucoma with elevated intraocular pressure ( IOP ) insufficiently responsive to monotherapy with prostaglandin analogues / prostamides", "", "<http://ctro/data#Population_87774> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma with elevated intraocular pressure ( IOP ) insufficiently responsive to monotherapy with prostaglandin analogues / prostamides\"."
+20, OpenAngleGlaucoma, 665, 686, "open - angle glaucoma", "", 
+21, IOP, 701, 721, "intraocular pressure", "", 
+22, IOP, 724, 727, "IOP", "", 
+23, Prospective, 825, 836, "Prospective", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+24, Randomized, 839, 849, "randomized", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+25, Blind, 852, 868, "evaluator masked", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+26, SingleCenter, 871, 886, "single - center", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+27, NumberPatientsCT, 910, 912, "36", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasNumberPatientsCT> \"36\"."
+118, Precondition, 913, 1117, "patients with a diagnosis of open - angle glaucoma , with or without pseudoexfoliation , and inadequate control of IOP , insufficiently responsive to monotherapy with prostaglandin analogues / prostamides", "", "<http://ctro/data#Population_87774> <http://ctro/data#hasPrecondition> \"patients with a diagnosis of open - angle glaucoma , with or without pseudoexfoliation , and inadequate control of IOP , insufficiently responsive to monotherapy with prostaglandin analogues / prostamides\"."
+28, OpenAngleGlaucoma, 942, 963, "open - angle glaucoma", "", 
+29, IOP, 1028, 1031, "IOP", "", 
+33, IOP, 1187, 1190, "IOP", "", 
+126, TimePoint, 1194, 1203, "9 : 00 am", "", 
+34, TimePoint, 1209, 1217, "baseline", "", 
+35, TimePoint, 1221, 1227, "week 4", "", 
+36, Mean, 1281, 1285, "mean", "", "<http://ctro/data#Mean_87834> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_87832> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_87834>."
+37, Diurnal_IOP, 1286, 1297, "diurnal IOP", "", "<http://ctro/data#Endpoint_87832> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+38, TimePoint, 1313, 1321, "baseline", "", 
+39, TimePoint, 1325, 1331, "week 4", "", 
+40, Bima/TimFC, 1344, 1348, "BTFC", "", 
+41, Mean, 1380, 1384, "mean", "", 
+42, Diurnal_IOP, 1385, 1396, "diurnal IOP", "", 
+52, Mean, 1409, 1413, "mean", "", 
+43, Reduction, 1439, 1444, "2 . 8", "", "<http://ctro/data#Outcome_87864> <http://ctro/data#hasChangeValue> \"2 . 8\"."
+45, SdDevChangeValue, 1447, 1452, "0 . 9", "", "<http://ctro/data#Outcome_87864> <http://ctro/data#hasSdDevChangeValue> \"0 . 9\"."
+47, mmHg, 1455, 1459, "mmHg", "", "<http://ctro/data#Endpoint_87832> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+49, Lat/TimFC, 1476, 1480, "LTFC", "", 
+44, Reduction, 1481, 1486, "2 . 1", "", "<http://ctro/data#Outcome_87837> <http://ctro/data#hasChangeValue> \"2 . 1\"."
+46, SdDevChangeValue, 1489, 1494, "0 . 6", "", "<http://ctro/data#Outcome_87837> <http://ctro/data#hasSdDevChangeValue> \"0 . 6\"."
+48, mmHg, 1497, 1501, "mmHg", "", 
+139, PvalueDiff, 1504, 1516, "p = 0 . 0214", "", "<http://ctro/data#DiffBetweenGroups_87891> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0214\"."
+51, IOP, 1561, 1564, "IOP", "", 
+54, TimePoint, 1570, 1578, "baseline", "", 
+53, IOP, 1587, 1590, "IOP", "", 
+55, PValueChangeValue, 1615, 1627, "p < 0 . 0001", "", 
+56, Mean, 1642, 1646, "mean", "", 
+57, Diurnal_IOP, 1647, 1658, "diurnal IOP", "", 
+58, PValueChangeValue, 1661, 1673, "p = 0 . 0049", "", "<http://ctro/data#Outcome_87837> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 0049\"."
+59, Lat/TimFC, 1682, 1686, "LTFC", "", 
+60, PValueChangeValue, 1693, 1705, "p < 0 . 0001", "", "<http://ctro/data#Outcome_87864> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 0001\"."
+61, Bima/TimFC, 1714, 1718, "BTFC", "", 
+62, ConjunctivalHyperemia, 1770, 1779, "hyperemia", "", "<http://ctro/data#Endpoint_87927> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+74, ResultMeasuredValue, 1802, 1808, "1 . 25", "", "<http://ctro/data#Outcome_87932> <http://ctro/data#hasResultMeasuredValue> \"1 . 25\"."
+76, SdDevResValue, 1811, 1816, "0 . 5", "", "<http://ctro/data#Outcome_87932> <http://ctro/data#hasSdDevResValue> \"0 . 5\"."
+75, ResultMeasuredValue, 1824, 1830, "1 . 62", "", "<http://ctro/data#Outcome_87959> <http://ctro/data#hasResultMeasuredValue> \"1 . 62\"."
+77, SdDevResValue, 1833, 1839, "0 . 69", "", "<http://ctro/data#Outcome_87959> <http://ctro/data#hasSdDevResValue> \"0 . 69\"."
+154, PvalueDiff, 1846, 1856, "= 0 . 3835", "", "<http://ctro/data#DiffBetweenGroups_87986> <http://ctro/data#hasPvalueDiff> \"= 0 . 3835\"."
+63, Lat/TimFC, 1867, 1871, "LTFC", "", 
+64, Bima/TimFC, 1880, 1884, "BTFC", "", 
+65, ConclusionComment, 1916, 2108, "The results of this study showed a significantly higher IOP - lowering effect of a once - daily evening dose of the BTFC compared to that of a once - daily evening administration of the LTFC .", "", "<http://ctro/data#ClinicalTrial_87754> <http://ctro/data#hasConclusionComment> \"The results of this study showed a significantly higher IOP - lowering effect of a once - daily evening dose of the BTFC compared to that of a once - daily evening administration of the LTFC .\"."
+66, IOP, 1972, 1975, "IOP", "", 
+67, Frequency, 1999, 2011, "once - daily", "", 
+68, Evening, 2012, 2019, "evening", "", 
+69, Bima/TimFC, 2032, 2036, "BTFC", "", 
+70, Frequency, 2059, 2071, "once - daily", "", 
+71, Evening, 2072, 2079, "evening", "", 
+72, Lat/TimFC, 2102, 2106, "LTFC", "", 
+73, PMID, 2151, 2159, "17519068", "", "<http://ctro/data#Publication_87746> <http://ctro/data#hasPMID> \"17519068\"."

@@ -1,0 +1,122 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_107761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_107761> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 107761" .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasTitle> "Efficacy and safety of fixed combinations of latanoprost / timolol and dorzolamide / timolol in open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasAuthor> "Miglior S" .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasPublicationYear> "2010" .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasJournal> "Eye ( Lond ) ." .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasPMID> "20019759" .
+<http://ctro/data#Publication_107761> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_107768> .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasAuthor> "Grunden JW" .
+<http://ctro/data#Publication_107761> <http://ctro/data#hasAuthor> "Kwok K" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_107768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_107768> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 107768" .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasObjectiveDescription> "To compare intraocular pressure ( IOP ) reductions with fixed - combination ( FC ) latanoprost / timolol once daily in the evening vsFC dorzolamide / timolol twice daily ." .
+<http://ctro/data#AllocationRatio_107772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_107773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasConclusionComment> "When beta - blocker therapy is inadequate , either FC may achieve the desired IOP level , but FC latanoprost / timolol more often achieves a pressure of < or = 16 mm Hg ." .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasArm> <http://ctro/data#Arm_107792> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasPopulation> <http://ctro/data#Population_107784> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_107902> .
+<http://ctro/data#EvidenceQuality_107780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasArm> <http://ctro/data#Arm_107801> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasConclusionComment> "Both FCs were well tolerated ." .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_107768> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_107972> .
+# RDF export of group: Population
+<http://ctro/data#Population_107784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_107784> <http://www.w3.org/2000/01/rdf-schema#label> "Population 107784" .
+<http://ctro/data#Population_107784> <http://ctro/data#hasPrecondition> "subjects with primary open - angle glaucoma or ocular hypertension with IOP insufficiently responsive to beta - blocker therapy ( screening IOP > 21 and < 37 mm Hg )" .
+<http://ctro/data#Ethnicity_107786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_107787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Gender_107791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_107843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_107843> <http://www.w3.org/2000/01/rdf-schema#label> "diop" .
+<http://ctro/data#Endpoint_107843> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_107845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_107843> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_107845> .
+<http://ctro/data#Endpoint_107843> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_107847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_107911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_107911> <http://www.w3.org/2000/01/rdf-schema#label> "iopt" .
+<http://ctro/data#Endpoint_107911> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_target> .
+<http://ctro/data#AggregationMethod_107913> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_107914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_107915> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_107792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_107792> <http://www.w3.org/2000/01/rdf-schema#label> "lati" .
+<http://ctro/data#Arm_107792> <http://ctro/data#hasNumberPatientsArm> "135" .
+<http://ctro/data#Arm_107792> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_107810> .
+<http://ctro/data#Arm_107792> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_107848> .
+<http://ctro/data#Outcome_107797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_107792> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_107916> .
+<http://ctro/data#Arm_107801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_107801> <http://www.w3.org/2000/01/rdf-schema#label> "doti" .
+<http://ctro/data#Arm_107801> <http://ctro/data#hasNumberPatientsArm> "135" .
+<http://ctro/data#Arm_107801> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_107816> .
+<http://ctro/data#Arm_107801> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_107875> .
+<http://ctro/data#Outcome_107806> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_107801> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_107943> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_107810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_107810> <http://www.w3.org/2000/01/rdf-schema#label> "lati" .
+<http://ctro/data#Intervention_107810> <http://ctro/data#hasMedication> <http://ctro/data#Medication_107822> .
+<http://ctro/data#Intervention_107810> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#Intervention_107810> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening> .
+<http://ctro/data#Intervention_107816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_107816> <http://www.w3.org/2000/01/rdf-schema#label> "doti" .
+<http://ctro/data#Intervention_107816> <http://ctro/data#hasMedication> <http://ctro/data#Medication_107829> .
+<http://ctro/data#Intervention_107816> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_107821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_107822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_107822> <http://www.w3.org/2000/01/rdf-schema#label> "lati" .
+<http://ctro/data#Medication_107822> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_107825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_107826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_107829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_107829> <http://www.w3.org/2000/01/rdf-schema#label> "doti" .
+<http://ctro/data#Medication_107829> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_107832> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_107833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_107848> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_107848> <http://www.w3.org/2000/01/rdf-schema#label> "diop1" .
+<http://ctro/data#Outcome_107848> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_107843> .
+<http://ctro/data#Outcome_107848> <http://ctro/data#hasChangeValue> "9 . 7" .
+<http://ctro/data#Outcome_107848> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_107875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_107875> <http://www.w3.org/2000/01/rdf-schema#label> "diop2" .
+<http://ctro/data#Outcome_107875> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_107843> .
+<http://ctro/data#Outcome_107875> <http://ctro/data#hasChangeValue> "9 . 5" .
+<http://ctro/data#Outcome_107875> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_107916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_107916> <http://www.w3.org/2000/01/rdf-schema#label> "iopt1" .
+<http://ctro/data#Outcome_107916> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_107911> .
+<http://ctro/data#Outcome_107916> <http://ctro/data#hasObservedResult> "a significantly greater percentage of subjects treated with" .
+<http://ctro/data#Outcome_107916> <http://ctro/data#hasObservedResult> "achieved" .
+<http://ctro/data#Outcome_107943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_107943> <http://www.w3.org/2000/01/rdf-schema#label> "iopt2" .
+<http://ctro/data#Outcome_107943> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_107911> .
+<http://ctro/data#Outcome_107943> <http://ctro/data#hasObservedResult> "a significantly greater percentage of subjects treated with" .
+<http://ctro/data#Outcome_107943> <http://ctro/data#hasObservedResult> "achieved" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_107902> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_107902> <http://www.w3.org/2000/01/rdf-schema#label> "diop" .
+<http://ctro/data#DiffBetweenGroups_107902> <http://ctro/data#hasDiffGroupAbsValue> "0 . 2" .
+<http://ctro/data#DiffBetweenGroups_107902> <http://ctro/data#hasConfIntervalDiff> "95 % confidence interval ( CI ) , - 0 . 8 to - 0 . 4 mm Hg" .
+<http://ctro/data#DiffBetweenGroups_107902> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_107848> .
+<http://ctro/data#DiffBetweenGroups_107902> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_107875> .
+<http://ctro/data#DiffBetweenGroups_107972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_107972> <http://www.w3.org/2000/01/rdf-schema#label> "iopt" .
+<http://ctro/data#DiffBetweenGroups_107972> <http://ctro/data#hasPvalueDiff> "P < or = 0 . 01" .
+<http://ctro/data#DiffBetweenGroups_107972> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_107916> .
+<http://ctro/data#DiffBetweenGroups_107972> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_107943> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,88 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+153, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+0, PublicationYear, 22, 26, "2005", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasPublicationYear> \"2005\"."
+154, Title, 54, 150, "Effects of metformin on the body composition in subjects with risk factors for type 2 diabetes .", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasTitle> \"Effects of metformin on the body composition in subjects with risk factors for type 2 diabetes .\"."
+18, Metformin, 65, 74, "metformin", "", 
+25, Precondition, 102, 148, "subjects with risk factors for type 2 diabetes", "", 
+11, Type2Diabetes, 133, 148, "type 2 diabetes", "", 
+1, Author, 151, 177, "Rodr í guez - Moctezuma JR", "", 
+2, Author, 186, 204, "Robles - L ó pez G", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasAuthor> \"Robles - L ó pez G\"."
+3, Author, 207, 227, "L ó pez - Carmona JM", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasAuthor> \"L ó pez - Carmona JM\"."
+4, Author, 230, 252, "Guti é rrez - Rosas MJ", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasAuthor> \"Guti é rrez - Rosas MJ\"."
+6, Mexico, 352, 358, "Mexico", "", "<http://ctro/data#Population_32000> <http://ctro/data#hasCountry> <http://ctro/data#Mexico>."
+155, ObjectiveDescription, 402, 572, "To measure the effect of metformin on the body composition , insulin resistance and sensitivity in subjects with risk factors for type 2 diabetes mellitus ( type 2 DM ) .", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasObjectiveDescription> \"To measure the effect of metformin on the body composition , insulin resistance and sensitivity in subjects with risk factors for type 2 diabetes mellitus ( type 2 DM ) .\"."
+8, Metformin, 427, 436, "metformin", "", 
+40591, EndPointDescription, 463, 481, "insulin resistance", "", 
+72, Insulin, 463, 470, "insulin", "", 
+7, Precondition, 501, 570, "subjects with risk factors for type 2 diabetes mellitus ( type 2 DM )", "", "<http://ctro/data#Population_32000> <http://ctro/data#hasPrecondition> \"subjects with risk factors for type 2 diabetes mellitus ( type 2 DM )\"."
+12, Type2Diabetes, 532, 556, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+13, Type2Diabetes, 559, 568, "type 2 DM", "", 
+87, Placebo, 582, 589, "Placebo", "", 
+10, NumberPatientsCT, 643, 657, "Twenty - three", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasNumberPatientsCT> \"Twenty - three\"."
+9, Precondition, 658, 698, "subjects with risk factors for type 2 DM", "", 
+14, Type2Diabetes, 689, 698, "type 2 DM", "", 
+16, Randomized, 704, 712, "randomly", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+26, DoseValue, 733, 736, "850", "", "<http://ctro/data#Medication_32073> <http://ctro/data#hasDoseValue> \"850\"."
+27, mg, 737, 739, "mg", "", "<http://ctro/data#Medication_32073> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+19, Metformin, 743, 752, "metformin", "", 
+28, Placebo, 758, 765, "placebo", "", "<http://ctro/data#Medication_32080> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+29, Frequency, 766, 777, "twice a day", "", "<http://ctro/data#Intervention_32061> <http://ctro/data#hasFrequency> \"twice a day\". <http://ctro/data#Intervention_32067> <http://ctro/data#hasFrequency> \"twice a day\"."
+17, Duration, 782, 790, "2 months", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasCTduration> \"2 months\"."
+32, BMI, 830, 845, "body mass index", "", 
+40537, MeasurementDevice, 928, 949, "bioelectric impedance", "", 
+157, FastingBloodGlucose, 958, 989, "fasting levels of blood glucose", "", 
+33, Insulin, 992, 999, "insulin", "", 
+142, EndPointDescription, 1002, 1031, "triglycerides and cholesterol", "", 
+63, EndPointDescription, 1061, 1079, "insulin resistance", "", 
+34, MeasurementDevice, 1102, 1119, "homeostatic model", "", 
+35, MeasurementDevice, 1156, 1207, "quantitative insulin sensitivity check index method", "", 
+36, MeasurementDevice, 1214, 1232, "Wilcoxon rank test", "", 
+73, FinalNumPatientsCT, 1254, 1266, "Twenty - one", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasFinalNumberPatientsCT> \"Twenty - one\"."
+30, FinalNumPatientsArm, 1298, 1300, "12", "", "<http://ctro/data#Arm_32043> <http://ctro/data#hasFinalNumPatientsArm> \"12\"."
+20, Metformin, 1308, 1317, "metformin", "", 
+31, FinalNumPatientsArm, 1328, 1332, "nine", "", "<http://ctro/data#Arm_32052> <http://ctro/data#hasFinalNumPatientsArm> \"nine\"."
+37, Placebo, 1340, 1347, "placebo", "", 
+21, Metformin, 1363, 1372, "metformin", "", 
+40590, EndPointDescription, 1405, 1415, "fat weight", "", "<http://ctro/data#EndPointDescription_32009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32008> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32009>."
+38, BaseLineValue, 1421, 1427, "25 . 9", "", "<http://ctro/data#Outcome_32087> <http://ctro/data#hasBaselineValue> \"25 . 9\"."
+39, SdDevBL, 1434, 1439, "9 . 4", "", "<http://ctro/data#Outcome_32087> <http://ctro/data#hasSdDevBL> \"9 . 4\"."
+41, ResultMeasuredValue, 1443, 1449, "20 . 8", "", "<http://ctro/data#Outcome_32087> <http://ctro/data#hasResultMeasuredValue> \"20 . 8\"."
+40, SdDevResValue, 1456, 1461, "9 . 2", "", "<http://ctro/data#Outcome_32087> <http://ctro/data#hasSdDevResValue> \"9 . 2\"."
+42, Kg, 1462, 1464, "kg", "", "<http://ctro/data#Endpoint_32008> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+110, PValueChangeValue, 1467, 1477, "p < 0 . 01", "", "<http://ctro/data#Outcome_32087> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 01\"."
+111, EndPointDescription, 1495, 1506, "lean weight", "", "<http://ctro/data#EndPointDescription_32014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32013> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32014>."
+46, BaseLineValue, 1512, 1519, "57 . 05", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasBaselineValue> \"57 . 05\"."
+52, SdDevBL, 1526, 1532, "13 . 6", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasSdDevBL> \"13 . 6\"."
+47, ResultMeasuredValue, 1536, 1542, "61 . 9", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasResultMeasuredValue> \"61 . 9\"."
+48, SdDevResValue, 1549, 1555, "16 . 5", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasSdDevResValue> \"16 . 5\"."
+49, Kg, 1556, 1558, "kg", "", "<http://ctro/data#Endpoint_32013> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+115, PValueChangeValue, 1561, 1571, "p < 0 . 01", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 01\"."
+51, EndPointDescription, 1589, 1605, "basal metabolism", "", "<http://ctro/data#EndPointDescription_32019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32018> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32019>."
+53, BaseLineValue, 1611, 1615, "1735", "", "<http://ctro/data#Outcome_32114> <http://ctro/data#hasSdDevBL> \"13 . 6\"."
+54, SdDevBL, 1622, 1625, "413", "", "<http://ctro/data#Outcome_32141> <http://ctro/data#hasSdDevBL> \"413\"."
+55, ResultMeasuredValue, 1629, 1633, "1878", "", "<http://ctro/data#Outcome_32141> <http://ctro/data#hasResultMeasuredValue> \"1878\"."
+57, SdDevResValue, 1640, 1643, "505", "", "<http://ctro/data#Outcome_32141> <http://ctro/data#hasSdDevResValue> \"505\"."
+58, BioAndMedicalUnit, 1644, 1658, "calories / day", "", "<http://ctro/data#BioAndMedicalUnit_32021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_32018> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_32021>."
+120, PValueChangeValue, 1661, 1671, "p < 0 . 05", "", "<http://ctro/data#Outcome_32141> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\"."
+122, ObservedResult, 1679, 1687, "increase", "", "<http://ctro/data#Outcome_32168> <http://ctro/data#hasObservedResult> \"increase\"."
+59, EndPointDescription, 1691, 1701, "body water", "", "<http://ctro/data#EndPointDescription_32024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32023> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32024>."
+123, PValueChangeValue, 1704, 1714, "p < 0 . 05", "", "<http://ctro/data#Outcome_32168> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\"."
+160, ObservedResult, 1717, 1750, "There was no significant decrease", "", "<http://ctro/data#Outcome_32195> <http://ctro/data#hasObservedResult> \"There was no significant decrease\"."
+62, EndPointDescription, 1754, 1772, "insulin resistance", "", "<http://ctro/data#EndPointDescription_32029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32028> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32029>."
+64, Placebo, 1782, 1789, "placebo", "", 
+161, BloodGlucose, 1802, 1815, "blood glucose", "", "<http://ctro/data#Endpoint_32033> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodGlucose>."
+65, BaseLineValue, 1831, 1837, "84 . 7", "", "<http://ctro/data#Outcome_32222> <http://ctro/data#hasBaselineValue> \"84 . 7\"."
+66, SdDevBL, 1844, 1846, "13", "", "<http://ctro/data#Outcome_32222> <http://ctro/data#hasSdDevBL> \"13\"."
+67, ResultMeasuredValue, 1850, 1856, "96 . 7", "", "<http://ctro/data#Outcome_32222> <http://ctro/data#hasResultMeasuredValue> \"96 . 7\"."
+68, SdDevResValue, 1863, 1865, "16", "", "<http://ctro/data#Outcome_32222> <http://ctro/data#hasSdDevResValue> \"16\"."
+69, Mg_per_deciliter, 1866, 1873, "mg / dl", "", "<http://ctro/data#Endpoint_32033> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+144, PValueChangeValue, 1876, 1886, "p < 0 . 05", "", "<http://ctro/data#Outcome_32222> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\"."
+163, ObservedResult, 1889, 1928, "There were no significant modifications", "", "<http://ctro/data#Outcome_32249> <http://ctro/data#hasObservedResult> \"There were no significant modifications\"."
+137, EndPointDescription, 1932, 1938, "lipids", "", "<http://ctro/data#EndPointDescription_32039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32038> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32039>."
+164, ConclusionComment, 1955, 2110, "The administration of metformin for 2 months improves the parameters of body composition and insulin dynamics in subjects with risk factors for type 2 DM .", "", "<http://ctro/data#ClinicalTrial_31984> <http://ctro/data#hasConclusionComment> \"The administration of metformin for 2 months improves the parameters of body composition and insulin dynamics in subjects with risk factors for type 2 DM .\"."
+22, Metformin, 1977, 1986, "metformin", "", 
+23, Duration, 1991, 1999, "2 months", "", 
+71, Insulin, 2048, 2055, "insulin", "", 
+24, Precondition, 2068, 2108, "subjects with risk factors for type 2 DM", "", 
+15, Type2Diabetes, 2099, 2108, "type 2 DM", "", 
+5, PMID, 2171, 2179, "15715892", "", "<http://ctro/data#Publication_31974> <http://ctro/data#hasPMID> \"15715892\"."

@@ -1,0 +1,115 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 15, "Am J Ophthalmol", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasJournal> \"Am J Ophthalmol\"."
+1, PublicationYear, 18, 22, "2016", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasPublicationYear> \"2016\"."
+35, Title, 110, 241, "A Randomized Trial of Fixed - Dose Combination Brinzolamide 1 % / Brimonidine 0 . 2 % as Adjunctive Therapy to Travoprost 0 . 004 .", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasTitle> \"A Randomized Trial of Fixed - Dose Combination Brinzolamide 1 % / Brimonidine 0 . 2 % as Adjunctive Therapy to Travoprost 0 . 004 .\"."
+2, Randomized, 112, 122, "Randomized", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+38417, Brinz/BrimoFC, 157, 195, "Brinzolamide 1 % / Brimonidine 0 . 2 %", "", 
+3, Brinzolamide, 157, 169, "Brinzolamide", "", 
+5, DoseValue, 170, 171, "1", "", 
+8, Percentage, 172, 173, "%", "", 
+4, Brimonidine, 176, 187, "Brimonidine", "", 
+6, DoseValue, 188, 193, "0 . 2", "", 
+9, Percentage, 194, 195, "%", "", 
+112, Travoprost, 221, 231, "Travoprost", "", 
+7, DoseValue, 232, 239, "0 . 004", "", 
+10, Author, 242, 252, "Feldman RM", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasAuthor> \"Feldman RM\"."
+11, Author, 261, 267, "Katz G", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasAuthor> \"Katz G\"."
+12, Author, 276, 286, "McMenemy M", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasAuthor> \"McMenemy M\"."
+13, Author, 295, 306, "Hubatsch DA", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasAuthor> \"Hubatsch DA\"."
+14, Author, 315, 324, "Realini T", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasAuthor> \"Realini T\"."
+15, USA, 539, 544, "Texas", "", 
+16, USA, 692, 700, "Michigan", "", 
+17, USA, 748, 753, "Texas", "", 
+18, USA, 802, 807, "Texas", "", 
+19, USA, 886, 899, "West Virginia", "", 
+97, ObjectiveDescription, 912, 1144, "To evaluate the safety and efficacy of adding fixed - combination brinzolamide 1 % / brimonidine 0 . 2 % ( BBFC ) as adjunctive therapy to travoprost 0 . 004 % ( TRAV ) in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasObjectiveDescription> \"To evaluate the safety and efficacy of adding fixed - combination brinzolamide 1 % / brimonidine 0 . 2 % ( BBFC ) as adjunctive therapy to travoprost 0 . 004 % ( TRAV ) in patients with open - angle glaucoma or ocular hypertension .\"."
+38416, Brinz/BrimoFC, 978, 1016, "brinzolamide 1 % / brimonidine 0 . 2 %", "", 
+20, Brinzolamide, 978, 990, "brinzolamide", "", 
+22, DoseValue, 991, 992, "1", "", 
+25, Percentage, 993, 994, "%", "", 
+21, Brimonidine, 997, 1008, "brimonidine", "", 
+23, DoseValue, 1009, 1014, "0 . 2", "", 
+26, Percentage, 1015, 1016, "%", "", 
+37039, Brinz/BrimoFC, 1019, 1023, "BBFC", "", 
+133, Travoprost, 1051, 1061, "travoprost", "", 
+24, DoseValue, 1062, 1069, "0 . 004", "", 
+27, Percentage, 1070, 1071, "%", "", 
+162, Travoprost, 1074, 1078, "TRAV", "", 
+54366, Precondition, 1084, 1142, "patients with open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_101876> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma or ocular hypertension\"."
+28, OpenAngleGlaucoma, 1098, 1119, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+29, OcularHypertension, 1123, 1142, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+30, Multicenter, 1154, 1165, "Multicenter", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+31, Randomized, 1168, 1178, "randomized", "", 
+32, DoubleBlind, 1181, 1196, "double - masked", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+33, Parallel, 1199, 1207, "parallel", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+36, Multicenter, 1261, 1272, "Multicenter", "", 
+37, USA, 1291, 1304, "United States", "", "<http://ctro/data#Population_101876> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+38, NumberPatientsCT, 1337, 1340, "233", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasNumberPatientsCT> \"233\"."
+39, OpenAngleGlaucoma, 1355, 1376, "open - angle glaucoma", "", 
+46, Precondition, 1355, 1518, "open - angle glaucoma or ocular hypertension and with mean intraocular pressure ( IOP ) ≥ 21   mm Hg and < 32   mm Hg while receiving once - daily TRAV monotherapy", "", "<http://ctro/data#Population_101876> <http://ctro/data#hasPrecondition> \"open - angle glaucoma or ocular hypertension and with mean intraocular pressure ( IOP ) ≥ 21   mm Hg and < 32   mm Hg while receiving once - daily TRAV monotherapy\"."
+40, OcularHypertension, 1380, 1399, "ocular hypertension", "", 
+41, Mean, 1409, 1413, "mean", "", 
+42, IOP, 1414, 1434, "intraocular pressure", "", 
+43, IOP, 1437, 1440, "IOP", "", 
+44, mmHg, 1450, 1455, "mm Hg", "", 
+45, mmHg, 1467, 1472, "mm Hg", "", 
+35841, Frequency, 1489, 1501, "once - daily", "", "<http://ctro/data#Intervention_101920> <http://ctro/data#hasFrequency> \"once - daily\"."
+35768, Travoprost, 1502, 1506, "TRAV", "", 
+37040, Brinz/BrimoFC, 1543, 1547, "BBFC", "", "<http://ctro/data#Medication_101926> <http://ctro/data#hasDrug> <http://ctro/data#Brinz/BrimoFC>."
+92844, Vehicle, 1551, 1558, "vehicle", "", "<http://ctro/data#Medication_101933> <http://ctro/data#hasDrug> <http://ctro/data#Vehicle>."
+48, Frequency, 1561, 1574, "3 times daily", "", "<http://ctro/data#Intervention_101908> <http://ctro/data#hasFrequency> \"3 times daily\". <http://ctro/data#Intervention_101914> <http://ctro/data#hasFrequency> \"3 times daily\"."
+165, Travoprost, 1591, 1595, "TRAV", "", "<http://ctro/data#Medication_101940> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+49, Duration, 1600, 1609, "6   weeks", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasCTduration> \"6   weeks\"."
+50, Mean, 1635, 1639, "Mean", "", 
+51, Diurnal_IOP, 1640, 1651, "diurnal IOP", "", 
+168, TimePoint, 1712, 1718, "week 6", "", 
+37046, Brinz/BrimoFC, 1736, 1740, "BBFC", "", 
+169, Travoprost, 1743, 1747, "TRAV", "", 
+92845, Vehicle, 1753, 1760, "vehicle", "", 
+171, Travoprost, 1763, 1767, "TRAV", "", 
+37041, Brinz/BrimoFC, 1841, 1845, "BBFC", "", 
+172, Travoprost, 1848, 1852, "TRAV", "", 
+52, Mean, 1865, 1869, "Mean", "", 
+53, Diurnal_IOP, 1870, 1881, "diurnal IOP", "", "<http://ctro/data#Endpoint_101885> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+54, TimePoint, 1885, 1891, "week 6", "", "<http://ctro/data#Outcome_101947> <http://ctro/data#hasTimePoint> \"week 6\". <http://ctro/data#Outcome_101974> <http://ctro/data#hasTimePoint> \"week 6\"."
+35842, LeastSquaresMean, 1894, 1912, "least squares mean", "", "<http://ctro/data#Endpoint_101885> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+55, ResultMeasuredValue, 1936, 1942, "17 . 6", "", "<http://ctro/data#Outcome_101947> <http://ctro/data#hasResultMeasuredValue> \"17 . 6\"."
+178, SdErrorResValue, 1945, 1950, "0 . 4", "", "<http://ctro/data#Outcome_101947> <http://ctro/data#hasSdErrorResValue> \"0 . 4\"."
+58, mmHg, 1953, 1958, "mm Hg", "", "<http://ctro/data#Endpoint_101885> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+56, ResultMeasuredValue, 1963, 1969, "20 . 7", "", "<http://ctro/data#Outcome_101974> <http://ctro/data#hasResultMeasuredValue> \"20 . 7\"."
+179, SdErrorResValue, 1972, 1977, "0 . 4", "", "<http://ctro/data#Outcome_101974> <http://ctro/data#hasSdErrorResValue> \"0 . 4\"."
+59, mmHg, 1980, 1985, "mm Hg", "", 
+37044, Brinz/BrimoFC, 1993, 1997, "BBFC", "", 
+37043, Travoprost, 2000, 2004, "TRAV", "", 
+92850, Vehicle, 2009, 2016, "vehicle", "", 
+37042, Travoprost, 2019, 2023, "TRAV", "", 
+35843, DiffGroupAbsValue, 2075, 2084, ", - 3 . 2", "", "<http://ctro/data#DiffBetweenGroups_102001> <http://ctro/data#hasDiffGroupAbsValue> \", - 3 . 2\"."
+36226, SdErrorDiff, 2087, 2092, "0 . 5", "", "<http://ctro/data#DiffBetweenGroups_102001> <http://ctro/data#hasStandardErrorDiff> \"0 . 5\"."
+64, mmHg, 2095, 2100, "mm Hg", "", 
+65, PvalueDiff, 2103, 2113, "P < . 0001", "", "<http://ctro/data#DiffBetweenGroups_102001> <http://ctro/data#hasPvalueDiff> \"P < . 0001\"."
+37045, Brinz/BrimoFC, 2133, 2137, "BBFC", "", 
+182, Travoprost, 2140, 2144, "TRAV", "", 
+92847, Vehicle, 2150, 2157, "vehicle", "", 
+183, Travoprost, 2160, 2164, "TRAV", "", 
+67, Mean, 2183, 2187, "Mean", "", 
+68, Diurnal_IOP, 2200, 2211, "diurnal IOP", "", 
+37047, Brinz/BrimoFC, 2265, 2269, "BBFC", "", 
+187, Travoprost, 2272, 2276, "TRAV", "", 
+92846, Vehicle, 2291, 2298, "vehicle", "", 
+188, Travoprost, 2301, 2305, "TRAV", "", 
+69, PValueChangeValue, 2308, 2318, "P < . 0001", "", "<http://ctro/data#Outcome_101947> <http://ctro/data#hasPValueChangeValue> \"P < . 0001\". <http://ctro/data#Outcome_101974> <http://ctro/data#hasPValueChangeValue> \"P < . 0001\"."
+70, ConjunctivalHyperemia, 2332, 2354, "Conjunctival hyperemia", "", "<http://ctro/data#Endpoint_102010> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+37048, Brinz/BrimoFC, 2427, 2431, "BBFC", "", 
+192, Travoprost, 2434, 2438, "TRAV", "", 
+71, PercentageAffected, 2441, 2447, "12 . 8", "", "<http://ctro/data#Outcome_102015> <http://ctro/data#hasPercentageAffected> \"12 . 8\"."
+92848, Vehicle, 2452, 2459, "vehicle", "", 
+195, Travoprost, 2462, 2466, "TRAV", "", 
+72, PercentageAffected, 2469, 2474, "6 . 0", "", "<http://ctro/data#Outcome_102042> <http://ctro/data#hasPercentageAffected> \"6 . 0\"."
+78, ConclusionComment, 2495, 2709, "Adjunctive treatment with BBFC added to TRAV resulted in lower mean diurnal IOP after 6   weeks of treatment compared with vehicle added to TRAV ; this difference was both statistically and clinically significant .", "", "<http://ctro/data#ClinicalTrial_101855> <http://ctro/data#hasConclusionComment> \"Adjunctive treatment with BBFC added to TRAV resulted in lower mean diurnal IOP after 6   weeks of treatment compared with vehicle added to TRAV ; this difference was both statistically and clinically significant .\"."
+197, Travoprost, 2535, 2539, "TRAV", "", 
+74, Mean, 2558, 2562, "mean", "", 
+75, Diurnal_IOP, 2563, 2574, "diurnal IOP", "", 
+76, Duration, 2581, 2590, "6   weeks", "", 
+92849, Vehicle, 2618, 2625, "vehicle", "", 
+203, Travoprost, 2635, 2639, "TRAV", "", 
+79, PMID, 2842, 2850, "26940161", "", "<http://ctro/data#Publication_101844> <http://ctro/data#hasPMID> \"26940161\"."

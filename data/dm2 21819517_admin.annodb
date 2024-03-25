@@ -1,0 +1,107 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2011", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasPublicationYear> \"2011\"."
+22, Title, 112, 319, "Comparison of insulin lispro protamine suspension versus insulin glargine once daily in basal - bolus therapies with insulin lispro in type 2 diabetes patients : a prospective randomized open - label trial .", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasTitle> \"Comparison of insulin lispro protamine suspension versus insulin glargine once daily in basal - bolus therapies with insulin lispro in type 2 diabetes patients : a prospective randomized open - label trial .\"."
+180, LisproProtamine, 126, 161, "insulin lispro protamine suspension", "", 
+3, InsulinGlargine, 169, 185, "insulin glargine", "", 
+4, Frequency, 186, 196, "once daily", "", 
+106314, Precondition, 229, 271, "insulin lispro in type 2 diabetes patients", "", "<http://ctro/data#Population_33932> <http://ctro/data#hasPrecondition> \"insulin lispro in type 2 diabetes patients\"."
+5, Lispro, 229, 243, "insulin lispro", "", 
+6, Type2Diabetes, 247, 262, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+60975, Prospective, 276, 287, "prospective", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+7, Randomized, 288, 298, "randomized", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, OpenLabel, 299, 311, "open - label", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+10, Author, 320, 330, "Koivisto V", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasAuthor> \"Koivisto V\"."
+11, Author, 339, 347, "Cleall S", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasAuthor> \"Cleall S\"."
+12, Author, 350, 362, "Pontiroli AE", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasAuthor> \"Pontiroli AE\"."
+13, Author, 365, 376, "Giugliano D", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasAuthor> \"Giugliano D\"."
+14, Germany, 445, 452, "Germany", "", "<http://ctro/data#Population_33932> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+21, ObjectiveDescription, 492, 684, "To compare the efficacy and safety of insulin lispro protamine suspension ( ILPS ) versus insulin glargine once daily in a basal - bolus regimen in type 2 diabetes mellitus ( T2DM ) patients .", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of insulin lispro protamine suspension ( ILPS ) versus insulin glargine once daily in a basal - bolus regimen in type 2 diabetes mellitus ( T2DM ) patients .\"."
+181, LisproProtamine, 530, 565, "insulin lispro protamine suspension", "", 
+60976, LisproProtamine, 568, 572, "ILPS", "", 
+17, InsulinGlargine, 582, 598, "insulin glargine", "", 
+18, Frequency, 599, 609, "once daily", "", 
+19, Type2Diabetes, 640, 664, "type 2 diabetes mellitus", "", 
+20, Type2Diabetes, 667, 671, "T2DM", "", 
+23, NumberPatientsCT, 695, 723, "Three hundred eighty - three", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasNumberPatientsCT> \"Three hundred eighty - three\"."
+24, Insulin, 724, 731, "insulin", "", 
+32, Precondition, 724, 750, "insulin - treated patients", "", 
+25, Randomized, 756, 766, "randomized", "", 
+183, LisproProtamine, 777, 781, "ILPS", "", "<http://ctro/data#Medication_33982> <http://ctro/data#hasDrug> <http://ctro/data#LisproProtamine>."
+27, Lispro, 787, 793, "lispro", "", 
+28, InsulinGlargine, 797, 805, "glargine", "", "<http://ctro/data#Medication_33996> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+29, Lispro, 811, 817, "lispro", "", 
+30, OpenLabel, 826, 838, "open - label", "", 
+31, Duration, 839, 848, "24 - week", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasCTduration> \"24 - week\"."
+123, Multicenter, 849, 863, "European study", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+60977, DoseDescription, 866, 936, "Insulin doses were titrated to predefined blood glucose ( BG ) targets", "", 
+33, Insulin, 866, 873, "Insulin", "", 
+185, BloodGlucose, 908, 921, "blood glucose", "", 
+186, BloodGlucose, 924, 926, "BG", "", 
+184, LisproProtamine, 960, 964, "ILPS", "", 
+35, InsulinGlargine, 972, 980, "glargine", "", 
+36, HbA1c, 1080, 1085, "HbA1c", "", 
+88, TimePoint, 1091, 1099, "baseline", "", 
+87, TimePoint, 1103, 1110, "week 24", "", 
+37, HbA1c, 1147, 1152, "HbA1c", "", 
+126, Percentage, 1198, 1199, "%", "", 
+38, HbA1c, 1231, 1236, "HbA1c", "", 
+128, BloodGlucose, 1250, 1252, "BG", "", 
+89, InsulinDose, 1264, 1277, "insulin doses", "", 
+40, Hypoglycemia, 1280, 1302, "hypoglycaemic episodes", "", 
+41, EndPointDescription, 1305, 1319, "adverse events", "", 
+42, EndPointDescription, 1324, 1335, "vital signs", "", 
+187, LisproProtamine, 1369, 1373, "ILPS", "", 
+44, InsulinGlargine, 1381, 1389, "glargine", "", 
+45, HbA1c, 1407, 1412, "HbA1c", "", "<http://ctro/data#Endpoint_34021> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+133, TimePoint, 1418, 1426, "baseline", "", 
+134, LeastSquaresMean, 1439, 1458, "least - square mean", "", 
+60978, ConfIntervalDiff, 1490, 1501, "( 95 % CI )", "", "<http://ctro/data#DiffBetweenGroups_34107> <http://ctro/data#hasConfIntervalDiff> \"( 95 % CI )\". <http://ctro/data#DiffBetweenGroups_34107> <http://ctro/data#hasConfIntervalDiff> \"( - 0 . 11 ; 0 . 31 )\"."
+135, DiffGroupAbsValue, 1506, 1511, "0 . 1", "", "<http://ctro/data#DiffBetweenGroups_34107> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 1\"."
+49, Percentage, 1512, 1513, "%", "", "<http://ctro/data#Endpoint_34021> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+60978, ConfIntervalDiff, 1514, 1535, "( - 0 . 11 ; 0 . 31 )", "", 
+139, Mean, 1538, 1542, "Mean", "", "<http://ctro/data#Mean_34023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_34021> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_34023>."
+90, TimePoint, 1554, 1561, "week 24", "", "<http://ctro/data#Outcome_34026> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_34053> <http://ctro/data#hasTimePoint> \"week 24\"."
+52, Reduction, 1569, 1575, "1 . 05", "", "<http://ctro/data#Outcome_34026> <http://ctro/data#hasChangeValue> \"1 . 05\"."
+54, Percentage, 1576, 1577, "%", "", 
+188, LisproProtamine, 1580, 1584, "ILPS", "", 
+53, Reduction, 1593, 1599, "1 . 20", "", "<http://ctro/data#Outcome_34026> <http://ctro/data#hasChangeValue> \"1 . 05\"."
+55, Percentage, 1600, 1601, "%", "", 
+51, InsulinGlargine, 1604, 1612, "glargine", "", 
+56, HbA1c_target, 1617, 1632, "HbA1c < 7 . 0 %", "", "<http://ctro/data#Endpoint_34117> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+145, Percentage, 1631, 1632, "%", "", 
+57, PercentageAffected, 1649, 1655, "21 . 7", "", "<http://ctro/data#Outcome_34122> <http://ctro/data#hasPercentageAffected> \"21 . 7\"."
+58, PercentageAffected, 1663, 1669, "29 . 4", "", "<http://ctro/data#Outcome_34149> <http://ctro/data#hasPercentageAffected> \"29 . 4\"."
+151, Mean, 1686, 1690, "Mean", "", "<http://ctro/data#Mean_34178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_34176> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_34178>. <http://ctro/data#Mean_34183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_34181> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_34183>."
+60987, InsulinDose, 1691, 1696, "basal", "", 
+60990, InsulinDose, 1699, 1721, "mealtime insulin doses", "", "<http://ctro/data#InsulinDose_34182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_34181> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_34182>."
+60987, InsulinDose, 1708, 1721, "insulin doses", "", "<http://ctro/data#InsulinDose_34177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_34176> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_34177>."
+92, TimePoint, 1725, 1732, "week 24", "", "<http://ctro/data#Outcome_34186> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_34213> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_34240> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_34267> <http://ctro/data#hasTimePoint> \"week 24\"."
+60, ResultMeasuredValue, 1738, 1744, "29 . 6", "", "<http://ctro/data#Outcome_34186> <http://ctro/data#hasResultMeasuredValue> \"29 . 6\"."
+61, ResultMeasuredValue, 1747, 1753, "36 . 2", "", "<http://ctro/data#Outcome_34240> <http://ctro/data#hasResultMeasuredValue> \"36 . 2\"."
+60986, BioAndMedicalUnit, 1754, 1762, "IU / day", "", "<http://ctro/data#BioAndMedicalUnit_34179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_34176> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_34179>. <http://ctro/data#BioAndMedicalUnit_34184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_34181> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_34184>."
+189, LisproProtamine, 1765, 1769, "ILPS", "", 
+62, ResultMeasuredValue, 1779, 1785, "32 . 8", "", "<http://ctro/data#Outcome_34213> <http://ctro/data#hasResultMeasuredValue> \"32 . 8\"."
+63, ResultMeasuredValue, 1788, 1794, "42 . 2", "", "<http://ctro/data#Outcome_34267> <http://ctro/data#hasResultMeasuredValue> \"42 . 2\"."
+60985, BioAndMedicalUnit, 1795, 1803, "IU / day", "", 
+67, InsulinGlargine, 1806, 1814, "glargine", "", 
+92976, InsulinDose, 1872, 1882, "total dose", "", "<http://ctro/data#InsulinDose_34295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_34294> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_34295>."
+68, PvalueDiff, 1885, 1894, "p = 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_34353> <http://ctro/data#hasPvalueDiff> \"p = 0 . 7\"."
+166, PercentageAffected, 1916, 1922, "56 . 1", "", "<http://ctro/data#Outcome_34372> <http://ctro/data#hasPercentageAffected> \"56 . 1\"."
+71, PercentageAffected, 1925, 1931, "25 . 7", "", "<http://ctro/data#Outcome_34426> <http://ctro/data#hasPercentageAffected> \"25 . 7\"."
+168, PercentageAffected, 1941, 1947, "63 . 6", "", "<http://ctro/data#Outcome_34399> <http://ctro/data#hasPercentageAffected> \"63 . 6\"."
+72, PercentageAffected, 1950, 1956, "19 . 3", "", "<http://ctro/data#Outcome_34453> <http://ctro/data#hasPercentageAffected> \"19 . 3\"."
+73, NocturnalHypoglycemia, 1989, 2012, "nocturnal hypoglycaemia", "", "<http://ctro/data#Endpoint_34367> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+93014, Hypoglycemia, 1999, 2012, "hypoglycaemia", "", "<http://ctro/data#Endpoint_34362> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+164, Hypoglycemia, 2013, 2012, "", "", 
+92984, PvalueDiff, 2015, 2024, "p = 0 . 2", "", "<http://ctro/data#DiffBetweenGroups_34480> <http://ctro/data#hasPvalueDiff> \"p = 0 . 2\". <http://ctro/data#DiffBetweenGroups_34489> <http://ctro/data#hasPvalueDiff> \"p = 0 . 2\"."
+80, ConclusionComment, 2112, 2335, "A basal - bolus regimen with ILPS once daily resulted in non - inferior glycaemic control compared to a similar regimen with glargine , without statistically significant or clinically relevant differences in hypoglycaemia .", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasConclusionComment> \"A basal - bolus regimen with ILPS once daily resulted in non - inferior glycaemic control compared to a similar regimen with glargine , without statistically significant or clinically relevant differences in hypoglycaemia .\"."
+190, LisproProtamine, 2141, 2145, "ILPS", "", 
+77, Frequency, 2146, 2156, "once daily", "", 
+78, InsulinGlargine, 2237, 2245, "glargine", "", 
+79, Hypoglycemia, 2320, 2333, "hypoglycaemia", "", 
+191, LisproProtamine, 2336, 2340, "ILPS", "", 
+84, ConclusionComment, 2336, 2450, "ILPS - based regimens can be considered an alternative to basal - bolus regimens with glargine for T2DM patients .", "", "<http://ctro/data#ClinicalTrial_33916> <http://ctro/data#hasConclusionComment> \"ILPS - based regimens can be considered an alternative to basal - bolus regimens with glargine for T2DM patients .\"."
+82, InsulinGlargine, 2422, 2430, "glargine", "", 
+83, Type2Diabetes, 2435, 2439, "T2DM", "", 
+85, PMID, 2545, 2553, "21819517", "", "<http://ctro/data#Publication_33909> <http://ctro/data#hasPMID> \"21819517\"."

@@ -1,0 +1,189 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_53553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_53553> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 53553" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasTitle> "Twelve - week , randomized , multicenter study comparing a fixed combination of brimonidine - timolol with timolol as therapy adjunctive to latanoprost ." .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Fechtner RD" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasPublicationYear> "2011" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasJournal> "Clin Ophthalmol" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasPMID> "21792284" .
+<http://ctro/data#Publication_53553> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_53566> .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Harasymowycz P" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Nixon DR" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Vold SD" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Zaman F" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Williams JM" .
+<http://ctro/data#Publication_53553> <http://ctro/data#hasAuthor> "Hollander DA" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_53566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_53566> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 53566" .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasObjectiveDescription> "To evaluate the additive intraocular pressure ( IOP ) - lowering efficacy and safety of fixed - combination brimonidine 0 . 2 % / timolol 0 . 5 % compared with timolol 0 . 5 % at peak and trough effect" .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTduration> "Twelve - week" .
+<http://ctro/data#AllocationRatio_53570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasConclusionComment> "Fixed - combination brimonidine - timolol reduced IOP significantly more effectively than timolol when used as adjunctive therapy to latanoprost in patients with glaucoma and ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasArm> <http://ctro/data#Arm_65090> .
+<http://ctro/data#Glaucoma_53575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_53575> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasPopulation> <http://ctro/data#Population_53589> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_65226> .
+<http://ctro/data#EvidenceQuality_53578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasObjectiveDescription> "when used as therapy adjunctive to latanoprost 0 . 005 % in patients with glaucoma or ocular hypertension who require additional IOP lowering ." .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#CTDesign_53584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_53584> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasConclusionComment> "Both fixed brimonidine - timolol and timolol were well tolerated as agents adjunctive to latanoprost ." .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_65289> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasArm> <http://ctro/data#Arm_65099> .
+<http://ctro/data#ClinicalTrial_53566> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_65298> .
+# RDF export of group: Population
+<http://ctro/data#Population_53589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_53589> <http://www.w3.org/2000/01/rdf-schema#label> "Population 53589" .
+<http://ctro/data#Population_53589> <http://ctro/data#hasPrecondition> "patients with IOP ≥ 21 mmHg in at least one eye" .
+<http://ctro/data#Ethnicity_53591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_53589> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_53596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_53597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_53597> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 53597 IOP" .
+<http://ctro/data#IOP_53598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_53597> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_53598> .
+<http://ctro/data#Mean_53599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_53597> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_53599> .
+<http://ctro/data#Endpoint_53597> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_53601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_65216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_65216> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 65216 IOP < 18 mmHg" .
+<http://ctro/data#EndPointDescription_65217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_65216> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65217> .
+<http://ctro/data#AggregationMethod_65218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_65219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_65220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_65221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_65221> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 65221 ≥ 20% reduction in IOP" .
+<http://ctro/data#EndPointDescription_65222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_65221> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65222> .
+<http://ctro/data#AggregationMethod_65223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_65224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_65225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_112626> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_112626> <http://www.w3.org/2000/01/rdf-schema#label> "AdverseEffects" .
+<http://ctro/data#EndPointDescription_112627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_112626> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_112627> .
+<http://ctro/data#AggregationMethod_112628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_112629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_112630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_65090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_65090> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 65090 Brimonidine Timolol Latanoprost" .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasNumberPatientsArm> "102" .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_65060> .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_65012> .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_65135> .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_65235> .
+<http://ctro/data#Arm_65090> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_65262> .
+<http://ctro/data#Arm_65099> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_65099> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 65099 Timolol Latanoprost" .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasNumberPatientsArm> "102" .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_65068> .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_65108> .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_65162> .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102229> .
+<http://ctro/data#Arm_65099> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102256> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_65060> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_65060> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 65060 Brimonidine Timolol" .
+<http://ctro/data#Intervention_65060> <http://ctro/data#hasMedication> <http://ctro/data#Medication_65039> .
+<http://ctro/data#Intervention_65060> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#Intervention_65060> <http://ctro/data#hasDuration> "12 weeks" .
+<http://ctro/data#RelativeTime_65065> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_65060> <http://ctro/data#hasMedication> <http://ctro/data#Medication_65046> .
+<http://ctro/data#Intervention_65068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_65068> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 65068 Timolol" .
+<http://ctro/data#Intervention_65068> <http://ctro/data#hasMedication> <http://ctro/data#Medication_65046> .
+<http://ctro/data#Intervention_65068> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#Intervention_65068> <http://ctro/data#hasDuration> "12 weeks" .
+<http://ctro/data#RelativeTime_65073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_65084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_65084> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 65084 Latanoprost" .
+<http://ctro/data#Intervention_65084> <http://ctro/data#hasMedication> <http://ctro/data#Medication_65053> .
+<http://ctro/data#RelativeTime_65089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_65039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_65039> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 65039 Brimonidine" .
+<http://ctro/data#Medication_65039> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_65039> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_65039> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_65043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_65046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_65046> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 65046 Timolol" .
+<http://ctro/data#Medication_65046> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_65046> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_65046> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_65050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_65053> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_65053> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 65053 Latanoprost" .
+<http://ctro/data#Latanoprost_65054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_65053> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_65054> .
+<http://ctro/data#Medication_65053> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_65053> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_65057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_65012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65012> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65012 Brimonidine Timolol" .
+<http://ctro/data#Outcome_65012> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_53597> .
+<http://ctro/data#Outcome_65012> <http://ctro/data#hasBaselineValue> "23 . 4" .
+<http://ctro/data#Outcome_65012> <http://ctro/data#hasChangeValue> "8 . 3" .
+<http://ctro/data#Outcome_65012> <http://ctro/data#hasRelativeChangeValue> "35 . 5" .
+<http://ctro/data#Outcome_65012> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_65108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65108> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65108 Timolol" .
+<http://ctro/data#Outcome_65108> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_53597> .
+<http://ctro/data#Outcome_65108> <http://ctro/data#hasBaselineValue> "23 . 0" .
+<http://ctro/data#Outcome_65108> <http://ctro/data#hasChangeValue> "6 . 2" .
+<http://ctro/data#Outcome_65108> <http://ctro/data#hasRelativeChangeValue> "27 . 0" .
+<http://ctro/data#Outcome_65108> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_65135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65135> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65135 Adverse Effects Brimonidine Timolol" .
+<http://ctro/data#Outcome_65135> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_112626> .
+<http://ctro/data#Outcome_65135> <http://ctro/data#hasPercentageAffected> "14 . 7" .
+<http://ctro/data#Outcome_65162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65162> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65162 Adverse Effects Timolol" .
+<http://ctro/data#Outcome_65162> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_112626> .
+<http://ctro/data#Outcome_65162> <http://ctro/data#hasPercentageAffected> "12 . 7" .
+<http://ctro/data#Outcome_65235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65235> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65235 reduction_bri" .
+<http://ctro/data#Outcome_65235> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_65221> .
+<http://ctro/data#Outcome_65235> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_65262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_65262> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 65262 IOP < 18 mmHg_bri" .
+<http://ctro/data#Outcome_65262> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_65216> .
+<http://ctro/data#Outcome_65262> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_102229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102229> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 102229 reduction_tim" .
+<http://ctro/data#Outcome_102229> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_65221> .
+<http://ctro/data#Outcome_102229> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_102256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102256> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 102256 IOP <18mmHg_tim" .
+<http://ctro/data#Outcome_102256> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_65216> .
+<http://ctro/data#Outcome_102256> <http://ctro/data#hasTimePoint> "week 12" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_65226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_65226> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 65226 ≥ 20 % reduction" .
+<http://ctro/data#DiffBetweenGroups_65226> <http://ctro/data#hasPvalueDiff> "P = 0 . 047" .
+<http://ctro/data#DiffBetweenGroups_65226> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_65235> .
+<http://ctro/data#DiffBetweenGroups_65226> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_102229> .
+<http://ctro/data#DiffBetweenGroups_65289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_65289> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 65289 < 18 mmHg" .
+<http://ctro/data#DiffBetweenGroups_65289> <http://ctro/data#hasPvalueDiff> "P = 0 . 028" .
+<http://ctro/data#DiffBetweenGroups_65289> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_65262> .
+<http://ctro/data#DiffBetweenGroups_65289> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_102256> .
+<http://ctro/data#DiffBetweenGroups_65298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_65298> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 65298" .
+<http://ctro/data#DiffBetweenGroups_65298> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_65298> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_65012> .
+<http://ctro/data#DiffBetweenGroups_65298> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_65108> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,88 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2004", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasPublicationYear> \"2004\"."
+2, Dorzolamide, 46, 57, "Dorzolamide", "", 
+38487, Dorz/TimFC, 46, 67, "Dorzolamide / Timolol", "", "<http://ctro/data#Medication_52820> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+9, Title, 46, 279, "Dorzolamide / Timolol fixed combination versus concomitant administration of brimonidine and timolol in patients with elevated intraocular pressure : a 3 - month comparison of efficacy , tolerability , and patient - reported measures", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasTitle> \"Dorzolamide / Timolol fixed combination versus concomitant administration of brimonidine and timolol in patients with elevated intraocular pressure : a 3 - month comparison of efficacy , tolerability , and patient - reported measures\"."
+3, Timolol, 60, 67, "Timolol", "", 
+4, Brimonidine, 123, 134, "brimonidine", "", 
+5, Timolol, 139, 146, "timolol", "", 
+7, Precondition, 164, 193, "elevated intraocular pressure", "", "<http://ctro/data#Population_52762> <http://ctro/data#hasPrecondition> \"elevated intraocular pressure\"."
+6, IOP, 173, 193, "intraocular pressure", "", 
+8, Duration, 198, 207, "3 - month", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasCTduration> \"3 - month\"."
+73, Author, 282, 291, "Solish AM", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"Solish AM\"."
+74, Author, 300, 310, "DeLucca PT", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"DeLucca PT\"."
+75, Author, 313, 322, "Cassel DA", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"Cassel DA\"."
+76, Author, 325, 335, "Kolodny AH", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"Kolodny AH\"."
+77, Author, 338, 347, "Hustad CM", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"Hustad CM\"."
+78, Author, 350, 363, "Skobieranda F", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasAuthor> \"Skobieranda F\"."
+10, USA, 460, 463, "USA", "", "<http://ctro/data#Population_52762> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+102, ObjectiveDescription, 479, 713, "To compare the intraocular pressure ( IOP ) lowering effect , tolerability , and patient - reported measures of the dorzolamide / timolol fixed combination and the concomitant administration of brimonidine and timolol after 3 months .", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure ( IOP ) lowering effect , tolerability , and patient - reported measures of the dorzolamide / timolol fixed combination and the concomitant administration of brimonidine and timolol after 3 months .\"."
+12, IOP, 494, 514, "intraocular pressure", "", 
+13, IOP, 517, 520, "IOP", "", 
+38486, Dorz/TimFC, 595, 616, "dorzolamide / timolol", "", 
+14, Dorzolamide, 595, 606, "dorzolamide", "", 
+15, Timolol, 609, 616, "timolol", "", 
+16, Brimonidine, 673, 684, "brimonidine", "", 
+17, Timolol, 689, 696, "timolol", "", 
+18, Duration, 703, 711, "3 months", "", 
+19, NumberPatientsCT, 724, 749, "Four hundred ninety - two", "", 
+20, OcularHypertension, 764, 783, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+49, Primary_OpenAngleGlaucoma, 786, 815, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+21, Glaucoma, 818, 838, "exfoliative glaucoma", "", 
+22, PigmentaryGlaucoma, 844, 863, "pigmentary glaucoma", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#analysesHealthCondition> <http://ctro/data#PigmentaryGlaucoma>."
+23, Randomized, 885, 895, "randomized", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+24, Blind, 898, 915, "observer - masked", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+25, Multicenter, 918, 929, "multicenter", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+34294, Precondition, 938, 1023, "Following 3 weeks of timolol monotherapy , patients with a peak IOP of > or = 2 mm Hg", "", "<http://ctro/data#Population_52762> <http://ctro/data#hasPrecondition> \"Following 3 weeks of timolol monotherapy , patients with a peak IOP of > or = 2 mm Hg\"."
+34288, Duration, 948, 955, "3 weeks", "", 
+26, Timolol, 959, 966, "timolol", "", 
+27, Peak_IOP, 997, 1005, "peak IOP", "", "<http://ctro/data#Endpoint_52771> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+29, mmHg, 1018, 1023, "mm Hg", "", 
+30, Randomized, 1029, 1039, "randomized", "", 
+38488, Dorz/TimFC, 1076, 1097, "dorzolamide / timolol", "", 
+50, Dorzolamide, 1076, 1087, "dorzolamide", "", 
+51, Timolol, 1090, 1097, "timolol", "", 
+31, Frequency, 1098, 1109, "twice daily", "", "<http://ctro/data#Intervention_52794> <http://ctro/data#hasFrequency> \"twice daily\"."
+52, Brimonidine, 1125, 1136, "brimonidine", "", "<http://ctro/data#Medication_52813> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+53, Timolol, 1142, 1149, "timolol", "", "<http://ctro/data#Medication_52813> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+32, Frequency, 1150, 1161, "twice daily", "", "<http://ctro/data#Intervention_52800> <http://ctro/data#hasFrequency> \"twice daily\"."
+33, Duration, 1166, 1174, "3 months", "", 
+34, IOP, 1181, 1184, "IOP", "", 
+54, Peak_IOP, 1207, 1211, "peak", "", 
+55, Trough_IOP, 1216, 1222, "trough", "", 
+56, TimePoint, 1309, 1325, "months 1 and 3 .", "", 
+57, TimePoint, 1339, 1346, "month 3", "", "<http://ctro/data#Outcome_52828> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_52855> <http://ctro/data#hasTimePoint> \"month 3\"."
+60, Peak_IOP, 1347, 1351, "peak", "", 
+38489, Dorz/TimFC, 1358, 1379, "dorzolamide / timolol", "", 
+58, Dorzolamide, 1358, 1369, "dorzolamide", "", 
+59, Timolol, 1372, 1379, "timolol", "", 
+35, Mean, 1402, 1406, "mean", "", "<http://ctro/data#Mean_52773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_52771> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_52773>."
+36, IOP, 1435, 1438, "IOP", "", 
+37, Reduction, 1444, 1450, "4 . 30", "", "<http://ctro/data#Outcome_52828> <http://ctro/data#hasChangeValue> \"4 . 30\"."
+38, SdErrorChangeValue, 1453, 1459, "0 . 24", "", "<http://ctro/data#Outcome_52828> <http://ctro/data#hasSdErrorChangeValue> \"0 . 24\"."
+39, mmHg, 1462, 1467, "mm Hg", "", 
+40, Reduction, 1477, 1483, "5 . 27", "", "<http://ctro/data#Outcome_52855> <http://ctro/data#hasChangeValue> \"5 . 27\"."
+41, SdErrorChangeValue, 1486, 1492, "0 . 23", "", "<http://ctro/data#Outcome_52855> <http://ctro/data#hasSdErrorChangeValue> \"0 . 23\"."
+42, mmHg, 1495, 1500, "mm Hg", "", "<http://ctro/data#Endpoint_52771> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+61, Brimonidine, 1508, 1519, "brimonidine", "", 
+62, Timolol, 1529, 1536, "timolol", "", 
+43, DiffGroupAbsValue, 1576, 1582, "0 . 97", "", "<http://ctro/data#DiffBetweenGroups_52882> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 97\"."
+44, mmHg, 1583, 1588, "mm Hg", "", 
+45, ConfIntervalDiff, 1591, 1616, "95 % CI : 0 . 40 , 1 . 53", "", "<http://ctro/data#DiffBetweenGroups_52882> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : 0 . 40 , 1 . 53\"."
+63, TimePoint, 1628, 1635, "month 3", "", 
+64, Trough_IOP, 1636, 1642, "trough", "", 
+46, TimePoint, 1662, 1669, "month 1", "", 
+65, mmHg, 1792, 1797, "mm Hg", "", 
+144, ObservedResult, 1800, 1890, "The incidence of drug - related adverse experiences was similar between treatment groups .", "", 
+34297, EndPointDescription, 1832, 1851, "adverse experiences", "AdverseEffects", 
+145, ObservedResult, 1891, 2028, "Patient - reported assessments of convenience and satisfaction showed no statistically significant differences between treatment groups .", "", 
+71, ConclusionComment, 2043, 2208, "The IOP - lowering effect of the dorzolamide / timolol fixed combination and concomitant brimonidine plus timolol were comparable at 3 of the 4 timepoints measured .", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasConclusionComment> \"The IOP - lowering effect of the dorzolamide / timolol fixed combination and concomitant brimonidine plus timolol were comparable at 3 of the 4 timepoints measured .\"."
+47, IOP, 2047, 2050, "IOP", "", 
+38490, Dorz/TimFC, 2076, 2097, "dorzolamide / timolol", "", 
+66, Dorzolamide, 2076, 2087, "dorzolamide", "", 
+67, Timolol, 2090, 2097, "timolol", "", 
+68, Brimonidine, 2132, 2143, "brimonidine", "", 
+69, Timolol, 2149, 2156, "timolol", "", 
+72, ConclusionComment, 2209, 2317, "Patient - reported measures and the incidence of adverse experiences in both treatment groups were similar .", "", "<http://ctro/data#ClinicalTrial_52741> <http://ctro/data#hasConclusionComment> \"Patient - reported measures and the incidence of adverse experiences in both treatment groups were similar .\"."
+48, PMID, 2325, 2333, "15097262", "", "<http://ctro/data#Publication_52729> <http://ctro/data#hasPMID> \"15097262\"."

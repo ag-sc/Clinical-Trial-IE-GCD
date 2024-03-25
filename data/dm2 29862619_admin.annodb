@@ -1,0 +1,141 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2018", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasPublicationYear> \"2018\"."
+30, Title, 110, 305, "Efficacy and safety of ipragliflozin as an add - on therapy to sitagliptin and metformin in Korean patients with inadequately controlled type 2 diabetes mellitus : A randomized controlled trial .", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasTitle> \"Efficacy and safety of ipragliflozin as an add - on therapy to sitagliptin and metformin in Korean patients with inadequately controlled type 2 diabetes mellitus : A randomized controlled trial .\"."
+2, Drug, 133, 146, "ipragliflozin", "", 
+11, Sitagliptin, 173, 184, "sitagliptin", "", 
+15, Metformin, 189, 198, "metformin", "", 
+19, Ethnicity, 202, 208, "Korean", "", 
+28, Precondition, 209, 271, "patients with inadequately controlled type 2 diabetes mellitus", "", "<http://ctro/data#Population_81824> <http://ctro/data#hasPrecondition> \"patients with inadequately controlled type 2 diabetes mellitus\"."
+22, Type2Diabetes, 247, 271, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+26, Randomized, 276, 286, "randomized", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Author, 306, 312, "Han KA", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Han KA\"."
+32, Author, 321, 327, "Chon S", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Chon S\"."
+33, Author, 336, 344, "Chung CH", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Chung CH\"."
+34, Author, 353, 358, "Lim S", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Lim S\"."
+35, Author, 367, 373, "Lee KW", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Lee KW\"."
+36, Author, 382, 388, "Baik S", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Baik S\"."
+37, Author, 397, 404, "Jung CH", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Jung CH\"."
+38, Author, 413, 419, "Kim DS", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Kim DS\"."
+39, Author, 428, 435, "Park KS", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Park KS\"."
+40, Author, 444, 451, "Yoon KH", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Yoon KH\"."
+41, Author, 461, 467, "Lee IK", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Lee IK\"."
+42, Author, 477, 483, "Cha BS", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Cha BS\"."
+43, Author, 493, 503, "Sakatani T", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Sakatani T\"."
+44, Author, 513, 519, "Park S", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Park S\"."
+45, Author, 529, 535, "Lee MK", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasAuthor> \"Lee MK\"."
+46, SouthKorea, 628, 633, "Korea", "", 
+47, SouthKorea, 682, 687, "Korea", "", 
+48, SouthKorea, 761, 766, "Korea", "", 
+49, SouthKorea, 881, 886, "Korea", "", 
+50, SouthKorea, 935, 940, "Korea", "", 
+51, SouthKorea, 990, 995, "Korea", "", 
+52, SouthKorea, 1121, 1126, "Korea", "", 
+53, SouthKorea, 1218, 1223, "Korea", "", 
+54, SouthKorea, 1322, 1327, "Korea", "", 
+55, SouthKorea, 1459, 1464, "Korea", "", 
+56, SouthKorea, 1557, 1562, "Korea", "", 
+57, SouthKorea, 1653, 1658, "Korea", "", 
+60, Japan, 1764, 1769, "Japan", "", 
+58, SouthKorea, 1869, 1874, "Korea", "", 
+59, SouthKorea, 1987, 1992, "Korea", "", 
+68, ObjectiveDescription, 2001, 2173, "To evaluate the efficacy and safety of ipragliflozin vs placebo as add - on therapy to metformin and sitagliptin in Korean patients with type 2 diabetes mellitus ( T2DM ) .", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of ipragliflozin vs placebo as add - on therapy to metformin and sitagliptin in Korean patients with type 2 diabetes mellitus ( T2DM ) .\"."
+3, Drug, 2040, 2053, "ipragliflozin", "", 
+61, Placebo, 2057, 2064, "placebo", "", 
+16, Metformin, 2088, 2097, "metformin", "", 
+12, Sitagliptin, 2102, 2113, "sitagliptin", "", 
+20, Ethnicity, 2117, 2123, "Korean", "", "<http://ctro/data#Ethnicity_81826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_81824> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_81826>."
+23, Type2Diabetes, 2138, 2162, "type 2 diabetes mellitus", "", 
+24, Type2Diabetes, 2165, 2169, "T2DM", "", 
+69, DoubleBlind, 2189, 2203, "double - blind", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+70, Placebo, 2206, 2213, "placebo", "", 
+71, Multicenter, 2229, 2243, "multi - centre", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+72, SouthKorea, 2279, 2284, "Korea", "", "<http://ctro/data#Population_81824> <http://ctro/data#hasCountry> <http://ctro/data#SouthKorea>."
+73, Duration, 2288, 2300, "2015 to 2017", "", 
+27, Randomized, 2317, 2327, "randomized", "", 
+4, Drug, 2346, 2359, "ipragliflozin", "", "<http://ctro/data#Drug_81863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug>. <http://ctro/data#Medication_81862> <http://ctro/data#hasDrug> <http://ctro/data#Drug_81863>."
+74, DoseValue, 2360, 2362, "50", "", "<http://ctro/data#Medication_81862> <http://ctro/data#hasDoseValue> \"50\"."
+75, mg, 2363, 2365, "mg", "", "<http://ctro/data#Medication_81862> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+76, Frequency, 2368, 2371, "day", "", "<http://ctro/data#Intervention_81850> <http://ctro/data#hasFrequency> \"day\"."
+62, Placebo, 2375, 2382, "placebo", "", "<http://ctro/data#Medication_81869> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+77, Frequency, 2383, 2393, "once daily", "", "<http://ctro/data#Intervention_81856> <http://ctro/data#hasFrequency> \"once daily\"."
+78, Duration, 2398, 2406, "24 weeks", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasCTduration> \"24 weeks\"."
+106278, Precondition, 2410, 2447, "addition to metformin and sitagliptin", "", "<http://ctro/data#Population_81824> <http://ctro/data#hasPrecondition> \"addition to metformin and sitagliptin\"."
+17, Metformin, 2422, 2431, "metformin", "", 
+13, Sitagliptin, 2436, 2447, "sitagliptin", "", 
+79, HbA1c, 2489, 2509, "glycated haemoglobin", "", 
+80, HbA1c, 2512, 2517, "HbA1c", "", 
+81, TimePoint, 2525, 2533, "baseline", "", 
+82, TimePoint, 2537, 2553, "end of treatment", "", 
+83, TimePoint, 2556, 2559, "EOT", "", 
+88, NumberPatientsCT, 2585, 2588, "143", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasNumberPatientsCT> \"143\"."
+89, Randomized, 2603, 2613, "randomized", "", 
+90, FinalNumPatientsCT, 2618, 2621, "139", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasFinalNumberPatientsCT> \"139\"."
+5, Drug, 2659, 2672, "ipragliflozin", "", 
+91, FinalNumPatientsArm, 2675, 2677, "73", "", "<http://ctro/data#Arm_81832> <http://ctro/data#hasFinalNumPatientsArm> \"73\"."
+63, Placebo, 2680, 2687, "placebo", "", 
+92, FinalNumPatientsArm, 2690, 2692, "66", "", "<http://ctro/data#Arm_81841> <http://ctro/data#hasFinalNumPatientsArm> \"66\"."
+208, TimePoint, 2697, 2705, "Baseline", "", 
+212, Mean, 2706, 2710, "mean", "", "<http://ctro/data#Mean_81925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_81923> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_81925>."
+94, HbA1c, 2718, 2723, "HbA1c", "", "<http://ctro/data#Endpoint_81923> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+95, BaseLineValue, 2736, 2742, "7 . 90", "", "<http://ctro/data#Outcome_81928> <http://ctro/data#hasBaselineValue> \"7 . 90\"."
+216, SdDevBL, 2745, 2751, "0 . 69", "", "<http://ctro/data#Outcome_81928> <http://ctro/data#hasSdDevBL> \"0 . 69\"."
+99, Percentage, 2754, 2755, "%", "", "<http://ctro/data#Endpoint_81923> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+6, Drug, 2760, 2773, "ipragliflozin", "", 
+97, BaseLineValue, 2787, 2793, "7 . 92", "", "<http://ctro/data#Outcome_81955> <http://ctro/data#hasBaselineValue> \"7 . 92\"."
+217, SdDevBL, 2796, 2802, "0 . 79", "", "<http://ctro/data#Outcome_81955> <http://ctro/data#hasSdDevBL> \"0 . 79\"."
+100, Percentage, 2805, 2806, "%", "", 
+64, Placebo, 2811, 2818, "placebo", "", 
+222, Mean, 2839, 2843, "mean", "", 
+84, TimePoint, 2864, 2872, "baseline", "", 
+85, TimePoint, 2876, 2879, "EOT", "", "<http://ctro/data#Outcome_81928> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_81955> <http://ctro/data#hasTimePoint> \"EOT\"."
+102, Reduction, 2887, 2893, "0 . 79", "", "<http://ctro/data#Outcome_81928> <http://ctro/data#hasChangeValue> \"0 . 79\"."
+225, SdDevChangeValue, 2896, 2902, "0 . 59", "", "<http://ctro/data#Outcome_81928> <http://ctro/data#hasSdDevChangeValue> \"0 . 59\"."
+106, Percentage, 2905, 2906, "%", "", 
+104, Increment, 2911, 2917, "0 . 03", "", "<http://ctro/data#Outcome_81955> <http://ctro/data#hasChangeValue> \"0 . 03\"."
+226, SdDevChangeValue, 2920, 2926, "0 . 84", "", "<http://ctro/data#Outcome_81955> <http://ctro/data#hasSdDevChangeValue> \"0 . 84\"."
+107, Percentage, 2929, 2930, "%", "", 
+7, Drug, 2961, 2974, "ipragliflozin", "", 
+240, Mean, 2986, 2990, "mean", "", 
+109, DiffGroupAbsValue, 3002, 3010, "- 0 . 83", "", "<http://ctro/data#DiffBetweenGroups_81982> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 83\"."
+108, Percentage, 3011, 3012, "%", "", 
+110, ConfIntervalDiff, 3015, 3043, "95 % CI - 1 . 07 to - 0 . 59", "", "<http://ctro/data#DiffBetweenGroups_81982> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 1 . 07 to - 0 . 59\"."
+111, PvalueDiff, 3048, 3058, "P < . 0001", "", "<http://ctro/data#DiffBetweenGroups_81982> <http://ctro/data#hasPvalueDiff> \"P < . 0001\"."
+8, Drug, 3068, 3081, "ipragliflozin", "", 
+65, Placebo, 3106, 3113, "placebo", "", 
+112, HbA1c_target, 3142, 3174, "HbA1c target levels of < 7 . 0 %", "", "<http://ctro/data#Endpoint_81991> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+231, Percentage, 3173, 3174, "%", "", 
+114, PercentageAffected, 3177, 3183, "44 . 4", "", "<http://ctro/data#Outcome_81996> <http://ctro/data#hasPercentageAffected> \"44 . 4\"."
+115, PercentageAffected, 3189, 3195, "12 . 1", "", "<http://ctro/data#Outcome_82023> <http://ctro/data#hasPercentageAffected> \"12 . 1\"."
+113, HbA1c_target, 3204, 3213, "< 6 . 5 %", "", "<http://ctro/data#Endpoint_82050> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+116, PercentageAffected, 3216, 3222, "12 . 5", "", "<http://ctro/data#Outcome_82055> <http://ctro/data#hasPercentageAffected> \"12 . 5\"."
+117, PercentageAffected, 3228, 3233, "1 . 5", "", "<http://ctro/data#Outcome_82082> <http://ctro/data#hasPercentageAffected> \"1 . 5\"."
+86, TimePoint, 3241, 3244, "EOT", "", "<http://ctro/data#Outcome_81996> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82023> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82055> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82082> <http://ctro/data#hasTimePoint> \"EOT\"."
+262, PvalueDiff, 3247, 3255, "P < . 05", "", "<http://ctro/data#DiffBetweenGroups_82109> <http://ctro/data#hasPvalueDiff> \"P < . 05\". <http://ctro/data#DiffBetweenGroups_82118> <http://ctro/data#hasPvalueDiff> \"P < . 05\"."
+119, FastingPlasmaGlucose, 3269, 3291, "Fasting plasma glucose", "", "<http://ctro/data#Endpoint_82127> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+120, EndPointDescription, 3294, 3315, "fasting serum insulin", "", "<http://ctro/data#EndPointDescription_82133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82132> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82133>."
+122, BodyWeight, 3318, 3329, "body weight", "", "<http://ctro/data#EndPointDescription_82143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82143>."
+121, EndPointDescription, 3334, 3384, "homeostatic model assessment of insulin resistance", "", "<http://ctro/data#EndPointDescription_82143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82143>."
+87, TimePoint, 3412, 3415, "EOT", "", "<http://ctro/data#Outcome_82147> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82174> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82201> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82228> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82255> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82282> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82309> <http://ctro/data#hasTimePoint> \"EOT\". <http://ctro/data#Outcome_82336> <http://ctro/data#hasTimePoint> \"EOT\"."
+9, Drug, 3431, 3444, "ipragliflozin", "", 
+256, Mean, 3456, 3460, "mean", "", "<http://ctro/data#Mean_82129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_82127> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_82129>. <http://ctro/data#Mean_82134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_82132> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_82134>. <http://ctro/data#Mean_82139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_82137> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_82139>. <http://ctro/data#Mean_82144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_82142> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_82144>."
+123, DiffGroupAbsValue, 3472, 3480, "- 1 . 64", "", "<http://ctro/data#DiffBetweenGroups_82363> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 64\"."
+127, Millimoles_per_litre, 3481, 3489, "mmol / L", "", "<http://ctro/data#Endpoint_82127> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+124, DiffGroupAbsValue, 3492, 3500, "- 1 . 50", "", "<http://ctro/data#DiffBetweenGroups_82372> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 50\"."
+128, MicroUnits_per_milliliter, 3501, 3509, "μ U / mL", "", "<http://ctro/data#Endpoint_82132> <http://ctro/data#hasBaselineUnit> <http://ctro/data#MicroUnits_per_milliliter>."
+125, DiffGroupAbsValue, 3512, 3520, "- 1 . 72", "", "<http://ctro/data#DiffBetweenGroups_82381> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 72\"."
+129, Kg, 3521, 3523, "kg", "", "<http://ctro/data#Endpoint_82137> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+126, DiffGroupAbsValue, 3530, 3538, "- 0 . 99", "", "<http://ctro/data#DiffBetweenGroups_82390> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 99\"."
+130, PvalueDiff, 3556, 3564, "P < . 05", "", "<http://ctro/data#DiffBetweenGroups_82363> <http://ctro/data#hasPvalueDiff> \"P < . 05\". <http://ctro/data#DiffBetweenGroups_82372> <http://ctro/data#hasPvalueDiff> \"P < . 05\". <http://ctro/data#DiffBetweenGroups_82381> <http://ctro/data#hasPvalueDiff> \"P < . 05\". <http://ctro/data#DiffBetweenGroups_82390> <http://ctro/data#hasPvalueDiff> \"P < . 05\"."
+131, EndPointDescription, 3577, 3590, "Adverse event", "", "<http://ctro/data#EndPointDescription_82400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_82399> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_82400>."
+67, Drug, 3627, 3640, "ipragliflozin", "", 
+96321, NumberAffected, 3643, 3649, "51 . 4", "", "<http://ctro/data#Outcome_82404> <http://ctro/data#hasNumberAffected> \"51 . 4\"."
+66, Placebo, 3654, 3661, "placebo", "", 
+96325, NumberAffected, 3664, 3670, "50 . 0", "", "<http://ctro/data#Outcome_82431> <http://ctro/data#hasNumberAffected> \"50 . 0\"."
+10, Drug, 3745, 3758, "Ipragliflozin", "", 
+134, ConclusionComment, 3745, 3936, "Ipragliflozin as add - on to metformin and sitagliptin significantly improved glycaemic variables and demonstrated a good safety profile in Korean patients with inadequately controlled T2DM .", "", "<http://ctro/data#ClinicalTrial_81808> <http://ctro/data#hasConclusionComment> \"Ipragliflozin as add - on to metformin and sitagliptin significantly improved glycaemic variables and demonstrated a good safety profile in Korean patients with inadequately controlled T2DM .\"."
+18, Metformin, 3774, 3783, "metformin", "", 
+14, Sitagliptin, 3788, 3799, "sitagliptin", "", 
+21, Ethnicity, 3885, 3891, "Korean", "", 
+25, Type2Diabetes, 3930, 3934, "T2DM", "", 
+135, PMID, 4085, 4093, "29862619", "", "<http://ctro/data#Publication_81801> <http://ctro/data#hasPMID> \"29862619\"."

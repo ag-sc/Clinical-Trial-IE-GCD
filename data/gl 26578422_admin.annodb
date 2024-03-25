@@ -1,0 +1,90 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Jpn J Ophthalmol", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasJournal> \"Jpn J Ophthalmol\"."
+1, PublicationYear, 19, 23, "2016", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasPublicationYear> \"2016\"."
+14, Title, 113, 283, "Comparison of the intraocular pressure - lowering effect and safety of brimonidine / timolol fixed combination and 0 . 5 % timolol in normal - tension glaucoma patients .", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasTitle> \"Comparison of the intraocular pressure - lowering effect and safety of brimonidine / timolol fixed combination and 0 . 5 % timolol in normal - tension glaucoma patients .\"."
+2, IOP, 131, 151, "intraocular pressure", "", 
+3, Brimonidine, 184, 195, "brimonidine", "", 
+4, Timolol, 198, 205, "timolol", "", 
+12, DoseValue, 228, 233, "0 . 5", "", 
+13, Percentage, 234, 235, "%", "", 
+5, Timolol, 236, 243, "timolol", "", 
+33599, NormalTensionGlaucoma, 247, 272, "normal - tension glaucoma", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma>."
+7, Author, 284, 290, "Kim JM", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasAuthor> \"Kim JM\"."
+8, Author, 299, 305, "Kim TW", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasAuthor> \"Kim TW\"."
+9, Author, 314, 320, "Kim CY", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasAuthor> \"Kim CY\"."
+10, Author, 329, 335, "Kim HK", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasAuthor> \"Kim HK\"."
+11, Author, 344, 351, "Park KH", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasAuthor> \"Park KH\"."
+33600, SouthKorea, 497, 514, "Republic of Korea", "", "<http://ctro/data#Population_95954> <http://ctro/data#hasCountry> <http://ctro/data#SouthKorea>."
+33601, SouthKorea, 657, 674, "Republic of Korea", "", 
+33602, SouthKorea, 761, 778, "Republic of Korea", "", 
+33603, SouthKorea, 926, 943, "Republic of Korea", "", 
+33604, SouthKorea, 1075, 1092, "Republic of Korea", "", 
+29, ObjectiveDescription, 1132, 1320, "To compare the therapeutic efficacy and safety of brimonidine / timolol fixed - combination ( BTFC ) and 0 . 5 % timolol ophthalmic solution in normal - tension glaucoma ( NTG ) patients .", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasObjectiveDescription> \"To compare the therapeutic efficacy and safety of brimonidine / timolol fixed - combination ( BTFC ) and 0 . 5 % timolol ophthalmic solution in normal - tension glaucoma ( NTG ) patients .\"."
+54368, Brimo/TimFC, 1182, 1223, "brimonidine / timolol fixed - combination", "", "<http://ctro/data#Medication_95997> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+54367, Brimo/TimFC, 1226, 1230, "BTFC", "", 
+22, DoseValue, 1237, 1242, "0 . 5", "", 
+23, Percentage, 1243, 1244, "%", "", 
+21, Timolol, 1245, 1252, "timolol", "", 
+33605, NormalTensionGlaucoma, 1276, 1301, "normal - tension glaucoma", "", 
+54369, Precondition, 1276, 1318, "normal - tension glaucoma ( NTG ) patients", "", "<http://ctro/data#Population_95954> <http://ctro/data#hasPrecondition> \"normal - tension glaucoma ( NTG ) patients\"."
+33606, NormalTensionGlaucoma, 1304, 1307, "NTG", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma>."
+25, Multicenter, 1342, 1361, "multi - institution", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+26, Randomized, 1364, 1374, "randomized", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+96, CTDesign, 1377, 1396, "active - controlled", "", "<http://ctro/data#CTDesign_95949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_95949>."
+27, OpenLabel, 1399, 1411, "open - label", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+28, Parallel, 1414, 1422, "parallel", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+36, Glaucoma, 1467, 1475, "glaucoma", "", "<http://ctro/data#Glaucoma_95953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_95932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_95953>."
+30, NumberPatientsCT, 1501, 1504, "110", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasNumberPatientsCT> \"110\"."
+33612, NormalTensionGlaucoma, 1505, 1508, "NTG", "", 
+34, NumberPatientsArm, 1522, 1524, "55", "", "<http://ctro/data#Arm_95967> <http://ctro/data#hasNumberPatientsArm> \"55\"."
+54371, Brimo/TimFC, 1549, 1553, "BTFC", "", 
+35, NumberPatientsArm, 1558, 1560, "55", "", "<http://ctro/data#Arm_95976> <http://ctro/data#hasNumberPatientsArm> \"55\"."
+38, DoseValue, 1561, 1566, "0 . 5", "", 
+37, Percentage, 1567, 1568, "%", "", 
+39, Timolol, 1576, 1583, "timolol", "", 
+31, FinalNumPatientsCT, 1841, 1843, "95", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasFinalNumberPatientsCT> \"95\"."
+32, FinalNumPatientsArm, 1857, 1859, "48", "", "<http://ctro/data#Arm_95967> <http://ctro/data#hasFinalNumPatientsArm> \"48\"."
+54370, Brimo/TimFC, 1867, 1871, "BTFC", "", 
+33, FinalNumPatientsArm, 1882, 1884, "47", "", "<http://ctro/data#Arm_95976> <http://ctro/data#hasFinalNumPatientsArm> \"47\"."
+42, DoseValue, 1892, 1897, "0 . 5", "", 
+41, Percentage, 1898, 1899, "%", "", 
+40, Timolol, 1900, 1907, "timolol", "", 
+37037, TimePoint, 1971, 1979, "baseline", "", 
+37038, TimePoint, 1987, 2001, "4 and 12 weeks", "", 
+113, TimePoint, 1993, 2001, "12 weeks", "", 
+43, Diurnal_IOP, 2004, 2015, "Diurnal IOP", "", 
+37036, TimePoint, 2082, 2090, "baseline", "", 
+115, TimePoint, 2114, 2122, "12 weeks", "", 
+116, Eyedrops, 2129, 2139, "eye - drop", "", "<http://ctro/data#Medication_95997> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_96004> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+117, Mean, 2316, 2323, "average", "", "<http://ctro/data#Mean_96130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_96128> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_96130>."
+45, IOP, 2338, 2341, "IOP", "", "<http://ctro/data#IOP_96129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_96128> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_96129>."
+119, TimePoint, 2372, 2380, "12 weeks", "", "<http://ctro/data#Outcome_96133> <http://ctro/data#hasTimePoint> \"12 weeks\". <http://ctro/data#Outcome_96160> <http://ctro/data#hasTimePoint> \"12 weeks\"."
+120, DiffGroupAbsValue, 2429, 2435, "2 . 10", "", "<http://ctro/data#DiffBetweenGroups_96187> <http://ctro/data#hasDiffGroupAbsValue> \"2 . 10\"."
+33598, SdDevDiff, 2438, 2444, "2 . 59", "", "<http://ctro/data#DiffBetweenGroups_96187> <http://ctro/data#hasStandardDevDiff> \"2 . 59\"."
+48, mmHg, 2445, 2449, "mmHg", "", "<http://ctro/data#Endpoint_96128> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+123, IOP, 2480, 2483, "IOP", "", 
+124, DoseValue, 2534, 2539, "0 . 5", "", "<http://ctro/data#Medication_96004> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+125, Percentage, 2540, 2541, "%", "", "<http://ctro/data#Medication_96004> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+126, Timolol, 2542, 2549, "timolol", "", "<http://ctro/data#Medication_96004> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+127, Mean, 2586, 2593, "average", "", "<http://ctro/data#Mean_95964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_95962> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95964>."
+129, EndPointDescription, 2586, 2621, "average IOP had decreased by > 20 %", "", "<http://ctro/data#EndPointDescription_95963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95962> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95963>."
+49, IOP, 2594, 2597, "IOP", "", 
+106362, TimePoint, 2628, 2642, "4 and 12 weeks", "", "<http://ctro/data#Outcome_96011> <http://ctro/data#hasTimePoint> \"4 and 12 weeks\". <http://ctro/data#Outcome_96065> <http://ctro/data#hasTimePoint> \"4 and 12 weeks\"."
+52, TimePoint, 2634, 2642, "12 weeks", "", "<http://ctro/data#Outcome_96038> <http://ctro/data#hasTimePoint> \"12 weeks\". <http://ctro/data#Outcome_96092> <http://ctro/data#hasTimePoint> \"12 weeks\"."
+53, PercentageAffected, 2647, 2649, "50", "", "<http://ctro/data#Outcome_96038> <http://ctro/data#hasTimePoint> \"12 weeks\". <http://ctro/data#Outcome_96092> <http://ctro/data#hasTimePoint> \"12 weeks\"."
+54, PercentageAffected, 2654, 2656, "56", "", "<http://ctro/data#Outcome_96038> <http://ctro/data#hasPercentageAffected> \"56\"."
+54372, Brimo/TimFC, 2666, 2670, "BTFC", "", 
+55, PercentageAffected, 2709, 2716, "29 . 41", "", "<http://ctro/data#Outcome_96065> <http://ctro/data#hasPercentageAffected> \"29 . 41\"."
+56, PercentageAffected, 2721, 2728, "23 . 53", "", "<http://ctro/data#Outcome_96092> <http://ctro/data#hasPercentageAffected> \"23 . 53\"."
+58, DoseValue, 2738, 2743, "0 . 5", "", 
+59, Percentage, 2744, 2745, "%", "", 
+57, Timolol, 2746, 2753, "timolol", "", 
+60, PvalueDiff, 2777, 2788, "p = 0 . 034", "", "<http://ctro/data#DiffBetweenGroups_96119> <http://ctro/data#hasPvalueDiff> \"p = 0 . 034\"."
+140, ConclusionComment, 2819, 2899, "BTFC has a superior IOP - lowering effect than 0 . 5 % timolol in NTG patients .", "", "<http://ctro/data#ClinicalTrial_95932> <http://ctro/data#hasConclusionComment> \"BTFC has a superior IOP - lowering effect than 0 . 5 % timolol in NTG patients .\"."
+54373, Brimo/TimFC, 2819, 2823, "BTFC", "", 
+62, IOP, 2839, 2842, "IOP", "", 
+65, DoseValue, 2866, 2871, "0 . 5", "", 
+63, Percentage, 2872, 2873, "%", "", 
+64, Timolol, 2874, 2881, "timolol", "", 
+33613, NormalTensionGlaucoma, 2885, 2888, "NTG", "", 
+61, PMID, 2949, 2957, "26578422", "", "<http://ctro/data#Publication_95921> <http://ctro/data#hasPMID> \"26578422\"."

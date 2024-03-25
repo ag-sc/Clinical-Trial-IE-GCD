@@ -1,0 +1,84 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 12, "Eye ( Lond )", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasJournal> \"Eye ( Lond )\"."
+1, PublicationYear, 15, 19, "2004", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasPublicationYear> \"2004\"."
+2, Title, 48, 175, "Efficacy and safety of the latanoprost / timolol maleate fixed combination vs concomitant brimonidine and latanoprost therapy .", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasTitle> \"Efficacy and safety of the latanoprost / timolol maleate fixed combination vs concomitant brimonidine and latanoprost therapy .\"."
+3, Latanoprost, 75, 86, "latanoprost", "", 
+5, Lat/TimFC, 75, 122, "latanoprost / timolol maleate fixed combination", "", 
+4, Timolol, 89, 104, "timolol maleate", "", 
+6, Brimonidine, 138, 149, "brimonidine", "", 
+7, Latanoprost, 154, 165, "latanoprost", "", 
+8, Author, 176, 186, "Stewart WC", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+9, Author, 195, 205, "Stewart JA", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+10, Author, 208, 214, "Day DG", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasAuthor> \"Day DG\"."
+11, Author, 217, 226, "Sharpe ED", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasAuthor> \"Sharpe ED\"."
+85, Author, 229, 239, "Jenkins JN", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasAuthor> \"Jenkins JN\"."
+13, USA, 331, 334, "USA", "", 
+14, ObjectiveDescription, 367, 479, "To evaluate the efficacy and safety of latanoprost / timolol maleate fixed combination ( LTFC ) given once daily", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of latanoprost / timolol maleate fixed combination ( LTFC ) given once daily\"."
+16, Latanoprost, 406, 417, "latanoprost", "", 
+18, Lat/TimFC, 406, 453, "latanoprost / timolol maleate fixed combination", "", "<http://ctro/data#Medication_97038> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+17, Timolol, 420, 435, "timolol maleate", "", 
+19, Lat/TimFC, 456, 460, "LTFC", "", 
+20, Frequency, 469, 479, "once daily", "", "<http://ctro/data#Intervention_89339> <http://ctro/data#hasFrequency> \"once daily\"."
+14, ObjectiveDescription, 480, 627, "vs the concomitant therapy of brimonidine twice daily and latanoprost once daily in primary open - angle glaucoma or ocular hypertensive subjects .", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasObjectiveDescription> \"vs the concomitant therapy of brimonidine twice daily and latanoprost once daily in primary open - angle glaucoma or ocular hypertensive subjects .\"."
+21, Brimonidine, 510, 521, "brimonidine", "", "<http://ctro/data#Medication_89371> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+22, Frequency, 522, 533, "twice daily", "", "<http://ctro/data#Intervention_89345> <http://ctro/data#hasFrequency> \"twice daily\"."
+23, Latanoprost, 538, 549, "latanoprost", "", "<http://ctro/data#Latanoprost_89379> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_89378> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_89379>."
+24, Frequency, 550, 560, "once daily", "", "<http://ctro/data#Intervention_89351> <http://ctro/data#hasFrequency> \"once daily\"."
+25, Primary_OpenAngleGlaucoma, 564, 593, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+26, OcularHypertension, 597, 616, "ocular hypertensive", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+27, Prospective, 640, 651, "prospective", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+28, DoubleBlind, 654, 669, "double - masked", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+29, CTDesign, 672, 691, "active - controlled", "", "<http://ctro/data#CTDesign_89390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_89390>."
+30, Glaucoma, 739, 747, "glaucoma", "", 
+31, Precondition, 739, 782, "glaucoma medicines discontinued for 1 month", "", "<http://ctro/data#Population_89313> <http://ctro/data#hasPrecondition> \"glaucoma medicines discontinued for 1 month\"."
+101036, Duration, 775, 782, "1 month", "", 
+32, Randomized, 797, 807, "randomized", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+33, Lat/TimFC, 818, 822, "LTFC", "", 
+34, Brimonidine, 826, 837, "brimonidine", "", 
+35, Latanoprost, 842, 853, "latanoprost", "", 
+36, Duration, 878, 885, "6 weeks", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasCTduration> \"6 weeks\"."
+37, IOP, 949, 969, "intraocular pressure", "", 
+38, IOP, 972, 975, "IOP", "", 
+110, TimePoint, 994, 998, "0800", "", 
+111, TimePoint, 1001, 1005, "1200", "", 
+112, TimePoint, 1012, 1018, "1600 h", "", 
+113, TimePoint, 1019, 1030, "at baseline", "", 
+114, TimePoint, 1035, 1058, "at the end of Periods 1", "", 
+115, TimePoint, 1035, 1071, "at the end of Periods 1 and Period 2", "", 
+101038, NumberPatientsCT, 1087, 1089, "32", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasNumberPatientsCT> \"32\"."
+41, Diurnal_IOP, 1136, 1139, "IOP", "", "<http://ctro/data#Endpoint_89397> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+42, BaseLineValue, 1143, 1149, "26 . 0", "", "<http://ctro/data#Outcome_89402> <http://ctro/data#hasBaselineValue> \"26 . 0\". <http://ctro/data#Outcome_89429> <http://ctro/data#hasBaselineValue> \"26 . 0\"."
+120, SdDevBL, 1156, 1161, "3 . 4", "", "<http://ctro/data#Outcome_89402> <http://ctro/data#hasSdDevBL> \"3 . 4\". <http://ctro/data#Outcome_89429> <http://ctro/data#hasSdDevBL> \"3 . 4\"."
+44, ResultMeasuredValue, 1175, 1181, "17 . 8", "", "<http://ctro/data#Outcome_89402> <http://ctro/data#hasResultMeasuredValue> \"17 . 8\"."
+123, SdDevResValue, 1188, 1193, "2 . 5", "", "<http://ctro/data#Outcome_89402> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+48, Lat/TimFC, 1197, 1201, "LTFC", "", 
+45, ResultMeasuredValue, 1206, 1212, "17 . 2", "", "<http://ctro/data#Outcome_89429> <http://ctro/data#hasResultMeasuredValue> \"17 . 2\"."
+124, SdDevResValue, 1219, 1224, "2 . 8", "", "<http://ctro/data#Outcome_89429> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+49, mmHg, 1225, 1229, "mmHg", "", "<http://ctro/data#Endpoint_89397> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+50, Brimonidine, 1233, 1244, "brimonidine", "", 
+51, Latanoprost, 1249, 1260, "latanoprost", "", 
+106252, PvalueDiff, 1263, 1273, "P = 0 . 31", "", "<http://ctro/data#DiffBetweenGroups_89456> <http://ctro/data#hasPvalueDiff> \"P = 0 . 31\"."
+130, TimePoint, 1281, 1285, "0800", "", "<http://ctro/data#Outcome_89465> <http://ctro/data#hasTimePoint> \"0800\". <http://ctro/data#Outcome_89492> <http://ctro/data#hasTimePoint> \"0800\"."
+131, TimePoint, 1290, 1296, "1600 h", "", "<http://ctro/data#Outcome_89519> <http://ctro/data#hasTimePoint> \"1600 h\"."
+53, IOP, 1303, 1307, "IOPs", "", 
+133, PvalueDiff, 1358, 1371, "& gt ; 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_89573> <http://ctro/data#hasPvalueDiff> \"& gt ; 0 . 05\". <http://ctro/data#DiffBetweenGroups_89582> <http://ctro/data#hasPvalueDiff> \"& gt ; 0 . 05\"."
+134, TimePoint, 1379, 1385, "1200 h", "", "<http://ctro/data#Outcome_89591> <http://ctro/data#hasTimePoint> \"1200 h\". <http://ctro/data#Outcome_89618> <http://ctro/data#hasTimePoint> \"1200 h\"."
+55, Latanoprost, 1390, 1401, "latanoprost", "", 
+56, Brimonidine, 1406, 1417, "brimonidine", "", 
+57, IOP, 1428, 1431, "IOP", "", 
+58, ResultMeasuredValue, 1458, 1464, "16 . 2", "", "<http://ctro/data#Outcome_89618> <http://ctro/data#hasResultMeasuredValue> \"16 . 2\"."
+140, SdDevResValue, 1471, 1476, "3 . 2", "", "<http://ctro/data#Outcome_89618> <http://ctro/data#hasSdDevResValue> \"3 . 2\"."
+62, Lat/TimFC, 1484, 1488, "LTFC", "", 
+59, ResultMeasuredValue, 1491, 1497, "18 . 0", "", "<http://ctro/data#Outcome_89591> <http://ctro/data#hasResultMeasuredValue> \"18 . 0\"."
+141, SdDevResValue, 1504, 1509, "2 . 8", "", "<http://ctro/data#Outcome_89591> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+63, mmHg, 1510, 1514, "mmHg", "", 
+146, ObservedResult, 1519, 1684, "However , the reduced IOP from untreated baseline was not statistically different at each time point and for the diurnal curve for each therapy ( P & lt ; 0 . 05 ) .", "", 
+64, IOP, 1541, 1544, "IOP", "", 
+145, PvalueDiff, 1667, 1680, "& lt ; 0 . 05", "", 
+147, PvalueDiff, 1771, 1784, "& gt ; 0 . 05", "", 
+67, ConclusionComment, 1802, 1967, "This study suggests that LTFC and concomitant therapy of brimonidine and latanoprost provide statistically similar diurnal IOP reduction from an untreated baseline .", "", "<http://ctro/data#ClinicalTrial_89297> <http://ctro/data#hasConclusionComment> \"This study suggests that LTFC and concomitant therapy of brimonidine and latanoprost provide statistically similar diurnal IOP reduction from an untreated baseline .\"."
+68, Lat/TimFC, 1827, 1831, "LTFC", "", 
+69, Brimonidine, 1859, 1870, "brimonidine", "", 
+70, Latanoprost, 1875, 1886, "latanoprost", "", 
+71, Diurnal_IOP, 1917, 1928, "diurnal IOP", "", 
+72, PMID, 2012, 2020, "15037890", "", "<http://ctro/data#Publication_89290> <http://ctro/data#hasPMID> \"15037890\"."

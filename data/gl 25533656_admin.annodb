@@ -1,0 +1,125 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 6, "Lancet", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasJournal> \"Lancet\"."
+1, PublicationYear, 9, 13, "2015", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasPublicationYear> \"2015\"."
+2, Title, 119, 226, "Latanoprost for open - angle glaucoma ( UKGTS ) : a randomised , multicentre , placebo - controlled trial .", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasTitle> \"Latanoprost for open - angle glaucoma ( UKGTS ) : a randomised , multicentre , placebo - controlled trial .\"."
+3, Latanoprost, 119, 130, "Latanoprost", "", 
+4, OpenAngleGlaucoma, 135, 156, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+5, Randomized, 171, 181, "randomised", "", 
+6, Multicenter, 184, 195, "multicentre", "", 
+104982, CTDesign, 198, 218, "placebo - controlled", "", "<http://ctro/data#CTDesign_95172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_95172>."
+8, Author, 227, 244, "Garway - Heath DF", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Garway - Heath DF\"."
+9, Author, 253, 261, "Crabb DP", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Crabb DP\"."
+10, Author, 270, 277, "Bunce C", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Bunce C\"."
+11, Author, 286, 298, "Lascaratos G", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Lascaratos G\"."
+12, Author, 307, 319, "Amalfitano F", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Amalfitano F\"."
+13, Author, 328, 335, "Anand N", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Anand N\"."
+14, Author, 344, 361, "Azuara - Blanco A", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Azuara - Blanco A\"."
+15, Author, 370, 379, "Bourne RR", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Bourne RR\"."
+16, Author, 388, 399, "Broadway DC", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Broadway DC\"."
+17, Author, 406, 419, ", Cunliffe IA", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \", Cunliffe IA\"."
+136, Author, 408, 419, "Cunliffe IA", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Cunliffe IA\"."
+18, Author, 428, 438, "Diamond JP", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Diamond JP\"."
+19, Author, 447, 456, "Fraser SG", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Fraser SG\"."
+20, Author, 466, 471, "Ho TA", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Ho TA\"."
+21, Author, 480, 489, "Martin KR", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Martin KR\"."
+22, Author, 499, 510, "McNaught AI", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"McNaught AI\"."
+23, Author, 520, 526, "Negi A", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Negi A\"."
+24, Author, 535, 542, "Patel K", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Patel K\"."
+25, Author, 551, 561, "Russell RA", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Russell RA\"."
+26, Author, 571, 577, "Shah A", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Shah A\"."
+27, Author, 586, 593, "Spry PG", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Spry PG\"."
+28, Author, 602, 610, "Suzuki K", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Suzuki K\"."
+29, Author, 619, 627, "White ET", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"White ET\"."
+30, Author, 636, 646, "Wormald RP", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Wormald RP\"."
+31, Author, 655, 661, "Xing W", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Xing W\"."
+32, Author, 670, 678, "Zeyen TG", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasAuthor> \"Zeyen TG\"."
+33, UK, 875, 877, "UK", "", "<http://ctro/data#Population_95175> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+34, UK, 945, 947, "uk", "", 
+35, UK, 1028, 1030, "UK", "", 
+36, UK, 1199, 1201, "UK", "", 
+37, UK, 1256, 1258, "UK", "", 
+38, UK, 1305, 1307, "UK", "", 
+39, UK, 1355, 1357, "UK", "", 
+40, UK, 1418, 1420, "UK", "", 
+41, UK, 1479, 1481, "UK", "", 
+42, UK, 1523, 1525, "UK", "", 
+43, UK, 1575, 1577, "UK", "", 
+44, UK, 1626, 1628, "UK", "", 
+45, UK, 1681, 1683, "UK", "", 
+165, UK, 1853, 1855, "UK", "", 
+46, UK, 1930, 1932, "UK", "", 
+47, Country, 1981, 1988, "Belgium", "", "<http://ctro/data#Country_95183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_95175> <http://ctro/data#hasCountry> <http://ctro/data#Country_95183>."
+49, OpenAngleGlaucoma, 2276, 2297, "open - angle glaucoma", "", 
+50, IOP, 2345, 2365, "intraocular pressure", "", 
+104984, CTDesign, 2392, 2412, "placebo - controlled", "", 
+48, ObjectiveDescription, 2564, 2661, "We assessed vision preservation in patients given latanoprost compared with those given placebo .", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasObjectiveDescription> \"We assessed vision preservation in patients given latanoprost compared with those given placebo .\"."
+171, Latanoprost, 2614, 2625, "latanoprost", "", 
+172, Placebo, 2652, 2659, "placebo", "", 
+52, Randomized, 2680, 2690, "randomised", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+106373, CTDesign, 2693, 2708, "triple - masked", "", 
+55, CTDesign, 2711, 2731, "placebo - controlled", "", 
+178, Precondition, 2752, 2803, "patients with newly diagnosed open - angle glaucoma", "", "<http://ctro/data#Population_95175> <http://ctro/data#hasPrecondition> \"patients with newly diagnosed open - angle glaucoma\"."
+56, OpenAngleGlaucoma, 2782, 2803, "open - angle glaucoma", "", 
+58, Multicenter, 2807, 2821, "ten UK centres", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+57, UK, 2811, 2813, "UK", "", 
+59, Randomized, 2931, 2939, "randomly", "", 
+60, AllocationRatio, 2952, 2957, "1 : 1", "", "<http://ctro/data#AllocationRatio_95160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_95160>."
+61, Randomized, 2987, 3000, "randomisation", "", 
+62, Latanoprost, 3086, 3097, "latanoprost", "", "<http://ctro/data#Latanoprost_95185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_95184> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_95185>."
+63, DoseValue, 3098, 3105, "0 · 005", "", "<http://ctro/data#Medication_95184> <http://ctro/data#hasDoseValue> \"0 · 005\"."
+184, Percentage, 3106, 3107, "%", "", "<http://ctro/data#Medication_95184> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+64, Placebo, 3134, 3141, "placebo", "", "<http://ctro/data#Medication_95191> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+65, Eyedrops, 3160, 3169, "eye drops", "", "<http://ctro/data#Medication_95184> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_95191> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+104985, DoseDescription, 3172, 3246, "Drops were administered from identical bottles , once a day , to both eyes", "", "<http://ctro/data#Medication_95184> <http://ctro/data#hasDoseDescription> \"Drops were administered from identical bottles , once a day , to both eyes\". <http://ctro/data#Medication_95191> <http://ctro/data#hasDoseDescription> \"Drops were administered from identical bottles , once a day , to both eyes\"."
+66, Eyedrops, 3172, 3177, "Drops", "", 
+67, Frequency, 3221, 3231, "once a day", "", "<http://ctro/data#Intervention_95198> <http://ctro/data#hasFrequency> \"once a day\". <http://ctro/data#Intervention_95222> <http://ctro/data#hasFrequency> \"once a day\"."
+70, EndPointDescription, 3273, 3307, "time to visual field deterioration", "", 
+68, Duration, 3315, 3324, "24 months", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasCTduration> \"24 months\"."
+104986, TimePoint, 3473, 3485, "Jan 6 , 2011", "", 
+71, EndPointDescription, 3684, 3718, "time to visual field deterioration", "", 
+69, Duration, 3726, 3735, "24 months", "", 
+72, NumberPatientsCT, 3812, 3815, "516", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasNumberPatientsCT> \"516\"."
+192, TimePoint, 3836, 3848, "Dec 1 , 2006", "", 
+193, TimePoint, 3855, 3870, "March 16 , 2010", "", 
+77, Mean, 3882, 3886, "mean", "", "<http://ctro/data#Mean_95230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_95228> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95230>."
+78, IOP, 3887, 3907, "intraocular pressure", "", "<http://ctro/data#IOP_95229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_95228> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_95229>."
+79, BaseLineValue, 3912, 3918, "19 · 6", "", "<http://ctro/data#Outcome_95233> <http://ctro/data#hasBaselineValue> \"19 · 6\"."
+81, mmHg, 3919, 3924, "mm Hg", "", "<http://ctro/data#Endpoint_95228> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+83, SdDevBL, 3930, 3935, "4 · 6", "", "<http://ctro/data#Outcome_95233> <http://ctro/data#hasSdDevBL> \"4 · 6\"."
+85, NumberPatientsArm, 3941, 3944, "258", "", "<http://ctro/data#Arm_95204> <http://ctro/data#hasNumberPatientsArm> \"258\"."
+87, Latanoprost, 3961, 3972, "latanoprost", "", 
+80, BaseLineValue, 3983, 3989, "20 · 1", "", "<http://ctro/data#Outcome_95260> <http://ctro/data#hasBaselineValue> \"20 · 1\"."
+82, mmHg, 3990, 3995, "mm Hg", "", 
+84, SdDevBL, 3998, 4003, "4 · 8", "", "<http://ctro/data#Outcome_95260> <http://ctro/data#hasSdDevBL> \"4 · 8\"."
+86, NumberPatientsArm, 4009, 4012, "258", "", "<http://ctro/data#Arm_95213> <http://ctro/data#hasNumberPatientsArm> \"258\"."
+88, Placebo, 4013, 4021, "controls", "", 
+205, TimePoint, 4027, 4036, "24 months", "", "<http://ctro/data#Outcome_95233> <http://ctro/data#hasTimePoint> \"24 months\". <http://ctro/data#Outcome_95260> <http://ctro/data#hasTimePoint> \"24 months\"."
+90, Mean, 4039, 4043, "mean", "", 
+91, IOP, 4057, 4077, "intraocular pressure", "", 
+92, Reduction, 4082, 4087, "3 · 8", "", "<http://ctro/data#Outcome_95233> <http://ctro/data#hasChangeValue> \"3 · 8\"."
+94, mmHg, 4088, 4093, "mm Hg", "", 
+96, SdDevChangeValue, 4096, 4101, "4 · 0", "", "<http://ctro/data#Outcome_95233> <http://ctro/data#hasSdDevChangeValue> \"4 · 0\"."
+98, FinalNumPatientsArm, 4107, 4110, "231", "", "<http://ctro/data#Arm_95204> <http://ctro/data#hasFinalNumPatientsArm> \"231\"."
+101, Latanoprost, 4136, 4147, "latanoprost", "", 
+93, Reduction, 4158, 4163, "0 · 9", "", "<http://ctro/data#Outcome_95260> <http://ctro/data#hasChangeValue> \"0 · 9\"."
+95, mmHg, 4164, 4169, "mm Hg", "", 
+97, SdDevChangeValue, 4172, 4177, "3 · 8", "", "<http://ctro/data#Outcome_95260> <http://ctro/data#hasSdDevChangeValue> \"3 · 8\"."
+99, FinalNumPatientsArm, 4183, 4186, "230", "", "<http://ctro/data#Arm_95213> <http://ctro/data#hasFinalNumPatientsArm> \"230\"."
+100, Placebo, 4212, 4219, "placebo", "", 
+102, EndPointDescription, 4228, 4253, "Visual field preservation", "", "<http://ctro/data#EndPointDescription_95288> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95287> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95288>."
+106376, ObservedResult, 4254, 4329, "was significantly longer in the latanoprost group than in the placebo group", "", "<http://ctro/data#Outcome_97080> <http://ctro/data#hasObservedResult> \"was significantly longer in the latanoprost group than in the placebo group\"."
+103, Latanoprost, 4286, 4297, "latanoprost", "", 
+104, Placebo, 4316, 4323, "placebo", "", 
+106375, DiffGroupAbsValue, 4361, 4367, "0 · 44", "", "<http://ctro/data#DiffBetweenGroups_96980> <http://ctro/data#hasDiffGroupAbsValue> \"0 · 44\"."
+104987, ConfIntervalDiff, 4370, 4393, "95 % CI 0 · 28 - 0 · 69", "", "<http://ctro/data#DiffBetweenGroups_96980> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 0 · 28 - 0 · 69\"."
+106, PvalueDiff, 4396, 4408, "p = 0 · 0003", "", "<http://ctro/data#DiffBetweenGroups_96980> <http://ctro/data#hasPvalueDiff> \"p = 0 · 0003\"."
+220, NumberAffected, 4422, 4424, "18", "", 
+117, ConclusionComment, 4505, 4689, "This is the first randomised placebo - controlled trial to show preservation of the visual field with an intraocular - pressure - lowering drug in patients with open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasConclusionComment> \"This is the first randomised placebo - controlled trial to show preservation of the visual field with an intraocular - pressure - lowering drug in patients with open - angle glaucoma .\"."
+110, Randomized, 4523, 4533, "randomised", "", 
+112, CTDesign, 4534, 4554, "placebo - controlled", "", 
+113, IOP, 4610, 4632, "intraocular - pressure", "", 
+114, OpenAngleGlaucoma, 4666, 4687, "open - angle glaucoma", "", 
+118, ConclusionComment, 4690, 4806, "The study design enabled significant differences in vision to be assessed in a relatively short observation period .", "", "<http://ctro/data#ClinicalTrial_95156> <http://ctro/data#hasConclusionComment> \"The study design enabled significant differences in vision to be assessed in a relatively short observation period .\"."
+115, ConflictInterest, 4817, 4896, "Pfizer , UK National Institute for Health Research Biomedical Research Centre .", "", 
+230, UK, 4826, 4828, "UK", "", 
+116, PMID, 5101, 5109, "25533656", "", "<http://ctro/data#Publication_95124> <http://ctro/data#hasPMID> \"25533656\"."

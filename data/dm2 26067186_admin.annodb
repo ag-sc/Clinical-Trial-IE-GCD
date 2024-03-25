@@ -1,0 +1,102 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 12, "Diabetologia", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasJournal> \"Diabetologia\"."
+1, PublicationYear, 15, 19, "2015", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasPublicationYear> \"2015\"."
+22, Title, 111, 246, "Comparison of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment : a randomised clinical trial .", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasTitle> \"Comparison of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment : a randomised clinical trial .\"."
+2, Vildagliptin, 125, 137, "vildagliptin", "", 
+9, Sitagliptin, 142, 153, "sitagliptin", "", 
+16, Type2Diabetes, 171, 186, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+93450, DisorderOrSyndrome, 198, 214, "renal impairment", "", "<http://ctro/data#DisorderOrSyndrome_68369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DisorderOrSyndrome>. <http://ctro/data#ClinicalTrial_68299> <http://ctro/data#analysesHealthCondition> <http://ctro/data#DisorderOrSyndrome_68369>."
+19, Randomized, 219, 229, "randomised", "", 
+23, Author, 247, 255, "Kothny W", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> \"Kothny W\"."
+24, Author, 264, 277, "Lukashevich V", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> \"Lukashevich V\"."
+25, Author, 280, 288, "Foley JE", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> \"Foley JE\"."
+26, Author, 291, 301, "Rendell MS", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> \"Rendell MS\"."
+27, Author, 304, 315, "Schweizer A", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasAuthor> \"Schweizer A\"."
+28, Switzerland, 397, 408, "Switzerland", "", 
+31, ObjectiveDescription, 560, 697, "We compared the safety and efficacy of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment ( RI ) .", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasObjectiveDescription> \"We compared the safety and efficacy of vildagliptin and sitagliptin in patients with type 2 diabetes and severe renal impairment ( RI ) .\"."
+3, Vildagliptin, 599, 611, "vildagliptin", "", 
+10, Sitagliptin, 616, 627, "sitagliptin", "", 
+29, Precondition, 631, 695, "patients with type 2 diabetes and severe renal impairment ( RI )", "", "<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes and severe renal impairment ( RI )\"."
+17, Type2Diabetes, 645, 660, "type 2 diabetes", "", 
+93449, DisorderOrSyndrome, 672, 688, "renal impairment", "", 
+32, Parallel, 725, 739, "parallel - arm", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+20, Randomized, 742, 752, "randomised", "", 
+33, Multicenter, 755, 766, "multicentre", "", 
+34, DoubleBlind, 769, 783, "double - blind", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+35, Duration, 786, 793, "24 week", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTduration> \"24 week\"."
+121, Multicenter, 813, 849, "87 centres across Brazil and the USA", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36, Brazil, 831, 837, "Brazil", "", 
+37, USA, 846, 849, "USA", "", 
+93444, Precondition, 852, 986, "Patients with type 2 diabetes , either drug naive or treated with any glucose - lowering agents , who had inadequate glycaemic control", "", "<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> \"Patients with type 2 diabetes , either drug naive or treated with any glucose - lowering agents , who had inadequate glycaemic control\"."
+18, Type2Diabetes, 866, 881, "type 2 diabetes", "", 
+38, HbA1c, 989, 994, "HbA1c", "", 
+41, Percentage, 1010, 1011, "%", "", 
+130, ConcentrationUnit, 1022, 1032, "mmol / mol", "", 
+93448, Precondition, 1044, 1069, "estimated GFR < 30 ml min", "", "<http://ctro/data#Population_68315> <http://ctro/data#hasPrecondition> \"estimated GFR < 30 ml min\"."
+43, BioAndMedicalUnit, 1063, 1069, "ml min", "", 
+44, BioAndMedicalUnit, 1087, 1088, "m", "", 
+21, Randomized, 1104, 1114, "randomised", "", 
+4, Vildagliptin, 1164, 1176, "vildagliptin", "", "<http://ctro/data#Medication_68353> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+46, DoseValue, 1177, 1179, "50", "", "<http://ctro/data#Medication_68353> <http://ctro/data#hasDoseValue> \"50\"."
+48, mg, 1180, 1182, "mg", "", "<http://ctro/data#Medication_68353> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+50, Frequency, 1183, 1193, "once daily", "", "<http://ctro/data#Intervention_68341> <http://ctro/data#hasFrequency> \"once daily\"."
+11, Sitagliptin, 1197, 1208, "sitagliptin", "", "<http://ctro/data#Medication_68360> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+47, DoseValue, 1209, 1211, "25", "", "<http://ctro/data#Medication_68360> <http://ctro/data#hasDoseValue> \"25\"."
+49, mg, 1212, 1214, "mg", "", "<http://ctro/data#Medication_68360> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+51, Frequency, 1215, 1225, "once daily", "", "<http://ctro/data#Intervention_68347> <http://ctro/data#hasFrequency> \"once daily\"."
+40, HbA1c, 1438, 1443, "HbA1c", "", 
+52, FastingPlasmaGlucose, 1448, 1470, "fasting plasma glucose", "", 
+53, FastingPlasmaGlucose, 1473, 1476, "FPG", "", 
+55, EndPointDescription, 1564, 1578, "adverse events", "", 
+56, NumberPatientsCT, 1602, 1605, "148", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasNumberPatientsCT> \"148\"."
+57, Randomized, 1620, 1630, "randomised", "", 
+58, NumberPatientsArm, 1633, 1635, "83", "", "<http://ctro/data#Arm_68323> <http://ctro/data#hasNumberPatientsArm> \"83\"."
+5, Vildagliptin, 1639, 1651, "vildagliptin", "", 
+59, NumberPatientsArm, 1656, 1658, "65", "", "<http://ctro/data#Arm_68332> <http://ctro/data#hasNumberPatientsArm> \"65\"."
+12, Sitagliptin, 1662, 1673, "sitagliptin", "", 
+60, TimePoint, 1711, 1719, "24 weeks", "", "<http://ctro/data#Outcome_68383> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_68410> <http://ctro/data#hasTimePoint> \"24 weeks\"."
+152, Mean, 1735, 1739, "mean", "", "<http://ctro/data#Mean_68380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_68378> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_68380>."
+39, HbA1c, 1750, 1755, "HbA1c", "", "<http://ctro/data#Endpoint_68378> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+62, Reduction, 1762, 1768, "0 . 54", "", "<http://ctro/data#Outcome_68383> <http://ctro/data#hasChangeValue> \"0 . 54\"."
+67, Percentage, 1769, 1770, "%", "", "<http://ctro/data#Endpoint_68378> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+64, Reduction, 1773, 1778, "5 . 9", "", 
+164, ConcentrationUnit, 1779, 1789, "mmol / mol", "", 
+61, TimePoint, 1799, 1807, "baseline", "", 
+73, BaseLineValue, 1811, 1817, "7 . 52", "", "<http://ctro/data#Outcome_68383> <http://ctro/data#hasBaselineValue> \"7 . 52\"."
+77, Percentage, 1818, 1819, "%", "", 
+76, BaseLineValue, 1822, 1824, "59", "", 
+165, ConcentrationUnit, 1825, 1835, "mmol / mol", "", 
+6, Vildagliptin, 1843, 1855, "vildagliptin", "", 
+63, Reduction, 1862, 1868, "0 . 56", "", "<http://ctro/data#Outcome_68410> <http://ctro/data#hasChangeValue> \"0 . 56\"."
+68, Percentage, 1869, 1870, "%", "", 
+65, Reduction, 1873, 1878, "6 . 1", "", 
+166, ConcentrationUnit, 1879, 1889, "mmol / mol", "", 
+66, TimePoint, 1899, 1907, "baseline", "", 
+74, BaseLineValue, 1911, 1917, "7 . 80", "", "<http://ctro/data#Outcome_68410> <http://ctro/data#hasBaselineValue> \"7 . 80\"."
+78, Percentage, 1918, 1919, "%", "", 
+75, BaseLineValue, 1922, 1924, "62", "", 
+167, ConcentrationUnit, 1925, 1935, "mmol / mol", "", 
+13, Sitagliptin, 1943, 1954, "sitagliptin", "", 
+79, PvalueDiff, 1957, 1970, "p  =  0 . 874", "", "<http://ctro/data#DiffBetweenGroups_68437> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 874\"."
+54, FastingPlasmaGlucose, 1975, 1978, "FPG", "", "<http://ctro/data#Endpoint_68446> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+80, Reduction, 1992, 1998, "0 . 47", "", "<http://ctro/data#Outcome_68451> <http://ctro/data#hasChangeValue> \"0 . 47\"."
+81, SdDevChangeValue, 2003, 2009, "0 . 37", "", "<http://ctro/data#Outcome_68451> <http://ctro/data#hasSdDevChangeValue> \"0 . 37\"."
+83, Millimoles_per_litre, 2010, 2018, "mmol / l", "", "<http://ctro/data#Endpoint_68446> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+7, Vildagliptin, 2024, 2036, "vildagliptin", "", 
+85, Increment, 2054, 2060, "0 . 16", "", "<http://ctro/data#Outcome_68478> <http://ctro/data#hasChangeValue> \"0 . 16\"."
+82, SdDevChangeValue, 2065, 2071, "0 . 43", "", "<http://ctro/data#Outcome_68478> <http://ctro/data#hasSdDevChangeValue> \"0 . 43\"."
+84, Millimoles_per_litre, 2072, 2080, "mmol / l", "", 
+14, Sitagliptin, 2086, 2097, "sitagliptin", "", 
+86, PvalueDiff, 2100, 2113, "p  =  0 . 185", "", "<http://ctro/data#DiffBetweenGroups_68505> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 185\"."
+94, ConclusionComment, 2224, 2414, "At their recommended doses for severe RI , vildagliptin ( 50 mg once daily ) compared with sitagliptin ( 25 mg once daily ) demonstrated similar efficacy and both drugs were well tolerated .", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasConclusionComment> \"At their recommended doses for severe RI , vildagliptin ( 50 mg once daily ) compared with sitagliptin ( 25 mg once daily ) demonstrated similar efficacy and both drugs were well tolerated .\"."
+8, Vildagliptin, 2267, 2279, "vildagliptin", "", 
+88, DoseValue, 2282, 2284, "50", "", 
+90, mg, 2285, 2287, "mg", "", 
+92, Frequency, 2288, 2298, "once daily", "", 
+15, Sitagliptin, 2315, 2326, "sitagliptin", "", 
+89, DoseValue, 2329, 2331, "25", "", 
+91, mg, 2332, 2334, "mg", "", 
+93, Frequency, 2335, 2345, "once daily", "", 
+95, ConclusionComment, 2415, 2513, "This study provides further support for the use of DPP - 4 inhibitors in patients with severe RI .", "", "<http://ctro/data#ClinicalTrial_68299> <http://ctro/data#hasConclusionComment> \"This study provides further support for the use of DPP - 4 inhibitors in patients with severe RI .\"."
+93451, PharmacySponsored, 2592, 2640, "This study was planned and conducted by Novartis", "", 
+96, PMID, 2711, 2719, "26067186", "", "<http://ctro/data#Publication_68292> <http://ctro/data#hasPMID> \"26067186\"."

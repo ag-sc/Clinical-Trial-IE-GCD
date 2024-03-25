@@ -1,0 +1,67 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+60, Journal, 0, 28, "Nippon Ganka Gakkai Zasshi .", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasJournal> \"Nippon Ganka Gakkai Zasshi .\"."
+1, PublicationYear, 29, 33, "2010", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasPublicationYear> \"2010\"."
+11, Title, 65, 252, "Intraocular pressure lowering effect of 0 . 0015 % tafluprost as compared to placebo in patients with normal tension glaucoma : randomized , double - blind , multicenter , phase III study", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasTitle> \"Intraocular pressure lowering effect of 0 . 0015 % tafluprost as compared to placebo in patients with normal tension glaucoma : randomized , double - blind , multicenter , phase III study\"."
+2, IOP, 65, 85, "Intraocular pressure", "", "<http://ctro/data#IOP_81144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_81143> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_81144>."
+4, DoseValue, 105, 113, "0 . 0015", "", 
+5, Percentage, 114, 115, "%", "", 
+3, Tafluprost, 116, 126, "tafluprost", "", 
+6, Placebo, 142, 149, "placebo", "", 
+36998, NormalTensionGlaucoma, 167, 190, "normal tension glaucoma", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma>."
+8, Randomized, 193, 203, "randomized", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, DoubleBlind, 206, 220, "double - blind", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+10, Multicenter, 223, 234, "multicenter", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+69, Author, 281, 291, "Kuwayama Y", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasAuthor> \"Kuwayama Y\"."
+70, Author, 300, 311, "Komemushi S", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasAuthor> \"Komemushi S\"."
+106, Tafluprost, 314, 324, "Tafluprost", "", 
+12, Japan, 440, 445, "Japan", "", "<http://ctro/data#Population_81135> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+20, ObjectiveDescription, 458, 634, "To compare the efficacy and safety of 0 . 0015 % tafluprost ophthalmic solution ( Tafluprost ) with Placebo ophthalmic solution ( Placebo ) in normal tension glaucoma ( NTG ) .", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of 0 . 0015 % tafluprost ophthalmic solution ( Tafluprost ) with Placebo ophthalmic solution ( Placebo ) in normal tension glaucoma ( NTG ) .\"."
+13, DoseValue, 496, 504, "0 . 0015", "", "<http://ctro/data#Medication_81178> <http://ctro/data#hasDoseValue> \"0 . 0015\"."
+14, Percentage, 505, 506, "%", "", "<http://ctro/data#Medication_81178> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+15, Tafluprost, 507, 537, "tafluprost ophthalmic solution", "", "<http://ctro/data#Medication_81178> <http://ctro/data#hasDrug> <http://ctro/data#Tafluprost>."
+16, Tafluprost, 540, 550, "Tafluprost", "", 
+31864, Placebo, 558, 565, "Placebo", "", "<http://ctro/data#Medication_81185> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+18, Placebo, 588, 595, "Placebo", "", 
+36999, NormalTensionGlaucoma, 601, 624, "normal tension glaucoma", "", 
+37000, NormalTensionGlaucoma, 627, 630, "NTG", "", 
+21, NumberPatientsCT, 654, 656, "94", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasNumberPatientsCT> \"94\"."
+22, Randomized, 680, 690, "randomized", "", 
+23, DoubleBlind, 693, 707, "double - blind", "", 
+24, Parallel, 710, 718, "parallel", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+25, Multicenter, 731, 742, "multicenter", "", 
+37001, NormalTensionGlaucoma, 774, 777, "NTG", "", 
+27, Randomized, 783, 791, "randomly", "", 
+28, Tafluprost, 811, 821, "Tafluprost", "", 
+29, Placebo, 825, 832, "Placebo", "", 
+30, Frequency, 876, 886, "once a day", "", "<http://ctro/data#Intervention_81166> <http://ctro/data#hasFrequency> \"once a day\". <http://ctro/data#Intervention_81172> <http://ctro/data#hasFrequency> \"once a day\"."
+82, Morning, 894, 901, "morning", "", "<http://ctro/data#Intervention_81166> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>. <http://ctro/data#Intervention_81172> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+32, Duration, 906, 913, "4 weeks", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasCTduration> \"4 weeks\"."
+33, Mean, 926, 930, "Mean", "", "<http://ctro/data#Mean_81145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_81143> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_81145>."
+34, IOP, 931, 951, "intraocular pressure", "", 
+35, IOP, 954, 957, "IOP", "", 
+87, Reduction, 989, 994, "4 . 0", "", "<http://ctro/data#Outcome_81192> <http://ctro/data#hasChangeValue> \"4 . 0\"."
+37, SdDevChangeValue, 1001, 1006, "1 . 7", "", "<http://ctro/data#Outcome_81192> <http://ctro/data#hasSdDevChangeValue> \"1 . 7\"."
+38, mmHg, 1007, 1011, "mmHg", "", "<http://ctro/data#Endpoint_81143> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+73, Tafluprost, 1015, 1025, "Tafluprost", "", 
+90, Reduction, 1054, 1059, "1 . 4", "", "<http://ctro/data#Outcome_81219> <http://ctro/data#hasChangeValue> \"1 . 4\"."
+40, SdDevChangeValue, 1066, 1071, "1 . 8", "", "<http://ctro/data#Outcome_81219> <http://ctro/data#hasSdDevChangeValue> \"1 . 8\"."
+41, mmHg, 1072, 1076, "mmHg", "", 
+42, Placebo, 1080, 1087, "Placebo", "", 
+43, TimePoint, 1113, 1120, "4 weeks", "", "<http://ctro/data#Outcome_81192> <http://ctro/data#hasTimePoint> \"4 weeks\". <http://ctro/data#Outcome_81219> <http://ctro/data#hasTimePoint> \"4 weeks\"."
+44, PvalueDiff, 1169, 1180, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_81246> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+45, IOP, 1185, 1188, "IOP", "", 
+46, TimePoint, 1199, 1206, "4 weeks", "", 
+47, IOP, 1211, 1214, "IOP", "", 
+105, TimePoint, 1228, 1241, "2 and 4 weeks", "", 
+36995, TimePoint, 1234, 1241, "4 weeks", "", 
+48, Tafluprost, 1277, 1287, "Tafluprost", "", 
+49, Placebo, 1296, 1303, "Placebo", "", 
+31865, PercentageAffected, 1317, 1323, "51 . 0", "", "<http://ctro/data#Outcome_81260> <http://ctro/data#hasPercentageAffected> \"51 . 0\"."
+52, Tafluprost, 1329, 1339, "Tafluprost", "", 
+53, PercentageAffected, 1358, 1363, "8 . 9", "", "<http://ctro/data#Outcome_81287> <http://ctro/data#hasPercentageAffected> \"8 . 9\"."
+54, Placebo, 1369, 1376, "Placebo", "", 
+31867, EndPointDescription, 1400, 1422, "adverse drug reactions", "", "<http://ctro/data#EndPointDescription_81256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_81255> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_81256>."
+58, ConclusionComment, 1438, 1523, "These results indicate that Tafluprost is clinically useful in the treatment of NTG .", "", "<http://ctro/data#ClinicalTrial_81116> <http://ctro/data#hasConclusionComment> \"These results indicate that Tafluprost is clinically useful in the treatment of NTG .\"."
+56, Tafluprost, 1466, 1476, "Tafluprost", "", 
+36996, NormalTensionGlaucoma, 1518, 1521, "NTG", "", 
+59, PMID, 1531, 1539, "20545217", "", "<http://ctro/data#Publication_81108> <http://ctro/data#hasPMID> \"20545217\"."

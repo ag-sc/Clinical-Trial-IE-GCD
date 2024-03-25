@@ -1,0 +1,116 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 14, "Eye ( Lond ) .", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasJournal> \"Eye ( Lond ) .\"."
+1, PublicationYear, 15, 19, "2016", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasPublicationYear> \"2016\"."
+2, Title, 107, 251, "Ocular hypotensive effect of fixed - combination brinzolamide / brimonidine adjunctive to a prostaglandin analog : a randomized clinical trial .", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasTitle> \"Ocular hypotensive effect of fixed - combination brinzolamide / brimonidine adjunctive to a prostaglandin analog : a randomized clinical trial .\"."
+6, Brinz/BrimoFC, 136, 182, "fixed - combination brinzolamide / brimonidine", "", 
+3, Brinzolamide, 156, 168, "brinzolamide", "", 
+4, Brimonidine, 171, 182, "brimonidine", "", 
+92828, ProstaglandinAnalogs, 199, 219, "prostaglandin analog", "", 
+5, Randomized, 224, 234, "randomized", "", 
+7, Author, 252, 263, "Fechtner RD", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasAuthor> \"Fechtner RD\"."
+8, Author, 272, 280, "Myers JS", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasAuthor> \"Myers JS\"."
+9, Author, 289, 300, "Hubatsch DA", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasAuthor> \"Hubatsch DA\"."
+10, Author, 309, 318, "Budenz DL", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasAuthor> \"Budenz DL\"."
+11, Author, 327, 337, "DuBiner HB", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasAuthor> \"DuBiner HB\"."
+12, USA, 453, 456, "USA", "", "<http://ctro/data#Population_95328> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+13, USA, 506, 509, "USA", "", 
+14, USA, 565, 568, "USA", "", 
+15, USA, 657, 660, "USA", "", 
+16, USA, 704, 707, "USA", "", 
+92796, ObjectiveDescription, 710, 936, "PurposeTo determine whether intraocular pressure ( IOP ) lowering with fixed - combination brinzolamide / brimonidine ( BBFC ) adjunctive to a prostaglandin analog ( PGA ) was superior to that of vehicle + PGA in patients with", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasObjectiveDescription> \"PurposeTo determine whether intraocular pressure ( IOP ) lowering with fixed - combination brinzolamide / brimonidine ( BBFC ) adjunctive to a prostaglandin analog ( PGA ) was superior to that of vehicle + PGA in patients with\"."
+123, IOP, 738, 758, "intraocular pressure", "", 
+124, IOP, 761, 764, "IOP", "", 
+125, Brinzolamide, 801, 813, "brinzolamide", "", "<http://ctro/data#Medication_95337> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+127, Brinz/BrimoFC, 801, 827, "brinzolamide / brimonidine", "", 
+126, Brimonidine, 816, 827, "brimonidine", "", "<http://ctro/data#Medication_95344> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+128, Brinz/BrimoFC, 830, 834, "BBFC", "", 
+92829, ProstaglandinAnalogs, 853, 873, "prostaglandin analog", "", "<http://ctro/data#Medication_95367> <http://ctro/data#hasDrug> <http://ctro/data#ProstaglandinAnalogs>."
+92830, ProstaglandinAnalogs, 876, 879, "PGA", "", 
+92824, Vehicle, 906, 913, "vehicle", "", "<http://ctro/data#Medication_95381> <http://ctro/data#hasDrug> <http://ctro/data#Vehicle>."
+92831, ProstaglandinAnalogs, 916, 919, "PGA", "", 
+130, OpenAngleGlaucoma, 937, 958, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+92818, ObjectiveDescription, 937, 1046, "open - angle glaucoma or ocular hypertension who were inadequately controlled with PGA monotherapyMethodsThis", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasObjectiveDescription> \"open - angle glaucoma or ocular hypertension who were inadequately controlled with PGA monotherapyMethodsThis\"."
+150, OcularHypertension, 962, 981, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+131, Precondition, 991, 1023, "inadequately controlled with PGA", "", "<http://ctro/data#Population_95328> <http://ctro/data#hasPrecondition> \"inadequately controlled with PGA\"."
+92832, ProstaglandinAnalogs, 1020, 1023, "PGA", "", 
+20, Duration, 1047, 1055, "6 - week", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTduration> \"6 - week\"."
+21, Multicenter, 1058, 1069, "multicenter", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+22, Randomized, 1072, 1082, "randomized", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+23, DoubleBlind, 1085, 1100, "double - masked", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+24, Parallel, 1103, 1119, "parallel - group", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+25, Multicenter, 1143, 1160, "30 clinical sites", "", 
+26, USA, 1168, 1181, "United States", "", 
+92819, Precondition, 1241, 1379, "adults with open - angle glaucoma or ocular hypertension and with mean IOP ≥ 21 and < 32   mm   Hg , whereas receiving an open - label PGA", "", "<http://ctro/data#Population_95328> <http://ctro/data#hasPrecondition> \"adults with open - angle glaucoma or ocular hypertension and with mean IOP ≥ 21 and < 32   mm   Hg , whereas receiving an open - label PGA\"."
+28, OpenAngleGlaucoma, 1253, 1274, "open - angle glaucoma", "", 
+29, OcularHypertension, 1278, 1297, "ocular hypertension", "", 
+30, Mean, 1307, 1311, "mean", "", 
+31, IOP, 1312, 1315, "IOP", "", 
+32, mmHg, 1332, 1339, "mm   Hg", "", 
+144, OpenLabel, 1363, 1375, "open - label", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+92840, ProstaglandinAnalogs, 1376, 1379, "PGA", "", 
+34, Latanoprost, 1382, 1393, "latanoprost", "", 
+35, Bimatoprost, 1396, 1407, "bimatoprost", "", 
+36, Travoprost, 1413, 1423, "travoprost", "", 
+92820, DeliveryMethod, 1437, 1446, "instilled", "", "<http://ctro/data#DeliveryMethod_95341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_95337> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_95341>. <http://ctro/data#DeliveryMethod_95348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_95344> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_95348>. <http://ctro/data#DeliveryMethod_95371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_95367> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_95371>. <http://ctro/data#DeliveryMethod_95385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_95381> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_95385>."
+92841, ProstaglandinAnalogs, 1449, 1452, "PGA", "", 
+37, Frequency, 1453, 1465, "once - daily", "", "<http://ctro/data#Intervention_95374> <http://ctro/data#hasFrequency> \"once - daily\"."
+38, Randomized, 1493, 1506, "randomization", "", 
+92823, Blind, 1510, 1516, "masked", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+39, Brinz/BrimoFC, 1517, 1521, "BBFC", "", 
+92825, Vehicle, 1525, 1532, "vehicle", "", 
+92821, Blind, 1556, 1562, "Masked", "", 
+92822, DeliveryMethod, 1579, 1588, "instilled", "", 
+41, Frequency, 1589, 1602, "3 times daily", "", "<http://ctro/data#Intervention_95351> <http://ctro/data#hasFrequency> \"3 times daily\". <http://ctro/data#Intervention_95395> <http://ctro/data#hasFrequency> \"3 times daily\"."
+42, Duration, 1607, 1614, "6 weeks", "", 
+43, Frequency, 1640, 1652, "once - daily", "", 
+92833, ProstaglandinAnalogs, 1666, 1669, "PGA", "", 
+44, Mean, 1741, 1745, "mean", "", 
+45, Diurnal_IOP, 1746, 1757, "diurnal IOP", "", 
+161, TimePoint, 1771, 1775, "0800", "", 
+162, TimePoint, 1778, 1782, "1000", "", 
+163, TimePoint, 1785, 1789, "1500", "", 
+164, TimePoint, 1796, 1800, "1700", "", 
+165, TimePoint, 1824, 1830, "week 6", "", 
+47, TimePoint, 1843, 1849, "week 6", "", "<http://ctro/data#Outcome_95418> <http://ctro/data#hasTimePoint> \"week 6\". <http://ctro/data#Outcome_95445> <http://ctro/data#hasTimePoint> \"week 6\"."
+48, Mean, 1852, 1856, "mean", "", "<http://ctro/data#Mean_95415> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_95413> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95415>."
+49, Diurnal_IOP, 1857, 1868, "diurnal IOP", "", "<http://ctro/data#Endpoint_95413> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+50, Brinz/BrimoFC, 1874, 1878, "BBFC", "", 
+92834, ProstaglandinAnalogs, 1881, 1884, "PGA", "", 
+92826, Vehicle, 1905, 1912, "vehicle", "", 
+92835, ProstaglandinAnalogs, 1915, 1918, "PGA", "", 
+55, ResultMeasuredValue, 1921, 1927, "17 . 1", "", "<http://ctro/data#Outcome_95418> <http://ctro/data#hasResultMeasuredValue> \"17 . 1\"."
+57, SdErrorResValue, 1930, 1935, "0 . 4", "", "<http://ctro/data#Outcome_95418> <http://ctro/data#hasSdErrorResValue> \"0 . 4\"."
+58, mmHg, 1938, 1945, "mm   Hg", "", "<http://ctro/data#Endpoint_95413> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+56, ResultMeasuredValue, 1949, 1955, "20 . 5", "", "<http://ctro/data#Outcome_95445> <http://ctro/data#hasResultMeasuredValue> \"20 . 5\"."
+59, SdErrorResValue, 1958, 1963, "0 . 4", "", "<http://ctro/data#Outcome_95445> <http://ctro/data#hasSdErrorResValue> \"0 . 4\"."
+60, mmHg, 1966, 1973, "mm   Hg", "", 
+176, DiffGroupAbsValue, 2005, 2012, "- 3 . 4", "", "<http://ctro/data#DiffBetweenGroups_95472> <http://ctro/data#hasDiffGroupAbsValue> \"- 3 . 4\"."
+62, SdErrorDiff, 2015, 2020, "0 . 5", "", "<http://ctro/data#DiffBetweenGroups_95472> <http://ctro/data#hasStandardErrorDiff> \"0 . 5\"."
+63, mmHg, 2023, 2030, "mm   Hg", "", 
+64, PvalueDiff, 2033, 2045, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_95472> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+65, ConfIntervalDiff, 2048, 2103, "95 % confidence interval , - 4 . 5 to - 2 . 4   mm   Hg", "", "<http://ctro/data#DiffBetweenGroups_95472> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval , - 4 . 5 to - 2 . 4   mm   Hg\"."
+66, mmHg, 2096, 2103, "mm   Hg", "", 
+67, Brinz/BrimoFC, 2108, 2112, "BBFC", "", 
+92836, ProstaglandinAnalogs, 2115, 2118, "PGA", "", 
+69, Mean, 2127, 2131, "mean", "", 
+70, Diurnal_IOP, 2132, 2143, "diurnal IOP", "", 
+71, Reduction, 2147, 2152, "5 . 7", "", "<http://ctro/data#Outcome_95481> <http://ctro/data#hasChangeValue> \"5 . 7\"."
+72, mmHg, 2155, 2162, "mm   Hg", "", 
+73, RelativeReduction, 2165, 2167, "25", "", "<http://ctro/data#Outcome_95481> <http://ctro/data#hasRelativeChangeValue> \"25\"."
+74, IOP, 2190, 2193, "IOP", "", 
+92837, ProstaglandinAnalogs, 2208, 2211, "PGA", "", 
+76, ConclusionComment, 2226, 2356, "ConclusionsTherapy with BBFC produced an additive IOP - lowering effect compared with a PGA alone or in conjunction with vehicle .", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasConclusionComment> \"ConclusionsTherapy with BBFC produced an additive IOP - lowering effect compared with a PGA alone or in conjunction with vehicle .\"."
+77, Brinz/BrimoFC, 2250, 2254, "BBFC", "", 
+78, IOP, 2276, 2279, "IOP", "", 
+92838, ProstaglandinAnalogs, 2314, 2317, "PGA", "", 
+92827, Vehicle, 2347, 2354, "vehicle", "", 
+81, ConclusionComment, 2357, 2481, "BBFC may provide an effective treatment option for patients receiving PGA monotherapy who require additional IOP reduction .", "", "<http://ctro/data#ClinicalTrial_95304> <http://ctro/data#hasConclusionComment> \"BBFC may provide an effective treatment option for patients receiving PGA monotherapy who require additional IOP reduction .\"."
+82, Brinz/BrimoFC, 2357, 2361, "BBFC", "", 
+92839, ProstaglandinAnalogs, 2427, 2430, "PGA", "", 
+84, IOP, 2466, 2469, "IOP", "", 
+85, PMID, 2543, 2551, "27367743", "", "<http://ctro/data#Publication_95293> <http://ctro/data#hasPMID> \"27367743\"."
+86, ConflictInterest, 2609, 2719, "RDF has received consultant fees from Alcon and Bausch & Lomb , and research support from Alcon and Allergan .", "", 
+87, ConflictInterest, 2720, 2934, "JSM has received research funding from Alcon , Allergan , Glaukos , Inotek , and Merck ; consultant fees from Aerie , Alcon , Allergan , Inotek , and Sucampo ; and lecture fees from Alcon , Allergan , and Sucampo .", "", "<http://ctro/data#EvidenceQuality_95508> <http://ctro/data#hasConflictInterest> \"JSM has received research funding from Alcon , Allergan , Glaukos , Inotek , and Merck ; consultant fees from Aerie , Alcon , Allergan , Inotek , and Sucampo ; and lecture fees from Alcon , Allergan , and Sucampo .\"."
+88, ConflictInterest, 2935, 2961, "DAH is an Alcon employee .", "", "<http://ctro/data#EvidenceQuality_95508> <http://ctro/data#hasConflictInterest> \"DAH is an Alcon employee .\"."
+90, ConflictInterest, 2962, 2965, "DLB", "", "<http://ctro/data#EvidenceQuality_95508> <http://ctro/data#hasConflictInterest> \"DLB\"."
+89, ConflictInterest, 2966, 3218, "has received consultant fees from Alcon and Ivantis , and research support from the National Eye Institute , Glaucoma Research Foundation , Research to Prevent Blindness , and New World Medical , Inc . HBD has received speakers bureau fees from Alcon .", "", "<http://ctro/data#EvidenceQuality_95508> <http://ctro/data#hasConflictInterest> \"has received consultant fees from Alcon and Ivantis , and research support from the National Eye Institute , Glaucoma Research Foundation , Research to Prevent Blindness , and New World Medical , Inc . HBD has received speakers bureau fees from Alcon .\"."

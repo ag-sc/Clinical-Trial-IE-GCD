@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 29, "Open Access Maced J Med Sci .", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasJournal> \"Open Access Maced J Med Sci .\"."
+1, PublicationYear, 30, 34, "2017", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasPublicationYear> \"2017\"."
+31, Title, 132, 272, "Comparative Study on Adding Pioglitazone or Sitagliptin to Patients with Type 2 Diabetes Mellitus Insufficiently Controlled With Metformin .", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasTitle> \"Comparative Study on Adding Pioglitazone or Sitagliptin to Patients with Type 2 Diabetes Mellitus Insufficiently Controlled With Metformin .\"."
+2, Pioglitazone, 160, 172, "Pioglitazone", "", 
+11, Sitagliptin, 176, 187, "Sitagliptin", "", 
+28, Precondition, 191, 270, "Patients with Type 2 Diabetes Mellitus Insufficiently Controlled With Metformin", "", "<http://ctro/data#Population_78779> <http://ctro/data#hasPrecondition> \"Patients with Type 2 Diabetes Mellitus Insufficiently Controlled With Metformin\"."
+20, Type2Diabetes, 205, 229, "Type 2 Diabetes Mellitus", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+24, Metformin, 261, 270, "Metformin", "", 
+32, Author, 273, 286, "Jameshorani M", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasAuthor> \"Jameshorani M\"."
+33, Author, 295, 303, "Sayari S", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasAuthor> \"Sayari S\"."
+34, Author, 312, 324, "Kiahashemi N", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasAuthor> \"Kiahashemi N\"."
+35, Author, 333, 342, "Motamed N", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasAuthor> \"Motamed N\"."
+36, Iran, 513, 517, "Iran", "", "<http://ctro/data#Population_78779> <http://ctro/data#hasCountry> <http://ctro/data#Iran>."
+37, Iran, 612, 616, "Iran", "", 
+38, Type2Diabetes, 632, 649, "Diabetes mellitus", "", 
+40, ObjectiveDescription, 724, 879, "This study aimed to compare and study of add - on sitagliptin versus pioglitazone in patients with type 2 diabetes inadequately controlled with metformin .", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasObjectiveDescription> \"This study aimed to compare and study of add - on sitagliptin versus pioglitazone in patients with type 2 diabetes inadequately controlled with metformin .\"."
+12, Sitagliptin, 774, 785, "sitagliptin", "", 
+3, Pioglitazone, 793, 805, "pioglitazone", "", 
+39, Precondition, 809, 877, "patients with type 2 diabetes inadequately controlled with metformin", "", 
+21, Type2Diabetes, 823, 838, "type 2 diabetes", "", 
+25, Metformin, 868, 877, "metformin", "", 
+41, Duration, 895, 904, "12 - week", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasCTduration> \"12 - week\"."
+42, Randomized, 907, 917, "randomised", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+43, OpenLabel, 920, 932, "open - label", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+44, SingleCenter, 937, 950, "single centre", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+13, Sitagliptin, 966, 977, "sitagliptin", "", "<http://ctro/data#Medication_78817> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+45, DoseValue, 980, 983, "100", "", "<http://ctro/data#Medication_78817> <http://ctro/data#hasDoseValue> \"100\"."
+47, mg, 984, 986, "mg", "", "<http://ctro/data#Medication_78817> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+49, Frequency, 987, 992, "daily", "", "<http://ctro/data#Intervention_78805> <http://ctro/data#hasFrequency> \"daily\"."
+51, NumberPatientsArm, 999, 1001, "80", "", "<http://ctro/data#Arm_78787> <http://ctro/data#hasNumberPatientsArm> \"80\"."
+4, Pioglitazone, 1008, 1020, "pioglitazone", "", "<http://ctro/data#Medication_78824> <http://ctro/data#hasDrug> <http://ctro/data#Pioglitazone>."
+46, DoseValue, 1023, 1025, "30", "", "<http://ctro/data#Medication_78824> <http://ctro/data#hasDoseValue> \"30\"."
+48, mg, 1026, 1028, "mg", "", "<http://ctro/data#Medication_78824> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+50, Frequency, 1029, 1034, "daily", "", "<http://ctro/data#Intervention_78811> <http://ctro/data#hasFrequency> \"daily\"."
+52, NumberPatientsArm, 1041, 1043, "80", "", "<http://ctro/data#Arm_78796> <http://ctro/data#hasNumberPatientsArm> \"80\"."
+22, Type2Diabetes, 1049, 1064, "type 2 diabetic", "", 
+29, Precondition, 1049, 1132, "type 2 diabetic patients whose disease was not adequately controlled with metformin", "", 
+26, Metformin, 1123, 1132, "metformin", "", 
+124, Mean, 1149, 1153, "mean", "", "<http://ctro/data#Mean_78856> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_78854> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_78856>."
+53, HbA1c, 1164, 1169, "HbA1c", "", "<http://ctro/data#Arm_78796> <http://ctro/data#hasNumberPatientsArm> \"80\"."
+54, TimePoint, 1175, 1183, "baseline", "", 
+55, Reduction, 1190, 1197, "1 . 001", "", "<http://ctro/data#Outcome_78859> <http://ctro/data#hasChangeValue> \"1 . 001\"."
+57, SdDevChangeValue, 1200, 1206, "0 . 83", "", "<http://ctro/data#Outcome_78859> <http://ctro/data#hasSdDevChangeValue> \"0 . 83\"."
+14, Sitagliptin, 1212, 1223, "sitagliptin", "", 
+56, Reduction, 1230, 1236, "0 . 75", "", "<http://ctro/data#Outcome_78886> <http://ctro/data#hasChangeValue> \"0 . 75\"."
+58, SdDevChangeValue, 1239, 1245, "1 . 20", "", "<http://ctro/data#Outcome_78886> <http://ctro/data#hasSdDevChangeValue> \"1 . 20\"."
+5, Pioglitazone, 1251, 1263, "pioglitazone", "", 
+59, PvalueDiff, 1324, 1335, "P = 0 . 132", "", "<http://ctro/data#DiffBetweenGroups_78913> <http://ctro/data#hasPvalueDiff> \"P = 0 . 132\"."
+132, Mean, 1344, 1348, "mean", "", "<http://ctro/data#Mean_78924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_78922> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_78924>."
+60, FastingBloodGlucose, 1359, 1378, "fasting blood sugar", "", "<http://ctro/data#Endpoint_78922> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+61, FastingBloodGlucose, 1381, 1384, "FBS", "", 
+62, Reduction, 1393, 1400, "18 . 48", "", "<http://ctro/data#Outcome_78927> <http://ctro/data#hasChangeValue> \"18 . 48\"."
+64, SdDevChangeValue, 1403, 1410, "33 . 32", "", "<http://ctro/data#Outcome_78927> <http://ctro/data#hasSdDevChangeValue> \"33 . 32\"."
+66, Mg_per_deciliter, 1411, 1418, "mg / dl", "", "<http://ctro/data#Endpoint_78922> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+15, Sitagliptin, 1424, 1435, "sitagliptin", "", 
+63, Reduction, 1442, 1449, "20 . 53", "", "<http://ctro/data#Outcome_78954> <http://ctro/data#hasChangeValue> \"20 . 53\"."
+65, SdDevChangeValue, 1452, 1459, "53 . 97", "", "<http://ctro/data#Outcome_78954> <http://ctro/data#hasSdDevChangeValue> \"53 . 97\"."
+67, Mg_per_deciliter, 1460, 1467, "mg / dl", "", 
+6, Pioglitazone, 1473, 1485, "pioglitazone", "", 
+68, PvalueDiff, 1546, 1557, "P = 0 . 773", "", "<http://ctro/data#DiffBetweenGroups_78981> <http://ctro/data#hasPvalueDiff> \"P = 0 . 773\"."
+16, Sitagliptin, 1562, 1573, "Sitagliptin", "", 
+69, Reduction, 1581, 1587, "1 . 08", "", "<http://ctro/data#Outcome_78995> <http://ctro/data#hasChangeValue> \"1 . 08\"."
+71, SdDevChangeValue, 1590, 1596, "2 . 39", "", "<http://ctro/data#Outcome_78995> <http://ctro/data#hasSdDevChangeValue> \"2 . 39\"."
+73, Kg, 1597, 1599, "kg", "", "<http://ctro/data#Endpoint_78990> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+76, BodyWeight, 1612, 1618, "weight", "", "<http://ctro/data#Endpoint_78990> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+7, Pioglitazone, 1629, 1641, "pioglitazone", "", 
+70, Increment, 1649, 1655, "0 . 27", "", "<http://ctro/data#Outcome_79022> <http://ctro/data#hasChangeValue> \"0 . 27\"."
+72, SdDevChangeValue, 1658, 1664, "2 . 42", "", "<http://ctro/data#Outcome_79022> <http://ctro/data#hasSdDevChangeValue> \"2 . 42\"."
+74, Kg, 1665, 1667, "kg", "", 
+77, BodyWeight, 1680, 1686, "weight", "", 
+78, DiffGroupAbsValue, 1726, 1732, "0 . 81", "", "<http://ctro/data#DiffBetweenGroups_79049> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 81\"."
+75, Kg, 1733, 1735, "kg", "", 
+79, PvalueDiff, 1738, 1749, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_79049> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+81, ObservedResult, 1774, 1867, "in sitagliptin group , there was greater improvement in lipid profile than pioglitazone group", "", "<http://ctro/data#Outcome_79063> <http://ctro/data#hasObservedResult> \"in sitagliptin group , there was greater improvement in lipid profile than pioglitazone group\". <http://ctro/data#Outcome_79090> <http://ctro/data#hasObservedResult> \"in sitagliptin group , there was greater improvement in lipid profile than pioglitazone group\"."
+17, Sitagliptin, 1777, 1788, "sitagliptin", "", 
+80, EndPointDescription, 1830, 1843, "lipid profile", "", "<http://ctro/data#EndPointDescription_79059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_79058> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_79059>."
+8, Pioglitazone, 1849, 1861, "pioglitazone", "", 
+84, ConclusionComment, 1883, 2067, "Sitagliptin and Pioglitazone demonstrated similar improvements in glycemic control in type 2 diabetes mellitus patients whose diabetes had been inadequately controlled with metformin .", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasConclusionComment> \"Sitagliptin and Pioglitazone demonstrated similar improvements in glycemic control in type 2 diabetes mellitus patients whose diabetes had been inadequately controlled with metformin .\"."
+18, Sitagliptin, 1883, 1894, "Sitagliptin", "", 
+9, Pioglitazone, 1899, 1911, "Pioglitazone", "", 
+23, Type2Diabetes, 1969, 1993, "type 2 diabetes mellitus", "", 
+27, Metformin, 2056, 2065, "metformin", "", 
+85, ConclusionComment, 2068, 2172, "Nevertheless , sitagliptin was more effective than pioglitazone regarding lipid and body weight change .", "", "<http://ctro/data#ClinicalTrial_78763> <http://ctro/data#hasConclusionComment> \"Nevertheless , sitagliptin was more effective than pioglitazone regarding lipid and body weight change .\"."
+19, Sitagliptin, 2083, 2094, "sitagliptin", "", 
+10, Pioglitazone, 2119, 2131, "pioglitazone", "", 
+82, EndPointDescription, 2142, 2147, "lipid", "", 
+83, BodyWeight, 2152, 2163, "body weight", "", 
+86, PMID, 2237, 2245, "29362626", "", "<http://ctro/data#Publication_78756> <http://ctro/data#hasPMID> \"29362626\"."

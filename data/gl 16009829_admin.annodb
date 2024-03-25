@@ -1,0 +1,82 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Arch Ophthalmol .", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasJournal> \"Arch Ophthalmol .\"."
+1, PublicationYear, 18, 22, "2005", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasPublicationYear> \"2005\"."
+2, Title, 53, 161, "Twenty - four - hour control with latanoprost - timolol - fixed combination therapy vs latanoprost therapy .", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasTitle> \"Twenty - four - hour control with latanoprost - timolol - fixed combination therapy vs latanoprost therapy .\"."
+3, Latanoprost, 87, 98, "latanoprost", "", 
+5, Lat/TimFC, 87, 128, "latanoprost - timolol - fixed combination", "", 
+4, Timolol, 101, 108, "timolol", "", 
+6, Latanoprost, 140, 151, "latanoprost", "", 
+7, Author, 162, 172, "Konstas AG", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+8, Author, 181, 192, "Boboridis K", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Boboridis K\"."
+9, Author, 195, 203, "Tzetzi D", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Tzetzi D\"."
+10, Author, 206, 219, "Kallinderis K", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Kallinderis K\"."
+11, Author, 222, 232, "Jenkins JN", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Jenkins JN\"."
+12, Author, 235, 245, "Stewart WC", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+86, Glaucoma, 275, 283, "Glaucoma", "", 
+13, Greece, 416, 422, "Greece", "", 
+14, ObjectiveDescription, 437, 611, "To evaluate the 24 - hour efficacy and safety of the latanoprost - timolol maleate - fixed combination vs latanoprost therapy in patients with primary open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasObjectiveDescription> \"To evaluate the 24 - hour efficacy and safety of the latanoprost - timolol maleate - fixed combination vs latanoprost therapy in patients with primary open - angle glaucoma .\"."
+15, Latanoprost, 490, 501, "latanoprost", "", 
+17, Lat/TimFC, 490, 539, "latanoprost - timolol maleate - fixed combination", "", "<http://ctro/data#Medication_97066> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+16, Timolol, 504, 519, "timolol maleate", "", 
+18, Latanoprost, 543, 554, "latanoprost", "", 
+97, Precondition, 566, 609, "patients with primary open - angle glaucoma", "", "<http://ctro/data#Population_90902> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma\"."
+19, Primary_OpenAngleGlaucoma, 580, 609, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+20, Prospective, 624, 635, "prospective", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+21, Blind, 638, 655, "observer - masked", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+22, Crossover, 658, 667, "crossover", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+23, CTDesign, 670, 689, "active - controlled", "", "<http://ctro/data#CTDesign_90966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_90966>."
+24, Randomized, 692, 702, "randomized", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+25, Duration, 731, 739, "6 - week", "", 
+26, Randomized, 779, 789, "randomized", "", 
+27, Latanoprost, 800, 811, "latanoprost", "", 
+29, Lat/TimFC, 800, 841, "latanoprost - timolol - fixed combination", "", 
+28, Timolol, 814, 821, "timolol", "", 
+30, Latanoprost, 853, 864, "latanoprost", "", "<http://ctro/data#Latanoprost_90955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_90954> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_90955>."
+104, Frequency, 886, 903, "once each evening", "", "<http://ctro/data#Intervention_90928> <http://ctro/data#hasFrequency> \"once each evening\". <http://ctro/data#Intervention_90934> <http://ctro/data#hasFrequency> \"once each evening\"."
+33, Duration, 916, 923, "8 weeks", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasCTduration> \"8 weeks\". <http://ctro/data#Intervention_90928> <http://ctro/data#hasDuration> \"8 weeks\". <http://ctro/data#Intervention_90934> <http://ctro/data#hasDuration> \"8 weeks\"."
+34, Duration, 984, 991, "8 weeks", "", 
+105, Diurnal_IOP, 1056, 1069, "diurnal curve", "", 
+35, Mean, 1119, 1123, "mean", "", "<http://ctro/data#Mean_90975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_90973> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_90975>."
+36, Diurnal_IOP, 1133, 1146, "diurnal curve", "", "<http://ctro/data#Endpoint_90973> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+37, FinalNumPatientsCT, 1150, 1152, "37", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasFinalNumberPatientsCT> \"37\"."
+38, BaseLineValue, 1190, 1196, "24 . 2", "", "<http://ctro/data#Outcome_90978> <http://ctro/data#hasBaselineValue> \"24 . 2\". <http://ctro/data#Outcome_91005> <http://ctro/data#hasBaselineValue> \"24 . 2\"."
+39, SdDevBL, 1203, 1208, "2 . 0", "", "<http://ctro/data#Outcome_90978> <http://ctro/data#hasSdDevBL> \"2 . 0\". <http://ctro/data#Outcome_91005> <http://ctro/data#hasSdDevBL> \"2 . 0\"."
+40, mmHg, 1209, 1214, "mm Hg", "", "<http://ctro/data#Endpoint_90973> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+41, Mean, 1221, 1225, "mean", "", 
+113, Diurnal_IOP, 1226, 1239, "diurnal curve", "", 
+43, ResultMeasuredValue, 1244, 1250, "19 . 2", "", "<http://ctro/data#Outcome_91005> <http://ctro/data#hasResultMeasuredValue> \"19 . 2\"."
+45, SdDevResValue, 1257, 1262, "2 . 6", "", "<http://ctro/data#Outcome_91005> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+47, mmHg, 1263, 1268, "mm Hg", "", 
+49, Latanoprost, 1292, 1303, "latanoprost", "", 
+44, ResultMeasuredValue, 1322, 1328, "16 . 7", "", "<http://ctro/data#Outcome_90978> <http://ctro/data#hasResultMeasuredValue> \"16 . 7\"."
+46, SdDevResValue, 1335, 1340, "2 . 1", "", "<http://ctro/data#Outcome_90978> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+48, mmHg, 1341, 1346, "mm Hg", "", 
+50, Lat/TimFC, 1374, 1391, "fixed combination", "", 
+102542, PvalueDiff, 1402, 1416, "P & lt ; . 001", "", "<http://ctro/data#DiffBetweenGroups_91032> <http://ctro/data#hasPvalueDiff> \"P & lt ; . 001\"."
+102555, ObservedResult, 1456, 1508, "provided a lower absolute intraocular pressure level", "", "<http://ctro/data#Outcome_91046> <http://ctro/data#hasObservedResult> \"provided a lower absolute intraocular pressure level\"."
+53, IOP, 1473, 1502, "absolute intraocular pressure", "", "<http://ctro/data#IOP_91042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_91041> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_91042>."
+106260, ResultMeasuredValue, 1511, 1516, "1 . 5", "", "<http://ctro/data#Outcome_91046> <http://ctro/data#hasResultMeasuredValue> \"1 . 5\"."
+106261, ResultMeasuredValue, 1519, 1524, "2 . 9", "", "<http://ctro/data#Outcome_91073> <http://ctro/data#hasResultMeasuredValue> \"2 . 9\"."
+54, mmHg, 1525, 1530, "mm Hg", "", "<http://ctro/data#Endpoint_91041> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+126, PvalueDiff, 1533, 1547, "P & lt ; . 001", "", "<http://ctro/data#DiffBetweenGroups_91100> <http://ctro/data#hasPvalueDiff> \"P & lt ; . 001\"."
+102548, ObservedResult, 1556, 1622, "greater intraocular pressure reduction from the untreated baseline", "", "<http://ctro/data#Outcome_91114> <http://ctro/data#hasObservedResult> \"greater intraocular pressure reduction from the untreated baseline\"."
+56, IOP, 1564, 1594, "intraocular pressure reduction", "", "<http://ctro/data#IOP_91110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_91109> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_91110>."
+128, PvalueDiff, 1627, 1639, "& lt ; . 001", "", "<http://ctro/data#DiffBetweenGroups_91168> <http://ctro/data#hasPvalueDiff> \"& lt ; . 001\"."
+58, Stinging, 1644, 1652, "Stinging", "", "<http://ctro/data#Endpoint_91177> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Stinging>."
+102549, ObservedResult, 1653, 1707, "was statistically lower with latanoprost therapy alone", "", "<http://ctro/data#Outcome_91187> <http://ctro/data#hasObservedResult> \"was statistically lower with latanoprost therapy alone\". <http://ctro/data#Outcome_91214> <http://ctro/data#hasObservedResult> \"was statistically lower with latanoprost therapy alone\"."
+59, Latanoprost, 1682, 1693, "latanoprost", "", 
+131, PvalueDiff, 1712, 1718, "= . 04", "", "<http://ctro/data#DiffBetweenGroups_91295> <http://ctro/data#hasPvalueDiff> \"= . 04\"."
+105205, Ocular_Itching, 1727, 1734, "itching", "", "<http://ctro/data#Endpoint_91182> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Ocular_Itching>."
+102550, ObservedResult, 1735, 1806, "was statistically increased compared with the fixed combination therapy", "", "<http://ctro/data#Outcome_91241> <http://ctro/data#hasObservedResult> \"was statistically increased compared with the fixed combination therapy\". <http://ctro/data#Outcome_91268> <http://ctro/data#hasObservedResult> \"was statistically increased compared with the fixed combination therapy\"."
+62, Lat/TimFC, 1781, 1798, "fixed combination", "", 
+133, PvalueDiff, 1811, 1817, "= . 04", "", "<http://ctro/data#DiffBetweenGroups_91304> <http://ctro/data#hasPvalueDiff> \"= . 04\"."
+64, ConclusionComment, 1835, 2041, "The result of this study suggests that the latanoprost - timolol - fixed combination compared with latanoprost therapy alone provides improved intraocular pressure reduction over the 24 - hour diurnal curve", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasConclusionComment> \"The result of this study suggests that the latanoprost - timolol - fixed combination compared with latanoprost therapy alone provides improved intraocular pressure reduction over the 24 - hour diurnal curve\"."
+66, Latanoprost, 1878, 1889, "latanoprost", "", 
+68, Lat/TimFC, 1878, 1919, "latanoprost - timolol - fixed combination", "", 
+67, Timolol, 1892, 1899, "timolol", "", 
+69, Latanoprost, 1934, 1945, "latanoprost", "", 
+70, IOP, 1978, 1998, "intraocular pressure", "", 
+141, Diurnal_IOP, 2028, 2041, "diurnal curve", "", 
+64, ConclusionComment, 2042, 2125, "and for each individual time point in patients with primary open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_90886> <http://ctro/data#hasConclusionComment> \"and for each individual time point in patients with primary open - angle glaucoma .\"."
+71, Primary_OpenAngleGlaucoma, 2094, 2123, "primary open - angle glaucoma", "", 
+72, PMID, 2176, 2184, "16009829", "", "<http://ctro/data#Publication_90879> <http://ctro/data#hasPMID> \"16009829\"."

@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2006", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasPublicationYear> \"2006\"."
+2, Title, 55, 224, "Comparison of the efficacy and safety of travoprost with a fixed - combination of dorzolamide and timolol in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasTitle> \"Comparison of the efficacy and safety of travoprost with a fixed - combination of dorzolamide and timolol in patients with open - angle glaucoma or ocular hypertension .\"."
+3, Travoprost, 96, 106, "travoprost", "", 
+6, Dorz/TimFC, 114, 160, "fixed - combination of dorzolamide and timolol", "", 
+4, Dorzolamide, 137, 148, "dorzolamide", "", 
+5, Timolol, 153, 160, "timolol", "", 
+180, Precondition, 164, 222, "patients with open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_87129> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma or ocular hypertension\"."
+103574, OpenAngleGlaucoma, 178, 199, "open - angle glaucoma", "", 
+8, OcularHypertension, 203, 222, "ocular hypertension", "", 
+9, Author, 225, 237, "Suzuki ER Jr", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"Suzuki ER Jr\"."
+10, Author, 246, 257, "Franklin LM", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"Franklin LM\"."
+11, Author, 260, 271, "da Silva LJ", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"da Silva LJ\"."
+12, Author, 274, 287, "Figueiredo CR", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"Figueiredo CR\"."
+13, Author, 290, 298, "Netto JA", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"Netto JA\"."
+14, Author, 301, 311, "Batista WD", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasAuthor> \"Batista WD\"."
+15, Glaucoma, 341, 349, "Glaucoma", "", 
+16, Brazil, 407, 413, "Brazil", "", "<http://ctro/data#Population_87129> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+17, ObjectiveDescription, 452, 666, "The purpose of this study was to compare travoprost ( TRAV ; travoprost 0 . 004 % ) and the fixed - combination of dorzolamide / timolol ( DTFC ; dorzolamide 2 . 0 % / timolol maleate 0 . 5 % ) ophthalmic solutions", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasObjectiveDescription> \"The purpose of this study was to compare travoprost ( TRAV ; travoprost 0 . 004 % ) and the fixed - combination of dorzolamide / timolol ( DTFC ; dorzolamide 2 . 0 % / timolol maleate 0 . 5 % ) ophthalmic solutions\"."
+19, Travoprost, 493, 503, "travoprost", "", "<http://ctro/data#Medication_87142> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+20, Travoprost, 506, 510, "TRAV", "", 
+21, Travoprost, 513, 523, "travoprost", "", 
+28, DoseValue, 524, 531, "0 . 004", "", "<http://ctro/data#Medication_87142> <http://ctro/data#hasDoseValue> \"0 . 004\"."
+104, Percentage, 532, 533, "%", "", "<http://ctro/data#Medication_87142> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+26, Dorz/TimFC, 544, 588, "fixed - combination of dorzolamide / timolol", "", "<http://ctro/data#Medication_87149> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+22, Dorzolamide, 567, 578, "dorzolamide", "", 
+24, Timolol, 581, 588, "timolol", "", 
+27, Dorz/TimFC, 591, 595, "DTFC", "", 
+23, Dorzolamide, 598, 609, "dorzolamide", "", 
+29, DoseValue, 610, 615, "2 . 0", "", 
+113, Percentage, 616, 617, "%", "", 
+25, Timolol, 620, 635, "timolol maleate", "", 
+30, DoseValue, 636, 641, "0 . 5", "", 
+114, Percentage, 642, 643, "%", "", 
+18, ObjectiveDescription, 667, 796, "for reducing intraocular pressure ( IOP ) in patients with primary open - angle glaucoma ( OAG ) or ocular hypertension ( OHT ) .", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasObjectiveDescription> \"for reducing intraocular pressure ( IOP ) in patients with primary open - angle glaucoma ( OAG ) or ocular hypertension ( OHT ) .\"."
+31, IOP, 680, 700, "intraocular pressure", "", 
+32, IOP, 703, 706, "IOP", "", 
+33, Primary_OpenAngleGlaucoma, 726, 755, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+118, OpenAngleGlaucoma, 758, 761, "OAG", "", 
+35, OcularHypertension, 767, 786, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+36, OcularHypertension, 789, 792, "OHT", "", 
+37, Randomized, 818, 828, "randomized", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+38, Blind, 829, 842, "single masked", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+39, Parallel, 856, 864, "parallel", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+40, Travoprost, 880, 884, "TRAV", "", 
+41, NumberPatientsArm, 897, 899, "29", "", "<http://ctro/data#Arm_87176> <http://ctro/data#hasNumberPatientsArm> \"29\"."
+43, Frequency, 908, 918, "once daily", "", "<http://ctro/data#Intervention_87163> <http://ctro/data#hasFrequency> \"once daily\"."
+106356, Evening, 922, 931, "9 : 00 PM", "", "<http://ctro/data#Intervention_87163> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+45, Dorz/TimFC, 942, 946, "DTFC", "", 
+42, NumberPatientsArm, 959, 961, "27", "", "<http://ctro/data#Arm_87185> <http://ctro/data#hasNumberPatientsArm> \"27\"."
+44, Frequency, 970, 981, "twice daily", "", "<http://ctro/data#Intervention_87169> <http://ctro/data#hasFrequency> \"twice daily\"."
+106357, Morning, 985, 994, "9 : 00 AM", "", "<http://ctro/data#Intervention_87169> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+106358, Evening, 999, 1008, "9 : 00 PM", "", "<http://ctro/data#Intervention_87169> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+46, IOP, 1011, 1014, "IOP", "", 
+47, TimePoint, 1031, 1039, "baseline", "", 
+48, TimePoint, 1056, 1063, "3 weeks", "", 
+49, TimePoint, 1068, 1075, "6 weeks", "", 
+139, TimePoint, 1092, 1101, "8 : 00 AM", "", 
+140, TimePoint, 1104, 1114, "12 : 00 PM", "", 
+141, TimePoint, 1117, 1126, "4 : 00 PM", "", 
+142, TimePoint, 1133, 1142, "8 : 00 PM", "", 
+50, Mean, 1155, 1159, "Mean", "", "<http://ctro/data#Mean_87139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_87137> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_87139>."
+51, IOP, 1168, 1171, "IOP", "", "<http://ctro/data#IOP_87138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_87137> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_87138>."
+52, Reduction, 1231, 1236, "7 . 5", "", "<http://ctro/data#Outcome_87194> <http://ctro/data#hasChangeValue> \"7 . 5\"."
+58, RelativeReduction, 1239, 1245, "32 . 7", "", "<http://ctro/data#Outcome_87194> <http://ctro/data#hasRelativeChangeValue> \"32 . 7\"."
+53, Reduction, 1254, 1259, "7 . 1", "", "<http://ctro/data#Outcome_87194> <http://ctro/data#hasChangeValue> \"7 . 5\"."
+59, RelativeReduction, 1262, 1268, "30 . 7", "", "<http://ctro/data#Outcome_87248> <http://ctro/data#hasRelativeChangeValue> \"30 . 7\"."
+56, mmHg, 1273, 1277, "mmHg", "", "<http://ctro/data#Endpoint_87137> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+62, Travoprost, 1282, 1286, "TRAV", "", 
+54, Reduction, 1291, 1296, "4 . 8", "", "<http://ctro/data#Outcome_87275> <http://ctro/data#hasChangeValue> \"4 . 8\"."
+60, RelativeReduction, 1299, 1305, "23 . 1", "", "<http://ctro/data#Outcome_87275> <http://ctro/data#hasRelativeChangeValue> \"23 . 1\"."
+55, Reduction, 1314, 1319, "4 . 5", "", "<http://ctro/data#Outcome_87302> <http://ctro/data#hasChangeValue> \"4 . 5\"."
+61, RelativeReduction, 1322, 1328, "21 . 7", "", "<http://ctro/data#Outcome_87302> <http://ctro/data#hasRelativeChangeValue> \"21 . 7\"."
+57, mmHg, 1333, 1337, "mmHg", "", 
+63, Dorz/TimFC, 1342, 1346, "DTFC", "", 
+64, TimePoint, 1350, 1357, "3 weeks", "", "<http://ctro/data#Outcome_87194> <http://ctro/data#hasTimePoint> \"3 weeks\". <http://ctro/data#Outcome_87275> <http://ctro/data#hasTimePoint> \"3 weeks\"."
+65, TimePoint, 1362, 1369, "6 weeks", "", "<http://ctro/data#Outcome_87248> <http://ctro/data#hasTimePoint> \"6 weeks\". <http://ctro/data#Outcome_87302> <http://ctro/data#hasTimePoint> \"6 weeks\"."
+66, IOP, 1399, 1402, "IOP", "", 
+67, Travoprost, 1436, 1440, "TRAV", "", 
+68, TimePoint, 1483, 1495, "3 and 6 week", "", 
+69, TimePoint, 1489, 1495, "6 week", "", 
+70, PvalueDiff, 1547, 1562, "p & lt ; 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_87329> <http://ctro/data#hasPvalueDiff> \"p & lt ; 0 . 01\". <http://ctro/data#DiffBetweenGroups_87338> <http://ctro/data#hasPvalueDiff> \"p & lt ; 0 . 01\"."
+71, Duration, 1629, 1635, "6 week", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasCTduration> \"6 week\"."
+168, ObservedResult, 1644, 1726, "Some factors such as taste perversion were reported more often in the DTFC group .", "", "<http://ctro/data#Outcome_87352> <http://ctro/data#hasObservedResult> \"Some factors such as taste perversion were reported more often in the DTFC group .\"."
+103575, EndPointDescription, 1665, 1681, "taste perversion", "", "<http://ctro/data#EndPointDescription_87348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_87347> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_87348>."
+72, Dorz/TimFC, 1714, 1718, "DTFC", "", 
+74, ConclusionComment, 1741, 1924, "Travoprost monotherapy provided better efficacy in terms of IOP reduction and percentage of IOP reduction compared to dorzolamide 2 . 0 % / timolol maleate 0 . 5 % fixed combination .", "", "<http://ctro/data#ClinicalTrial_87109> <http://ctro/data#hasConclusionComment> \"Travoprost monotherapy provided better efficacy in terms of IOP reduction and percentage of IOP reduction compared to dorzolamide 2 . 0 % / timolol maleate 0 . 5 % fixed combination .\"."
+75, Travoprost, 1741, 1751, "Travoprost", "", 
+76, IOP, 1801, 1804, "IOP", "", 
+77, IOP, 1833, 1836, "IOP", "", 
+78, Dorzolamide, 1859, 1870, "dorzolamide", "", 
+80, Dorz/TimFC, 1859, 1922, "dorzolamide 2 . 0 % / timolol maleate 0 . 5 % fixed combination", "", 
+81, DoseValue, 1871, 1876, "2 . 0", "", 
+176, Percentage, 1877, 1878, "%", "", 
+79, Timolol, 1881, 1896, "timolol maleate", "", 
+82, DoseValue, 1897, 1902, "0 . 5", "", 
+177, Percentage, 1903, 1904, "%", "", 
+83, PMID, 1967, 1975, "16968583", "", "<http://ctro/data#Publication_87097> <http://ctro/data#hasPMID> \"16968583\"."

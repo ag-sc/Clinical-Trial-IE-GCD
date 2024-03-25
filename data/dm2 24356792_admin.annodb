@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Horm Metab Res .", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasJournal> \"Horm Metab Res .\"."
+1, PublicationYear, 17, 21, "2014", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasPublicationYear> \"2014\"."
+15, Title, 108, 203, "The glucose and lipid effects of colesevelam as monotherapy in drug - na ï ve type 2 diabetes .", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasTitle> \"The glucose and lipid effects of colesevelam as monotherapy in drug - na ï ve type 2 diabetes .\"."
+79852, Colesevelam, 141, 152, "colesevelam", "", 
+28, Precondition, 171, 201, "drug - na ï ve type 2 diabetes", "", 
+10, Type2Diabetes, 186, 201, "type 2 diabetes", "", 
+16, Author, 204, 216, "Rosenstock J", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+17, Author, 225, 233, "Rigby SP", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasAuthor> \"Rigby SP\"."
+18, Author, 242, 249, "Ford DM", "", 
+19, Author, 258, 263, "Tao B", "", 
+20, Author, 272, 279, "Chou HS", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasAuthor> \"Chou HS\"."
+21, USA, 384, 387, "USA", "", "<http://ctro/data#Population_55411> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+102, USA, 434, 437, "USA", "", 
+103, USA, 496, 499, "USA", "", 
+79854, Colesevelam, 502, 513, "Colesevelam", "", 
+11, Type2Diabetes, 548, 572, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+12, Type2Diabetes, 575, 579, "T2DM", "", 
+22, Metformin, 602, 611, "metformin", "", 
+23, Sulfonylureas, 616, 628, "sulfonylurea", "", 
+24, Insulin, 636, 643, "insulin", "", 
+25, HbA1c, 671, 685, "hemoglobin A1c", "", 
+26, HbA1c, 688, 693, "HbA1c", "", 
+29, ObjectiveDescription, 747, 846, "A study was conducted to evaluate colesevelam as monotherapy in drug - na ï ve patients with T2DM .", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasObjectiveDescription> \"A study was conducted to evaluate colesevelam as monotherapy in drug - na ï ve patients with T2DM .\"."
+79853, Colesevelam, 781, 792, "colesevelam", "", 
+27, Precondition, 811, 844, "drug - na ï ve patients with T2DM", "", "<http://ctro/data#Population_55411> <http://ctro/data#hasPrecondition> \"drug - na ï ve patients with T2DM\"."
+13, Type2Diabetes, 840, 844, "T2DM", "", 
+30, Randomized, 855, 865, "randomized", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, DoubleBlind, 868, 882, "double - blind", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+32, Placebo, 885, 892, "placebo", "", 
+33, Parallel, 908, 924, "parallel - group", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+38, Precondition, 933, 1048, "adults with T2DM who had inadequate glycemic control ( HbA1c ≥ 7 . 5 % and ≤ 9 . 5 % ) with diet and exercise alone", "", "<http://ctro/data#Population_55411> <http://ctro/data#hasPrecondition> \"adults with T2DM who had inadequate glycemic control ( HbA1c ≥ 7 . 5 % and ≤ 9 . 5 % ) with diet and exercise alone\"."
+14, Type2Diabetes, 945, 949, "T2DM", "", 
+34, HbA1c, 988, 993, "HbA1c", "", 
+35, Percentage, 1002, 1003, "%", "", 
+36, Percentage, 1016, 1017, "%", "", 
+37, Randomized, 1054, 1064, "randomized", "", 
+79855, Colesevelam, 1076, 1087, "colesevelam", "", "<http://ctro/data#Medication_55449> <http://ctro/data#hasDrug> <http://ctro/data#Colesevelam>."
+39, DoseValue, 1088, 1094, "3 . 75", "", "<http://ctro/data#Medication_55449> <http://ctro/data#hasDoseValue> \"3 . 75\"."
+40, Gram, 1097, 1098, "g", "", "<http://ctro/data#Medication_55449> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram>."
+41, Frequency, 1101, 1104, "day", "", "<http://ctro/data#Intervention_55437> <http://ctro/data#hasFrequency> \"day\"."
+42, NumberPatientsArm, 1111, 1114, "176", "", "<http://ctro/data#Arm_55419> <http://ctro/data#hasNumberPatientsArm> \"176\"."
+44, Placebo, 1120, 1127, "placebo", "", "<http://ctro/data#Medication_55456> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+43, NumberPatientsArm, 1134, 1137, "181", "", "<http://ctro/data#Arm_55428> <http://ctro/data#hasNumberPatientsArm> \"181\"."
+47, Duration, 1144, 1152, "24 weeks", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasCTduration> \"24 weeks\"."
+48, HbA1c, 1189, 1194, "HbA1c", "", 
+51, TimePoint, 1198, 1205, "week 24", "", 
+79856, Colesevelam, 1208, 1219, "Colesevelam", "", 
+45, Placebo, 1235, 1242, "placebo", "", 
+53, TimePoint, 1278, 1286, "baseline", "", "<http://ctro/data#Outcome_55482> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55509> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55536> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55563> <http://ctro/data#hasTimePoint> \"week 24\"."
+49, HbA1c, 1290, 1295, "HbA1c", "", "<http://ctro/data#Endpoint_55472> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+138, DiffGroupAbsValue, 1298, 1306, "- 2 . 92", "", "<http://ctro/data#DiffBetweenGroups_55590> <http://ctro/data#hasDiffGroupAbsValue> \"- 2 . 92\"."
+79860, Millimoles_per_mole, 1309, 1319, "mmol / mol", "", "<http://ctro/data#Endpoint_55472> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_mole>."
+142, DiffGroupRelValue, 1322, 1327, "0 . 3", "", "<http://ctro/data#DiffBetweenGroups_55590> <http://ctro/data#hasDiffGroupRelValue> \"0 . 3\"."
+58, Percentage, 1328, 1329, "%", "", 
+143, PvalueDiff, 1334, 1344, "p = 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_55590> <http://ctro/data#hasPvalueDiff> \"p = 0 . 01\"."
+61, FastingPlasmaGlucose, 1351, 1373, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_55477> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+139, DiffGroupAbsValue, 1376, 1384, "- 10 . 3", "", "<http://ctro/data#DiffBetweenGroups_55599> <http://ctro/data#hasDiffGroupAbsValue> \"- 10 . 3\"."
+62, Mg_per_deciliter, 1387, 1394, "mg / dl", "", "<http://ctro/data#Endpoint_55477> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+146, PvalueDiff, 1397, 1407, "p = 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_55599> <http://ctro/data#hasPvalueDiff> \"p = 0 . 04\"."
+52, TimePoint, 1413, 1420, "week 24", "", "<http://ctro/data#Outcome_55482> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55509> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55536> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_55563> <http://ctro/data#hasTimePoint> \"week 24\"."
+79857, Colesevelam, 1461, 1472, "Colesevelam", "", 
+63, EndPointDescription, 1500, 1537, "low - density lipoprotein cholesterol", "", "<http://ctro/data#EndPointDescription_55609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55608> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55609>."
+70356, RelativeReduction, 1542, 1548, "11 . 2", "", "<http://ctro/data#Outcome_55638> <http://ctro/data#hasRelativeChangeValue> \"11 . 2\"."
+77, PValueChangeValue, 1553, 1565, "p < 0 . 0001", "", "<http://ctro/data#Outcome_55638> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 0001\"."
+64, EndPointDescription, 1570, 1587, "total cholesterol", "", "<http://ctro/data#EndPointDescription_55614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55613> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55614>."
+70368, RelativeReduction, 1592, 1597, "5 . 1", "", "<http://ctro/data#Outcome_55665> <http://ctro/data#hasRelativeChangeValue> \"5 . 1\"."
+78, PValueChangeValue, 1602, 1614, "p = 0 . 0005", "", "<http://ctro/data#Outcome_55665> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 0005\"."
+65, EndPointDescription, 1619, 1663, "non - high - density lipoprotein cholesterol", "", "<http://ctro/data#EndPointDescription_55619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55618> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55619>."
+70369, RelativeReduction, 1668, 1673, "7 . 4", "", "<http://ctro/data#Outcome_55692> <http://ctro/data#hasRelativeChangeValue> \"7 . 4\"."
+79, PValueChangeValue, 1678, 1690, "p = 0 . 0001", "", "<http://ctro/data#Outcome_55692> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 0001\"."
+66, EndPointDescription, 1699, 1715, "apolipoprotein B", "", "<http://ctro/data#EndPointDescription_55624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55623> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55624>."
+70370, RelativeReduction, 1720, 1725, "6 . 5", "", "<http://ctro/data#Outcome_55719> <http://ctro/data#hasRelativeChangeValue> \"6 . 5\"."
+80, PValueChangeValue, 1730, 1742, "p = 0 . 0001", "", "<http://ctro/data#Outcome_55719> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 0001\"."
+67, EndPointDescription, 1759, 1779, "apolipoprotein A - I", "", "<http://ctro/data#EndPointDescription_55629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55628> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55629>."
+70371, RelativeIncrement, 1785, 1790, "2 . 4", "", "<http://ctro/data#Outcome_55746> <http://ctro/data#hasRelativeChangeValue> \"2 . 4\"."
+81, PValueChangeValue, 1795, 1805, "p = 0 . 04", "", "<http://ctro/data#Outcome_55746> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 04\"."
+68, EndPointDescription, 1814, 1827, "triglycerides", "", "<http://ctro/data#EndPointDescription_55634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_55633> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_55634>."
+70372, RelativeIncrement, 1833, 1838, "9 . 7", "", "<http://ctro/data#Outcome_55773> <http://ctro/data#hasRelativeChangeValue> \"9 . 7\"."
+82, PValueChangeValue, 1843, 1853, "p = 0 . 03", "", "<http://ctro/data#Outcome_55773> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 03\"."
+87, ConclusionComment, 1858, 2064, "Colesevelam monotherapy resulted in statistically significant improvements in glycemic and most lipid parameters in subjects with type 2 diabetes , with no new or unexpected safety and tolerability issues .", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasConclusionComment> \"Colesevelam monotherapy resulted in statistically significant improvements in glycemic and most lipid parameters in subjects with type 2 diabetes , with no new or unexpected safety and tolerability issues .\"."
+79858, Colesevelam, 1858, 1869, "Colesevelam", "", 
+46, Type2Diabetes, 1988, 2003, "type 2 diabetes", "", 
+88, ConclusionComment, 2065, 2310, "Modest reductions in HbA1c and low - density lipoprotein cholesterol levels with colesevelam further support its use in combination with other antidiabetes agents when treatment targets for these parameters are close but are not quite achieved .", "", "<http://ctro/data#ClinicalTrial_55395> <http://ctro/data#hasConclusionComment> \"Modest reductions in HbA1c and low - density lipoprotein cholesterol levels with colesevelam further support its use in combination with other antidiabetes agents when treatment targets for these parameters are close but are not quite achieved .\"."
+50, HbA1c, 2086, 2091, "HbA1c", "", 
+79859, Colesevelam, 2146, 2157, "colesevelam", "", 
+89, PMID, 2451, 2459, "24356792", "", "<http://ctro/data#Publication_55388> <http://ctro/data#hasPMID> \"24356792\"."

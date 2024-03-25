@@ -1,0 +1,116 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Br J Ophthalmol .", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasJournal> \"Br J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "2004", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasPublicationYear> \"2004\"."
+129, Title, 51, 220, "A comparison of the fixed combination of latanoprost and timolol with the unfixed combination of brimonidine and timolol in patients with elevated intraocular pressure .", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasTitle> \"A comparison of the fixed combination of latanoprost and timolol with the unfixed combination of brimonidine and timolol in patients with elevated intraocular pressure .\"."
+5, Lat/TimFC, 71, 115, "fixed combination of latanoprost and timolol", "", 
+3, Latanoprost, 92, 103, "latanoprost", "", 
+4, Timolol, 108, 115, "timolol", "", 
+6, Brimonidine, 148, 159, "brimonidine", "", 
+7, Timolol, 164, 171, "timolol", "", 
+9, Precondition, 175, 218, "patients with elevated intraocular pressure", "", 
+8, IOP, 198, 218, "intraocular pressure", "", 
+129, Title, 221, 283, "A six month , evaluator masked , multicentre study in Europe .", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasTitle> \"A six month , evaluator masked , multicentre study in Europe .\"."
+11, Duration, 223, 232, "six month", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasCTduration> \"six month\"."
+12, Blind, 235, 251, "evaluator masked", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+13, Multicenter, 254, 265, "multicentre", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+14, Author, 284, 306, "Garc í a - S á nchez J", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Garc í a - S á nchez J\"."
+15, Author, 315, 325, "Rouland JF", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Rouland JF\"."
+16, Author, 328, 337, "Spiegel D", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Spiegel D\"."
+17, Author, 340, 347, "Pajic B", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Pajic B\"."
+18, Author, 350, 360, "Cunliffe I", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Cunliffe I\"."
+19, Author, 363, 373, "Traverso C", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Traverso C\"."
+20, Author, 376, 384, "Landry J", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasAuthor> \"Landry J\"."
+21, Spain, 515, 520, "Spain", "", 
+22, ObjectiveDescription, 559, 767, "To compare the intraocular pressure ( IOP ) reducing effect and safety of fixed combination ( FC ) latanoprost / timolol with unfixed combination ( UFC ) brimonidine / timolol in patients with increased IOP .", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure ( IOP ) reducing effect and safety of fixed combination ( FC ) latanoprost / timolol with unfixed combination ( UFC ) brimonidine / timolol in patients with increased IOP .\"."
+23, IOP, 574, 594, "intraocular pressure", "", 
+24, IOP, 597, 600, "IOP", "", 
+27, Lat/TimFC, 633, 679, "fixed combination ( FC ) latanoprost / timolol", "", "<http://ctro/data#Medication_97045> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+25, Latanoprost, 658, 669, "latanoprost", "", 
+26, Timolol, 672, 679, "timolol", "", 
+28, Brimonidine, 713, 724, "brimonidine", "", 
+29, Timolol, 727, 734, "timolol", "", 
+126, IOP, 762, 765, "IOP", "", 
+31, Duration, 786, 793, "6 month", "", 
+32, Randomized, 796, 806, "randomised", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+33, Blind, 809, 825, "evaluator masked", "", 
+34, Parallel, 828, 842, "parallel group", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+101259, Precondition, 860, 984, "patients with glaucoma or ocular hypertension and IOP & gt ; or = 21 mm Hg on monotherapy or & gt ; 16 mm Hg on dual therapy", "", "<http://ctro/data#Population_89676> <http://ctro/data#hasPrecondition> \"patients with glaucoma or ocular hypertension and IOP & gt ; or = 21 mm Hg on monotherapy or & gt ; 16 mm Hg on dual therapy\"."
+35, Glaucoma, 874, 882, "glaucoma", "", "<http://ctro/data#Glaucoma_89669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_89660> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_89669>."
+36, OcularHypertension, 886, 905, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+143, IOP, 910, 913, "IOP", "", 
+38, mmHg, 929, 934, "mm Hg", "", 
+40, mmHg, 963, 968, "mm Hg", "", 
+44, Lat/TimFC, 1001, 1025, "FC latanoprost / timolol", "", 
+42, Latanoprost, 1004, 1015, "latanoprost", "", 
+43, Timolol, 1018, 1025, "timolol", "", 
+106253, RelativeTime, 1029, 1037, "8 : 00AM", "", "<http://ctro/data#RelativeTime_89707> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_89702> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_89707>."
+45, Brimonidine, 1045, 1056, "brimonidine", "", "<http://ctro/data#Medication_89728> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+46, Timolol, 1059, 1066, "timolol", "", "<http://ctro/data#Medication_89735> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+106254, RelativeTime, 1070, 1078, "8 : 00AM", "", "<http://ctro/data#RelativeTime_89713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_89708> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_89713>."
+106255, RelativeTime, 1083, 1091, "8 : 00PM", "", "<http://ctro/data#RelativeTime_89744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_89708> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_89744>."
+47, TimePoint, 1138, 1146, "baseline", "", 
+48, TimePoint, 1150, 1157, "month 6", "", 
+49, Mean, 1161, 1165, "mean", "", "<http://ctro/data#Mean_89758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_89756> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_89758>."
+50, Diurnal_IOP, 1166, 1177, "diurnal IOP", "", 
+159, FinalNumPatientsCT, 1200, 1203, "325", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasFinalNumberPatientsCT> \"325\"."
+51, NumberPatientsCT, 1207, 1210, "334", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasNumberPatientsCT> \"334\"."
+52, Randomized, 1211, 1221, "randomised", "", 
+53, IntentionToTreat, 1248, 1263, "intent to treat", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+56, Lat/TimFC, 1275, 1299, "FC latanoprost / timolol", "", 
+54, Latanoprost, 1278, 1289, "latanoprost", "", 
+55, Timolol, 1292, 1299, "timolol", "", 
+59, NumberPatientsArm, 1302, 1305, "163", "", "<http://ctro/data#Arm_89684> <http://ctro/data#hasNumberPatientsArm> \"163\"."
+57, Brimonidine, 1312, 1323, "brimonidine", "", 
+58, Timolol, 1326, 1333, "timolol", "", 
+60, NumberPatientsArm, 1336, 1339, "162", "", "<http://ctro/data#Arm_89693> <http://ctro/data#hasNumberPatientsArm> \"162\"."
+61, Diurnal_IOP, 1353, 1364, "diurnal IOP", "", "<http://ctro/data#Endpoint_89756> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+175, Lat/TimFC, 1387, 1411, "FC latanoprost / timolol", "", 
+62, Latanoprost, 1390, 1401, "latanoprost", "", 
+63, Timolol, 1404, 1411, "timolol", "", 
+64, BaseLineValue, 1414, 1420, "26 . 4", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasBaselineValue> \"26 . 4\"."
+65, SdDevBL, 1426, 1431, "2 . 7", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasSdDevBL> \"2 . 7\"."
+66, mmHg, 1434, 1439, "mm Hg", "", "<http://ctro/data#Endpoint_89756> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+67, Brimonidine, 1446, 1457, "brimonidine", "", 
+68, Timolol, 1460, 1467, "timolol", "", 
+69, BaseLineValue, 1470, 1476, "26 . 5", "", "<http://ctro/data#Outcome_89788> <http://ctro/data#hasBaselineValue> \"26 . 5\"."
+70, SdDevBL, 1482, 1487, "2 . 8", "", "<http://ctro/data#Outcome_89788> <http://ctro/data#hasSdDevBL> \"2 . 8\"."
+71, mmHg, 1490, 1495, "mm Hg", "", 
+72, PValueBL, 1498, 1509, "p = 0 . 851", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasPValueBL> \"p = 0 . 851\". <http://ctro/data#Outcome_89788> <http://ctro/data#hasPValueBL> \"p = 0 . 851\"."
+73, TimePoint, 1517, 1524, "month 6", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasTimePoint> \"month 6\". <http://ctro/data#Outcome_89788> <http://ctro/data#hasTimePoint> \"month 6\"."
+74, ResultMeasuredValue, 1539, 1545, "16 . 9", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasResultMeasuredValue> \"16 . 9\"."
+76, SdDevResValue, 1551, 1556, "2 . 8", "", "<http://ctro/data#Outcome_89761> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+78, mmHg, 1559, 1564, "mm Hg", "", 
+82, Lat/TimFC, 1568, 1592, "FC latanoprost / timolol", "", 
+80, Latanoprost, 1571, 1582, "latanoprost", "", 
+81, Timolol, 1585, 1592, "timolol", "", 
+75, ResultMeasuredValue, 1606, 1612, "18 . 2", "", "<http://ctro/data#Outcome_89788> <http://ctro/data#hasResultMeasuredValue> \"18 . 2\"."
+77, SdDevResValue, 1618, 1623, "3 . 1", "", "<http://ctro/data#Outcome_89788> <http://ctro/data#hasSdDevResValue> \"3 . 1\"."
+79, mmHg, 1626, 1631, "mm Hg", "", 
+83, Brimonidine, 1639, 1650, "brimonidine", "", 
+84, Timolol, 1653, 1660, "timolol", "", 
+101261, PvalueDiff, 1672, 1688, "p & lt ; 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_89815> <http://ctro/data#hasPvalueDiff> \"p & lt ; 0 . 001\"."
+203, ObservedResult, 1693, 1844, "No adverse events were reported by 76 . 4 % and 75 . 5 % of patients receiving FC latanoprost / timolol versus UFC brimonidine / timolol , respectively", "", "<http://ctro/data#Outcome_89829> <http://ctro/data#hasObservedResult> \"No adverse events were reported by 76 . 4 % and 75 . 5 % of patients receiving FC latanoprost / timolol versus UFC brimonidine / timolol , respectively\". <http://ctro/data#Outcome_89856> <http://ctro/data#hasObservedResult> \"No adverse events were reported by 76 . 4 % and 75 . 5 % of patients receiving FC latanoprost / timolol versus UFC brimonidine / timolol , respectively\"."
+101262, EndPointDescription, 1693, 1710, "No adverse events", "", "<http://ctro/data#EndPointDescription_89825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_89824> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_89825>."
+86, PercentageAffected, 1728, 1734, "76 . 4", "", "<http://ctro/data#Outcome_89829> <http://ctro/data#hasPercentageAffected> \"76 . 4\"."
+87, PercentageAffected, 1741, 1747, "75 . 5", "", "<http://ctro/data#Outcome_89856> <http://ctro/data#hasPercentageAffected> \"75 . 5\"."
+92, Lat/TimFC, 1772, 1796, "FC latanoprost / timolol", "", 
+88, Latanoprost, 1775, 1786, "latanoprost", "", 
+89, Timolol, 1789, 1796, "timolol", "", 
+91, Brimonidine, 1808, 1819, "brimonidine", "", 
+90, Timolol, 1822, 1829, "timolol", "", 
+93, Brimonidine, 1869, 1880, "brimonidine", "", 
+94, Timolol, 1883, 1890, "timolol", "", 
+101263, EndPointDescription, 1942, 1956, "adverse events", "", "<http://ctro/data#EndPointDescription_89884> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_89883> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_89884>."
+95, PercentageAffected, 1959, 1965, "18 . 6", "", "<http://ctro/data#Outcome_89915> <http://ctro/data#hasPercentageAffected> \"18 . 6\"."
+96, PercentageAffected, 1970, 1975, "7 . 3", "", "<http://ctro/data#Outcome_89888> <http://ctro/data#hasPercentageAffected> \"7 . 3\"."
+208, RelNumPatientsLeftArm, 2035, 2041, "10 . 8", "", "<http://ctro/data#Arm_89693> <http://ctro/data#hasRelNumPatientsLeftArm> \"10 . 8\"."
+209, RelNumPatientsLeftArm, 2046, 2051, "1 . 8", "", "<http://ctro/data#Arm_89684> <http://ctro/data#hasRelNumPatientsLeftArm> \"1 . 8\"."
+99, ConclusionComment, 2071, 2235, "Fixed combination latanoprost / timolol administered once daily is both more effective and better tolerated than twice daily dosing with UFC brimonidine / timolol .", "", "<http://ctro/data#ClinicalTrial_89660> <http://ctro/data#hasConclusionComment> \"Fixed combination latanoprost / timolol administered once daily is both more effective and better tolerated than twice daily dosing with UFC brimonidine / timolol .\"."
+103, Lat/TimFC, 2071, 2110, "Fixed combination latanoprost / timolol", "", 
+100, Latanoprost, 2089, 2100, "latanoprost", "", 
+101, Timolol, 2103, 2110, "timolol", "", 
+104, Frequency, 2124, 2134, "once daily", "", "<http://ctro/data#Intervention_89702> <http://ctro/data#hasFrequency> \"once daily\"."
+105, Frequency, 2184, 2195, "twice daily", "", "<http://ctro/data#Intervention_89708> <http://ctro/data#hasFrequency> \"twice daily\"."
+106, Brimonidine, 2212, 2223, "brimonidine", "", 
+102, Timolol, 2226, 2233, "timolol", "", 
+107, PMID, 2300, 2308, "15205229", "", "<http://ctro/data#Publication_89653> <http://ctro/data#hasPMID> \"15205229\"."

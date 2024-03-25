@@ -1,0 +1,92 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+82, Journal, 0, 10, "J Diabetes", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasJournal> \"J Diabetes\"."
+1, PublicationYear, 13, 17, "2012", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasPublicationYear> \"2012\"."
+79, Title, 100, 239, "The addition of sitagliptin to ongoing metformin therapy significantly improves glycemic control in Chinese patients with type 2 diabetes .", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasTitle> \"The addition of sitagliptin to ongoing metformin therapy significantly improves glycemic control in Chinese patients with type 2 diabetes .\"."
+2, Sitagliptin, 116, 127, "sitagliptin", "", 
+3, Metformin, 139, 148, "metformin", "", 
+86, China, 200, 207, "Chinese", "", "<http://ctro/data#Population_39344> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+4, Type2Diabetes, 222, 237, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+5, Author, 240, 246, "Yang W", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Yang W\"."
+6, Author, 255, 261, "Guan Y", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Guan Y\"."
+7, Author, 264, 272, "Shentu Y", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Shentu Y\"."
+8, Author, 275, 279, "Li Z", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Li Z\"."
+9, Author, 282, 302, "Johnson - Levonas AO", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Johnson - Levonas AO\"."
+10, Author, 305, 313, "Engel SS", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Engel SS\"."
+11, Author, 316, 326, "Kaufman KD", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+12, Author, 329, 341, "Goldstein BJ", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Goldstein BJ\"."
+13, Author, 344, 350, "Alba M", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasAuthor> \"Alba M\"."
+98, China, 380, 385, "China", "", 
+99, Japan, 388, 393, "Japan", "", 
+80, China, 426, 431, "China", "", 
+14, ObjectiveDescription, 449, 581, "The present study was conducted to evaluate the efficacy , safety and tolerability of sitagliptin added to ongoing metformin therapy", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasObjectiveDescription> \"The present study was conducted to evaluate the efficacy , safety and tolerability of sitagliptin added to ongoing metformin therapy\"."
+18, Sitagliptin, 535, 546, "sitagliptin", "", 
+16, Metformin, 564, 573, "metformin", "", 
+15, ObjectiveDescription, 582, 708, "in Chinese patients with type 2 diabetes ( T2DM ) who failed to achieve adequate glycemic control with metformin monotherapy .", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasObjectiveDescription> \"in Chinese patients with type 2 diabetes ( T2DM ) who failed to achieve adequate glycemic control with metformin monotherapy .\"."
+19, Precondition, 585, 706, "Chinese patients with type 2 diabetes ( T2DM ) who failed to achieve adequate glycemic control with metformin monotherapy", "", "<http://ctro/data#Population_39344> <http://ctro/data#hasPrecondition> \"Chinese patients with type 2 diabetes ( T2DM ) who failed to achieve adequate glycemic control with metformin monotherapy\"."
+103, China, 585, 592, "Chinese", "", 
+20, Type2Diabetes, 607, 622, "type 2 diabetes", "", 
+21, Type2Diabetes, 625, 629, "T2DM", "", 
+106, Metformin, 685, 694, "metformin", "", 
+22, Metformin, 729, 738, "metformin", "", 
+25, Duration, 778, 786, "2 - week", "", 
+111, Blind, 789, 803, "single - blind", "", 
+27, Placebo, 806, 813, "placebo", "", 
+28, NumberPatientsCT, 832, 835, "395", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasNumberPatientsCT> \"395\"."
+114, China, 836, 843, "Chinese", "", 
+29, Type2Diabetes, 858, 862, "T2DM", "", 
+30, MinAge, 868, 870, "25", "", "<http://ctro/data#Population_39344> <http://ctro/data#hasMinAge> \"25\"."
+31, MaxAge, 873, 875, "77", "", "<http://ctro/data#Population_39344> <http://ctro/data#hasMaxAge> \"77\"."
+118, TimePoint, 884, 892, "baseline", "", 
+32, HbA1c, 893, 898, "HbA1c", "", 
+33, BaseLineValue, 899, 904, "8 . 5", "", 
+34, Percentage, 905, 906, "%", "", 
+35, Randomized, 914, 924, "randomized", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+36, AllocationRatio, 927, 932, "1 : 1", "", "<http://ctro/data#AllocationRatio_39332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_39332>."
+37, DoubleBlind, 938, 952, "double - blind", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+38, Placebo, 953, 960, "placebo", "", "<http://ctro/data#Medication_39395> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+39, Sitagliptin, 964, 975, "sitagliptin", "", "<http://ctro/data#Medication_39388> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+40, DoseValue, 976, 979, "100", "", "<http://ctro/data#Medication_39388> <http://ctro/data#hasDoseValue> \"100\"."
+41, mg, 980, 982, "mg", "", "<http://ctro/data#Medication_39388> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+42, Frequency, 983, 990, "q . d .", "", "<http://ctro/data#Intervention_39370> <http://ctro/data#hasFrequency> \"q . d .\"."
+43, OpenLabel, 1008, 1020, "open - label", "", 
+44, Metformin, 1021, 1030, "metformin", "", "<http://ctro/data#Medication_39402> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+45, DoseValue, 1033, 1045, "1000 or 1700", "", "<http://ctro/data#Medication_39402> <http://ctro/data#hasDoseValue> \"1000 or 1700\"."
+46, mg, 1046, 1048, "mg", "", "<http://ctro/data#Medication_39402> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+47, Frequency, 1051, 1054, "day", "", "<http://ctro/data#Intervention_39382> <http://ctro/data#hasFrequency> \"day\"."
+48, Duration, 1061, 1069, "24 weeks", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasCTduration> \"24 weeks\"."
+53, PValueChangeValue, 1098, 1111, "P  <  0 . 001", "", "<http://ctro/data#Outcome_39427> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\". <http://ctro/data#Outcome_39486> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\". <http://ctro/data#Outcome_39518> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\"."
+133, TimePoint, 1127, 1135, "baseline", "", 
+49, HbA1c, 1139, 1144, "HbA1c", "", "<http://ctro/data#Endpoint_39422> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+54, Reduction, 1149, 1154, "0 . 9", "", "<http://ctro/data#Outcome_39427> <http://ctro/data#hasChangeValue> \"0 . 9\"."
+57, Percentage, 1155, 1156, "%", "", "<http://ctro/data#Endpoint_39422> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+50, FastingPlasmaGlucose, 1161, 1183, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_39481> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+55, Reduction, 1188, 1193, "1 . 2", "", "<http://ctro/data#Outcome_39486> <http://ctro/data#hasChangeValue> \"1 . 2\"."
+58, Millimoles_per_litre, 1194, 1202, "mmol / L", "", "<http://ctro/data#Endpoint_39481> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+81, PostprandialPlasmaGlucose, 1211, 1243, "2 - h post - meal plasma glucose", "", "<http://ctro/data#Endpoint_39513> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialPlasmaGlucose>."
+56, Reduction, 1248, 1253, "1 . 9", "", "<http://ctro/data#Outcome_39518> <http://ctro/data#hasChangeValue> \"1 . 9\"."
+59, Millimoles_per_litre, 1254, 1262, "mmol / L", "", "<http://ctro/data#Endpoint_39513> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+51, Sitagliptin, 1280, 1291, "sitagliptin", "", 
+52, Placebo, 1306, 1313, "placebo", "", 
+67, ObservedResult, 1316, 1385, "There were no significant differences between sitagliptin and placebo", "", 
+60, Sitagliptin, 1362, 1373, "sitagliptin", "", 
+63, Placebo, 1378, 1385, "placebo", "", 
+65, Hypoglycemia, 1406, 1418, "hypoglycemia", "", 
+66, GastrointestinalProblem, 1422, 1453, "gastrointestinal adverse events", "", 
+69, ObservedResult, 1458, 1472, "small decrease", "", "<http://ctro/data#Outcome_39577> <http://ctro/data#hasObservedResult> \"small decrease\"."
+148, TimePoint, 1478, 1486, "baseline", "", 
+68, BodyWeight, 1487, 1498, "body weight", "", "<http://ctro/data#Endpoint_39545> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+64, Placebo, 1519, 1526, "placebo", "", 
+70, ObservedResult, 1547, 1556, "no change", "", "<http://ctro/data#Outcome_39550> <http://ctro/data#hasObservedResult> \"no change\"."
+61, Sitagliptin, 1564, 1575, "sitagliptin", "", 
+71, DiffGroupAbsValue, 1611, 1618, "0 . 5kg", "", "<http://ctro/data#DiffBetweenGroups_39604> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 5kg\"."
+153, Kg, 1615, 1618, "5kg", "", "<http://ctro/data#Endpoint_39545> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+72, PvalueDiff, 1621, 1632, "P = 0 . 018", "", "<http://ctro/data#DiffBetweenGroups_39604> <http://ctro/data#hasPvalueDiff> \"P = 0 . 018\"."
+77, ConclusionComment, 1653, 1876, "The addition of sitagliptin 100 mg to ongoing metformin therapy significantly improved glycemic control and was generally well tolerated in Chinese patients with T2DM who had inadequate glycemic control on metformin alone .", "", "<http://ctro/data#ClinicalTrial_39328> <http://ctro/data#hasConclusionComment> \"The addition of sitagliptin 100 mg to ongoing metformin therapy significantly improved glycemic control and was generally well tolerated in Chinese patients with T2DM who had inadequate glycemic control on metformin alone .\"."
+62, Sitagliptin, 1669, 1680, "sitagliptin", "", 
+73, DoseValue, 1681, 1684, "100", "", 
+74, mg, 1685, 1687, "mg", "", 
+24, Metformin, 1699, 1708, "metformin", "", 
+159, China, 1793, 1800, "Chinese", "", 
+75, Type2Diabetes, 1815, 1819, "T2DM", "", 
+23, Metformin, 1859, 1868, "metformin", "", 
+78, PMID, 2046, 2054, "22672586", "", "<http://ctro/data#Publication_39321> <http://ctro/data#hasPMID> \"22672586\"."

@@ -1,0 +1,131 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_95517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_95517> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasTitle> "Comparison of dorzolamide / timolol vs brinzolamide / brimonidine fixed combination therapy in the management of primary open - angle glaucoma ." .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> "Kozobolis V" .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasPublicationYear> "2017" .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasJournal> "Eur J Ophthalmol ." .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasPMID> "27445072" .
+<http://ctro/data#Publication_95517> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_95527> .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> "Panos GD" .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> "Konstantinidis A" .
+<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> "Labiris G" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_95527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_95527> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasObjectiveDescription> "To compare the efficiency of brinzolamide / brimonidine fixed combination vs the dorzolamide / timolol fixed combination" .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasNumberPatientsCT> "44" .
+<http://ctro/data#AllocationRatio_95531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_95532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#CTDesign_95533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasConclusionComment> "Brinzolamide / brimonidine seems to be an effective and safe alternative β- blocker free fixed combination , especially for patients with comorbidities , having its own antihypertensive profile ." .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasArm> <http://ctro/data#Arm_95593> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasPopulation> <http://ctro/data#Population_95543> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_95729> .
+<http://ctro/data#EvidenceQuality_95539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_95738> .
+<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasArm> <http://ctro/data#Arm_95602> .
+# RDF export of group: Population
+<http://ctro/data#Population_95543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_95543> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Ethnicity_95545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_95543> <http://ctro/data#hasCountry> <http://ctro/data#Greece> .
+<http://ctro/data#Gender_95550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_95611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_95611> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint morning IOP" .
+<http://ctro/data#EndPointDescription_95612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_95611> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95612> .
+<http://ctro/data#Mean_95613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_95611> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95613> .
+<http://ctro/data#Endpoint_95611> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_95615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_95670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_95670> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint afternoon IOP" .
+<http://ctro/data#EndPointDescription_95671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_95670> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95671> .
+<http://ctro/data#Mean_95672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_95670> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95672> .
+<http://ctro/data#Endpoint_95670> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_95674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_95593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_95593> <http://www.w3.org/2000/01/rdf-schema#label> "Arm Dorz/TimFC" .
+<http://ctro/data#Arm_95593> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_95565> .
+<http://ctro/data#Arm_95593> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_95616> .
+<http://ctro/data#Outcome_95598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_95593> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_95675> .
+<http://ctro/data#Arm_95602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_95602> <http://www.w3.org/2000/01/rdf-schema#label> "Arm Brinz/BrimoFC" .
+<http://ctro/data#Arm_95602> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_95586> .
+<http://ctro/data#Arm_95602> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_95643> .
+<http://ctro/data#Outcome_95607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_95602> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_95702> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_95565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_95565> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention Dorz/TimFC" .
+<http://ctro/data#Intervention_95565> <http://ctro/data#hasMedication> <http://ctro/data#Medication_95551> .
+<http://ctro/data#Intervention_95565> <http://ctro/data#hasFrequency> "twice a day" .
+<http://ctro/data#RelativeTime_95570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_95565> <http://ctro/data#hasMedication> <http://ctro/data#Medication_95558> .
+<http://ctro/data#Intervention_95586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_95586> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention Brinz/BrimoFC" .
+<http://ctro/data#Intervention_95586> <http://ctro/data#hasMedication> <http://ctro/data#Medication_95572> .
+<http://ctro/data#Intervention_95586> <http://ctro/data#hasFrequency> "twice a day" .
+<http://ctro/data#RelativeTime_95591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_95586> <http://ctro/data#hasMedication> <http://ctro/data#Medication_95579> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_95551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_95551> <http://www.w3.org/2000/01/rdf-schema#label> "Medication dorz" .
+<http://ctro/data#Medication_95551> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide> .
+<http://ctro/data#BioAndMedicalUnit_95554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_95555> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_95558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_95558> <http://www.w3.org/2000/01/rdf-schema#label> "Medication tim " .
+<http://ctro/data#Medication_95558> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#BioAndMedicalUnit_95561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_95562> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_95572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_95572> <http://www.w3.org/2000/01/rdf-schema#label> "Medication Brinz" .
+<http://ctro/data#Medication_95572> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide> .
+<http://ctro/data#BioAndMedicalUnit_95575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_95576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_95579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_95579> <http://www.w3.org/2000/01/rdf-schema#label> "Medication brimo " .
+<http://ctro/data#Medication_95579> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#BioAndMedicalUnit_95582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_95583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_95616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95616> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome morning IOP dt " .
+<http://ctro/data#Outcome_95616> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95611> .
+<http://ctro/data#Outcome_95616> <http://ctro/data#hasChangeValue> "7 . 0" .
+<http://ctro/data#Outcome_95616> <http://ctro/data#hasSdDevChangeValue> "2 . 8" .
+<http://ctro/data#Outcome_95643> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95643> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome morning IOP bb" .
+<http://ctro/data#Outcome_95643> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95611> .
+<http://ctro/data#Outcome_95643> <http://ctro/data#hasChangeValue> "8 . 4" .
+<http://ctro/data#Outcome_95643> <http://ctro/data#hasSdDevChangeValue> "1 . 9" .
+<http://ctro/data#Outcome_95675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95675> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome afternoon IOP dt " .
+<http://ctro/data#Outcome_95675> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95670> .
+<http://ctro/data#Outcome_95675> <http://ctro/data#hasChangeValue> "8 . 6" .
+<http://ctro/data#Outcome_95675> <http://ctro/data#hasSdDevChangeValue> "± 2 . 7" .
+<http://ctro/data#Outcome_95702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95702> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome afternoon IOP bb " .
+<http://ctro/data#Outcome_95702> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95670> .
+<http://ctro/data#Outcome_95702> <http://ctro/data#hasChangeValue> "7 . 9" .
+<http://ctro/data#Outcome_95702> <http://ctro/data#hasSdDevChangeValue> "± 1 . 6" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_95729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_95729> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups morning IOP  " .
+<http://ctro/data#DiffBetweenGroups_95729> <http://ctro/data#hasPvalueDiff> "p = 0 . 0343" .
+<http://ctro/data#DiffBetweenGroups_95729> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_95616> .
+<http://ctro/data#DiffBetweenGroups_95729> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_95643> .
+<http://ctro/data#DiffBetweenGroups_95738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_95738> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups afternoon IOP " .
+<http://ctro/data#DiffBetweenGroups_95738> <http://ctro/data#hasPvalueDiff> "p = 0 . 3413" .
+<http://ctro/data#DiffBetweenGroups_95738> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_95675> .
+<http://ctro/data#DiffBetweenGroups_95738> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_95702> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,107 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+29720, Journal, 0, 19, "Diabetes Obes Metab", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasJournal> \"Diabetes Obes Metab\"."
+29721, PublicationYear, 22, 26, "2010", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasPublicationYear> \"2010\"."
+29727, Title, 111, 284, "Prandial - basal insulin regimens plus oral antihyperglycaemic agents to improve mealtime glycaemia : initiate and progressively advance insulin therapy in type 2 diabetes .", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasTitle> \"Prandial - basal insulin regimens plus oral antihyperglycaemic agents to improve mealtime glycaemia : initiate and progressively advance insulin therapy in type 2 diabetes .\"."
+29722, Insulin, 128, 135, "insulin", "", 
+29723, OralAntidiabeticAgent, 150, 180, "oral antihyperglycaemic agents", "", 
+29724, Hypoglycemia, 201, 210, "glycaemia", "", 
+29725, Insulin, 248, 255, "insulin", "", 
+29726, Type2Diabetes, 267, 282, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+29728, Author, 285, 292, "Jain SM", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Jain SM\"."
+29729, Author, 301, 306, "Mao X", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Mao X\"."
+29730, Author, 309, 329, "Escalante - Pulido M", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Escalante - Pulido M\"."
+29731, Author, 332, 345, "Vorokhobina N", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Vorokhobina N\"."
+29732, Author, 348, 355, "Lopez I", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Lopez I\"."
+29733, Author, 358, 365, "Ilag LL", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasAuthor> \"Ilag LL\"."
+29734, India, 440, 445, "India", "", 
+29751, ObjectiveDescription, 455, 684, "To compare two progressive approaches [ once - daily insulin glargine plus ≤ 3 mealtime lispro ( G + L ) vs . insulin lispro mix 50 / 50 ( LM50 / 50 ) progression once up to thrice daily ( premix progression , PP ) ] of beginning", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasObjectiveDescription> \"To compare two progressive approaches [ once - daily insulin glargine plus ≤ 3 mealtime lispro ( G + L ) vs . insulin lispro mix 50 / 50 ( LM50 / 50 ) progression once up to thrice daily ( premix progression , PP ) ] of beginning\"."
+29735, Frequency, 495, 507, "once - daily", "", "<http://ctro/data#Intervention_20216> <http://ctro/data#hasFrequency> \"once - daily\"."
+29736, InsulinGlargine, 508, 524, "insulin glargine", "", "<http://ctro/data#Medication_20209> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+29744, Frequency, 530, 533, "≤ 3", "", "<http://ctro/data#Intervention_20222> <http://ctro/data#hasFrequency> \"≤ 3\"."
+29737, Lispro, 543, 549, "lispro", "", "<http://ctro/data#Medication_20228> <http://ctro/data#hasDrug> <http://ctro/data#Lispro>."
+39204, InsulinGlargine, 552, 553, "G", "", 
+39209, Lispro, 556, 557, "L", "", 
+29738, Lispro, 565, 579, "insulin lispro", "", "<http://ctro/data#Medication_20241> <http://ctro/data#hasDrug> <http://ctro/data#Lispro>."
+29739, Frequency, 618, 641, "once up to thrice daily", "", "<http://ctro/data#Intervention_20235> <http://ctro/data#hasFrequency> \"once up to thrice daily\"."
+29752, ObjectiveDescription, 685, 857, "and advancing insulin in patients with type 2 diabetes ( T2D ) and inadequate glycaemic control on oral therapy , with the aim of showing non - inferiority of PP to G + L .", "", 
+29741, Type2Diabetes, 724, 739, "type 2 diabetes", "", 
+29742, Type2Diabetes, 742, 745, "T2D", "", 
+29743, Precondition, 752, 796, "inadequate glycaemic control on oral therapy", "", "<http://ctro/data#Population_20181> <http://ctro/data#hasPrecondition> \"inadequate glycaemic control on oral therapy\"."
+29745, Randomized, 882, 892, "randomized", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+29746, NumberPatientsArm, 905, 908, "242", "", "<http://ctro/data#Arm_20190> <http://ctro/data#hasNumberPatientsArm> \"242\"."
+39201, InsulinGlargine, 914, 915, "G", "", 
+39210, Lispro, 918, 919, "L", "", 
+29747, NumberPatientsArm, 926, 929, "242", "", "<http://ctro/data#Arm_20199> <http://ctro/data#hasNumberPatientsArm> \"242\"."
+29748, Duration, 937, 946, "36 - week", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasCTduration> \"36 - week\"."
+29749, Multicenter, 949, 962, "multinational", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+29750, OpenLabel, 965, 977, "open - label", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+29753, Lispro, 1039, 1053, "insulin lispro", "", 
+39220, TimePoint, 1118, 1126, "Baseline", "", 
+29754, HbA1c, 1127, 1142, "haemoglobin A1c", "", "<http://ctro/data#Endpoint_20249> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+29755, HbA1c, 1145, 1150, "HbA1c", "", 
+29756, BaseLineValue, 1158, 1163, "9 . 5", "", "<http://ctro/data#Outcome_20281> <http://ctro/data#hasBaselineValue> \"9 . 5\"."
+29759, Percentage, 1164, 1165, "%", "", "<http://ctro/data#Endpoint_20249> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+29757, BaseLineValue, 1177, 1182, "9 . 3", "", "<http://ctro/data#Outcome_20254> <http://ctro/data#hasBaselineValue> \"9 . 3\"."
+29760, Percentage, 1183, 1184, "%", "", 
+39202, InsulinGlargine, 1187, 1188, "G", "", 
+39211, Lispro, 1191, 1192, "L", "", 
+29758, PValueBL, 1197, 1208, "p = 0 . 095", "", "<http://ctro/data#Outcome_20254> <http://ctro/data#hasPValueBL> \"p = 0 . 095\". <http://ctro/data#Outcome_20281> <http://ctro/data#hasPValueBL> \"p = 0 . 095\"."
+29761, HbA1c, 1221, 1224, "A1C", "", 
+39219, TimePoint, 1227, 1235, "baseline", "", 
+39218, TimePoint, 1239, 1247, "endpoint", "", 
+29762, ChangeValue, 1254, 1262, "- 1 . 76", "", "<http://ctro/data#Outcome_20281> <http://ctro/data#hasChangeValue> \"- 1 . 76\"."
+29764, Percentage, 1263, 1264, "%", "", 
+29763, ChangeValue, 1276, 1284, "- 1 . 93", "", "<http://ctro/data#Outcome_20254> <http://ctro/data#hasChangeValue> \"- 1 . 93\"."
+29765, Percentage, 1285, 1286, "%", "", 
+39203, InsulinGlargine, 1289, 1290, "G", "", 
+39212, Lispro, 1293, 1294, "L", "", 
+29766, PvalueDiff, 1299, 1310, "p = 0 . 097", "", "<http://ctro/data#DiffBetweenGroups_20308> <http://ctro/data#hasPvalueDiff> \"p = 0 . 097\"."
+29767, DiffGroupAbsValue, 1345, 1351, "0 . 17", "", "<http://ctro/data#DiffBetweenGroups_20308> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 17\"."
+29768, ConfIntervalDiff, 1354, 1398, "95 % confidence interval : - 0 . 03 , 0 . 37", "", "<http://ctro/data#DiffBetweenGroups_20308> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval : - 0 . 03 , 0 . 37\"."
+29769, Percentage, 1357, 1358, "%", "", 
+39205, InsulinGlargine, 1432, 1433, "G", "", 
+39213, Lispro, 1436, 1437, "L", "", 
+29770, Percentage, 1512, 1513, "%", "", 
+29771, HbA1c, 1516, 1519, "A1C", "", 
+39206, InsulinGlargine, 1535, 1536, "G", "", 
+39214, Lispro, 1539, 1540, "L", "", 
+29772, TimePoint, 1544, 1552, "weeks 12", "", "<http://ctro/data#Outcome_20317> <http://ctro/data#hasTimePoint> \"weeks 12\". <http://ctro/data#Outcome_20344> <http://ctro/data#hasTimePoint> \"weeks 12\"."
+29775, ResultMeasuredValue, 1555, 1560, "7 . 8", "", "<http://ctro/data#Outcome_20317> <http://ctro/data#hasResultMeasuredValue> \"7 . 8\"."
+29776, ResultMeasuredValue, 1566, 1571, "7 . 9", "", "<http://ctro/data#Outcome_20344> <http://ctro/data#hasResultMeasuredValue> \"7 . 9\"."
+29781, Percentage, 1572, 1573, "%", "", 
+29784, PvalueDiff, 1576, 1587, "p = 0 . 042", "", "<http://ctro/data#DiffBetweenGroups_20371> <http://ctro/data#hasPvalueDiff> \"p = 0 . 042\"."
+29773, TimePoint, 1592, 1594, "24", "", "<http://ctro/data#Outcome_20380> <http://ctro/data#hasTimePoint> \"24\". <http://ctro/data#Outcome_20407> <http://ctro/data#hasTimePoint> \"24\"."
+29777, ResultMeasuredValue, 1597, 1602, "7 . 4", "", "<http://ctro/data#Outcome_20380> <http://ctro/data#hasResultMeasuredValue> \"7 . 4\"."
+29778, ResultMeasuredValue, 1608, 1613, "7 . 6", "", "<http://ctro/data#Outcome_20407> <http://ctro/data#hasResultMeasuredValue> \"7 . 6\"."
+29782, Percentage, 1614, 1615, "%", "", 
+29785, PvalueDiff, 1618, 1629, "p = 0 . 046", "", "<http://ctro/data#DiffBetweenGroups_20434> <http://ctro/data#hasPvalueDiff> \"p = 0 . 046\"."
+29774, TimePoint, 1645, 1652, "week 36", "", "<http://ctro/data#Outcome_20443> <http://ctro/data#hasTimePoint> \"week 36\". <http://ctro/data#Outcome_20470> <http://ctro/data#hasTimePoint> \"week 36\"."
+29779, ResultMeasuredValue, 1655, 1660, "7 . 5", "", "<http://ctro/data#Outcome_20443> <http://ctro/data#hasResultMeasuredValue> \"7 . 5\"."
+29780, ResultMeasuredValue, 1666, 1671, "7 . 6", "", "<http://ctro/data#Outcome_20470> <http://ctro/data#hasResultMeasuredValue> \"7 . 6\"."
+29783, Percentage, 1672, 1673, "%", "", 
+29786, PvalueDiff, 1676, 1687, "p = 0 . 405", "", "<http://ctro/data#DiffBetweenGroups_20497> <http://ctro/data#hasPvalueDiff> \"p = 0 . 405\"."
+29787, HbA1c_target, 1767, 1776, "A1C ≤ 7 %", "", 
+29788, Percentage, 1775, 1776, "%", "", 
+29789, Hypoglycemia, 1779, 1810, "overall hypoglycaemia incidence", "", 
+29790, BodyWeight, 1823, 1836, "weight change", "", 
+85561, InsulinDose, 1845, 1866, "daily insulin dosages", "", "<http://ctro/data#InsulinDose_20507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_20506> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_20507>."
+39217, TimePoint, 1870, 1878, "endpoint", "", "<http://ctro/data#Outcome_20511> <http://ctro/data#hasTimePoint> \"endpoint\". <http://ctro/data#Outcome_20538> <http://ctro/data#hasTimePoint> \"endpoint\"."
+39207, InsulinGlargine, 1904, 1905, "G", "", 
+39215, Lispro, 1908, 1909, "L", "", 
+29792, ResultMeasuredValue, 1912, 1918, "0 . 57", "", "<http://ctro/data#Outcome_20511> <http://ctro/data#hasResultMeasuredValue> \"0 . 57\"."
+29793, ResultMeasuredValue, 1924, 1930, "0 . 51", "", "<http://ctro/data#Outcome_20538> <http://ctro/data#hasResultMeasuredValue> \"0 . 51\"."
+29794, IntUnit_per_Kg, 1931, 1937, "U / kg", "", "<http://ctro/data#Endpoint_20506> <http://ctro/data#hasBaselineUnit> <http://ctro/data#IntUnit_per_Kg>."
+29795, PvalueDiff, 1940, 1951, "p = 0 . 017", "", "<http://ctro/data#DiffBetweenGroups_20565> <http://ctro/data#hasPvalueDiff> \"p = 0 . 017\"."
+29798, EndPointDescription, 1975, 1985, "injections", "", "<http://ctro/data#EndPointDescription_20575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_20574> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_20575>."
+29797, ResultMeasuredValue, 1988, 1994, "1 . 98", "", "<http://ctro/data#Outcome_20579> <http://ctro/data#hasResultMeasuredValue> \"1 . 98\"."
+29799, ResultMeasuredValue, 2000, 2006, "1 . 79", "", "<http://ctro/data#Outcome_20606> <http://ctro/data#hasResultMeasuredValue> \"1 . 79\"."
+29800, PvalueDiff, 2009, 2020, "p = 0 . 011", "", "<http://ctro/data#DiffBetweenGroups_20633> <http://ctro/data#hasPvalueDiff> \"p = 0 . 011\"."
+29802, ConclusionComment, 2039, 2192, "Both treatments progressively improved glycaemic control in patients with T2D on oral therapy , although non - inferiority of PP to G + L was not shown .", "", "<http://ctro/data#ClinicalTrial_20163> <http://ctro/data#hasConclusionComment> \"Both treatments progressively improved glycaemic control in patients with T2D on oral therapy , although non - inferiority of PP to G + L was not shown .\"."
+29801, Type2Diabetes, 2113, 2116, "T2D", "", 
+39208, InsulinGlargine, 2171, 2172, "G", "", 
+39216, Lispro, 2175, 2176, "L", "", 
+29803, ConclusionComment, 2193, 2317, "Higher insulin doses were observed with PP with no between - treatment differences in overall hypoglycaemia or weight gain .", "", 
+29804, Insulin, 2200, 2207, "insulin", "", 
+29805, Hypoglycemia, 2287, 2300, "hypoglycaemia", "", 
+29806, WeightGain, 2304, 2315, "weight gain", "", 
+29807, PMID, 2428, 2436, "20880343", "", "<http://ctro/data#Publication_20151> <http://ctro/data#hasPMID> \"20880343\"."

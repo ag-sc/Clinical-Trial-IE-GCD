@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2013", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasPublicationYear> \"2013\"."
+42, Title, 107, 247, "Efficacy and safety of lixisenatide once daily versus placebo in type 2 diabetes insufficiently controlled on pioglitazone ( GetGoal - P ) .", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasTitle> \"Efficacy and safety of lixisenatide once daily versus placebo in type 2 diabetes insufficiently controlled on pioglitazone ( GetGoal - P ) .\"."
+79549, Lixisenatide, 130, 142, "lixisenatide", "", 
+13, Frequency, 143, 153, "once daily", "", 
+20, Placebo, 161, 168, "placebo", "", 
+26, Type2Diabetes, 172, 187, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+39, Precondition, 172, 245, "type 2 diabetes insufficiently controlled on pioglitazone ( GetGoal - P )", "", "<http://ctro/data#Population_44898> <http://ctro/data#hasPrecondition> \"type 2 diabetes insufficiently controlled on pioglitazone ( GetGoal - P )\"."
+30, Pioglitazone, 217, 229, "pioglitazone", "", 
+43, Author, 248, 256, "Pinget M", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Pinget M\"."
+44, Author, 265, 277, "Goldenberg R", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Goldenberg R\"."
+45, Author, 280, 292, "Niemoeller E", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Niemoeller E\"."
+46, Author, 295, 314, "Muehlen - Bartmer I", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Muehlen - Bartmer I\"."
+47, Author, 317, 322, "Guo H", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Guo H\"."
+48, Author, 325, 334, "Aronson R", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasAuthor> \"Aronson R\"."
+49, France, 426, 432, "France", "", 
+50, ObjectiveDescription, 442, 622, "To compare the efficacy and safety of once - daily prandial lixisenatide with placebo in type 2 diabetes mellitus ( T2DM ) insufficiently controlled by pioglitazone  ±  metformin .", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of once - daily prandial lixisenatide with placebo in type 2 diabetes mellitus ( T2DM ) insufficiently controlled by pioglitazone  ±  metformin .\"."
+14, Frequency, 480, 492, "once - daily", "", 
+79550, Lixisenatide, 502, 514, "lixisenatide", "", 
+21, Placebo, 520, 527, "placebo", "", 
+27, Type2Diabetes, 531, 555, "type 2 diabetes mellitus", "", 
+40, Precondition, 531, 620, "type 2 diabetes mellitus ( T2DM ) insufficiently controlled by pioglitazone  ±  metformin", "", "<http://ctro/data#Population_44898> <http://ctro/data#hasPrecondition> \"type 2 diabetes mellitus ( T2DM ) insufficiently controlled by pioglitazone  ±  metformin\"."
+28, Type2Diabetes, 558, 562, "T2DM", "", 
+38, Pioglitazone, 594, 606, "pioglitazone", "", 
+37, Metformin, 611, 620, "metformin", "", 
+51, Randomized, 638, 648, "randomized", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+52, DoubleBlind, 651, 665, "double - blind", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+59, Duration, 683, 692, "24 - week", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasCTduration> \"24 - week\"."
+126, Duration, 721, 732, "≥ 52 - week", "", 
+53, Randomized, 775, 785, "randomized", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+54, AllocationRatio, 786, 793, "2  :  1", "", "<http://ctro/data#AllocationRatio_44886> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_44886>."
+79551, Lixisenatide, 805, 817, "lixisenatide", "", "<http://ctro/data#Medication_44936> <http://ctro/data#hasDrug> <http://ctro/data#Lixisenatide>."
+55, DoseValue, 818, 820, "20", "", "<http://ctro/data#Medication_44936> <http://ctro/data#hasDoseValue> \"20\"."
+130, Microgram, 821, 825, " µ g", "", "<http://ctro/data#Medication_44936> <http://ctro/data#hasDoseUnit> <http://ctro/data#Microgram>."
+15, Frequency, 826, 836, "once daily", "", "<http://ctro/data#Intervention_44924> <http://ctro/data#hasFrequency> \"once daily\"."
+22, Placebo, 840, 847, "placebo", "", "<http://ctro/data#Medication_44943> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+57, HbA1c, 885, 905, "glycated haemoglobin", "", 
+58, HbA1c, 908, 913, "HbA1c", "", 
+96, TimePoint, 919, 926, "week 24", "", 
+60, NumberPatientsCT, 950, 953, "484", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasNumberPatientsCT> \"484\"."
+61, Randomized, 968, 978, "randomized", "", 
+62, NumberPatientsArm, 981, 984, "323", "", "<http://ctro/data#Arm_44906> <http://ctro/data#hasNumberPatientsArm> \"323\"."
+79552, Lixisenatide, 988, 1000, "lixisenatide", "", 
+63, NumberPatientsArm, 1003, 1006, "161", "", "<http://ctro/data#Arm_44915> <http://ctro/data#hasNumberPatientsArm> \"161\"."
+23, Placebo, 1010, 1017, "placebo", "", 
+142, TimePoint, 1026, 1036, "24   weeks", "", "<http://ctro/data#Outcome_44994> <http://ctro/data#hasTimePoint> \"24   weeks\". <http://ctro/data#Outcome_45021> <http://ctro/data#hasTimePoint> \"24   weeks\"."
+79554, Lixisenatide, 1039, 1051, "lixisenatide", "", 
+16, Frequency, 1052, 1062, "once daily", "", 
+65, HbA1c, 1086, 1091, "HbA1c", "", "<http://ctro/data#Endpoint_44989> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+152, DiffGroupAbsValue, 1094, 1102, "- 0 . 56", "", "<http://ctro/data#DiffBetweenGroups_45048> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 56\"."
+67, Percentage, 1103, 1104, "%", "", "<http://ctro/data#Endpoint_44989> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+32, Placebo, 1110, 1117, "placebo", "", 
+154, PvalueDiff, 1120, 1134, "p  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_45048> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 0001\"."
+69, HbA1c_target, 1188, 1199, "HbA1c < 7 %", "", "<http://ctro/data#Endpoint_45057> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+161, Percentage, 1198, 1199, "%", "", 
+33, Placebo, 1214, 1221, "placebo", "", 
+70, PercentageAffected, 1224, 1230, "52 . 3", "", "<http://ctro/data#Outcome_45067> <http://ctro/data#hasPercentageAffected> \"52 . 3\"."
+71, PercentageAffected, 1238, 1244, "26 . 4", "", "<http://ctro/data#Outcome_45094> <http://ctro/data#hasPercentageAffected> \"26 . 4\"."
+72, PvalueDiff, 1264, 1278, "p  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_45121> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 0001\"."
+73, FastingPlasmaGlucose, 1308, 1330, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_45062> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+153, DiffGroupAbsValue, 1333, 1341, "- 0 . 84", "", "<http://ctro/data#DiffBetweenGroups_45184> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 84\"."
+75, Millimoles_per_litre, 1344, 1352, "mmol / l", "", "<http://ctro/data#Endpoint_45062> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+34, Placebo, 1358, 1365, "placebo", "", 
+155, PvalueDiff, 1368, 1382, "p  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_45184> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 0001\"."
+65782, ObservedResult, 1397, 1413, "a small decrease", "", "<http://ctro/data#Outcome_45375> <http://ctro/data#hasObservedResult> \"a small decrease\"."
+77, BodyWeight, 1417, 1428, "body weight", "", "<http://ctro/data#Endpoint_45370> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+79555, Lixisenatide, 1434, 1446, "lixisenatide", "", 
+17, Frequency, 1447, 1457, "once daily", "", 
+65788, ObservedResult, 1462, 1478, "a small increase", "", "<http://ctro/data#Outcome_45402> <http://ctro/data#hasObservedResult> \"a small increase\"."
+35, Placebo, 1484, 1491, "placebo", "", 
+65789, ObservedResult, 1499, 1561, "no statistically significant difference between the two groups", "", 
+79556, Lixisenatide, 1574, 1586, "lixisenatide", "", 
+18, Frequency, 1587, 1597, "once daily", "", 
+171, EndPointDescription, 1648, 1683, "treatment - emergent adverse events", "", "<http://ctro/data#EndPointDescription_45194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_45193> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_45194>."
+80, EndPointDescription, 1686, 1691, "TEAEs", "", 
+173, EndPointDescription, 1698, 1711, "serious TEAEs", "", "<http://ctro/data#EndPointDescription_45199> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_45198> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_45199>."
+79562, Lixisenatide, 1729, 1741, "lixisenatide", "", 
+82, PercentageAffected, 1744, 1750, "72 . 4", "", "<http://ctro/data#Outcome_45203> <http://ctro/data#hasPercentageAffected> \"72 . 4\"."
+84, PercentageAffected, 1757, 1762, "2 . 5", "", "<http://ctro/data#Outcome_45257> <http://ctro/data#hasPercentageAffected> \"2 . 5\"."
+24, Placebo, 1767, 1774, "placebo", "", 
+83, PercentageAffected, 1777, 1783, "72 . 7", "", "<http://ctro/data#Outcome_45230> <http://ctro/data#hasPercentageAffected> \"72 . 7\"."
+85, PercentageAffected, 1790, 1795, "1 . 9", "", "<http://ctro/data#Outcome_45284> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+86, SymptomaticHypoglycemia, 1802, 1827, "Symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_45311> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+79559, Lixisenatide, 1876, 1888, "lixisenatide", "", 
+87, PercentageAffected, 1889, 1894, "3 . 4", "", "<http://ctro/data#Outcome_45316> <http://ctro/data#hasPercentageAffected> \"3 . 4\"."
+187, Percentage, 1895, 1896, "%", "", 
+25, Placebo, 1901, 1908, "placebo", "", 
+88, PercentageAffected, 1909, 1914, "1 . 2", "", "<http://ctro/data#Outcome_45343> <http://ctro/data#hasPercentageAffected> \"1 . 2\"."
+188, Percentage, 1915, 1916, "%", "", 
+89, ObservedResult, 1921, 1944, "with no severe episodes", "", "<http://ctro/data#Outcome_45316> <http://ctro/data#hasObservedResult> \"with no severe episodes\". <http://ctro/data#Outcome_45343> <http://ctro/data#hasObservedResult> \"with no severe episodes\"."
+79557, Lixisenatide, 1947, 1959, "Lixisenatide", "", 
+93, ConclusionComment, 2060, 2259, "Lixisenatide once daily significantly improved glycaemic control with a low risk of hypoglycaemia , and was well tolerated over 24   weeks and during the long - term , double - blind extension period", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasConclusionComment> \"Lixisenatide once daily significantly improved glycaemic control with a low risk of hypoglycaemia , and was well tolerated over 24   weeks and during the long - term , double - blind extension period\"."
+79560, Lixisenatide, 2060, 2072, "Lixisenatide", "", 
+19, Frequency, 2073, 2083, "once daily", "", 
+90, Hypoglycemia, 2144, 2157, "hypoglycaemia", "", 
+91, Duration, 2188, 2198, "24   weeks", "", 
+92, DoubleBlind, 2228, 2242, "double - blind", "", 
+94, ConclusionComment, 2260, 2339, "in patients with T2DM insufficiently controlled on pioglitazone  ±  metformin .", "", "<http://ctro/data#ClinicalTrial_44882> <http://ctro/data#hasConclusionComment> \"in patients with T2DM insufficiently controlled on pioglitazone  ±  metformin .\"."
+29, Type2Diabetes, 2277, 2281, "T2DM", "", 
+31, Pioglitazone, 2311, 2323, "pioglitazone", "", 
+36, Metformin, 2328, 2337, "metformin", "", 
+95, PMID, 2408, 2416, "23627775", "", "<http://ctro/data#Publication_44875> <http://ctro/data#hasPMID> \"23627775\"."

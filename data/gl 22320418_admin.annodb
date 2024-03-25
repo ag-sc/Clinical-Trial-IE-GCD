@@ -1,0 +1,95 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2012", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasPublicationYear> \"2012\"."
+2, Title, 112, 267, "Comparison of dorzolamide / timolol and latanoprost / timolol fixed combinations on diurnal intraocular pressure control in primary open - angle glaucoma .", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasTitle> \"Comparison of dorzolamide / timolol and latanoprost / timolol fixed combinations on diurnal intraocular pressure control in primary open - angle glaucoma .\"."
+96, Dorz/TimFC, 126, 147, "dorzolamide / timolol", "", 
+3, Dorzolamide, 126, 137, "dorzolamide", "", 
+4, Timolol, 140, 147, "timolol", "", 
+95, Lat/TimFC, 152, 173, "latanoprost / timolol", "", 
+5, Latanoprost, 152, 163, "latanoprost", "", 
+6, Timolol, 166, 173, "timolol", "", 
+7, Diurnal_IOP, 196, 224, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_66052> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+8, Primary_OpenAngleGlaucoma, 236, 265, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+9, Author, 268, 275, "Eren MH", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasAuthor> \"Eren MH\"."
+10, Author, 284, 292, "Gungel H", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasAuthor> \"Gungel H\"."
+11, Author, 295, 302, "Altan C", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasAuthor> \"Altan C\"."
+12, Author, 305, 316, "Pasaoglu IB", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasAuthor> \"Pasaoglu IB\"."
+13, Author, 319, 330, "Sabanci S .", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasAuthor> \"Sabanci S .\"."
+14, Turkey, 436, 442, "Turkey", "", "<http://ctro/data#Population_66044> <http://ctro/data#hasCountry> <http://ctro/data#Turkey>."
+15, ObjectiveDescription, 484, 684, "To compare the efficacy and safety of dorzolamide hydrochloride 2 % / timolol maleate 0 . 5 % fixed combination ( DTFC ) with latanoprost 0 . 005 % / timolol maleate 0 . 5 % fixed combination ( LTFC )", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of dorzolamide hydrochloride 2 % / timolol maleate 0 . 5 % fixed combination ( DTFC ) with latanoprost 0 . 005 % / timolol maleate 0 . 5 % fixed combination ( LTFC )\"."
+92036, Dorz/TimFC, 522, 595, "dorzolamide hydrochloride 2 % / timolol maleate 0 . 5 % fixed combination", "", "<http://ctro/data#Medication_66243> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+17, Dorzolamide, 522, 547, "dorzolamide hydrochloride", "", 
+19, DoseValue, 548, 549, "2", "", 
+105, Percentage, 550, 551, "%", "", 
+18, Timolol, 554, 569, "timolol maleate", "", 
+20, DoseValue, 570, 575, "0 . 5", "", 
+106, Percentage, 576, 577, "%", "", 
+21, Dorz/TimFC, 598, 602, "DTFC", "", 
+92044, Lat/TimFC, 610, 675, "latanoprost 0 . 005 % / timolol maleate 0 . 5 % fixed combination", "", "<http://ctro/data#Medication_66250> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+22, Latanoprost, 610, 621, "latanoprost", "", 
+24, DoseValue, 622, 629, "0 . 005", "", 
+107, Percentage, 630, 631, "%", "", 
+23, Timolol, 634, 649, "timolol maleate", "", 
+25, DoseValue, 650, 655, "0 . 5", "", 
+108, Percentage, 656, 657, "%", "", 
+26, Lat/TimFC, 678, 682, "LTFC", "", 
+16, ObjectiveDescription, 685, 773, "on diurnal intraocular pressure ( IOP ) in patients with primary open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasObjectiveDescription> \"on diurnal intraocular pressure ( IOP ) in patients with primary open - angle glaucoma .\"."
+111, Diurnal_IOP, 688, 716, "diurnal intraocular pressure", "", 
+112, IOP, 719, 722, "IOP", "", 
+113, Primary_OpenAngleGlaucoma, 742, 771, "primary open - angle glaucoma", "", 
+27, NumberPatientsCT, 784, 798, "Thirty - three", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasNumberPatientsCT> \"Thirty - three\"."
+28, Primary_OpenAngleGlaucoma, 799, 828, "primary open - angle glaucoma", "", 
+31, Precondition, 829, 885, "patients with IOP of 22 - 32   mmHg measured at any time", "", "<http://ctro/data#Population_66044> <http://ctro/data#hasPrecondition> \"patients with IOP of 22 - 32   mmHg measured at any time\"."
+29, IOP, 843, 846, "IOP", "", 
+30, mmHg, 860, 864, "mmHg", "", 
+32, Randomized, 916, 926, "randomized", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+33, Dorz/TimFC, 937, 941, "DTFC", "", 
+34, Frequency, 942, 953, "twice daily", "", "<http://ctro/data#Intervention_66257> <http://ctro/data#hasFrequency> \"twice daily\"."
+35, Latanoprost, 957, 968, "latanoprost", "", 
+39, Lat/TimFC, 957, 1022, "latanoprost 0 . 005 % / timolol maleate 0 . 5 % fixed combination", "", 
+37, DoseValue, 969, 976, "0 . 005", "", 
+126, Percentage, 977, 978, "%", "", 
+36, Timolol, 981, 996, "timolol maleate", "", 
+38, DoseValue, 997, 1002, "0 . 5", "", 
+127, Percentage, 1003, 1004, "%", "", 
+40, Lat/TimFC, 1025, 1029, "LTFC", "", 
+41, Frequency, 1032, 1042, "once a day", "", "<http://ctro/data#Intervention_66263> <http://ctro/data#hasFrequency> \"once a day\"."
+42, Evening, 1050, 1057, "evening", "", "<http://ctro/data#Intervention_66263> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+43, Duration, 1068, 1076, "6 - week", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasCTduration> \"6 - week\". <http://ctro/data#Intervention_66257> <http://ctro/data#hasDuration> \"6 - week\". <http://ctro/data#Intervention_66263> <http://ctro/data#hasDuration> \"6 - week\"."
+44, IOP, 1118, 1121, "IOP", "", 
+45, Duration, 1196, 1203, "6 weeks", "", 
+46, Duration, 1278, 1285, "6 weeks", "", 
+47, Mean, 1330, 1334, "mean", "", 
+48, IOP, 1344, 1347, "IOP", "", 
+49, BaseLineValue, 1352, 1359, "25 . 09", "", "<http://ctro/data#Outcome_66072> <http://ctro/data#hasBaselineValue> \"25 . 09\". <http://ctro/data#Outcome_66099> <http://ctro/data#hasBaselineValue> \"25 . 09\"."
+137, SdDevBL, 1362, 1367, "2 . 8", "", "<http://ctro/data#Outcome_66072> <http://ctro/data#hasSdDevBL> \"2 . 8\". <http://ctro/data#Outcome_66099> <http://ctro/data#hasSdDevBL> \"2 . 8\"."
+51, mmHg, 1370, 1374, "mmHg", "", 
+52, Mean, 1406, 1410, "mean", "", "<http://ctro/data#Mean_66054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_66052> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_66054>."
+53, Diurnal_IOP, 1411, 1422, "diurnal IOP", "", "<http://ctro/data#Mean_66054> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_66052> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_66054>."
+54, Lat/TimFC, 1452, 1456, "LTFC", "", 
+55, ResultMeasuredValue, 1459, 1465, "16 . 3", "", "<http://ctro/data#Outcome_66072> <http://ctro/data#hasResultMeasuredValue> \"16 . 3\"."
+57, mmHg, 1468, 1472, "mmHg", "", "<http://ctro/data#Endpoint_66052> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+59, Dorz/TimFC, 1485, 1489, "DTFC", "", 
+56, ResultMeasuredValue, 1492, 1498, "17 . 3", "", "<http://ctro/data#Outcome_66099> <http://ctro/data#hasResultMeasuredValue> \"17 . 3\"."
+58, mmHg, 1501, 1505, "mmHg", "", 
+60, Peak_IOP, 1518, 1526, "peak IOP", "", "<http://ctro/data#Endpoint_66057> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+61, ResultMeasuredValue, 1537, 1543, "18 . 5", "", "<http://ctro/data#Outcome_66126> <http://ctro/data#hasResultMeasuredValue> \"18 . 5\"."
+63, mmHg, 1546, 1550, "mmHg", "", "<http://ctro/data#Endpoint_66057> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+65, Lat/TimFC, 1556, 1560, "LTFC", "", 
+62, ResultMeasuredValue, 1565, 1571, "19 . 9", "", "<http://ctro/data#Outcome_66153> <http://ctro/data#hasResultMeasuredValue> \"19 . 9\"."
+151, SdDevResValue, 1574, 1579, "2 . 6", "", "<http://ctro/data#Outcome_66153> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+64, mmHg, 1582, 1586, "mmHg", "", 
+66, Dorz/TimFC, 1592, 1596, "DTFC", "", 
+152, PvalueDiff, 1601, 1609, "< 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_66234> <http://ctro/data#hasPvalueDiff> \"< 0 . 05\"."
+106408, ObservedResult, 1614, 1708, "No significant side effects were reported except stinging and bitter taste with the DTFC group", "", "<http://ctro/data#Outcome_66180> <http://ctro/data#hasObservedResult> \"No significant side effects were reported except stinging and bitter taste with the DTFC group\". <http://ctro/data#Outcome_66207> <http://ctro/data#hasObservedResult> \"No significant side effects were reported except stinging and bitter taste with the DTFC group\"."
+92045, Stinging, 1663, 1671, "stinging", "", "<http://ctro/data#Endpoint_66062> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Stinging>."
+92046, EndPointDescription, 1676, 1688, "bitter taste", "", "<http://ctro/data#EndPointDescription_66068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_66067> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66068>."
+71, Dorz/TimFC, 1698, 1702, "DTFC", "", 
+72, Mean, 1724, 1728, "Mean", "", 
+78, ConclusionComment, 1724, 1838, "Mean diurnal IOP and peak IOP were lower with LTFC than with DTFC in patients with primary open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_66027> <http://ctro/data#hasConclusionComment> \"Mean diurnal IOP and peak IOP were lower with LTFC than with DTFC in patients with primary open - angle glaucoma .\"."
+73, Diurnal_IOP, 1729, 1740, "diurnal IOP", "", 
+74, Peak_IOP, 1745, 1753, "peak IOP", "", 
+75, Lat/TimFC, 1770, 1774, "LTFC", "", 
+76, Dorz/TimFC, 1785, 1789, "DTFC", "", 
+77, Primary_OpenAngleGlaucoma, 1807, 1836, "primary open - angle glaucoma", "", 
+79, PMID, 1882, 1890, "22320418", "", "<http://ctro/data#Publication_66015> <http://ctro/data#hasPMID> \"22320418\"."

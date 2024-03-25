@@ -1,0 +1,118 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2016", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasPublicationYear> \"2016\"."
+33, Title, 118, 301, "Effects of vildagliptin versus saxagliptin on daily acute glucose fluctuations in Chinese patients with T2DM inadequately controlled with a combination of metformin and sulfonylurea .", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasTitle> \"Effects of vildagliptin versus saxagliptin on daily acute glucose fluctuations in Chinese patients with T2DM inadequately controlled with a combination of metformin and sulfonylurea .\"."
+2, Vildagliptin, 129, 141, "vildagliptin", "", 
+10, Saxagliptin, 149, 160, "saxagliptin", "", 
+18, Ethnicity, 200, 207, "Chinese", "", "<http://ctro/data#Ethnicity_69152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_69150> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_69152>."
+20, Type2Diabetes, 222, 226, "T2DM", "", 
+25, Metformin, 273, 282, "metformin", "", 
+29, Sulfonylureas, 287, 299, "sulfonylurea", "", 
+34, Author, 302, 311, "Xiaoyan C", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Xiaoyan C\"."
+35, Author, 320, 326, "Jing W", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Jing W\"."
+36, Author, 335, 345, "Xiaochun H", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Xiaochun H\"."
+37, Author, 354, 360, "Yuyu T", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Yuyu T\"."
+38, Author, 369, 378, "Shunyou D", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Shunyou D\"."
+39, Author, 387, 395, "Yingyu F", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasAuthor> \"Yingyu F\"."
+40, China, 536, 541, "China", "", 
+141, ObjectiveDescription, 554, 744, "The present study aimed to compare the effects of the dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitors vildagliptin and saxagliptin on 24   hour acute glucose fluctuations in Chinese patients", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasObjectiveDescription> \"The present study aimed to compare the effects of the dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitors vildagliptin and saxagliptin on 24   hour acute glucose fluctuations in Chinese patients\"."
+3, Vildagliptin, 656, 668, "vildagliptin", "", 
+11, Saxagliptin, 673, 684, "saxagliptin", "", 
+41, Precondition, 728, 856, "Chinese patients with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea", "", "<http://ctro/data#Population_69150> <http://ctro/data#hasPrecondition> \"Chinese patients with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea\"."
+19, Ethnicity, 728, 735, "Chinese", "", 
+142, ObjectiveDescription, 745, 858, "with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea .", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasObjectiveDescription> \"with type 2 diabetes mellitus ( T2DM ) inadequately controlled with a combination of metformin and sulfonylurea .\"."
+21, Type2Diabetes, 750, 774, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+22, Type2Diabetes, 777, 781, "T2DM", "", 
+26, Metformin, 830, 839, "metformin", "", 
+30, Sulfonylureas, 844, 856, "sulfonylurea", "", 
+44, Duration, 898, 905, "24 week", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTduration> \"24 week\"."
+45, Prospective, 908, 919, "prospective", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+46, Randomized, 922, 932, "randomized", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+47, OpenLabel, 935, 947, "open - label", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+48, CTDesign, 950, 969, "active - controlled", "", "<http://ctro/data#CTDesign_69290> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_69290>."
+50, NumberPatientsCT, 995, 997, "73", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasNumberPatientsCT> \"73\"."
+49, Type2Diabetes, 1005, 1009, "T2DM", "", 
+51, HbA1c, 1048, 1053, "HbA1c", "", 
+53, Percentage, 1060, 1061, "%", "", "<http://ctro/data#Endpoint_69355> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+54, Percentage, 1071, 1072, "%", "", 
+27, Metformin, 1099, 1108, "metformin", "", 
+55, Drug, 1114, 1124, "gliclazide", "", 
+154, Duration, 1139, 1147, "3 months", "", 
+57, Randomized, 1153, 1163, "randomized", "", 
+4, Vildagliptin, 1182, 1194, "vildagliptin", "", "<http://ctro/data#Medication_69200> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+58, DoseValue, 1195, 1197, "50", "", "<http://ctro/data#Medication_69200> <http://ctro/data#hasDoseValue> \"50\"."
+60, mg, 1200, 1202, "mg", "", "<http://ctro/data#Medication_69200> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+62, Frequency, 1203, 1214, "twice daily", "", "<http://ctro/data#Intervention_69176> <http://ctro/data#hasFrequency> \"twice daily\"."
+64, Frequency, 1217, 1220, "BID", "", 
+66, NumberPatientsArm, 1229, 1231, "37", "", "<http://ctro/data#Arm_69158> <http://ctro/data#hasNumberPatientsArm> \"37\"."
+12, Saxagliptin, 1237, 1248, "saxagliptin", "", "<http://ctro/data#Medication_69207> <http://ctro/data#hasDrug> <http://ctro/data#Saxagliptin>."
+59, DoseValue, 1249, 1250, "5", "", "<http://ctro/data#Medication_69207> <http://ctro/data#hasDoseValue> \"5\"."
+61, mg, 1253, 1255, "mg", "", "<http://ctro/data#Medication_69207> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+63, Frequency, 1256, 1266, "once daily", "", "<http://ctro/data#Intervention_69182> <http://ctro/data#hasFrequency> \"once daily\"."
+65, Frequency, 1269, 1271, "QD", "", 
+67, NumberPatientsArm, 1280, 1282, "36", "", "<http://ctro/data#Arm_69167> <http://ctro/data#hasNumberPatientsArm> \"36\"."
+68, EndPointDescription, 1297, 1334, "mean amplitude of glycemic excursions", "", "<http://ctro/data#EndPointDescription_69297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_69296> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_69297>."
+69, EndPointDescription, 1337, 1341, "MAGE", "", 
+72, TimePoint, 1371, 1379, "24 weeks", "", 
+73, TimePoint, 1393, 1401, "baseline", "", 
+166, Mean, 1408, 1412, "mean", "", 
+77, AvgAge, 1430, 1436, "62 . 9", "", "<http://ctro/data#Population_69150> <http://ctro/data#hasAvgAge> \"62 . 9\"."
+170, Year, 1448, 1453, "years", "", 
+171, Year, 1494, 1499, "years", "", 
+78, HbA1c, 1506, 1511, "HbA1c", "", 
+173, BaseLineValue, 1516, 1521, "8 . 4", "", "<http://ctro/data#Outcome_69360> <http://ctro/data#hasBaselineValue> \"8 . 4\". <http://ctro/data#Outcome_69387> <http://ctro/data#hasBaselineValue> \"8 . 4\"."
+174, SdDevBL, 1526, 1532, "0 . 68", "", "<http://ctro/data#Outcome_69360> <http://ctro/data#hasSdDevBL> \"0 . 68\". <http://ctro/data#Outcome_69387> <http://ctro/data#hasSdDevBL> \"0 . 68\"."
+79, Percentage, 1533, 1534, "%", "", 
+74, TimePoint, 1543, 1551, "24 weeks", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_69328> <http://ctro/data#hasTimePoint> \"24 weeks\"."
+70, EndPointDescription, 1571, 1575, "MAGE", "", 
+81, BaseLineValue, 1591, 1597, "5 . 81", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasBaselineValue> \"5 . 81\"."
+83, SdDevBL, 1602, 1608, "1 . 16", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevBL> \"1 . 16\"."
+89, Millimoles_per_litre, 1611, 1619, "mmol / L", "", "<http://ctro/data#Endpoint_69296> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+85, ResultMeasuredValue, 1623, 1629, "4 . 06", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasResultMeasuredValue> \"4 . 06\"."
+87, SdDevResValue, 1634, 1640, "0 . 86", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevResValue> \"0 . 86\"."
+90, Millimoles_per_litre, 1643, 1651, "mmol / L", "", 
+193, PValueChangeValue, 1654, 1665, "p < 0 . 001", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 001\"."
+5, Vildagliptin, 1675, 1687, "vildagliptin", "", 
+82, BaseLineValue, 1703, 1709, "5 . 66", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasBaselineValue> \"5 . 66\"."
+84, SdDevBL, 1714, 1720, "1 . 14", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevBL> \"1 . 14\"."
+91, Millimoles_per_litre, 1723, 1731, "mmol / L", "", 
+86, ResultMeasuredValue, 1735, 1741, "4 . 79", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasResultMeasuredValue> \"4 . 79\"."
+88, SdDevResValue, 1746, 1752, "1 . 25", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevResValue> \"1 . 25\"."
+92, Millimoles_per_litre, 1755, 1763, "mmol / L", "", 
+194, PValueChangeValue, 1766, 1779, "p  =  0 . 003", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasPValueChangeValue> \"p  =  0 . 003\"."
+13, Saxagliptin, 1789, 1800, "saxagliptin", "", 
+197, Mean, 1813, 1817, "mean", "", 
+71, EndPointDescription, 1828, 1832, "MAGE", "", 
+6, Vildagliptin, 1840, 1852, "vildagliptin", "", 
+14, Saxagliptin, 1902, 1913, "saxagliptin", "", 
+106365, Increment, 1922, 1928, "1 . 74", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasChangeValue> \"1 . 74\"."
+97, SdDevChangeValue, 1933, 1939, "0 . 48", "", "<http://ctro/data#Outcome_69301> <http://ctro/data#hasSdDevChangeValue> \"0 . 48\"."
+99, Millimoles_per_litre, 1942, 1950, "mmol / L", "", 
+106366, Increment, 1956, 1962, "0 . 87", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasChangeValue> \"0 . 87\"."
+98, SdDevChangeValue, 1967, 1973, "0 . 40", "", "<http://ctro/data#Outcome_69328> <http://ctro/data#hasSdDevChangeValue> \"0 . 40\"."
+100, Millimoles_per_litre, 1976, 1984, "mmol / L", "", 
+101, PvalueDiff, 1987, 1998, "p < 0 . 001", "", 
+207, Mean, 2007, 2011, "mean", "", "<http://ctro/data#Mean_69298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_69296> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_69298>. <http://ctro/data#Mean_69357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_69355> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_69357>."
+52, HbA1c, 2022, 2027, "HbA1c", "", "<http://ctro/data#Endpoint_69355> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+75, TimePoint, 2035, 2043, "baseline", "", 
+76, TimePoint, 2051, 2065, "study endpoint", "", 
+7, Vildagliptin, 2075, 2087, "vildagliptin", "", 
+15, Saxagliptin, 2092, 2103, "saxagliptin", "", 
+106367, Increment, 2117, 2123, "1 . 22", "", "<http://ctro/data#Outcome_69360> <http://ctro/data#hasChangeValue> \"1 . 22\"."
+104, SdDevChangeValue, 2128, 2134, "0 . 40", "", "<http://ctro/data#Outcome_69360> <http://ctro/data#hasSdDevChangeValue> \"0 . 40\"."
+106, Percentage, 2135, 2136, "%", "", "<http://ctro/data#Endpoint_69355> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+106368, Increment, 2141, 2147, "1 . 07", "", "<http://ctro/data#Outcome_69387> <http://ctro/data#hasChangeValue> \"1 . 07\"."
+105, SdDevChangeValue, 2152, 2158, "0 . 36", "", "<http://ctro/data#Outcome_69387> <http://ctro/data#hasSdDevChangeValue> \"0 . 36\"."
+107, Percentage, 2159, 2160, "%", "", 
+108, PvalueDiff, 2230, 2243, "p  =  0 . 091", "", "<http://ctro/data#DiffBetweenGroups_69414> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 091\"."
+8, Vildagliptin, 2287, 2299, "vildagliptin", "", 
+16, Saxagliptin, 2304, 2315, "saxagliptin", "", 
+109, OpenLabel, 2396, 2408, "open - label", "", 
+110, ConclusionComment, 2455, 2661, "Vildagliptin produced a significantly greater reduction in acute glucose fluctuations compared with saxagliptin when added to a dual combination of metformin and sulfonylurea in Chinese patients with T2DM .", "", "<http://ctro/data#ClinicalTrial_69134> <http://ctro/data#hasConclusionComment> \"Vildagliptin produced a significantly greater reduction in acute glucose fluctuations compared with saxagliptin when added to a dual combination of metformin and sulfonylurea in Chinese patients with T2DM .\"."
+9, Vildagliptin, 2455, 2467, "Vildagliptin", "", 
+17, Saxagliptin, 2555, 2566, "saxagliptin", "", 
+28, Metformin, 2603, 2612, "metformin", "", 
+31, Sulfonylureas, 2617, 2629, "sulfonylurea", "", 
+24, Ethnicity, 2633, 2640, "Chinese", "", 
+23, Type2Diabetes, 2655, 2659, "T2DM", "", 
+111, PMID, 2782, 2790, "26950829", "", "<http://ctro/data#Publication_69127> <http://ctro/data#hasPMID> \"26950829\"."

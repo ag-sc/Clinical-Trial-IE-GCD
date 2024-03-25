@@ -1,0 +1,80 @@
+#ARM_HEAD :: [start:Arm] #ARM
+#ARM :: [start:hasAdverseEffect] #OUTCOME_HEAD [end:hasAdverseEffect] #ARM
+#ARM :: [start:hasFinalNumPatientsArm] POINT [end:hasFinalNumPatientsArm] #ARM
+#ARM :: [start:hasIntervention] #INTERVENTION_HEAD [end:hasIntervention] #ARM
+#ARM :: [start:hasNumberPatientsArm] POINT [end:hasNumberPatientsArm] #ARM
+#ARM :: [start:hasOutcome] #OUTCOME_HEAD [end:hasOutcome] #ARM
+#ARM :: [end:Arm]
+
+#CLINICALTRIAL_HEAD :: [start:ClinicalTrial] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:analysesHealthCondition] POINT [end:analysesHealthCondition] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasAllocationRatio] POINT [end:hasAllocationRatio] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasArm] #ARM_HEAD [end:hasArm] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasCTDesign] POINT [end:hasCTDesign] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasCTduration] POINT [end:hasCTduration] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasConclusionComment] POINT [end:hasConclusionComment] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasDiffBetweenGroups] #DIFFBETWEENGROUPS_HEAD [end:hasDiffBetweenGroups] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasNumberPatientsCT] POINT [end:hasNumberPatientsCT] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasObjectiveDescription] POINT [end:hasObjectiveDescription] #CLINICALTRIAL
+#CLINICALTRIAL :: [start:hasPopulation] #POPULATION_HEAD [end:hasPopulation] #CLINICALTRIAL
+#CLINICALTRIAL :: [end:ClinicalTrial]
+
+#DIFFBETWEENGROUPS_HEAD :: [start:DiffBetweenGroups] #DIFFBETWEENGROUPS
+#DIFFBETWEENGROUPS :: [start:hasConfIntervalDiff] POINT [end:hasConfIntervalDiff] #DIFFBETWEENGROUPS
+#DIFFBETWEENGROUPS :: [start:hasDiffGroupAbsValue] POINT [end:hasDiffGroupAbsValue] #DIFFBETWEENGROUPS
+#DIFFBETWEENGROUPS :: [start:hasPvalueDiff] POINT [end:hasPvalueDiff] #DIFFBETWEENGROUPS
+#DIFFBETWEENGROUPS :: [end:DiffBetweenGroups]
+
+#ENDPOINT_HEAD :: [start:Endpoint] #ENDPOINT
+#ENDPOINT :: [start:hasAggregationMethod] POINT [end:hasAggregationMethod] #ENDPOINT
+#ENDPOINT :: [start:hasBaselineUnit] POINT [end:hasBaselineUnit] #ENDPOINT
+#ENDPOINT :: [start:hasEndoPointDescription] POINT [end:hasEndoPointDescription] #ENDPOINT
+#ENDPOINT :: [end:Endpoint]
+
+#INTERVENTION_HEAD :: [start:Intervention] #INTERVENTION
+#INTERVENTION :: [start:hasFrequency] POINT [end:hasFrequency] #INTERVENTION
+#INTERVENTION :: [start:hasMedication] #MEDICATION_HEAD [end:hasMedication] #INTERVENTION
+#INTERVENTION :: [end:Intervention]
+
+#MEDICATION_HEAD :: [start:Medication] #MEDICATION
+#MEDICATION :: [start:hasDeliveryMethod] POINT [end:hasDeliveryMethod] #MEDICATION
+#MEDICATION :: [start:hasDoseDescription] POINT [end:hasDoseDescription] #MEDICATION
+#MEDICATION :: [start:hasDoseUnit] POINT [end:hasDoseUnit] #MEDICATION
+#MEDICATION :: [start:hasDoseValue] POINT [end:hasDoseValue] #MEDICATION
+#MEDICATION :: [start:hasDrug] POINT [end:hasDrug] #MEDICATION
+#MEDICATION :: [end:Medication]
+
+#OUTCOME_HEAD :: [start:Outcome] #OUTCOME
+#OUTCOME :: [start:hasBaselineValue] POINT [end:hasBaselineValue] #OUTCOME
+#OUTCOME :: [start:hasChangeValue] POINT [end:hasChangeValue] #OUTCOME
+#OUTCOME :: [start:hasConfIntervalChangeValue] POINT [end:hasConfIntervalChangeValue] #OUTCOME
+#OUTCOME :: [start:hasEndpoint] #ENDPOINT_HEAD [end:hasEndpoint] #OUTCOME
+#OUTCOME :: [start:hasNumberAffected] POINT [end:hasNumberAffected] #OUTCOME
+#OUTCOME :: [start:hasObservedResult] POINT [end:hasObservedResult] #OUTCOME
+#OUTCOME :: [start:hasPValueChangeValue] POINT [end:hasPValueChangeValue] #OUTCOME
+#OUTCOME :: [start:hasPercentageAffected] POINT [end:hasPercentageAffected] #OUTCOME
+#OUTCOME :: [start:hasRelativeChangeValue] POINT [end:hasRelativeChangeValue] #OUTCOME
+#OUTCOME :: [start:hasResultMeasuredValue] POINT [end:hasResultMeasuredValue] #OUTCOME
+#OUTCOME :: [start:hasSdDevBL] POINT [end:hasSdDevBL] #OUTCOME
+#OUTCOME :: [start:hasSdDevChangeValue] POINT [end:hasSdDevChangeValue] #OUTCOME
+#OUTCOME :: [start:hasSdDevResValue] POINT [end:hasSdDevResValue] #OUTCOME
+#OUTCOME :: [start:hasSubGroupDescription] POINT [end:hasSubGroupDescription] #OUTCOME
+#OUTCOME :: [start:hasTimePoint] POINT [end:hasTimePoint] #OUTCOME
+#OUTCOME :: [end:Outcome]
+
+#POPULATION_HEAD :: [start:Population] #POPULATION
+#POPULATION :: [start:hasAvgAge] POINT [end:hasAvgAge] #POPULATION
+#POPULATION :: [start:hasCountry] POINT [end:hasCountry] #POPULATION
+#POPULATION :: [start:hasMinAge] POINT [end:hasMinAge] #POPULATION
+#POPULATION :: [start:hasPrecondition] POINT [end:hasPrecondition] #POPULATION
+#POPULATION :: [end:Population]
+
+#PUBLICATION_HEAD :: [start:Publication] #PUBLICATION
+#PUBLICATION :: [start:describes] #CLINICALTRIAL_HEAD [end:describes] #PUBLICATION
+#PUBLICATION :: [start:hasAuthor] POINT [end:hasAuthor] #PUBLICATION
+#PUBLICATION :: [start:hasJournal] POINT [end:hasJournal] #PUBLICATION
+#PUBLICATION :: [start:hasPMID] POINT [end:hasPMID] #PUBLICATION
+#PUBLICATION :: [start:hasPublicationYear] POINT [end:hasPublicationYear] #PUBLICATION
+#PUBLICATION :: [start:hasTitle] POINT [end:hasTitle] #PUBLICATION
+#PUBLICATION :: [end:Publication]
+

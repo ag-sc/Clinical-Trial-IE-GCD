@@ -1,0 +1,110 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", 
+1, PublicationYear, 22, 26, "2017", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasPublicationYear> \"2017\"."
+9, Title, 109, 306, "Reduction of postprandial glucose by lixisenatide vs sitagliptin treatment in Japanese patients with type 2 diabetes on background insulin glargine : A randomized phase IV study ( NEXTAGE Study ) .", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasTitle> \"Reduction of postprandial glucose by lixisenatide vs sitagliptin treatment in Japanese patients with type 2 diabetes on background insulin glargine : A randomized phase IV study ( NEXTAGE Study ) .\"."
+8, PostprandialBloodGlucose, 122, 142, "postprandial glucose", "", 
+98508, Lixisenatide, 146, 158, "lixisenatide", "", 
+3, Sitagliptin, 162, 173, "sitagliptin", "", 
+4, Ethnicity, 187, 195, "Japanese", "", "<http://ctro/data#Ethnicity_92052> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_92050> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_92052>."
+134, Precondition, 196, 256, "patients with type 2 diabetes on background insulin glargine", "", 
+5, Type2Diabetes, 210, 225, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+129, InsulinGlargine, 240, 256, "insulin glargine", "", 
+7, Randomized, 261, 271, "randomized", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+10, Author, 307, 315, "Yamada Y", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Yamada Y\"."
+11, Author, 324, 331, "Senda M", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Senda M\"."
+12, Author, 340, 347, "Naito Y", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Naito Y\"."
+13, Author, 356, 364, "Tamura M", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Tamura M\"."
+14, Author, 373, 383, "Watanabe D", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Watanabe D\"."
+15, Author, 392, 399, "Shuto Y", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Shuto Y\"."
+16, Author, 408, 415, "Urita Y", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasAuthor> \"Urita Y\"."
+17, Japan, 594, 599, "Japan", "", "<http://ctro/data#Population_92050> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+18, Japan, 651, 656, "Japan", "", 
+19, Japan, 739, 744, "Japan", "", 
+20, Japan, 810, 815, "Japan", "", 
+21, Japan, 938, 943, "Japan", "", 
+28, ObjectiveDescription, 952, 1113, "To evaluate the pharmacodynamics of lixisenatide once daily vs sitagliptin once daily in Japanese patients with type 2 diabetes receiving insulin glargine U100 .", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasObjectiveDescription> \"To evaluate the pharmacodynamics of lixisenatide once daily vs sitagliptin once daily in Japanese patients with type 2 diabetes receiving insulin glargine U100 .\"."
+98510, Lixisenatide, 988, 1000, "lixisenatide", "", 
+23, Frequency, 1001, 1011, "once daily", "", 
+152, Sitagliptin, 1015, 1026, "sitagliptin", "", 
+24, Frequency, 1027, 1037, "once daily", "", 
+25, Ethnicity, 1041, 1049, "Japanese", "", 
+153, Precondition, 1050, 1111, "patients with type 2 diabetes receiving insulin glargine U100", "", "<http://ctro/data#Population_92050> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes receiving insulin glargine U100\"."
+26, Type2Diabetes, 1064, 1079, "type 2 diabetes", "", 
+27, InsulinGlargine, 1090, 1106, "insulin glargine", "", 
+29, Multicenter, 1143, 1154, "multicentre", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+30, OpenLabel, 1157, 1169, "open - label", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+31, Randomized, 1249, 1257, "randomly", "", 
+32, NumberPatientsCT, 1267, 1270, "136", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasNumberPatientsCT> \"136\"."
+98511, Lixisenatide, 1290, 1302, "lixisenatide", "", "<http://ctro/data#Medication_92088> <http://ctro/data#hasDrug> <http://ctro/data#Lixisenatide>."
+34, Frequency, 1303, 1313, "once daily", "", "<http://ctro/data#Intervention_92095> <http://ctro/data#hasFrequency> \"once daily\"."
+38, SubcutaneousInjection, 1318, 1340, "subcutaneous injection", "", "<http://ctro/data#Medication_92088> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#SubcutaneousInjection>."
+39, DoseDescription, 1343, 1396, "10  µ g initially increased weekly by 5 up to 20  µ g", "", "<http://ctro/data#Medication_92088> <http://ctro/data#hasDoseDescription> \"10  µ g initially increased weekly by 5 up to 20  µ g\"."
+41, Microgram, 1346, 1350, " µ g", "", "<http://ctro/data#Medication_92088> <http://ctro/data#hasDoseUnit> <http://ctro/data#Microgram>."
+42, Microgram, 1392, 1396, " µ g", "", 
+35, Frequency, 1402, 1414, "once - daily", "", "<http://ctro/data#Intervention_92108> <http://ctro/data#hasFrequency> \"once - daily\"."
+36, Oral, 1415, 1419, "oral", "", "<http://ctro/data#Medication_92101> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Oral>."
+37, Sitagliptin, 1420, 1431, "sitagliptin", "", "<http://ctro/data#Medication_92101> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+162, DoseValue, 1432, 1434, "50", "", "<http://ctro/data#Medication_92101> <http://ctro/data#hasDoseValue> \"50\"."
+43, mg, 1437, 1439, "mg", "", "<http://ctro/data#Medication_92101> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+164, PostprandialBloodGlucose, 1481, 1501, "postprandial glucose", "", 
+165, PostprandialBloodGlucose, 1504, 1507, "PPG", "", 
+45, Hour, 1523, 1528, "hours", "", 
+166, PostprandialBloodGlucose, 1562, 1565, "PPG", "", 
+46, TimePoint, 1654, 1662, "baseline", "", 
+98518, Duration, 1666, 1672, "day 29", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasCTduration> \"day 29\"."
+98512, Lixisenatide, 1685, 1697, "Lixisenatide", "", 
+169, PostprandialBloodGlucose, 1706, 1709, "PPG", "", "<http://ctro/data#Endpoint_92058> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+50, Sitagliptin, 1772, 1783, "sitagliptin", "", 
+51, LeastSquaresMean, 1786, 1811, "least squares ( LS ) mean", "", "<http://ctro/data#Endpoint_92058> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+52, TimePoint, 1824, 1832, "baseline", "", 
+172, PostprandialBloodGlucose, 1836, 1839, "PPG", "", 
+174, Reduction, 1866, 1873, "347 . 3", "", "<http://ctro/data#Outcome_92132> <http://ctro/data#hasChangeValue> \"347 . 3\"."
+173, Mg_per_deciliter, 1878, 1885, "mg / dL", "", "<http://ctro/data#Endpoint_92058> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+175, Reduction, 1890, 1896, "19 . 3", "", 
+176, Millimoles_per_litre, 1901, 1909, "mmol / L", "", 
+98517, Lixisenatide, 1919, 1931, "lixisenatide", "", 
+177, Reduction, 1944, 1951, "113 . 3", "", "<http://ctro/data#Outcome_92159> <http://ctro/data#hasChangeValue> \"113 . 3\"."
+179, Mg_per_deciliter, 1956, 1963, "mg / dL", "", 
+178, Reduction, 1968, 1973, "6 . 3", "", 
+180, Millimoles_per_litre, 1978, 1986, "mmol / L", "", 
+74, Sitagliptin, 1996, 2007, "sitagliptin", "", 
+181, LeastSquaresMean, 2016, 2023, "LS mean", "", 
+58, DiffGroupAbsValue, 2051, 2060, "- 234 . 0", "", "<http://ctro/data#DiffBetweenGroups_92186> <http://ctro/data#hasDiffGroupAbsValue> \"- 234 . 0\"."
+184, Mg_per_deciliter, 2065, 2072, "mg / dL", "", 
+59, DiffGroupAbsValue, 2075, 2083, "- 13 . 0", "", 
+186, Millimoles_per_litre, 2088, 2096, "mmol / L", "", 
+60, ConfIntervalDiff, 2101, 2200, "95 % confidence interval - 285 . 02 to - 183 . 00 h · mg / dL [ - 15 . 8 to - 10 . 2 h · mmol / L ]", "", "<http://ctro/data#DiffBetweenGroups_92186> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval - 285 . 02 to - 183 . 00 h · mg / dL [ - 15 . 8 to - 10 . 2 h · mmol / L ]\"."
+185, Mg_per_deciliter, 2155, 2162, "mg / dL", "", 
+187, Millimoles_per_litre, 2190, 2198, "mmol / L", "", 
+61, PvalueDiff, 2203, 2214, "P  < . 0001", "", "<http://ctro/data#DiffBetweenGroups_92186> <http://ctro/data#hasPvalueDiff> \"P  < . 0001\"."
+98516, Lixisenatide, 2219, 2231, "Lixisenatide", "", 
+77, LeastSquaresMean, 2261, 2268, "LS mean", "", 
+191, PostprandialBloodGlucose, 2291, 2294, "PPG", "", 
+79, Sitagliptin, 2310, 2321, "sitagliptin", "", 
+192, Reduction, 2326, 2333, "122 . 4", "", 
+193, Reduction, 2339, 2345, "46 . 6", "", 
+81, Mg_per_deciliter, 2346, 2353, "mg / dL", "", 
+194, Reduction, 2358, 2363, "6 . 8", "", 
+195, Reduction, 2369, 2374, "2 . 6", "", 
+197, Millimoles_per_litre, 2379, 2387, "mmol / L", "", 
+87, PvalueDiff, 2392, 2403, "P  < . 0001", "", 
+203, ObservedResult, 2408, 2597, "Change - from - baseline reductions in exposure to C - peptide , fasting glycoalbumin levels , and the gastric emptying rate were greater in the lixisenatide than in the sitagliptin group .", "", "<http://ctro/data#Outcome_92195> <http://ctro/data#hasObservedResult> \"Change - from - baseline reductions in exposure to C - peptide , fasting glycoalbumin levels , and the gastric emptying rate were greater in the lixisenatide than in the sitagliptin group .\". <http://ctro/data#Outcome_92222> <http://ctro/data#hasObservedResult> \"Change - from - baseline reductions in exposure to C - peptide , fasting glycoalbumin levels , and the gastric emptying rate were greater in the lixisenatide than in the sitagliptin group .\". <http://ctro/data#Outcome_92249> <http://ctro/data#hasObservedResult> \"Change - from - baseline reductions in exposure to C - peptide , fasting glycoalbumin levels , and the gastric emptying rate were greater in the lixisenatide than in the sitagliptin group .\"."
+88, TimePoint, 2424, 2432, "baseline", "", 
+200, EndPointDescription, 2459, 2470, "C - peptide", "", "<http://ctro/data#EndPointDescription_92064> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92063> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92064>."
+201, EndPointDescription, 2473, 2493, "fasting glycoalbumin", "", "<http://ctro/data#EndPointDescription_92069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92068> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92069>."
+202, EndPointDescription, 2511, 2532, "gastric emptying rate", "", "<http://ctro/data#EndPointDescription_92074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92073> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92074>."
+98515, Lixisenatide, 2553, 2565, "lixisenatide", "", 
+89, Sitagliptin, 2578, 2589, "sitagliptin", "", 
+204, EndPointDescription, 2636, 2650, "adverse events", "", "<http://ctro/data#EndPointDescription_92079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92078> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92079>."
+98513, Lixisenatide, 2667, 2679, "lixisenatide", "", 
+96, PercentageAffected, 2682, 2688, "60 . 9", "", "<http://ctro/data#Outcome_92276> <http://ctro/data#hasPercentageAffected> \"60 . 9\"."
+93, Sitagliptin, 2703, 2714, "sitagliptin", "", 
+97, PercentageAffected, 2717, 2723, "16 . 4", "", "<http://ctro/data#Outcome_92303> <http://ctro/data#hasPercentageAffected> \"16 . 4\"."
+208, ObservedResult, 2730, 2785, "with no serious events or severe hypoglycaemia reported", "", "<http://ctro/data#Outcome_92331> <http://ctro/data#hasObservedResult> \"with no serious events or severe hypoglycaemia reported\"."
+94, SevereHypoglycemia, 2756, 2776, "severe hypoglycaemia", "", "<http://ctro/data#Endpoint_92083> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SevereHypoglycemia>."
+210, ConclusionComment, 2801, 2950, "Lixisenatide reduced PPG significantly more than sitagliptin , when these agents were added to basal insulin glargine U100 , and was well tolerated .", "", "<http://ctro/data#ClinicalTrial_92032> <http://ctro/data#hasConclusionComment> \"Lixisenatide reduced PPG significantly more than sitagliptin , when these agents were added to basal insulin glargine U100 , and was well tolerated .\"."
+98514, Lixisenatide, 2801, 2813, "Lixisenatide", "", 
+209, PostprandialBloodGlucose, 2822, 2825, "PPG", "", 
+101, Sitagliptin, 2850, 2861, "sitagliptin", "", 
+102, InsulinGlargine, 2902, 2918, "insulin glargine", "", 
+104, PMID, 3099, 3107, "28345162", "", "<http://ctro/data#Publication_92019> <http://ctro/data#hasPMID> \"28345162\"."

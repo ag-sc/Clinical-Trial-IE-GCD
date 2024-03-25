@@ -1,0 +1,88 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+25523, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+0, PublicationYear, 16, 20, "2001", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasPublicationYear> \"2001\"."
+6, Title, 50, 198, "A double - masked , randomized clinical trial comparing latanoprost with unoprostone in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasTitle> \"A double - masked , randomized clinical trial comparing latanoprost with unoprostone in patients with open - angle glaucoma or ocular hypertension .\"."
+36948, DoubleBlind, 52, 67, "double - masked", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+2, Randomized, 70, 80, "randomized", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, Latanoprost, 106, 117, "latanoprost", "", "<http://ctro/data#Latanoprost_33203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_33202> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_33203>."
+4, Unoprostone, 123, 134, "unoprostone", "", 
+36947, OpenAngleGlaucoma, 152, 173, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+25522, OcularHypertension, 177, 196, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+7, Author, 199, 211, "Susanna R Jr", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasAuthor> \"Susanna R Jr\"."
+8, Author, 220, 233, "Giampani J Jr", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasAuthor> \"Giampani J Jr\"."
+9, Author, 236, 245, "Borges AS", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasAuthor> \"Borges AS\"."
+10, Author, 248, 258, "Vessani RM", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasAuthor> \"Vessani RM\"."
+11, Author, 261, 270, "Jordao ML", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasAuthor> \"Jordao ML\"."
+73, Brazil, 432, 438, "Brazil", "", "<http://ctro/data#Population_33152> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+12, ObjectiveDescription, 451, 683, "To compare the intraocular pressure ( IOP ) reducing effect and safety of latanoprost 0 . 005 % once daily with unoprostone 0 . 12 % twice daily in patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) .", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure ( IOP ) reducing effect and safety of latanoprost 0 . 005 % once daily with unoprostone 0 . 12 % twice daily in patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) .\"."
+74, IOP, 466, 486, "intraocular pressure", "", "<http://ctro/data#IOP_33161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_33160> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_33161>."
+75, IOP, 489, 492, "IOP", "", 
+76, Latanoprost, 525, 536, "latanoprost", "", 
+77, DoseValue, 537, 544, "0 . 005", "", "<http://ctro/data#Medication_33202> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+78, Percentage, 545, 546, "%", "", "<http://ctro/data#Medication_33202> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+79, Frequency, 547, 557, "once daily", "", "<http://ctro/data#Intervention_33183> <http://ctro/data#hasFrequency> \"once daily\"."
+80, Unoprostone, 563, 574, "unoprostone", "", "<http://ctro/data#Medication_33216> <http://ctro/data#hasDrug> <http://ctro/data#Unoprostone>."
+81, DoseValue, 575, 581, "0 . 12", "", "<http://ctro/data#Medication_33216> <http://ctro/data#hasDoseValue> \"0 . 12\"."
+82, Percentage, 582, 583, "%", "", "<http://ctro/data#Medication_33216> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+83, Frequency, 584, 595, "twice daily", "", 
+106384, Precondition, 599, 681, "patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH )", "", "<http://ctro/data#Population_33152> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH )\"."
+25511, Primary_OpenAngleGlaucoma, 613, 642, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+25513, Primary_OpenAngleGlaucoma, 645, 649, "POAG", "", 
+85, OcularHypertension, 655, 674, "ocular hypertension", "", 
+86, OcularHypertension, 677, 679, "OH", "", 
+14, Duration, 696, 704, "8 - week", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasCTduration> \"8 - week\"."
+15, DoubleBlind, 707, 722, "double - masked", "", 
+25516, Randomized, 725, 735, "randomized", "", 
+18, Parallel, 738, 754, "parallel - group", "", 
+17, SingleCenter, 757, 772, "single - center", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+19, NumberPatientsCT, 816, 819, "108", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasNumberPatientsCT> \"108\"."
+25514, Primary_OpenAngleGlaucoma, 834, 838, "POAG", "", 
+36949, OcularHypertension, 842, 844, "OH", "", 
+25, Latanoprost, 986, 997, "latanoprost", "", 
+25519, Frequency, 998, 1008, "once daily", "", 
+27, Bedtime, 1016, 1023, "evening", "", "<http://ctro/data#Intervention_33183> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+28, Placebo, 1029, 1036, "placebo", "", "<http://ctro/data#Medication_33209> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+29, Frequency, 1037, 1047, "once daily", "", "<http://ctro/data#Intervention_33195> <http://ctro/data#hasFrequency> \"once daily\"."
+30, Morning, 1055, 1062, "morning", "", "<http://ctro/data#Intervention_33195> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+31, Unoprostone, 1068, 1079, "unoprostone", "", 
+25517, Frequency, 1080, 1091, "twice daily", "", "<http://ctro/data#Intervention_33189> <http://ctro/data#hasFrequency> \"twice daily\"."
+33, Morning, 1094, 1101, "morning", "", "<http://ctro/data#Intervention_33189> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+34, Bedtime, 1106, 1113, "evening", "", "<http://ctro/data#Intervention_33189> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+35, IOP, 1142, 1145, "IOP", "", 
+36946, TimePoint, 1162, 1201, "10 : 00 AM and at 5 : 00 PM at baseline", "", 
+36944, TimePoint, 1180, 1201, "5 : 00 PM at baseline", "", 
+99, TimePoint, 1209, 1215, "week 8", "", 
+100, TimePoint, 1222, 1251, "before 12 : 00 noon at week 2", "", 
+36, BaseLineValue, 1348, 1354, "24 . 1", "", "<http://ctro/data#Outcome_33223> <http://ctro/data#hasBaselineValue> \"24 . 1\". <http://ctro/data#Outcome_33250> <http://ctro/data#hasBaselineValue> \"24 . 1\"."
+37, mmHg, 1355, 1359, "mmHg", "", "<http://ctro/data#Endpoint_33160> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38, Latanoprost, 1362, 1373, "latanoprost", "", 
+39, IOP, 1382, 1385, "IOP", "", 
+108, Reduction, 1389, 1394, "6 . 7", "", "<http://ctro/data#Outcome_33223> <http://ctro/data#hasChangeValue> \"6 . 7\"."
+40, mmHg, 1395, 1399, "mmHg", "", 
+109, RelativeReduction, 1402, 1404, "28", "", "<http://ctro/data#Outcome_33223> <http://ctro/data#hasRelativeChangeValue> \"28\"."
+41, Unoprostone, 1413, 1424, "unoprostone", "", 
+42, IOP, 1433, 1436, "IOP", "", 
+111, Reduction, 1440, 1445, "3 . 3", "", "<http://ctro/data#Outcome_33250> <http://ctro/data#hasChangeValue> \"3 . 3\"."
+43, mmHg, 1446, 1450, "mmHg", "", 
+110, RelativeReduction, 1453, 1455, "14", "", "<http://ctro/data#Outcome_33250> <http://ctro/data#hasRelativeChangeValue> \"14\"."
+114, DiffGroupAbsValue, 1499, 1504, "3 . 4", "", "<http://ctro/data#DiffBetweenGroups_33277> <http://ctro/data#hasDiffGroupAbsValue> \"3 . 4\"."
+45, mmHg, 1505, 1509, "mmHg", "", 
+46, PvalueDiff, 1528, 1541, "P : < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_33277> <http://ctro/data#hasPvalueDiff> \"P : < 0 . 001\"."
+47, ConfIntervalDiff, 1569, 1621, "95 % confidence interval [ CI ] : - 4 . 7 to - 2 . 1", "", "<http://ctro/data#DiffBetweenGroups_33277> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval [ CI ] : - 4 . 7 to - 2 . 1\"."
+48, Latanoprost, 1636, 1647, "latanoprost", "", 
+93013, IOP_target, 1652, 1684, "> / = 30 % reduction in mean IOP", "", 
+49, PercentageAffected, 1715, 1717, "44", "", "<http://ctro/data#Outcome_39118> <http://ctro/data#hasPercentageAffected> \"44\"."
+122, Latanoprost, 1723, 1734, "latanoprost", "", 
+50, PercentageAffected, 1768, 1769, "8", "", "<http://ctro/data#Outcome_39145> <http://ctro/data#hasPercentageAffected> \"8\"."
+124, Unoprostone, 1775, 1786, "unoprostone", "", 
+125, ObservedResult, 1808, 1881, "The incidence of adverse events was low and comparable between the groups", "", "<http://ctro/data#Outcome_33291> <http://ctro/data#hasObservedResult> \"The incidence of adverse events was low and comparable between the groups\"."
+92992, EndPointDescription, 1825, 1839, "adverse events", "", "<http://ctro/data#EndPointDescription_36493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33286> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_36493>."
+23, ConclusionComment, 1898, 2064, "Latanoprost administered once daily was significantly more effective in reducing IOP compared with unoprostone administered twice daily in patients with POAG and OH .", "", "<http://ctro/data#ClinicalTrial_33131> <http://ctro/data#hasConclusionComment> \"Latanoprost administered once daily was significantly more effective in reducing IOP compared with unoprostone administered twice daily in patients with POAG and OH .\"."
+54, Latanoprost, 1898, 1909, "Latanoprost", "", 
+25520, Frequency, 1923, 1933, "once daily", "", 
+55, IOP, 1979, 1982, "IOP", "", 
+56, Unoprostone, 1997, 2008, "unoprostone", "", 
+25518, Frequency, 2022, 2033, "twice daily", "", 
+25515, Primary_OpenAngleGlaucoma, 2051, 2055, "POAG", "", 
+25521, OcularHypertension, 2060, 2062, "OH", "", 
+24, PMID, 2072, 2080, "11158796", "", "<http://ctro/data#Publication_33120> <http://ctro/data#hasPMID> \"11158796\"."

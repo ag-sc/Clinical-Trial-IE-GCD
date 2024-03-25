@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Arch Intern Med .", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasJournal> \"Arch Intern Med .\"."
+1, PublicationYear, 18, 22, "2009", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasPublicationYear> \"2009\"."
+69, Title, 101, 235, "Long - term effects of metformin on metabolism and microvascular and macrovascular disease in patients with type 2 diabetes mellitus .", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasTitle> \"Long - term effects of metformin on metabolism and microvascular and macrovascular disease in patients with type 2 diabetes mellitus .\"."
+2, Metformin, 124, 133, "metformin", "", 
+3, Type2Diabetes, 209, 233, "type 2 diabetes mellitus", "", 
+4, Author, 236, 242, "Kooy A", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Kooy A\"."
+5, Author, 251, 261, "de Jager J", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"de Jager J\"."
+6, Author, 264, 272, "Lehert P", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Lehert P\"."
+7, Author, 275, 281, "Bets D", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Bets D\"."
+8, Author, 284, 296, "Wulffel é MG", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Wulffel é MG\"."
+9, Author, 299, 308, "Donker AJ", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Donker AJ\"."
+10, Author, 311, 323, "Stehouwer CD", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasAuthor> \"Stehouwer CD\"."
+77, Netherlands, 444, 455, "Netherlands", "", "<http://ctro/data#Population_59986> <http://ctro/data#hasCountry> <http://ctro/data#Netherlands>."
+81, ObjectiveDescription, 660, 826, "We investigated whether metformin hydrochloride has sustained beneficial metabolic and ( cardio ) vascular effects in patients with type 2 diabetes mellitus ( DM2 ) .", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasObjectiveDescription> \"We investigated whether metformin hydrochloride has sustained beneficial metabolic and ( cardio ) vascular effects in patients with type 2 diabetes mellitus ( DM2 ) .\"."
+12, Metformin, 684, 707, "metformin hydrochloride", "", 
+13, Type2Diabetes, 792, 816, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+14, Type2Diabetes, 819, 822, "DM2", "", 
+15, NumberPatientsCT, 848, 851, "390", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasNumberPatientsCT> \"390\"."
+18, Precondition, 852, 881, "patients treated with insulin", "", "<http://ctro/data#Population_59986> <http://ctro/data#hasPrecondition> \"patients treated with insulin\"."
+24, Insulin, 874, 881, "insulin", "", 
+17, Multicenter, 911, 922, "3 hospitals", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+16, Randomized, 928, 938, "randomized", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+86, Placebo, 941, 948, "placebo", "", 
+137, Duration, 997, 1008, "4 . 3 years", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasCTduration> \"4 . 3 years\"."
+19, Metformin, 1018, 1041, "metformin hydrochloride", "", 
+20, DoseValue, 1044, 1047, "850", "", "<http://ctro/data#Medication_60032> <http://ctro/data#hasDoseValue> \"850\"."
+21, mg, 1048, 1050, "mg", "", "<http://ctro/data#Medication_60032> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+22, Placebo, 1056, 1063, "placebo", "", "<http://ctro/data#Medication_60039> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+23, Frequency, 1066, 1083, "1 - 3 times daily", "", "<http://ctro/data#Intervention_60046> <http://ctro/data#hasFrequency> \"1 - 3 times daily\". <http://ctro/data#Intervention_60052> <http://ctro/data#hasFrequency> \"1 - 3 times daily\"."
+25, Insulin, 1099, 1106, "insulin", "", 
+144, EndPointDescription, 1159, 1214, "microvascular and macrovascular morbidity and mortality", "", 
+145, EndPointDescription, 1247, 1302, "microvascular and macrovascular morbidity and mortality", "", 
+146, EndPointDescription, 1265, 1302, "macrovascular morbidity and mortality", "", 
+26, HbA1c, 1361, 1380, "hemoglobin A ( 1c )", "", 
+27, HbA1c, 1383, 1393, "HbA ( 1c )", "", 
+52695, InsulinDose, 1398, 1417, "insulin requirement", "", 
+28, EndPointDescription, 1420, 1432, "lipid levels", "", 
+29, BloodPressure, 1435, 1449, "blood pressure", "", 
+30, BodyWeight, 1452, 1463, "body weight", "", 
+31, BMI, 1470, 1485, "body mass index", "", 
+32, Metformin, 1512, 1521, "Metformin", "", 
+52689, WeightGain, 1542, 1553, "weight gain", "", "<http://ctro/data#Endpoint_59994> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#WeightGain>."
+101, Mean, 1556, 1560, "mean", "", "<http://ctro/data#Mean_59996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_59994> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_59996>."
+102, WeightGain, 1561, 1572, "weight gain", "", 
+38, Reduction, 1577, 1583, "3 . 07", "", "<http://ctro/data#Outcome_60058> <http://ctro/data#hasChangeValue> \"3 . 07\"."
+36, Kg, 1584, 1586, "kg", "", "<http://ctro/data#Endpoint_59994> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+37, Kg, 1618, 1620, "kg", "", 
+105, PValueResValue, 1625, 1634, "P < . 001", "", "<http://ctro/data#Outcome_60058> <http://ctro/data#hasPValueResValue> \"P < . 001\"."
+106, Mean, 1667, 1671, "mean", "", "<http://ctro/data#Mean_60001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_59999> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_60001>."
+34, HbA1c, 1685, 1701, "HbA ( 1c ) level", "", "<http://ctro/data#Endpoint_59999> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+40, Reduction, 1704, 1709, "0 . 4", "", "<http://ctro/data#Outcome_60085> <http://ctro/data#hasChangeValue> \"0 . 4\"."
+39, Percentage, 1710, 1711, "%", "", "<http://ctro/data#Endpoint_59999> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+41, ConfIntervalChangeValue, 1731, 1756, "95 % CI , 0 . 55 - 0 . 25", "", "<http://ctro/data#Outcome_60085> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI , 0 . 55 - 0 . 25\"."
+42, PValueChangeValue, 1761, 1770, "P < . 001", "", "<http://ctro/data#Outcome_60085> <http://ctro/data#hasPValueChangeValue> \"P < . 001\"."
+154, InsulinDose, 1891, 1911, "insulin requirements", "", "<http://ctro/data#InsulinDose_60005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_60004> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_60005>."
+114, Mean, 1914, 1918, "mean", "", "<http://ctro/data#Mean_60006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_60004> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_60006>."
+43, Reduction, 1931, 1938, "19 . 63", "", "<http://ctro/data#Outcome_60112> <http://ctro/data#hasChangeValue> \"19 . 63\"."
+155, Int_Unit, 1939, 1941, "IU", "", "<http://ctro/data#Endpoint_60004> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Int_Unit>."
+156, Frequency, 1944, 1945, "d", "", 
+44, ConfIntervalChangeValue, 1948, 1975, "95 % CI , 24 . 91 - 14 . 36", "", "<http://ctro/data#Outcome_60112> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI , 24 . 91 - 14 . 36\"."
+157, Int_Unit, 1976, 1978, "IU", "", 
+52694, Interval, 1981, 1982, "d", "", 
+45, PValueChangeValue, 1987, 1996, "P < . 001", "", "<http://ctro/data#Outcome_60112> <http://ctro/data#hasPValueChangeValue> \"P < . 001\"."
+46, Metformin, 2001, 2010, "Metformin", "", 
+60, EndPointDescription, 2146, 2169, "macrovascular end point", "", "<http://ctro/data#EndPointDescription_60010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_60009> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_60010>."
+126, AggregationMethod, 2172, 2184, "hazard ratio", "", "<http://ctro/data#AggregationMethod_60011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod>. <http://ctro/data#Endpoint_60009> <http://ctro/data#hasAggregationMethod> <http://ctro/data#AggregationMethod_60011>."
+48, ResultMeasuredValue, 2187, 2193, "0 . 61", "", "<http://ctro/data#Outcome_60139> <http://ctro/data#hasResultMeasuredValue> \"0 . 61\"."
+47, ConfIntervalResValue, 2196, 2221, "95 % CI , 0 . 40 - 0 . 94", "", "<http://ctro/data#Outcome_60139> <http://ctro/data#hasConfIntervalResValue> \"95 % CI , 0 . 40 - 0 . 94\"."
+49, PValueResValue, 2224, 2232, "P = . 02", "", "<http://ctro/data#Outcome_60139> <http://ctro/data#hasPValueResValue> \"P = . 02\"."
+128, EndPointDescription, 2334, 2357, "macrovascular end point", "", 
+54, Metformin, 2414, 2423, "Metformin", "", 
+147, ConclusionComment, 2414, 2576, "Metformin , added to insulin in patients with DM2 , improved body weight , glycemic control , and insulin requirements but did not improve the primary end point .", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasConclusionComment> \"Metformin , added to insulin in patients with DM2 , improved body weight , glycemic control , and insulin requirements but did not improve the primary end point .\"."
+57, Insulin, 2435, 2442, "insulin", "", 
+55, Type2Diabetes, 2460, 2463, "DM2", "", 
+56, BodyWeight, 2475, 2486, "body weight", "", 
+52696, InsulinDose, 2512, 2532, "insulin requirements", "", 
+58, Metformin, 2577, 2586, "Metformin", "", 
+148, ConclusionComment, 2577, 2687, "Metformin did , however , reduce the risk of macrovascular disease after a follow - up period of 4 . 3 years .", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasConclusionComment> \"Metformin did , however , reduce the risk of macrovascular disease after a follow - up period of 4 . 3 years .\"."
+52697, ObservedResult, 2603, 2643, "reduce the risk of macrovascular disease", "", 
+59, EndPointDescription, 2622, 2643, "macrovascular disease", "", 
+138, Duration, 2674, 2685, "4 . 3 years", "", 
+149, ConclusionComment, 2688, 2858, "These sustained beneficial effects support the policy to continue metformin treatment after the introduction of insulin in any patient with DM2 , unless contraindicated .", "", "<http://ctro/data#ClinicalTrial_59967> <http://ctro/data#hasConclusionComment> \"These sustained beneficial effects support the policy to continue metformin treatment after the introduction of insulin in any patient with DM2 , unless contraindicated .\"."
+61, Metformin, 2754, 2763, "metformin", "", 
+62, Insulin, 2800, 2807, "insulin", "", 
+63, Type2Diabetes, 2828, 2831, "DM2", "", 
+64, PMID, 2977, 2985, "19307526", "", "<http://ctro/data#Publication_59954> <http://ctro/data#hasPMID> \"19307526\"."

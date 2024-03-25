@@ -1,0 +1,69 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 18, "Eur J Ophthalmol .", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasJournal> \"Eur J Ophthalmol .\"."
+1, PublicationYear, 19, 23, "2017", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasPublicationYear> \"2017\"."
+13, Title, 109, 253, "Comparison of dorzolamide / timolol vs brinzolamide / brimonidine fixed combination therapy in the management of primary open - angle glaucoma .", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasTitle> \"Comparison of dorzolamide / timolol vs brinzolamide / brimonidine fixed combination therapy in the management of primary open - angle glaucoma .\"."
+2, Dorzolamide, 123, 134, "dorzolamide", "", 
+105392, Dorz/TimFC, 123, 144, "dorzolamide / timolol", "", 
+4, Timolol, 137, 144, "timolol", "", 
+6, Brinzolamide, 148, 160, "brinzolamide", "", 
+105394, Brinz/BrimoFC, 148, 192, "brinzolamide / brimonidine fixed combination", "", 
+9, Brimonidine, 163, 174, "brimonidine", "", 
+58, Primary_OpenAngleGlaucoma, 222, 251, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+14, Author, 254, 265, "Kozobolis V", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> \"Kozobolis V\"."
+15, Author, 286, 294, "Panos GD", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> \"Panos GD\"."
+16, Author, 303, 319, "Konstantinidis A", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> \"Konstantinidis A\"."
+17, Author, 328, 337, "Labiris G", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasAuthor> \"Labiris G\"."
+18, Greece, 468, 474, "Greece", "", "<http://ctro/data#Population_95543> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+19, Greece, 573, 579, "Greece", "", 
+20, Greece, 627, 633, "Greece", "", 
+25, ObjectiveDescription, 646, 766, "To compare the efficiency of brinzolamide / brimonidine fixed combination vs the dorzolamide / timolol fixed combination", "", "<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasObjectiveDescription> \"To compare the efficiency of brinzolamide / brimonidine fixed combination vs the dorzolamide / timolol fixed combination\"."
+21, Brinzolamide, 675, 687, "brinzolamide", "", 
+105395, Brinz/BrimoFC, 675, 719, "brinzolamide / brimonidine fixed combination", "", 
+22, Brimonidine, 690, 701, "brimonidine", "", 
+23, Dorzolamide, 727, 738, "dorzolamide", "", 
+105398, Dorz/TimFC, 727, 766, "dorzolamide / timolol fixed combination", "", 
+24, Timolol, 741, 748, "timolol", "", 
+26, NumberPatientsCT, 800, 802, "44", "", "<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasNumberPatientsCT> \"44\"."
+3, Dorzolamide, 857, 868, "dorzolamide", "", "<http://ctro/data#Medication_95551> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+105399, Dorz/TimFC, 857, 878, "dorzolamide / timolol", "", 
+5, Timolol, 871, 878, "timolol", "", "<http://ctro/data#Medication_95558> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+27, Frequency, 879, 890, "twice a day", "", "<http://ctro/data#Intervention_95565> <http://ctro/data#hasFrequency> \"twice a day\"."
+7, Brinzolamide, 911, 923, "brinzolamide", "", "<http://ctro/data#Medication_95572> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+105397, Brinz/BrimoFC, 911, 937, "brinzolamide / brimonidine", "", 
+10, Brimonidine, 926, 937, "brimonidine", "", "<http://ctro/data#Medication_95579> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+28, Frequency, 938, 949, "twice a day", "", "<http://ctro/data#Intervention_95586> <http://ctro/data#hasFrequency> \"twice a day\"."
+105400, TimePoint, 1087, 1111, "1 , 4 , 8 , and 12 weeks", "", 
+105403, TimePoint, 1091, 1111, "4 , 8 , and 12 weeks", "", 
+105404, TimePoint, 1095, 1111, "8 , and 12 weeks", "", 
+81, TimePoint, 1103, 1111, "12 weeks", "", 
+29, IOP, 1129, 1149, "intraocular pressure", "", 
+30, IOP, 1152, 1155, "IOP", "", 
+31, Frequency, 1171, 1182, "twice a day", "", 
+32, TimePoint, 1185, 1200, "morning at 9 AM", "", 
+33, TimePoint, 1205, 1222, "afternoon at 4 PM", "", 
+105405, TimePoint, 1276, 1284, "12 weeks", "", 
+84, Mean, 1289, 1293, "mean", "", "<http://ctro/data#Mean_95613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_95611> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95613>."
+105408, EndPointDescription, 1294, 1305, "morning IOP", "", "<http://ctro/data#EndPointDescription_95612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95611> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95612>."
+105406, IOP, 1302, 1305, "IOP", "", 
+35, Reduction, 1320, 1325, "7 . 0", "", "<http://ctro/data#Outcome_95616> <http://ctro/data#hasChangeValue> \"7 . 0\"."
+36, SdDevChangeValue, 1328, 1333, "2 . 8", "", "<http://ctro/data#Outcome_95616> <http://ctro/data#hasSdDevChangeValue> \"2 . 8\"."
+37, mmHg, 1334, 1339, "mm Hg", "", "<http://ctro/data#Endpoint_95611> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38, Reduction, 1355, 1360, "8 . 4", "", "<http://ctro/data#Outcome_95643> <http://ctro/data#hasChangeValue> \"8 . 4\"."
+39, SdDevChangeValue, 1363, 1368, "1 . 9", "", "<http://ctro/data#Outcome_95643> <http://ctro/data#hasSdDevChangeValue> \"1 . 9\"."
+40, mmHg, 1369, 1374, "mm Hg", "", 
+41, PvalueDiff, 1425, 1437, "p = 0 . 0343", "", "<http://ctro/data#DiffBetweenGroups_95729> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0343\"."
+91, Mean, 1456, 1460, "mean", "", "<http://ctro/data#Mean_95672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_95670> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_95672>."
+102, EndPointDescription, 1461, 1474, "afternoon IOP", "", "<http://ctro/data#EndPointDescription_95671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95670> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95671>."
+42, IOP, 1471, 1474, "IOP", "", 
+43, Reduction, 1489, 1494, "8 . 6", "", "<http://ctro/data#Outcome_95675> <http://ctro/data#hasChangeValue> \"8 . 6\"."
+45, SdDevChangeValue, 1495, 1502, "± 2 . 7", "", "<http://ctro/data#Outcome_95675> <http://ctro/data#hasSdDevChangeValue> \"± 2 . 7\"."
+47, mmHg, 1503, 1508, "mm Hg", "", "<http://ctro/data#Endpoint_95670> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+44, Reduction, 1524, 1529, "7 . 9", "", "<http://ctro/data#Outcome_95702> <http://ctro/data#hasChangeValue> \"7 . 9\"."
+46, SdDevChangeValue, 1530, 1537, "± 1 . 6", "", "<http://ctro/data#Outcome_95702> <http://ctro/data#hasSdDevChangeValue> \"± 1 . 6\"."
+48, mmHg, 1538, 1543, "mm Hg", "", 
+49, PvalueDiff, 1597, 1609, "p = 0 . 3413", "", "<http://ctro/data#DiffBetweenGroups_95738> <http://ctro/data#hasPvalueDiff> \"p = 0 . 3413\"."
+8, Brinzolamide, 1691, 1703, "Brinzolamide", "", 
+50, ConclusionComment, 1691, 1886, "Brinzolamide / brimonidine seems to be an effective and safe alternative β- blocker free fixed combination , especially for patients with comorbidities , having its own antihypertensive profile .", "", "<http://ctro/data#ClinicalTrial_95527> <http://ctro/data#hasConclusionComment> \"Brinzolamide / brimonidine seems to be an effective and safe alternative β- blocker free fixed combination , especially for patients with comorbidities , having its own antihypertensive profile .\"."
+105396, Brinz/BrimoFC, 1691, 1717, "Brinzolamide / brimonidine", "", 
+11, Brimonidine, 1706, 1717, "brimonidine", "", 
+51, PMID, 1926, 1934, "27445072", "", "<http://ctro/data#Publication_95517> <http://ctro/data#hasPMID> \"27445072\"."

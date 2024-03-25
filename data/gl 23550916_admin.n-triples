@@ -1,0 +1,109 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_84729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_84729> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasTitle> "Comparison of 24 - hour intraocular pressure reduction obtained with brinzolamide / timolol or brimonidine / timolol fixed - combination adjunctive to travoprost therapy ." .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Konstas AG" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasPublicationYear> "2013" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasJournal> "J Ocul Pharmacol Ther ." .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasPMID> "23550916" .
+<http://ctro/data#Publication_84729> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_84744> .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Holl ó G" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Haidich AB" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Mikropoulos DG" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Giannopoulos T" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Voudouragkaki IC" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Paschalinou E" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Konidaris V" .
+<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> "Samples JR" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_84744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_84744> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasObjectiveDescription> "To determine the adjunctive 24 - h efficacy obtained with brinzolamide / timolol , or brimonidine / timolol fixed combinations ( FCs ) in open - angle glaucoma patients insufficiently controlled on travoprost monotherapy ." .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTduration> "3 months" .
+<http://ctro/data#AllocationRatio_84748> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_84749> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasConclusionComment> "This study demonstrated that both FCs provide statistically and clinically significant incremental 24 - h IOP lowering to travoprost monotherapy ." .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasArm> <http://ctro/data#Arm_84780> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasPopulation> <http://ctro/data#Population_84767> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_84891> .
+<http://ctro/data#EvidenceQuality_84756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasFinalNumberPatientsCT> "Fifty" .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#CTDesign_84761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_84761> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasConclusionComment> "The brinzolamide / timolol FC however achieves a better mean 24 - h IOP control owing to the greater efficacy in late afternoon and during the night ." .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasArm> <http://ctro/data#Arm_84789> .
+# RDF export of group: Population
+<http://ctro/data#Population_84767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_84767> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_84767> <http://ctro/data#hasPrecondition> "open - angle glaucoma patients insufficiently controlled on travoprost monotherapy" .
+<http://ctro/data#Ethnicity_84769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_84767> <http://ctro/data#hasCountry> <http://ctro/data#Greece> .
+<http://ctro/data#Gender_84774> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_84775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_84775> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#IOP_84776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_84775> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_84776> .
+<http://ctro/data#Mean_84777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_84775> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_84777> .
+<http://ctro/data#Endpoint_84775> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_84779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_84780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_84780> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_BrinzTim" .
+<http://ctro/data#Arm_84780> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_84798> .
+<http://ctro/data#Arm_84780> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_84837> .
+<http://ctro/data#Outcome_84785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_84789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_84789> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_BrimTim" .
+<http://ctro/data#Arm_84789> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_84804> .
+<http://ctro/data#Arm_84789> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_84864> .
+<http://ctro/data#Outcome_84794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_84798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_84798> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_BrinzTim" .
+<http://ctro/data#Intervention_84798> <http://ctro/data#hasMedication> <http://ctro/data#Medication_84816> .
+<http://ctro/data#RelativeTime_84803> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_84804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_84804> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_BrimTim" .
+<http://ctro/data#Intervention_84804> <http://ctro/data#hasMedication> <http://ctro/data#Medication_84823> .
+<http://ctro/data#RelativeTime_84809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_84816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_84816> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_BrinzTim" .
+<http://ctro/data#Medication_84816> <http://ctro/data#hasDrug> <http://ctro/data#Brinz/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_84819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_84820> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_84823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_84823> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_BrimTim" .
+<http://ctro/data#Medication_84823> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_84826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_84827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_84837> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_84837> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_BrinzTim" .
+<http://ctro/data#Outcome_84837> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_84775> .
+<http://ctro/data#Outcome_84837> <http://ctro/data#hasBaselineValue> "20 . 1" .
+<http://ctro/data#Outcome_84837> <http://ctro/data#hasConfIntervalBL> "95 % confidence interval ( CI ) : 19 . 6 , 20 . 7   mm Hg" .
+<http://ctro/data#Outcome_84837> <http://ctro/data#hasResultMeasuredValue> "17 . 2" .
+<http://ctro/data#Outcome_84837> <http://ctro/data#hasConfIntervalResValue> "95 % CI : 16 . 4 , 17 . 9   mm Hg" .
+<http://ctro/data#Outcome_84864> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_84864> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_BrimTim" .
+<http://ctro/data#Outcome_84864> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_84775> .
+<http://ctro/data#Outcome_84864> <http://ctro/data#hasBaselineValue> "20 . 1" .
+<http://ctro/data#Outcome_84864> <http://ctro/data#hasConfIntervalBL> "95 % confidence interval ( CI ) : 19 . 6 , 20 . 7   mm Hg" .
+<http://ctro/data#Outcome_84864> <http://ctro/data#hasResultMeasuredValue> "18 . 0" .
+<http://ctro/data#Outcome_84864> <http://ctro/data#hasConfIntervalResValue> "95 % CI : 17 . 3 , 18 . 8   mm Hg" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_84891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_84891> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_iop" .
+<http://ctro/data#DiffBetweenGroups_84891> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_84891> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_84837> .
+<http://ctro/data#DiffBetweenGroups_84891> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_84864> .
+# RDF export of group: EvidenceQuality

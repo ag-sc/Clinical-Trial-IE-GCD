@@ -1,0 +1,102 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Eur J Ophthalmol", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasJournal> \"Eur J Ophthalmol\"."
+1, PublicationYear, 19, 23, "2009", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasPublicationYear> \"2009\"."
+2, Title, 57, 260, "Efficacy of the fixed combinations of bimatoprost or latanoprost plus timolol in patients uncontrolled with prostaglandin monotherapy : a multicenter , randomized , investigator - masked , clinical study", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasTitle> \"Efficacy of the fixed combinations of bimatoprost or latanoprost plus timolol in patients uncontrolled with prostaglandin monotherapy : a multicenter , randomized , investigator - masked , clinical study\"."
+3, Bimatoprost, 95, 106, "bimatoprost", "", 
+4, Latanoprost, 110, 121, "latanoprost", "", 
+5, Timolol, 127, 134, "timolol", "", 
+6, Precondition, 147, 190, "uncontrolled with prostaglandin monotherapy", "", "<http://ctro/data#Population_106411> <http://ctro/data#hasPrecondition> \"uncontrolled with prostaglandin monotherapy\"."
+92855, ProstaglandinAnalogs, 165, 178, "prostaglandin", "", 
+7, Multicenter, 195, 206, "multicenter", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+8, Randomized, 209, 219, "randomized", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+81, Blind, 237, 243, "masked", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+10, Author, 263, 275, "Centofanti M", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Centofanti M\"."
+11, Author, 284, 292, "Oddone F", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Oddone F\"."
+12, Author, 295, 305, "Vetrugno M", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Vetrugno M\"."
+13, Author, 308, 315, "Manni G", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Manni G\"."
+14, Author, 318, 329, "Fogagnolo P", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Fogagnolo P\"."
+15, Author, 332, 339, "Tanga L", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Tanga L\"."
+16, Author, 342, 351, "Ferreri P", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Ferreri P\"."
+17, Author, 354, 364, "Rossetti L", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasAuthor> \"Rossetti L\"."
+18, Italy, 437, 442, "Italy", "", 
+26778, PublicationYear, 512, 516, "2010", "", 
+19, ObjectiveDescription, 583, 706, "To compare the efficacy and tolerability of a once - daily evening dose of bimatoprost / timolol fixed combination ( BTFC )", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and tolerability of a once - daily evening dose of bimatoprost / timolol fixed combination ( BTFC )\"."
+21, Frequency, 629, 641, "once - daily", "", "<http://ctro/data#Intervention_106437> <http://ctro/data#hasFrequency> \"once - daily\"."
+22, Bedtime, 642, 649, "evening", "", "<http://ctro/data#Intervention_106437> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+106184, Bima/TimFC, 658, 697, "bimatoprost / timolol fixed combination", "", 
+23, Bimatoprost, 658, 669, "bimatoprost", "", 
+24, Timolol, 672, 679, "timolol", "", 
+106186, Bima/TimFC, 700, 704, "BTFC", "", 
+20, ObjectiveDescription, 707, 870, "with that of a once - daily evening dose of latanoprost / timolol fixed combination ( LTFC ) in patients not controlled with prostaglandins analogues monotherapy .", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasObjectiveDescription> \"with that of a once - daily evening dose of latanoprost / timolol fixed combination ( LTFC ) in patients not controlled with prostaglandins analogues monotherapy .\"."
+26, Frequency, 722, 734, "once - daily", "", "<http://ctro/data#Intervention_106443> <http://ctro/data#hasFrequency> \"once - daily\"."
+27, Bedtime, 735, 742, "evening", "", "<http://ctro/data#Intervention_106443> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+28, Latanoprost, 751, 762, "latanoprost", "", 
+106191, Lat/TimFC, 751, 790, "latanoprost / timolol fixed combination", "", 
+29, Timolol, 765, 772, "timolol", "", 
+106192, Lat/TimFC, 793, 797, "LTFC", "", 
+31, Precondition, 812, 868, "not controlled with prostaglandins analogues monotherapy", "", 
+92854, ProstaglandinAnalogs, 832, 856, "prostaglandins analogues", "", 
+32, NumberPatientsCT, 892, 894, "82", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasNumberPatientsCT> \"82\"."
+92852, ProstaglandinAnalogs, 907, 930, "prostaglandin analogues", "", "<http://ctro/data#Medication_106463> <http://ctro/data#hasDrug> <http://ctro/data#ProstaglandinAnalogs>."
+36963, Prospective, 965, 976, "prospective", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+34, Multicenter, 979, 990, "multicenter", "", 
+105, Blind, 1006, 1012, "masked", "", 
+36, Randomized, 1039, 1049, "randomized", "", 
+106200, Bima/TimFC, 1060, 1064, "BTFC", "", "<http://ctro/data#Medication_106449> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC>."
+37, NumberPatientsArm, 1071, 1073, "47", "", "<http://ctro/data#Arm_106419> <http://ctro/data#hasNumberPatientsArm> \"47\"."
+106193, Lat/TimFC, 1079, 1083, "LTFC", "", "<http://ctro/data#Medication_106456> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+38, NumberPatientsArm, 1090, 1092, "35", "", "<http://ctro/data#Arm_106428> <http://ctro/data#hasNumberPatientsArm> \"35\"."
+36967, Topic, 1095, 1102, "topical", "", "<http://ctro/data#Medication_106449> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Topic>. <http://ctro/data#Medication_106456> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Topic>."
+113, Frequency, 1111, 1115, "once", "", 
+114, RelativeTime, 1116, 1124, "at night", "", 
+39, Duration, 1129, 1137, "12 weeks", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasCTduration> \"12 weeks\"."
+40, Mean, 1193, 1197, "mean", "", 
+41, IOP, 1204, 1224, "intraocular pressure", "", 
+42, IOP, 1227, 1230, "IOP", "", 
+43, Mean, 1323, 1327, "mean", "", 
+44, IOP, 1334, 1337, "IOP", "", 
+26785, TimePoint, 1341, 1355, "1 and 3 months", "", 
+36964, TimePoint, 1347, 1355, "3 months", "", 
+45, Mean, 1418, 1422, "mean", "", 
+36971, EndPointDescription, 1418, 1480, "mean IOP reduction from baseline greater than or equal to 15 %", "", 
+36972, EndPointDescription, 1418, 1488, "mean IOP reduction from baseline greater than or equal to 15 % or 20 %", "", 
+46, IOP, 1423, 1426, "IOP", "", 
+49, Mean, 1501, 1505, "Mean", "", "<http://ctro/data#Mean_106493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_106491> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_106493>."
+50, IOP, 1506, 1509, "IOP", "", "<http://ctro/data#IOP_106492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_106491> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_106492>."
+36965, TimePoint, 1513, 1521, "baseline", "", 
+51, BaseLineValue, 1526, 1532, "22 . 7", "", "<http://ctro/data#Outcome_106496> <http://ctro/data#hasBaselineValue> \"22 . 7\"."
+130, SdDevBL, 1539, 1544, "2 . 0", "", "<http://ctro/data#Outcome_106496> <http://ctro/data#hasSdDevBL> \"2 . 0\"."
+53, BaseLineValue, 1549, 1555, "22 . 1", "", "<http://ctro/data#Outcome_106523> <http://ctro/data#hasBaselineValue> \"22 . 1\"."
+132, SdDevBL, 1562, 1567, "2 . 6", "", "<http://ctro/data#Outcome_106523> <http://ctro/data#hasSdDevBL> \"2 . 6\"."
+55, mmHg, 1568, 1572, "mmHg", "", "<http://ctro/data#Endpoint_106491> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+106199, Bima/TimFC, 1580, 1584, "BTFC", "", 
+106194, Lat/TimFC, 1589, 1593, "LTFC", "", 
+136, PvalueDiff, 1618, 1628, "p = 0 . 23", "", 
+138, ObservedResult, 1633, 1697, "Both treatments were effective in reducing the IOP from baseline", "", "<http://ctro/data#Outcome_106496> <http://ctro/data#hasObservedResult> \"Both treatments were effective in reducing the IOP from baseline\". <http://ctro/data#Outcome_106523> <http://ctro/data#hasObservedResult> \"Both treatments were effective in reducing the IOP from baseline\"."
+57, IOP, 1680, 1683, "IOP", "", 
+58, Mean, 1704, 1708, "mean", "", 
+59, IOP, 1709, 1712, "IOP", "", 
+106187, Bima/TimFC, 1756, 1760, "BTFC", "", 
+106195, Lat/TimFC, 1779, 1783, "LTFC", "", 
+60, RelativeReduction, 1794, 1800, "21 . 4", "", "<http://ctro/data#Outcome_106496> <http://ctro/data#hasRelativeChangeValue> \"21 . 4\"."
+61, RelativeReduction, 1808, 1814, "13 . 7", "", "<http://ctro/data#Outcome_106523> <http://ctro/data#hasRelativeChangeValue> \"13 . 7\"."
+145, PvalueDiff, 1819, 1830, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_106550> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+106188, Bima/TimFC, 1874, 1878, "BTFC", "", 
+63, Mean, 1894, 1898, "mean", "", 
+36968, EndPointDescription, 1894, 1938, "mean IOP reduction from baseline > or = 15 %", "", "<http://ctro/data#EndPointDescription_106560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_106559> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_106560>."
+64, IOP, 1899, 1902, "IOP", "", 
+65, PercentageAffected, 1941, 1947, "72 . 3", "", "<http://ctro/data#Outcome_106569> <http://ctro/data#hasPercentageAffected> \"72 . 3\"."
+66, PercentageAffected, 1953, 1959, "40 . 0", "", "<http://ctro/data#Outcome_106596> <http://ctro/data#hasPercentageAffected> \"40 . 0\"."
+36969, EndPointDescription, 1968, 1979, "> or = 20 %", "", "<http://ctro/data#EndPointDescription_106565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_106564> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_106565>."
+67, PercentageAffected, 1982, 1988, "61 . 7", "", "<http://ctro/data#Outcome_106623> <http://ctro/data#hasPercentageAffected> \"61 . 7\"."
+68, PercentageAffected, 1994, 2000, "17 . 1", "", "<http://ctro/data#Outcome_106650> <http://ctro/data#hasPercentageAffected> \"17 . 1\"."
+106196, Lat/TimFC, 2033, 2037, "LTFC", "", 
+69, ConclusionComment, 2060, 2152, "Both BTFC and LTFC were more effective versus the monotherapy with prostaglandin analogues .", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasConclusionComment> \"Both BTFC and LTFC were more effective versus the monotherapy with prostaglandin analogues .\"."
+106189, Bima/TimFC, 2065, 2069, "BTFC", "", 
+106197, Lat/TimFC, 2074, 2078, "LTFC", "", 
+92853, ProstaglandinAnalogs, 2127, 2150, "prostaglandin analogues", "", 
+106190, Bima/TimFC, 2153, 2157, "BTFC", "", 
+70, ConclusionComment, 2153, 2236, "BTFC demonstrated higher performance than LTFC in terms of relative IOP reduction .", "", "<http://ctro/data#ClinicalTrial_106395> <http://ctro/data#hasConclusionComment> \"BTFC demonstrated higher performance than LTFC in terms of relative IOP reduction .\"."
+106198, Lat/TimFC, 2195, 2199, "LTFC", "", 
+71, IOP, 2221, 2224, "IOP", "", 
+72, PMID, 2244, 2252, "19123151", "", "<http://ctro/data#Publication_106388> <http://ctro/data#hasPMID> \"19123151\"."

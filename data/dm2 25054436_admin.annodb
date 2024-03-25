@@ -1,0 +1,112 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Horm Metab Res .", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasJournal> \"Horm Metab Res .\"."
+76401, PublicationYear, 17, 21, "2014", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasPublicationYear> \"2014\"."
+17, Title, 108, 219, "Efficacy and safety of colesevelam in combination with pioglitazone in patients with type 2 diabetes mellitus .", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasTitle> \"Efficacy and safety of colesevelam in combination with pioglitazone in patients with type 2 diabetes mellitus .\"."
+79622, Colesevelam, 131, 142, "colesevelam", "", 
+10, Pioglitazone, 163, 175, "pioglitazone", "", 
+13, Type2Diabetes, 193, 217, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+18, Author, 220, 232, "Rosenstock J", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+19, Author, 241, 250, "Truitt KE", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Truitt KE\"."
+20, Author, 259, 272, "Baz - Hecht M", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Baz - Hecht M\"."
+21, Author, 281, 288, "Ford DM", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Ford DM\"."
+22, Author, 297, 302, "Tao B", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Tao B\"."
+23, Author, 311, 318, "Chou HS", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasAuthor> \"Chou HS\"."
+24, USA, 423, 426, "USA", "", "<http://ctro/data#Population_62136> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+25, USA, 485, 488, "USA", "", 
+79623, Colesevelam, 491, 502, "Colesevelam", "", 
+125, ObjectiveDescription, 491, 645, "Colesevelam improves glycemic control in patients with type 2 diabetes when added to existing metformin - , sulfonylurea - , or insulin - based regimens .", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasObjectiveDescription> \"Colesevelam improves glycemic control in patients with type 2 diabetes when added to existing metformin - , sulfonylurea - , or insulin - based regimens .\"."
+14, Type2Diabetes, 546, 561, "type 2 diabetes", "", 
+26, Metformin, 585, 594, "metformin", "", 
+27, Sulfonylureas, 599, 611, "sulfonylurea", "", 
+28, Insulin, 619, 626, "insulin", "", 
+30, ObjectiveDescription, 646, 735, "We evaluated colesevelam ' s effects in subjects on stable pioglitazone - based therapy .", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasObjectiveDescription> \"We evaluated colesevelam ' s effects in subjects on stable pioglitazone - based therapy .\"."
+79625, Colesevelam, 659, 670, "colesevelam", "", 
+29, Pioglitazone, 705, 717, "pioglitazone", "", 
+31, Duration, 741, 750, "24 - week", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasCTduration> \"24 - week\"."
+32, Multicenter, 751, 762, "multicenter", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+33, DoubleBlind, 765, 779, "double - blind", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+34, Randomized, 782, 792, "randomized", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, Placebo, 795, 802, "placebo", "", 
+76408, Precondition, 831, 894, "adults with type 2 diabetes who had suboptimal glycemic control", "", "<http://ctro/data#Population_62136> <http://ctro/data#hasPrecondition> \"adults with type 2 diabetes who had suboptimal glycemic control\". <http://ctro/data#Population_62136> <http://ctro/data#hasPrecondition> \"on pioglitazone\". <http://ctro/data#Population_62136> <http://ctro/data#hasPrecondition> \"with or without 1 - 2 other oral antidiabetes medications\"."
+15, Type2Diabetes, 843, 858, "type 2 diabetes", "", 
+40, HbA1c, 897, 902, "HbA1c", "", 
+79789, Millimoles_per_mole, 908, 918, "mmol / mol", "", 
+43, Percentage, 927, 928, "%", "", 
+79790, Millimoles_per_mole, 940, 950, "mmol / mol", "", 
+44, Percentage, 959, 960, "%", "", 
+76408, Precondition, 965, 980, "on pioglitazone", "", 
+45, Pioglitazone, 968, 980, "pioglitazone", "", 
+47, DoseValue, 983, 985, "30", "", 
+48, DoseValue, 989, 991, "45", "", 
+49, mg, 992, 994, "mg", "", 
+76408, Precondition, 997, 1054, "with or without 1 - 2 other oral antidiabetes medications", "", 
+46, OralAntidiabeticAgent, 1025, 1054, "oral antidiabetes medications", "", 
+51, Randomized, 1071, 1081, "randomized", "", 
+79627, Colesevelam, 1085, 1096, "colesevelam", "", "<http://ctro/data#Medication_62180> <http://ctro/data#hasDrug> <http://ctro/data#Colesevelam>."
+52, DoseValue, 1097, 1102, "3 . 8", "", "<http://ctro/data#Medication_62180> <http://ctro/data#hasDoseValue> \"3 . 8\"."
+53, Gram, 1103, 1104, "g", "", "<http://ctro/data#Medication_62180> <http://ctro/data#hasDoseValue> \"3 . 8\"."
+100520, Frequency, 1107, 1110, "day", "", "<http://ctro/data#Intervention_62162> <http://ctro/data#hasFrequency> \"day\"."
+55, NumberPatientsArm, 1117, 1120, "280", "", "<http://ctro/data#Arm_62144> <http://ctro/data#hasNumberPatientsArm> \"280\"."
+36, Placebo, 1126, 1133, "placebo", "", "<http://ctro/data#Medication_62187> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+56, NumberPatientsArm, 1140, 1143, "282", "", "<http://ctro/data#Arm_62153> <http://ctro/data#hasNumberPatientsArm> \"282\"."
+11, Pioglitazone, 1164, 1176, "pioglitazone", "", 
+148, Mean, 1225, 1229, "mean", "", 
+57, HbA1c, 1240, 1245, "HbA1c", "", 
+58, TimePoint, 1251, 1259, "baseline", "", 
+59, TimePoint, 1263, 1270, "Week 24", "", 
+60, FastingPlasmaGlucose, 1328, 1350, "fasting plasma glucose", "", 
+61, EndPointDescription, 1386, 1399, "lipid profile", "", 
+62, EndPointDescription, 1430, 1452, "lipid particle profile", "", 
+79630, Colesevelam, 1493, 1504, "Colesevelam", "", 
+63, HbA1c, 1515, 1520, "HbA1c", "", "<http://ctro/data#Endpoint_62229> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+64, LeastSquaresMean, 1523, 1543, "least - squares mean", "", "<http://ctro/data#Endpoint_62229> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+65, DiffGroupAbsValue, 1567, 1574, "- 3 . 5", "", 
+79793, Millimoles_per_mole, 1575, 1585, "mmol / mol", "", "<http://ctro/data#Endpoint_62229> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_mole>."
+68, DiffGroupAbsValue, 1588, 1596, "- 0 . 32", "", "<http://ctro/data#DiffBetweenGroups_62347> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 32\"."
+69, Percentage, 1597, 1598, "%", "", 
+70, PvalueDiff, 1603, 1614, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_62347> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+72, FastingPlasmaGlucose, 1621, 1643, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_62288> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+66, DiffGroupAbsValue, 1646, 1654, "- 14 . 7", "", "<http://ctro/data#DiffBetweenGroups_62356> <http://ctro/data#hasDiffGroupAbsValue> \"- 14 . 7\"."
+73, Mg_per_deciliter, 1655, 1662, "mg / dl", "", "<http://ctro/data#Endpoint_62288> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+71, PvalueDiff, 1665, 1676, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_62356> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+37, Placebo, 1684, 1691, "placebo", "", 
+74, TimePoint, 1695, 1702, "Week 24", "", "<http://ctro/data#Outcome_62234> <http://ctro/data#hasTimePoint> \"Week 24\". <http://ctro/data#Outcome_62261> <http://ctro/data#hasTimePoint> \"Week 24\". <http://ctro/data#Outcome_62293> <http://ctro/data#hasTimePoint> \"Week 24\". <http://ctro/data#Outcome_62320> <http://ctro/data#hasTimePoint> \"Week 24\"."
+79633, Colesevelam, 1729, 1740, "colesevelam", "", 
+38, Placebo, 1746, 1753, "placebo", "", 
+75, HbA1c_target, 1763, 1809, "HbA1c reduction ≥ 7 . 7 mmol / mol ( 0 . 7 % )", "", "<http://ctro/data#Endpoint_62365> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+79791, Millimoles_per_mole, 1787, 1797, "mmol / mol", "", 
+177, Percentage, 1806, 1807, "%", "", 
+77, PercentageAffected, 1812, 1814, "40", "", "<http://ctro/data#Outcome_62375> <http://ctro/data#hasPercentageAffected> \"40\"."
+78, PercentageAffected, 1822, 1824, "25", "", "<http://ctro/data#Outcome_62402> <http://ctro/data#hasPercentageAffected> \"25\"."
+81, PvalueDiff, 1829, 1840, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_62483> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+76, HbA1c_target, 1846, 1879, "HbA1c < 53 mmol / mol ( 7 . 0 % )", "", "<http://ctro/data#Endpoint_62370> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+79792, Millimoles_per_mole, 1857, 1867, "mmol / mol", "", 
+182, Percentage, 1876, 1877, "%", "", 
+79, PercentageAffected, 1882, 1884, "21", "", "<http://ctro/data#Outcome_62429> <http://ctro/data#hasPercentageAffected> \"21\"."
+80, PercentageAffected, 1892, 1894, "13", "", "<http://ctro/data#Outcome_62456> <http://ctro/data#hasPercentageAffected> \"13\"."
+82, PvalueDiff, 1899, 1910, "p = 0 . 012", "", "<http://ctro/data#DiffBetweenGroups_62492> <http://ctro/data#hasPvalueDiff> \"p = 0 . 012\"."
+79635, Colesevelam, 1915, 1926, "Colesevelam", "", 
+83, EndPointDescription, 1948, 1959, "cholesterol", "", "<http://ctro/data#EndPointDescription_62502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62501> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62502>."
+200, Mean, 1962, 1966, "mean", "", "<http://ctro/data#Mean_62503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_62501> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_62503>."
+90, DiffGroupRelValue, 1990, 1997, "- 6 . 5", "", "<http://ctro/data#DiffBetweenGroups_62914> <http://ctro/data#hasDiffGroupRelValue> \"- 6 . 5\"."
+84, EndPointDescription, 2004, 2021, "LDL - cholesterol", "", "<http://ctro/data#EndPointDescription_62507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62506> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62507>."
+91, DiffGroupRelValue, 2024, 2032, "- 16 . 4", "", "<http://ctro/data#DiffBetweenGroups_62923> <http://ctro/data#hasDiffGroupRelValue> \"- 16 . 4\"."
+85, EndPointDescription, 2039, 2062, "non - HDL - cholesterol", "", "<http://ctro/data#EndPointDescription_62512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62511> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62512>."
+92, DiffGroupRelValue, 2065, 2072, "- 9 . 8", "", "<http://ctro/data#DiffBetweenGroups_62932> <http://ctro/data#hasDiffGroupRelValue> \"- 9 . 8\"."
+86, EndPointDescription, 2079, 2095, "apolipoprotein B", "", "<http://ctro/data#EndPointDescription_62517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62516> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62517>."
+93, DiffGroupRelValue, 2098, 2105, "- 8 . 8", "", "<http://ctro/data#DiffBetweenGroups_62941> <http://ctro/data#hasDiffGroupRelValue> \"- 8 . 8\"."
+87, EndPointDescription, 2122, 2148, "LDL particle concentration", "", "<http://ctro/data#EndPointDescription_62522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62521> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62522>."
+88, EndPointDescription, 2165, 2182, "apolipoprotein A1", "", "<http://ctro/data#EndPointDescription_62527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62526> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62527>."
+94, DiffGroupRelValue, 2185, 2192, "+ 3 . 4", "", "<http://ctro/data#DiffBetweenGroups_62959> <http://ctro/data#hasDiffGroupRelValue> \"+ 3 . 4\"."
+89, EndPointDescription, 2201, 2214, "triglycerides", "", "<http://ctro/data#EndPointDescription_62532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62531> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62532>."
+95, DiffGroupRelValue, 2247, 2255, "+ 11 . 3", "", "<http://ctro/data#DiffBetweenGroups_62968> <http://ctro/data#hasDiffGroupRelValue> \"+ 11 . 3\"."
+39, Placebo, 2265, 2272, "placebo", "", 
+96, PvalueDiff, 2279, 2290, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_62914> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62923> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62932> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62941> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62950> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62959> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\". <http://ctro/data#DiffBetweenGroups_62968> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+76412, ObservedResult, 2295, 2331, "There were no serious drug - related", "", "<http://ctro/data#Outcome_62982> <http://ctro/data#hasObservedResult> \"There were no serious drug - related\". <http://ctro/data#Outcome_63009> <http://ctro/data#hasObservedResult> \"There were no serious drug - related\"."
+97, EndPointDescription, 2332, 2346, "adverse events", "", "<http://ctro/data#EndPointDescription_62978> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_62977> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_62978>."
+98, EndPointDescription, 2369, 2383, "adverse events", "", 
+101, ConclusionComment, 2408, 2601, "In subjects with type 2 diabetes inadequately controlled with pioglitazone - based therapy , add - on colesevelam therapy improved glycemic control and lipid parameters and was well tolerated .", "", "<http://ctro/data#ClinicalTrial_62120> <http://ctro/data#hasConclusionComment> \"In subjects with type 2 diabetes inadequately controlled with pioglitazone - based therapy , add - on colesevelam therapy improved glycemic control and lipid parameters and was well tolerated .\"."
+16, Type2Diabetes, 2425, 2440, "type 2 diabetes", "", 
+12, Pioglitazone, 2470, 2482, "pioglitazone", "", 
+79637, Colesevelam, 2510, 2521, "colesevelam", "", 
+102, PMID, 2742, 2750, "25054436", "", "<http://ctro/data#Publication_62113> <http://ctro/data#hasPMID> \"25054436\"."

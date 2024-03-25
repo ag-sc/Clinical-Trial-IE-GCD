@@ -1,0 +1,85 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Coll Antropol", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasJournal> \"Coll Antropol\"."
+83, PublicationYear, 16, 20, "2003", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasPublicationYear> \"2003\"."
+88, Title, 49, 145, "A study of replacement of timolol - pilocarpine with latanoprost in pseudoexfoliation glaucoma .", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasTitle> \"A study of replacement of timolol - pilocarpine with latanoprost in pseudoexfoliation glaucoma .\"."
+41, Timolol, 75, 82, "timolol", "", "<http://ctro/data#Medication_52366> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+42, Pilocarpine, 85, 96, "pilocarpine", "", "<http://ctro/data#Medication_52373> <http://ctro/data#hasDrug> <http://ctro/data#Pilocarpine>."
+43, Latanoprost, 102, 113, "latanoprost", "", "<http://ctro/data#Latanoprost_52360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_52359> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_52360>."
+44, Glaucoma, 117, 143, "pseudoexfoliation glaucoma", "", "<http://ctro/data#Glaucoma_52303> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_52294> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_52303>."
+3, Author, 146, 154, "Boji ć L", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasAuthor> \"Boji ć L\"."
+4, Author, 163, 172, "Mandi ć Z", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasAuthor> \"Mandi ć Z\"."
+5, Author, 175, 189, "Novak - Laus K", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasAuthor> \"Novak - Laus K\"."
+6, Author, 192, 201, "Sonicki Z", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasAuthor> \"Sonicki Z\"."
+7, Author, 204, 216, "Karelovi ć D", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasAuthor> \"Karelovi ć D\"."
+94, Croatia, 295, 302, "Croatia", "", "<http://ctro/data#Population_52310> <http://ctro/data#hasCountry> <http://ctro/data#Croatia>."
+9, ObjectiveDescription, 305, 538, "The aim of the study was to evaluate the efficacy of replacing current dual local therapy ( timolol and pilocarpine ) with latanoprost 0 . 005 % in 71 pseudoexfoliation glaucoma patients with controlled intraocular pressure ( IOP ) .", "", "<http://ctro/data#ClinicalTrial_52294> <http://ctro/data#hasObjectiveDescription> \"The aim of the study was to evaluate the efficacy of replacing current dual local therapy ( timolol and pilocarpine ) with latanoprost 0 . 005 % in 71 pseudoexfoliation glaucoma patients with controlled intraocular pressure ( IOP ) .\"."
+46, Timolol, 397, 404, "timolol", "", 
+47, Pilocarpine, 409, 420, "pilocarpine", "", 
+48, Latanoprost, 428, 439, "latanoprost", "", 
+49, DoseValue, 440, 447, "0 . 005", "", 
+50, Percentage, 448, 449, "%", "", 
+10, NumberPatientsCT, 453, 455, "71", "", "<http://ctro/data#ClinicalTrial_52294> <http://ctro/data#hasNumberPatientsCT> \"71\"."
+45, Glaucoma, 456, 482, "pseudoexfoliation glaucoma", "", 
+104, Precondition, 483, 528, "patients with controlled intraocular pressure", "", "<http://ctro/data#Population_52310> <http://ctro/data#hasPrecondition> \"patients with controlled intraocular pressure\"."
+11, IOP, 508, 528, "intraocular pressure", "", 
+12, IOP, 531, 534, "IOP", "", 
+14, NumberPatientsArm, 539, 541, "39", "", "<http://ctro/data#Arm_52323> <http://ctro/data#hasNumberPatientsArm> \"39\"."
+51, Latanoprost, 563, 574, "latanoprost", "", 
+52, DoseValue, 575, 582, "0 . 005", "", "<http://ctro/data#Medication_52359> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+53, Percentage, 583, 584, "%", "", "<http://ctro/data#Medication_52359> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+15, NumberPatientsArm, 591, 593, "32", "", "<http://ctro/data#Arm_52332> <http://ctro/data#hasNumberPatientsArm> \"32\"."
+54, Timolol, 613, 620, "timolol", "", 
+55, Pilocarpine, 623, 634, "pilocarpine", "", 
+56, Mean, 645, 649, "Mean", "", "<http://ctro/data#Mean_52320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_52318> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_52320>."
+57, Diurnal_IOP, 650, 663, "diurnal ( IOP", "", "<http://ctro/data#Endpoint_52318> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+114, IOP, 660, 663, "IOP", "", 
+58, TimePoint, 682, 690, "baseline", "", 
+59, TimePoint, 699, 725, "0 . 5 , 1 , 3 and 6 months", "", 
+60, TimePoint, 747, 755, "6 months", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_52407> <http://ctro/data#hasTimePoint> \"6 months\"."
+16, FinalNumPatientsArm, 756, 758, "38", "", "<http://ctro/data#Arm_52323> <http://ctro/data#hasFinalNumPatientsArm> \"38\"."
+61, Latanoprost, 773, 784, "latanoprost", "", 
+17, FinalNumPatientsArm, 789, 791, "30", "", "<http://ctro/data#Arm_52332> <http://ctro/data#hasFinalNumPatientsArm> \"30\"."
+62, Timolol, 806, 813, "timolol", "", 
+63, Pilocarpine, 816, 827, "pilocarpine", "", 
+34126, TimePoint, 857, 865, "baseline", "", 
+64, Mean, 870, 874, "mean", "", 
+65, Diurnal_IOP, 875, 886, "diurnal IOP", "", 
+18, BaseLineValue, 891, 897, "20 . 4", "", 
+34127, SdDevBL, 904, 909, "2 . 0", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasSdDevBL> \"2 . 0\"."
+20, mmHg, 910, 914, "mmHg", "", "<http://ctro/data#Endpoint_52318> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+66, Latanoprost, 931, 942, "latanoprost", "", 
+22, BaseLineValue, 963, 969, "21 . 4", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasBaselineValue> \"21 . 4\"."
+34128, SdDevBL, 976, 981, "2 . 1", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasSdDevBL> \"2 . 1\"."
+21, mmHg, 982, 986, "mmHg", "", 
+67, Timolol, 1003, 1010, "timolol", "", 
+68, Pilocarpine, 1013, 1024, "pilocarpine", "", 
+69, Duration, 1065, 1073, "6 months", "", "<http://ctro/data#ClinicalTrial_52294> <http://ctro/data#hasCTduration> \"6 months\"."
+70, Mean, 1093, 1097, "mean", "", 
+71, Diurnal_IOP, 1098, 1109, "diurnal IOP", "", 
+24, ResultMeasuredValue, 1122, 1128, "16 . 6", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasResultMeasuredValue> \"16 . 6\"."
+34130, SdDevResValue, 1135, 1140, "2 . 4", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasSdDevResValue> \"2 . 4\"."
+25, ResultMeasuredValue, 1145, 1151, "17 . 9", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasResultMeasuredValue> \"17 . 9\"."
+34131, SdDevResValue, 1158, 1163, "2 . 0", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasSdDevResValue> \"2 . 0\"."
+28, mmHg, 1164, 1168, "mmHg", "", 
+29, IOP, 1184, 1187, "IOP", "", 
+30, PValueChangeValue, 1244, 1255, "p < 0 . 001", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 001\". <http://ctro/data#Outcome_52407> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 001\"."
+72, Mean, 1264, 1268, "mean", "", 
+73, Diurnal_IOP, 1269, 1280, "diurnal IOP", "", 
+31, Reduction, 1308, 1313, "3 . 3", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasChangeValue> \"3 . 3\"."
+33, SdErrorChangeValue, 1320, 1325, "0 . 5", "", "<http://ctro/data#Outcome_52380> <http://ctro/data#hasSdErrorChangeValue> \"0 . 5\"."
+35, mmHg, 1326, 1330, "mmHg", "", 
+74, Mean, 1333, 1337, "mean", "", 
+75, Latanoprost, 1389, 1400, "latanoprost", "", 
+32, Reduction, 1407, 1412, "3 . 2", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasChangeValue> \"3 . 2\"."
+34, SdErrorChangeValue, 1419, 1424, "0 . 4", "", "<http://ctro/data#Outcome_52407> <http://ctro/data#hasSdErrorChangeValue> \"0 . 4\"."
+36, mmHg, 1425, 1429, "mmHg", "", 
+80, Timolol, 1460, 1467, "timolol", "", 
+81, Pilocarpine, 1470, 1481, "pilocarpine", "", 
+37, IOP, 1503, 1506, "IOP", "", 
+38, PvalueDiff, 1581, 1591, "p = 0 . 49", "", "<http://ctro/data#DiffBetweenGroups_52434> <http://ctro/data#hasPvalueDiff> \"p = 0 . 49\"."
+39, ConclusionComment, 1596, 1754, "This study showed that combination therapy ( timolol plus pilocarpine ) in pseudoexfoliation glaucoma can effectively be replaced by latanoprost monotherapy .", "", "<http://ctro/data#ClinicalTrial_52294> <http://ctro/data#hasConclusionComment> \"This study showed that combination therapy ( timolol plus pilocarpine ) in pseudoexfoliation glaucoma can effectively be replaced by latanoprost monotherapy .\"."
+76, Timolol, 1641, 1648, "timolol", "", 
+77, Pilocarpine, 1654, 1665, "pilocarpine", "", 
+78, Glaucoma, 1671, 1697, "pseudoexfoliation glaucoma", "", 
+79, Latanoprost, 1729, 1740, "latanoprost", "", 
+40, PMID, 1762, 1770, "14746165", "", "<http://ctro/data#Publication_52283> <http://ctro/data#hasPMID> \"14746165\"."

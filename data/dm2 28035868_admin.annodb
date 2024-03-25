@@ -1,0 +1,109 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2017", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasPublicationYear> \"2017\"."
+7, Title, 119, 274, "A randomized clinical trial of the safety and efficacy of sitagliptin in patients with type 2 diabetes mellitus inadequately controlled by acarbose alone .", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasTitle> \"A randomized clinical trial of the safety and efficacy of sitagliptin in patients with type 2 diabetes mellitus inadequately controlled by acarbose alone .\"."
+2, Randomized, 121, 131, "randomized", "", 
+3, Sitagliptin, 177, 188, "sitagliptin", "", 
+123, Precondition, 192, 272, "patients with type 2 diabetes mellitus inadequately controlled by acarbose alone", "", 
+4, Type2Diabetes, 206, 230, "type 2 diabetes mellitus", "", 
+97999, Acarbose, 258, 266, "acarbose", "", 
+8, Author, 275, 281, "Wang W", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Wang W\"."
+9, Author, 290, 296, "Ning G", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Ning G\"."
+10, Author, 305, 309, "Ma J", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Ma J\"."
+11, Author, 318, 323, "Liu X", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Liu X\"."
+12, Author, 332, 339, "Zheng S", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Zheng S\"."
+13, Author, 348, 352, "Wu F", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Wu F\"."
+14, Author, 367, 371, "Xu L", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Xu L\"."
+15, Author, 380, 392, "O ' Neill EA", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"O ' Neill EA\"."
+16, Author, 401, 410, "Fujita KP", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Fujita KP\"."
+17, Author, 425, 433, "Engel SS", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Engel SS\"."
+18, Author, 442, 452, "Kaufman KD", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+19, Author, 461, 471, "Shankar RR", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasAuthor> \"Shankar RR\"."
+20, China, 590, 595, "China", "", "<http://ctro/data#Population_79639> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+21, China, 682, 687, "China", "", 
+22, China, 774, 779, "China", "", 
+23, China, 852, 857, "China", "", 
+25, USA, 909, 912, "USA", "", 
+24, China, 983, 988, "China", "", 
+26, USA, 1060, 1063, "USA", "", 
+32, ObjectiveDescription, 1078, 1265, "To evaluate the safety and efficacy of sitagliptin when added to the treatment of patients with type 2 diabetes mellitus ( T2DM ) and inadequate glycemic control on acarbose monotherapy .", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasObjectiveDescription> \"To evaluate the safety and efficacy of sitagliptin when added to the treatment of patients with type 2 diabetes mellitus ( T2DM ) and inadequate glycemic control on acarbose monotherapy .\"."
+27, Sitagliptin, 1117, 1128, "sitagliptin", "", 
+144, Precondition, 1160, 1263, "patients with type 2 diabetes mellitus ( T2DM ) and inadequate glycemic control on acarbose monotherapy", "", 
+28, Type2Diabetes, 1174, 1198, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+29, Type2Diabetes, 1201, 1205, "T2DM", "", 
+98085, Acarbose, 1243, 1251, "acarbose", "", 
+33, Multicenter, 1307, 1318, "multicenter", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+34, Randomized, 1321, 1331, "randomized", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, Placebo, 1334, 1341, "placebo", "", 
+36, DoubleBlind, 1357, 1371, "double - blind", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+163, Precondition, 1389, 1576, "Patients ( N  =  381 ) with T2DM and inadequate glycemic control ( glycated hemoglobin [ HbA1c ] ≥  7 . 0 % and ≤ 10 . 0 % ) on acarbose monotherapy ( at least 50   mg three times daily )", "", "<http://ctro/data#Population_79639> <http://ctro/data#hasPrecondition> \"Patients ( N  =  381 ) with T2DM and inadequate glycemic control ( glycated hemoglobin [ HbA1c ] ≥  7 . 0 % and ≤ 10 . 0 % ) on acarbose monotherapy ( at least 50   mg three times daily )\"."
+37, NumberPatientsCT, 1406, 1409, "381", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasNumberPatientsCT> \"381\"."
+38, Type2Diabetes, 1417, 1421, "T2DM", "", 
+40, HbA1c, 1456, 1475, "glycated hemoglobin", "", 
+41, HbA1c, 1478, 1483, "HbA1c", "", 
+42, Percentage, 1495, 1496, "%", "", 
+43, Percentage, 1510, 1511, "%", "", 
+98086, Acarbose, 1517, 1525, "acarbose", "", 
+166, DoseDescription, 1540, 1574, "at least 50   mg three times daily", "", 
+164, mg, 1554, 1556, "mg", "", 
+46, Frequency, 1557, 1574, "three times daily", "", 
+47, Randomized, 1582, 1592, "randomized", "", 
+168, AllocationRatio, 1598, 1603, "1 : 1", "", "<http://ctro/data#AllocationRatio_79622> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_79622>."
+48, Sitagliptin, 1637, 1648, "sitagliptin", "", "<http://ctro/data#Medication_79693> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+169, DoseValue, 1649, 1652, "100", "", "<http://ctro/data#Medication_79693> <http://ctro/data#hasDoseValue> \"100\"."
+170, mg, 1655, 1657, "mg", "", "<http://ctro/data#Medication_79693> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+50, Placebo, 1670, 1677, "placebo", "", "<http://ctro/data#Medication_79700> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+51, Frequency, 1678, 1688, "once daily", "", "<http://ctro/data#Intervention_79707> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_79713> <http://ctro/data#hasFrequency> \"once daily\"."
+52, Duration, 1693, 1701, "24 weeks", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasCTduration> \"24 weeks\"."
+53, TimePoint, 1741, 1749, "baseline", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasCTduration> \"24 weeks\"."
+55, HbA1c, 1753, 1758, "HbA1c", "", 
+56, FastingPlasmaGlucose, 1763, 1785, "fasting plasma glucose", "", 
+57, FastingPlasmaGlucose, 1788, 1791, "FPG", "", 
+54, TimePoint, 1797, 1804, "Week 24", "", 
+58, Mean, 1821, 1825, "mean", "", 
+59, TimePoint, 1826, 1834, "baseline", "", 
+60, HbA1c, 1835, 1840, "HbA1c", "", "<http://ctro/data#Endpoint_79648> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+61, Randomized, 1844, 1854, "randomized", "", 
+62, BaseLineValue, 1868, 1873, "8 . 1", "", "<http://ctro/data#Outcome_79750> <http://ctro/data#hasBaselineValue> \"8 . 1\". <http://ctro/data#Outcome_79777> <http://ctro/data#hasBaselineValue> \"8 . 1\"."
+63, Percentage, 1874, 1875, "%", "", "<http://ctro/data#Endpoint_79648> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+71, TimePoint, 1881, 1888, "Week 24", "", "<http://ctro/data#Outcome_79750> <http://ctro/data#hasTimePoint> \"Week 24\"."
+73, Placebo, 1895, 1902, "placebo", "", 
+77, LeastSquaresMean, 1918, 1936, "least squares mean", "", "<http://ctro/data#Endpoint_79648> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>. <http://ctro/data#Endpoint_79653> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+78, TimePoint, 1950, 1958, "baseline", "", 
+185, ConfIntervalChangeValue, 1961, 1985, "95 % confidence interval", "", "<http://ctro/data#Outcome_79750> <http://ctro/data#hasConfIntervalChangeValue> \"95 % confidence interval\". <http://ctro/data#Outcome_79804> <http://ctro/data#hasConfIntervalChangeValue> \"95 % confidence interval\"."
+79, HbA1c, 1991, 1996, "HbA1c", "", 
+80, FastingPlasmaGlucose, 2001, 2004, "FPG", "", "<http://ctro/data#Endpoint_79653> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+81, Sitagliptin, 2012, 2023, "sitagliptin", "", 
+106292, DiffGroupAbsValue, 2035, 2043, "- 0 . 62", "", "<http://ctro/data#DiffBetweenGroups_79858> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 62\"."
+65, Percentage, 2044, 2045, "%", "", 
+106296, DiffGroupAbsValue, 2050, 2057, "- 0 . 8", "", "<http://ctro/data#DiffBetweenGroups_79867> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 8\"."
+89, Millimoles_per_litre, 2060, 2068, "mmol / L", "", 
+90, PvalueDiff, 2071, 2081, "p  < . 001", "", "<http://ctro/data#DiffBetweenGroups_79858> <http://ctro/data#hasPvalueDiff> \"p  < . 001\". <http://ctro/data#DiffBetweenGroups_79867> <http://ctro/data#hasPvalueDiff> \"p  < . 001\"."
+72, TimePoint, 2104, 2111, "Week 24", "", "<http://ctro/data#Outcome_79876> <http://ctro/data#hasTimePoint> \"Week 24\". <http://ctro/data#Outcome_79903> <http://ctro/data#hasTimePoint> \"Week 24\"."
+92, PercentageAffected, 2114, 2120, "37 . 8", "", "<http://ctro/data#Outcome_79876> <http://ctro/data#hasPercentageAffected> \"37 . 8\"."
+82, Sitagliptin, 2142, 2153, "sitagliptin", "", 
+91, HbA1c_target, 2168, 2187, "HbA1c goal of < 7 %", "", "<http://ctro/data#Endpoint_79658> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+67, Percentage, 2186, 2187, "%", "", 
+93, PercentageAffected, 2202, 2208, "17 . 2", "", "<http://ctro/data#Outcome_79903> <http://ctro/data#hasPercentageAffected> \"17 . 2\"."
+74, Placebo, 2218, 2225, "placebo", "", 
+94, PvalueDiff, 2234, 2244, "p  < . 001", "", "<http://ctro/data#DiffBetweenGroups_79930> <http://ctro/data#hasPvalueDiff> \"p  < . 001\"."
+83, Sitagliptin, 2249, 2260, "Sitagliptin", "", 
+195, ObservedResult, 2296, 2383, "there were no significant between - group differences in prespecified safety parameters", "", "<http://ctro/data#Outcome_79939> <http://ctro/data#hasObservedResult> \"there were no significant between - group differences in prespecified safety parameters\". <http://ctro/data#Outcome_79966> <http://ctro/data#hasObservedResult> \"there were no significant between - group differences in prespecified safety parameters\". <http://ctro/data#Outcome_79993> <http://ctro/data#hasObservedResult> \"there were no significant between - group differences in prespecified safety parameters\". <http://ctro/data#Outcome_80020> <http://ctro/data#hasObservedResult> \"there were no significant between - group differences in prespecified safety parameters\". <http://ctro/data#Outcome_80047> <http://ctro/data#hasObservedResult> \"there were no significant between - group differences in prespecified safety parameters\"."
+196, SymptomaticHypoglycemia, 2386, 2410, "symptomatic hypoglycemia", "", "<http://ctro/data#Endpoint_79663> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+197, EndPointDescription, 2413, 2421, "diarrhea", "", "<http://ctro/data#EndPointDescription_79669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_79668> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_79669>."
+198, EndPointDescription, 2424, 2438, "abdominal pain", "", "<http://ctro/data#EndPointDescription_79674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_79673> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_79674>."
+200, Nausea, 2441, 2447, "nausea", "", "<http://ctro/data#Endpoint_79678> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Nausea>."
+199, EndPointDescription, 2450, 2458, "vomiting", "", "<http://ctro/data#EndPointDescription_79684> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_79683> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_79684>."
+95, EndPointDescription, 2485, 2507, "serious adverse events", "", "<http://ctro/data#EndPointDescription_79689> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_79688> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_79689>."
+84, Sitagliptin, 2528, 2539, "sitagliptin", "", 
+96, PercentageAffected, 2548, 2553, "5 . 2", "", "<http://ctro/data#Outcome_80074> <http://ctro/data#hasPercentageAffected> \"5 . 2\"."
+75, Placebo, 2570, 2577, "placebo", "", 
+97, PercentageAffected, 2580, 2585, "0 . 5", "", "<http://ctro/data#Outcome_80101> <http://ctro/data#hasPercentageAffected> \"0 . 5\"."
+85, Sitagliptin, 2613, 2624, "sitagliptin", "", 
+86, Sitagliptin, 2685, 2696, "Sitagliptin", "", 
+209, ConclusionComment, 2685, 2868, "Sitagliptin was generally well tolerated and provided statistically superior and clinically meaningful improvements in glycemic control after 24 weeks of treatment compared to placebo", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasConclusionComment> \"Sitagliptin was generally well tolerated and provided statistically superior and clinically meaningful improvements in glycemic control after 24 weeks of treatment compared to placebo\"."
+98, Duration, 2827, 2835, "24 weeks", "", 
+76, Placebo, 2861, 2868, "placebo", "", 
+210, ConclusionComment, 2869, 2963, "when added to treatment of patients with inadequate glycemic control on acarbose monotherapy .", "", "<http://ctro/data#ClinicalTrial_79618> <http://ctro/data#hasConclusionComment> \"when added to treatment of patients with inadequate glycemic control on acarbose monotherapy .\"."
+98087, Acarbose, 2941, 2949, "acarbose", "", 
+103, PMID, 3052, 3060, "28035868", "", "<http://ctro/data#Publication_79600> <http://ctro/data#hasPMID> \"28035868\"."

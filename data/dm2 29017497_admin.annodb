@@ -1,0 +1,150 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Cardiovasc Diabetol .", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasJournal> \"Cardiovasc Diabetol .\"."
+1, PublicationYear, 22, 26, "2017", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasPublicationYear> \"2017\"."
+16, Title, 97, 280, "The effects of vildagliptin compared with metformin on vascular endothelial function and metabolic parameters : a randomized , controlled trial ( Sapporo Athero - Incretin Study 3 ) .", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasTitle> \"The effects of vildagliptin compared with metformin on vascular endothelial function and metabolic parameters : a randomized , controlled trial ( Sapporo Athero - Incretin Study 3 ) .\"."
+2, Vildagliptin, 112, 124, "vildagliptin", "", 
+8, Metformin, 139, 148, "metformin", "", 
+15, Randomized, 211, 221, "randomized", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+17, Author, 281, 288, "Kitao N", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Kitao N\"."
+18, Author, 297, 306, "Miyoshi H", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Miyoshi H\"."
+19, Author, 315, 325, "Furumoto T", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Furumoto T\"."
+20, Author, 340, 345, "Ono K", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Ono K\"."
+21, Author, 354, 362, "Nomoto H", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Nomoto H\"."
+22, Author, 371, 377, "Miya A", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Miya A\"."
+23, Author, 386, 396, "Yamamoto C", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Yamamoto C\"."
+24, Author, 405, 412, "Inoue A", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Inoue A\"."
+25, Author, 421, 431, "Tsuchida K", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Tsuchida K\"."
+26, Author, 440, 447, "Manda N", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Manda N\"."
+27, Author, 456, 466, "Kurihara Y", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Kurihara Y\"."
+158, Author, 475, 481, "Aoki S", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Aoki S\"."
+29, Author, 490, 500, "Nakamura A", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Nakamura A\"."
+30, Author, 509, 517, "Atsumi T", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasAuthor> \"Atsumi T\"."
+63, Author, 561, 570, "Edagawa Y", "", 
+31, Author, 573, 579, "Oita M", "", 
+32, Author, 582, 589, "Kondo A", "", 
+33, Author, 592, 603, "Takahashi K", "", 
+34, Author, 606, 616, "Sugawara H", "", 
+35, Author, 619, 632, "Dan - Noura M", "", 
+36, Author, 635, 643, "Takano Y", "", 
+37, Author, 646, 653, "Kitao N", "", 
+38, Author, 656, 668, "Koyanagawa N", "", 
+39, Author, 671, 677, "Miya A", "", 
+40, Author, 680, 690, "Yamamoto K", "", 
+41, Author, 693, 703, "Yamamoto C", "", 
+42, Author, 706, 714, "Nomoto H", "", 
+43, Author, 717, 725, "Kameda Y", "", 
+44, Author, 728, 734, "Cho KY", "", 
+45, Author, 737, 747, "Nakamura A", "", 
+46, Author, 750, 759, "Miyoshi H", "", 
+47, Author, 762, 770, "Atsumi T", "", 
+48, Author, 773, 783, "Watanabe T", "", 
+49, Author, 786, 797, "Takahashi K", "", 
+50, Author, 800, 812, "Koyanagawa N", "", 
+51, Author, 815, 821, "Kito K", "", 
+52, Author, 824, 834, "Yamamoto C", "", 
+53, Author, 837, 843, "Endo M", "", 
+54, Author, 846, 856, "Takeuchi J", "", 
+55, Author, 859, 866, "Nagai S", "", 
+56, Author, 869, 877, "Masuda H", "", 
+57, Author, 880, 887, "Inoue A", "", 
+58, Author, 890, 895, "Ono Y", "", 
+59, Author, 898, 908, "Tsuchida K", "", 
+60, Author, 911, 918, "Manda N", "", 
+61, Author, 921, 931, "Kurihara Y", "", 
+62, Author, 934, 940, "Aoki S", "", 
+64, Japan, 1146, 1151, "Japan", "", 
+65, Japan, 1336, 1341, "Japan", "", 
+66, Japan, 1471, 1476, "Japan", "", 
+67, Japan, 1585, 1590, "Japan", "", 
+68, Japan, 1690, 1695, "Japan", "", 
+69, Japan, 1778, 1783, "Japan", "", 
+70, Japan, 1828, 1833, "Japan", "", 
+71, Japan, 1870, 1875, "Japan", "", 
+72, Japan, 1908, 1913, "Japan", "", 
+175, ObjectiveDescription, 1929, 2135, "Dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitors may have protective effects in the early stage of atherosclerosis in patients with type 2 diabetes , although similar effects in advanced atherosclerosis were", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasObjectiveDescription> \"Dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitors may have protective effects in the early stage of atherosclerosis in patients with type 2 diabetes , although similar effects in advanced atherosclerosis were\"."
+73, Type2Diabetes, 2060, 2075, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+83462, DisorderOrSyndrome, 2115, 2130, "atherosclerosis", "", 
+176, ObjectiveDescription, 2136, 2197, "not shown in recent randomized placebo - controlled studies .", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasObjectiveDescription> \"not shown in recent randomized placebo - controlled studies .\"."
+75, Randomized, 2156, 2166, "randomized", "", 
+76, Placebo, 2167, 2174, "placebo", "", 
+174, ObjectiveDescription, 2198, 2345, "Therefore , we investigated the efficacy of DPP - 4 inhibitor on endothelial function and glycemic metabolism compared with high - dose metformin .", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasObjectiveDescription> \"Therefore , we investigated the efficacy of DPP - 4 inhibitor on endothelial function and glycemic metabolism compared with high - dose metformin .\"."
+77, Metformin, 2334, 2343, "metformin", "", 
+79, Multicenter, 2364, 2375, "multicenter", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+80, OpenLabel, 2378, 2392, "open - labeled", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+81, Prospective, 2395, 2406, "prospective", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+82, Randomized, 2409, 2419, "randomized", "", 
+83, Parallel, 2422, 2438, "parallel - group", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+88, Precondition, 2458, 2546, "patients with type 2 diabetes treated with low - dose metformin ( 500 - 750   mg / day )", "", "<http://ctro/data#Population_76364> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes treated with low - dose metformin ( 500 - 750   mg / day )\"."
+74, Type2Diabetes, 2472, 2487, "type 2 diabetes", "", 
+84, Metformin, 2512, 2521, "metformin", "", "<http://ctro/data#Medication_76415> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>. <http://ctro/data#Medication_76422> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+85, DoseValue, 2524, 2533, "500 - 750", "", "<http://ctro/data#Medication_76415> <http://ctro/data#hasDoseValue> \"500 - 750\". <http://ctro/data#Medication_76422> <http://ctro/data#hasDoseValue> \"500 - 750\"."
+86, mg, 2536, 2538, "mg", "", "<http://ctro/data#Medication_76415> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>. <http://ctro/data#Medication_76422> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+83469, Interval, 2541, 2544, "day", "", "<http://ctro/data#Intervention_76396> <http://ctro/data#hasInterval> \"day\". <http://ctro/data#Intervention_76402> <http://ctro/data#hasInterval> \"day\"."
+89, Randomized, 2565, 2573, "randomly", "", 
+3, Vildagliptin, 2588, 2600, "vildagliptin", "", "<http://ctro/data#Medication_76408> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+14, Vildagliptin, 2642, 2647, "Vilda", "", 
+214, DoseDescription, 2655, 2666, "double dose", "", "<http://ctro/data#Medication_76422> <http://ctro/data#hasDoseDescription> \"double dose\"."
+9, Metformin, 2670, 2679, "metformin", "", 
+189, Metformin, 2693, 2696, "Met", "", 
+90, Duration, 2703, 2713, "12   weeks", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasCTduration> \"12   weeks\"."
+201, EndPointDescription, 2716, 2740, "Flow - mediated dilation", "", 
+202, EndPointDescription, 2743, 2746, "FMD", "", 
+92, NumberPatientsCT, 2907, 2921, "Ninety - seven", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasNumberPatientsCT> \"Ninety - seven\"."
+93, AvgAge, 2938, 2944, "58 . 7", "", "<http://ctro/data#Population_76364> <http://ctro/data#hasAvgAge> \"58 . 7\"."
+194, Year, 2958, 2963, "years", "", 
+94, BMI, 2966, 2981, "body mass index", "", 
+95, BaseLineValue, 2984, 2990, "25 . 9", "", 
+96, SdDevBL, 2995, 3000, "4 . 4", "", 
+97, Kg_per_squareMeter, 3003, 3010, "kg / m2", "", 
+98, HbA1c, 3013, 3018, "HbA1c", "", 
+99, BaseLineValue, 3021, 3026, "7 . 3", "", "<http://ctro/data#Outcome_76456> <http://ctro/data#hasBaselineValue> \"7 . 3\". <http://ctro/data#Outcome_76483> <http://ctro/data#hasBaselineValue> \"7 . 3\"."
+100, SdDevBL, 3031, 3036, "0 . 5", "", "<http://ctro/data#Outcome_76456> <http://ctro/data#hasSdDevBL> \"0 . 5\". <http://ctro/data#Outcome_76483> <http://ctro/data#hasSdDevBL> \"0 . 5\"."
+101, Percentage, 3037, 3038, "%", "", 
+102, EndPointDescription, 3041, 3044, "FMD", "", "<http://ctro/data#EndPointDescription_76520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_76519> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_76520>."
+103, BaseLineValue, 3047, 3052, "5 . 8", "", "<http://ctro/data#Outcome_76524> <http://ctro/data#hasBaselineValue> \"5 . 8\". <http://ctro/data#Outcome_76551> <http://ctro/data#hasBaselineValue> \"5 . 8\"."
+104, SdDevBL, 3057, 3062, "2 . 6", "", "<http://ctro/data#Outcome_76524> <http://ctro/data#hasSdDevBL> \"2 . 6\". <http://ctro/data#Outcome_76551> <http://ctro/data#hasSdDevBL> \"2 . 6\"."
+105, Percentage, 3063, 3064, "%", "", "<http://ctro/data#Endpoint_76519> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+106, NumPatientsLeftCT, 3083, 3088, "Eight", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasNumPatientsLeftCT> \"Eight\"."
+242, TimePoint, 3200, 3208, "baseline", "", 
+107, TimePoint, 3233, 3243, "12   weeks", "", 
+108, HbA1c, 3246, 3251, "HbA1c", "", "<http://ctro/data#Endpoint_76451> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+5, Vildagliptin, 3286, 3291, "Vilda", "", 
+212, Metformin, 3321, 3324, "Met", "", 
+109, Reduction, 3336, 3342, "0 . 80", "", "<http://ctro/data#Outcome_76456> <http://ctro/data#hasChangeValue> \"0 . 80\"."
+111, SdDevChangeValue, 3347, 3353, "0 . 38", "", "<http://ctro/data#Outcome_76456> <http://ctro/data#hasSdDevChangeValue> \"0 . 38\"."
+113, Percentage, 3354, 3355, "%", "", "<http://ctro/data#Endpoint_76451> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+110, Reduction, 3364, 3370, "0 . 40", "", "<http://ctro/data#Outcome_76483> <http://ctro/data#hasChangeValue> \"0 . 40\"."
+112, SdDevChangeValue, 3375, 3381, "0 . 47", "", "<http://ctro/data#Outcome_76483> <http://ctro/data#hasSdDevChangeValue> \"0 . 47\"."
+114, Percentage, 3382, 3383, "%", "", 
+115, PvalueDiff, 3401, 3413, "p  <  0 . 01", "", "<http://ctro/data#DiffBetweenGroups_76510> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 01\"."
+116, EndPointDescription, 3469, 3472, "FMD", "", 
+117, Reduction, 3478, 3484, "0 . 51", "", "<http://ctro/data#Outcome_76524> <http://ctro/data#hasChangeValue> \"0 . 51\"."
+119, ConfIntervalChangeValue, 3485, 3504, "[-  1 . 08 - 0 . 06", "", "<http://ctro/data#Outcome_76524> <http://ctro/data#hasConfIntervalChangeValue> \"[-  1 . 08 - 0 . 06\"."
+121, Percentage, 3507, 3508, "%", "", 
+118, Reduction, 3517, 3523, "0 . 58", "", "<http://ctro/data#Outcome_76551> <http://ctro/data#hasChangeValue> \"0 . 58\"."
+120, ConfIntervalChangeValue, 3524, 3543, "[-  1 . 20 - 0 . 04", "", "<http://ctro/data#Outcome_76551> <http://ctro/data#hasConfIntervalChangeValue> \"[-  1 . 20 - 0 . 04\"."
+122, Percentage, 3546, 3547, "%", "", 
+123, EndPointDescription, 3565, 3607, "apolipoprotein B / apolipoprotein A1 ratio", "", "<http://ctro/data#EndPointDescription_76579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_76578> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_76579>."
+125, ObservedResult, 3608, 3675, "was significantly reduced in the Vilda group compared with baseline", "", 
+4, Vildagliptin, 3641, 3646, "Vilda", "", 
+124, TimePoint, 3667, 3675, "baseline", "", 
+227, BaseLineValue, 3678, 3684, "0 . 66", "", "<http://ctro/data#Outcome_76583> <http://ctro/data#hasBaselineValue> \"0 . 66\"."
+228, ResultMeasuredValue, 3687, 3693, "0 . 62", "", "<http://ctro/data#Outcome_76583> <http://ctro/data#hasResultMeasuredValue> \"0 . 62\"."
+127, PValueChangeValue, 3696, 3708, "p  <  0 . 01", "", "<http://ctro/data#Outcome_76583> <http://ctro/data#hasPValueChangeValue> \"p  <  0 . 01\"."
+128, Reduction, 3781, 3787, "0 . 04", "", "<http://ctro/data#Outcome_76583> <http://ctro/data#hasChangeValue> \"0 . 04\"."
+129, NoChange, 3793, 3799, "0 . 00", "", "<http://ctro/data#Outcome_76610> <http://ctro/data#hasChangeValue> \"0 . 00\"."
+130, PvalueDiff, 3802, 3814, "p  =  0 . 27", "", "<http://ctro/data#DiffBetweenGroups_76664> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 27\"."
+131, EndPointDescription, 3819, 3830, "Adiponectin", "", "<http://ctro/data#EndPointDescription_76674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_76673> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_76674>."
+6, Vildagliptin, 3874, 3879, "Vilda", "", 
+234, Metformin, 3909, 3912, "Met", "", 
+132, Increment, 3921, 3927, "0 . 75", "", "<http://ctro/data#Outcome_76678> <http://ctro/data#hasChangeValue> \"0 . 75\"."
+134, BioAndMedicalUnit, 3928, 3937, " μ g / mL", "", "<http://ctro/data#BioAndMedicalUnit_76676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_76673> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_76676>."
+133, Increment, 3943, 3949, "0 . 01", "", "<http://ctro/data#Outcome_76705> <http://ctro/data#hasChangeValue> \"0 . 01\"."
+135, BioAndMedicalUnit, 3950, 3959, " μ g / mL", "", 
+136, PvalueDiff, 3962, 3974, "p  <  0 . 01", "", "<http://ctro/data#DiffBetweenGroups_76732> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 01\"."
+138, ConclusionComment, 3993, 4185, "Regardless of glycemic improvement , combination therapy of vildagliptin and metformin did not affect endothelial function but may exert favorable effects on adipokine levels and lipid profile", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasConclusionComment> \"Regardless of glycemic improvement , combination therapy of vildagliptin and metformin did not affect endothelial function but may exert favorable effects on adipokine levels and lipid profile\"."
+7, Vildagliptin, 4053, 4065, "vildagliptin", "", 
+13, Metformin, 4070, 4079, "metformin", "", 
+139, ConclusionComment, 4186, 4253, "in patients with type 2 diabetes without advanced atherosclerosis .", "", "<http://ctro/data#ClinicalTrial_76348> <http://ctro/data#hasConclusionComment> \"in patients with type 2 diabetes without advanced atherosclerosis .\"."
+137, Type2Diabetes, 4203, 4218, "type 2 diabetes", "", 
+140, PMID, 4322, 4330, "29017497", "", "<http://ctro/data#Publication_76341> <http://ctro/data#hasPMID> \"29017497\"."

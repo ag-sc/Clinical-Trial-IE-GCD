@@ -1,0 +1,81 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Pediatr Diabetes", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasJournal> \"Pediatr Diabetes\"."
+1, PublicationYear, 19, 23, "2008", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasPublicationYear> \"2008\"."
+2, PublicationYear, 111, 115, "2008", "", 
+77, Title, 125, 249, "Short - term metabolic and cardiovascular effects of metformin in markedly obese adolescents with normal glucose tolerance .", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasTitle> \"Short - term metabolic and cardiovascular effects of metformin in markedly obese adolescents with normal glucose tolerance .\"."
+3, Metformin, 178, 187, "metformin", "", 
+4, Precondition, 191, 247, "markedly obese adolescents with normal glucose tolerance", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasPrecondition> \"markedly obese adolescents with normal glucose tolerance\"."
+5, Author, 250, 260, "Burgert TS", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Burgert TS\"."
+6, Author, 269, 277, "Duran EJ", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Duran EJ\"."
+7, Author, 280, 297, "Goldberg - Gell R", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Goldberg - Gell R\"."
+8, Author, 300, 308, "Dziura J", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Dziura J\"."
+9, Author, 311, 320, "Yeckel CW", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Yeckel CW\"."
+10, Author, 323, 329, "Katz S", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Katz S\"."
+11, Author, 332, 345, "Tamborlane WV", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Tamborlane WV\"."
+12, Author, 348, 356, "Caprio S", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasAuthor> \"Caprio S\"."
+13, USA, 473, 476, "USA", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+19, ObjectiveDescription, 520, 702, "Although metformin ( MET ) is an insulin sensitizer currently used as an adjunct to the treatment of some of the complications of childhood obesity besides type 2 diabetes mellitus ,", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasObjectiveDescription> \"Although metformin ( MET ) is an insulin sensitizer currently used as an adjunct to the treatment of some of the complications of childhood obesity besides type 2 diabetes mellitus ,\"."
+14, Metformin, 529, 538, "metformin", "", 
+15, Metformin, 541, 544, "MET", "", 
+16, Insulin, 553, 560, "insulin", "", 
+17, Type2Diabetes, 676, 700, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+148, ObjectiveDescription, 703, 837, "few studies have comprehensively examined its metabolic and clinical effects in obese children with normal glucose tolerance ( NGT ) .", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasObjectiveDescription> \"few studies have comprehensively examined its metabolic and clinical effects in obese children with normal glucose tolerance ( NGT ) .\"."
+18, Precondition, 783, 835, "obese children with normal glucose tolerance ( NGT )", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasPrecondition> \"obese children with normal glucose tolerance ( NGT )\"."
+20, Duration, 873, 882, "4 - month", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasCTduration> \"4 - month\"."
+21, DoubleBlind, 883, 897, "double - blind", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+22, NumberPatientsCT, 916, 918, "28", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasNumberPatientsCT> \"28\"."
+119906, Precondition, 919, 991, "obese [ mean body mass index ( BMI ) : 40 . 3 + / - 5 . 7 kg / m ( 2 ) ]", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasPrecondition> \"obese [ mean body mass index ( BMI ) : 40 . 3 + / - 5 . 7 kg / m ( 2 ) ]\"."
+99, Mean, 927, 931, "mean", "", 
+23, BMI, 932, 947, "body mass index", "", 
+24, BMI, 950, 953, "BMI", "", 
+25, Kg_per_squareMeter, 977, 989, "kg / m ( 2 )", "", "<http://ctro/data#Endpoint_110088> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg_per_squareMeter>."
+26, Insulin, 994, 1001, "insulin", "", 
+119908, Precondition, 994, 1085, "insulin - resistant [ homeostasis model assessment - insulin resistance : 7 . 6 + / - 2 . 8", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasPrecondition> \"insulin - resistant [ homeostasis model assessment - insulin resistance : 7 . 6 + / - 2 . 8\"."
+27, Insulin, 1047, 1054, "insulin", "", 
+119909, Precondition, 1090, 1200, "whole body insulin sensitivity index ( WBISI ) : 1 . 5 + / - 0 . 7 ] adolescents ( age 15 . 0 + / - 1 . 3 yr )", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasPrecondition> \"whole body insulin sensitivity index ( WBISI ) : 1 . 5 + / - 0 . 7 ] adolescents ( age 15 . 0 + / - 1 . 3 yr )\"."
+28, Insulin, 1101, 1108, "insulin", "", 
+29, AvgAge, 1177, 1183, "15 . 0", "", "<http://ctro/data#Population_110002> <http://ctro/data#hasAvgAge> \"15 . 0\"."
+30, Randomized, 1201, 1211, "randomized", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Metformin, 1215, 1218, "MET", "", "<http://ctro/data#Medication_110047> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+32, NumberPatientsArm, 1225, 1227, "15", "", "<http://ctro/data#Arm_110017> <http://ctro/data#hasNumberPatientsArm> \"15\"."
+33, DoseValue, 1235, 1239, "1500", "", "<http://ctro/data#Medication_110047> <http://ctro/data#hasDoseValue> \"1500\"."
+34, mg, 1240, 1242, "mg", "", "<http://ctro/data#Medication_110047> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+35, Frequency, 1243, 1248, "daily", "", "<http://ctro/data#Intervention_110035> <http://ctro/data#hasFrequency> \"daily\"."
+36, Placebo, 1254, 1261, "placebo", "", "<http://ctro/data#Medication_110054> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+37, NumberPatientsArm, 1268, 1270, "13", "", "<http://ctro/data#Arm_110026> <http://ctro/data#hasNumberPatientsArm> \"13\"."
+39, Metformin, 1304, 1307, "MET", "", 
+40, Metformin, 1329, 1332, "MET", "", 
+41, BMI, 1375, 1378, "BMI", "", "<http://ctro/data#Endpoint_110088> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BMI>."
+43, PValueChangeValue, 1381, 1391, "p = 0 . 02", "", "<http://ctro/data#Outcome_110120> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 02\"."
+42, EndPointDescription, 1425, 1441, "subcutaneous fat", "", "<http://ctro/data#EndPointDescription_110013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_110012> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_110013>."
+44, PValueChangeValue, 1444, 1454, "p = 0 . 03", "", "<http://ctro/data#Outcome_110061> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 03\"."
+71, SubGroupDescription, 1476, 1497, "deep subcutaneous fat", "", "<http://ctro/data#Outcome_110093> <http://ctro/data#hasSubGroupDescription> \"deep subcutaneous fat\"."
+45, PValueChangeValue, 1500, 1510, "p = 0 . 04", "", "<http://ctro/data#Outcome_110093> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 04\"."
+46, MeasurementDevice, 1528, 1554, "magnetic resonance imaging", "", "<http://ctro/data#MeasurementDevice_110016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_110012> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_110016>."
+47, Metformin, 1580, 1583, "MET", "", 
+48, RelativeChangeValue, 1596, 1598, "35", "", "<http://ctro/data#Outcome_110152> <http://ctro/data#hasRelativeChangeValue> \"35\"."
+124, Percentage, 1599, 1600, "%", "", 
+51, ObservedResult, 1601, 1612, "improvement", "", "<http://ctro/data#Outcome_110152> <http://ctro/data#hasObservedResult> \"improvement\"."
+49, EndPointDescription, 1616, 1635, "insulin sensitivity", "", "<http://ctro/data#EndPointDescription_110148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_110147> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_110148>."
+50, EndPointDescription, 1638, 1643, "WBISI", "", 
+52, Placebo, 1664, 1671, "placebo", "", 
+53, PvalueDiff, 1680, 1691, "p = 0 . 008", "", "<http://ctro/data#DiffBetweenGroups_110206> <http://ctro/data#hasPvalueDiff> \"p = 0 . 008\"."
+55, EndPointDescription, 1773, 1792, "insulin sensitivity", "", 
+54, PvalueDiff, 1795, 1805, "p = 0 . 09", "", 
+64, ObservedResult, 1816, 1835, "there was no change", "", "<http://ctro/data#Outcome_110230> <http://ctro/data#hasObservedResult> \"there was no change\". <http://ctro/data#Outcome_110257> <http://ctro/data#hasObservedResult> \"there was no change\"."
+56, EndPointDescription, 1839, 1861, "inflammatory cytokines", "", "<http://ctro/data#EndPointDescription_110216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_110215> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_110216>."
+57, EndPointDescription, 1865, 1881, "lipid parameters", "", "<http://ctro/data#EndPointDescription_110221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_110220> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_110221>."
+58, EndPointDescription, 1884, 1907, "cardiovascular function", "", "<http://ctro/data#EndPointDescription_110226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_110225> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_110226>."
+134, ObservedResult, 1958, 1966, "improved", "", "<http://ctro/data#Outcome_110284> <http://ctro/data#hasObservedResult> \"improved\"."
+59, Metformin, 1972, 1975, "MET", "", 
+135, ObservedResult, 1980, 1988, "worsened", "", "<http://ctro/data#Outcome_110311> <http://ctro/data#hasObservedResult> \"worsened\"."
+60, Placebo, 1992, 1999, "placebo", "", 
+61, PvalueDiff, 2002, 2012, "p = 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_110338> <http://ctro/data#hasPvalueDiff> \"p = 0 . 03\"."
+141, ConclusionComment, 2030, 2225, "Short - term use of MET is well tolerated by obese children with NGT and has a beneficial effect on BMI and autonomic control of the heart as well as a trend toward improved insulin sensitivity .", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasConclusionComment> \"Short - term use of MET is well tolerated by obese children with NGT and has a beneficial effect on BMI and autonomic control of the heart as well as a trend toward improved insulin sensitivity .\"."
+63, Metformin, 2050, 2053, "MET", "", 
+66, BMI, 2130, 2133, "BMI", "", 
+68, EndPointDescription, 2138, 2168, "autonomic control of the heart", "", 
+67, EndPointDescription, 2204, 2223, "insulin sensitivity", "", 
+143, ConclusionComment, 2226, 2357, "Thus , long - term treatment with MET may provide a means to ameliorate the cardio - metabolic consequences of adolescent obesity .", "", "<http://ctro/data#ClinicalTrial_109983> <http://ctro/data#hasConclusionComment> \"Thus , long - term treatment with MET may provide a means to ameliorate the cardio - metabolic consequences of adolescent obesity .\"."
+69, Metformin, 2260, 2263, "MET", "", 
+70, PMID, 2418, 2426, "18761646", "", "<http://ctro/data#Publication_109969> <http://ctro/data#hasPMID> \"18761646\"."

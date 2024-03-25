@@ -1,0 +1,112 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2017", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasPublicationYear> \"2017\"."
+10, Title, 122, 365, "A randomized , double - blind , non - inferiority trial evaluating the efficacy and safety of omarigliptin , a once - weekly DPP - 4 inhibitor , or glimepiride in patients with type 2 diabetes inadequately controlled on metformin monotherapy .", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasTitle> \"A randomized , double - blind , non - inferiority trial evaluating the efficacy and safety of omarigliptin , a once - weekly DPP - 4 inhibitor , or glimepiride in patients with type 2 diabetes inadequately controlled on metformin monotherapy .\"."
+2, Randomized, 124, 134, "randomized", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, DoubleBlind, 137, 151, "double - blind", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+110, CTDesign, 154, 171, "non - inferiority", "", "<http://ctro/data#CTDesign_85407> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_85407>."
+4, Omarigliptin, 216, 228, "omarigliptin", "", 
+5, Frequency, 233, 246, "once - weekly", "", 
+6, Glimepiride, 270, 281, "glimepiride", "", 
+141, Precondition, 285, 363, "patients with type 2 diabetes inadequately controlled on metformin monotherapy", "", 
+7, Type2Diabetes, 299, 314, "type 2 diabetes", "", 
+9, Metformin, 342, 351, "metformin", "", 
+11, Author, 366, 378, "Handelsman Y", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Handelsman Y\"."
+12, Author, 387, 396, "Lauring B", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Lauring B\"."
+13, Author, 405, 412, "Gantz I", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Gantz I\"."
+14, Author, 421, 430, "Iredale C", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Iredale C\"."
+15, Author, 439, 451, "O ' Neill EA", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"O ' Neill EA\"."
+16, Author, 460, 465, "Wei Z", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Wei Z\"."
+17, Author, 474, 487, "Suryawanshi S", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Suryawanshi S\"."
+18, Author, 496, 506, "Kaufman KD", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+19, Author, 515, 523, "Engel SS", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Engel SS\"."
+20, Author, 532, 537, "Lai E", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasAuthor> \"Lai E\"."
+21, USA, 623, 626, "USA", "", "<http://ctro/data#Population_85408> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+22, USA, 678, 681, "USA", "", 
+30, ObjectiveDescription, 814, 1066, "To evaluate the efficacy and safety of adding the once - weekly DPP - 4 inhibitor omarigliptin or the sulfonylurea glimepiride to the treatment regimen of patients with type 2 diabetes ( T2DM ) and inadequate glycemic control on metformin monotherapy .", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of adding the once - weekly DPP - 4 inhibitor omarigliptin or the sulfonylurea glimepiride to the treatment regimen of patients with type 2 diabetes ( T2DM ) and inadequate glycemic control on metformin monotherapy .\"."
+23, Frequency, 864, 877, "once - weekly", "", 
+24, Omarigliptin, 896, 908, "omarigliptin", "", 
+156, Sulfonylureas, 916, 928, "sulfonylurea", "", 
+25, Glimepiride, 929, 940, "glimepiride", "", 
+157, Precondition, 969, 1064, "patients with type 2 diabetes ( T2DM ) and inadequate glycemic control on metformin monotherapy", "", 
+26, Type2Diabetes, 983, 998, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+27, Type2Diabetes, 1001, 1005, "T2DM", "", 
+29, Metformin, 1043, 1052, "metformin", "", 
+169, Precondition, 1077, 1186, "Patients with T2DM and HbA1c ≥ 6 . 5 % to ≤ 9 . 0 % while on a stable dose of metformin ( ≥ 1500   mg / day )", "", "<http://ctro/data#Population_85408> <http://ctro/data#hasPrecondition> \"Patients with T2DM and HbA1c ≥ 6 . 5 % to ≤ 9 . 0 % while on a stable dose of metformin ( ≥ 1500   mg / day )\"."
+31, Type2Diabetes, 1091, 1095, "T2DM", "", 
+33, HbA1c, 1100, 1105, "HbA1c", "", 
+34, Percentage, 1114, 1115, "%", "", 
+35, Percentage, 1127, 1128, "%", "", 
+44, Metformin, 1155, 1164, "metformin", "", 
+162, DoseValue, 1167, 1173, "≥ 1500", "", 
+165, mg, 1176, 1178, "mg", "", 
+168, Frequency, 1181, 1184, "day", "", 
+47, Randomized, 1192, 1202, "randomized", "", 
+48, Omarigliptin, 1206, 1218, "omarigliptin", "", "<http://ctro/data#Medication_85441> <http://ctro/data#hasDrug> <http://ctro/data#Omarigliptin>."
+163, DoseValue, 1219, 1221, "25", "", "<http://ctro/data#Medication_85441> <http://ctro/data#hasDoseValue> \"25\"."
+50, mg, 1224, 1226, "mg", "", "<http://ctro/data#Medication_85441> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+51, Frequency, 1227, 1240, "once - weekly", "", "<http://ctro/data#Intervention_85448> <http://ctro/data#hasFrequency> \"once - weekly\"."
+57, NumberPatientsArm, 1249, 1252, "376", "", "<http://ctro/data#Arm_85454> <http://ctro/data#hasNumberPatientsArm> \"376\"."
+54, Glimepiride, 1258, 1269, "glimepiride", "", "<http://ctro/data#Medication_85463> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride>."
+164, DoseDescription, 1270, 1293, "up to 6   mg once daily", "", "<http://ctro/data#Medication_85463> <http://ctro/data#hasDoseDescription> \"up to 6   mg once daily\"."
+55, DoseValue, 1276, 1282, "6   mg", "", "<http://ctro/data#Medication_85463> <http://ctro/data#hasDoseValue> \"6   mg\"."
+53, mg, 1280, 1282, "mg", "", "<http://ctro/data#Intervention_85470> <http://ctro/data#hasFrequency> \"once daily\"."
+52, Frequency, 1283, 1293, "once daily", "", "<http://ctro/data#Intervention_85470> <http://ctro/data#hasFrequency> \"once daily\"."
+58, NumberPatientsArm, 1302, 1305, "375", "", "<http://ctro/data#Arm_85476> <http://ctro/data#hasNumberPatientsArm> \"375\"."
+56, Duration, 1312, 1320, "54 weeks", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasCTduration> \"54 weeks\"."
+59, Omarigliptin, 1355, 1367, "omarigliptin", "", 
+60, Glimepiride, 1389, 1400, "glimepiride", "", 
+61, HbA1c, 1413, 1418, "HbA1c", "", 
+62, TimePoint, 1422, 1429, "week 54", "", 
+66, Mean, 1446, 1450, "mean", "", 
+63, TimePoint, 1451, 1459, "baseline", "", 
+67, HbA1c, 1460, 1465, "HbA1c", "", "<http://ctro/data#Endpoint_85416> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+69, BaseLineValue, 1470, 1475, "7 . 5", "", "<http://ctro/data#Outcome_85485> <http://ctro/data#hasBaselineValue> \"7 . 5\"."
+36, Percentage, 1476, 1477, "%", "", "<http://ctro/data#Endpoint_85416> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+71, Omarigliptin, 1485, 1497, "omarigliptin", "", 
+70, BaseLineValue, 1508, 1513, "7 . 4", "", "<http://ctro/data#Outcome_85512> <http://ctro/data#hasBaselineValue> \"7 . 4\"."
+37, Percentage, 1514, 1515, "%", "", 
+72, Glimepiride, 1523, 1534, "glimepiride", "", 
+64, TimePoint, 1549, 1557, "54 weeks", "", 
+65, LeastSquaresMean, 1564, 1589, "least squares ( LS ) mean", "", "<http://ctro/data#Endpoint_85416> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+73, TimePoint, 1602, 1610, "baseline", "", 
+68, HbA1c, 1614, 1619, "HbA1c", "", 
+186, Reduction, 1626, 1632, "0 . 30", "", "<http://ctro/data#Outcome_85485> <http://ctro/data#hasChangeValue> \"0 . 30\"."
+38, Percentage, 1633, 1634, "%", "", 
+76, Omarigliptin, 1642, 1654, "omarigliptin", "", 
+187, Reduction, 1667, 1673, "0 . 48", "", "<http://ctro/data#Outcome_85512> <http://ctro/data#hasChangeValue> \"0 . 48\"."
+39, Percentage, 1674, 1675, "%", "", 
+77, Glimepiride, 1683, 1694, "glimepiride", "", 
+191, ConfIntervalDiff, 1739, 1746, "95 % CI", "", "<http://ctro/data#DiffBetweenGroups_85539> <http://ctro/data#hasConfIntervalDiff> \"95 % CI\"."
+78, DiffGroupAbsValue, 1752, 1758, "0 . 18", "", "<http://ctro/data#DiffBetweenGroups_85539> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 18\"."
+41, Percentage, 1759, 1760, "%", "", 
+191, ConfIntervalDiff, 1763, 1778, "0 . 06 , 0 . 30", "", "<http://ctro/data#DiffBetweenGroups_85539> <http://ctro/data#hasConfIntervalDiff> \"0 . 06 , 0 . 30\"."
+80, SymptomaticHypoglycemia, 1874, 1898, "symptomatic hypoglycemia", "", "<http://ctro/data#Endpoint_85421> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+81, PercentageAffected, 1903, 1908, "5 . 3", "", "<http://ctro/data#Outcome_85548> <http://ctro/data#hasPercentageAffected> \"5 . 3\"."
+83, Omarigliptin, 1918, 1930, "omarigliptin", "", 
+82, PercentageAffected, 1941, 1947, "26 . 7", "", "<http://ctro/data#Outcome_85575> <http://ctro/data#hasPercentageAffected> \"26 . 7\"."
+84, Glimepiride, 1957, 1968, "glimepiride", "", 
+99676, ObservedResult, 1977, 2105, "With the exception of hypoglycemia , the incidences of adverse events and discontinuations were similar between treatment groups", "", "<http://ctro/data#Outcome_85602> <http://ctro/data#hasObservedResult> \"With the exception of hypoglycemia , the incidences of adverse events and discontinuations were similar between treatment groups\". <http://ctro/data#Outcome_85629> <http://ctro/data#hasObservedResult> \"With the exception of hypoglycemia , the incidences of adverse events and discontinuations were similar between treatment groups\"."
+85, Hypoglycemia, 1999, 2011, "hypoglycemia", "", "<http://ctro/data#Endpoint_85426> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+198, EndPointDescription, 2032, 2046, "adverse events", "", "<http://ctro/data#EndPointDescription_85432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_85431> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_85432>."
+86, TimePoint, 2120, 2128, "baseline", "", 
+87, Omarigliptin, 2131, 2143, "omarigliptin", "", 
+89, Mean, 2166, 2170, "mean", "", "<http://ctro/data#Mean_85438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_85436> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_85438>."
+201, BodyWeight, 2171, 2177, "weight", "", "<http://ctro/data#Endpoint_85436> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+203, Reduction, 2187, 2192, "0 . 4", "", "<http://ctro/data#Outcome_85656> <http://ctro/data#hasChangeValue> \"0 . 4\"."
+95, Kg, 2195, 2197, "kg", "", "<http://ctro/data#Endpoint_85436> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+88, Glimepiride, 2204, 2215, "glimepiride", "", 
+90, Mean, 2218, 2222, "mean", "", 
+202, BodyWeight, 2223, 2229, "weight", "", 
+206, Increment, 2239, 2244, "1 . 5", "", "<http://ctro/data#Outcome_85683> <http://ctro/data#hasChangeValue> \"1 . 5\"."
+96, Kg, 2247, 2249, "kg", "", 
+211, ConclusionComment, 2268, 2518, "After 54 weeks , as add - on therapy to metformin , once - weekly omarigliptin was generally well tolerated and non - inferior to glimepiride in improving glycemic control , with a lower incidence of hypoglycemia and with weight loss vs weight gain .", "", "<http://ctro/data#ClinicalTrial_85390> <http://ctro/data#hasConclusionComment> \"After 54 weeks , as add - on therapy to metformin , once - weekly omarigliptin was generally well tolerated and non - inferior to glimepiride in improving glycemic control , with a lower incidence of hypoglycemia and with weight loss vs weight gain .\"."
+97, Duration, 2274, 2282, "54 weeks", "", 
+98, Metformin, 2308, 2317, "metformin", "", 
+99, Frequency, 2320, 2333, "once - weekly", "", 
+100, Omarigliptin, 2334, 2346, "omarigliptin", "", 
+101, Glimepiride, 2398, 2409, "glimepiride", "", 
+102, Hypoglycemia, 2468, 2480, "hypoglycemia", "", 
+103, WeightReduction, 2490, 2501, "weight loss", "", 
+104, WeightGain, 2505, 2516, "weight gain", "", 
+105, PMID, 2570, 2578, "28548024", "", "<http://ctro/data#Publication_85374> <http://ctro/data#hasPMID> \"28548024\"."

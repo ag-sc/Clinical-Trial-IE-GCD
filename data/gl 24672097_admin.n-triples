@@ -1,0 +1,118 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_93464> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_93464> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasTitle> "Comparison of the effects of bimatoprost and timolol on intraocular pressure and pulsatile ocular blood flow in patients with primary open - angle glaucoma : A prospective , open - label , randomized , two - arm , parallel - group study ." .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> "Vetrugno M" .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasPublicationYear> "2004" .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasJournal> "Curr Ther Res Clin Exp ." .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasPMID> "24672097" .
+<http://ctro/data#Publication_93464> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_93474> .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> "Cardascia N" .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> "Cantatore F" .
+<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> "Sborgia C" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_93474> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_93474> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasObjectiveDescription> "The aim of this study was to compare the effects of bimatoprost and timolol on IOP and choroidal blood flow ( as measured using pulsatile ocular blood flow [ pOBF ] ) in patients with primary open - angle glaucoma ( POAG ) ." .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasNumberPatientsCT> "Thirty - eight" .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTduration> "180 days" .
+<http://ctro/data#AllocationRatio_93478> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_93479> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> "In this population of patients with POAG , bimatoprost was associated with increased pOBF , and the reduction in pOBF associated with timolol was corrected after patients were switched to bimatoprost ." .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasArm> <http://ctro/data#Arm_93531> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasPopulation> <http://ctro/data#Population_93496> .
+<http://ctro/data#DiffBetweenGroups_93485> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_93486> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> "Bimatoprost was associated with increased choroidal blood flow , beyond the levels recorded before timolol treatment ." .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> "The decreased IOP level achieved in the timolol group seemed to be improved further by bimatoprost ." .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> "Considering the potential efficacy of bimatoprost on IOP and pOBF , we suggest that this new drug may represent a clinical advance in the medical treatment of POAG ." .
+<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasArm> <http://ctro/data#Arm_93540> .
+# RDF export of group: Population
+<http://ctro/data#Population_93496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_93496> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_93496> <http://ctro/data#hasPrecondition> "Patients with POAG having well - controlled IOP ( < 16 mm Hg ) on monotherapy with timolol 0 . 5 % ophthalmic solution ( 2 drops per affected eye BID ) for ≥ 12 months but with a progressive decrease in pOBF during the same time period" .
+<http://ctro/data#Ethnicity_93498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_93496> <http://ctro/data#hasCountry> <http://ctro/data#Italy> .
+<http://ctro/data#Population_93496> <http://ctro/data#hasAvgAge> "51 . 7" .
+<http://ctro/data#Population_93496> <http://ctro/data#hasGender> <http://ctro/data#Male> .
+<http://ctro/data#Population_93496> <http://ctro/data#hasGender> <http://ctro/data#Female> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_93549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_93549> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint IOP " .
+<http://ctro/data#IOP_93550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_93549> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_93550> .
+<http://ctro/data#AggregationMethod_93551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_93552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_93553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_93554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_93554> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint pOBF" .
+<http://ctro/data#Endpoint_93554> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PulsatileOcularFlow> .
+<http://ctro/data#AggregationMethod_93556> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_93557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_93558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_93531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_93531> <http://www.w3.org/2000/01/rdf-schema#label> "Arm tim" .
+<http://ctro/data#Arm_93531> <http://ctro/data#hasNumberPatientsArm> "19" .
+<http://ctro/data#Arm_93531> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_93512> .
+<http://ctro/data#Arm_93531> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_93559> .
+<http://ctro/data#Outcome_93536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_93531> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_93586> .
+<http://ctro/data#Arm_93540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_93540> <http://www.w3.org/2000/01/rdf-schema#label> "Arm bim" .
+<http://ctro/data#Arm_93540> <http://ctro/data#hasNumberPatientsArm> "19" .
+<http://ctro/data#Arm_93540> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_93525> .
+<http://ctro/data#Arm_93540> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_93613> .
+<http://ctro/data#Arm_93540> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_93640> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_93512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_93512> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention tim" .
+<http://ctro/data#Intervention_93512> <http://ctro/data#hasMedication> <http://ctro/data#Medication_93505> .
+<http://ctro/data#Intervention_93512> <http://ctro/data#hasFrequency> "BID" .
+<http://ctro/data#RelativeTime_93517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_93525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_93525> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention bim" .
+<http://ctro/data#Intervention_93525> <http://ctro/data#hasMedication> <http://ctro/data#Medication_93518> .
+<http://ctro/data#Intervention_93525> <http://ctro/data#hasFrequency> "QD" .
+<http://ctro/data#RelativeTime_93530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_93505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_93505> <http://www.w3.org/2000/01/rdf-schema#label> "Medication tim" .
+<http://ctro/data#Medication_93505> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_93505> <http://ctro/data#hasDoseValue> "2" .
+<http://ctro/data#BioAndMedicalUnit_93508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_93505> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_93518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_93518> <http://www.w3.org/2000/01/rdf-schema#label> "Medication bim" .
+<http://ctro/data#Medication_93518> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost> .
+<http://ctro/data#Medication_93518> <http://ctro/data#hasDoseValue> "0 . 3" .
+<http://ctro/data#Medication_93518> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_93522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_93518> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_93522> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_93559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_93559> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP tim" .
+<http://ctro/data#Outcome_93559> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_93549> .
+<http://ctro/data#Outcome_93559> <http://ctro/data#hasObservedResult> "At 180 - day follow - up in the timolol group , the IOP and the pOBF remained unchanged compared with baseline" .
+<http://ctro/data#Outcome_93559> <http://ctro/data#hasTimePoint> "180 - day" .
+<http://ctro/data#Outcome_93586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_93586> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome pOBF tim" .
+<http://ctro/data#Outcome_93586> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_93554> .
+<http://ctro/data#Outcome_93586> <http://ctro/data#hasObservedResult> "At 180 - day follow - up in the timolol group , the IOP and the pOBF remained unchanged compared with baseline" .
+<http://ctro/data#Outcome_93586> <http://ctro/data#hasTimePoint> "180 - day" .
+<http://ctro/data#Outcome_93613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_93613> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP bim" .
+<http://ctro/data#Outcome_93613> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_93549> .
+<http://ctro/data#Outcome_93613> <http://ctro/data#hasObservedResult> "remained unchanged" .
+<http://ctro/data#Outcome_93640> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_93640> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome pOBF bim" .
+<http://ctro/data#Outcome_93640> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_93554> .
+<http://ctro/data#Outcome_93640> <http://ctro/data#hasRelativeChangeValue> "38 . 9" .
+<http://ctro/data#Outcome_93640> <http://ctro/data#hasPValueChangeValue> "P < 0 . 01" .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

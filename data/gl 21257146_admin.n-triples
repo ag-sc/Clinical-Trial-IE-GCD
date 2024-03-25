@@ -1,0 +1,129 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_43073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_43073> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 43073" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasTitle> "A randomized trial of brimonidine versus timolol in preserving visual function : results from the Low - Pressure Glaucoma Treatment Study" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> "Krupin T" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasPublicationYear> "2011" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasJournal> "Am J Ophthalmol" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasPMID> "21257146" .
+<http://ctro/data#Publication_43073> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_43084> .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> "Liebmann JM" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> "Greenfield DS" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> "Ritch R" .
+<http://ctro/data#Publication_43073> <http://ctro/data#hasAuthor> "Gardiner S" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_43084> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_43084> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 43084" .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasObjectiveDescription> "To compare the alpha2 - adrenergic agonist brimonidine tartrate 0 . 2 % to the beta - adrenergic antagonist timolol maleate 0 . 5 % in preserving visual function in low - pressure glaucoma ." .
+<http://ctro/data#AllocationRatio_43088> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_43089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasConclusionComment> "Low - pressure glaucoma patients treated with brimonidine 0 . 2 % who do not develop ocular allergy are less likely to have field progression than patients treated with timolol 0 . 5 % ." .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasArm> <http://ctro/data#Arm_43131> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasPopulation> <http://ctro/data#Population_43102> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_43230> .
+<http://ctro/data#EvidenceQuality_43096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#hasArm> <http://ctro/data#Arm_43140> .
+<http://ctro/data#DiffBetweenGroups_43747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#Glaucoma_84281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_43084> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_84281> .
+# RDF export of group: Population
+<http://ctro/data#Population_43102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_43102> <http://www.w3.org/2000/01/rdf-schema#label> "Population 43102" .
+<http://ctro/data#Ethnicity_43104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_43102> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_43109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_43110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_43110> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 43110 IOP" .
+<http://ctro/data#Mean_43112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_43110> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_43112> .
+<http://ctro/data#Endpoint_43110> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_43114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#IOP_43115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_43110> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_43115> .
+<http://ctro/data#Endpoint_43116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_43116> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 43116 visual field progression" .
+<http://ctro/data#EndPointDescription_43117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_43116> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_43117> .
+<http://ctro/data#AggregationMethod_43118> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_43119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_43120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_43126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_43126> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 43126 ocular allergy" .
+<http://ctro/data#AggregationMethod_43128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_43129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_43130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_43126> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Ocular_Allergy> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_43131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_43131> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 43131 Brimonidine" .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasNumberPatientsArm> "Ninety - nine" .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_43150> .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_43176> .
+<http://ctro/data#Outcome_43136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasNumPatientsLeftArm> "28" .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasRelNumPatientsLeftArm> "28 . 3" .
+<http://ctro/data#Arm_43131> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_43242> .
+<http://ctro/data#Arm_43140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_43140> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 43140 Timolol" .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_43156> .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_43203> .
+<http://ctro/data#Outcome_43145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasNumPatientsLeftArm> "9" .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasRelNumPatientsLeftArm> "11 . 4" .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasNumberPatientsArm> "79" .
+<http://ctro/data#Arm_43140> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_43269> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_43150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_43150> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 43150 Brimonidine" .
+<http://ctro/data#Intervention_43150> <http://ctro/data#hasMedication> <http://ctro/data#Medication_43162> .
+<http://ctro/data#Intervention_43150> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#RelativeTime_43155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_43156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_43156> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 43156 Timolol" .
+<http://ctro/data#Intervention_43156> <http://ctro/data#hasMedication> <http://ctro/data#Medication_43169> .
+<http://ctro/data#Intervention_43156> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#RelativeTime_43161> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_43162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_43162> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 43162 Brimonidine" .
+<http://ctro/data#Medication_43162> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_43162> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_43162> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_43166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_43169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_43169> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 43169 Timolol" .
+<http://ctro/data#Medication_43169> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_43169> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_43169> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_43173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_43176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_43176> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 43176 visual field progression brimonidine" .
+<http://ctro/data#Outcome_43176> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_43116> .
+<http://ctro/data#Outcome_43176> <http://ctro/data#hasNumberAffected> "9" .
+<http://ctro/data#Outcome_43176> <http://ctro/data#hasPercentageAffected> "9 . 1" .
+<http://ctro/data#Outcome_43203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_43203> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 43203 visual field progression timolol" .
+<http://ctro/data#Outcome_43203> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_43116> .
+<http://ctro/data#Outcome_43203> <http://ctro/data#hasNumberAffected> "31" .
+<http://ctro/data#Outcome_43203> <http://ctro/data#hasPercentageAffected> "39 . 2" .
+<http://ctro/data#Outcome_43242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_43242> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 43242 IOP brimonidine" .
+<http://ctro/data#Outcome_43242> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_43110> .
+<http://ctro/data#Outcome_43242> <http://ctro/data#hasObservedResult> "Mean treated IOP was similar for brimonidine - and timolol - treated patients at all time points" .
+<http://ctro/data#Outcome_43269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_43269> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 43269 IOP timolol" .
+<http://ctro/data#Outcome_43269> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_43110> .
+<http://ctro/data#Outcome_43269> <http://ctro/data#hasObservedResult> "Mean treated IOP was similar for brimonidine - and timolol - treated patients at all time points" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_43230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_43230> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 43230 visual field progression" .
+<http://ctro/data#DiffBetweenGroups_43230> <http://ctro/data#hasPvalueDiff> "P = . 001" .
+<http://ctro/data#DiffBetweenGroups_43230> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_43176> .
+<http://ctro/data#DiffBetweenGroups_43230> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_43203> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,83 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+78, Journal, 0, 14, "Med J Malaysia", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasJournal> \"Med J Malaysia\"."
+1, PublicationYear, 17, 21, "2012", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasPublicationYear> \"2012\"."
+64055, Cabergoline, 49, 60, "Cabergoline", "", 
+17, Title, 49, 136, "Cabergoline effect on blood sugar in type 2 diabetic patients with oral agent failure .", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasTitle> \"Cabergoline effect on blood sugar in type 2 diabetic patients with oral agent failure .\"."
+80, BloodGlucose, 71, 82, "blood sugar", "", 
+9, Type2Diabetes, 86, 101, "type 2 diabetic", "", "<http://ctro/data#ClinicalTrial_40496> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+15, Precondition, 86, 134, "type 2 diabetic patients with oral agent failure", "", "<http://ctro/data#Population_40512> <http://ctro/data#hasPrecondition> \"type 2 diabetic patients with oral agent failure\"."
+13, OralAntidiabeticAgent, 116, 126, "oral agent", "", 
+18, Author, 137, 147, "Taghavi SM", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasAuthor> \"Taghavi SM\"."
+19, Author, 156, 165, "Fatemi SS", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasAuthor> \"Fatemi SS\"."
+20, Author, 168, 175, "Rokni H", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasAuthor> \"Rokni H\"."
+21, Iran, 293, 297, "Iran", "", 
+22, Bromocriptine, 480, 493, "bromocriptine", "", 
+10, Type2Diabetes, 533, 548, "type 2 diabetes", "", 
+33, ObjectiveDescription, 551, 722, "The aim of this study was the evaluation of short - term effect of cabergoline in poorly controlled diabetic patients with oral agent failure who refused insulin therapy .", "", "<http://ctro/data#ClinicalTrial_40496> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was the evaluation of short - term effect of cabergoline in poorly controlled diabetic patients with oral agent failure who refused insulin therapy .\"."
+64051, Cabergoline, 618, 629, "cabergoline", "", 
+26, Precondition, 633, 720, "poorly controlled diabetic patients with oral agent failure who refused insulin therapy", "", "<http://ctro/data#Population_40512> <http://ctro/data#hasPrecondition> \"poorly controlled diabetic patients with oral agent failure who refused insulin therapy\"."
+23, Type2Diabetes, 651, 659, "diabetic", "", 
+24, OralAntidiabeticAgent, 674, 684, "oral agent", "", 
+25, Insulin, 705, 712, "insulin", "", 
+27, NumberPatientsCT, 761, 763, "17", "", "<http://ctro/data#ClinicalTrial_40496> <http://ctro/data#hasNumberPatientsCT> \"17\"."
+32, Precondition, 764, 924, "overweight women and men with type 2 diabetes with persistent hyperglycemia in spite of treatment with maximum dose of sulfonylurea , metformin and pioglitazone", "", "<http://ctro/data#Population_40512> <http://ctro/data#hasPrecondition> \"overweight women and men with type 2 diabetes with persistent hyperglycemia in spite of treatment with maximum dose of sulfonylurea , metformin and pioglitazone\"."
+100, AnyGender, 775, 788, "women and men", "", "<http://ctro/data#Population_40512> <http://ctro/data#hasGender> <http://ctro/data#AnyGender>."
+11, Type2Diabetes, 794, 809, "type 2 diabetes", "", 
+28, Hypoglycemia, 826, 839, "hyperglycemia", "", 
+29, Sulfonylureas, 883, 895, "sulfonylurea", "", 
+30, Metformin, 898, 907, "metformin", "", 
+31, Pioglitazone, 912, 924, "pioglitazone", "", 
+34, NumberPatientsArm, 927, 929, "10", "", "<http://ctro/data#Arm_40520> <http://ctro/data#hasNumberPatientsArm> \"10\"."
+36, Randomized, 951, 961, "randomized", "", "<http://ctro/data#ClinicalTrial_40496> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+64052, Cabergoline, 981, 992, "cabergoline", "", "<http://ctro/data#Medication_40550> <http://ctro/data#hasDrug> <http://ctro/data#Cabergoline>."
+37, DoseValue, 993, 998, "0 . 5", "", "<http://ctro/data#Medication_40550> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+38, mg, 999, 1001, "mg", "", "<http://ctro/data#Medication_40550> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+39, Frequency, 1002, 1008, "weekly", "", "<http://ctro/data#Intervention_40538> <http://ctro/data#hasFrequency> \"weekly\"."
+40, Duration, 1013, 1021, "3 months", "", "<http://ctro/data#ClinicalTrial_40496> <http://ctro/data#hasCTduration> \"3 months\"."
+35, NumberPatientsArm, 1026, 1027, "7", "", "<http://ctro/data#Arm_40529> <http://ctro/data#hasNumberPatientsArm> \"7\"."
+41, Placebo, 1055, 1062, "placebo", "", "<http://ctro/data#Medication_40557> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+43, FastingPlasmaGlucose, 1065, 1072, "Fasting", "", 
+75, PostprandialPlasmaGlucose, 1077, 1104, "postprandial plasma glucose", "", 
+43, FastingPlasmaGlucose, 1090, 1104, "plasma glucose", "", 
+42, HbA1c, 1123, 1128, "HbAlc", "", 
+119, TimePoint, 1141, 1150, "beginning", "", 
+120, TimePoint, 1155, 1171, "end of the study", "", 
+124, FastingBloodGlucose, 1184, 1187, "FBS", "", "<http://ctro/data#Endpoint_40613> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+44, BaseLineValue, 1203, 1211, "210 . 70", "", "<http://ctro/data#Outcome_40623> <http://ctro/data#hasBaselineValue> \"210 . 70\"."
+53, SdDevBL, 1218, 1225, "21 . 29", "", "<http://ctro/data#Outcome_40677> <http://ctro/data#hasSdDevBL> \"28\"."
+45, ResultMeasuredValue, 1229, 1237, "144 . 90", "", "<http://ctro/data#Outcome_40623> <http://ctro/data#hasResultMeasuredValue> \"144 . 90\"."
+46, SdDevResValue, 1244, 1251, "26 . 56", "", "<http://ctro/data#Outcome_40623> <http://ctro/data#hasSdDevResValue> \"26 . 56\"."
+47, Mg_per_deciliter, 1252, 1259, "mg / dl", "", "<http://ctro/data#Endpoint_40613> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+64050, Cabergoline, 1263, 1274, "cabergoline", "", 
+49, ObservedResult, 1292, 1334, "decreased in placebo group insignificantly", "", "<http://ctro/data#Outcome_40650> <http://ctro/data#hasObservedResult> \"decreased in placebo group insignificantly\"."
+48, Placebo, 1305, 1312, "placebo", "", 
+123, PostprandialBloodGlucose, 1337, 1363, "Postprandial blood glucose", "", "<http://ctro/data#Endpoint_40618> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+51, BaseLineValue, 1379, 1386, "264 . 2", "", "<http://ctro/data#Outcome_40677> <http://ctro/data#hasBaselineValue> \"264 . 2\"."
+52, SdDevBL, 1393, 1395, "28", "", "<http://ctro/data#Outcome_40677> <http://ctro/data#hasSdDevBL> \"28\"."
+56, Mg_per_deciliter, 1396, 1403, "mg / dl", "", "<http://ctro/data#Endpoint_40618> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+54, ResultMeasuredValue, 1407, 1414, "203 . 6", "", "<http://ctro/data#Outcome_40677> <http://ctro/data#hasResultMeasuredValue> \"203 . 6\"."
+55, SdDevResValue, 1421, 1428, "34 . 34", "", "<http://ctro/data#Outcome_40677> <http://ctro/data#hasSdDevResValue> \"34 . 34\"."
+57, Mg_per_deciliter, 1429, 1436, "mg / dl", "", 
+64048, Cabergoline, 1440, 1451, "cabergoline", "", 
+59, ObservedResult, 1469, 1511, "increased in placebo group insignificantly", "", "<http://ctro/data#Outcome_40704> <http://ctro/data#hasObservedResult> \"increased in placebo group insignificantly\"."
+58, Placebo, 1482, 1489, "placebo", "", 
+60, HbA1c, 1514, 1519, "HbA1c", "", "<http://ctro/data#Endpoint_40731> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+64053, Cabergoline, 1533, 1544, "cabergoline", "", 
+62, BaseLineValue, 1556, 1562, "8 . 48", "", "<http://ctro/data#Outcome_40736> <http://ctro/data#hasBaselineValue> \"8 . 48\"."
+64, SdDevBL, 1569, 1575, "0 . 44", "", "<http://ctro/data#Outcome_40736> <http://ctro/data#hasSdDevBL> \"0 . 44\"."
+66, ResultMeasuredValue, 1579, 1584, "7 . 7", "", "<http://ctro/data#Outcome_40736> <http://ctro/data#hasResultMeasuredValue> \"7 . 7\"."
+68, SdDevResValue, 1591, 1597, "0 . 11", "", "<http://ctro/data#Outcome_40736> <http://ctro/data#hasSdDevResValue> \"0 . 11\"."
+63, BaseLineValue, 1657, 1662, "8 . 7", "", "<http://ctro/data#Outcome_40763> <http://ctro/data#hasBaselineValue> \"8 . 7\"."
+65, SdDevBL, 1669, 1675, "0 . 33", "", "<http://ctro/data#Outcome_40763> <http://ctro/data#hasSdDevBL> \"0 . 33\"."
+67, ResultMeasuredValue, 1679, 1684, "8 . 8", "", "<http://ctro/data#Outcome_40763> <http://ctro/data#hasResultMeasuredValue> \"8 . 8\"."
+69, SdDevResValue, 1691, 1697, "0 . 16", "", "<http://ctro/data#Outcome_40763> <http://ctro/data#hasSdDevResValue> \"0 . 16\"."
+64054, Cabergoline, 1713, 1724, "Cabergoline", "", 
+70, ConclusionComment, 1713, 1804, "Cabergoline improves glycemic control in type 2 diabetic patients with oral agent failure .", "", 
+12, Type2Diabetes, 1754, 1769, "type 2 diabetic", "", 
+14, OralAntidiabeticAgent, 1784, 1794, "oral agent", "", 
+71, ConclusionComment, 1805, 1915, "It reduces both fasting and postprandial plasma glucose levels and causes 0 . 45 - 1 . 11 reduction in HbA1c .", "", 
+72, FastingPlasmaGlucose, 1821, 1828, "fasting", "", 
+72, FastingPlasmaGlucose, 1833, 1860, "postprandial plasma glucose", "", 
+77, PostprandialPlasmaGlucose, 1833, 1860, "postprandial plasma glucose", "", 
+73, HbA1c, 1908, 1913, "HbA1c", "", 
+74, PMID, 1923, 1931, "23082447", "", "<http://ctro/data#Publication_40489> <http://ctro/data#hasPMID> \"23082447\"."

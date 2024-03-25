@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2016", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasPublicationYear> \"2016\"."
+2, Title, 88, 253, "The Efficacy of a Latanoprost / Timolol Fixed Combination Versus Latanoprost and Timolol Gel - forming Solution Unfixed Combination on Daytime Intraocular Pressure .", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasTitle> \"The Efficacy of a Latanoprost / Timolol Fixed Combination Versus Latanoprost and Timolol Gel - forming Solution Unfixed Combination on Daytime Intraocular Pressure .\"."
+3, Latanoprost, 106, 117, "Latanoprost", "", 
+7, Lat/TimFC, 106, 145, "Latanoprost / Timolol Fixed Combination", "", 
+4, Timolol, 120, 127, "Timolol", "", 
+6, Latanoprost, 153, 164, "Latanoprost", "", 
+5, Timolol, 169, 199, "Timolol Gel - forming Solution", "", 
+104514, Diurnal_IOP, 223, 251, "Daytime Intraocular Pressure", "", 
+9, Author, 254, 262, "Ö zyol E", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasAuthor> \"Ö zyol E\"."
+10, Author, 271, 279, "Ö zyol P", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasAuthor> \"Ö zyol P\"."
+11, Turkey, 369, 375, "Turkey", "", "<http://ctro/data#Population_94148> <http://ctro/data#hasCountry> <http://ctro/data#Turkey>."
+12, ObjectiveDescription, 388, 616, "To evaluate the effect of a latanoprost / timolol fixed combination ( LTFC ) versus a latanoprost and timolol gel - forming solution unfixed combination ( LTuFC ) on daytime intraocular pressure ( IOP ) levels and fluctuations .", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasObjectiveDescription> \"To evaluate the effect of a latanoprost / timolol fixed combination ( LTFC ) versus a latanoprost and timolol gel - forming solution unfixed combination ( LTuFC ) on daytime intraocular pressure ( IOP ) levels and fluctuations .\"."
+13, Latanoprost, 416, 427, "latanoprost", "", 
+15, Lat/TimFC, 416, 455, "latanoprost / timolol fixed combination", "", 
+14, Timolol, 430, 437, "timolol", "", 
+16, Lat/TimFC, 458, 462, "LTFC", "", 
+17, Latanoprost, 474, 485, "latanoprost", "", 
+18, Timolol, 490, 520, "timolol gel - forming solution", "", 
+104518, Diurnal_IOP, 554, 582, "daytime intraocular pressure", "", 
+20, IOP, 585, 588, "IOP", "", 
+21, Duration, 639, 647, "8 - week", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasCTduration> \"8 - week\"."
+22, Randomized, 650, 660, "randomized", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+23, Parallel, 663, 679, "parallel - group", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+24, NumberPatientsCT, 703, 705, "90", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasNumberPatientsCT> \"90\"."
+104519, Precondition, 706, 847, "patients diagnosed with primary open - angle glaucoma or ocular hypertension that were insufficiently controlled with latanoprost monotherapy", "", "<http://ctro/data#Population_94148> <http://ctro/data#hasPrecondition> \"patients diagnosed with primary open - angle glaucoma or ocular hypertension that were insufficiently controlled with latanoprost monotherapy\"."
+25, Primary_OpenAngleGlaucoma, 730, 759, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+26, OcularHypertension, 763, 782, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+100, Latanoprost, 824, 835, "latanoprost", "", 
+28, Randomized, 864, 874, "Randomized", "", 
+104520, DoseDescription, 902, 921, "single evening dose", "", "<http://ctro/data#Medication_94198> <http://ctro/data#hasDoseDescription> \"single evening dose\"."
+29, Evening, 909, 916, "evening", "", "<http://ctro/data#Intervention_94205> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+30, Lat/TimFC, 925, 929, "LTFC", "", "<http://ctro/data#Medication_94198> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+31, Latanoprost, 956, 967, "latanoprost", "", "<http://ctro/data#Latanoprost_94179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_94178> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_94179>."
+32, Frequency, 981, 991, "once daily", "", "<http://ctro/data#Intervention_94165> <http://ctro/data#hasFrequency> \"once daily\"."
+33, Evening, 999, 1006, "evening", "", "<http://ctro/data#Intervention_94165> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+34, Timolol, 1011, 1041, "timolol gel - forming solution", "", "<http://ctro/data#Medication_94191> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+35, Frequency, 1055, 1065, "once daily", "", "<http://ctro/data#Intervention_94185> <http://ctro/data#hasFrequency> \"once daily\"."
+36, Morning, 1073, 1080, "morning", "", "<http://ctro/data#Intervention_94185> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+37, IOP, 1108, 1111, "IOP", "", 
+111, TimePoint, 1139, 1143, "8 AM", "", 
+112, TimePoint, 1146, 1151, "11 AM", "", 
+113, TimePoint, 1154, 1158, "2 PM", "", 
+114, TimePoint, 1165, 1169, "5 PM", "", 
+38, Mean, 1176, 1180, "mean", "", 
+39, IOP, 1181, 1184, "IOP", "", 
+104522, Diurnal_IOP, 1187, 1198, "daytime IOP", "", 
+40, IOP, 1233, 1236, "IOP", "", 
+41, TimePoint, 1254, 1267, "weeks 4 and 8", "", 
+42, TimePoint, 1254, 1261, "weeks 4", "", 
+43, Mean, 1284, 1288, "mean", "", 
+44, IOP, 1289, 1292, "IOP", "", 
+45, PValueChangeValue, 1364, 1374, "P < 0 . 01", "", "<http://ctro/data#Outcome_94278> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 01\". <http://ctro/data#Outcome_94305> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 01\"."
+47, Mean, 1421, 1425, "mean", "", "<http://ctro/data#Mean_94275> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_94273> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_94275>."
+48, IOP, 1426, 1429, "IOP", "", "<http://ctro/data#IOP_94274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_94273> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_94274>."
+49, TimePoint, 1448, 1454, "week 4", "", "<http://ctro/data#Outcome_94341> <http://ctro/data#hasTimePoint> \"week 4\". <http://ctro/data#Outcome_94368> <http://ctro/data#hasTimePoint> \"week 4\"."
+50, PvalueDiff, 1457, 1469, "P = 0 . 0021", "", "<http://ctro/data#DiffBetweenGroups_94395> <http://ctro/data#hasPvalueDiff> \"P = 0 . 0021\"."
+51, TimePoint, 1477, 1483, "week 8", "", "<http://ctro/data#Outcome_94404> <http://ctro/data#hasTimePoint> \"week 8\"."
+52, Mean, 1490, 1494, "mean", "", 
+53, IOP, 1495, 1498, "IOP", "", 
+54, Reduction, 1513, 1518, "3 . 2", "", "<http://ctro/data#Outcome_94404> <http://ctro/data#hasChangeValue> \"3 . 2\"."
+133, SdDevChangeValue, 1521, 1526, "2 . 1", "", "<http://ctro/data#Outcome_94404> <http://ctro/data#hasSdDevChangeValue> \"2 . 1\"."
+55, Reduction, 1531, 1536, "5 . 7", "", "<http://ctro/data#Outcome_94431> <http://ctro/data#hasChangeValue> \"5 . 7\"."
+134, SdDevChangeValue, 1539, 1544, "3 . 2", "", "<http://ctro/data#Outcome_94431> <http://ctro/data#hasSdDevChangeValue> \"3 . 2\"."
+58, mmHg, 1545, 1550, "mm Hg", "", "<http://ctro/data#Endpoint_94273> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+59, Lat/TimFC, 1554, 1558, "LTFC", "", 
+137, PvalueDiff, 1630, 1641, "P = 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_94458> <http://ctro/data#hasPvalueDiff> \"P = 0 . 001\"."
+104524, Diurnal_IOP, 1664, 1675, "daytime IOP", "", 
+63, TimePoint, 1784, 1790, "week 8", "", 
+64, Mean, 1797, 1801, "mean", "", 
+65, IOP, 1802, 1805, "IOP", "", 
+145, TimePoint, 1822, 1826, "8 AM", "", 
+146, TimePoint, 1829, 1834, "11 AM", "", 
+147, TimePoint, 1837, 1841, "2 PM", "", 
+148, TimePoint, 1848, 1852, "5 PM", "", 
+66, Lat/TimFC, 1905, 1909, "LTFC", "", 
+67, PvalueDiff, 1918, 1929, "P = 0 . 024", "", 
+151, PvalueDiff, 1932, 1940, "0 . 0001", "", 
+152, PvalueDiff, 1943, 1951, "0 . 0008", "", 
+153, PvalueDiff, 1958, 1966, "0 . 0011", "", 
+159, ConclusionComment, 2000, 2182, "The concomitant use of latanoprost and timolol gel - forming solution leads to a larger additional IOP reduction and lower daytime IOP levels as compared with the fixed combination .", "", "<http://ctro/data#ClinicalTrial_94130> <http://ctro/data#hasConclusionComment> \"The concomitant use of latanoprost and timolol gel - forming solution leads to a larger additional IOP reduction and lower daytime IOP levels as compared with the fixed combination .\"."
+70, Latanoprost, 2023, 2034, "latanoprost", "", 
+71, Timolol, 2039, 2069, "timolol gel - forming solution", "", 
+72, IOP, 2099, 2102, "IOP", "", 
+104523, Diurnal_IOP, 2123, 2134, "daytime IOP", "", 
+74, PMID, 2231, 2239, "25264990", "", "<http://ctro/data#Publication_94122> <http://ctro/data#hasPMID> \"25264990\"."

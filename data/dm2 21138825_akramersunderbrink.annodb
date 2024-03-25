@@ -1,0 +1,142 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+39442, Journal, 0, 14, "Ann Intern Med", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasJournal> \"Ann Intern Med\"."
+39443, PublicationYear, 17, 21, "2011", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasPublicationYear> \"2011\"."
+39444, Title, 134, 257, "Use of twice - daily exenatide in Basal insulin - treated patients with type 2 diabetes : a randomized , controlled trial .", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasTitle> \"Use of twice - daily exenatide in Basal insulin - treated patients with type 2 diabetes : a randomized , controlled trial .\"."
+39445, Frequency, 141, 154, "twice - daily", "", 
+39446, Exenatide, 155, 164, "exenatide", "", 
+39447, Insulin, 168, 181, "Basal insulin", "", 
+39448, Type2Diabetes, 206, 221, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+39449, Randomized, 226, 236, "randomized", "", 
+39450, Author, 258, 265, "Buse JB", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Buse JB\"."
+39451, Author, 274, 287, "Bergenstal RM", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Bergenstal RM\"."
+39452, Author, 290, 298, "Glass LC", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Glass LC\"."
+39453, Author, 301, 312, "Heilmann CR", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Heilmann CR\"."
+39454, Author, 315, 323, "Lewis MS", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Lewis MS\"."
+39455, Author, 326, 333, "Kwan AY", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Kwan AY\"."
+39456, Author, 336, 347, "Hoogwerf BJ", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Hoogwerf BJ\"."
+39457, Author, 350, 362, "Rosenstock J", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+39458, USA, 464, 467, "USA", "", 
+39459, Insulin, 623, 630, "Insulin", "", 
+39460, HbA1c_target, 701, 745, "hemoglobin A ₁ ( c ) ( HbA ₁ ( c ) ) targets", "", 
+39462, ObjectiveDescription, 760, 893, "To test whether twice - daily exenatide injections reduce HbA ₁ ( c ) levels more than placebo in people receiving insulin glargine .", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasObjectiveDescription> \"To test whether twice - daily exenatide injections reduce HbA ₁ ( c ) levels more than placebo in people receiving insulin glargine .\"."
+39463, Frequency, 776, 789, "twice - daily", "", 
+39464, Exenatide, 790, 799, "exenatide", "", 
+39465, HbA1c, 818, 836, "HbA ₁ ( c ) levels", "", 
+39466, Placebo, 847, 854, "placebo", "", 
+39467, InsulinGlargine, 875, 891, "insulin glargine", "", 
+39468, Parallel, 903, 911, "Parallel", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+39469, Randomized, 914, 924, "randomized", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+39470, Placebo, 927, 934, "placebo", "", 
+39471, HbA1c, 982, 999, "HbA ₁ ( c ) level", "", 
+39472, DoubleBlind, 1056, 1158, "Participants , investigators , and personnel conducting the study were masked to treatment assignments", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+39473, Multicenter, 1230, 1255, "59 centers in 5 countries", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+39474, Type2Diabetes, 1281, 1296, "type 2 diabetes", "", 
+39475, HbA1c, 1304, 1321, "HbA ₁ ( c ) level", "", 
+39476, Precondition, 1304, 1344, "HbA ₁ ( c ) level of 7 . 1 % to 10 . 5 %", "", "<http://ctro/data#Population_21755> <http://ctro/data#hasPrecondition> \"HbA ₁ ( c ) level of 7 . 1 % to 10 . 5 %\"."
+39478, Percentage, 1331, 1332, "%", "", 
+39477, Percentage, 1343, 1344, "%", "", 
+39482, Precondition, 1354, 1454, "receiving insulin glargine alone or in combination with metformin or pioglitazone ( or both agents )", "", "<http://ctro/data#Population_21755> <http://ctro/data#hasPrecondition> \"receiving insulin glargine alone or in combination with metformin or pioglitazone ( or both agents )\"."
+39479, InsulinGlargine, 1372, 1380, "glargine", "", "<http://ctro/data#Medication_21825> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+39480, Metformin, 1410, 1419, "metformin", "", "<http://ctro/data#Medication_21832> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+39481, Pioglitazone, 1423, 1435, "pioglitazone", "", "<http://ctro/data#Medication_21839> <http://ctro/data#hasDrug> <http://ctro/data#Pioglitazone>."
+39483, Randomized, 1525, 1531, "random", "", 
+39484, Exenatide, 1582, 1591, "exenatide", "", "<http://ctro/data#Medication_21811> <http://ctro/data#hasDrug> <http://ctro/data#Exenatide>."
+39485, DoseValue, 1594, 1600, "10 µ g", "", "<http://ctro/data#Medication_21811> <http://ctro/data#hasDoseValue> \"10 µ g\"."
+39486, Microgram, 1597, 1600, "µ g", "", "<http://ctro/data#Medication_21811> <http://ctro/data#hasDoseUnit> <http://ctro/data#Microgram>."
+39487, Frequency, 1601, 1612, "twice daily", "", "<http://ctro/data#Intervention_21781> <http://ctro/data#hasFrequency> \"twice daily\"."
+39488, Placebo, 1618, 1625, "placebo", "", "<http://ctro/data#Medication_21818> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+39489, Duration, 1630, 1638, "30 weeks", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasCTduration> \"30 weeks\"."
+39490, HbA1c, 1690, 1707, "HbA ₁ ( c ) level", "", 
+39491, HbA1c_target, 1774, 1811, "HbA ₁ ( c ) values of 7 . 0 % or less", "", 
+39492, HbA1c_target, 1816, 1831, "6 . 5 % or less", "", 
+39493, BodyWeight, 1880, 1891, "body weight", "", 
+39494, InsulinDose, 1916, 1928, "insulin dose", "", 
+39495, Hypoglycemia, 1931, 1943, "hypoglycemia", "", 
+87547, FinalNumPatientsArm, 1977, 1980, "112", "", "<http://ctro/data#Arm_21763> <http://ctro/data#hasFinalNumPatientsArm> \"112\"."
+39496, NumberPatientsArm, 1984, 1987, "138", "", "<http://ctro/data#Arm_21763> <http://ctro/data#hasNumberPatientsArm> \"138\"."
+39500, Exenatide, 1988, 1997, "exenatide", "", 
+87548, FinalNumPatientsArm, 2013, 2016, "101", "", "<http://ctro/data#Arm_21772> <http://ctro/data#hasFinalNumPatientsArm> \"101\"."
+39499, NumberPatientsArm, 2020, 2023, "123", "", "<http://ctro/data#Arm_21772> <http://ctro/data#hasNumberPatientsArm> \"123\"."
+39501, Placebo, 2024, 2031, "placebo", "", 
+39502, HbA1c, 2069, 2086, "HbA ₁ ( c ) level", "", "<http://ctro/data#Endpoint_21864> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+87549, Reduction, 2100, 2106, "1 . 74", "", "<http://ctro/data#Outcome_21869> <http://ctro/data#hasChangeValue> \"1 . 74\"."
+39505, Percentage, 2107, 2108, "%", "", "<http://ctro/data#Endpoint_21864> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+39507, Exenatide, 2114, 2123, "exenatide", "", 
+87550, Reduction, 2128, 2134, "1 . 04", "", "<http://ctro/data#Outcome_21896> <http://ctro/data#hasChangeValue> \"1 . 04\"."
+39506, Percentage, 2135, 2136, "%", "", 
+39508, Placebo, 2142, 2149, "placebo", "", 
+39509, DiffGroupAbsValue, 2181, 2189, "- 0 . 69", "", "<http://ctro/data#DiffBetweenGroups_21924> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 69\"."
+39510, Percentage, 2190, 2191, "%", "", 
+39511, ConfIntervalDiff, 2194, 2228, "95 % CI , - 0 . 93 % to - 0 . 46 %", "", "<http://ctro/data#DiffBetweenGroups_21924> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 93 % to - 0 . 46 %\"."
+39512, Percentage, 2197, 2198, "%", "", 
+39513, Percentage, 2213, 2214, "%", "", 
+39514, Percentage, 2227, 2228, "%", "", 
+39515, PvalueDiff, 2233, 2244, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_21924> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+39516, BodyWeight, 2249, 2255, "Weight", "", "<http://ctro/data#Endpoint_21933> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+39518, Reduction, 2269, 2274, "1 . 8", "", "<http://ctro/data#Outcome_21938> <http://ctro/data#hasChangeValue> \"1 . 8\"."
+39520, Kg, 2275, 2277, "kg", "", "<http://ctro/data#Endpoint_21933> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+39522, Exenatide, 2283, 2292, "exenatide", "", 
+39519, Increment, 2310, 2315, "1 . 0", "", "<http://ctro/data#Outcome_21965> <http://ctro/data#hasChangeValue> \"1 . 0\"."
+39521, Kg, 2316, 2318, "kg", "", 
+39523, Placebo, 2324, 2331, "placebo", "", 
+39524, DiffGroupAbsValue, 2363, 2370, "- 2 . 7", "", "<http://ctro/data#DiffBetweenGroups_21992> <http://ctro/data#hasDiffGroupAbsValue> \"- 2 . 7\"."
+39526, Kg, 2371, 2373, "kg", "", 
+39527, ConfIntervalDiff, 2376, 2399, "CI , - 3 . 7 to - 1 . 7", "", "<http://ctro/data#DiffBetweenGroups_21992> <http://ctro/data#hasConfIntervalDiff> \"CI , - 3 . 7 to - 1 . 7\"."
+39534, InsulinDose, 2427, 2441, "insulin dosage", "", "<http://ctro/data#InsulinDose_22002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_22001> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_22002>."
+39528, Exenatide, 2447, 2456, "exenatide", "", 
+39529, Placebo, 2461, 2468, "placebo", "", 
+87551, Increment, 2474, 2476, "13", "", "<http://ctro/data#Outcome_22006> <http://ctro/data#hasChangeValue> \"13\"."
+39532, BioAndMedicalUnit, 2477, 2482, "U / d", "", "<http://ctro/data#BioAndMedicalUnit_22004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_22001> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_22004>."
+87552, Increment, 2487, 2489, "20", "", "<http://ctro/data#Outcome_22033> <http://ctro/data#hasChangeValue> \"20\"."
+39533, BioAndMedicalUnit, 2490, 2495, "U / d", "", 
+39535, Hypoglycemia, 2520, 2538, "minor hypoglycemia", "", 
+39538, NumberAffected, 2568, 2576, "Thirteen", "", "<http://ctro/data#Outcome_22065> <http://ctro/data#hasNumberAffected> \"Thirteen\"."
+39536, Exenatide, 2577, 2586, "exenatide", "", 
+39539, NumberAffected, 2602, 2603, "1", "", "<http://ctro/data#Outcome_22092> <http://ctro/data#hasNumberAffected> \"1\"."
+39537, Placebo, 2604, 2611, "placebo", "", 
+39540, EndPointDescription, 2622, 2670, "discontinued the study because of adverse events", "", "<http://ctro/data#EndPointDescription_22061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_22060> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_22061>."
+39541, PvalueDiff, 2673, 2684, "P < 0 . 010", "", "<http://ctro/data#DiffBetweenGroups_22119> <http://ctro/data#hasPvalueDiff> \"P < 0 . 010\"."
+39542, Nausea, 2698, 2704, "nausea", "", "<http://ctro/data#Endpoint_22128> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Nausea>."
+39549, PercentageAffected, 2707, 2709, "41", "", "<http://ctro/data#Outcome_22153> <http://ctro/data#hasPercentageAffected> \"41\"."
+39559, Percentage, 2710, 2711, "%", "", 
+39550, PercentageAffected, 2717, 2718, "8", "", "<http://ctro/data#Outcome_22180> <http://ctro/data#hasPercentageAffected> \"8\"."
+39560, Percentage, 2719, 2720, "%", "", 
+39543, EndPointDescription, 2725, 2733, "diarrhea", "", "<http://ctro/data#EndPointDescription_22134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_22133> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_22134>."
+39551, PercentageAffected, 2736, 2738, "18", "", "<http://ctro/data#Outcome_22207> <http://ctro/data#hasPercentageAffected> \"18\"."
+39561, Percentage, 2739, 2740, "%", "", 
+39552, PercentageAffected, 2746, 2747, "8", "", "<http://ctro/data#Outcome_22234> <http://ctro/data#hasPercentageAffected> \"8\"."
+39562, Percentage, 2748, 2749, "%", "", 
+39544, EndPointDescription, 2754, 2762, "vomiting", "", "<http://ctro/data#EndPointDescription_22139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_22138> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_22139>."
+39553, PercentageAffected, 2765, 2767, "18", "", "<http://ctro/data#Outcome_22261> <http://ctro/data#hasPercentageAffected> \"18\"."
+39563, Percentage, 2768, 2769, "%", "", 
+39554, PercentageAffected, 2775, 2776, "4", "", "<http://ctro/data#Outcome_22288> <http://ctro/data#hasPercentageAffected> \"4\"."
+39564, Percentage, 2777, 2778, "%", "", 
+39545, Headache, 2783, 2791, "headache", "", "<http://ctro/data#Endpoint_22143> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Headache>."
+39555, PercentageAffected, 2794, 2796, "14", "", "<http://ctro/data#Outcome_22315> <http://ctro/data#hasPercentageAffected> \"14\"."
+39565, Percentage, 2797, 2798, "%", "", 
+39556, PercentageAffected, 2804, 2805, "4", "", "<http://ctro/data#Outcome_22342> <http://ctro/data#hasPercentageAffected> \"4\"."
+39566, Percentage, 2806, 2807, "%", "", 
+39546, Constipation, 2816, 2828, "constipation", "", "<http://ctro/data#Endpoint_22148> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Constipation>."
+39557, PercentageAffected, 2831, 2833, "10", "", "<http://ctro/data#Outcome_22369> <http://ctro/data#hasPercentageAffected> \"10\"."
+39567, Percentage, 2834, 2835, "%", "", 
+39558, PercentageAffected, 2841, 2842, "2", "", "<http://ctro/data#Outcome_22396> <http://ctro/data#hasPercentageAffected> \"2\"."
+39568, Percentage, 2843, 2844, "%", "", 
+39547, Exenatide, 2864, 2873, "exenatide", "", 
+39548, Placebo, 2884, 2891, "placebo", "", 
+39569, TimePoint, 2989, 2997, "baseline", "", 
+39570, HbA1c, 3072, 3090, "HbA ₁ ( c ) levels", "", 
+39571, Exenatide, 3102, 3111, "exenatide", "", 
+39572, Placebo, 3128, 3135, "placebo", "", 
+39579, ConclusionComment, 3197, 3408, "Adding twice - daily exenatide injections improved glycemic control without increased hypoglycemia or weight gain in participants with uncontrolled type 2 diabetes who were receiving insulin glargine treatment .", "", "<http://ctro/data#ClinicalTrial_21739> <http://ctro/data#hasConclusionComment> \"Adding twice - daily exenatide injections improved glycemic control without increased hypoglycemia or weight gain in participants with uncontrolled type 2 diabetes who were receiving insulin glargine treatment .\"."
+39573, Frequency, 3204, 3217, "twice - daily", "", 
+39574, Exenatide, 3218, 3227, "exenatide", "", 
+39575, Hypoglycemia, 3283, 3295, "hypoglycemia", "", 
+39576, WeightGain, 3299, 3310, "weight gain", "", 
+39577, Type2Diabetes, 3345, 3360, "type 2 diabetes", "", 
+39578, InsulinGlargine, 3380, 3396, "insulin glargine", "", 
+39580, ConclusionComment, 3409, 3506, "Adverse events of exenatide included nausea , diarrhea , vomiting , headache , and constipation .", "", 
+39581, Exenatide, 3427, 3436, "exenatide", "", 
+39582, Nausea, 3446, 3452, "nausea", "", 
+39583, Headache, 3477, 3485, "headache", "", 
+39584, Constipation, 3492, 3504, "constipation", "", 
+39585, PMID, 3662, 3670, "21138825", "", "<http://ctro/data#Publication_21732> <http://ctro/data#hasPMID> \"21138825\"."

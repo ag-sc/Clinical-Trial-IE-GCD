@@ -1,0 +1,91 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Indian J Ophthalmol .", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasJournal> \"Indian J Ophthalmol .\"."
+1, PublicationYear, 22, 26, "2016", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasPublicationYear> \"2016\"."
+56, Title, 96, 222, "Brinzolamide / timolol versus dorzolamide / timolol fixed combinations : A hospital - based , prospective , randomized study .", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasTitle> \"Brinzolamide / timolol versus dorzolamide / timolol fixed combinations : A hospital - based , prospective , randomized study .\"."
+53665, Brinz/TimFC, 96, 118, "Brinzolamide / timolol", "", "<http://ctro/data#Medication_96274> <http://ctro/data#hasDrug> <http://ctro/data#Brinz/TimFC>."
+53681, Dorz/TimFC, 126, 147, "dorzolamide / timolol", "", "<http://ctro/data#Medication_96281> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+53700, SingleCenter, 171, 187, "hospital - based", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+53680, Prospective, 190, 201, "prospective", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+7, Randomized, 204, 214, "randomized", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+8, Author, 223, 232, "Galose MS", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasAuthor> \"Galose MS\"."
+9, Author, 235, 245, "Elsaied HM", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasAuthor> \"Elsaied HM\"."
+10, Author, 248, 256, "Macky TA", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasAuthor> \"Macky TA\"."
+11, Author, 265, 273, "Fouad PH", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasAuthor> \"Fouad PH\"."
+12, Egypt, 422, 427, "Egypt", "", "<http://ctro/data#Population_96231> <http://ctro/data#hasCountry> <http://ctro/data#Egypt>."
+19, ObjectiveDescription, 440, 609, "To compare the efficacy and tolerability of brinzolamide / timolol ( BT ) and dorzolamide / timolol ( DT ) fixed combinations on intraocular pressure ( IOP ) reduction .", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and tolerability of brinzolamide / timolol ( BT ) and dorzolamide / timolol ( DT ) fixed combinations on intraocular pressure ( IOP ) reduction .\"."
+53670, Brinz/TimFC, 484, 506, "brinzolamide / timolol", "", 
+53671, Brinz/TimFC, 509, 511, "BT", "", 
+53683, Dorz/TimFC, 518, 539, "dorzolamide / timolol", "", 
+53682, Dorz/TimFC, 542, 544, "DT", "", 
+17, IOP, 569, 589, "intraocular pressure", "", 
+18, IOP, 592, 595, "IOP", "", 
+54365, Precondition, 620, 688, "Patients with primary open angle glaucoma or normal tension glaucoma", "", "<http://ctro/data#Population_96231> <http://ctro/data#hasPrecondition> \"Patients with primary open angle glaucoma or normal tension glaucoma\"."
+114, Primary_OpenAngleGlaucoma, 634, 661, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+115, Glaucoma, 665, 688, "normal tension glaucoma", "", "<http://ctro/data#Glaucoma_96229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_96211> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_96229>."
+21, Glaucoma, 680, 688, "glaucoma", "", "<http://ctro/data#Glaucoma_96230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_96211> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_96230>."
+22, Randomized, 694, 704, "randomized", "", 
+53669, Brinz/TimFC, 723, 725, "BT", "", 
+53684, Dorz/TimFC, 729, 731, "DT", "", 
+117, IOP, 734, 738, "IOPs", "", 
+118, TimePoint, 756, 764, "baseline", "", 
+119, TimePoint, 767, 774, "2 weeks", "", 
+120, TimePoint, 781, 801, "1 , 2 , and 3 months", "", 
+53695, TimePoint, 785, 801, "2 , and 3 months", "", 
+53696, TimePoint, 793, 801, "3 months", "", 
+23, Mean, 842, 846, "mean", "", "<http://ctro/data#Mean_96241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_96239> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_96241>."
+24, IOP, 857, 860, "IOP", "", "<http://ctro/data#IOP_96240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_96239> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_96240>."
+123, NumberPatientsCT, 982, 997, "Seventy - three", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasNumberPatientsCT> \"Seventy - three\"."
+124, NumberPatientsArm, 1035, 1037, "37", "", "<http://ctro/data#Arm_96244> <http://ctro/data#hasNumberPatientsArm> \"37\"."
+53672, Brinz/TimFC, 1046, 1048, "BT", "", 
+125, NumberPatientsArm, 1059, 1061, "36", "", "<http://ctro/data#Arm_96253> <http://ctro/data#hasNumberPatientsArm> \"36\"."
+53685, Dorz/TimFC, 1070, 1072, "DT", "", 
+126, Mean, 1090, 1094, "mean", "", 
+26, IOP, 1095, 1098, "IOP", "", 
+27, BaseLineValue, 1104, 1111, "24 . 14", "", "<http://ctro/data#Outcome_96288> <http://ctro/data#hasBaselineValue> \"24 . 14\". <http://ctro/data#Outcome_96315> <http://ctro/data#hasBaselineValue> \"24 . 14\"."
+28, SdDevBL, 1112, 1119, "± 4 . 5", "", "<http://ctro/data#Outcome_96288> <http://ctro/data#hasSdDevBL> \"± 4 . 5\". <http://ctro/data#Outcome_96315> <http://ctro/data#hasSdDevBL> \"± 4 . 5\"."
+29, BaseLineValue, 1124, 1131, "29 . 53", "", "<http://ctro/data#Outcome_96342> <http://ctro/data#hasBaselineValue> \"29 . 53\". <http://ctro/data#Outcome_96369> <http://ctro/data#hasBaselineValue> \"29 . 53\"."
+30, SdDevBL, 1132, 1135, "± 6", "", "<http://ctro/data#Outcome_96342> <http://ctro/data#hasSdDevBL> \"± 6\". <http://ctro/data#Outcome_96369> <http://ctro/data#hasSdDevBL> \"± 6\"."
+31, mmHg, 1136, 1140, "mmHg", "", "<http://ctro/data#Endpoint_96239> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+53673, Brinz/TimFC, 1145, 1147, "BT", "", 
+53686, Dorz/TimFC, 1152, 1154, "DT", "", 
+53697, PvalueDiff, 1172, 1183, "P < 0 . 001", "", 
+53674, Brinz/TimFC, 1193, 1195, "BT", "", 
+53687, Dorz/TimFC, 1200, 1202, "DT", "", 
+131, Mean, 1238, 1242, "mean", "", 
+34, IOP, 1243, 1246, "IOP", "", 
+53698, TimePoint, 1263, 1271, "baseline", "", 
+33, PValueChangeValue, 1319, 1330, "P < 0 . 001", "", 
+53688, Dorz/TimFC, 1335, 1337, "DT", "", 
+35, Mean, 1355, 1359, "mean", "", 
+36, IOP, 1360, 1363, "IOP", "", 
+53675, Brinz/TimFC, 1394, 1396, "BT", "", 
+37, TimePoint, 1450, 1457, "2 weeks", "", 
+38, PvalueDiff, 1460, 1471, "P = 0 . 037", "", 
+139, Mean, 1476, 1480, "Mean", "", 
+39, IOP, 1495, 1498, "IOP", "", 
+40, RelativeReduction, 1513, 1520, "24 . 35", "", "<http://ctro/data#Outcome_96288> <http://ctro/data#hasRelativeChangeValue> \"24 . 35\"."
+41, RelativeReduction, 1527, 1534, "46 . 33", "", "<http://ctro/data#Outcome_96342> <http://ctro/data#hasRelativeChangeValue> \"46 . 33\"."
+42, TimePoint, 1540, 1547, "2 weeks", "", "<http://ctro/data#Outcome_96288> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_96342> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+43, PValueChangeValue, 1550, 1561, "P < 0 . 001", "", "<http://ctro/data#Outcome_96288> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\". <http://ctro/data#Outcome_96342> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+45, RelativeReduction, 1570, 1577, "24 . 65", "", "<http://ctro/data#Outcome_96315> <http://ctro/data#hasRelativeChangeValue> \"24 . 65\"."
+46, RelativeReduction, 1584, 1586, "47", "", "<http://ctro/data#Outcome_96369> <http://ctro/data#hasRelativeChangeValue> \"47\"."
+47, TimePoint, 1592, 1600, "3 months", "", "<http://ctro/data#Outcome_96315> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_96369> <http://ctro/data#hasTimePoint> \"3 months\"."
+44, PValueChangeValue, 1603, 1614, "P < 0 . 001", "", "<http://ctro/data#Outcome_96315> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\". <http://ctro/data#Outcome_96369> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+53679, Brinz/TimFC, 1621, 1623, "BT", "", 
+53699, Dorz/TimFC, 1624, 1630, "and DT", "", 
+53689, Dorz/TimFC, 1698, 1700, "DT", "", 
+53676, Brinz/TimFC, 1710, 1712, "BT", "", 
+53692, EndPointDescription, 1718, 1741, "complete ocular comfort", "", "<http://ctro/data#EndPointDescription_96406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_96405> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_96406>."
+53693, ObservedResult, 1742, 1776, "without any ocular adverse effects", "", "<http://ctro/data#Outcome_96410> <http://ctro/data#hasObservedResult> \"without any ocular adverse effects\". <http://ctro/data#Outcome_96437> <http://ctro/data#hasObservedResult> \"without any ocular adverse effects\"."
+48, NumberAffected, 1780, 1782, "31", "", "<http://ctro/data#Outcome_96437> <http://ctro/data#hasNumberAffected> \"31\"."
+49, PercentageAffected, 1794, 1800, "81 . 1", "", "<http://ctro/data#Outcome_96437> <http://ctro/data#hasPercentageAffected> \"81 . 1\"."
+53690, Dorz/TimFC, 1808, 1810, "DT", "", 
+50, NumberAffected, 1821, 1823, "11", "", "<http://ctro/data#Outcome_96410> <http://ctro/data#hasNumberAffected> \"11\"."
+51, PercentageAffected, 1835, 1841, "29 . 7", "", "<http://ctro/data#Outcome_96410> <http://ctro/data#hasPercentageAffected> \"29 . 7\"."
+53678, Brinz/TimFC, 1849, 1851, "BT", "", 
+53694, PvalueDiff, 1860, 1871, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_96464> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+150, ConclusionComment, 1889, 2038, "Both drops provide effective IOP reduction which was greater , and patients were more likely to achieve lower target pressures with DT than with BT .", "", "<http://ctro/data#ClinicalTrial_96211> <http://ctro/data#hasConclusionComment> \"Both drops provide effective IOP reduction which was greater , and patients were more likely to achieve lower target pressures with DT than with BT .\"."
+53, IOP, 1918, 1921, "IOP", "", 
+53691, Dorz/TimFC, 2021, 2023, "DT", "", 
+53677, Brinz/TimFC, 2034, 2036, "BT", "", 
+55, PMID, 2104, 2112, "27050347", "", "<http://ctro/data#Publication_96196> <http://ctro/data#hasPMID> \"27050347\"."

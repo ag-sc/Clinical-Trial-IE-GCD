@@ -1,0 +1,121 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "BMC Ophthalmol .", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasJournal> \"BMC Ophthalmol .\"."
+1, PublicationYear, 17, 21, "2014", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasPublicationYear> \"2014\"."
+2, Title, 85, 290, "Late - day intraocular pressure - lowering efficacy and tolerability of travoprost 0 . 004 % versus bimatoprost 0 . 01 % in patients with open - angle glaucoma or ocular hypertension : a randomized trial .", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasTitle> \"Late - day intraocular pressure - lowering efficacy and tolerability of travoprost 0 . 004 % versus bimatoprost 0 . 01 % in patients with open - angle glaucoma or ocular hypertension : a randomized trial .\"."
+3, IOP, 96, 116, "intraocular pressure", "", 
+4, Travoprost, 157, 167, "travoprost", "", 
+6, DoseValue, 168, 175, "0 . 004", "", 
+110, Percentage, 176, 177, "%", "", 
+5, Bimatoprost, 185, 196, "bimatoprost", "", 
+7, DoseValue, 197, 203, "0 . 01", "", 
+111, Percentage, 204, 205, "%", "", 
+8, OpenAngleGlaucoma, 223, 244, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+9, OcularHypertension, 248, 267, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+10, Randomized, 272, 282, "randomized", "", 
+11, Author, 291, 301, "DuBiner HB", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasAuthor> \"DuBiner HB\"."
+12, Author, 310, 321, "Hubatsch DA", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasAuthor> \"Hubatsch DA\"."
+114, USA, 434, 437, "USA", "", "<http://ctro/data#Population_94909> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+13, IOP, 508, 528, "intraocular pressure", "", 
+14, IOP, 531, 534, "IOP", "", 
+104734, ProstaglandinAnalogs, 698, 711, "prostaglandin", "", 
+23, ObjectiveDescription, 751, 997, "The present study compared the efficacy and safety of BAK - free travoprost 0 . 004 % ( TRAV ) and BAK 0 . 02 % - preserved bimatoprost 0 . 01 % ( BIM ) during late - day time points in patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasObjectiveDescription> \"The present study compared the efficacy and safety of BAK - free travoprost 0 . 004 % ( TRAV ) and BAK 0 . 02 % - preserved bimatoprost 0 . 01 % ( BIM ) during late - day time points in patients with open - angle glaucoma or ocular hypertension .\"."
+15, Travoprost, 805, 826, "BAK - free travoprost", "", "<http://ctro/data#Medication_94918> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+17, DoseValue, 827, 834, "0 . 004", "", "<http://ctro/data#Medication_94918> <http://ctro/data#hasDoseValue> \"0 . 004\"."
+130, Percentage, 835, 836, "%", "", "<http://ctro/data#Medication_94918> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+19, Travoprost, 839, 843, "TRAV", "", 
+104738, Bimatoprost, 850, 853, "BAK", "", 
+126, DoseValue, 854, 860, "0 . 02", "", 
+128, Percentage, 861, 862, "%", "", 
+104738, Bimatoprost, 863, 886, "- preserved bimatoprost", "", "<http://ctro/data#Medication_94925> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+18, DoseValue, 887, 893, "0 . 01", "", "<http://ctro/data#Medication_94925> <http://ctro/data#hasDoseValue> \"0 . 01\"."
+129, Percentage, 894, 895, "%", "", "<http://ctro/data#Medication_94925> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+20, Bimatoprost, 898, 901, "BIM", "", 
+104743, Precondition, 937, 995, "patients with open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_94909> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma or ocular hypertension\"."
+21, OpenAngleGlaucoma, 951, 972, "open - angle glaucoma", "", 
+22, OcularHypertension, 976, 995, "ocular hypertension", "", 
+24, Duration, 1019, 1028, "12 - week", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTduration> \"12 - week\"."
+25, CTDesign, 1031, 1038, "phase 4", "", "<http://ctro/data#CTDesign_94894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_94894>."
+26, Randomized, 1041, 1051, "randomized", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+27, Blind, 1054, 1075, "investigator - masked", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+28, Crossover, 1078, 1087, "crossover", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+29, NumberPatientsCT, 1096, 1098, "84", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasNumberPatientsCT> \"84\"."
+32, Precondition, 1099, 1135, "patients with IOP ≥ 24 and < 36 mmHg", "", "<http://ctro/data#Population_94909> <http://ctro/data#hasPrecondition> \"patients with IOP ≥ 24 and < 36 mmHg\"."
+30, IOP, 1113, 1116, "IOP", "", 
+31, mmHg, 1131, 1135, "mmHg", "", 
+33, Randomized, 1141, 1151, "randomized", "", 
+34, AllocationRatio, 1152, 1157, "1 : 1", "", "<http://ctro/data#AllocationRatio_94892> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_94892>."
+35, Frequency, 1169, 1181, "once - daily", "", "<http://ctro/data#Intervention_94932> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_94938> <http://ctro/data#hasFrequency> \"once - daily\"."
+36, Travoprost, 1182, 1186, "TRAV", "", 
+37, Bimatoprost, 1190, 1193, "BIM", "", 
+38, Duration, 1198, 1205, "6 weeks", "", 
+39, Duration, 1232, 1240, "6 - week", "", 
+40, Crossover, 1241, 1250, "crossover", "", 
+41, IOP, 1260, 1263, "IOP", "", 
+148, TimePoint, 1316, 1332, "4 , 6 , and 8 pm", "", 
+147, TimePoint, 1320, 1332, "6 , and 8 pm", "", 
+146, TimePoint, 1328, 1332, "8 pm", "", 
+42, Travoprost, 1335, 1339, "TRAV", "", 
+43, Bimatoprost, 1370, 1373, "BIM", "", 
+44, Mean, 1445, 1449, "mean", "", 
+45, IOP, 1450, 1453, "IOP", "", 
+46, mmHg, 1466, 1470, "mmHg", "", 
+155, NumPatientsLeftCT, 1535, 1538, "One", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasNumPatientsLeftCT> \"One\"."
+104745, EndPointDescription, 1567, 1590, "allergic conjunctivitis", "", 
+156, NumPatientsLeftCT, 1597, 1598, "2", "", 
+47, FinalNumPatientsCT, 1642, 1644, "81", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasFinalNumberPatientsCT> \"81\"."
+48, PerProtocol, 1675, 1689, "per - protocol", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+49, Mean, 1703, 1707, "mean", "", 
+50, AvgAge, 1719, 1725, "58 . 3", "", "<http://ctro/data#Population_94909> <http://ctro/data#hasAvgAge> \"58 . 3\"."
+51, Travoprost, 1743, 1747, "TRAV", "", 
+52, Bimatoprost, 1750, 1753, "BIM", "", 
+161, FinalNumPatientsArm, 1760, 1762, "41", "", "<http://ctro/data#Arm_94944> <http://ctro/data#hasFinalNumPatientsArm> \"41\"."
+166, Bimatoprost, 1765, 1768, "BIM", "", 
+164, Travoprost, 1771, 1775, "TRAV", "", 
+162, FinalNumPatientsArm, 1782, 1784, "40", "", "<http://ctro/data#Arm_94953> <http://ctro/data#hasFinalNumPatientsArm> \"40\"."
+106372, TimePoint, 1795, 1802, "6 weeks", "", "<http://ctro/data#Outcome_94967> <http://ctro/data#hasTimePoint> \"6 weeks\". <http://ctro/data#Outcome_94994> <http://ctro/data#hasTimePoint> \"6 weeks\"."
+56, Mean, 1805, 1809, "mean", "", "<http://ctro/data#Mean_94964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_94962> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_94964>."
+57, IOP, 1810, 1813, "IOP", "", "<http://ctro/data#IOP_94963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_94962> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_94963>."
+58, Travoprost, 1819, 1823, "TRAV", "", 
+59, ResultMeasuredValue, 1826, 1832, "17 . 4", "", "<http://ctro/data#Outcome_94967> <http://ctro/data#hasResultMeasuredValue> \"17 . 4\"."
+61, SdDevResValue, 1835, 1840, "2 . 7", "", "<http://ctro/data#Outcome_94967> <http://ctro/data#hasSdDevResValue> \"2 . 7\"."
+63, mmHg, 1841, 1845, "mmHg", "", "<http://ctro/data#Endpoint_94962> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+65, Reduction, 1873, 1878, "6 . 0", "", "<http://ctro/data#Outcome_94967> <http://ctro/data#hasChangeValue> \"6 . 0\"."
+67, mmHg, 1879, 1883, "mmHg", "", 
+68, Bimatoprost, 1901, 1904, "BIM", "", 
+60, ResultMeasuredValue, 1907, 1913, "17 . 2", "", "<http://ctro/data#Outcome_94994> <http://ctro/data#hasResultMeasuredValue> \"17 . 2\"."
+62, SdDevResValue, 1916, 1921, "2 . 6", "", "<http://ctro/data#Outcome_94994> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+69, mmHg, 1922, 1926, "mmHg", "", 
+66, Reduction, 1954, 1959, "6 . 3", "", "<http://ctro/data#Outcome_94994> <http://ctro/data#hasChangeValue> \"6 . 3\"."
+64, mmHg, 1960, 1964, "mmHg", "", 
+70, DiffGroupAbsValue, 2004, 2010, "0 . 22", "", "<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 22\"."
+71, mmHg, 2011, 2015, "mmHg", "", 
+72, ConfIntervalDiff, 2018, 2046, "95 % CI , - 0 . 22 to 0 . 67", "", "<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 22 to 0 . 67\"."
+73, Travoprost, 2076, 2080, "TRAV", "", 
+74, Bimatoprost, 2088, 2091, "BIM", "", 
+75, Mean, 2111, 2115, "Mean", "", 
+76, IOP, 2116, 2119, "IOP", "", 
+77, Mean, 2143, 2147, "mean", "", 
+78, IOP, 2163, 2166, "IOP", "", 
+104747, EndPointDescription, 2324, 2345, "mild ocular hyperemia", "", "<http://ctro/data#EndPointDescription_95031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95030> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95031>."
+199, ConjunctivalHyperemia, 2329, 2345, "ocular hyperemia", "", 
+82, Travoprost, 2351, 2355, "TRAV", "", 
+83, Bimatoprost, 2360, 2363, "BIM", "", 
+84, PercentageAffected, 2369, 2371, "31", "", "<http://ctro/data#Outcome_95040> <http://ctro/data#hasPercentageAffected> \"31\"."
+85, PercentageAffected, 2378, 2380, "39", "", "<http://ctro/data#Outcome_95067> <http://ctro/data#hasPercentageAffected> \"39\"."
+104749, EndPointDescription, 2400, 2418, "moderate hyperemia", "", "<http://ctro/data#EndPointDescription_95036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_95035> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95036>."
+200, ConjunctivalHyperemia, 2409, 2418, "hyperemia", "", 
+86, PercentageAffected, 2435, 2436, "2", "", "<http://ctro/data#Outcome_95094> <http://ctro/data#hasPercentageAffected> \"2\"."
+88, Bimatoprost, 2461, 2464, "BIM", "", 
+97, ConclusionComment, 2480, 2627, "Late - day IOP - lowering efficacy of BAK - free TRAV was noninferior to that of BAK 0 . 02 % - preserved BIM ; both reduced baseline IOP by 25 % .", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasConclusionComment> \"Late - day IOP - lowering efficacy of BAK - free TRAV was noninferior to that of BAK 0 . 02 % - preserved BIM ; both reduced baseline IOP by 25 % .\"."
+90, IOP, 2491, 2494, "IOP", "", 
+91, Travoprost, 2518, 2533, "BAK - free TRAV", "", 
+204, Bimatoprost, 2561, 2564, "BAK", "", 
+203, DoseValue, 2565, 2571, "0 . 02", "", 
+204, Bimatoprost, 2574, 2589, "- preserved BIM", "", 
+93, IOP, 2614, 2617, "IOP", "", 
+94, RelativeReduction, 2621, 2623, "25", "", 
+98, ConclusionComment, 2628, 2746, "Both treatments were well tolerated , although a higher incidence of moderate ocular hyperemia was observed with BIM .", "", "<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasConclusionComment> \"Both treatments were well tolerated , although a higher incidence of moderate ocular hyperemia was observed with BIM .\"."
+104750, EndPointDescription, 2697, 2722, "moderate ocular hyperemia", "", 
+208, ConjunctivalHyperemia, 2706, 2722, "ocular hyperemia", "", 
+95, Bimatoprost, 2741, 2744, "BIM", "", 
+99, PMID, 2914, 2922, "25432143", "", "<http://ctro/data#Publication_94880> <http://ctro/data#hasPMID> \"25432143\"."

@@ -1,0 +1,92 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2010", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasPublicationYear> \"2010\"."
+94, Title, 99, 332, "A 24 - week , randomized , treat - to - target trial comparing initiation of insulin glargine once - daily with insulin detemir twice - daily in patients with type 2 diabetes inadequately controlled on oral glucose - lowering drugs .", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasTitle> \"A 24 - week , randomized , treat - to - target trial comparing initiation of insulin glargine once - daily with insulin detemir twice - daily in patients with type 2 diabetes inadequately controlled on oral glucose - lowering drugs .\"."
+2, Duration, 101, 110, "24 - week", "", 
+3, Randomized, 113, 123, "randomized", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, CTDesign, 126, 145, "treat - to - target", "", "<http://ctro/data#CTDesign_73039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_73039>."
+5, InsulinGlargine, 176, 192, "insulin glargine", "", 
+6, Frequency, 193, 205, "once - daily", "", 
+7, InsulinDetemir, 211, 226, "insulin detemir", "", 
+8, Frequency, 227, 240, "twice - daily", "", 
+11, Precondition, 244, 330, "patients with type 2 diabetes inadequately controlled on oral glucose - lowering drugs", "", 
+9, Type2Diabetes, 258, 273, "type 2 diabetes", "", 
+10, OralAntidiabeticAgent, 301, 330, "oral glucose - lowering drugs", "", 
+12, Author, 333, 343, "Swinnen SG", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Swinnen SG\"."
+13, Author, 352, 359, "Dain MP", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Dain MP\"."
+14, Author, 362, 371, "Aronson R", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Aronson R\"."
+15, Author, 374, 382, "Davies M", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Davies M\"."
+16, Author, 385, 396, "Gerstein HC", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Gerstein HC\"."
+17, Author, 399, 410, "Pfeiffer AF", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Pfeiffer AF\"."
+18, Author, 413, 421, "Snoek FJ", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Snoek FJ\"."
+19, Author, 424, 434, "Devries JH", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Devries JH\"."
+20, Author, 437, 448, "Hoekstra JB", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Hoekstra JB\"."
+21, Author, 451, 461, "Holleman F", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasAuthor> \"Holleman F\"."
+22, Netherlands, 563, 578, "the Netherlands", "", "<http://ctro/data#Population_73040> <http://ctro/data#hasCountry> <http://ctro/data#Netherlands>."
+113, ObjectiveDescription, 626, 794, "To determine whether glargine is noninferior to detemir regarding the percentage of patients reaching A1C < 7 % without symptomatic hypoglycemia < or = 3 . 1 mmol / l .", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasObjectiveDescription> \"To determine whether glargine is noninferior to detemir regarding the percentage of patients reaching A1C < 7 % without symptomatic hypoglycemia < or = 3 . 1 mmol / l .\"."
+23, InsulinGlargine, 647, 655, "glargine", "", 
+24, InsulinDetemir, 674, 681, "detemir", "", 
+25, HbA1c_target, 728, 737, "A1C < 7 %", "", 
+109, Percentage, 736, 737, "%", "", 
+26, SymptomaticHypoglycemia, 746, 770, "symptomatic hypoglycemia", "", 
+27, Millimoles_per_litre, 784, 792, "mmol / l", "", 
+28, Duration, 833, 842, "24 - week", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasCTduration> \"24 - week\"."
+29, NumberPatientsCT, 851, 854, "973", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasNumberPatientsCT> \"973\"."
+35, Precondition, 855, 961, "insulin - naive type 2 diabetic patients on stable oral glucose - lowering drugs with A1C 7 . 0 - 10 . 5 %", "", "<http://ctro/data#Population_73040> <http://ctro/data#hasPrecondition> \"insulin - naive type 2 diabetic patients on stable oral glucose - lowering drugs with A1C 7 . 0 - 10 . 5 %\"."
+30, Type2Diabetes, 871, 886, "type 2 diabetic", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+31, OralAntidiabeticAgent, 906, 935, "oral glucose - lowering drugs", "", 
+32, HbA1c, 941, 944, "A1C", "", 
+33, Percentage, 960, 961, "%", "", 
+34, Randomized, 967, 977, "randomized", "", 
+36, InsulinGlargine, 981, 989, "glargine", "", "<http://ctro/data#Medication_73110> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+37, Frequency, 990, 1000, "once daily", "", "<http://ctro/data#Intervention_73098> <http://ctro/data#hasFrequency> \"once daily\"."
+39, InsulinDetemir, 1004, 1011, "detemir", "", "<http://ctro/data#Medication_73117> <http://ctro/data#hasDrug> <http://ctro/data#InsulinDetemir>."
+38, Frequency, 1012, 1023, "twice daily", "", "<http://ctro/data#Intervention_73104> <http://ctro/data#hasFrequency> \"twice daily\"."
+57585, DoseDescription, 1026, 1068, "Insulin doses were systematically titrated", "", "<http://ctro/data#Medication_73110> <http://ctro/data#hasDoseDescription> \"Insulin doses were systematically titrated\". <http://ctro/data#Medication_73117> <http://ctro/data#hasDoseDescription> \"Insulin doses were systematically titrated\"."
+41, PercentageAffected, 1079, 1085, "27 . 5", "", 
+42, PercentageAffected, 1090, 1096, "25 . 6", "", 
+128, Percentage, 1097, 1098, "%", "", 
+43, InsulinGlargine, 1144, 1152, "glargine", "", 
+44, InsulinDetemir, 1157, 1164, "detemir", "", 
+45, InsulinGlargine, 1218, 1226, "glargine", "", 
+46, HbA1c, 1245, 1248, "A1C", "", "<http://ctro/data#Endpoint_73055> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+47, Reduction, 1256, 1262, "1 . 46", "", "<http://ctro/data#Outcome_73124> <http://ctro/data#hasChangeValue> \"1 . 46\"."
+49, SdDevChangeValue, 1269, 1275, "1 . 09", "", "<http://ctro/data#Outcome_73124> <http://ctro/data#hasSdDevChangeValue> \"1 . 09\"."
+51, Percentage, 1276, 1277, "%", "", "<http://ctro/data#Endpoint_73055> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+53, InsulinGlargine, 1282, 1290, "glargine", "", 
+48, Reduction, 1297, 1303, "1 . 54", "", "<http://ctro/data#Outcome_73151> <http://ctro/data#hasChangeValue> \"1 . 54\"."
+50, SdDevChangeValue, 1310, 1316, "1 . 11", "", "<http://ctro/data#Outcome_73151> <http://ctro/data#hasSdDevChangeValue> \"1 . 11\"."
+52, Percentage, 1317, 1318, "%", "", 
+54, InsulinDetemir, 1323, 1330, "detemir", "", 
+55, PvalueDiff, 1333, 1344, "P = 0 . 149", "", "<http://ctro/data#DiffBetweenGroups_73178> <http://ctro/data#hasPvalueDiff> \"P = 0 . 149\"."
+56, HbA1c_target, 1396, 1405, "A1C < 7 %", "", "<http://ctro/data#Endpoint_73060> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+140, Percentage, 1404, 1405, "%", "", 
+57, PvalueDiff, 1408, 1419, "P = 0 . 254", "", "<http://ctro/data#DiffBetweenGroups_73300> <http://ctro/data#hasPvalueDiff> \"P = 0 . 254\"."
+58, InsulinDetemir, 1431, 1438, "detemir", "", 
+59, HbA1c_target, 1467, 1480, "A1C < 6 . 5 %", "", "<http://ctro/data#Endpoint_73241> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+146, Percentage, 1479, 1480, "%", "", 
+60, PvalueDiff, 1483, 1494, "P = 0 . 017", "", "<http://ctro/data#DiffBetweenGroups_73309> <http://ctro/data#hasPvalueDiff> \"P = 0 . 017\"."
+61, Hypoglycemia, 1499, 1511, "Hypoglycemia", "", "<http://ctro/data#Endpoint_73065> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+62, ObservedResult, 1499, 1528, "Hypoglycemia risk was similar", "", "<http://ctro/data#Outcome_73318> <http://ctro/data#hasObservedResult> \"Hypoglycemia risk was similar\"."
+65, ObservedResult, 1531, 1566, "Weight gain was higher for glargine", "", "<http://ctro/data#Outcome_73345> <http://ctro/data#hasObservedResult> \"Weight gain was higher for glargine\". <http://ctro/data#Outcome_73372> <http://ctro/data#hasObservedResult> \"Weight gain was higher for glargine\"."
+63, BodyWeight, 1531, 1537, "Weight", "", "<http://ctro/data#Endpoint_73070> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+64, InsulinGlargine, 1558, 1566, "glargine", "", 
+66, DiffGroupAbsValue, 1582, 1588, "0 . 77", "", "<http://ctro/data#DiffBetweenGroups_73399> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 77\"."
+67, Kg, 1589, 1591, "kg", "", "<http://ctro/data#Endpoint_73070> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+68, PvalueDiff, 1594, 1605, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_73399> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+69, InsulinGlargine, 1610, 1618, "Glargine", "", 
+61009, InsulinDose, 1619, 1624, "doses", "", "<http://ctro/data#InsulinDose_73076> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_73075> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_73076>."
+56815, InsulinDetemir, 1641, 1648, "detemir", "", 
+61010, InsulinDose, 1649, 1654, "doses", "", 
+61011, ResultMeasuredValue, 1657, 1663, "43 . 5", "", "<http://ctro/data#Outcome_73408> <http://ctro/data#hasResultMeasuredValue> \"43 . 5\"."
+61013, SdDevResValue, 1670, 1676, "29 . 0", "", "<http://ctro/data#Outcome_73408> <http://ctro/data#hasSdDevResValue> \"29 . 0\"."
+61012, ResultMeasuredValue, 1682, 1688, "76 . 5", "", "<http://ctro/data#Outcome_73435> <http://ctro/data#hasResultMeasuredValue> \"76 . 5\"."
+61014, SdDevResValue, 1695, 1701, "50 . 5", "", "<http://ctro/data#Outcome_73435> <http://ctro/data#hasSdDevResValue> \"50 . 5\"."
+61015, BioAndMedicalUnit, 1702, 1713, "units / day", "", "<http://ctro/data#BioAndMedicalUnit_73078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_73075> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_73078>."
+76, PvalueDiff, 1716, 1727, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_73462> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+164, ConclusionComment, 1746, 1902, "In insulin - naive type 2 diabetic patients , glargine reached similar control as detemir , with more weight gain , but required significantly lower doses .", "", "<http://ctro/data#ClinicalTrial_73023> <http://ctro/data#hasConclusionComment> \"In insulin - naive type 2 diabetic patients , glargine reached similar control as detemir , with more weight gain , but required significantly lower doses .\"."
+77, Type2Diabetes, 1765, 1780, "type 2 diabetic", "", 
+79, InsulinGlargine, 1792, 1800, "glargine", "", 
+80, InsulinDetemir, 1828, 1835, "detemir", "", 
+162, WeightGain, 1848, 1859, "weight gain", "", 
+82, PMID, 1959, 1967, "20200301", "", "<http://ctro/data#Publication_73007> <http://ctro/data#hasPMID> \"20200301\"."

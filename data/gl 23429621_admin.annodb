@@ -1,0 +1,110 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_84283> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2014", "", "<http://ctro/data#Publication_84283> <http://ctro/data#hasPublicationYear> \"2014\"."
+38423, Bima/TimFC, 94, 115, "Bimatoprost / timolol", "", "<http://ctro/data#Medication_84361> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC>."
+2, Bimatoprost, 94, 105, "Bimatoprost", "", 
+100, Title, 94, 240, "Bimatoprost / timolol versus travoprost / timolol fixed combinations in an Egyptian population : a hospital - based prospective randomized study .", "", "<http://ctro/data#Publication_84283> <http://ctro/data#hasTitle> \"Bimatoprost / timolol versus travoprost / timolol fixed combinations in an Egyptian population : a hospital - based prospective randomized study .\"."
+3, Timolol, 108, 115, "timolol", "", 
+38422, Travoprost, 123, 133, "travoprost", "", 
+38431, Trav/TimFC, 123, 143, "travoprost / timolol", "", "<http://ctro/data#Medication_84368> <http://ctro/data#hasDrug> <http://ctro/data#Trav/TimFC>."
+5, Timolol, 136, 143, "timolol", "", 
+54376, Prospective, 210, 221, "prospective", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+7, Randomized, 222, 232, "randomized", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+8, Author, 241, 249, "Macky TA", "", "<http://ctro/data#Publication_84283> <http://ctro/data#hasAuthor> \"Macky TA\"."
+6, Egypt, 433, 438, "Egypt", "", "<http://ctro/data#Population_84307> <http://ctro/data#hasCountry> <http://ctro/data#Egypt>."
+110, ObjectiveDescription, 451, 630, "To compare the efficacy of bimatoprost / timolol ( BTFC ) or travoprost / timolol ( TTFC ) fixed combinations on intraocular pressure ( IOP ) reduction in an Egyptian population .", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy of bimatoprost / timolol ( BTFC ) or travoprost / timolol ( TTFC ) fixed combinations on intraocular pressure ( IOP ) reduction in an Egyptian population .\"."
+38424, Bima/TimFC, 478, 499, "bimatoprost / timolol", "", 
+9, Bimatoprost, 478, 489, "bimatoprost", "", 
+10, Timolol, 492, 499, "timolol", "", 
+38425, Bima/TimFC, 502, 506, "BTFC", "", 
+38432, Trav/TimFC, 512, 532, "travoprost / timolol", "", 
+37021, Travoprost, 512, 522, "travoprost", "", 
+13, Timolol, 525, 532, "timolol", "", 
+38433, Trav/TimFC, 535, 539, "TTFC", "", 
+15, IOP, 564, 584, "intraocular pressure", "", 
+16, IOP, 587, 590, "IOP", "", 
+106380, Ethnicity, 609, 617, "Egyptian", "", "<http://ctro/data#Ethnicity_84309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_84307> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_84309>."
+54377, Precondition, 641, 682, "Patients with primary open angle glaucoma", "", "<http://ctro/data#Population_84307> <http://ctro/data#hasPrecondition> \"Patients with primary open angle glaucoma\"."
+25187, Primary_OpenAngleGlaucoma, 655, 682, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+18, Randomized, 688, 698, "randomized", "", 
+38426, Bima/TimFC, 717, 721, "BTFC", "", 
+38434, Trav/TimFC, 725, 729, "TTFC", "", 
+21, IOP, 732, 736, "IOPs", "", 
+37022, TimePoint, 754, 762, "baseline", "", 
+147, TimePoint, 765, 772, "2 weeks", "", 
+25210, TimePoint, 779, 803, "1 , 2 , 4 , and 6 months", "", 
+37023, TimePoint, 783, 803, "2 , 4 , and 6 months", "", 
+37024, TimePoint, 787, 803, "4 , and 6 months", "", 
+37025, TimePoint, 795, 803, "6 months", "", 
+22, Mean, 842, 846, "mean", "", 
+23, IOP, 857, 860, "IOP", "", 
+121, NumberPatientsCT, 971, 977, "Eighty", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#hasNumberPatientsCT> \"Eighty\"."
+25, NumberPatientsArm, 1023, 1025, "40", "", "<http://ctro/data#Arm_84331> <http://ctro/data#hasNumberPatientsArm> \"40\". <http://ctro/data#Arm_84340> <http://ctro/data#hasNumberPatientsArm> \"40\"."
+26, Mean, 1056, 1060, "mean", "", "<http://ctro/data#Mean_84317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_84315> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_84317>."
+124, IOP, 1061, 1065, "IOPs", "", "<http://ctro/data#IOP_84316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_84315> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_84316>."
+28, BaseLineValue, 1071, 1078, "24 . 78", "", "<http://ctro/data#Outcome_84375> <http://ctro/data#hasBaselineValue> \"24 . 78\". <http://ctro/data#Outcome_84429> <http://ctro/data#hasBaselineValue> \"24 . 78\"."
+30, SdDevBL, 1081, 1087, "3 . 53", "", "<http://ctro/data#Outcome_84375> <http://ctro/data#hasSdDevBL> \"3 . 53\". <http://ctro/data#Outcome_84429> <http://ctro/data#hasSdDevBL> \"3 . 53\"."
+29, BaseLineValue, 1092, 1099, "25 . 26", "", "<http://ctro/data#Outcome_84402> <http://ctro/data#hasBaselineValue> \"25 . 26\". <http://ctro/data#Outcome_84456> <http://ctro/data#hasBaselineValue> \"25 . 26\"."
+31, SdDevBL, 1102, 1108, "3 . 51", "", "<http://ctro/data#Outcome_84402> <http://ctro/data#hasSdDevBL> \"3 . 51\". <http://ctro/data#Outcome_84456> <http://ctro/data#hasSdDevBL> \"3 . 51\"."
+32, mmHg, 1109, 1114, "mm Hg", "", "<http://ctro/data#Endpoint_84315> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38427, Bima/TimFC, 1119, 1123, "BTFC", "", 
+38435, Trav/TimFC, 1128, 1132, "TTFC", "", 
+130, PValueBL, 1150, 1161, "P = 0 . 344", "", 
+38, Eyedrops, 1171, 1176, "drops", "", 
+36, IOP, 1212, 1215, "IOP", "", 
+132, PValueChangeValue, 1257, 1268, "P < 0 . 001", "", 
+40, Mean, 1307, 1311, "mean", "", 
+41, IOP, 1312, 1315, "IOP", "", 
+38436, Trav/TimFC, 1346, 1350, "TTFC", "", 
+43, PvalueDiff, 1367, 1378, "P < 0 . 001", "", 
+44, Mean, 1383, 1387, "Mean", "", 
+45, IOP, 1388, 1391, "IOP", "", 
+47, Reduction, 1408, 1415, "11 . 34", "", "<http://ctro/data#Outcome_84375> <http://ctro/data#hasChangeValue> \"11 . 34\"."
+46, Reduction, 1420, 1426, "6 . 42", "", "<http://ctro/data#Outcome_84402> <http://ctro/data#hasChangeValue> \"6 . 42\"."
+50, mmHg, 1427, 1432, "mm Hg", "", 
+52, TimePoint, 1436, 1443, "2 weeks", "", "<http://ctro/data#Outcome_84375> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_84402> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+53, PValueChangeValue, 1446, 1457, "P = 0 . 000", "", "<http://ctro/data#Outcome_84375> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_84402> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+48, Reduction, 1466, 1473, "11 . 17", "", "<http://ctro/data#Outcome_84429> <http://ctro/data#hasChangeValue> \"11 . 17\"."
+49, Reduction, 1478, 1484, "7 . 89", "", "<http://ctro/data#Outcome_84456> <http://ctro/data#hasChangeValue> \"7 . 89\"."
+51, mmHg, 1485, 1492, "mm   Hg", "", 
+55, TimePoint, 1496, 1504, "6 months", "", "<http://ctro/data#Outcome_84429> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_84456> <http://ctro/data#hasTimePoint> \"6 months\"."
+54, PValueChangeValue, 1507, 1518, "P = 0 . 001", "", "<http://ctro/data#Outcome_84429> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 001\". <http://ctro/data#Outcome_84456> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 001\"."
+38428, Bima/TimFC, 1525, 1529, "BTFC", "", 
+38442, Trav/TimFC, 1534, 1538, "TTFC", "", 
+60, IOP, 1556, 1560, "IOPs", "", 
+61, TimePoint, 1564, 1571, "2 weeks", "", "<http://ctro/data#Outcome_84483> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_84510> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_84537> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_84564> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+152, EndPointDescription, 1577, 1587, "≤ 18 mm Hg", "", "<http://ctro/data#EndPointDescription_84321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_84320> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_84321>."
+65, mmHg, 1582, 1587, "mm Hg", "", 
+69, NumberAffected, 1591, 1593, "36", "", "<http://ctro/data#Outcome_84483> <http://ctro/data#hasNumberAffected> \"36\"."
+77, PercentageAffected, 1596, 1602, "90 . 8", "", "<http://ctro/data#Outcome_84483> <http://ctro/data#hasPercentageAffected> \"90 . 8\"."
+70, NumberAffected, 1614, 1616, "22", "", "<http://ctro/data#Outcome_84510> <http://ctro/data#hasNumberAffected> \"22\"."
+78, PercentageAffected, 1619, 1621, "55", "", "<http://ctro/data#Outcome_84510> <http://ctro/data#hasPercentageAffected> \"55\"."
+163, EndPointDescription, 1635, 1645, "≤ 16 mm Hg", "", "<http://ctro/data#EndPointDescription_84327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_84326> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_84327>."
+66, mmHg, 1640, 1645, "mm Hg", "", 
+71, NumberAffected, 1649, 1651, "28", "", "<http://ctro/data#Outcome_84537> <http://ctro/data#hasNumberAffected> \"28\"."
+79, PercentageAffected, 1654, 1656, "70", "", "<http://ctro/data#Outcome_84537> <http://ctro/data#hasPercentageAffected> \"70\"."
+72, NumberAffected, 1668, 1670, "16", "", "<http://ctro/data#Outcome_84564> <http://ctro/data#hasNumberAffected> \"16\"."
+80, PercentageAffected, 1673, 1675, "40", "", "<http://ctro/data#Outcome_84564> <http://ctro/data#hasPercentageAffected> \"40\"."
+87, PvalueDiff, 1687, 1698, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_84699> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+62, TimePoint, 1710, 1718, "6 months", "", "<http://ctro/data#Outcome_84591> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_84618> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_84645> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_84672> <http://ctro/data#hasTimePoint> \"6 months\"."
+152, EndPointDescription, 1721, 1731, "≤ 18 mm Hg", "", "<http://ctro/data#EndPointDescription_84321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_84320> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_84321>."
+67, mmHg, 1726, 1731, "mm Hg", "", 
+73, NumberAffected, 1735, 1737, "38", "", "<http://ctro/data#Outcome_84591> <http://ctro/data#hasNumberAffected> \"38\"."
+81, PercentageAffected, 1740, 1742, "95", "", "<http://ctro/data#Outcome_84591> <http://ctro/data#hasPercentageAffected> \"95\"."
+74, NumberAffected, 1754, 1756, "28", "", "<http://ctro/data#Outcome_84618> <http://ctro/data#hasNumberAffected> \"28\"."
+82, PercentageAffected, 1759, 1761, "70", "", "<http://ctro/data#Outcome_84618> <http://ctro/data#hasPercentageAffected> \"70\"."
+163, EndPointDescription, 1775, 1785, "≤ 16 mm Hg", "", 
+68, mmHg, 1780, 1785, "mm Hg", "", 
+75, NumberAffected, 1789, 1791, "30", "", "<http://ctro/data#Outcome_84645> <http://ctro/data#hasNumberAffected> \"30\"."
+83, PercentageAffected, 1794, 1796, "75", "", "<http://ctro/data#Outcome_84645> <http://ctro/data#hasPercentageAffected> \"75\"."
+76, NumberAffected, 1808, 1810, "18", "", "<http://ctro/data#Outcome_84672> <http://ctro/data#hasNumberAffected> \"18\"."
+84, PercentageAffected, 1813, 1815, "45", "", "<http://ctro/data#Outcome_84672> <http://ctro/data#hasPercentageAffected> \"45\"."
+38429, Bima/TimFC, 1829, 1833, "BTFC", "", 
+38440, Trav/TimFC, 1838, 1842, "TTFC", "", 
+88, PvalueDiff, 1860, 1871, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_84708> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+176, ConclusionComment, 1889, 2040, "Both drops provided effective IOP reduction that was greater and patients were more likely to achieve lower target pressures with BTFC than with TTFC .", "", "<http://ctro/data#ClinicalTrial_84290> <http://ctro/data#hasConclusionComment> \"Both drops provided effective IOP reduction that was greater and patients were more likely to achieve lower target pressures with BTFC than with TTFC .\"."
+91, Eyedrops, 1894, 1899, "drops", "", "<http://ctro/data#Medication_84361> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_84368> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+92, IOP, 1919, 1922, "IOP", "", 
+38430, Bima/TimFC, 2019, 2023, "BTFC", "", 
+38437, Trav/TimFC, 2034, 2038, "TTFC", "", 
+95, PMID, 2089, 2097, "23429621", "", "<http://ctro/data#Publication_84283> <http://ctro/data#hasPMID> \"23429621\"."

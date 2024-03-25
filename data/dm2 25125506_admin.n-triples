@@ -1,0 +1,149 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_63056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_63056> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 63056" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasTitle> "Efficacy and safety of oral methazolamide in patients with type 2 diabetes : a 24 - week , placebo - controlled , double - blind study ." .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Simpson RW" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasPublicationYear> "2014" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasJournal> "Diabetes Care" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasPMID> "25125506" .
+<http://ctro/data#Publication_63056> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_63063> .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Nicholson GC" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Proietto J" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Sarah A" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Sanders KM" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Phillips G" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Chambers J" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "MacGinley R" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Orford N" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Walder K" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Krippner G" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Skoff K" .
+<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> "Wacher VJ" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_63063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_63063> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 63063" .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasObjectiveDescription> "To evaluate the safety and efficacy of methazolamide as a potential therapy for type 2 diabetes ." .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasNumberPatientsCT> "76" .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasCTduration> "24 - week" .
+<http://ctro/data#AllocationRatio_63067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_63068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasConclusionComment> "Methazolamide is the archetype for a new intervention in type 2 diabetes with clinical benefits beyond glucose control ." .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasArm> <http://ctro/data#Arm_63107> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasPopulation> <http://ctro/data#Population_63079> .
+<http://ctro/data#DiffBetweenGroups_63074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_63075> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasArm> <http://ctro/data#Arm_63117> .
+<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+# RDF export of group: Population
+<http://ctro/data#Population_63079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_63079> <http://www.w3.org/2000/01/rdf-schema#label> "Population 63079" .
+<http://ctro/data#Ethnicity_63081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_63082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Gender_63086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_63194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_63194> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_63194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#Mean_63196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_63194> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_63196> .
+<http://ctro/data#Endpoint_63194> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_63198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_63262> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_63262> <http://www.w3.org/2000/01/rdf-schema#label> "hbat" .
+<http://ctro/data#Endpoint_63262> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target> .
+<http://ctro/data#AggregationMethod_63264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_63265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_63266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_63321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_63321> <http://www.w3.org/2000/01/rdf-schema#label> "ala" .
+<http://ctro/data#EndPointDescription_63322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_63321> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_63322> .
+<http://ctro/data#AggregationMethod_63323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_63324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Endpoint_63321> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_63324> .
+<http://ctro/data#MeasurementDevice_63325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_63326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_63326> <http://www.w3.org/2000/01/rdf-schema#label> "bw" .
+<http://ctro/data#Endpoint_63326> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight> .
+<http://ctro/data#AggregationMethod_63328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_63329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_63330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_63107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_63107> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasNumberPatientsArm> "37" .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_63127> .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63208> .
+<http://ctro/data#Outcome_63112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63267> .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63331> .
+<http://ctro/data#Arm_63107> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63358> .
+<http://ctro/data#Arm_63117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_63117> <http://www.w3.org/2000/01/rdf-schema#label> "pla" .
+<http://ctro/data#Arm_63117> <http://ctro/data#hasNumberPatientsArm> "39" .
+<http://ctro/data#Arm_63117> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_63133> .
+<http://ctro/data#Arm_63117> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63235> .
+<http://ctro/data#Outcome_63123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_63117> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_63294> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_63127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_63127> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Intervention_63127> <http://ctro/data#hasMedication> <http://ctro/data#Medication_63139> .
+<http://ctro/data#Intervention_63127> <http://ctro/data#hasFrequency> "b . i . d ." .
+<http://ctro/data#RelativeTime_63132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_63133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_63133> <http://www.w3.org/2000/01/rdf-schema#label> "pla" .
+<http://ctro/data#Intervention_63133> <http://ctro/data#hasMedication> <http://ctro/data#Medication_63146> .
+<http://ctro/data#RelativeTime_63138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_63139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_63139> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Medication_63139> <http://ctro/data#hasDrug> <http://ctro/data#Methazolamide> .
+<http://ctro/data#Medication_63139> <http://ctro/data#hasDoseValue> "40" .
+<http://ctro/data#Medication_63139> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#Medication_63139> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Oral> .
+<http://ctro/data#Medication_63146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_63146> <http://www.w3.org/2000/01/rdf-schema#label> "pla" .
+<http://ctro/data#Medication_63146> <http://ctro/data#hasDrug> <http://ctro/data#Placebo> .
+<http://ctro/data#BioAndMedicalUnit_63149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_63150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_63208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63208> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63194> .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasBaselineValue> "7 . 1" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasSdDevBL> "0 . 7" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasChangeValue> "0 . 39" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasPValueChangeValue> "P < 0 . 05" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasConfIntervalChangeValue> "95 % CI - 0 . 82 , 0 . 04" .
+<http://ctro/data#Outcome_63208> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+<http://ctro/data#Outcome_63235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63235> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_63235> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63194> .
+<http://ctro/data#Outcome_63235> <http://ctro/data#hasBaselineValue> "7 . 4" .
+<http://ctro/data#Outcome_63235> <http://ctro/data#hasSdDevBL> "0 . 6" .
+<http://ctro/data#Outcome_63235> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+<http://ctro/data#Outcome_63267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63267> <http://www.w3.org/2000/01/rdf-schema#label> "hbat 1" .
+<http://ctro/data#Outcome_63267> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63262> .
+<http://ctro/data#Outcome_63267> <http://ctro/data#hasPercentageAffected> "33" .
+<http://ctro/data#Outcome_63267> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+<http://ctro/data#Outcome_63294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63294> <http://www.w3.org/2000/01/rdf-schema#label> "hbat 2" .
+<http://ctro/data#Outcome_63294> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63262> .
+<http://ctro/data#Outcome_63294> <http://ctro/data#hasPercentageAffected> "8" .
+<http://ctro/data#Outcome_63294> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+<http://ctro/data#Outcome_63331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63331> <http://www.w3.org/2000/01/rdf-schema#label> "ala" .
+<http://ctro/data#Outcome_63331> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63321> .
+<http://ctro/data#Outcome_63331> <http://ctro/data#hasChangeValue> "10" .
+<http://ctro/data#Outcome_63331> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+<http://ctro/data#Outcome_63358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_63358> <http://www.w3.org/2000/01/rdf-schema#label> "bw" .
+<http://ctro/data#Outcome_63358> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_63326> .
+<http://ctro/data#Outcome_63358> <http://ctro/data#hasRelativeChangeValue> "2" .
+<http://ctro/data#Outcome_63358> <http://ctro/data#hasSubGroupDescription> "metformin - cotreated patients" .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

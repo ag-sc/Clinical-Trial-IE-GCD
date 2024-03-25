@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+29539, Journal, 0, 19, "Diabetes Obes Metab", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasJournal> \"Diabetes Obes Metab\"."
+29540, PublicationYear, 22, 26, "2010", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasPublicationYear> \"2010\"."
+29551, Title, 110, 265, "Adding insulin glargine vs . NPH insulin to metformin results in a more efficient postprandial beta - cell protection in individuals with type 2 diabetes .", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasTitle> \"Adding insulin glargine vs . NPH insulin to metformin results in a more efficient postprandial beta - cell protection in individuals with type 2 diabetes .\"."
+29542, InsulinGlargine, 117, 133, "insulin glargine", "", "<http://ctro/data#Medication_19764> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+29544, IsophaneInsulin_NPH, 139, 150, "NPH insulin", "", "<http://ctro/data#Medication_19771> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+29546, Metformin, 154, 163, "metformin", "", "<http://ctro/data#Medication_19778> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+29548, Type2Diabetes, 248, 263, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+29553, Author, 266, 273, "Forst T", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Forst T\"."
+29555, Author, 282, 290, "Larbig M", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Larbig M\"."
+29557, Author, 293, 302, "Hohberg C", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Hohberg C\"."
+29559, Author, 305, 312, "Forst S", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Forst S\"."
+29560, Author, 315, 324, "Diessel S", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Diessel S\"."
+29561, Author, 327, 337, "Borchert M", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Borchert M\"."
+29563, Author, 340, 346, "Roth W", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Roth W\"."
+29566, Author, 349, 361, "Pf ü tzner A", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasAuthor> \"Pf ü tzner A\"."
+29567, Germany, 471, 478, "Germany", "", "<http://ctro/data#Population_19725> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+29572, Type2Diabetes, 626, 641, "type 2 diabetes", "", 
+29586, ObjectiveDescription, 644, 824, "This open - label , parallel - group , two - arm , pilot study compared the beta - cell protective effect of adding insulin glargine ( GLA ) vs . NPH insulin to ongoing metformin .", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasObjectiveDescription> \"This open - label , parallel - group , two - arm , pilot study compared the beta - cell protective effect of adding insulin glargine ( GLA ) vs . NPH insulin to ongoing metformin .\"."
+29577, OpenLabel, 649, 661, "open - label", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+29578, Parallel, 664, 680, "parallel - group", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+29581, InsulinGlargine, 760, 776, "insulin glargine", "", 
+29582, InsulinGlargine, 779, 782, "GLA", "", 
+29583, IsophaneInsulin_NPH, 790, 801, "NPH insulin", "", 
+29584, Metformin, 813, 822, "metformin", "", 
+29591, NumberPatientsCT, 858, 860, "28", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasNumberPatientsCT> \"28\"."
+29593, Precondition, 861, 876, "insulin - naive", "", "<http://ctro/data#Population_19725> <http://ctro/data#hasPrecondition> \"insulin - naive\"."
+29595, Type2Diabetes, 877, 892, "type 2 diabetes", "", 
+29598, Mean, 904, 908, "mean", "", 
+29600, AvgAge, 924, 930, "61 . 5", "", "<http://ctro/data#Population_19725> <http://ctro/data#hasAvgAge> \"61 . 5\"."
+29605, Year, 943, 948, "years", "", 
+29603, Precondition, 951, 994, "diabetes duration , 9 . 8 + / - 6 . 5 years", "", 
+29606, Year, 989, 994, "years", "", 
+29607, HbA1c, 997, 1002, "HbA1c", "", 
+29609, Precondition, 997, 1024, "HbA1c , 7 . 1 + / - 0 . 5 %", "", 
+29610, Percentage, 1023, 1024, "%", "", 
+29612, Precondition, 1027, 1064, "BMI , 30 . 7 + / - 4 . 3 kg / m ( 2 )", "", 
+29614, BMI, 1027, 1030, "BMI", "", 
+29616, Kg_per_squareMeter, 1052, 1064, "kg / m ( 2 )", "", 
+29617, Metformin, 1080, 1089, "metformin", "", 
+29619, Sulfonylureas, 1094, 1106, "sulfonylurea", "", "<http://ctro/data#Medication_19785> <http://ctro/data#hasDrug> <http://ctro/data#Sulfonylureas>."
+29621, Randomized, 1112, 1122, "randomized", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+29629, Frequency, 1130, 1142, "once - daily", "", "<http://ctro/data#Intervention_19752> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_19758> <http://ctro/data#hasFrequency> \"once - daily\"."
+29623, InsulinGlargine, 1143, 1146, "GLA", "", 
+29625, IsophaneInsulin_NPH, 1150, 1153, "NPH", "", 
+29630, Bedtime, 1157, 1164, "bedtime", "", "<http://ctro/data#Intervention_19752> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>. <http://ctro/data#Intervention_19758> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+39195, TimePoint, 1170, 1178, "baseline", "", 
+39200, TimePoint, 1189, 1197, "3 months", "", 
+39196, BloodGlucose, 1348, 1361, "blood glucose", "", 
+39197, BloodGlucose, 1364, 1366, "BG", "", 
+29637, EndPointDescription, 1381, 1393, "Insulin dose", "", "<http://ctro/data#EndPointDescription_19867> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_19866> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_19867>."
+39199, TimePoint, 1400, 1408, "3 months", "", "<http://ctro/data#Outcome_19812> <http://ctro/data#hasTimePoint> \"3 months\"."
+29639, InsulinGlargine, 1441, 1444, "GLA", "", 
+29640, IsophaneInsulin_NPH, 1450, 1453, "NPH", "", 
+29685, ResultMeasuredValue, 1456, 1462, "23 . 6", "", "<http://ctro/data#Outcome_19812> <http://ctro/data#hasResultMeasuredValue> \"23 . 6\"."
+29687, SdDevResValue, 1463, 1475, "+ / - 13 . 4", "", "<http://ctro/data#Outcome_19812> <http://ctro/data#hasSdDevResValue> \"+ / - 13 . 4\"."
+29686, ResultMeasuredValue, 1481, 1487, "23 . 3", "", "<http://ctro/data#Outcome_19839> <http://ctro/data#hasResultMeasuredValue> \"23 . 3\"."
+29688, SdDevResValue, 1488, 1500, "+ / - 12 . 7", "", "<http://ctro/data#Outcome_19839> <http://ctro/data#hasSdDevResValue> \"+ / - 12 . 7\"."
+29689, PvalueDiff, 1503, 1509, "p = NS", "", "<http://ctro/data#DiffBetweenGroups_19871> <http://ctro/data#hasPvalueDiff> \"p = NS\"."
+80241, FastingBloodGlucose, 1552, 1569, "fasting BG levels", "", "<http://ctro/data#Endpoint_19880> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+29692, InsulinGlargine, 1572, 1575, "GLA", "", 
+29694, BaseLineValue, 1578, 1581, "158", "", "<http://ctro/data#Outcome_19885> <http://ctro/data#hasBaselineValue> \"158\"."
+29698, SdDevBL, 1582, 1590, "+ / - 19", "", "<http://ctro/data#Outcome_19885> <http://ctro/data#hasSdDevBL> \"+ / - 19\"."
+29696, ResultMeasuredValue, 1594, 1597, "121", "", "<http://ctro/data#Outcome_19885> <http://ctro/data#hasResultMeasuredValue> \"121\"."
+29700, SdDevResValue, 1598, 1606, "+ / - 23", "", "<http://ctro/data#Outcome_19885> <http://ctro/data#hasSdDevResValue> \"+ / - 23\"."
+29702, Mg_per_deciliter, 1607, 1614, "mg / dl", "", "<http://ctro/data#Endpoint_19880> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+29693, IsophaneInsulin_NPH, 1617, 1620, "NPH", "", 
+29695, BaseLineValue, 1623, 1626, "156", "", "<http://ctro/data#Outcome_19912> <http://ctro/data#hasBaselineValue> \"156\"."
+29699, SdDevBL, 1627, 1635, "+ / - 34", "", "<http://ctro/data#Outcome_19912> <http://ctro/data#hasSdDevBL> \"+ / - 34\"."
+29697, ResultMeasuredValue, 1639, 1642, "119", "", "<http://ctro/data#Outcome_19912> <http://ctro/data#hasResultMeasuredValue> \"119\"."
+29701, SdDevResValue, 1643, 1651, "+ / - 29", "", "<http://ctro/data#Outcome_19912> <http://ctro/data#hasSdDevResValue> \"+ / - 29\"."
+29703, Mg_per_deciliter, 1652, 1659, "mg / dl", "", 
+29704, PValueChangeValue, 1667, 1677, "p < 0 . 01", "", "<http://ctro/data#Outcome_19885> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 01\". <http://ctro/data#Outcome_19912> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 01\"."
+39198, TimePoint, 1683, 1691, "baseline", "", 
+29705, InsulinDose, 1708, 1723, "postprandial BG", "", 
+29706, EndPointDescription, 1763, 1772, "IP levels", "", "<http://ctro/data#EndPointDescription_19940> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_19939> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_19940>."
+29707, PValueChangeValue, 1800, 1810, "p < 0 . 05", "", "<http://ctro/data#Outcome_19944> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\". <http://ctro/data#Outcome_19971> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 05\"."
+29708, InsulinGlargine, 1905, 1908, "GLA", "", 
+29711, EndPointDescription, 1927, 1962, "reduction in IP release after lunch", "", "<http://ctro/data#EndPointDescription_19999> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_19998> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_19999>."
+29709, PvalueDiff, 1965, 1975, "p = 0 . 08", "", "<http://ctro/data#DiffBetweenGroups_20116> <http://ctro/data#hasPvalueDiff> \"p = 0 . 08\"."
+29712, EndPointDescription, 1982, 1988, "dinner", "", "<http://ctro/data#EndPointDescription_20004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_20003> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_20004>."
+29710, PvalueDiff, 1991, 2001, "p = 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_20125> <http://ctro/data#hasPvalueDiff> \"p = 0 . 04\"."
+29714, ConclusionComment, 2080, 2153, "Adding basal insulin to metformin reduces postprandial beta - cell load .", "", "<http://ctro/data#ClinicalTrial_19648> <http://ctro/data#hasConclusionComment> \"Adding basal insulin to metformin reduces postprandial beta - cell load .\"."
+29713, Metformin, 2104, 2113, "metformin", "", 
+29718, ConclusionComment, 2154, 2367, "While GLA and NPH had comparable effects at breakfast , GLA reduces beta - cell stress more effectively at dinner , and with a trend at lunch , most probably because of its longer lasting pharmacodynamic profile .", "", 
+29715, InsulinGlargine, 2160, 2163, "GLA", "", 
+29716, IsophaneInsulin_NPH, 2168, 2171, "NPH", "", 
+29717, InsulinGlargine, 2210, 2213, "GLA", "", 
+29719, PMID, 2447, 2455, "20415692", "", "<http://ctro/data#Publication_19634> <http://ctro/data#hasPMID> \"20415692\"."

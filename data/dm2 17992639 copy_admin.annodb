@@ -1,0 +1,79 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+131, Journal, 0, 16, "Horm Metab Res .", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasJournal> \"Horm Metab Res .\"."
+0, PublicationYear, 17, 21, "2007", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasPublicationYear> \"2007\"."
+68, Title, 50, 217, "Improved meal - related insulin processing contributes to the enhancement of B - cell function by the DPP - 4 inhibitor vildagliptin in patients with type 2 diabetes .", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasTitle> \"Improved meal - related insulin processing contributes to the enhancement of B - cell function by the DPP - 4 inhibitor vildagliptin in patients with type 2 diabetes .\"."
+1, Insulin, 74, 81, "insulin", "", 
+2, Vildagliptin, 170, 182, "vildagliptin", "", 
+3, Type2Diabetes, 200, 215, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_108046> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+4, Author, 218, 227, "Ahr é n B", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasAuthor> \"Ahr é n B\"."
+5, Author, 236, 244, "Pacini G", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasAuthor> \"Pacini G\"."
+6, Author, 247, 253, "Tura A", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasAuthor> \"Tura A\"."
+7, Author, 256, 264, "Foley JE", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasAuthor> \"Foley JE\"."
+8, Author, 267, 278, "Schweizer A", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasAuthor> \"Schweizer A\"."
+9, Sweden, 390, 396, "Sweden", "", "<http://ctro/data#Population_108062> <http://ctro/data#hasCountry> <http://ctro/data#Sweden>."
+97, ObjectiveDescription, 426, 610, "The aim of this study was to evaluate the contribution of insulin processing to the improved meal - related B - cell function previously shown with the DPP - 4 inhibitor vildagliptin .", "", "<http://ctro/data#ClinicalTrial_108046> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was to evaluate the contribution of insulin processing to the improved meal - related B - cell function previously shown with the DPP - 4 inhibitor vildagliptin .\"."
+10, Insulin, 484, 491, "insulin", "", 
+11, Vildagliptin, 596, 608, "vildagliptin", "", 
+12, NumberPatientsCT, 611, 623, "Fifty - five", "", "<http://ctro/data#ClinicalTrial_108046> <http://ctro/data#hasNumberPatientsCT> \"Fifty - five\"."
+106299, Precondition, 624, 746, "patients with type 2 diabetes ( 56 . 5 + / - 1 . 5 years ; BMI = 29 . 6 + / - 0 . 5 kg / m ( 2 ) ; FPG = 9 . 9 + / - 0 . 2", "", "<http://ctro/data#Population_108062> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes ( 56 . 5 + / - 1 . 5 years ; BMI = 29 . 6 + / - 0 . 5 kg / m ( 2 ) ; FPG = 9 . 9 + / - 0 . 2\"."
+13, Type2Diabetes, 638, 653, "type 2 diabetes", "", 
+14, AvgAge, 656, 662, "56 . 5", "", "<http://ctro/data#Population_108062> <http://ctro/data#hasAvgAge> \"56 . 5\"."
+87, Year, 675, 680, "years", "", 
+15, BMI, 683, 686, "BMI", "", 
+85, BaseLineValue, 689, 695, "29 . 6", "", 
+50307, SdDevBL, 702, 707, "0 . 5", "", 
+16, Kg_per_squareMeter, 708, 720, "kg / m ( 2 )", "", 
+17, FastingPlasmaGlucose, 723, 726, "FPG", "", 
+86, BaseLineValue, 729, 734, "9 . 9", "", 
+50308, SdDevBL, 741, 746, "0 . 2", "", 
+18, Millimoles_per_litre, 747, 755, "mmol / l", "", 
+106299, Precondition, 747, 947, "mmol / l ; HbA1c = 7 . 7 + / - 0 . 1 % ) were studied : 29 patients were treated with vildagliptin and 26 patients with placebo , both added to an ongoing metformin regimen ( 1 . 5 - 3 . 0 g / day ) .", "", "<http://ctro/data#Population_108062> <http://ctro/data#hasPrecondition> \"mmol / l ; HbA1c = 7 . 7 + / - 0 . 1 % ) were studied : 29 patients were treated with vildagliptin and 26 patients with placebo , both added to an ongoing metformin regimen ( 1 . 5 - 3 . 0 g / day ) .\"."
+19, HbA1c, 758, 763, "HbA1c", "", 
+84, BaseLineValue, 766, 771, "7 . 7", "", 
+50309, SdDevBL, 778, 783, "0 . 1", "", 
+20, Percentage, 784, 785, "%", "", 
+21, NumberPatientsArm, 803, 805, "29", "", "<http://ctro/data#Arm_108086> <http://ctro/data#hasNumberPatientsArm> \"29\"."
+22, Vildagliptin, 833, 845, "vildagliptin", "", "<http://ctro/data#Medication_108129> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+23, NumberPatientsArm, 850, 852, "26", "", "<http://ctro/data#Arm_108095> <http://ctro/data#hasNumberPatientsArm> \"26\"."
+24, Placebo, 867, 874, "placebo", "", "<http://ctro/data#Medication_108136> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+25, Metformin, 902, 911, "metformin", "", "<http://ctro/data#Medication_108122> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+26, DoseValue, 922, 935, "1 . 5 - 3 . 0", "", "<http://ctro/data#Medication_108122> <http://ctro/data#hasDoseValue> \"1 . 5 - 3 . 0\"."
+27, Gram, 936, 937, "g", "", "<http://ctro/data#Medication_108122> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram>."
+28, Interval, 940, 943, "day", "", "<http://ctro/data#Intervention_108104> <http://ctro/data#hasInterval> \"day\"."
+134, TimePoint, 986, 994, "baseline", "", 
+30, Duration, 1005, 1013, "52 weeks", "", "<http://ctro/data#ClinicalTrial_108046> <http://ctro/data#hasCTduration> \"52 weeks\"."
+32, Insulin, 1033, 1043, "proinsulin", "", 
+50310, EndPointDescription, 1055, 1072, "insulin secretion", "", 
+35, EndPointDescription, 1179, 1196, "B - cell function", "", 
+37, Vildagliptin, 1236, 1248, "vildagliptin", "", 
+38, Placebo, 1251, 1258, "placebo", "", 
+101, Mean, 1264, 1268, "mean", "", "<http://ctro/data#Mean_108073> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108071> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108073>."
+139, TimePoint, 1281, 1289, "baseline", "", 
+50311, EndPointDescription, 1293, 1332, "fasting proinsulin to C - peptide ratio", "", 
+50312, EndPointDescription, 1335, 1344, "fastP / C", "", "<http://ctro/data#EndPointDescription_108072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_108071> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_108072>."
+103, DiffGroupAbsValue, 1351, 1360, "- 0 . 007", "", "<http://ctro/data#DiffBetweenGroups_108199> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 007\"."
+44, SdDevDiff, 1367, 1374, "0 . 009", "", "<http://ctro/data#DiffBetweenGroups_108199> <http://ctro/data#hasStandardDevDiff> \"0 . 009\"."
+45, PvalueDiff, 1377, 1388, "p = 0 . 052", "", "<http://ctro/data#DiffBetweenGroups_108199> <http://ctro/data#hasPvalueDiff> \"p = 0 . 052\"."
+46, Duration, 1428, 1436, "52 weeks", "", 
+47, Vildagliptin, 1455, 1467, "vildagliptin", "", 
+41, EndPointDescription, 1496, 1535, "dynamic proinsulin to C - peptide ratio", "", 
+42, EndPointDescription, 1538, 1546, "dynP / C", "", "<http://ctro/data#EndPointDescription_108077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_108076> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_108077>."
+48, Placebo, 1561, 1568, "placebo", "", 
+50313, Reduction, 1572, 1579, "0 . 010", "", "<http://ctro/data#Outcome_108284> <http://ctro/data#hasChangeValue> \"0 . 010\"."
+50314, SdDevChangeValue, 1586, 1593, "0 . 008", "", "<http://ctro/data#Outcome_108284> <http://ctro/data#hasSdDevChangeValue> \"0 . 008\"."
+51, PValueChangeValue, 1596, 1607, "p = 0 . 037", "", "<http://ctro/data#Outcome_108284> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 037\"."
+52, EndPointDescription, 1635, 1640, "P / C", "", "<http://ctro/data#EndPointDescription_108082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_108081> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_108082>."
+54, FastingPlasmaGlucose, 1707, 1722, "fasting glucose", "", 
+55, EndPointDescription, 1727, 1738, "glucose AUC", "", 
+53, EndPointDescription, 1778, 1783, "P / C", "", "<http://ctro/data#EndPointDescription_108082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_108081> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_108082>."
+118, ObservedResult, 1804, 1829, "was significantly reduced", "", "<http://ctro/data#Outcome_108208> <http://ctro/data#hasObservedResult> \"was significantly reduced\". <http://ctro/data#Outcome_108236> <http://ctro/data#hasObservedResult> \"was significantly reduced\"."
+56, Vildagliptin, 1835, 1847, "vildagliptin", "", 
+57, Placebo, 1853, 1860, "placebo", "", 
+50315, ObservedResult, 1863, 1939, "both in the fasting state ( p = 0 . 023 ) and postprandially ( p = 0 . 004 )", "", "<http://ctro/data#Outcome_108208> <http://ctro/data#hasObservedResult> \"both in the fasting state ( p = 0 . 023 ) and postprandially ( p = 0 . 004 )\". <http://ctro/data#Outcome_108236> <http://ctro/data#hasObservedResult> \"both in the fasting state ( p = 0 . 023 ) and postprandially ( p = 0 . 004 )\"."
+59, PvalueDiff, 1891, 1902, "p = 0 . 023", "", "<http://ctro/data#DiffBetweenGroups_108264> <http://ctro/data#hasPvalueDiff> \"p = 0 . 023\"."
+60, PvalueDiff, 1926, 1937, "p = 0 . 004", "", 
+121, ConclusionComment, 1942, 2130, "In conclusion , a more efficient B - cell insulin processing provides further evidence that vildagliptin treatment ameliorates abnormal B - cell function in patients with type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_108046> <http://ctro/data#hasConclusionComment> \"In conclusion , a more efficient B - cell insulin processing provides further evidence that vildagliptin treatment ameliorates abnormal B - cell function in patients with type 2 diabetes .\"."
+61, Insulin, 1984, 1991, "insulin", "", 
+62, Vildagliptin, 2034, 2046, "vildagliptin", "", 
+63, Type2Diabetes, 2113, 2128, "type 2 diabetes", "", 
+64, PMID, 2174, 2182, "17992639", "", "<http://ctro/data#Publication_108035> <http://ctro/data#hasPMID> \"17992639\"."

@@ -1,0 +1,63 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 15, "Ophthalmologica", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasJournal> \"Ophthalmologica\"."
+1, PublicationYear, 18, 22, "1994", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasPublicationYear> \"1994\"."
+8, Title, 46, 156, "A comparison of the ocular hypotensive efficacy and systemic safety of 0 . 5 % levobunolol and 2 % carteolol .", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasTitle> \"A comparison of the ocular hypotensive efficacy and systemic safety of 0 . 5 % levobunolol and 2 % carteolol .\"."
+2, DoseValue, 117, 122, "0 . 5", "", 
+4, Percentage, 123, 124, "%", "", 
+6, Levobunolol, 125, 136, "levobunolol", "", 
+3, DoseValue, 141, 142, "2", "", 
+5, Percentage, 143, 144, "%", "", 
+7, Carteolol, 145, 154, "carteolol", "", 
+10, Author, 157, 176, "Behrens - Baumann W", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasAuthor> \"Behrens - Baumann W\"."
+11, Author, 185, 194, "Kimmich F", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasAuthor> \"Kimmich F\"."
+12, Author, 197, 204, "Walt JG", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasAuthor> \"Walt JG\"."
+13, Author, 207, 212, "Lue J", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasAuthor> \"Lue J\"."
+9, Germany, 298, 301, "FRG", "", "<http://ctro/data#Population_97423> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+85, ObjectiveDescription, 304, 540, "In a 3 - month , double - masked , randomized clinical trial , the ocular hypotensive efficacy and systemic safety of 0 . 5 % levobunolol and 2 % carteolol were compared in 59 patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasObjectiveDescription> \"In a 3 - month , double - masked , randomized clinical trial , the ocular hypotensive efficacy and systemic safety of 0 . 5 % levobunolol and 2 % carteolol were compared in 59 patients with open - angle glaucoma or ocular hypertension .\"."
+14, Duration, 309, 318, "3 - month", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasCTduration> \"3 - month\"."
+15, DoubleBlind, 321, 336, "double - masked", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+16, Randomized, 339, 349, "randomized", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+18, DoseValue, 422, 427, "0 . 5", "", "<http://ctro/data#Medication_97431> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+20, Percentage, 428, 429, "%", "", "<http://ctro/data#Medication_97431> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+23, Levobunolol, 430, 441, "levobunolol", "", "<http://ctro/data#Medication_97431> <http://ctro/data#hasDrug> <http://ctro/data#Levobunolol>."
+19, DoseValue, 446, 447, "2", "", "<http://ctro/data#Medication_97438> <http://ctro/data#hasDoseValue> \"2\"."
+21, Percentage, 448, 449, "%", "", "<http://ctro/data#Medication_97438> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+22, Carteolol, 450, 459, "carteolol", "", "<http://ctro/data#Medication_97438> <http://ctro/data#hasDrug> <http://ctro/data#Carteolol>."
+24, NumberPatientsCT, 477, 479, "59", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasNumberPatientsCT> \"59\"."
+25, OpenAngleGlaucoma, 494, 515, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+26, OcularHypertension, 519, 538, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+27, Mean, 553, 557, "mean", "", "<http://ctro/data#Mean_97477> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_97475> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_97477>."
+28, IOP, 570, 590, "intraocular pressure", "", "<http://ctro/data#IOP_97476> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_97475> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_97476>."
+29, Reduction, 595, 600, "7 . 3", "", "<http://ctro/data#Outcome_97507> <http://ctro/data#hasChangeValue> \"7 . 3\"."
+33, mmHg, 601, 606, "mm Hg", "", "<http://ctro/data#Endpoint_97475> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+31, RelativeReduction, 609, 615, "27 . 4", "", "<http://ctro/data#Outcome_97507> <http://ctro/data#hasRelativeChangeValue> \"27 . 4\"."
+35, DoseValue, 627, 632, "0 . 5", "", 
+36, Percentage, 633, 634, "%", "", 
+37, Levobunolol, 635, 646, "levobunolol", "", 
+30, Reduction, 657, 662, "4 . 1", "", "<http://ctro/data#Outcome_97480> <http://ctro/data#hasChangeValue> \"4 . 1\"."
+34, mmHg, 663, 668, "mm Hg", "", 
+32, RelativeReduction, 671, 677, "14 . 8", "", "<http://ctro/data#Outcome_97480> <http://ctro/data#hasRelativeChangeValue> \"14 . 8\"."
+38, Carteolol, 689, 698, "carteolol", "", 
+96, PvalueDiff, 755, 767, "p = 0 . 0004", "", "<http://ctro/data#DiffBetweenGroups_97534> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0004\"."
+41, Mean, 871, 875, "mean", "", 
+42, HeartRate, 876, 886, "heart rate", "", 
+44, Mean, 929, 933, "mean", "", "<http://ctro/data#Mean_97545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_97543> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_97545>."
+45, HeartRate, 946, 956, "heart rate", "", "<http://ctro/data#HeartRate_97544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_97543> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_97544>."
+46, Carteolol, 964, 973, "carteolol", "", 
+49, Reduction, 996, 1001, "8 . 4", "", "<http://ctro/data#Outcome_97575> <http://ctro/data#hasChangeValue> \"8 . 4\"."
+105, BioAndMedicalUnit, 1002, 1013, "beats / min", "", "<http://ctro/data#BioAndMedicalUnit_97546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_97543> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_97546>."
+108, Levobunolol, 1028, 1039, "levobunolol", "", 
+50, Reduction, 1050, 1055, "3 . 1", "", "<http://ctro/data#Outcome_97548> <http://ctro/data#hasChangeValue> \"3 . 1\"."
+106, BioAndMedicalUnit, 1056, 1067, "beats / min", "", 
+109, PvalueDiff, 1128, 1139, "p = 0 . 059", "", "<http://ctro/data#DiffBetweenGroups_97602> <http://ctro/data#hasPvalueDiff> \"p = 0 . 059\"."
+61, ConclusionComment, 1144, 1307, "We conclude that 0 . 5 % levobunolol and 2 % carteolol administered twice daily differ in lowering intraocular pressure as well as in their effects on heart rate .", "", "<http://ctro/data#ClinicalTrial_97405> <http://ctro/data#hasConclusionComment> \"We conclude that 0 . 5 % levobunolol and 2 % carteolol administered twice daily differ in lowering intraocular pressure as well as in their effects on heart rate .\"."
+52, DoseValue, 1161, 1166, "0 . 5", "", 
+59, Percentage, 1167, 1168, "%", "", 
+56, Levobunolol, 1169, 1180, "levobunolol", "", 
+53, DoseValue, 1185, 1186, "2", "", 
+60, Percentage, 1187, 1188, "%", "", 
+54, Carteolol, 1189, 1198, "carteolol", "", 
+55, Frequency, 1212, 1223, "twice daily", "", "<http://ctro/data#Intervention_97445> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_97451> <http://ctro/data#hasFrequency> \"twice daily\"."
+57, IOP, 1243, 1263, "intraocular pressure", "", 
+58, HeartRate, 1295, 1305, "heart rate", "", 
+62, PMID, 1343, 1350, "8145982", "", "<http://ctro/data#Publication_97395> <http://ctro/data#hasPMID> \"8145982\"."

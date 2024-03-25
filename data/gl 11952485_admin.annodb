@@ -1,0 +1,53 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "Acta Ophthalmol Scand .", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasJournal> \"Acta Ophthalmol Scand .\"."
+1, PublicationYear, 24, 28, "2002", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasPublicationYear> \"2002\"."
+2, Title, 57, 171, "Dorzolamide and ocular blood flow in previously untreated glaucoma patients : a controlled double - masked study .", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasTitle> \"Dorzolamide and ocular blood flow in previously untreated glaucoma patients : a controlled double - masked study .\"."
+31, Dorzolamide, 57, 68, "Dorzolamide", "", "<http://ctro/data#Medication_37228> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+41378, OcularBloodFlow, 73, 90, "ocular blood flow", "", 
+3, Precondition, 94, 114, "previously untreated", "", "<http://ctro/data#Population_37169> <http://ctro/data#hasPrecondition> \"previously untreated\"."
+4, Glaucoma, 115, 123, "glaucoma", "", "<http://ctro/data#Glaucoma_37160> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_37151> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_37160>."
+5, DoubleBlind, 148, 163, "double - masked", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+7, Author, 172, 185, "Bergstrand IC", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasAuthor> \"Bergstrand IC\"."
+8, Author, 194, 201, "Heijl A", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasAuthor> \"Heijl A\"."
+9, Author, 204, 212, "Harris A", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasAuthor> \"Harris A\"."
+6, Sweden, 309, 315, "Sweden", "", "<http://ctro/data#Population_37169> <http://ctro/data#hasCountry> <http://ctro/data#Sweden>."
+10, ObjectiveDescription, 442, 604, "The aim of this study was to investigate the haemodynamic effects of topical dorzolamide treatment in eyes with newly detected and previously untreated glaucoma .", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was to investigate the haemodynamic effects of topical dorzolamide treatment in eyes with newly detected and previously untreated glaucoma .\"."
+32, Dorzolamide, 519, 530, "dorzolamide", "", 
+54, Precondition, 554, 602, "newly detected and previously untreated glaucoma", "", "<http://ctro/data#Population_37169> <http://ctro/data#hasPrecondition> \"newly detected and previously untreated glaucoma\"."
+34, Glaucoma, 594, 602, "glaucoma", "", 
+12, NumberPatientsCT, 615, 628, "Forty - seven", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasNumberPatientsCT> \"Forty - seven\"."
+13, OpenAngleGlaucoma, 643, 662, "open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+14, Randomized, 682, 692, "randomized", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, Dorzolamide, 696, 707, "dorzolamide", "", 
+15, Placebo, 715, 722, "placebo", "", "<http://ctro/data#Medication_37235> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+16, Frequency, 723, 726, "TID", "", "<http://ctro/data#Intervention_37216> <http://ctro/data#hasFrequency> \"TID\". <http://ctro/data#Intervention_37222> <http://ctro/data#hasFrequency> \"TID\"."
+17, Duration, 736, 744, "6 - week", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasCTduration> \"6 - week\"."
+18, DoubleBlind, 745, 760, "double - masked", "", 
+41381, OcularBloodFlow, 779, 796, "Ocular blood flow", "", 
+41393, TimePoint, 817, 825, "baseline", "", 
+41394, MeasurementDevice, 847, 869, "colour Doppler imaging", "", "<http://ctro/data#MeasurementDevice_37187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_37183> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_37187>."
+41395, MeasurementDevice, 901, 930, "scanning laser ophthalmoscope", "", 
+41426, ObservedResult, 993, 1138, "None of the flow parameters , retrobulbar or retinal , changed significantly on therapy when the results were analysed with the Bonferroni method", "", "<http://ctro/data#Outcome_37323> <http://ctro/data#hasObservedResult> \"None of the flow parameters , retrobulbar or retinal , changed significantly on therapy when the results were analysed with the Bonferroni method\"."
+41422, EndPointDescription, 1005, 1045, "flow parameters , retrobulbar or retinal", "", "<http://ctro/data#EndPointDescription_37189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_37188> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_37189>."
+41396, MeasurementDevice, 1121, 1138, "Bonferroni method", "", "<http://ctro/data#MeasurementDevice_37192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_37188> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_37192>."
+41399, MeasurementDevice, 1155, 1179, "non - simultaneous tests", "", 
+40, Mean, 1439, 1443, "mean", "", 
+41403, EndPointDescription, 1497, 1535, "capillary velocities at the optic disc", "", "<http://ctro/data#EndPointDescription_37194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_37193> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_37194>."
+39, Dorzolamide, 1567, 1578, "dorzolamide", "", 
+41, PValueChangeValue, 1587, 1597, "P = 0 . 03", "", "<http://ctro/data#Outcome_37296> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 03\"."
+19, IOP, 1602, 1622, "Intraocular pressure", "", 
+36, Dorzolamide, 1674, 1685, "dorzolamide", "", 
+23, PvalueDiff, 1694, 1705, "P = 0 . 002", "", "<http://ctro/data#DiffBetweenGroups_37350> <http://ctro/data#hasPvalueDiff> \"P = 0 . 002\"."
+20, Reduction, 1717, 1722, "4 . 8", "", "<http://ctro/data#Outcome_37242> <http://ctro/data#hasChangeValue> \"4 . 8\"."
+21, SdErrorChangeValue, 1729, 1734, "2 . 9", "", "<http://ctro/data#Outcome_37242> <http://ctro/data#hasSdErrorChangeValue> \"2 . 9\"."
+22, mmHg, 1735, 1739, "mmHg", "", 
+24, PValueChangeValue, 1742, 1754, "P < 0 . 0001", "", "<http://ctro/data#Outcome_37242> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+25, Reduction, 1766, 1771, "1 . 8", "", "<http://ctro/data#Outcome_37269> <http://ctro/data#hasChangeValue> \"1 . 8\"."
+26, SdErrorChangeValue, 1778, 1783, "3 . 0", "", "<http://ctro/data#Outcome_37269> <http://ctro/data#hasSdErrorChangeValue> \"3 . 0\"."
+27, mmHg, 1784, 1788, "mmHg", "", 
+38, Placebo, 1796, 1803, "placebo", "", 
+28, PValueChangeValue, 1812, 1823, "P = 0 . 006", "", "<http://ctro/data#Outcome_37269> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 006\"."
+29, ConclusionComment, 1842, 1975, "The present study indicated no measurable vascular effects from topical dorzolamide treatment in previously untreated glaucoma eyes .", "", "<http://ctro/data#ClinicalTrial_37151> <http://ctro/data#hasConclusionComment> \"The present study indicated no measurable vascular effects from topical dorzolamide treatment in previously untreated glaucoma eyes .\"."
+82, Dorzolamide, 1914, 1925, "dorzolamide", "", 
+37, Glaucoma, 1960, 1968, "glaucoma", "", 
+30, PMID, 1983, 1991, "11952485", "", "<http://ctro/data#Publication_37135> <http://ctro/data#hasPMID> \"11952485\"."

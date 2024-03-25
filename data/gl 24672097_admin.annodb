@@ -1,0 +1,126 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 24, "Curr Ther Res Clin Exp .", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasJournal> \"Curr Ther Res Clin Exp .\"."
+1, PublicationYear, 25, 29, "2004", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasPublicationYear> \"2004\"."
+92, Title, 110, 348, "Comparison of the effects of bimatoprost and timolol on intraocular pressure and pulsatile ocular blood flow in patients with primary open - angle glaucoma : A prospective , open - label , randomized , two - arm , parallel - group study .", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasTitle> \"Comparison of the effects of bimatoprost and timolol on intraocular pressure and pulsatile ocular blood flow in patients with primary open - angle glaucoma : A prospective , open - label , randomized , two - arm , parallel - group study .\"."
+2, Bimatoprost, 139, 150, "bimatoprost", "", 
+3, Timolol, 155, 162, "timolol", "", 
+4, IOP, 166, 186, "intraocular pressure", "", 
+92869, PulsatileOcularFlow, 191, 218, "pulsatile ocular blood flow", "", 
+26991, Primary_OpenAngleGlaucoma, 236, 265, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+37027, Prospective, 270, 281, "prospective", "", 
+6, OpenLabel, 284, 296, "open - label", "", 
+7, Randomized, 299, 309, "randomized", "", 
+8, Parallel, 324, 332, "parallel", "", 
+9, Author, 349, 359, "Vetrugno M", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> \"Vetrugno M\"."
+10, Author, 368, 379, "Cardascia N", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> \"Cardascia N\"."
+11, Author, 388, 399, "Cantatore F", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> \"Cantatore F\"."
+12, Author, 408, 417, "Sborgia C", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasAuthor> \"Sborgia C\"."
+13, Italy, 536, 541, "Italy", "", "<http://ctro/data#Population_93496> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+14, Italy, 638, 643, "Italy", "", 
+16, IOP, 733, 753, "intraocular pressure", "", 
+17, IOP, 756, 759, "IOP", "", 
+31420, EndPointDescription, 1011, 1031, "choroidal blood flow", "AdverseEffect", 
+18, Bimatoprost, 1034, 1045, "Bimatoprost", "", 
+19, IOP, 1108, 1111, "IOP", "", 
+20, Timolol, 1196, 1211, "timolol maleate", "", 
+111, ObjectiveDescription, 1297, 1521, "The aim of this study was to compare the effects of bimatoprost and timolol on IOP and choroidal blood flow ( as measured using pulsatile ocular blood flow [ pOBF ] ) in patients with primary open - angle glaucoma ( POAG ) .", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was to compare the effects of bimatoprost and timolol on IOP and choroidal blood flow ( as measured using pulsatile ocular blood flow [ pOBF ] ) in patients with primary open - angle glaucoma ( POAG ) .\"."
+22, Bimatoprost, 1349, 1360, "bimatoprost", "", 
+23, Timolol, 1365, 1372, "timolol", "", 
+24, IOP, 1376, 1379, "IOP", "", 
+31421, EndPointDescription, 1384, 1404, "choroidal blood flow", "AdverseEffect", 
+92870, PulsatileOcularFlow, 1425, 1452, "pulsatile ocular blood flow", "", 
+92871, PulsatileOcularFlow, 1455, 1459, "pOBF", "", 
+26995, Primary_OpenAngleGlaucoma, 1481, 1510, "primary open - angle glaucoma", "", 
+26996, Primary_OpenAngleGlaucoma, 1513, 1517, "POAG", "", 
+37028, Prospective, 1537, 1548, "prospective", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+26, OpenLabel, 1551, 1563, "open - label", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+27, Randomized, 1566, 1576, "randomized", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+28, Parallel, 1589, 1597, "parallel", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+117, Glaucoma, 1633, 1641, "Glaucoma", "", 
+29, Italy, 1727, 1732, "Italy", "", 
+121, Precondition, 1735, 1970, "Patients with POAG having well - controlled IOP ( < 16 mm Hg ) on monotherapy with timolol 0 . 5 % ophthalmic solution ( 2 drops per affected eye BID ) for ≥ 12 months but with a progressive decrease in pOBF during the same time period", "", "<http://ctro/data#Population_93496> <http://ctro/data#hasPrecondition> \"Patients with POAG having well - controlled IOP ( < 16 mm Hg ) on monotherapy with timolol 0 . 5 % ophthalmic solution ( 2 drops per affected eye BID ) for ≥ 12 months but with a progressive decrease in pOBF during the same time period\"."
+26997, Primary_OpenAngleGlaucoma, 1749, 1753, "POAG", "", 
+34, IOP, 1779, 1782, "IOP", "", 
+120, mmHg, 1790, 1795, "mm Hg", "", 
+31, Timolol, 1818, 1825, "timolol", "", 
+32, DoseValue, 1826, 1831, "0 . 5", "", 
+33, Percentage, 1832, 1833, "%", "", 
+68, DoseValue, 1856, 1857, "2", "", 
+69, Eyedrops, 1858, 1863, "drops", "", 
+126, Frequency, 1881, 1884, "BID", "", 
+92872, PulsatileOcularFlow, 1938, 1942, "pOBF", "", 
+106348, Randomized, 1976, 1984, "randomly", "", 
+35, Timolol, 2061, 2068, "timolol", "", "<http://ctro/data#Medication_93505> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+66, DoseValue, 2071, 2072, "2", "", "<http://ctro/data#Medication_93505> <http://ctro/data#hasDoseValue> \"2\"."
+65, Eyedrops, 2073, 2078, "drops", "", "<http://ctro/data#Medication_93505> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+129, Frequency, 2096, 2099, "BID", "", "<http://ctro/data#Intervention_93512> <http://ctro/data#hasFrequency> \"BID\"."
+36, Bimatoprost, 2154, 2165, "bimatoprost", "", "<http://ctro/data#Medication_93518> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+37, DoseValue, 2166, 2171, "0 . 3", "", "<http://ctro/data#Medication_93518> <http://ctro/data#hasDoseValue> \"0 . 3\"."
+132, Percentage, 2172, 2173, "%", "", "<http://ctro/data#Medication_93518> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+31423, DeliveryMethod, 2174, 2193, "ophthalmic solution", "", "<http://ctro/data#DeliveryMethod_93522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_93518> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_93522>."
+67, DoseValue, 2196, 2197, "2", "", 
+38, Eyedrops, 2198, 2203, "drops", "", 
+134, Frequency, 2221, 2223, "QD", "", "<http://ctro/data#Intervention_93525> <http://ctro/data#hasFrequency> \"QD\"."
+106347, Evening, 2226, 2230, "9 pm", "", 
+135, Duration, 2261, 2269, "180 days", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasCTduration> \"180 days\"."
+40, IOP, 2272, 2275, "IOP", "", 
+92877, PulsatileOcularFlow, 2280, 2284, "pOBF", "", 
+42, Timolol, 2331, 2338, "timolol", "", 
+31418, TimePoint, 2343, 2351, "baseline", "", 
+31419, TimePoint, 2354, 2359, "day 0", "", 
+26999, TimePoint, 2378, 2410, "days 15 , 30 , 60 , 90 , and 180", "", 
+138, ConjunctivalHyperemia, 2452, 2474, "conjunctival hyperemia", "", 
+37031, EndPointDescription, 2477, 2498, "conjunctival papillae", "AdverseEffect", 
+37032, Stinging, 2501, 2509, "stinging", "AdverseEffect", 
+37033, EndPointDescription, 2512, 2519, "burning", "AdverseEffect", 
+37034, EndPointDescription, 2522, 2544, "foreign body sensation", "AdverseEffect", 
+37035, EndPointDescription, 2551, 2583, "pigmentation of periorbital skin", "AdverseEffect", 
+139, NumberPatientsCT, 2634, 2648, "Thirty - eight", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasNumberPatientsCT> \"Thirty - eight\"."
+140, Male, 2677, 2680, "men", "", "<http://ctro/data#Population_93496> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+141, Female, 2686, 2691, "women", "", "<http://ctro/data#Population_93496> <http://ctro/data#hasGender> <http://ctro/data#Female>."
+142, Mean, 2694, 2698, "mean", "", 
+46, AvgAge, 2712, 2718, "51 . 7", "", "<http://ctro/data#Population_93496> <http://ctro/data#hasAvgAge> \"51 . 7\"."
+45, NumberPatientsArm, 2737, 2739, "19", "", "<http://ctro/data#Arm_93531> <http://ctro/data#hasNumberPatientsArm> \"19\". <http://ctro/data#Arm_93540> <http://ctro/data#hasNumberPatientsArm> \"19\"."
+51, ObservedResult, 2792, 2902, "At 180 - day follow - up in the timolol group , the IOP and the pOBF remained unchanged compared with baseline", "", "<http://ctro/data#Outcome_93559> <http://ctro/data#hasObservedResult> \"At 180 - day follow - up in the timolol group , the IOP and the pOBF remained unchanged compared with baseline\". <http://ctro/data#Outcome_93586> <http://ctro/data#hasObservedResult> \"At 180 - day follow - up in the timolol group , the IOP and the pOBF remained unchanged compared with baseline\"."
+27000, TimePoint, 2795, 2804, "180 - day", "", "<http://ctro/data#Outcome_93559> <http://ctro/data#hasTimePoint> \"180 - day\". <http://ctro/data#Outcome_93586> <http://ctro/data#hasTimePoint> \"180 - day\"."
+48, Timolol, 2824, 2831, "timolol", "", 
+49, IOP, 2844, 2847, "IOP", "", "<http://ctro/data#IOP_93550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_93549> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_93550>."
+92875, PulsatileOcularFlow, 2856, 2860, "pOBF", "", "<http://ctro/data#Endpoint_93554> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PulsatileOcularFlow>."
+146, Bimatoprost, 2912, 2923, "bimatoprost", "", 
+147, IOP, 2934, 2937, "IOP", "", 
+106349, ObservedResult, 2938, 2956, "remained unchanged", "", "<http://ctro/data#Outcome_93613> <http://ctro/data#hasObservedResult> \"remained unchanged\"."
+92876, PulsatileOcularFlow, 2965, 2969, "pOBF", "", 
+53, RelativeReduction, 2987, 2993, "38 . 9", "", "<http://ctro/data#Outcome_93640> <http://ctro/data#hasRelativeChangeValue> \"38 . 9\"."
+54, PValueChangeValue, 3021, 3031, "P < 0 . 01", "", "<http://ctro/data#Outcome_93640> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 01\"."
+58, ConjunctivalHyperemia, 3079, 3101, "conjunctival hyperemia", "", 
+105204, Ocular_Itching, 3106, 3120, "ocular itching", "", 
+55, NumberAffected, 3123, 3124, "5", "", 
+151, PercentageAffected, 3136, 3142, "26 . 3", "", 
+59, Bimatoprost, 3154, 3165, "bimatoprost", "", 
+60, IrisPigmentation, 3178, 3210, "pigmentation of periorbital skin", "", 
+61, NumberAffected, 3213, 3214, "2", "", 
+154, PercentageAffected, 3226, 3232, "40 . 0", "", 
+62, Bimatoprost, 3244, 3255, "bimatoprost", "", 
+64, ObservedResult, 3266, 3352, "The incidence of each AE was higher in the bimatoprost group than in the timolol group", "", 
+63, PvalueDiff, 3355, 3366, "P = 0 . 008", "", 
+169, ConclusionComment, 3385, 3586, "In this population of patients with POAG , bimatoprost was associated with increased pOBF , and the reduction in pOBF associated with timolol was corrected after patients were switched to bimatoprost .", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> \"In this population of patients with POAG , bimatoprost was associated with increased pOBF , and the reduction in pOBF associated with timolol was corrected after patients were switched to bimatoprost .\"."
+27002, Primary_OpenAngleGlaucoma, 3421, 3425, "POAG", "", 
+72, Bimatoprost, 3428, 3439, "bimatoprost", "", 
+92873, PulsatileOcularFlow, 3470, 3474, "pOBF", "", 
+92874, PulsatileOcularFlow, 3498, 3502, "pOBF", "", 
+73, Timolol, 3519, 3526, "timolol", "", 
+74, Bimatoprost, 3573, 3584, "bimatoprost", "", 
+170, ConclusionComment, 3587, 3705, "Bimatoprost was associated with increased choroidal blood flow , beyond the levels recorded before timolol treatment .", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> \"Bimatoprost was associated with increased choroidal blood flow , beyond the levels recorded before timolol treatment .\"."
+78, Bimatoprost, 3587, 3598, "Bimatoprost", "", 
+31417, EndPointDescription, 3619, 3649, "increased choroidal blood flow", "AdverseEffect", 
+79, Timolol, 3686, 3693, "timolol", "", 
+171, ConclusionComment, 3706, 3806, "The decreased IOP level achieved in the timolol group seemed to be improved further by bimatoprost .", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> \"The decreased IOP level achieved in the timolol group seemed to be improved further by bimatoprost .\"."
+85, IOP, 3720, 3723, "IOP", "", 
+86, Timolol, 3746, 3753, "timolol", "", 
+87, Bimatoprost, 3793, 3804, "bimatoprost", "", 
+172, ConclusionComment, 3807, 3972, "Considering the potential efficacy of bimatoprost on IOP and pOBF , we suggest that this new drug may represent a clinical advance in the medical treatment of POAG .", "", "<http://ctro/data#ClinicalTrial_93474> <http://ctro/data#hasConclusionComment> \"Considering the potential efficacy of bimatoprost on IOP and pOBF , we suggest that this new drug may represent a clinical advance in the medical treatment of POAG .\"."
+83, Bimatoprost, 3845, 3856, "bimatoprost", "", 
+81, IOP, 3860, 3863, "IOP", "", 
+92878, PulsatileOcularFlow, 3868, 3872, "pOBF", "", 
+27004, Primary_OpenAngleGlaucoma, 3966, 3970, "POAG", "", 
+80, PMID, 4049, 4057, "24672097", "", "<http://ctro/data#Publication_93464> <http://ctro/data#hasPMID> \"24672097\"."

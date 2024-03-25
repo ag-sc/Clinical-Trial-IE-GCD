@@ -1,0 +1,134 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_96739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_96739> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasTitle> "A six - month , randomized , double - masked study comparing latanoprost with timolol in open - angle glaucoma and ocular hypertension ." .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasAuthor> "Watson P" .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasPublicationYear> "1996" .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasJournal> "Ophthalmology" .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasPMID> "8628543" .
+<http://ctro/data#Publication_96739> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_96747> .
+<http://ctro/data#Publication_96739> <http://ctro/data#hasAuthor> "Stjernschantz J" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_96747> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_96747> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasObjectiveDescription> "To compare the intraocular pressure ( IOP ) - reducing effect and side effects of 0 . 005 % latanoprost administered once daily with 0 . 5 % timolol administered twice daily in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasNumberPatientsCT> "294" .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTduration> "six - month" .
+<http://ctro/data#AllocationRatio_96751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_96752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> "Latanoprost 0 . 005 % administered once daily in the evening reduced IOP at least as well as timolol 0 . 5 % administered twice daily ." .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasArm> <http://ctro/data#Arm_96792> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasPopulation> <http://ctro/data#Population_96769> .
+<http://ctro/data#DiffBetweenGroups_96758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_96759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasObjectiveDescription> "The primary objective of the study is to compare the IOP - reducing effect of lantanoprost with that of timolol at the end of the 6 - month treatment period ." .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> "Latanoprost was generally well tolerated systemically and in the eye ." .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasConclusionComment> "However , the drug has an unusual side effect of increasing the pigmentation of the iris , particularly in individuals with green - brown or blue - brown eyes ." .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_96747> <http://ctro/data#hasArm> <http://ctro/data#Arm_96801> .
+# RDF export of group: Population
+<http://ctro/data#Population_96769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_96769> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_96769> <http://ctro/data#hasPrecondition> "patients with open - angle glaucoma or ocular hypertension" .
+<http://ctro/data#Ethnicity_96771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_96769> <http://ctro/data#hasCountry> <http://ctro/data#UK> .
+<http://ctro/data#Gender_96776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_96777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_96777> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#Endpoint_96777> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#AggregationMethod_96779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_96777> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_96781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_96782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_96782> <http://www.w3.org/2000/01/rdf-schema#label> "AE_CH" .
+<http://ctro/data#Endpoint_96782> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia> .
+<http://ctro/data#AggregationMethod_96784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_96785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_96786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_96787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_96787> <http://www.w3.org/2000/01/rdf-schema#label> "AE_P" .
+<http://ctro/data#IrisPigmentation_96788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation> .
+<http://ctro/data#Endpoint_96787> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_96788> .
+<http://ctro/data#AggregationMethod_96789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_96790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_96791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_96946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_96946> <http://www.w3.org/2000/01/rdf-schema#label> "corneal_ppe" .
+<http://ctro/data#Endpoint_96946> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Corneal_PPE> .
+<http://ctro/data#AggregationMethod_96948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_96949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_96950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_96792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_96792> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_Lat" .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasNumberPatientsArm> "149" .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_96810> .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_96836> .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_96890> .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_96917> .
+<http://ctro/data#Arm_96792> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_96951> .
+<http://ctro/data#Arm_96801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_96801> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_Tim" .
+<http://ctro/data#Arm_96801> <http://ctro/data#hasNumberPatientsArm> "145" .
+<http://ctro/data#Arm_96801> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_96816> .
+<http://ctro/data#Arm_96801> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_96863> .
+<http://ctro/data#Arm_96801> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_96890> .
+<http://ctro/data#Arm_96801> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_96951> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_96810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_96810> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_Lat" .
+<http://ctro/data#Intervention_96810> <http://ctro/data#hasMedication> <http://ctro/data#Medication_96822> .
+<http://ctro/data#Intervention_96810> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#Intervention_96810> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening> .
+<http://ctro/data#Intervention_96816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_96816> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_Tim" .
+<http://ctro/data#Intervention_96816> <http://ctro/data#hasMedication> <http://ctro/data#Medication_96829> .
+<http://ctro/data#Intervention_96816> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_96821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_96822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_96822> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_Lat" .
+<http://ctro/data#Medication_96822> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_96822> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_96826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Latanoprost_97615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_96822> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_97615> .
+<http://ctro/data#Medication_96829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_96829> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_Tim" .
+<http://ctro/data#Medication_96829> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_96829> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_96829> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_96833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_96836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_96836> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_IOP_Lat" .
+<http://ctro/data#Outcome_96836> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_96777> .
+<http://ctro/data#Outcome_96836> <http://ctro/data#hasBaselineValue> "25 . 2" .
+<http://ctro/data#Outcome_96836> <http://ctro/data#hasResultMeasuredValue> "16 . 7" .
+<http://ctro/data#Outcome_96836> <http://ctro/data#hasRelativeChangeValue> "33 . 7" .
+<http://ctro/data#Outcome_96863> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_96863> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_IOP_Tim" .
+<http://ctro/data#Outcome_96863> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_96777> .
+<http://ctro/data#Outcome_96863> <http://ctro/data#hasBaselineValue> "25 . 4" .
+<http://ctro/data#Outcome_96863> <http://ctro/data#hasResultMeasuredValue> "17 . 1" .
+<http://ctro/data#Outcome_96863> <http://ctro/data#hasRelativeChangeValue> "32 . 7" .
+<http://ctro/data#Outcome_96890> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_96890> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_CH" .
+<http://ctro/data#Outcome_96890> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_96782> .
+<http://ctro/data#Outcome_96890> <http://ctro/data#hasObservedResult> "Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions ." .
+<http://ctro/data#Outcome_96917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_96917> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_P_Lat" .
+<http://ctro/data#Outcome_96917> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_96787> .
+<http://ctro/data#Outcome_96917> <http://ctro/data#hasNumberAffected> "15" .
+<http://ctro/data#Outcome_96917> <http://ctro/data#hasPercentageAffected> "10 . 1" .
+<http://ctro/data#Outcome_96951> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_96951> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_Corneal_ppe" .
+<http://ctro/data#Outcome_96951> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_96946> .
+<http://ctro/data#Outcome_96951> <http://ctro/data#hasObservedResult> "Latanoprost caused a somewhat more conjunctival hyperemia than timolol and more corneal punctuate epithelial erosions ." .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

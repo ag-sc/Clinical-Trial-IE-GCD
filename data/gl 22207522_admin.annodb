@@ -1,0 +1,86 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Int Ophthalmol .", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasJournal> \"Int Ophthalmol .\"."
+1, PublicationYear, 17, 21, "2011", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasPublicationYear> \"2011\"."
+2, Title, 113, 245, "Comparison of fixed combinations of dorzolamide / timolol and brimonidine / timolol in patients with primary open - angle glaucoma .", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasTitle> \"Comparison of fixed combinations of dorzolamide / timolol and brimonidine / timolol in patients with primary open - angle glaucoma .\"."
+67, Dorzolamide, 149, 160, "dorzolamide", "", 
+78, Dorz/TimFC, 149, 170, "dorzolamide / timolol", "", "<http://ctro/data#Medication_65794> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+68, Timolol, 163, 170, "timolol", "", 
+69, Brimonidine, 175, 186, "brimonidine", "", 
+79, Brimo/TimFC, 175, 196, "brimonidine / timolol", "", "<http://ctro/data#Medication_65801> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+70, Timolol, 189, 196, "timolol", "", 
+91869, Precondition, 200, 243, "patients with primary open - angle glaucoma", "", "<http://ctro/data#Population_65760> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma\"."
+71, Primary_OpenAngleGlaucoma, 214, 243, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+3, Author, 246, 256, "Gulkilik G", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasAuthor> \"Gulkilik G\"."
+4, Author, 265, 270, "Oba E", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasAuthor> \"Oba E\"."
+5, Author, 273, 283, "Odabas ı M", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasAuthor> \"Odabas ı M\"."
+6, Turkey, 369, 375, "Turkey", "", "<http://ctro/data#Population_65760> <http://ctro/data#hasCountry> <http://ctro/data#Turkey>."
+7, ObjectiveDescription, 405, 621, "To compare the short - term effectiveness and ocular side - effects of fixed combinations of dorzolamide / timolol ( DTFC ) and brimonidine / timolol ( BTFC ) in patients with primary open - angle glaucoma ( POAG ) .", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasObjectiveDescription> \"To compare the short - term effectiveness and ocular side - effects of fixed combinations of dorzolamide / timolol ( DTFC ) and brimonidine / timolol ( BTFC ) in patients with primary open - angle glaucoma ( POAG ) .\"."
+10, Dorz/TimFC, 476, 519, "fixed combinations of dorzolamide / timolol", "", 
+8, Dorzolamide, 498, 509, "dorzolamide", "", 
+9, Timolol, 512, 519, "timolol", "", 
+11, Dorz/TimFC, 522, 526, "DTFC", "", 
+12, Brimonidine, 533, 544, "brimonidine", "", 
+91863, Brimo/TimFC, 533, 554, "brimonidine / timolol", "", 
+13, Timolol, 547, 554, "timolol", "", 
+14, Brimo/TimFC, 557, 561, "BTFC", "", 
+15, Primary_OpenAngleGlaucoma, 581, 610, "primary open - angle glaucoma", "", 
+16, Primary_OpenAngleGlaucoma, 613, 617, "POAG", "", 
+96, NumberPatientsCT, 642, 644, "42", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasNumberPatientsCT> \"42\"."
+98, Precondition, 654, 704, "newly diagnosed with primary open - angle glaucoma", "", "<http://ctro/data#Population_65760> <http://ctro/data#hasPrecondition> \"newly diagnosed with primary open - angle glaucoma\"."
+19, Primary_OpenAngleGlaucoma, 675, 704, "primary open - angle glaucoma", "", 
+20, Dorz/TimFC, 792, 796, "DTFC", "", 
+106382, Frequency, 799, 806, "2  ×  1", "", "<http://ctro/data#Intervention_65808> <http://ctro/data#hasFrequency> \"2  ×  1\"."
+21, Duration, 813, 822, "4   weeks", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasCTduration> \"4   weeks\"."
+22, Duration, 867, 875, "4 - week", "", 
+23, Brimo/TimFC, 960, 964, "BTFC", "", 
+102, Frequency, 967, 974, "2  ×  1", "", "<http://ctro/data#Intervention_65814> <http://ctro/data#hasFrequency> \"2  ×  1\"."
+24, Duration, 981, 990, "4   weeks", "", 
+25, IOP, 993, 1013, "Intraocular pressure", "", "<http://ctro/data#IOP_65770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_65769> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_65770>."
+26, IOP, 1016, 1019, "IOP", "", 
+108, TimePoint, 1078, 1082, "0800", "", 
+109, TimePoint, 1085, 1092, "1 , 200", "", 
+110, TimePoint, 1097, 1104, "1 , 600", "", 
+27, Mean, 1189, 1193, "mean", "", 
+28, IOP, 1203, 1206, "IOP", "", 
+29, Dorz/TimFC, 1218, 1222, "DTFC", "", 
+30, Brimo/TimFC, 1227, 1231, "BTFC", "", 
+31, BaseLineValue, 1237, 1243, "24 . 1", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasBaselineValue> \"24 . 1\"."
+117, SdDevBL, 1248, 1253, "1 . 8", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasSdDevBL> \"1 . 8\"."
+32, BaseLineValue, 1258, 1264, "24 . 6", "", "<http://ctro/data#Outcome_65848> <http://ctro/data#hasBaselineValue> \"24 . 6\"."
+118, SdDevBL, 1269, 1274, "2 . 4", "", "<http://ctro/data#Outcome_65848> <http://ctro/data#hasSdDevBL> \"2 . 4\"."
+35, mmHg, 1277, 1281, "mmHg", "", "<http://ctro/data#Endpoint_65769> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+36, Mean, 1303, 1307, "mean", "", "<http://ctro/data#Mean_65771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_65769> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_65771>."
+37, IOP, 1308, 1311, "IOP", "", 
+91870, TimePoint, 1325, 1334, "4   weeks", "", "<http://ctro/data#Outcome_65848> <http://ctro/data#hasTimePoint> \"4   weeks\"."
+39, Dorz/TimFC, 1353, 1357, "DTFC", "", 
+40, Brimo/TimFC, 1361, 1365, "BTFC", "", 
+41, ResultMeasuredValue, 1371, 1377, "17 . 1", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasResultMeasuredValue> \"17 . 1\"."
+127, SdDevResValue, 1382, 1387, "2 . 9", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasSdDevResValue> \"2 . 9\"."
+42, ResultMeasuredValue, 1392, 1398, "16 . 9", "", "<http://ctro/data#Outcome_65848> <http://ctro/data#hasResultMeasuredValue> \"16 . 9\"."
+128, SdDevResValue, 1403, 1408, "2 . 5", "", "<http://ctro/data#Outcome_65848> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+45, mmHg, 1411, 1415, "mmHg", "", 
+133, ObservedResult, 1433, 1482, "Both medications reduced IOP values significantly", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasObservedResult> \"Both medications reduced IOP values significantly\". <http://ctro/data#Outcome_65848> <http://ctro/data#hasObservedResult> \"Both medications reduced IOP values significantly\"."
+46, IOP, 1458, 1461, "IOP", "", 
+47, PValueChangeValue, 1485, 1499, "P  =  0 . 0000", "", "<http://ctro/data#Outcome_65821> <http://ctro/data#hasPValueChangeValue> \"P  =  0 . 0000\". <http://ctro/data#Outcome_65848> <http://ctro/data#hasPValueChangeValue> \"P  =  0 . 0000\"."
+91871, PValueChangeValue, 1556, 1570, "P  =  0 . 7363", "", 
+135, ObservedResult, 1575, 1628, "Both combinations significantly reduced the amount of", "", "<http://ctro/data#Outcome_65875> <http://ctro/data#hasObservedResult> \"Both combinations significantly reduced the amount of\". <http://ctro/data#Outcome_65902> <http://ctro/data#hasObservedResult> \"Both combinations significantly reduced the amount of\"."
+91873, EndPointDescription, 1629, 1643, "tear secretion", "", "<http://ctro/data#EndPointDescription_65775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_65774> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65775>."
+91874, EndPointDescription, 1648, 1668, "tear break - up time", "", "<http://ctro/data#EndPointDescription_65780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_65779> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65780>."
+66, PValueChangeValue, 1671, 1685, "P  =  0 . 0000", "", "<http://ctro/data#Outcome_65875> <http://ctro/data#hasPValueChangeValue> \"P  =  0 . 0000\". <http://ctro/data#Outcome_65902> <http://ctro/data#hasPValueChangeValue> \"P  =  0 . 0000\"."
+148, ObservedResult, 1690, 1742, "Eye burning was more common with DTFC than with BTFC", "", "<http://ctro/data#Outcome_65929> <http://ctro/data#hasObservedResult> \"Eye burning was more common with DTFC than with BTFC\". <http://ctro/data#Outcome_102348> <http://ctro/data#hasObservedResult> \"Eye burning was more common with DTFC than with BTFC\"."
+91875, EndPointDescription, 1690, 1701, "Eye burning", "", "<http://ctro/data#EndPointDescription_65785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_65784> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65785>."
+50, Dorz/TimFC, 1723, 1727, "DTFC", "", 
+51, Brimo/TimFC, 1738, 1742, "BTFC", "", 
+136, PvalueDiff, 1747, 1759, " =  0 . 0182", "", "<http://ctro/data#DiffBetweenGroups_65983> <http://ctro/data#hasPvalueDiff> \" =  0 . 0182\"."
+62, ConclusionComment, 1841, 1949, "This study demonstrated that the IOP - reducing effects of DTFC and BTFC in patients with POAG are similar .", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasConclusionComment> \"This study demonstrated that the IOP - reducing effects of DTFC and BTFC in patients with POAG are similar .\"."
+54, IOP, 1874, 1877, "IOP", "", 
+55, Dorz/TimFC, 1900, 1904, "DTFC", "", 
+56, Brimo/TimFC, 1909, 1913, "BTFC", "", 
+57, Primary_OpenAngleGlaucoma, 1931, 1935, "POAG", "", 
+63, ConclusionComment, 1950, 2012, "The side - effect profile of BTFC is similar to that of DTFC .", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasConclusionComment> \"The side - effect profile of BTFC is similar to that of DTFC .\"."
+58, Brimo/TimFC, 1979, 1983, "BTFC", "", 
+59, Dorz/TimFC, 2006, 2010, "DTFC", "", 
+64, ConclusionComment, 2013, 2103, "Lower occurrence of a burning sensation may improve patient compliance in the BTFC group .", "", "<http://ctro/data#ClinicalTrial_65741> <http://ctro/data#hasConclusionComment> \"Lower occurrence of a burning sensation may improve patient compliance in the BTFC group .\"."
+91876, EndPointDescription, 2035, 2052, "burning sensation", "", "<http://ctro/data#EndPointDescription_65790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_65789> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65790>."
+61, Brimo/TimFC, 2091, 2095, "BTFC", "", 
+65, PMID, 2153, 2161, "22207522", "", "<http://ctro/data#Publication_65732> <http://ctro/data#hasPMID> \"22207522\"."

@@ -1,0 +1,341 @@
+#class	IsNamedIndividual	Description
+Acarbose	TRUE	Drug
+Gemigliptin	TRUE	Drug
+ApplicationCondition	FALSE	Condition in whcih the patient recieves the medication. E.g. empty stomatch
+AdverseEffect	delete this class	Adverse effect of the intervention (SC)
+AdverseEffectName	FALSE	Acronyms/synonyms of the same adverse effect
+Afternoon	TRUE	Relative time: from midday (noon) to evening (aprox. 12:00-18:00)
+AggregationMethod	FALSE	It refers to the summary measure format for each study group (e.g. mean) (SC)
+AggregByNumParticip	TRUE	Aggregation method: by number of participants
+AllocationRatio	FALSE	Allocation ratio. e.g. 1:1
+Anemia	TRUE	Adverse Effect
+AngleClosureGlaucoma	TRUE	Type of glaucoma
+AnyGender	TRUE	Gender
+Apraclonidine	TRUE	Drug
+Acetazolamide	TRUE	Drug
+Albiglutide	TRUE	Drug
+Argentina	TRUE	Country
+Arm	FALSE	A clinical trial arm is a group of patients (or other study subjects) receiving a specific treatment or control treatment (i.e. placebo) (SC)
+Australia	TRUE	Country
+Austria	TRUE	Country
+Author	FALSE	Author
+AvgAge	FALSE	Average age of the participants
+BaseLineValue	FALSE	Baseline value
+Betaxolol	TRUE	Drug
+Bimatoprost	TRUE	Drug
+BioAndMedicalUnit	FALSE	Units used in the biomedical context  (SC)
+Blind	TRUE	Clinical trial design in which the patients do not know the medication they receive
+Prospective	TRUE	Type of clinical study that watches for outcomes during the study period.
+BMI	TRUE	Endpoint description (secondary outcome) in diabetes
+BodyWeight	TRUE	Endpoint description (secondary outcome) in diabetes
+BAK-preserved_Latanoprost	TRUE	Benzalkonium chloride (BAK) preserved latanoprost
+Preservative-Free_Latanoprost	TRUE	Preservative-Free_Latanoprost or T2345
+Brazil	TRUE	Country
+Brimonidine	TRUE	Drug
+Brinzolamide	TRUE	Drug
+Canada	TRUE	Country
+Carteolol	TRUE	Drug
+Cabergoline	TRUE	Drug
+Caucasian	TRUE	Ethnicity
+ChangeBloodVelocity	TRUE	Possible adverse effect in glaucoma treatments
+ClinicalTrial	FALSE	Controlled study that assigns groups of patients to one or more health-related interventions to evaluate their effects (SC)
+Colombia	TRUE	Country
+ConcentrationUnit	FALSE	concentration Units  (SC)
+ConclusionComment	FALSE	Conclusion comment written by the author(s) of the clinical trial article
+ConfIntervalBL	FALSE	Confidence interval
+ConfIntervalResValue	FALSE	Confidence interval
+ConfIntervalNumAffected	FALSE	Confidence interval
+ConfIntervalChangeValue	FALSE	Confidence interval
+ConfIntervalDiff	FALSE	Confidence interval
+ConflictInterest	FALSE	A type of risk of bias in the clinical trial
+ConjunctivalHyperemia	TRUE	Adverse effect in glaucoma treatments
+Corneal_PPE	TRUE	Adverse effect in glaucoma treatments
+Country	FALSE	Country where the population comes from  (SC)
+Croatia	TRUE	Country
+Colesevelam	TRUE	Drug
+Canagliflozin	TRUE	Drug
+Crossover	TRUE	Clinical trial design in which the patients cross over from one treatment to another during the course of the study
+CTAnalysisApproach	FALSE	Clinical trial analysis approach: ITT or pre-protocol  (SC)
+CTDesign	FALSE	Clinical trial design (e.g. blinded) (SC)
+Dapagliflozin	TRUE	Drug
+Day	TRUE	Time unit
+DeliveryMethod	FALSE	It refers to the way a drug is administrated (e.g. injectable) (SC)
+DensityUnit	FALSE	Density Units (SC)
+DiffGroupAbsValue	FALSE	Absolute value of the difference between two arms' results.
+DiffBetweenGroups	FALSE	Difference between the results of two outcomes (SC)
+DiffGroupRelValue	FALSE	Relative value (%) of the difference between two outcomes.
+DisorderOrSyndrome	FALSE	Disease/syndrome under study  (SC)
+IOP	FALSE	Interocular Pressure
+Diurnal_IOP	TRUE	Interocular Pressure during the day
+Peak_IOP	TRUE	Interocular Pressure in peak
+Peak_Trough_IOP	TRUE	Interocular Pressure in peak-trough
+Trough_IOP	TRUE	Interocular Pressure in trough
+Dorzolamide	TRUE	Drug
+DoseDescription	FALSE	Description of the dose of drug administered to a patient when not specific values are given.
+DoseValue	FALSE	The amount of drug administered to a patient or test subject at one time or the total quantity administered at stated intervals
+DoubleBlind	TRUE	Clinical trial design in which neither the participants nor the experimenters know who is receiving a particular treatment
+Noninferiority	TRUE	CT design that attempts to show that the new treatment is not an unacceptably worse to the standard one
+Drug	FALSE	Drug that is being given in the treatment  (SC)
+Egypt	TRUE	Country
+Empagliflozin	TRUE	Drug
+Endpoint	FALSE	Endpoint
+EndPointDescription	FALSE	Description/name of the endpoint (output indicator)  (SC)
+Ethnicity	FALSE	Ethnicity of the population  (SC)
+Evening	TRUE	Relative time: from the end of the afternoon to midnight
+Bedtime	TRUE	Relative time: bedtime (normally for diabetes drugs)
+EvidenceQuality	FALSE	Evidence quality indicators  (SC)
+Exenatide	TRUE	Drug
+Eyedrops	TRUE	Delivery method
+FastingPlasmaGlucose	TRUE	Endpoint (FPG)(secondary outcome) in diabetes
+FastingPlasmaGlucose_target	TRUE	FPG desired level
+FastingBloodGlucose_target	TRUE	FBG desired level
+OralAntidiabeticAgent	TRUE	Drug
+BloodPressure	FALSE	Endpoint (secondary outcome) in diabetes
+Female	TRUE	Gender
+FinalNumPatientsArm	FALSE	Number of patients in an arm who finish the study
+FinalNumPatientsCT	FALSE	Final number of patients in the CT
+Finland	TRUE	Country
+Fluorouracil	TRUE	Drug (Pyrimidine analogues)
+France	TRUE	Country
+Frequency	FALSE	Time magnitude
+Interval	FALSE	Time magnitude
+Duration	FALSE	Time magnitude
+Gender	FALSE	Gender of the population  (SC)
+GeometricMean	TRUE	Aggregation method
+Georgia	TRUE	Country
+Germany	TRUE	Country
+Glaucoma	FALSE	Disease (SC)
+Glimepiride	TRUE	Drug
+Glipizide	TRUE	Drug
+Glyburide	TRUE	Drug
+Gram	TRUE	MassUnit
+Greece	TRUE	Country
+Uganda	TRUE	Country
+HbA1c	TRUE	Primary outcome in diabetes 2. Also called hemoglobin A1C.
+HbA1c_target	TRUE	Desired level reached in diabetes 2
+IOP_target	TRUE	Desired level reached in IOP in glaucoma
+Fructosamine	TRUE	Secondary outcome in diabetes
+InsulinDose	FALSE	Secondary outcome in diabetes
+MealGlucoseResponse	TRUE	Secondary outcome in diabetes
+Headache	TRUE	Adverse Effect
+GastrointestinalProblem	TRUE	Adverse Effect
+HeartAttack	TRUE	Adverse Effect
+HeartFailure	TRUE	Adverse Effect
+Constipation	TRUE	Adverse Effect
+Netherlands	TRUE	Country
+Hour	TRUE	TimeUnit
+Lispro	TRUE	Insulin Lispro
+LisproProtamine	TRUE	Insulin Lispro protamine
+Hypoglycemia	TRUE	Adverse Effect
+Implant	TRUE	Delivery method
+IncreasedPigmentation	TRUE	Adverse effect in glaucoma treatments
+Increment	FALSE	Increased result value
+RelativeIncrement	FALSE	Increased relative result value
+India	TRUE	Country
+Inhalation	TRUE	Delivery method
+Insulin	FALSE	Drug
+InsulinAspart	TRUE	Drug
+InsulinDegludec	TRUE	Drug
+InsulinDetemir	TRUE	Drug
+InsulinGlargine	TRUE	Drug
+InsulinGlulisine	TRUE	Drug
+IntentionToTreat	TRUE	Clinical trial analysis that includes every subject who is randomized
+Intervention	FALSE	Treatment or action taken to prevent or treat disease or improve health in other ways  (SC)
+IntramuscularInjection	TRUE	Delivery method
+IntravenousInjection	TRUE	Delivery method
+Int_Unit	TRUE	AmountSubstanceUnit
+IntUnit_per_Kg	TRUE	ConcentrationUnit
+Iran	TRUE	Country
+Ireland	TRUE	Country
+IrisPigmentationChange	TRUE	Possible adverse effect in glaucoma treatments
+IsophaneInsulin_NPH	TRUE	Drug
+Israel	TRUE	Country
+Italy	TRUE	Country
+Japan	TRUE	Country
+JointPain	TRUE	Adverse Effect
+Pain	FALSE	Adverse Effect
+Journal	FALSE	Journal name
+Kg	TRUE	MassUnit
+Kg_per_squareMeter	TRUE	Kg_per_squareMeter
+Latanoprost	FALSE	Drug
+Latanoprostene_Bunod	TRUE	Drug
+LeastSquaresMean	TRUE	Aggregation method
+Levobetaxolol	TRUE	Drug
+Levobunolol	TRUE	Drug
+Linagliptin	TRUE	Drug
+Liraglutide	TRUE	Drug
+Lixisenatide	TRUE	Drug
+Bromocriptine	TRUE	Drug
+Male	TRUE	Gender
+MassUnit	FALSE	Mass Units (SC)
+MaxAge	FALSE	Maximum age of the participants
+Mean	FALSE	Aggregation method
+MeasurementDevice	FALSE	Device used for measuring the endpoint values
+Medication	FALSE	The medication administrated in an intervention  (SC)
+Metformin	TRUE	Drug
+Methazolamide	TRUE	Drug
+Mexico	TRUE	Country
+mg	TRUE	MassUnit
+Mg_per_deciliter	TRUE	ConcentrationUnit
+Microgram	TRUE	MassUnit
+MicroMole	TRUE	AmountSubstanceUnit
+Micromole_per_litre	TRUE	ConcentrationUnit
+Millimoles_per_mole	TRUE	ConcentrationUnit
+MicroUnits_per_milliliter	TRUE	ConcentrationUnit
+Millimoles_per_litre	TRUE	ConcentrationUnit
+MilliUnits_per_litre	TRUE	ConcentrationUnit
+MinAge	FALSE	Minimum age of the participants
+Minute	TRUE	Time unit
+mmHg	TRUE	is a pressure unit
+Month	TRUE	Time unit
+Morning	TRUE	Relative time: from midnight to midday
+Multicenter	TRUE	Clinical trial design in which the study is conducted at more than one medical center or clinic
+Nanogram_per_milliliter	TRUE	ConcentrationUnit
+Nanomol_per_litre	TRUE	ConcentrationUnit
+Nateglinide	TRUE	Drug (Other blood glucose lowering drugs
+Nausea	TRUE	Adverse Effect
+NoChange	FALSE	Result direction
+NumberTime	delete	Number indicating the times that something happens in a given time. Eg. Twice (2 times) daily.
+Number	delete	Class Number: including cardinal and no cardinal numbers (values) (SC)
+NumberAffected	FALSE	Number of affected patients by a given treatment
+NumberPatientsArm	FALSE	Number of patients in an arm
+NumberPatientsCT	FALSE	Total number of patients in the clinical trial (after randomization)
+NumPatientsLeftCT	FALSE	Absolute number of patients who left the CT
+NumPatientsLeftArm	FALSE	Absolute number of patients who left the arm
+ObjectiveDescription	FALSE	Objective of the clinical study
+ObservedResult	FALSE	Textual description of the result
+OcularHypertension	TRUE	Glaucoma suspect
+Omarigliptin	TRUE	Drug
+OpenAngleGlaucoma	TRUE	Type of glaucoma
+OpenLabel	TRUE	Clinical trial design in which both the researchers and participants know which treatment is being administered
+Oral	TRUE	Delivery method
+OralDryness	TRUE	Adverse effect
+BlurredVison	TRUE	Adverse effect
+Outcome	FALSE	Results of the clinical trail. They can be primary or secondary outcomes  (SC)
+Outflow_Facility_C	TRUE	Indicates the outflow resistance in the ocular drainage pathway
+OcularBloodFlow	TRUE	OBF is on average lower in glaucoma patients
+PancreatitisRisk	TRUE	Adverse Effect
+Parallel	TRUE	Clinical trial design in which each arm receives always the same treatment
+Percentage	TRUE	is a concentration unit
+PercentageAffected	FALSE	Percentage of affected patients by a given treatment
+Peru	TRUE	Country
+PharmacySponsored	FALSE	Was the clinical trial sponsored by a pharmaceutical company?
+Philippines	TRUE	Country
+Picomole_per_liter	TRUE	ConcentrationUnit
+PigmentaryGlaucoma	TRUE	Type of glaucoma
+Pilocarpine	TRUE	Drug
+Pioglitazone	TRUE	Drug
+Placebo	TRUE	Does not contain any drug
+Vehicle	TRUE	Contains an inactive drug
+Poland	TRUE	Country
+Population	FALSE	Patients or any other study unit (e.g. eyes) with certain characteristics and preconditions according with the problem/disease studied  (SC)
+Precondition	FALSE	Description of the health precondition.
+PerProtocol	TRUE	Clinical trial analysis that includes only those patients who completed the treatments
+PressureUnit	FALSE	Pressure Units  (SC)
+Publication	FALSE	Scientific publication that describes a clinical trial  (SC)
+PublicationYear	FALSE	Journal publication year
+PulsatileOcularFlow	TRUE	Adverse effect
+PValueResValue	FALSE	PValue of the Measured Result Value
+PValueChangeValue	FALSE	PValueof the ChangeValue
+PValueBL	FALSE	PValue of the Baseline
+PValueNumAffected	FALSE	PValue of NumAffected
+PvalueDiff	FALSE	P-value of the difference between groups
+PMID	FALSE	Pmed id
+Randomized	TRUE	Clinical trial design in which the participants are divided by chance into separate groups
+ReducedBloodPreasure	TRUE	Possible adverse effect
+ReducedHeartRate	TRUE	Possible adverse effect
+ReducedPulseRate	TRUE	Possible adverse effect
+BloodPreasure	FALSE	
+HeartRate	FALSE	
+PulseRate	FALSE	
+Reduction	FALSE	Reduced result value
+RelNumPatientsLeftCT	FALSE	Relative number of patients who left the CT
+RelNumPatientsLeftArm	FALSE	Relative number of patients who left the arm
+RelativeReduction	FALSE	Reduced relative result value
+RelativeTime	FALSE	Relative time unit (SC)
+Repaglinide	TRUE	Drug
+ResultMeasuredValue	FALSE	Result value: measurement taken at the end of the trial for comparison against the baseline value
+ChangeValue	FALSE	The amount of reduction, increment, no change
+RelativeChangeValue	FALSE	Relative result value of the outcome
+Rosiglitazone	TRUE	Drug
+Saxagliptin	TRUE	Drug
+Second	TRUE	Time Unit
+Semaglutide	TRUE	Drug
+Singapore	TRUE	Country
+SingleCenter	TRUE	Clinical trial design in which the study is conducted at only one medical center or clinic
+Sitagliptin	TRUE	Drug
+Smarting	TRUE	Possible adverse effect
+Spain	TRUE	Country
+SdDevResValue	FALSE	Standard Deviation
+SdDevBL	FALSE	Standard Deviation
+SdDevChangeValue	FALSE	Standard Deviation
+SdDevNumAffected	FALSE	Standard Deviation
+SdDevDiff	FALSE	Standard Deviation of difference between groups
+SdErrorResValue	FALSE	Standard error
+SdErrorBL	FALSE	Standard error
+SdErrorChangeValue	FALSE	Standard error
+SdErrorNumAffected	FALSE	Standard error
+SdErrorDiff	FALSE	Standard error of difference between groups
+Stroke	TRUE	Adverse Effect
+SymptomaticHypoglycemia	TRUE	Adverse Effect in diabetes
+NocturnalHypoglycemia	TRUE	Adverse Effect in diabetes
+SevereHypoglycemia	TRUE	Adverse Effect in diabetes
+Subcutaneous	TRUE	Delivery method
+SubcutaneousInjection	TRUE	Delivery method
+SubGroupDescription	FALSE	Subgroup of the arm population from whcih the results are reported
+Sulfonylureas	TRUE	Drug used in diabetes
+Sweden	TRUE	Country
+Switzerland	TRUE	Country
+Tafluprost	TRUE	Drug
+Taiwan	TRUE	Country
+TimePoint	FALSE	Time point during the clinical trial
+TimeUnit	FALSE	Time Units (SC)
+Timolol	TRUE	Timolol is a popular drug for treating glaucoma
+Title	FALSE	Title
+Topic	TRUE	Delivery method
+Travoprost	true	Drug
+Turkey	TRUE	Country
+Type2Diabetes	TRUE	Disease
+UK	TRUE	Country
+Unoprostone	TRUE	Drug
+ProstaglandinAnalogs	TRUE	Class of family of drugs
+USA	TRUE	Country
+SouthKorea	TRUE	Country: its official name is Republic of Korea
+China	TRUE	Country
+Venezuela	TRUE	Country
+Vildagliptin	TRUE	Drug
+Week	TRUE	Time Unit
+WeightGain	TRUE	Adverse Effect
+WeightUnit	FALSE	Weight Units (SC)
+WeightReduction	TRUE	Endpoint description
+Year	TRUE	Time Unit
+Primary_AngleClosureGlaucoma	TRUE	Type of glaucoma
+Secondary_AngleClosureGlaucoma	TRUE	Type of glaucoma
+Primary_OpenAngleGlaucoma	TRUE	Type of glaucoma
+Secondary_OpenAngleGlaucoma	TRUE	Type of glaucoma
+Glucose	FALSE	Glucose or sugar (Endpoint in diabetes)
+PlasmaGlucose	FALSE	Glucose in blood plasma
+BloodGlucose	TRUE	Glucose in blood
+PreprandialBloodGlucose	TRUE	Preprandial Glucose in blood
+PostprandialBloodGlucose	TRUE	Postprandial Glucose in blood
+PreprandialPlasmaGlucose	TRUE	Preprandial Glucose in blood plasma
+PostprandialPlasmaGlucose	TRUE	Postprandial Glucose in blood plasma
+FastingBloodGlucose	TRUE	Fasting Glucose in blood
+Stinging	TRUE	Adverse effects: stinging pain
+FixedCombDrug	FALSE	Fixed combination drug that is widely accepted
+Brinz/BrimoFC	TRUE	Brinzolamide 1% and Brimonidine 0.2% fixed combination
+Bima/TimFC	TRUE	Bimatoprost 0.03%/Timolol 0.5% fixed combination
+Lat/TimFC	TRUE	Latanoprost 0.005%/Timolol 0.5% fixed combination
+Trav/TimFC	TRUE	Travoprost 0.004%/Timolol 0.5% fixed combination
+Dorz/TimFC	TRUE	Dorzolamide 2%/Timolol 0.5% fixed combination
+Brinz/TimFC	TRUE	Brinzolamide 1%/Timolol 0.5% fixed combination
+Brimo/TimFC	TRUE	Brimonidine 0.2%/Timolol 0.5% fixed combination
+Pilo/TimFC	TRUE	Pilocarpine 2%/Timolol 0.5% fixed combination
+PremixedInsulin	TRUE	Accepted premixed insulin
+NPH/regular70/30	TRUE	Premixed insulin NPH/regular 70%/30%
+NPH/regular50/50	TRUE	Premixed insulin NPH/regular 50%/50%
+Aspart70/30	TRUE	Premixed insulin Aspart suspension/injection 70%/30%
+Lispro75/25	TRUE	Premixed insulin Lispro suspsuspension/injection 75%/25%
+Lispro50/50	TRUE	Premixed insulin Lispro suspension/injection 50%/50%
+Ocular_Itching	TRUE	Endpoint description (adverse effect) in glaucoma
+Allergy	TRUE	Endpoint description (adverse effect)

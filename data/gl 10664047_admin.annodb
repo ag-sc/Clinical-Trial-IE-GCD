@@ -1,0 +1,80 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 34, "Graefes Arch Clin Exp Ophthalmol .", "", "<http://ctro/data#Publication_104101> <http://ctro/data#hasJournal> \"Graefes Arch Clin Exp Ophthalmol .\"."
+1, PublicationYear, 35, 39, "2000", "", "<http://ctro/data#Publication_104101> <http://ctro/data#hasPublicationYear> \"2000\"."
+2, Title, 68, 225, "Comparison of latanoprost monotherapy to dorzolamide combined with timolol in patients with glaucoma and ocular hypertension . A 3 - month randomised study .", "", "<http://ctro/data#Publication_104101> <http://ctro/data#hasTitle> \"Comparison of latanoprost monotherapy to dorzolamide combined with timolol in patients with glaucoma and ocular hypertension . A 3 - month randomised study .\"."
+3, Latanoprost, 82, 93, "latanoprost", "", 
+4, Dorzolamide, 109, 120, "dorzolamide", "", 
+5, Timolol, 135, 142, "timolol", "", 
+6, Glaucoma, 160, 168, "glaucoma", "", "<http://ctro/data#Glaucoma_104117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_104108> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_104117>."
+7, OcularHypertension, 173, 192, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+8, Duration, 197, 206, "3 - month", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasCTduration> \"3 - month\"."
+9, Randomized, 207, 217, "randomised", "", 
+10, Author, 226, 237, "Emmerich KH", "", "<http://ctro/data#Publication_104101> <http://ctro/data#hasAuthor> \"Emmerich KH\"."
+11, Germany, 340, 347, "Germany", "", "<http://ctro/data#Population_104128> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+12, ObjectiveDescription, 363, 593, "The purpose of the study was to compare the effects on intraocular pressure ( IOP ) of adding dorzolamide to timolol or of switching from timolol to latanoprost monotherapy in glaucoma patients inadequately controlled on timolol .", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasObjectiveDescription> \"The purpose of the study was to compare the effects on intraocular pressure ( IOP ) of adding dorzolamide to timolol or of switching from timolol to latanoprost monotherapy in glaucoma patients inadequately controlled on timolol .\"."
+13, IOP, 418, 438, "intraocular pressure", "", 
+14, IOP, 441, 444, "IOP", "", 
+15, Dorzolamide, 457, 468, "dorzolamide", "", 
+16, Timolol, 472, 479, "timolol", "", 
+17, Timolol, 501, 508, "timolol", "", 
+18, Latanoprost, 512, 523, "latanoprost", "", 
+19, Glaucoma, 539, 547, "glaucoma", "", 
+21, Precondition, 539, 591, "glaucoma patients inadequately controlled on timolol", "", "<http://ctro/data#Population_104128> <http://ctro/data#hasPrecondition> \"glaucoma patients inadequately controlled on timolol\"."
+20, Timolol, 584, 591, "timolol", "", 
+22, Duration, 632, 641, "3 - month", "", 
+23, Randomized, 642, 652, "randomised", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+24, OpenLabel, 655, 667, "open - label", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+25, Multicenter, 670, 681, "multicentre", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+26, NumberPatientsCT, 699, 702, "183", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasNumberPatientsCT> \"183\"."
+112, Precondition, 703, 746, "patients with primary open - angle glaucoma", "", "<http://ctro/data#Population_104128> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma\"."
+27, Primary_OpenAngleGlaucoma, 717, 746, "primary open - angle glaucoma", "", 
+111, Precondition, 749, 843, "capsular glaucoma with IOP above 22 mmHg on treatment with one or two ocular hypotensive drugs", "", "<http://ctro/data#Population_104128> <http://ctro/data#hasPrecondition> \"capsular glaucoma with IOP above 22 mmHg on treatment with one or two ocular hypotensive drugs\"."
+28, Glaucoma, 749, 766, "capsular glaucoma", "", 
+29, IOP, 772, 775, "IOP", "", 
+30, mmHg, 785, 789, "mmHg", "", 
+110, Precondition, 849, 891, "ocular hypertension with IOP above 27 mmHg", "", "<http://ctro/data#Population_104128> <http://ctro/data#hasPrecondition> \"ocular hypertension with IOP above 27 mmHg\"."
+34, OcularHypertension, 849, 868, "ocular hypertension", "", 
+32, IOP, 874, 877, "IOP", "", 
+33, mmHg, 887, 891, "mmHg", "", 
+36, Timolol, 937, 944, "timolol", "", 
+37, DoseValue, 947, 952, "0 . 5", "", 
+124, Percentage, 953, 954, "%", "", 
+42, Frequency, 955, 966, "twice daily", "", 
+43, Randomized, 987, 997, "randomised", "", 
+44, Latanoprost, 1023, 1034, "latanoprost", "", "<http://ctro/data#Latanoprost_104189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_104188> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_104189>."
+39, DoseValue, 1037, 1040, "0 .", "", "<http://ctro/data#Medication_104188> <http://ctro/data#hasDoseValue> \"0 .\". <http://ctro/data#Medication_104188> <http://ctro/data#hasDoseValue> \"005\"."
+39, DoseValue, 1041, 1044, "005", "", "<http://ctro/data#Medication_104188> <http://ctro/data#hasDoseValue> \"005\"."
+125, Percentage, 1045, 1046, "%", "", "<http://ctro/data#Medication_104188> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+45, Frequency, 1047, 1057, "once daily", "", "<http://ctro/data#Intervention_104170> <http://ctro/data#hasFrequency> \"once daily\"."
+46, Timolol, 1082, 1089, "timolol", "", "<http://ctro/data#Medication_104195> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+38, DoseValue, 1092, 1097, "0 . 5", "", "<http://ctro/data#Medication_104195> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+126, Percentage, 1098, 1099, "%", "", "<http://ctro/data#Medication_104195> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+47, Frequency, 1100, 1111, "twice daily", "", "<http://ctro/data#Intervention_104176> <http://ctro/data#hasFrequency> \"twice daily\"."
+48, Dorzolamide, 1118, 1129, "dorzolamide", "", "<http://ctro/data#Medication_104202> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+41, DoseValue, 1132, 1133, "2", "", "<http://ctro/data#Medication_104202> <http://ctro/data#hasDoseValue> \"2\"."
+127, Percentage, 1134, 1135, "%", "", "<http://ctro/data#Medication_104202> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+49, Frequency, 1136, 1147, "twice daily", "", "<http://ctro/data#Intervention_104182> <http://ctro/data#hasFrequency> \"twice daily\"."
+50, Mean, 1154, 1158, "mean", "", 
+51, Diurnal_IOP, 1159, 1170, "diurnal IOP", "", 
+52, Duration, 1177, 1185, "3 months", "", 
+53, Timolol, 1253, 1260, "timolol", "", 
+54, Latanoprost, 1264, 1275, "latanoprost", "", 
+55, Mean, 1284, 1288, "mean", "", "<http://ctro/data#Mean_104144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_104142> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_104144>."
+56, Diurnal_IOP, 1289, 1300, "diurnal IOP", "", "<http://ctro/data#Endpoint_104142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+57, Reduction, 1304, 1309, "4 . 5", "", "<http://ctro/data#Outcome_104210> <http://ctro/data#hasChangeValue> \"4 . 5\"."
+58, SdErrorChangeValue, 1316, 1321, "0 . 2", "", "<http://ctro/data#Outcome_104210> <http://ctro/data#hasSdErrorChangeValue> \"0 . 2\"."
+59, mmHg, 1322, 1326, "mmHg", "", "<http://ctro/data#Endpoint_104142> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+60, Dorzolamide, 1375, 1386, "dorzolamide", "", 
+61, Timolol, 1390, 1397, "timolol", "", 
+62, Mean, 1406, 1410, "mean", "", 
+63, Diurnal_IOP, 1411, 1418, "diurnal", "", 
+64, Reduction, 1422, 1427, "4 . 4", "", "<http://ctro/data#Outcome_104237> <http://ctro/data#hasChangeValue> \"4 . 4\"."
+65, SdErrorChangeValue, 1434, 1439, "0 . 2", "", "<http://ctro/data#Outcome_104237> <http://ctro/data#hasSdErrorChangeValue> \"0 . 2\"."
+66, mmHg, 1440, 1444, "mmHg", "", 
+146, ObservedResult, 1482, 1543, "No serious side effects were observed with either treatment .", "", "<http://ctro/data#Outcome_104264> <http://ctro/data#hasObservedResult> \"No serious side effects were observed with either treatment .\". <http://ctro/data#Outcome_104291> <http://ctro/data#hasObservedResult> \"No serious side effects were observed with either treatment .\"."
+92903, EndPointDescription, 1493, 1505, "side effects", "", "<http://ctro/data#EndPointDescription_104148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_104147> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_104148>."
+67, ConclusionComment, 1557, 1728, "Latanoprost monotherapy can be an alternative to combined treatment with two aqueous flow suppressors in patients whose IOP is insufficiently controlled by timolol alone .", "", "<http://ctro/data#ClinicalTrial_104108> <http://ctro/data#hasConclusionComment> \"Latanoprost monotherapy can be an alternative to combined treatment with two aqueous flow suppressors in patients whose IOP is insufficiently controlled by timolol alone .\"."
+68, Latanoprost, 1557, 1568, "Latanoprost", "", 
+69, IOP, 1677, 1680, "IOP", "", 
+70, Timolol, 1713, 1720, "timolol", "", 
+71, PMID, 1768, 1776, "10664047", "", "<http://ctro/data#Publication_104101> <http://ctro/data#hasPMID> \"10664047\"."

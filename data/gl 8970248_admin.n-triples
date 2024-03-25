@@ -1,0 +1,140 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_99082> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_99082> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_99082> <http://ctro/data#hasTitle> "A comparison of the safety and efficacy of twice daily brimonidine 0 . 2 % versus betaxolol 0 . 25 % in subjects with elevated intraocular pressure ." .
+<http://ctro/data#Publication_99082> <http://ctro/data#hasAuthor> "Serle JB" .
+<http://ctro/data#Publication_99082> <http://ctro/data#hasPublicationYear> "1996" .
+<http://ctro/data#Publication_99082> <http://ctro/data#hasJournal> "Surv Ophthalmol ." .
+<http://ctro/data#Publication_99082> <http://ctro/data#hasPMID> "8970248" .
+<http://ctro/data#Publication_99082> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_99089> .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_99089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_99089> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasObjectiveDescription> "The safety and ocular hypotensive efficacy of twice - daily administration of brimonidine 0 . 2 % solution or betaxolol 0 . 25 % suspension were compared in subjects with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasNumberPatientsCT> "206" .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTduration> "3 - month" .
+<http://ctro/data#AllocationRatio_99093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_99094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasConclusionComment> "Overall , brimonidine 0 . 2 % solution was well - tolerated , safe and clinically and statistically more effective than betaxolol 0 . 25 % suspension in lowering intraocular pressure in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasArm> <http://ctro/data#Arm_99134> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasPopulation> <http://ctro/data#Population_99110> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_99313> .
+<http://ctro/data#EvidenceQuality_99101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasArm> <http://ctro/data#Arm_99143> .
+<http://ctro/data#ClinicalTrial_99089> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_99322> .
+# RDF export of group: Population
+<http://ctro/data#Population_99110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_99110> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_99110> <http://ctro/data#hasPrecondition> "subjects with elevated intraocular pressure" .
+<http://ctro/data#Population_99110> <http://ctro/data#hasPrecondition> "subjects with open - angle glaucoma or ocular hypertension" .
+<http://ctro/data#Ethnicity_99112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_99110> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_99117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_99119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_99119> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_piop" .
+<http://ctro/data#Endpoint_99119> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP> .
+<http://ctro/data#Mean_99121> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_99119> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_99121> .
+<http://ctro/data#Endpoint_99119> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_99123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_99124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_99124> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_tiop" .
+<http://ctro/data#Endpoint_99124> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Trough_IOP> .
+<http://ctro/data#Mean_99126> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_99124> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_99126> .
+<http://ctro/data#Endpoint_99124> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_99128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_99129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_99129> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_BV" .
+<http://ctro/data#Endpoint_99129> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BlurredVison> .
+<http://ctro/data#AggregationMethod_99131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_99132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_99133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_99134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_99134> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_bri" .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasNumberPatientsArm> "103" .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_99152> .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_99178> .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_99286> .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasNumPatientsLeftArm> "3" .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasRelNumPatientsLeftArm> "2 . 9" .
+<http://ctro/data#Arm_99134> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_99259> .
+<http://ctro/data#Arm_99143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_99143> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_bet" .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasNumberPatientsArm> "96" .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_99158> .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_99205> .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_99286> .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasNumPatientsLeftArm> "4" .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasRelNumPatientsLeftArm> "4 . 2" .
+<http://ctro/data#Arm_99143> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_99259> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_99152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_99152> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_bri" .
+<http://ctro/data#Intervention_99152> <http://ctro/data#hasMedication> <http://ctro/data#Medication_99164> .
+<http://ctro/data#Intervention_99152> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_99157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_99158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_99158> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_bet" .
+<http://ctro/data#Intervention_99158> <http://ctro/data#hasMedication> <http://ctro/data#Medication_99171> .
+<http://ctro/data#Intervention_99158> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_99163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_99164> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_99164> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_bri" .
+<http://ctro/data#Medication_99164> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_99164> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_99164> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_99168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_99171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_99171> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_bet" .
+<http://ctro/data#Medication_99171> <http://ctro/data#hasDrug> <http://ctro/data#Betaxolol> .
+<http://ctro/data#Medication_99171> <http://ctro/data#hasDoseValue> "0 . 25" .
+<http://ctro/data#Medication_99171> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_99175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_99178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_99178> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_piop_bri" .
+<http://ctro/data#Outcome_99178> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_99119> .
+<http://ctro/data#Outcome_99178> <http://ctro/data#hasChangeValue> "5 . 8" .
+<http://ctro/data#Outcome_99178> <http://ctro/data#hasPValueChangeValue> "p < 0 . 001" .
+<http://ctro/data#Outcome_99205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_99205> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_piop_bet" .
+<http://ctro/data#Outcome_99205> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_99119> .
+<http://ctro/data#Outcome_99205> <http://ctro/data#hasChangeValue> "3 . 8" .
+<http://ctro/data#Outcome_99205> <http://ctro/data#hasPValueChangeValue> "p < 0 . 001" .
+<http://ctro/data#Outcome_99232> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_99232> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tiop_bri" .
+<http://ctro/data#Outcome_99232> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_99124> .
+<http://ctro/data#Outcome_99232> <http://ctro/data#hasChangeValue> "3 . 9" .
+<http://ctro/data#Outcome_99232> <http://ctro/data#hasPValueChangeValue> "p < 0 . 001" .
+<http://ctro/data#Outcome_99259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_99259> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tiop_bet" .
+<http://ctro/data#Outcome_99259> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_99124> .
+<http://ctro/data#Outcome_99259> <http://ctro/data#hasChangeValue> "3 . 2" .
+<http://ctro/data#Outcome_99259> <http://ctro/data#hasPValueChangeValue> "p < 0 . 001" .
+<http://ctro/data#Outcome_99286> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_99286> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_BV" .
+<http://ctro/data#Outcome_99286> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_99129> .
+<http://ctro/data#Outcome_99286> <http://ctro/data#hasObservedResult> "ocular blurring was reported more often by patients receiving betaxolol suspension than by those receiving brimonidine treatment ." .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_99313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_99313> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_piop" .
+<http://ctro/data#DiffBetweenGroups_99313> <http://ctro/data#hasPvalueDiff> "p = 0 . 004" .
+<http://ctro/data#DiffBetweenGroups_99313> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_99178> .
+<http://ctro/data#DiffBetweenGroups_99313> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_99205> .
+<http://ctro/data#DiffBetweenGroups_99322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_99322> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_tiop" .
+<http://ctro/data#DiffBetweenGroups_99322> <http://ctro/data#hasPvalueDiff> "p < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_99322> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_99232> .
+<http://ctro/data#DiffBetweenGroups_99322> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_99259> .
+# RDF export of group: EvidenceQuality

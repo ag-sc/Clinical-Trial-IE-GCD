@@ -1,0 +1,105 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+96, Journal, 0, 24, "J Diabetes Complications", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasJournal> \"J Diabetes Complications\"."
+1, PublicationYear, 27, 31, "2013", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasPublicationYear> \"2013\"."
+24, Title, 136, 326, "Efficacy and safety of sitagliptin added to ongoing metformin and pioglitazone combination therapy in a randomized , placebo - controlled , 26 - week trial in patients with type 2 diabetes .", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasTitle> \"Efficacy and safety of sitagliptin added to ongoing metformin and pioglitazone combination therapy in a randomized , placebo - controlled , 26 - week trial in patients with type 2 diabetes .\"."
+2, Sitagliptin, 159, 170, "sitagliptin", "", 
+106280, Precondition, 180, 234, "ongoing metformin and pioglitazone combination therapy", "", "<http://ctro/data#Population_40818> <http://ctro/data#hasPrecondition> \"ongoing metformin and pioglitazone combination therapy\"."
+9, Metformin, 188, 197, "metformin", "", 
+12, Pioglitazone, 202, 214, "pioglitazone", "", 
+15, Randomized, 240, 250, "randomized", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+16, Placebo, 253, 260, "placebo", "", 
+22, Duration, 276, 285, "26 - week", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasCTduration> \"26 - week\"."
+23, Type2Diabetes, 309, 324, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+43, Author, 327, 336, "Fonseca V", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Fonseca V\"."
+44, Author, 345, 353, "Staels B", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Staels B\"."
+45, Author, 356, 369, "Morgan JD 2nd", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Morgan JD 2nd\"."
+46, Author, 372, 380, "Shentu Y", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Shentu Y\"."
+47, Author, 383, 390, "Golm GT", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Golm GT\"."
+48, Author, 393, 413, "Johnson - Levonas AO", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Johnson - Levonas AO\"."
+49, Author, 416, 426, "Kaufman KD", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+50, Author, 429, 441, "Goldstein BJ", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Goldstein BJ\"."
+51, Author, 444, 455, "Steinberg H", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasAuthor> \"Steinberg H\"."
+52, USA, 539, 542, "USA", "", "<http://ctro/data#Population_40818> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+41, ObjectiveDescription, 552, 730, "To assess efficacy and safety of sitagliptin , a dipeptidyl peptidase - 4 inhibitor , in combination therapy with metformin ( ≥ 1500 mg / day ) and pioglitazone ( ≥ 30 mg / day )", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasObjectiveDescription> \"To assess efficacy and safety of sitagliptin , a dipeptidyl peptidase - 4 inhibitor , in combination therapy with metformin ( ≥ 1500 mg / day ) and pioglitazone ( ≥ 30 mg / day )\"."
+3, Sitagliptin, 585, 596, "sitagliptin", "", 
+10, Metformin, 666, 675, "metformin", "", 
+25, DoseValue, 678, 684, "≥ 1500", "", 
+28, mg, 685, 687, "mg", "", 
+31, Frequency, 690, 693, "day", "", 
+14, Pioglitazone, 700, 712, "pioglitazone", "", 
+26, DoseValue, 715, 719, "≥ 30", "", 
+29, mg, 720, 722, "mg", "", 
+32, Frequency, 725, 728, "day", "", 
+42, ObjectiveDescription, 731, 857, "in patients with type 2 diabetes ( T2DM ) with inadequate glycemic control ( hemoglobin A1c [ HbA1c ] ≥ 7 . 5 % and ≤ 11 % ) .", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasObjectiveDescription> \"in patients with type 2 diabetes ( T2DM ) with inadequate glycemic control ( hemoglobin A1c [ HbA1c ] ≥ 7 . 5 % and ≤ 11 % ) .\"."
+40, Precondition, 734, 855, "patients with type 2 diabetes ( T2DM ) with inadequate glycemic control ( hemoglobin A1c [ HbA1c ] ≥ 7 . 5 % and ≤ 11 % )", "", "<http://ctro/data#Population_40818> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes ( T2DM ) with inadequate glycemic control ( hemoglobin A1c [ HbA1c ] ≥ 7 . 5 % and ≤ 11 % )\"."
+34, Type2Diabetes, 748, 763, "type 2 diabetes", "", 
+35, Type2Diabetes, 766, 770, "T2DM", "", 
+36, HbA1c, 808, 822, "hemoglobin A1c", "", 
+37, HbA1c, 825, 830, "HbA1c", "", 
+38, Percentage, 841, 842, "%", "", 
+39, Percentage, 852, 853, "%", "", 
+17, Placebo, 873, 880, "placebo", "", 
+53, DoubleBlind, 896, 910, "double - blind", "", "<http://ctro/data#Population_40818> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+54, NumberPatientsCT, 926, 929, "313", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasNumberPatientsCT> \"313\"."
+133, Mean, 941, 945, "mean", "", 
+134, TimePoint, 946, 954, "baseline", "", 
+55, HbA1c, 955, 960, "HbA1c", "", 
+56, BaseLineValue, 963, 968, "8 . 7", "", 
+57, Percentage, 969, 970, "%", "", 
+58, Randomized, 982, 992, "randomized", "", 
+4, Sitagliptin, 1004, 1015, "sitagliptin", "", "<http://ctro/data#Medication_40856> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+27, DoseValue, 1016, 1019, "100", "", "<http://ctro/data#Medication_40856> <http://ctro/data#hasDoseValue> \"100\"."
+30, mg, 1020, 1022, "mg", "", "<http://ctro/data#Medication_40856> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+33, Frequency, 1025, 1028, "day", "", "<http://ctro/data#Intervention_40844> <http://ctro/data#hasFrequency> \"day\"."
+18, Placebo, 1032, 1039, "placebo", "", 
+59, Duration, 1044, 1052, "26 weeks", "", 
+5, Sitagliptin, 1081, 1092, "sitagliptin", "", 
+60, PValueChangeValue, 1114, 1123, "P < . 001", "", "<http://ctro/data#Outcome_40927> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_40981> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_41008> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_91600> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_91628> <http://ctro/data#hasPValueChangeValue> \"P < . 001\". <http://ctro/data#Outcome_91656> <http://ctro/data#hasPValueChangeValue> \"P < . 001\"."
+147, Mean, 1126, 1130, "mean", "", "<http://ctro/data#Mean_40914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_40912> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_40914>. <http://ctro/data#Mean_40919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_40917> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_40919>. <http://ctro/data#Mean_40924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_40922> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_40924>."
+148, TimePoint, 1144, 1152, "baseline", "", 
+61, Placebo, 1165, 1172, "placebo", "", 
+62, HbA1c, 1176, 1181, "HbA1c", "", "<http://ctro/data#Endpoint_40912> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+106281, DiffGroupAbsValue, 1184, 1191, "- 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_91683> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 7\"."
+66, Percentage, 1192, 1193, "%", "", "<http://ctro/data#Endpoint_40912> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+63, FastingPlasmaGlucose, 1198, 1220, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_40917> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+106282, DiffGroupAbsValue, 1223, 1230, "- 1 . 0", "", "<http://ctro/data#DiffBetweenGroups_91692> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 0\"."
+65, Millimoles_per_litre, 1231, 1239, "mmol / L", "", "<http://ctro/data#Endpoint_40917> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+95, PostprandialBloodGlucose, 1248, 1273, "2 - h post - meal glucose", "", "<http://ctro/data#Endpoint_40922> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+106283, DiffGroupAbsValue, 1276, 1283, "- 2 . 2", "", "<http://ctro/data#DiffBetweenGroups_91701> <http://ctro/data#hasDiffGroupAbsValue> \"- 2 . 2\"."
+64, Millimoles_per_litre, 1284, 1292, "mmol / L", "", "<http://ctro/data#Endpoint_40922> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+71, SubGroupDescription, 1300, 1338, "patients with baseline HbA1c ≥ 9 . 0 %", "", "<http://ctro/data#Outcome_41035> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≥ 9 . 0 %\". <http://ctro/data#Outcome_41062> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≥ 9 . 0 %\"."
+161, TimePoint, 1314, 1322, "baseline", "", 
+70, HbA1c, 1323, 1328, "HbA1c", "", 
+72, Percentage, 1337, 1338, "%", "", 
+164, Mean, 1341, 1345, "mean", "", 
+165, BaseLineValue, 1359, 1367, "baseline", "", 
+73, HbA1c, 1371, 1376, "HbA1c", "", 
+74, Reduction, 1384, 1389, "1 . 6", "", "<http://ctro/data#Outcome_41035> <http://ctro/data#hasChangeValue> \"1 . 6\"."
+76, Percentage, 1390, 1391, "%", "", 
+75, Reduction, 1398, 1403, "0 . 8", "", "<http://ctro/data#Outcome_41062> <http://ctro/data#hasChangeValue> \"0 . 8\"."
+77, Percentage, 1404, 1405, "%", "", 
+6, Sitagliptin, 1414, 1425, "sitagliptin", "", 
+20, Placebo, 1430, 1437, "placebo", "", 
+78, DiffGroupAbsValue, 1489, 1496, "- 0 . 8", "", "<http://ctro/data#DiffBetweenGroups_41089> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 8\"."
+79, Percentage, 1497, 1498, "%", "", 
+80, PvalueDiff, 1501, 1510, "P < . 001", "", "<http://ctro/data#DiffBetweenGroups_41089> <http://ctro/data#hasPvalueDiff> \"P < . 001\"."
+82, ObservedResult, 1515, 1610, "The incidences of reported adverse events were generally similar between the treatment groups .", "", 
+85, SymptomaticHypoglycemia, 1625, 1649, "symptomatic hypoglycemia", "", "<http://ctro/data#Endpoint_41098> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+89, NumberAffected, 1655, 1656, "7", "", "<http://ctro/data#Outcome_41103> <http://ctro/data#hasNumberAffected> \"7\"."
+91, NumberPatientsArm, 1659, 1662, "157", "", "<http://ctro/data#Arm_40826> <http://ctro/data#hasNumberPatientsArm> \"157\"."
+87, PercentageAffected, 1665, 1670, "4 . 5", "", "<http://ctro/data#Outcome_41103> <http://ctro/data#hasPercentageAffected> \"4 . 5\"."
+90, NumberAffected, 1679, 1680, "6", "", "<http://ctro/data#Outcome_41130> <http://ctro/data#hasNumberAffected> \"6\"."
+92, NumberPatientsArm, 1683, 1686, "156", "", "<http://ctro/data#Arm_40835> <http://ctro/data#hasNumberPatientsArm> \"156\"."
+88, PercentageAffected, 1689, 1694, "3 . 8", "", "<http://ctro/data#Outcome_41130> <http://ctro/data#hasPercentageAffected> \"3 . 8\"."
+7, Sitagliptin, 1706, 1717, "sitagliptin", "", 
+19, Placebo, 1722, 1729, "placebo", "", 
+86, PvalueDiff, 1754, 1763, "P = . 786", "", "<http://ctro/data#DiffBetweenGroups_41157> <http://ctro/data#hasPvalueDiff> \"P = . 786\"."
+83, NumberAffected, 1768, 1771, "Two", "", "<http://ctro/data#Outcome_41198> <http://ctro/data#hasNumberAffected> \"Two\"."
+21, Placebo, 1795, 1802, "placebo", "", 
+93015, Hypoglycemia, 1837, 1888, "hypoglycemia that required non - medical assistance", "", "<http://ctro/data#Endpoint_41166> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+195, ConclusionComment, 1905, 2070, "In this 26 - week study , addition of sitagliptin to combination therapy with metformin and pioglitazone improved glycemic control and was generally well tolerated .", "", "<http://ctro/data#ClinicalTrial_40802> <http://ctro/data#hasConclusionComment> \"In this 26 - week study , addition of sitagliptin to combination therapy with metformin and pioglitazone improved glycemic control and was generally well tolerated .\"."
+93, Duration, 1913, 1922, "26 - week", "", 
+8, Sitagliptin, 1943, 1954, "sitagliptin", "", 
+11, Metformin, 1983, 1992, "metformin", "", 
+13, Pioglitazone, 1997, 2009, "pioglitazone", "", 
+94, PMID, 2181, 2189, "23116881", "", "<http://ctro/data#Publication_40795> <http://ctro/data#hasPMID> \"23116881\"."

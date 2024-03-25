@@ -1,0 +1,131 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "2011", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasPublicationYear> \"2011\"."
+2, Title, 120, 254, "Comparison of latanoprost and timolol in pediatric glaucoma : a phase 3 , 12 - week , randomized , double - masked multicenter study .", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasTitle> \"Comparison of latanoprost and timolol in pediatric glaucoma : a phase 3 , 12 - week , randomized , double - masked multicenter study .\"."
+5, Latanoprost, 134, 145, "latanoprost", "", 
+16, Timolol, 150, 157, "timolol", "", 
+119920, Glaucoma, 171, 179, "glaucoma", "", 
+74, Duration, 194, 203, "12 - week", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTduration> \"12 - week\"."
+75, Randomized, 206, 216, "randomized", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+76, DoubleBlind, 219, 234, "double - masked", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+77, Multicenter, 235, 246, "multicenter", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+3, Author, 255, 273, "Maeda - Chubachi T", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Maeda - Chubachi T\"."
+79, Author, 282, 296, "Chi - Burris K", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Chi - Burris K\"."
+80, Author, 299, 308, "Simons BD", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Simons BD\"."
+81, Author, 311, 322, "Freedman SF", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Freedman SF\"."
+82, Author, 325, 332, "Khaw PT", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Khaw PT\"."
+83, Author, 335, 345, "Wirostko B", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Wirostko B\"."
+84, Author, 348, 353, "Yan E", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> \"Yan E\"."
+85, USA, 446, 449, "USA", "", "<http://ctro/data#Population_47709> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+4, ObjectiveDescription, 464, 566, "To compare the efficacy and safety of latanoprost versus timolol in pediatric patients with glaucoma .", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of latanoprost versus timolol in pediatric patients with glaucoma .\"."
+6, Latanoprost, 502, 513, "latanoprost", "", 
+17, Timolol, 521, 528, "timolol", "", 
+89, Precondition, 532, 564, "pediatric patients with glaucoma", "", "<http://ctro/data#Population_47709> <http://ctro/data#hasPrecondition> \"pediatric patients with glaucoma\"."
+26, Glaucoma, 556, 564, "glaucoma", "", "<http://ctro/data#Glaucoma_47695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47695>."
+44820, Prospective, 576, 587, "Prospective", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+30, Randomized, 590, 600, "randomized", "", 
+91, DoubleBlind, 603, 618, "double - masked", "", 
+31, Duration, 621, 630, "12 - week", "", "<http://ctro/data#Intervention_47738> <http://ctro/data#hasDuration> \"12 - week\"."
+32, Multicenter, 633, 644, "multicenter", "", 
+95, Precondition, 668, 709, "Individuals aged ≤ 18 years with glaucoma", "", "<http://ctro/data#Population_47709> <http://ctro/data#hasPrecondition> \"Individuals aged ≤ 18 years with glaucoma\"."
+27, MaxAge, 687, 695, "18 years", "", "<http://ctro/data#Population_47709> <http://ctro/data#hasMaxAge> \"18 years\"."
+33, Glaucoma, 701, 709, "glaucoma", "", 
+34, Diurnal_IOP, 758, 778, "intraocular pressure", "", 
+35, Diurnal_IOP, 781, 784, "IOP", "", 
+29, Randomized, 809, 819, "randomized", "", 
+28, AllocationRatio, 822, 827, "1 : 1", "", "<http://ctro/data#AllocationRatio_47690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_47690>."
+7, Latanoprost, 833, 844, "latanoprost", "", "<http://ctro/data#Latanoprost_47751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_47750> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_47751>."
+40, TimePoint, 856, 860, "8 am", "", 
+10, Latanoprost, 865, 876, "latanoprost", "", "<http://ctro/data#Latanoprost_47758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_47757> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_47758>."
+44, DoseValue, 877, 884, "0 . 005", "", "<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+45, Percentage, 885, 886, "%", "", "<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+41, TimePoint, 890, 894, "8 pm", "", 
+18, Timolol, 898, 905, "timolol", "", 
+46, DoseValue, 906, 911, "0 . 5", "", "<http://ctro/data#Medication_47764> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+47, Percentage, 912, 913, "%", "", "<http://ctro/data#Medication_47764> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+193, DoseValue, 916, 922, "0 . 25", "", 
+194, DoseValue, 923, 924, "%", "", 
+48, Frequency, 952, 963, "twice daily", "", "<http://ctro/data#Intervention_47738> <http://ctro/data#hasFrequency> \"twice daily\"."
+42, TimePoint, 966, 970, "8 am", "", 
+43, TimePoint, 973, 977, "8 pm", "", 
+195, TimePoint, 985, 993, "baseline", "", 
+196, TimePoint, 998, 1005, "weeks 1", "", 
+197, TimePoint, 1008, 1009, "4", "", 
+198, TimePoint, 1016, 1018, "12", "", 
+36, Diurnal_IOP, 1021, 1024, "IOP", "", 
+49, OpenLabel, 1116, 1128, "open - label", "", 
+9, Latanoprost, 1129, 1140, "latanoprost", "", 
+19, Timolol, 1148, 1155, "timolol", "", 
+38, Diurnal_IOP, 1183, 1186, "IOP", "", 
+50, Mean, 1213, 1217, "Mean", "", 
+37, Diurnal_IOP, 1218, 1221, "IOP", "", 
+199, TimePoint, 1249, 1256, "week 12", "", 
+8, Latanoprost, 1259, 1270, "Latanoprost", "", 
+20, Timolol, 1301, 1308, "timolol", "", 
+112, mmHg, 1395, 1399, "mmHg", "", 
+44835, Percentage, 1450, 1451, "%", "", 
+39, Diurnal_IOP, 1452, 1455, "IOP", "", 
+200, TimePoint, 1469, 1476, "weeks 4", "", 
+201, TimePoint, 1481, 1483, "12", "", 
+119916, Glaucoma, 1552, 1579, "primary congenital glaucoma", "", "<http://ctro/data#Glaucoma_47707> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47707>."
+119917, Glaucoma, 1582, 1585, "PCG", "", 
+204, Glaucoma, 1592, 1601, "non - PCG", "", "<http://ctro/data#Glaucoma_47708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47708>."
+52, NumberPatientsCT, 1625, 1628, "137", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasNumberPatientsCT> \"137\"."
+117, Mean, 1751, 1755, "Mean", "", 
+53, AvgAge, 1764, 1769, "8 . 8", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasNumberPatientsCT> \"137\"."
+205, Mean, 1790, 1794, "mean", "", 
+54, Diurnal_IOP, 1804, 1807, "IOP", "", 
+55, BaseLineValue, 1812, 1818, "27 . 7", "", "<http://ctro/data#Outcome_47788> <http://ctro/data#hasBaselineValue> \"27 . 7\". <http://ctro/data#Outcome_47816> <http://ctro/data#hasBaselineValue> \"27 . 7\"."
+120, SdDevBL, 1821, 1827, "6 . 17", "", "<http://ctro/data#Outcome_47788> <http://ctro/data#hasSdDevBL> \"6 . 17\". <http://ctro/data#Outcome_47816> <http://ctro/data#hasSdDevBL> \"6 . 17\"."
+57, mmHg, 1828, 1832, "mmHg", "", 
+122, FinalNumPatientsCT, 1835, 1838, "125", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasFinalNumberPatientsCT> \"125\"."
+58, PerProtocol, 1899, 1911, "per protocol", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+124, Mean, 1925, 1929, "Mean", "", "<http://ctro/data#Mean_47720> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_47718> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_47720>."
+59, Diurnal_IOP, 1930, 1933, "IOP", "", "<http://ctro/data#Endpoint_47718> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+11, Latanoprost, 1949, 1960, "latanoprost", "", 
+21, Timolol, 1965, 1972, "timolol", "", 
+128, TimePoint, 1976, 1983, "week 12", "", "<http://ctro/data#Outcome_47788> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_47816> <http://ctro/data#hasTimePoint> \"week 12\"."
+129, Reduction, 1989, 1994, "7 . 2", "", "<http://ctro/data#Outcome_47788> <http://ctro/data#hasChangeValue> \"7 . 2\"."
+130, Reduction, 1999, 2004, "5 . 7", "", "<http://ctro/data#Outcome_47816> <http://ctro/data#hasChangeValue> \"5 . 7\"."
+62, mmHg, 2005, 2009, "mmHg", "", "<http://ctro/data#Endpoint_47718> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+63, DiffGroupAbsValue, 2048, 2053, "1 . 5", "", "<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 5\"."
+64, mmHg, 2054, 2058, "mmHg", "", 
+44829, ConfIntervalDiff, 2061, 2087, "95 % CI , - 0 . 8 to 3 . 7", "", "<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 8 to 3 . 7\"."
+135, PvalueDiff, 2090, 2100, "P = 0 . 21", "", "<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasPvalueDiff> \"P = 0 . 21\"."
+106390, EndPointDescription, 2105, 2120, "Responder rates", "", "<http://ctro/data#EndPointDescription_98706> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98705> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98706>."
+136, PercentageAffected, 2126, 2128, "60", "", "<http://ctro/data#Outcome_47843> <http://ctro/data#hasPercentageAffected> \"60\"."
+12, Latanoprost, 2135, 2146, "latanoprost", "", 
+137, PercentageAffected, 2151, 2153, "52", "", "<http://ctro/data#Outcome_47870> <http://ctro/data#hasPercentageAffected> \"52\"."
+22, Timolol, 2160, 2167, "timolol", "", 
+140, PvalueDiff, 2170, 2180, "P = 0 . 33", "", "<http://ctro/data#DiffBetweenGroups_102106> <http://ctro/data#hasPvalueDiff> \"P = 0 . 33\"."
+174, Mean, 2220, 2224, "mean", "", 
+44837, Diurnal_IOP, 2225, 2228, "IOP", "", 
+119918, Glaucoma, 2243, 2246, "PCG", "", 
+44830, Glaucoma, 2251, 2260, "non - PCG", "", 
+144, DiffGroupAbsValue, 2276, 2281, "0 . 6", "", 
+146, mmHg, 2282, 2286, "mmHg", "", 
+148, ConfIntervalDiff, 2289, 2315, "95 % CI , - 2 . 3 to 3 . 4", "", 
+145, DiffGroupAbsValue, 2322, 2327, "2 . 6", "", 
+147, mmHg, 2328, 2332, "mmHg", "", 
+44832, ConfIntervalDiff, 2335, 2361, "95 % CI , - 0 . 8 to 6 . 1", "", 
+119915, EndPointDescription, 2381, 2396, "Responder rates", "", 
+13, Latanoprost, 2401, 2412, "latanoprost", "", 
+25, Timolol, 2420, 2427, "timolol", "", 
+152, PercentageAffected, 2433, 2435, "50", "", "<http://ctro/data#Outcome_102115> <http://ctro/data#hasPercentageAffected> \"50\"."
+153, PercentageAffected, 2445, 2447, "46", "", "<http://ctro/data#Outcome_102169> <http://ctro/data#hasPercentageAffected> \"46\"."
+106406, SubGroupDescription, 2458, 2467, "PCG group", "", "<http://ctro/data#Outcome_102115> <http://ctro/data#hasSubGroupDescription> \"PCG group\". <http://ctro/data#Outcome_102169> <http://ctro/data#hasSubGroupDescription> \"PCG group\"."
+155, PercentageAffected, 2472, 2474, "72", "", "<http://ctro/data#Outcome_102142> <http://ctro/data#hasPercentageAffected> \"72\"."
+156, PercentageAffected, 2484, 2486, "57", "", "<http://ctro/data#Outcome_102196> <http://ctro/data#hasPercentageAffected> \"57\"."
+106407, SubGroupDescription, 2497, 2512, "non - PCG group", "", "<http://ctro/data#Outcome_102142> <http://ctro/data#hasSubGroupDescription> \"non - PCG group\". <http://ctro/data#Outcome_102196> <http://ctro/data#hasSubGroupDescription> \"non - PCG group\"."
+15, Latanoprost, 2566, 2577, "Latanoprost", "", 
+67, ConclusionComment, 2566, 2763, "Latanoprost 0 . 005 % is not inferior ( i . e . , is either more or similarly effective ) to timolol and produces clinically relevant IOP reductions across pediatric patients with and without PCG .", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasConclusionComment> \"Latanoprost 0 . 005 % is not inferior ( i . e . , is either more or similarly effective ) to timolol and produces clinically relevant IOP reductions across pediatric patients with and without PCG .\"."
+44, DoseValue, 2578, 2585, "0 . 005", "", "<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+45, Percentage, 2586, 2587, "%", "", "<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+23, Timolol, 2659, 2666, "timolol", "", 
+44836, Diurnal_IOP, 2700, 2703, "IOP", "", 
+119919, Glaucoma, 2758, 2761, "PCG", "", 
+68, ConclusionComment, 2764, 2866, "Both latanoprost and timolol had favorable safety profiles over the duration of this 3 - month trial .", "", "<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasConclusionComment> \"Both latanoprost and timolol had favorable safety profiles over the duration of this 3 - month trial .\"."
+14, Latanoprost, 2769, 2780, "latanoprost", "", 
+24, Timolol, 2785, 2792, "timolol", "", 
+167, Duration, 2849, 2858, "3 - month", "", 
+170, PMID, 3126, 3134, "21680022", "", "<http://ctro/data#Publication_47673> <http://ctro/data#hasPMID> \"21680022\"."

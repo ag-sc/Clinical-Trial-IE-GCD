@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2012", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasPublicationYear> \"2012\"."
+2, IOP, 87, 107, "Intraocular pressure", "", 
+5, Title, 87, 220, "Intraocular pressure - lowering efficacy of brinzolamide when added to travoprost / timolol fixed combination as adjunctive therapy .", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasTitle> \"Intraocular pressure - lowering efficacy of brinzolamide when added to travoprost / timolol fixed combination as adjunctive therapy .\"."
+3, Brinzolamide, 131, 143, "brinzolamide", "", 
+32275, Travoprost, 158, 168, "travoprost", "", 
+44444, Trav/TimFC, 158, 196, "travoprost / timolol fixed combination", "", 
+4, Timolol, 171, 178, "timolol", "", 
+6, Author, 221, 231, "Goldberg I", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> \"Goldberg I\"."
+7, Author, 240, 251, "Crowston JG", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> \"Crowston JG\"."
+8, Author, 254, 262, "Jasek MC", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> \"Jasek MC\"."
+9, Author, 265, 275, "Stewart JA", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+10, Author, 278, 288, "Stewart WC", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+11, Australia, 624, 633, "Australia", "", "<http://ctro/data#Population_30612> <http://ctro/data#hasCountry> <http://ctro/data#Australia>."
+90, ObjectiveDescription, 646, 789, "To compare the efficacy of brinzolamide versus placebo when added to travoprost / timolol fixed combination ( TTFC ) in uncontrolled patients .", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy of brinzolamide versus placebo when added to travoprost / timolol fixed combination ( TTFC ) in uncontrolled patients .\"."
+12, Brinzolamide, 673, 685, "brinzolamide", "", 
+13, Placebo, 693, 700, "placebo", "", 
+32276, Travoprost, 715, 725, "travoprost", "", 
+44445, Trav/TimFC, 715, 753, "travoprost / timolol fixed combination", "", 
+14, Timolol, 728, 735, "timolol", "", 
+38404, Trav/TimFC, 756, 760, "TTFC", "", 
+37004, Prospective, 824, 835, "prospective", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+15, DoubleBlind, 838, 853, "double - masked", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+16, Randomized, 856, 866, "randomized", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+17, Placebo, 869, 876, "placebo", "", 
+18, Parallel, 892, 900, "parallel", "", 
+19, OcularHypertension, 915, 934, "ocular hypertensive", "", 
+32281, Primary_OpenAngleGlaucoma, 938, 967, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+106385, Precondition, 979, 1111, "Patients treated with a prostaglandin - based mono or adjunctive therapy were changed to TTFC qam ( every day dosing ) for 4 weeks .", "", "<http://ctro/data#Population_30612> <http://ctro/data#hasPrecondition> \"Patients treated with a prostaglandin - based mono or adjunctive therapy were changed to TTFC qam ( every day dosing ) for 4 weeks .\"."
+92861, ProstaglandinAnalogs, 1003, 1016, "prostaglandin", "", 
+38405, Trav/TimFC, 1068, 1072, "TTFC", "", 
+100, Frequency, 1073, 1076, "qam", "", 
+32285, Frequency, 1079, 1088, "every day", "", 
+22, Duration, 1102, 1109, "4 weeks", "", 
+23, IOP, 1129, 1149, "intraocular pressure", "", 
+24, IOP, 1152, 1155, "IOP", "", 
+25, mmHg, 1170, 1175, "mm Hg", "", 
+26, Randomized, 1277, 1287, "randomized", "", 
+27, Placebo, 1298, 1305, "placebo", "", "<http://ctro/data#Medication_39242> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+28, Brinzolamide, 1309, 1321, "brinzolamide", "", "<http://ctro/data#Medication_39235> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+29, Frequency, 1328, 1339, "twice daily", "", "<http://ctro/data#Intervention_37129> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_39250> <http://ctro/data#hasFrequency> \"twice daily\"."
+38407, Trav/TimFC, 1355, 1359, "TTFC", "", 
+32287, TimePoint, 1365, 1372, "week 12", "", "<http://ctro/data#Outcome_36518> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_39265> <http://ctro/data#hasTimePoint> \"week 12\"."
+30, IOP, 1394, 1397, "IOP", "", 
+110, PerProtocol, 1436, 1448, "per protocol", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+111, NumberPatientsArm, 1471, 1473, "78", "", "<http://ctro/data#Arm_37103> <http://ctro/data#hasNumberPatientsArm> \"78\"."
+33, Placebo, 1474, 1481, "placebo", "", 
+112, NumberPatientsArm, 1486, 1488, "75", "", "<http://ctro/data#Arm_37116> <http://ctro/data#hasNumberPatientsArm> \"75\"."
+34, Brinzolamide, 1489, 1501, "brinzolamide", "", 
+35, Mean, 1531, 1535, "mean", "", 
+36, Diurnal_IOP, 1536, 1547, "diurnal IOP", "", 
+37, mmHg, 1550, 1555, "mm Hg", "", "<http://ctro/data#Endpoint_37096> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38, IOP, 1569, 1572, "IOP", "", 
+39, PvalueDiff, 1607, 1618, "P ≤ 0 . 005", "", 
+40, Brinzolamide, 1623, 1635, "Brinzolamide", "", 
+41, Mean, 1648, 1652, "mean", "", "<http://ctro/data#Mean_37098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_37096> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_37098>."
+42, Diurnal_IOP, 1653, 1664, "diurnal IOP", "", "<http://ctro/data#Endpoint_37096> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+43, BaseLineValue, 1670, 1676, "20 . 3", "", "<http://ctro/data#Outcome_36518> <http://ctro/data#hasBaselineValue> \"20 . 3\"."
+44, SdDevBL, 1679, 1684, "2 . 0", "", "<http://ctro/data#Outcome_36518> <http://ctro/data#hasSdDevBL> \"2 . 0\"."
+45, ResultMeasuredValue, 1688, 1694, "17 . 5", "", "<http://ctro/data#Outcome_36518> <http://ctro/data#hasResultMeasuredValue> \"17 . 5\"."
+46, SdDevResValue, 1697, 1702, "2 . 6", "", "<http://ctro/data#Outcome_36518> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+47, Placebo, 1713, 1720, "placebo", "", 
+48, IOP, 1729, 1732, "IOP", "", 
+49, BaseLineValue, 1738, 1744, "20 . 9", "", "<http://ctro/data#Outcome_39265> <http://ctro/data#hasBaselineValue> \"20 . 9\"."
+50, SdDevBL, 1747, 1752, "2 . 7", "", "<http://ctro/data#Outcome_39265> <http://ctro/data#hasSdDevBL> \"2 . 7\"."
+51, ResultMeasuredValue, 1756, 1762, "19 . 4", "", "<http://ctro/data#Outcome_39265> <http://ctro/data#hasResultMeasuredValue> \"19 . 4\"."
+52, SdDevResValue, 1765, 1770, "3 . 8", "", "<http://ctro/data#Outcome_39265> <http://ctro/data#hasSdDevResValue> \"3 . 8\"."
+53, Mean, 1777, 1781, "mean", "", "<http://ctro/data#Outcome_39265> <http://ctro/data#hasSdDevResValue> \"3 . 8\"."
+54, Diurnal_IOP, 1782, 1793, "diurnal IOP", "", 
+56, TimePoint, 1832, 1839, "08 : 00", "", 
+57, TimePoint, 1844, 1851, "16 : 00", "", 
+55, Brinzolamide, 1877, 1889, "brinzolamide", "", 
+58, Placebo, 1910, 1917, "placebo", "", 
+59, PvalueDiff, 1920, 1931, "P ≤ 0 . 014", "", "<http://ctro/data#DiffBetweenGroups_36497> <http://ctro/data#hasPvalueDiff> \"P ≤ 0 . 014\"."
+60, NumberAffected, 1947, 1949, "30", "", "<http://ctro/data#Outcome_39294> <http://ctro/data#hasNumberAffected> \"30\"."
+32288, EndPointDescription, 1950, 1964, "adverse events", "", "<http://ctro/data#EndPointDescription_36947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_36946> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_36947>."
+61, Placebo, 1970, 1977, "placebo", "", 
+62, NumberAffected, 1982, 1984, "24", "", "<http://ctro/data#Outcome_41680> <http://ctro/data#hasNumberAffected> \"24\"."
+63, Brinzolamide, 1990, 2002, "brinzolamide", "", 
+64, IntentionToTreat, 2005, 2024, "intent - to - treat", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+139, PvalueDiff, 2135, 2145, "P = 0 . 47", "", "<http://ctro/data#DiffBetweenGroups_36506> <http://ctro/data#hasPvalueDiff> \"P = 0 . 47\"."
+74, ConclusionComment, 2164, 2354, "This study suggests that brinzolamide may be safely added to TTFC therapy to provide further significant reduction in IOP patients with ocular hypertensive or primary open - angle glaucoma .", "", "<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasConclusionComment> \"This study suggests that brinzolamide may be safely added to TTFC therapy to provide further significant reduction in IOP patients with ocular hypertensive or primary open - angle glaucoma .\"."
+69, Brinzolamide, 2189, 2201, "brinzolamide", "", 
+38406, Trav/TimFC, 2225, 2229, "TTFC", "", 
+70, IOP, 2282, 2285, "IOP", "", 
+71, OcularHypertension, 2300, 2319, "ocular hypertensive", "", 
+32278, Primary_OpenAngleGlaucoma, 2323, 2352, "primary open - angle glaucoma", "", 
+73, PMID, 2403, 2411, "21048504", "", "<http://ctro/data#Publication_35958> <http://ctro/data#hasPMID> \"21048504\"."

@@ -1,0 +1,124 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 12, "Diabet Med .", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasJournal> \"Diabet Med .\"."
+1, PublicationYear, 13, 17, "2017", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasPublicationYear> \"2017\"."
+27, Title, 97, 297, "Safety and efficacy of insulin degludec / liraglutide ( IDegLira ) added to sulphonylurea alone or to sulphonylurea and metformin in insulin - na ï ve people with Type 2 diabetes : the DUAL IV trial .", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasTitle> \"Safety and efficacy of insulin degludec / liraglutide ( IDegLira ) added to sulphonylurea alone or to sulphonylurea and metformin in insulin - na ï ve people with Type 2 diabetes : the DUAL IV trial .\"."
+2, InsulinDegludec, 120, 136, "insulin degludec", "", 
+96037, FixedCombDrug, 128, 150, "degludec / liraglutide", "", 
+5, Liraglutide, 139, 150, "liraglutide", "", 
+8, FixedCombDrug, 153, 161, "IDegLira", "", 
+16, Sulfonylureas, 173, 186, "sulphonylurea", "", 
+19, Sulfonylureas, 199, 212, "sulphonylurea", "", 
+20, Metformin, 217, 226, "metformin", "", 
+26, Precondition, 230, 275, "insulin - na ï ve people with Type 2 diabetes", "", "<http://ctro/data#Population_70066> <http://ctro/data#hasPrecondition> \"insulin - na ï ve people with Type 2 diabetes\"."
+22, Type2Diabetes, 260, 275, "Type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+28, Author, 298, 308, "Rodbard HW", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Rodbard HW\"."
+29, Author, 317, 324, "Bode BW", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Bode BW\"."
+30, Author, 333, 342, "Harris SB", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Harris SB\"."
+31, Author, 351, 357, "Rose L", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Rose L\"."
+32, Author, 366, 375, "Lehmann L", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Lehmann L\"."
+33, Author, 384, 392, "Jarlov H", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Jarlov H\"."
+34, Author, 401, 410, "Thurman J", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasAuthor> \"Thurman J\"."
+35, Liraglutide, 434, 445, "Liraglutide", "", 
+36, InsulinDegludec, 450, 466, "insulin degludec", "", 
+37, USA, 583, 586, "USA", "", 
+38, USA, 640, 643, "USA", "", 
+40, Canada, 706, 712, "Canada", "", 
+41, Germany, 767, 774, "Germany", "", 
+42, Country, 815, 822, "Denmark", "", 
+39, USA, 871, 874, "USA", "", 
+45, ObjectiveDescription, 883, 1092, "To investigate the safety and efficacy of insulin degludec / liraglutide ( IDegLira ) , a novel combination product , as add - on therapy for people with Type 2 diabetes uncontrolled on sulphonylurea therapy .", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#hasObjectiveDescription> \"To investigate the safety and efficacy of insulin degludec / liraglutide ( IDegLira ) , a novel combination product , as add - on therapy for people with Type 2 diabetes uncontrolled on sulphonylurea therapy .\"."
+3, InsulinDegludec, 925, 941, "insulin degludec", "", 
+6, Liraglutide, 944, 955, "liraglutide", "", 
+9, FixedCombDrug, 958, 966, "IDegLira", "", 
+44, Precondition, 1025, 1090, "people with Type 2 diabetes uncontrolled on sulphonylurea therapy", "", "<http://ctro/data#Population_70066> <http://ctro/data#hasPrecondition> \"people with Type 2 diabetes uncontrolled on sulphonylurea therapy\"."
+23, Type2Diabetes, 1037, 1052, "Type 2 diabetes", "", 
+43, Sulfonylureas, 1069, 1082, "sulphonylurea", "", 
+46, Duration, 1111, 1120, "26 - week", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#hasCTduration> \"26 - week\"."
+47, DoubleBlind, 1123, 1137, "double - blind", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+48, Type2Diabetes, 1158, 1173, "Type 2 diabetes", "", 
+49, HbA1c, 1176, 1181, "HbA1c", "", 
+151, ConcentrationUnit, 1190, 1200, "mmol / mol", "", 
+51, Percentage, 1217, 1218, "%", "", 
+52, Randomized, 1228, 1238, "randomized", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+18, FixedCombDrug, 1242, 1250, "IDegLira", "", 
+54, NumberPatientsArm, 1257, 1260, "289", "", "<http://ctro/data#Arm_70074> <http://ctro/data#hasNumberPatientsArm> \"289\"."
+56, Placebo, 1266, 1273, "placebo", "", "<http://ctro/data#Medication_70123> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+55, NumberPatientsArm, 1280, 1283, "146", "", "<http://ctro/data#Arm_70083> <http://ctro/data#hasNumberPatientsArm> \"146\"."
+106271, Precondition, 1301, 1338, "pre - trial sulphonylurea ± metformin", "", "<http://ctro/data#Population_70066> <http://ctro/data#hasPrecondition> \"pre - trial sulphonylurea ± metformin\"."
+17, Sulfonylureas, 1313, 1326, "sulphonylurea", "", 
+21, Metformin, 1329, 1338, "metformin", "", 
+63, FastingBloodGlucose_target, 1356, 1406, "fasting glycaemic target of 4 . 0 - 6 . 0 mmol / l", "", 
+159, Millimoles_per_litre, 1398, 1406, "mmol / l", "", 
+68, DoseDescription, 1409, 1487, "Treatment initiation was at 10 dose steps , and maximum dose was 50 dose steps", "", "<http://ctro/data#Medication_70116> <http://ctro/data#hasDoseDescription> \"Treatment initiation was at 10 dose steps , and maximum dose was 50 dose steps\". <http://ctro/data#Medication_70144> <http://ctro/data#hasDoseDescription> \"Treatment initiation was at 10 dose steps , and maximum dose was 50 dose steps\"."
+64, DoseValue, 1490, 1492, "50", "", "<http://ctro/data#Medication_70116> <http://ctro/data#hasDoseValue> \"50\"."
+66, BioAndMedicalUnit, 1493, 1498, "units", "", "<http://ctro/data#BioAndMedicalUnit_70119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Medication_70116> <http://ctro/data#hasDoseUnit> <http://ctro/data#BioAndMedicalUnit_70119>."
+4, InsulinDegludec, 1499, 1515, "insulin degludec", "", "<http://ctro/data#Medication_70116> <http://ctro/data#hasDrug> <http://ctro/data#InsulinDegludec>."
+65, DoseValue, 1518, 1523, "1 . 8", "", "<http://ctro/data#Medication_70144> <http://ctro/data#hasDoseValue> \"1 . 8\"."
+67, mg, 1524, 1526, "mg", "", "<http://ctro/data#Medication_70144> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+7, Liraglutide, 1527, 1538, "liraglutide", "", "<http://ctro/data#Medication_70144> <http://ctro/data#hasDrug> <http://ctro/data#Liraglutide>."
+163, Mean, 1557, 1561, "mean", "", "<http://ctro/data#Mean_70168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_70166> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_70168>."
+69, HbA1c, 1562, 1567, "HbA1c", "", "<http://ctro/data#Endpoint_70166> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+70, BaseLineValue, 1583, 1585, "63", "", "<http://ctro/data#Outcome_70171> <http://ctro/data#hasBaselineValue> \"63\". <http://ctro/data#Outcome_70198> <http://ctro/data#hasBaselineValue> \"63\"."
+165, ConcentrationUnit, 1586, 1596, "mmol / mol", "", "<http://ctro/data#ConcentrationUnit_70169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ConcentrationUnit>. <http://ctro/data#Endpoint_70166> <http://ctro/data#hasBaselineUnit> <http://ctro/data#ConcentrationUnit_70169>."
+75, BaseLineValue, 1599, 1604, "7 . 9", "", 
+76, Percentage, 1605, 1606, "%", "", 
+80, ResultMeasuredValue, 1612, 1614, "46", "", "<http://ctro/data#Outcome_70171> <http://ctro/data#hasResultMeasuredValue> \"46\"."
+171, ConcentrationUnit, 1615, 1625, "mmol / mol", "", 
+81, ResultMeasuredValue, 1628, 1633, "6 . 4", "", 
+77, Percentage, 1634, 1635, "%", "", 
+10, FixedCombDrug, 1643, 1651, "IDegLira", "", 
+82, ResultMeasuredValue, 1659, 1661, "57", "", "<http://ctro/data#Outcome_70198> <http://ctro/data#hasResultMeasuredValue> \"57\"."
+172, ConcentrationUnit, 1662, 1672, "mmol / mol", "", 
+83, ResultMeasuredValue, 1675, 1680, "7 . 4", "", 
+78, Percentage, 1681, 1682, "%", "", 
+57, Placebo, 1690, 1697, "placebo", "", 
+181, DiffGroupAbsValue, 1731, 1735, "- 11", "", "<http://ctro/data#DiffBetweenGroups_70225> <http://ctro/data#hasDiffGroupAbsValue> \"- 11\"."
+180, ConcentrationUnit, 1736, 1746, "mmol / mol", "", 
+85, ConfIntervalDiff, 1749, 1768, "95 % CI - 13 ; - 10", "", "<http://ctro/data#DiffBetweenGroups_70225> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 13 ; - 10\"."
+100, DiffGroupAbsValue, 1774, 1782, "- 1 . 02", "", 
+79, Percentage, 1783, 1784, "%", "", 
+86, ConfIntervalDiff, 1787, 1814, "95 % CI - 1 . 18 ; - 0 . 87", "", 
+87, PvalueDiff, 1819, 1830, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_70225> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+88, HbA1c_target, 1839, 1878, "HbA1c target of 53 mmol / mol ( < 7 % )", "", "<http://ctro/data#Endpoint_70234> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+188, ConcentrationUnit, 1858, 1868, "mmol / mol", "", 
+189, Percentage, 1875, 1876, "%", "", 
+89, PercentageAffected, 1895, 1901, "79 . 2", "", "<http://ctro/data#Outcome_70239> <http://ctro/data#hasPercentageAffected> \"79 . 2\"."
+12, FixedCombDrug, 1927, 1935, "IDegLira", "", 
+90, PercentageAffected, 1945, 1951, "28 . 8", "", "<http://ctro/data#Outcome_70266> <http://ctro/data#hasPercentageAffected> \"28 . 8\"."
+58, Placebo, 1961, 1968, "placebo", "", 
+92, PvalueDiff, 2037, 2048, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_70293> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+197, Mean, 2053, 2057, "Mean", "", "<http://ctro/data#Mean_70304> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_70302> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_70304>."
+198, BodyWeight, 2058, 2064, "weight", "", "<http://ctro/data#Endpoint_70302> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+94, Increment, 2078, 2083, "0 . 5", "", "<http://ctro/data#Outcome_70307> <http://ctro/data#hasChangeValue> \"0 . 5\"."
+95, Kg, 2084, 2086, "kg", "", "<http://ctro/data#Endpoint_70302> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+11, FixedCombDrug, 2092, 2100, "IDegLira", "", 
+98, Reduction, 2106, 2111, "1 . 0", "", "<http://ctro/data#Outcome_70334> <http://ctro/data#hasChangeValue> \"1 . 0\"."
+96, Kg, 2112, 2114, "kg", "", 
+59, Placebo, 2120, 2127, "placebo", "", 
+99, DiffGroupAbsValue, 2161, 2167, "1 . 48", "", "<http://ctro/data#DiffBetweenGroups_70361> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 48\"."
+97, Kg, 2168, 2170, "kg", "", 
+101, ConfIntervalDiff, 2173, 2196, "95 % CI 0 . 90 ; 2 . 06", "", "<http://ctro/data#DiffBetweenGroups_70361> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 0 . 90 ; 2 . 06\"."
+102, PvalueDiff, 2201, 2212, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_70361> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+103, Hypoglycemia, 2227, 2240, "hypoglycaemia", "", "<http://ctro/data#Endpoint_70370> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>. <http://ctro/data#Endpoint_70429> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+104, PercentageAffected, 2253, 2259, "41 . 7", "", "<http://ctro/data#Outcome_70375> <http://ctro/data#hasPercentageAffected> \"41 . 7\"."
+105, PercentageAffected, 2264, 2270, "17 . 1", "", "<http://ctro/data#Outcome_70402> <http://ctro/data#hasPercentageAffected> \"17 . 1\"."
+13, FixedCombDrug, 2276, 2284, "IDegLira", "", 
+60, Placebo, 2291, 2298, "placebo", "", 
+106172, ResultMeasuredValue, 2353, 2358, "3 . 5", "", "<http://ctro/data#Outcome_70434> <http://ctro/data#hasResultMeasuredValue> \"3 . 5\"."
+106173, ResultMeasuredValue, 2362, 2367, "1 . 4", "", "<http://ctro/data#Outcome_70461> <http://ctro/data#hasResultMeasuredValue> \"1 . 4\"."
+218, BioAndMedicalUnit, 2368, 2404, "events / patient - years of exposure", "", "<http://ctro/data#BioAndMedicalUnit_70432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_70429> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_70432>."
+106174, DiffGroupRelValue, 2428, 2434, "3 . 74", "", "<http://ctro/data#DiffBetweenGroups_70488> <http://ctro/data#hasDiffGroupRelValue> \"3 . 74\"."
+109, ConfIntervalDiff, 2437, 2460, "95 % CI 2 . 28 ; 6 . 13", "", "<http://ctro/data#DiffBetweenGroups_70488> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 2 . 28 ; 6 . 13\"."
+110, PvalueDiff, 2465, 2476, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_70488> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+62, FixedCombDrug, 2481, 2489, "IDegLira", "", 
+111, EndPointDescription, 2534, 2556, "serious adverse events", "", "<http://ctro/data#EndPointDescription_70498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_70497> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_70498>."
+112, ResultMeasuredValue, 2562, 2568, "20 . 3", "", "<http://ctro/data#Outcome_70502> <http://ctro/data#hasResultMeasuredValue> \"20 . 3\"."
+113, ResultMeasuredValue, 2573, 2578, "8 . 0", "", "<http://ctro/data#Outcome_70529> <http://ctro/data#hasResultMeasuredValue> \"8 . 0\"."
+222, BioAndMedicalUnit, 2579, 2614, "per 100 patient - years of exposure", "", "<http://ctro/data#BioAndMedicalUnit_70500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_70497> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_70500>."
+14, FixedCombDrug, 2620, 2628, "IDegLira", "", 
+61, Placebo, 2633, 2640, "placebo", "", 
+15, FixedCombDrug, 2721, 2729, "IDegLira", "", 
+115, ConclusionComment, 2721, 2873, "IDegLira can be used in people uncontrolled with sulphonylurea ± metformin to improve efficacy with a safety profile in line with previous DUAL trials .", "", "<http://ctro/data#ClinicalTrial_70050> <http://ctro/data#hasConclusionComment> \"IDegLira can be used in people uncontrolled with sulphonylurea ± metformin to improve efficacy with a safety profile in line with previous DUAL trials .\"."
+24, Sulfonylureas, 2770, 2783, "sulphonylurea", "", 
+25, Metformin, 2786, 2795, "metformin", "", 
+116, PMID, 2951, 2959, "27589252", "", "<http://ctro/data#Publication_70043> <http://ctro/data#hasPMID> \"27589252\"."

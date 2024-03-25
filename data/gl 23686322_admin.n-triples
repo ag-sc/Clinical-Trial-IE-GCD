@@ -1,0 +1,111 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_85717> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_85717> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasTitle> "24 - hour efficacy of the bimatoprost - timolol fixed combination versus latanoprost as first choice therapy in subjects with high - pressure exfoliation syndrome and glaucoma ." .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Konstas AG" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasPublicationYear> "2013" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasJournal> "Br J Ophthalmol ." .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasPMID> "23686322" .
+<http://ctro/data#Publication_85717> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_85731> .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Holl ó G" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Mikropoulos DG" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Haidich AB" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Dimopoulos AT" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Empeslidis T" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Teus MA" .
+<http://ctro/data#Publication_85717> <http://ctro/data#hasAuthor> "Ritch R" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_85731> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_85731> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasObjectiveDescription> "To compare the 24 - h intraocular pressure ( IOP ) control obtained with the bimatoprost - timolol fixed combination ( BTFC ) versus latanoprost" .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasNumberPatientsCT> "41" .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasCTduration> "3 months" .
+<http://ctro/data#AllocationRatio_85735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_85736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasArm> <http://ctro/data#Arm_85771> .
+<http://ctro/data#DisorderOrSyndrome_85740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DisorderOrSyndrome> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#analysesHealthCondition> <http://ctro/data#DisorderOrSyndrome_85740> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasPopulation> <http://ctro/data#Population_85757> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_85869> .
+<http://ctro/data#EvidenceQuality_85743> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasFinalNumberPatientsCT> "37" .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasObjectiveDescription> "in newly diagnosed , previously untreated exfoliation syndrome ( XFS ) or exfoliative glaucoma ( XFG ) patients with baseline morning IOP greater than 29 mm Hg ." .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasObjectiveDescription> "patients with baseline morning IOP greater than 29 mm Hg ." .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasConclusionComment> "As first choice therapy in high - pressure , at - risk exfoliation patients , BTFC controlled mean 24 - h IOP significantly better than latanoprost monotherapy ." .
+<http://ctro/data#Glaucoma_85754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_85754> .
+<http://ctro/data#DisorderOrSyndrome_85755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DisorderOrSyndrome> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#analysesHealthCondition> <http://ctro/data#DisorderOrSyndrome_85755> .
+<http://ctro/data#Glaucoma_85756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_85756> .
+<http://ctro/data#ClinicalTrial_85731> <http://ctro/data#hasArm> <http://ctro/data#Arm_85780> .
+# RDF export of group: Population
+<http://ctro/data#Population_85757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_85757> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_85757> <http://ctro/data#hasPrecondition> "subjects with high - pressure exfoliation syndrome and glaucoma" .
+<http://ctro/data#Ethnicity_85759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_85757> <http://ctro/data#hasCountry> <http://ctro/data#Greece> .
+<http://ctro/data#Gender_85764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_85757> <http://ctro/data#hasPrecondition> "newly diagnosed , previously untreated exfoliation syndrome ( XFS ) or exfoliative glaucoma ( XFG )" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_85766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_85766> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_iop" .
+<http://ctro/data#Endpoint_85766> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_85768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_85766> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_85768> .
+<http://ctro/data#Endpoint_85766> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_85770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_85771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_85771> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_BTFC" .
+<http://ctro/data#Arm_85771> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_85789> .
+<http://ctro/data#Arm_85771> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_85815> .
+<http://ctro/data#Outcome_85776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_85780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_85780> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_lat" .
+<http://ctro/data#Arm_85780> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_85795> .
+<http://ctro/data#Arm_85780> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_85842> .
+<http://ctro/data#Outcome_85785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_85789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_85789> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_BTFC" .
+<http://ctro/data#Intervention_85789> <http://ctro/data#hasMedication> <http://ctro/data#Medication_85801> .
+<http://ctro/data#Intervention_85789> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening> .
+<http://ctro/data#Intervention_85795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_85795> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_lat" .
+<http://ctro/data#Intervention_85795> <http://ctro/data#hasMedication> <http://ctro/data#Medication_85808> .
+<http://ctro/data#Intervention_85795> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_85801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_85801> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_BTFC" .
+<http://ctro/data#Medication_85801> <http://ctro/data#hasDrug> <http://ctro/data#Bima/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_85804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_85805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_85808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_85808> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_lat" .
+<http://ctro/data#Latanoprost_85809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_85808> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_85809> .
+<http://ctro/data#BioAndMedicalUnit_85811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_85812> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_85815> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_85815> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_BTFC" .
+<http://ctro/data#Outcome_85815> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_85766> .
+<http://ctro/data#Outcome_85815> <http://ctro/data#hasBaselineValue> "31 . 1" .
+<http://ctro/data#Outcome_85815> <http://ctro/data#hasResultMeasuredValue> "18 . 9" .
+<http://ctro/data#Outcome_85842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_85842> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat" .
+<http://ctro/data#Outcome_85842> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_85766> .
+<http://ctro/data#Outcome_85842> <http://ctro/data#hasBaselineValue> "31 . 1" .
+<http://ctro/data#Outcome_85842> <http://ctro/data#hasResultMeasuredValue> "21 . 2" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_85869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_85869> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups" .
+<http://ctro/data#DiffBetweenGroups_85869> <http://ctro/data#hasPvalueDiff> "< 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_85869> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_85815> .
+<http://ctro/data#DiffBetweenGroups_85869> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_85842> .
+# RDF export of group: EvidenceQuality

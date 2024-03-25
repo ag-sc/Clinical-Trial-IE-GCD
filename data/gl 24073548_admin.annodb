@@ -1,0 +1,127 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Srp Arh Celok Lek .", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasJournal> \"Srp Arh Celok Lek .\"."
+1, PublicationYear, 20, 24, "2013", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasPublicationYear> \"2013\"."
+2, Title, 63, 241, "Comparison of the efficacy and safety of fixed combination travoprost / timolol and dorzolamide / timolol in patients with primary open - angle glaucoma and ocular hypertension .", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasTitle> \"Comparison of the efficacy and safety of fixed combination travoprost / timolol and dorzolamide / timolol in patients with primary open - angle glaucoma and ocular hypertension .\"."
+111, Trav/TimFC, 122, 142, "travoprost / timolol", "", 
+3, Travoprost, 122, 132, "travoprost", "", 
+4, Timolol, 135, 142, "timolol", "", 
+50, Dorz/TimFC, 147, 168, "dorzolamide / timolol", "", 
+5, Dorzolamide, 147, 158, "dorzolamide", "", 
+6, Timolol, 161, 168, "timolol", "", 
+119, Precondition, 172, 239, "patients with primary open - angle glaucoma and ocular hypertension", "", "<http://ctro/data#Population_93169> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma and ocular hypertension\"."
+7, Primary_OpenAngleGlaucoma, 186, 215, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+8, OcularHypertension, 220, 239, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+10, Author, 242, 250, "Babi ć N", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasAuthor> \"Babi ć N\"."
+11, Author, 259, 269, "Andrei ć V", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasAuthor> \"Andrei ć V\"."
+12, Author, 272, 284, "Miljkovi ć A", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasAuthor> \"Miljkovi ć A\"."
+13, Author, 287, 297, "Grkovi ć D", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasAuthor> \"Grkovi ć D\"."
+14, Author, 300, 312, "Jovanovi ć P", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasAuthor> \"Jovanovi ć P\"."
+18, Country, 397, 403, "Serbia", "", "<http://ctro/data#Country_93172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_93169> <http://ctro/data#hasCountry> <http://ctro/data#Country_93172>."
+15, Eyedrops, 547, 552, "drops", "", 
+16, ObjectiveDescription, 627, 761, "To compare the efficacy of reduced intraocular pressure ( IOP ) and safety of fixed combination travoprost 0 . 004 % / timolol 0 . 5 %", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy of reduced intraocular pressure ( IOP ) and safety of fixed combination travoprost 0 . 004 % / timolol 0 . 5 %\"."
+19, IOP, 662, 682, "intraocular pressure", "", 
+20, IOP, 685, 688, "IOP", "", 
+141, Trav/TimFC, 705, 761, "fixed combination travoprost 0 . 004 % / timolol 0 . 5 %", "", 
+21, Travoprost, 723, 733, "travoprost", "", "<http://ctro/data#Medication_93202> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+24, DoseValue, 734, 741, "0 . 004", "", "<http://ctro/data#Medication_93202> <http://ctro/data#hasDoseValue> \"0 . 004\"."
+140, Percentage, 742, 743, "%", "", "<http://ctro/data#Medication_93202> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+22, Timolol, 746, 753, "timolol", "", "<http://ctro/data#Medication_93209> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+25, DoseValue, 754, 759, "0 . 5", "", "<http://ctro/data#Medication_93209> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+139, Percentage, 760, 761, "%", "", "<http://ctro/data#Medication_93209> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+17, ObjectiveDescription, 762, 890, "vs . fixed combination dorzolamide 2 % / timolol 0 . 5 % in patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasObjectiveDescription> \"vs . fixed combination dorzolamide 2 % / timolol 0 . 5 % in patients with primary open - angle glaucoma or ocular hypertension .\"."
+30, Dorz/TimFC, 767, 821, "fixed combination dorzolamide 2 % / timolol 0 . 5 % in", "", 
+26, Dorzolamide, 785, 796, "dorzolamide", "", "<http://ctro/data#Medication_93216> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+28, DoseValue, 797, 798, "2", "", "<http://ctro/data#Medication_93216> <http://ctro/data#hasDoseValue> \"2\"."
+138, Percentage, 799, 800, "%", "", "<http://ctro/data#Medication_93216> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+27, Timolol, 803, 810, "timolol", "", "<http://ctro/data#Medication_93223> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+29, DoseValue, 811, 816, "0 . 5", "", "<http://ctro/data#Medication_93223> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+137, Percentage, 817, 818, "%", "", "<http://ctro/data#Medication_93223> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+145, Precondition, 822, 888, "patients with primary open - angle glaucoma or ocular hypertension", "", 
+31, Primary_OpenAngleGlaucoma, 836, 865, "primary open - angle glaucoma", "", 
+32, OcularHypertension, 869, 888, "ocular hypertension", "", 
+33, Prospective, 901, 912, "Prospective", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+34, Randomized, 913, 923, "randomized", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, NumberPatientsCT, 948, 950, "60", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasNumberPatientsCT> \"60\"."
+36, TimePoint, 1008, 1014, "day 14", "", 
+37, TimePoint, 1008, 1021, "day 14 and 45", "", 
+38, TimePoint, 1026, 1033, "month 3", "", 
+39, IOP, 1036, 1039, "IOP", "", 
+156, TimePoint, 1099, 1103, "8 am", "", 
+157, TimePoint, 1106, 1111, "10 am", "", 
+158, TimePoint, 1116, 1120, "4 pm", "", 
+40, IOP, 1165, 1168, "IOP", "", 
+41, PValueChangeValue, 1232, 1248, "p & lt ; 0 . 001", "", 
+42, Mean, 1253, 1257, "Mean", "", 
+43, IOP, 1265, 1268, "IOP", "", 
+44, Travoprost, 1325, 1335, "travoprost", "", 
+48, Trav/TimFC, 1325, 1345, "travoprost / timolol", "", 
+45, Timolol, 1338, 1345, "timolol", "", 
+47, Dorzolamide, 1370, 1381, "dorzolamide", "", 
+49, Dorz/TimFC, 1370, 1391, "dorzolamide / timolol", "", 
+46, Timolol, 1384, 1391, "timolol", "", 
+51, ResultMeasuredValue, 1400, 1407, "16 . 13", "", 
+53, mmHg, 1408, 1412, "mmHg", "", 
+52, ResultMeasuredValue, 1418, 1425, "16 . 15", "", 
+54, mmHg, 1426, 1430, "mmHg", "", 
+59, Mean, 1435, 1439, "Mean", "", "<http://ctro/data#Mean_93179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_93177> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_93179>."
+60, IOP, 1440, 1443, "IOP", "", "<http://ctro/data#IOP_93178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_93177> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_93178>."
+176, Reduction, 1482, 1488, "7 . 46", "", 
+55, mmHg, 1489, 1493, "mmHg", "", "<http://ctro/data#Endpoint_93177> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+177, Reduction, 1499, 1505, "9 . 92", "", 
+56, mmHg, 1506, 1510, "mmHg", "", 
+61, Travoprost, 1518, 1528, "travoprost", "", 
+65, Trav/TimFC, 1518, 1538, "travoprost / timolol", "", 
+63, Timolol, 1531, 1538, "timolol", "", 
+178, Reduction, 1556, 1562, "6 . 93", "", 
+57, mmHg, 1563, 1567, "mmHg", "", 
+179, Reduction, 1573, 1579, "8 . 93", "", 
+58, mmHg, 1580, 1584, "mmHg", "", 
+62, Dorzolamide, 1593, 1604, "dorzolamide", "", 
+66, Dorz/TimFC, 1593, 1614, "dorzolamide / timolol", "", 
+64, Timolol, 1607, 1614, "timolol", "", 
+67, Mean, 1623, 1627, "Mean", "", "<http://ctro/data#Mean_93184> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_93182> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_93184>."
+234, Mean, 1658, 1662, "mean", "", 
+68, Diurnal_IOP, 1678, 1689, "diurnal LOP", "", "<http://ctro/data#Endpoint_93182> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+69, TimePoint, 1695, 1703, "baseline", "", 
+70, TimePoint, 1707, 1716, "3rd month", "", "<http://ctro/data#Outcome_93341> <http://ctro/data#hasTimePoint> \"3rd month\". <http://ctro/data#Outcome_94228> <http://ctro/data#hasTimePoint> \"3rd month\"."
+71, Reduction, 1721, 1727, "8 . 96", "", "<http://ctro/data#Outcome_94228> <http://ctro/data#hasChangeValue> \"8 . 96\"."
+73, SdErrorChangeValue, 1734, 1740, "2 . 79", "", "<http://ctro/data#Outcome_94228> <http://ctro/data#hasSdErrorChangeValue> \"2 . 79\"."
+75, Travoprost, 1748, 1758, "travoprost", "", 
+80, Trav/TimFC, 1748, 1768, "travoprost / timolol", "", 
+76, Timolol, 1761, 1768, "timolol", "", 
+72, Reduction, 1782, 1788, "8 . 07", "", "<http://ctro/data#Outcome_93341> <http://ctro/data#hasChangeValue> \"8 . 07\"."
+74, SdErrorChangeValue, 1795, 1801, "2 . 91", "", "<http://ctro/data#Outcome_93341> <http://ctro/data#hasSdErrorChangeValue> \"2 . 91\"."
+78, Dorzolamide, 1824, 1835, "dorzolamide", "", 
+79, Dorz/TimFC, 1824, 1863, "dorzolamide / timolol fixed combination", "", 
+77, Timolol, 1838, 1845, "timolol", "", 
+235, PvalueDiff, 1868, 1877, "= 0 . 196", "", "<http://ctro/data#DiffBetweenGroups_93368> <http://ctro/data#hasPvalueDiff> \"= 0 . 196\"."
+212, ObservedResult, 1882, 2074, "The most frequent treatment - related adverse events were conjunctival hyperemia in the travoprost / timolol group , and dry eye and foreign body sensation in the dorzolamide / timolol group .", "", "<http://ctro/data#Outcome_93377> <http://ctro/data#hasObservedResult> \"The most frequent treatment - related adverse events were conjunctival hyperemia in the travoprost / timolol group , and dry eye and foreign body sensation in the dorzolamide / timolol group .\". <http://ctro/data#Outcome_93404> <http://ctro/data#hasObservedResult> \"The most frequent treatment - related adverse events were conjunctival hyperemia in the travoprost / timolol group , and dry eye and foreign body sensation in the dorzolamide / timolol group .\". <http://ctro/data#Outcome_93431> <http://ctro/data#hasObservedResult> \"The most frequent treatment - related adverse events were conjunctival hyperemia in the travoprost / timolol group , and dry eye and foreign body sensation in the dorzolamide / timolol group .\"."
+82, ConjunctivalHyperemia, 1940, 1962, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_93187> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+83, Travoprost, 1970, 1980, "travoprost", "", 
+88, Trav/TimFC, 1970, 1990, "travoprost / timolol", "", 
+84, Timolol, 1983, 1990, "timolol", "", 
+94438, EndPointDescription, 2003, 2010, "dry eye", "", "<http://ctro/data#EndPointDescription_93193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_93192> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_93193>."
+94439, EndPointDescription, 2015, 2037, "foreign body sensation", "", "<http://ctro/data#EndPointDescription_93198> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_93197> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_93198>."
+86, Dorzolamide, 2045, 2056, "dorzolamide", "", 
+87, Dorz/TimFC, 2045, 2066, "dorzolamide / timolol", "", 
+85, Timolol, 2059, 2066, "timolol", "", 
+91, Travoprost, 2088, 2098, "Travoprost", "", 
+95, Trav/TimFC, 2088, 2126, "Travoprost / timolol fixed combination", "", 
+221, ConclusionComment, 2088, 2230, "Travoprost / timolol fixed combination was slightly more effective than dorzolamide / timolol fixed combination in reducing mean diurnal IOP .", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasConclusionComment> \"Travoprost / timolol fixed combination was slightly more effective than dorzolamide / timolol fixed combination in reducing mean diurnal IOP .\"."
+92, Timolol, 2101, 2108, "timolol", "", 
+94, Dorzolamide, 2160, 2171, "dorzolamide", "", 
+96, Dorz/TimFC, 2160, 2199, "dorzolamide / timolol fixed combination", "", 
+93, Timolol, 2174, 2181, "timolol", "", 
+97, Mean, 2212, 2216, "mean", "", 
+98, Diurnal_IOP, 2217, 2228, "diurnal IOP", "", 
+99, Travoprost, 2231, 2241, "Travoprost", "", 
+104, Trav/TimFC, 2231, 2251, "Travoprost / timolol", "", 
+231, ConclusionComment, 2231, 2350, "Travoprost / timolol group resulted in an IOP reduction for up to 1 . 07 mmHg higher than dorzolamide / timolol group .", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasConclusionComment> \"Travoprost / timolol group resulted in an IOP reduction for up to 1 . 07 mmHg higher than dorzolamide / timolol group .\"."
+100, Timolol, 2244, 2251, "timolol", "", 
+101, IOP, 2273, 2276, "IOP", "", 
+102, mmHg, 2304, 2308, "mmHg", "", 
+105, Dorzolamide, 2321, 2332, "dorzolamide", "", 
+107, Dorz/TimFC, 2321, 2342, "dorzolamide / timolol", "", 
+106, Timolol, 2335, 2342, "timolol", "", 
+232, ConclusionComment, 2351, 2405, "Both fixed combinations were well tolerated and safe .", "", "<http://ctro/data#ClinicalTrial_93148> <http://ctro/data#hasConclusionComment> \"Both fixed combinations were well tolerated and safe .\"."
+108, PMID, 2444, 2452, "24073548", "", "<http://ctro/data#Publication_93137> <http://ctro/data#hasPMID> \"24073548\"."

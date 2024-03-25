@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+39338, Journal, 0, 19, "Diabetes Obes Metab", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasJournal> \"Diabetes Obes Metab\"."
+39339, PublicationYear, 22, 26, "2011", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasPublicationYear> \"2011\"."
+39340, Title, 109, 272, "Safety and efficacy of linagliptin as add - on therapy to metformin in patients with type 2 diabetes : a randomized , double - blind , placebo - controlled study .", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasTitle> \"Safety and efficacy of linagliptin as add - on therapy to metformin in patients with type 2 diabetes : a randomized , double - blind , placebo - controlled study .\"."
+39341, Linagliptin, 132, 143, "linagliptin", "", 
+39342, Metformin, 167, 176, "metformin", "", 
+39343, Type2Diabetes, 194, 209, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+39344, Randomized, 214, 224, "randomized", "", 
+39345, DoubleBlind, 227, 241, "double - blind", "", 
+39346, Placebo, 244, 251, "placebo", "", 
+39347, Author, 273, 284, "Taskinen MR", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Taskinen MR\"."
+39348, Author, 293, 305, "Rosenstock J", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+39349, Author, 308, 318, "Tamminen I", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Tamminen I\"."
+39350, Author, 321, 329, "Kubiak R", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Kubiak R\"."
+39351, Author, 332, 339, "Patel S", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Patel S\"."
+39352, Author, 342, 349, "Dugi KA", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Dugi KA\"."
+39353, Author, 352, 361, "Woerle HJ", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasAuthor> \"Woerle HJ\"."
+39354, Finland, 455, 462, "Finland", "", 
+39359, ObjectiveDescription, 572, 809, "To evaluate the efficacy and safety of the potent and selective dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor linagliptin administered as add - on therapy to metformin in patients with type 2 diabetes with inadequate glycaemic control .", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of the potent and selective dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor linagliptin administered as add - on therapy to metformin in patients with type 2 diabetes with inadequate glycaemic control .\"."
+39355, Linagliptin, 683, 694, "linagliptin", "", 
+39356, Metformin, 731, 740, "metformin", "", 
+39357, Type2Diabetes, 758, 773, "type 2 diabetes", "", 
+39358, Precondition, 779, 807, "inadequate glycaemic control", "", "<http://ctro/data#Population_21305> <http://ctro/data#hasPrecondition> \"inadequate glycaemic control\"."
+39360, Duration, 825, 834, "24 - week", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasCTduration> \"24 - week\"."
+39361, Randomized, 837, 847, "randomized", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+39362, Placebo, 850, 857, "placebo", "", 
+39363, DoubleBlind, 873, 887, "double - blind", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+39364, Parallel, 890, 906, "parallel - group", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+39365, Multicenter, 932, 958, "82 centres in 10 countries", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+39366, HbA1c, 975, 980, "HbA1c", "", 
+39369, Precondition, 975, 1076, "HbA1c levels of 7 . 0 - 10 . 0 % on metformin and a maximum of one additional antidiabetes medication", "", "<http://ctro/data#Population_21305> <http://ctro/data#hasPrecondition> \"HbA1c levels of 7 . 0 - 10 . 0 % on metformin and a maximum of one additional antidiabetes medication\"."
+39367, Percentage, 1006, 1007, "%", "", 
+39368, Metformin, 1011, 1020, "metformin", "", 
+39370, Metformin, 1130, 1139, "metformin", "", "<http://ctro/data#Medication_21393> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+39374, DoseValue, 1140, 1155, "≥ 1500 mg / day", "", "<http://ctro/data#Medication_21393> <http://ctro/data#hasDoseValue> \"≥ 1500 mg / day\"."
+39372, BioAndMedicalUnit, 1147, 1155, "mg / day", "", 
+39373, Duration, 1160, 1167, "6 weeks", "", 
+39375, Placebo, 1182, 1189, "placebo", "", 
+39376, Duration, 1209, 1216, "2 weeks", "", 
+39377, Linagliptin, 1246, 1257, "linagliptin", "", "<http://ctro/data#Medication_21361> <http://ctro/data#hasDrug> <http://ctro/data#Linagliptin>."
+39378, DoseValue, 1258, 1262, "5 mg", "", "<http://ctro/data#Medication_21361> <http://ctro/data#hasDoseValue> \"5 mg\"."
+39379, mg, 1260, 1262, "mg", "", 
+39380, Frequency, 1263, 1273, "once daily", "", "<http://ctro/data#Intervention_21349> <http://ctro/data#hasFrequency> \"once daily\"."
+39381, NumberPatientsArm, 1280, 1283, "524", "", "<http://ctro/data#Arm_21331> <http://ctro/data#hasNumberPatientsArm> \"524\"."
+39383, Placebo, 1289, 1296, "placebo", "", "<http://ctro/data#Medication_21368> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+39382, NumberPatientsArm, 1303, 1306, "177", "", "<http://ctro/data#Arm_21340> <http://ctro/data#hasNumberPatientsArm> \"177\"."
+39384, TimePoint, 1360, 1368, "baseline", "", 
+39386, HbA1c, 1372, 1377, "HbA1c", "", 
+39387, Duration, 1384, 1392, "24 weeks", "", 
+39388, Mean, 1472, 1476, "Mean", "", "<http://ctro/data#Mean_21404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_21402> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_21404>."
+39389, TimePoint, 1477, 1485, "baseline", "", 
+39390, HbA1c, 1486, 1491, "HbA1c", "", "<http://ctro/data#Endpoint_21402> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+39391, FastingBloodGlucose, 1496, 1518, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_21407> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+39392, FastingBloodGlucose, 1521, 1524, "FPG", "", 
+39393, BaseLineValue, 1532, 1537, "8 . 1", "", "<http://ctro/data#Outcome_21412> <http://ctro/data#hasBaselineValue> \"8 . 1\". <http://ctro/data#Outcome_21439> <http://ctro/data#hasBaselineValue> \"8 . 1\"."
+39395, Percentage, 1538, 1539, "%", "", "<http://ctro/data#Endpoint_21402> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+39394, BaseLineValue, 1544, 1549, "9 . 4", "", "<http://ctro/data#Outcome_21466> <http://ctro/data#hasBaselineValue> \"9 . 4\". <http://ctro/data#Outcome_21493> <http://ctro/data#hasBaselineValue> \"9 . 4\"."
+39396, Millimoles_per_litre, 1550, 1558, "mmol / l", "", "<http://ctro/data#Endpoint_21407> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+39397, Linagliptin, 1576, 1587, "Linagliptin", "", 
+39398, Placebo, 1623, 1630, "placebo", "", 
+39399, Mean, 1643, 1647, "mean", "", 
+39400, TimePoint, 1661, 1669, "baseline", "", 
+39401, HbA1c, 1673, 1678, "HbA1c", "", 
+39405, ChangeValue, 1681, 1689, "- 0 . 49", "", "<http://ctro/data#Outcome_21412> <http://ctro/data#hasChangeValue> \"- 0 . 49\"."
+39406, ChangeValue, 1695, 1701, "0 . 15", "", "<http://ctro/data#Outcome_21439> <http://ctro/data#hasChangeValue> \"0 . 15\"."
+39411, Percentage, 1702, 1703, "%", "", 
+39402, FastingPlasmaGlucose, 1708, 1711, "FPG", "", 
+39407, ChangeValue, 1714, 1722, "- 0 . 59", "", "<http://ctro/data#Outcome_21466> <http://ctro/data#hasChangeValue> \"- 0 . 59\"."
+39408, ChangeValue, 1728, 1734, "0 . 58", "", "<http://ctro/data#Outcome_21493> <http://ctro/data#hasChangeValue> \"0 . 58\"."
+39412, Millimoles_per_litre, 1735, 1743, "mmol / l", "", 
+39403, PostprandialPlasmaGlucose, 1750, 1755, "2hPPG", "", "<http://ctro/data#Endpoint_21520> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialPlasmaGlucose>."
+39409, ChangeValue, 1758, 1765, "- 2 . 7", "", "<http://ctro/data#Outcome_21525> <http://ctro/data#hasChangeValue> \"- 2 . 7\"."
+39410, ChangeValue, 1771, 1776, "1 . 0", "", "<http://ctro/data#Outcome_21552> <http://ctro/data#hasChangeValue> \"1 . 0\"."
+39413, Millimoles_per_litre, 1777, 1785, "mmol / l", "", "<http://ctro/data#Endpoint_21520> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+39404, PvalueDiff, 1794, 1806, "p < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_21579> <http://ctro/data#hasPvalueDiff> \"p < 0 . 0001\". <http://ctro/data#DiffBetweenGroups_21588> <http://ctro/data#hasPvalueDiff> \"p < 0 . 0001\". <http://ctro/data#DiffBetweenGroups_21597> <http://ctro/data#hasPvalueDiff> \"p < 0 . 0001\"."
+39414, Hypoglycemia, 1809, 1822, "Hypoglycaemia", "", "<http://ctro/data#Endpoint_21606> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+39415, NumberAffected, 1847, 1852, "three", "", "<http://ctro/data#Outcome_21611> <http://ctro/data#hasNumberAffected> \"three\"."
+39417, PercentageAffected, 1864, 1869, "0 . 6", "", "<http://ctro/data#Outcome_21611> <http://ctro/data#hasPercentageAffected> \"0 . 6\"."
+39419, Percentage, 1870, 1871, "%", "", 
+39421, Linagliptin, 1887, 1898, "linagliptin", "", 
+39416, NumberAffected, 1903, 1907, "five", "", "<http://ctro/data#Outcome_21638> <http://ctro/data#hasNumberAffected> \"five\"."
+39418, PercentageAffected, 1919, 1924, "2 . 8", "", "<http://ctro/data#Outcome_21638> <http://ctro/data#hasPercentageAffected> \"2 . 8\"."
+39420, Percentage, 1925, 1926, "%", "", 
+39422, Placebo, 1936, 1943, "placebo", "", 
+39423, BodyWeight, 1952, 1963, "Body weight", "", "<http://ctro/data#Endpoint_21665> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+39424, TimePoint, 1998, 2006, "baseline", "", 
+39425, ChangeValue, 2024, 2031, "- 0 . 5", "", "<http://ctro/data#Outcome_21670> <http://ctro/data#hasChangeValue> \"- 0 . 5\"."
+39427, Kg, 2032, 2034, "kg", "", "<http://ctro/data#Endpoint_21665> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+39429, Placebo, 2035, 2042, "placebo", "", 
+39426, ChangeValue, 2045, 2052, "- 0 . 4", "", "<http://ctro/data#Outcome_21697> <http://ctro/data#hasChangeValue> \"- 0 . 4\"."
+39428, Kg, 2053, 2055, "kg", "", 
+39430, Linagliptin, 2056, 2067, "linagliptin", "", 
+39440, ConclusionComment, 2086, 2341, "The addition of linagliptin 5 mg once daily in patients with type 2 diabetes inadequately controlled on metformin resulted in a significant and clinically meaningful improvement in glycaemic control without weight gain or increased risk of hypoglycaemia .", "", "<http://ctro/data#ClinicalTrial_21289> <http://ctro/data#hasConclusionComment> \"The addition of linagliptin 5 mg once daily in patients with type 2 diabetes inadequately controlled on metformin resulted in a significant and clinically meaningful improvement in glycaemic control without weight gain or increased risk of hypoglycaemia .\"."
+39431, Linagliptin, 2102, 2113, "linagliptin", "", 
+39432, DoseValue, 2114, 2118, "5 mg", "", 
+39433, mg, 2116, 2118, "mg", "", 
+39434, Frequency, 2119, 2129, "once daily", "", 
+39435, Type2Diabetes, 2147, 2162, "type 2 diabetes", "", 
+39436, Precondition, 2163, 2199, "inadequately controlled on metformin", "", "<http://ctro/data#Population_21305> <http://ctro/data#hasPrecondition> \"inadequately controlled on metformin\"."
+39437, Metformin, 2190, 2199, "metformin", "", 
+39438, WeightGain, 2293, 2304, "weight gain", "", 
+39439, Hypoglycemia, 2326, 2339, "hypoglycaemia", "", 
+39441, PMID, 2436, 2444, "21114605", "", "<http://ctro/data#Publication_21282> <http://ctro/data#hasPMID> \"21114605\"."

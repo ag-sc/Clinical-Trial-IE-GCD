@@ -1,0 +1,107 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "J Ocul Pharmacol Ther", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther\"."
+1, PublicationYear, 24, 28, "2009", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasPublicationYear> \"2009\"."
+98, Title, 95, 314, "A comparison of bimatoprost 0 . 03 % versus the fixed - combination of latanoprost 0 . 005 % and timolol 0 . 5 % in adult patients with elevated intraocular pressure : an eight - week , randomized , open - label trial .", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasTitle> \"A comparison of bimatoprost 0 . 03 % versus the fixed - combination of latanoprost 0 . 005 % and timolol 0 . 5 % in adult patients with elevated intraocular pressure : an eight - week , randomized , open - label trial .\"."
+2, Bimatoprost, 111, 122, "bimatoprost", "", "<http://ctro/data#Medication_77675> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+9, DoseValue, 123, 129, "0 . 03", "", "<http://ctro/data#Medication_77675> <http://ctro/data#hasDoseValue> \"0 . 03\"."
+12, Percentage, 130, 131, "%", "", "<http://ctro/data#Medication_77675> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+3, Latanoprost, 166, 177, "latanoprost", "", "<http://ctro/data#Latanoprost_77662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_77661> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_77662>."
+10, DoseValue, 178, 185, "0 . 005", "", "<http://ctro/data#Medication_77661> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+13, Percentage, 186, 187, "%", "", "<http://ctro/data#Medication_77661> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+4, Timolol, 192, 199, "timolol", "", "<http://ctro/data#Medication_77668> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+11, DoseValue, 200, 205, "0 . 5", "", "<http://ctro/data#Medication_77668> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+14, Percentage, 206, 207, "%", "", "<http://ctro/data#Medication_77668> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+5, Precondition, 231, 260, "elevated intraocular pressure", "", "<http://ctro/data#Population_77618> <http://ctro/data#hasPrecondition> \"elevated intraocular pressure\"."
+119, IOP, 240, 260, "intraocular pressure", "", 
+6, Duration, 266, 278, "eight - week", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasCTduration> \"eight - week\"."
+7, Randomized, 281, 291, "randomized", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+8, OpenLabel, 294, 306, "open - label", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+16, Author, 315, 323, "Facio AC", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Facio AC\"."
+17, Author, 332, 339, "Reis AS", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Reis AS\"."
+18, Author, 342, 350, "Vidal KS", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Vidal KS\"."
+19, Author, 353, 365, "de Moraes CG", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"de Moraes CG\"."
+20, Author, 368, 376, "Suzuki R", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Suzuki R\"."
+21, Author, 379, 389, "Hatanaka M", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Hatanaka M\"."
+22, Author, 392, 401, "Susanna R", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasAuthor> \"Susanna R\"."
+23, Brazil, 541, 547, "Brazil", "", "<http://ctro/data#Population_77618> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+24, Bimatoprost, 577, 588, "Bimatoprost", "", 
+30, ObjectiveDescription, 577, 732, "Bimatoprost and the fixed combination of latanoprost with timolol maleate are 2 medications widely used to treat glaucoma and ocular hypertension ( OHT ) .", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasObjectiveDescription> \"Bimatoprost and the fixed combination of latanoprost with timolol maleate are 2 medications widely used to treat glaucoma and ocular hypertension ( OHT ) .\"."
+25, Latanoprost, 618, 629, "latanoprost", "", 
+159, Timolol, 635, 650, "timolol maleate", "", 
+27, Glaucoma, 690, 698, "glaucoma", "", "<http://ctro/data#Glaucoma_77606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_77597> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_77606>."
+28, OcularHypertension, 703, 722, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+29, OcularHypertension, 725, 728, "OHT", "", 
+35, ObjectiveDescription, 733, 928, "The aim of the study is to compare the efficacy of these 2 drugs in reducing intraocular pressure ( IOP ) after 8 weeks of treatment in patients with primary open angle glaucoma ( POAG ) or OHT .", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasObjectiveDescription> \"The aim of the study is to compare the efficacy of these 2 drugs in reducing intraocular pressure ( IOP ) after 8 weeks of treatment in patients with primary open angle glaucoma ( POAG ) or OHT .\"."
+31, IOP, 810, 830, "intraocular pressure", "", 
+32, IOP, 833, 836, "IOP", "", 
+113, Duration, 845, 852, "8 weeks", "", 
+161, Primary_OpenAngleGlaucoma, 883, 910, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+162, Primary_OpenAngleGlaucoma, 913, 917, "POAG", "", 
+34, OcularHypertension, 923, 926, "OHT", "", 
+36, Randomized, 947, 957, "randomized", "", 
+37, OpenLabel, 960, 972, "open - label", "", 
+38, NumberPatientsCT, 981, 983, "44", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasNumberPatientsCT> \"44\"."
+166, Primary_OpenAngleGlaucoma, 998, 1002, "POAG", "", 
+39, OcularHypertension, 1006, 1009, "OHT", "", 
+40, Bimatoprost, 1043, 1054, "bimatoprost", "", 
+41, DoseValue, 1057, 1058, "1", "", 
+44, Eyedrops, 1059, 1063, "drop", "", "<http://ctro/data#Medication_77675> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+42, Frequency, 1064, 1066, "QD", "", "<http://ctro/data#Intervention_77655> <http://ctro/data#hasFrequency> \"QD\"."
+47, Latanoprost, 1072, 1083, "latanoprost", "", 
+48, Timolol, 1086, 1093, "timolol", "", 
+46, DoseValue, 1096, 1097, "1", "", 
+45, Eyedrops, 1098, 1102, "drop", "", "<http://ctro/data#Medication_77661> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_77668> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+43, Frequency, 1103, 1105, "QD", "", "<http://ctro/data#Intervention_77649> <http://ctro/data#hasFrequency> \"QD\"."
+49, Mean, 1134, 1138, "mean", "", "<http://ctro/data#Mean_77628> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_77626> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_77628>."
+50, Diurnal_IOP, 1139, 1150, "diurnal IOP", "", "<http://ctro/data#Endpoint_77626> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+171, TimePoint, 1170, 1178, "8th week", "", 
+51, Mean, 1199, 1203, "mean", "", 
+52, IOP, 1204, 1207, "IOP", "", 
+36989, TimePoint, 1230, 1239, "8 : 00 am", "", 
+36990, TimePoint, 1242, 1252, "10 : 00 am", "", 
+36991, TimePoint, 1259, 1269, "12 : 00 pm", "", 
+53, IOP, 1321, 1324, "IOP", "", 
+31213, IOP, 1409, 1412, "IOP", "", 
+55, Mean, 1496, 1500, "mean", "", 
+56, IOP, 1501, 1504, "IOP", "", 
+57, Latanoprost, 1515, 1526, "latanoprost", "", 
+58, Timolol, 1529, 1536, "timolol", "", 
+59, ResultMeasuredValue, 1539, 1546, "13 . 83", "", "<http://ctro/data#Outcome_101596> <http://ctro/data#hasResultMeasuredValue> \"13 . 83\"."
+60, SdDevResValue, 1554, 1560, "2 . 54", "", "<http://ctro/data#Outcome_101596> <http://ctro/data#hasSdDevResValue> \"2 . 54\"."
+61, Bimatoprost, 1595, 1606, "bimatoprost", "", 
+62, ResultMeasuredValue, 1609, 1616, "16 . 16", "", "<http://ctro/data#Outcome_101623> <http://ctro/data#hasResultMeasuredValue> \"16 . 16\"."
+63, SdDevResValue, 1624, 1630, "3 . 28", "", "<http://ctro/data#Outcome_101623> <http://ctro/data#hasSdDevResValue> \"3 . 28\"."
+64, PvalueDiff, 1633, 1645, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_101650> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+65, TimePoint, 1651, 1657, "week 8", "", "<http://ctro/data#Outcome_101596> <http://ctro/data#hasTimePoint> \"week 8\". <http://ctro/data#Outcome_101623> <http://ctro/data#hasTimePoint> \"week 8\"."
+66, Mean, 1681, 1685, "mean", "", 
+67, IOP, 1686, 1689, "IOP", "", 
+68, Latanoprost, 1729, 1740, "latanoprost", "", 
+69, Timolol, 1743, 1750, "timolol", "", 
+70, TimePoint, 1760, 1770, "10 : 00 am", "", 
+31216, PValueChangeValue, 1773, 1784, "P = 0 . 013", "", "<http://ctro/data#Outcome_101686> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 013\"."
+71, TimePoint, 1791, 1801, "12 : 00 pm", "", 
+31218, PValueChangeValue, 1804, 1814, "P = 0 . 01", "", "<http://ctro/data#Outcome_101713> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 01\"."
+72, TimePoint, 1830, 1839, "8 : 00 am", "", 
+31217, PValueChangeValue, 1842, 1848, "P = ns", "", "<http://ctro/data#Outcome_101659> <http://ctro/data#hasPValueChangeValue> \"P = ns\"."
+83, ObservedResult, 1853, 1982, "During the water - drinking test , there was no significant difference in IOP increase ( absolute and percentage ) between groups", "", 
+77, IOP, 1927, 1930, "IOP", "", 
+82, ObservedResult, 1983, 2081, "; however , there was a significant decrease in mean heart rate in the latanoprost / timolol group", "", "<http://ctro/data#Outcome_101745> <http://ctro/data#hasObservedResult> \"; however , there was a significant decrease in mean heart rate in the latanoprost / timolol group\"."
+78, Mean, 2031, 2035, "mean", "", 
+79, HeartRate, 2036, 2046, "heart rate", "", "<http://ctro/data#HeartRate_101741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_101740> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_101741>."
+80, Latanoprost, 2054, 2065, "latanoprost", "", 
+81, Timolol, 2068, 2075, "timolol", "", 
+31220, ObservedResult, 2094, 2187, "no significant changes in blood pressure and lung spirometry were observed in either groups .", "", "<http://ctro/data#Outcome_101782> <http://ctro/data#hasObservedResult> \"no significant changes in blood pressure and lung spirometry were observed in either groups .\". <http://ctro/data#Outcome_101809> <http://ctro/data#hasObservedResult> \"no significant changes in blood pressure and lung spirometry were observed in either groups .\"."
+84, BloodPressure, 2120, 2134, "blood pressure", "", "<http://ctro/data#BloodPressure_101773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_101772> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_101773>."
+31221, EndPointDescription, 2139, 2154, "lung spirometry", "AdverseEffect", "<http://ctro/data#EndPointDescription_101778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_101777> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_101778>."
+94, ConclusionComment, 2202, 2343, "The fixed combination of latanoprost / timolol was significantly superior to bimatoprost alone in reducing IOP in patients with POAG or OHT .", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasConclusionComment> \"The fixed combination of latanoprost / timolol was significantly superior to bimatoprost alone in reducing IOP in patients with POAG or OHT .\"."
+86, Latanoprost, 2227, 2238, "latanoprost", "", 
+31222, Drug, 2227, 2248, "latanoprost / timolol", "AdverseEffect", 
+87, Timolol, 2241, 2248, "timolol", "", 
+88, Bimatoprost, 2279, 2290, "bimatoprost", "", 
+89, IOP, 2309, 2312, "IOP", "", 
+184, Primary_OpenAngleGlaucoma, 2330, 2334, "POAG", "", 
+90, OcularHypertension, 2338, 2341, "OHT", "", 
+93, ConclusionComment, 2344, 2517, "Further studies with large sample sizes should be taken to support the superior efficacy of latanoprost / timolol , as well as to better assess its profile of side effects .", "", "<http://ctro/data#ClinicalTrial_77597> <http://ctro/data#hasConclusionComment> \"Further studies with large sample sizes should be taken to support the superior efficacy of latanoprost / timolol , as well as to better assess its profile of side effects .\"."
+91, Latanoprost, 2436, 2447, "latanoprost", "", 
+92, Timolol, 2450, 2457, "timolol", "", 
+95, PMID, 2561, 2569, "19860553", "", "<http://ctro/data#Publication_77584> <http://ctro/data#hasPMID> \"19860553\"."

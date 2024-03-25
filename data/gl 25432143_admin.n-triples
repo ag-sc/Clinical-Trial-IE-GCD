@@ -1,0 +1,140 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_94880> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_94880> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasTitle> "Late - day intraocular pressure - lowering efficacy and tolerability of travoprost 0 . 004 % versus bimatoprost 0 . 01 % in patients with open - angle glaucoma or ocular hypertension : a randomized trial ." .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasAuthor> "DuBiner HB" .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasPublicationYear> "2014" .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasJournal> "BMC Ophthalmol ." .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasPMID> "25432143" .
+<http://ctro/data#Publication_94880> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_94888> .
+<http://ctro/data#Publication_94880> <http://ctro/data#hasAuthor> "Hubatsch DA" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_94888> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_94888> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasObjectiveDescription> "The present study compared the efficacy and safety of BAK - free travoprost 0 . 004 % ( TRAV ) and BAK 0 . 02 % - preserved bimatoprost 0 . 01 % ( BIM ) during late - day time points in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasNumberPatientsCT> "84" .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTduration> "12 - week" .
+<http://ctro/data#AllocationRatio_94892> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_94892> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol> .
+<http://ctro/data#CTDesign_94894> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_94894> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasConclusionComment> "Late - day IOP - lowering efficacy of BAK - free TRAV was noninferior to that of BAK 0 . 02 % - preserved BIM ; both reduced baseline IOP by 25 % ." .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasArm> <http://ctro/data#Arm_94944> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasPopulation> <http://ctro/data#Population_94909> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_95021> .
+<http://ctro/data#EvidenceQuality_94900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasFinalNumberPatientsCT> "81" .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasNumPatientsLeftCT> "One" .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasConclusionComment> "Both treatments were well tolerated , although a higher incidence of moderate ocular hyperemia was observed with BIM ." .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_94888> <http://ctro/data#hasArm> <http://ctro/data#Arm_94953> .
+# RDF export of group: Population
+<http://ctro/data#Population_94909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_94909> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_94909> <http://ctro/data#hasPrecondition> "patients with open - angle glaucoma or ocular hypertension" .
+<http://ctro/data#Ethnicity_94911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_94909> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Population_94909> <http://ctro/data#hasAvgAge> "58 . 3" .
+<http://ctro/data#Gender_94916> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_94909> <http://ctro/data#hasPrecondition> "patients with IOP ≥ 24 and < 36 mmHg" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_94962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94962> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint IOP " .
+<http://ctro/data#IOP_94963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_94962> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_94963> .
+<http://ctro/data#Mean_94964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_94962> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_94964> .
+<http://ctro/data#Endpoint_94962> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_94966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_95030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_95030> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint mild oh" .
+<http://ctro/data#EndPointDescription_95031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_95030> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95031> .
+<http://ctro/data#AggregationMethod_95032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_95033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_95034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_95035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_95035> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint moderate oh" .
+<http://ctro/data#EndPointDescription_95036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_95035> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_95036> .
+<http://ctro/data#AggregationMethod_95037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_95038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_95039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_94944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_94944> <http://www.w3.org/2000/01/rdf-schema#label> "Arm trav" .
+<http://ctro/data#Arm_94944> <http://ctro/data#hasFinalNumPatientsArm> "41" .
+<http://ctro/data#Arm_94944> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_94932> .
+<http://ctro/data#Arm_94944> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_94967> .
+<http://ctro/data#Arm_94944> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_95040> .
+<http://ctro/data#Arm_94953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_94953> <http://www.w3.org/2000/01/rdf-schema#label> "Arm bim" .
+<http://ctro/data#Arm_94953> <http://ctro/data#hasFinalNumPatientsArm> "40" .
+<http://ctro/data#Arm_94953> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_94938> .
+<http://ctro/data#Arm_94953> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_94994> .
+<http://ctro/data#Arm_94953> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_95067> .
+<http://ctro/data#Arm_94953> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_95094> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_94932> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_94932> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention trav" .
+<http://ctro/data#Intervention_94932> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94918> .
+<http://ctro/data#Intervention_94932> <http://ctro/data#hasFrequency> "once - daily" .
+<http://ctro/data#RelativeTime_94937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_94938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_94938> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention bim" .
+<http://ctro/data#Intervention_94938> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94925> .
+<http://ctro/data#Intervention_94938> <http://ctro/data#hasFrequency> "once - daily" .
+<http://ctro/data#RelativeTime_94943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_94918> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94918> <http://www.w3.org/2000/01/rdf-schema#label> "Medication trav" .
+<http://ctro/data#Medication_94918> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost> .
+<http://ctro/data#Medication_94918> <http://ctro/data#hasDoseValue> "0 . 004" .
+<http://ctro/data#Medication_94918> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_94925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94925> <http://www.w3.org/2000/01/rdf-schema#label> "Medication bim" .
+<http://ctro/data#Medication_94925> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost> .
+<http://ctro/data#Medication_94925> <http://ctro/data#hasDoseValue> "0 . 01" .
+<http://ctro/data#Medication_94925> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_94967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94967> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP trav 6 weeks " .
+<http://ctro/data#Outcome_94967> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94962> .
+<http://ctro/data#Outcome_94967> <http://ctro/data#hasResultMeasuredValue> "17 . 4" .
+<http://ctro/data#Outcome_94967> <http://ctro/data#hasSdDevResValue> "2 . 7" .
+<http://ctro/data#Outcome_94967> <http://ctro/data#hasChangeValue> "6 . 0" .
+<http://ctro/data#Outcome_94967> <http://ctro/data#hasTimePoint> "6 weeks" .
+<http://ctro/data#Outcome_94994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94994> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP bim 6 weeks " .
+<http://ctro/data#Outcome_94994> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94962> .
+<http://ctro/data#Outcome_94994> <http://ctro/data#hasResultMeasuredValue> "17 . 2" .
+<http://ctro/data#Outcome_94994> <http://ctro/data#hasSdDevResValue> "2 . 6" .
+<http://ctro/data#Outcome_94994> <http://ctro/data#hasChangeValue> "6 . 3" .
+<http://ctro/data#Outcome_94994> <http://ctro/data#hasTimePoint> "6 weeks" .
+<http://ctro/data#Outcome_95040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95040> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome mild oh trav" .
+<http://ctro/data#Outcome_95040> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95030> .
+<http://ctro/data#Outcome_95040> <http://ctro/data#hasPercentageAffected> "31" .
+<http://ctro/data#Outcome_95067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95067> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome mild oh bim " .
+<http://ctro/data#Outcome_95067> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95030> .
+<http://ctro/data#Outcome_95067> <http://ctro/data#hasPercentageAffected> "39" .
+<http://ctro/data#Outcome_95094> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_95094> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome moderate oh bim " .
+<http://ctro/data#Outcome_95094> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_95035> .
+<http://ctro/data#Outcome_95094> <http://ctro/data#hasPercentageAffected> "2" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_95021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_95021> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups IOP 6 weeks" .
+<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasDiffGroupAbsValue> "0 . 22" .
+<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasConfIntervalDiff> "95 % CI , - 0 . 22 to 0 . 67" .
+<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_94967> .
+<http://ctro/data#DiffBetweenGroups_95021> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_94994> .
+# RDF export of group: EvidenceQuality

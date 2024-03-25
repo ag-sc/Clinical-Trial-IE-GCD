@@ -1,0 +1,171 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_26724> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_26724> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasTitle> "J Glaucoma" .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasTitle> "Clinical success and quality of life with brimonidine 0 . 2 % or timolol 0 . 5 % used twice daily in glaucoma or ocular t hypertension : a randomized clinical trial ." .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasAuthor> "Javitt JC" .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasPublicationYear> "2000" .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasJournal> "J Glaucoma" .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasJournal> "Clinical success and quality of life with brimonidine 0 . 2 % or timolol 0 . 5 % used twice daily in glaucoma or ocular t hypertension : a randomized clinical trial ." .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasPMID> "10877373" .
+<http://ctro/data#Publication_26724> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_26732> .
+<http://ctro/data#Publication_26724> <http://ctro/data#hasAuthor> "Schiffman RM" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_26732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_26732> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasObjectiveDescription> "To compare the clinical success rates and quality of life impact of brimonidine 0 . 2 % with timolol 0 . 5 % in newly diagnosed patients naive to glaucoma therapy ." .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTduration> "4 months" .
+<http://ctro/data#AllocationRatio_26736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_26737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasConclusionComment> "As a first - line agent for the treatment of glaucoma and ocular hypertension , brimonidine has clinical effectiveness equivalent to timolol , but with less chronotropic effect on the heart ." .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasArm> <http://ctro/data#Arm_26801> .
+<http://ctro/data#Glaucoma_26741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_26741> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasPopulation> <http://ctro/data#Population_26753> .
+<http://ctro/data#DiffBetweenGroups_26743> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_26744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_26732> <http://ctro/data#hasArm> <http://ctro/data#Arm_26810> .
+# RDF export of group: Population
+<http://ctro/data#Population_26753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_26753> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_26753> <http://ctro/data#hasPrecondition> "newly diagnosed patients naive to glaucoma therapy" .
+<http://ctro/data#Ethnicity_26755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_26753> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_26760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_26761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26761> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-CS" .
+<http://ctro/data#EndPointDescription_26762> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_26761> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26762> .
+<http://ctro/data#AggregationMethod_26763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_26764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26766> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-QL" .
+<http://ctro/data#EndPointDescription_26767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_26766> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26767> .
+<http://ctro/data#AggregationMethod_26768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_26769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26771> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-IOP" .
+<http://ctro/data#IOP_26772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_26771> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_26772> .
+<http://ctro/data#Mean_26773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_26771> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_26773> .
+<http://ctro/data#Endpoint_26771> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_26775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26781> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-burning" .
+<http://ctro/data#EndPointDescription_26782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_26781> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26782> .
+<http://ctro/data#AggregationMethod_26783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_26784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26786> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-stinging" .
+<http://ctro/data#Endpoint_26786> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Smarting> .
+<http://ctro/data#AggregationMethod_26788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_26789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26791> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-CH" .
+<http://ctro/data#EndPointDescription_26792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_26791> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_26792> .
+<http://ctro/data#AggregationMethod_26793> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_26794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_26796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_26796> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-HR" .
+<http://ctro/data#HeartRate_26797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate> .
+<http://ctro/data#Endpoint_26796> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_26797> .
+<http://ctro/data#Mean_26798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_26796> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_26798> .
+<http://ctro/data#BioAndMedicalUnit_26799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_26800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_26801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_26801> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-tim" .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasFinalNumPatientsArm> "105" .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_26819> .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_26845> .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_27034> .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_26926> .
+<http://ctro/data#Arm_26801> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_27061> .
+<http://ctro/data#Arm_26810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_26810> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-bri" .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasFinalNumPatientsArm> "106" .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_26825> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_26872> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_26953> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_26899> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_26980> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_27007> .
+<http://ctro/data#Arm_26810> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_27061> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_26819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_26819> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-tim" .
+<http://ctro/data#Intervention_26819> <http://ctro/data#hasMedication> <http://ctro/data#Medication_26831> .
+<http://ctro/data#Intervention_26819> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_26824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_26825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_26825> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-bri" .
+<http://ctro/data#Intervention_26825> <http://ctro/data#hasMedication> <http://ctro/data#Medication_26838> .
+<http://ctro/data#Intervention_26825> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_26830> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_26831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_26831> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-tim" .
+<http://ctro/data#Medication_26831> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_26831> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_26835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_26838> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_26838> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-bri" .
+<http://ctro/data#Medication_26838> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_26838> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_26838> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_26842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_26845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26845> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-CS-tim" .
+<http://ctro/data#Outcome_26845> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26761> .
+<http://ctro/data#Outcome_26845> <http://ctro/data#hasNumberAffected> "73" .
+<http://ctro/data#Outcome_26845> <http://ctro/data#hasPercentageAffected> "70" .
+<http://ctro/data#Outcome_26872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26872> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-CS-bri" .
+<http://ctro/data#Outcome_26872> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26761> .
+<http://ctro/data#Outcome_26872> <http://ctro/data#hasNumberAffected> "75" .
+<http://ctro/data#Outcome_26872> <http://ctro/data#hasPercentageAffected> "71" .
+<http://ctro/data#Outcome_26899> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26899> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-IOP-bri" .
+<http://ctro/data#Outcome_26899> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26771> .
+<http://ctro/data#Outcome_26899> <http://ctro/data#hasChangeValue> "6 . 5" .
+<http://ctro/data#Outcome_26926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26926> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-IOP-tim" .
+<http://ctro/data#Outcome_26926> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26771> .
+<http://ctro/data#Outcome_26926> <http://ctro/data#hasChangeValue> "6 . 2" .
+<http://ctro/data#Outcome_26953> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26953> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-Burning-bri" .
+<http://ctro/data#Outcome_26953> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26781> .
+<http://ctro/data#Outcome_26980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_26980> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-Stinging-bri" .
+<http://ctro/data#Outcome_26980> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26786> .
+<http://ctro/data#Outcome_27007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27007> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-CH-bri" .
+<http://ctro/data#Outcome_27007> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26791> .
+<http://ctro/data#Outcome_27007> <http://ctro/data#hasObservedResult> "No significant chronotropic effects on the heart were seen" .
+<http://ctro/data#Outcome_27034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27034> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-HR-tim" .
+<http://ctro/data#Outcome_27034> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26796> .
+<http://ctro/data#Outcome_27034> <http://ctro/data#hasObservedResult> "small but significant mean decreases in heart rate were seen at months 1 and 4" .
+<http://ctro/data#Outcome_27061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27061> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-QL" .
+<http://ctro/data#Outcome_27061> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_26766> .
+<http://ctro/data#Outcome_27061> <http://ctro/data#hasObservedResult> "Quality of life remained stable , with no significant between - group differences ." .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

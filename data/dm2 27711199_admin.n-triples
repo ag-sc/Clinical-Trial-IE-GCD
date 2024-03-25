@@ -1,0 +1,210 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_75038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_75038> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 75038" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasTitle> "A Randomized Controlled Trial Comparing the Effects of Sitagliptin and Glimepiride on Endothelial Function and Metabolic Parameters : Sapporo Athero - Incretin Study 1 ( SAIS1 ) ." .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Nomoto H" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasPublicationYear> "2016" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasJournal> "PLoS One" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasPMID> "27711199" .
+<http://ctro/data#Publication_75038> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_75045> .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Miyoshi H" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Furumoto T" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Oba K" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Tsutsui H" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Inoue A" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Atsumi T" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Manda N" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Kurihara Y" .
+<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> "Aoki S" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_75045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_75045> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 75045" .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasObjectiveDescription> "we investigated the efficacy of sitagliptin , a DPP - 4 inhibitor , on endothelial function and glycemic metabolism compared with that of the sulfonylurea glimepiride" .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasNumberPatientsCT> "103" .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTduration> "26 weeks" .
+<http://ctro/data#AllocationRatio_75049> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_75050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasConclusionComment> "Regardless of glycemic improvement , early sitagliptin therapy did not affect endothelial function but may provide favorable effects on beta - cell function and on inflammatory" .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasConclusionComment> "and oxidative stress in patients with type 2 diabetes without advanced atherosclerosis ." .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasArm> <http://ctro/data#Arm_75069> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasPopulation> <http://ctro/data#Population_75061> .
+<http://ctro/data#DiffBetweenGroups_75056> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_75057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasArm> <http://ctro/data#Arm_75078> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+# RDF export of group: Population
+<http://ctro/data#Population_75061> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_75061> <http://www.w3.org/2000/01/rdf-schema#label> "Population 75061" .
+<http://ctro/data#Population_75061> <http://ctro/data#hasPrecondition> "outpatients with type 2 diabetes ( aged 59 . 9 ± 9 . 9 years with HbA1c levels of 7 . 5 ± 0 . 4 % ) with dietary cure only and / or current metformin treatment" .
+<http://ctro/data#Ethnicity_75063> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_75061> <http://ctro/data#hasCountry> <http://ctro/data#Japan> .
+<http://ctro/data#Population_75061> <http://ctro/data#hasAvgAge> "59 . 9" .
+<http://ctro/data#Gender_75068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_75142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75142> <http://www.w3.org/2000/01/rdf-schema#label> "fmd" .
+<http://ctro/data#EndPointDescription_75143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75143> .
+<http://ctro/data#AggregationMethod_75144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_75142> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_75146> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75201> <http://www.w3.org/2000/01/rdf-schema#label> "se" .
+<http://ctro/data#EndPointDescription_75202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75201> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75202> .
+<http://ctro/data#AggregationMethod_75203> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75204> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75205> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75206> <http://www.w3.org/2000/01/rdf-schema#label> "tnf" .
+<http://ctro/data#EndPointDescription_75207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75206> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75207> .
+<http://ctro/data#AggregationMethod_75208> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75210> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75211> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75211> <http://www.w3.org/2000/01/rdf-schema#label> "adi" .
+<http://ctro/data#EndPointDescription_75212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75211> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75212> .
+<http://ctro/data#AggregationMethod_75213> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75214> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75215> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75216> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75216> <http://www.w3.org/2000/01/rdf-schema#label> "bio" .
+<http://ctro/data#EndPointDescription_75217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75216> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75217> .
+<http://ctro/data#AggregationMethod_75218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75220> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75221> <http://www.w3.org/2000/01/rdf-schema#label> "sup" .
+<http://ctro/data#EndPointDescription_75222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75221> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75222> .
+<http://ctro/data#AggregationMethod_75223> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75225> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75226> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75226> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_75226> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#AggregationMethod_75228> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75229> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75420> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75420> <http://www.w3.org/2000/01/rdf-schema#label> "car" .
+<http://ctro/data#EndPointDescription_75421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_75420> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75421> .
+<http://ctro/data#AggregationMethod_75422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75423> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75424> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_75425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_75425> <http://www.w3.org/2000/01/rdf-schema#label> "bp" .
+<http://ctro/data#BloodPressure_75426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure> .
+<http://ctro/data#Endpoint_75425> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_75426> .
+<http://ctro/data#AggregationMethod_75427> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_75428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_75429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_75069> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_75069> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75147> .
+<http://ctro/data#Outcome_75074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_75087> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75231> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75258> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75285> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75312> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75339> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75366> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75430> .
+<http://ctro/data#Arm_75069> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75484> .
+<http://ctro/data#Arm_75078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_75078> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Arm_75078> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75174> .
+<http://ctro/data#Outcome_75083> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_75078> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_75093> .
+<http://ctro/data#Arm_75078> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75393> .
+<http://ctro/data#Arm_75078> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75457> .
+<http://ctro/data#Arm_75078> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_75511> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_75087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_75087> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Intervention_75087> <http://ctro/data#hasMedication> <http://ctro/data#Medication_75105> .
+<http://ctro/data#Intervention_75087> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_75092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_75093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_75093> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Intervention_75093> <http://ctro/data#hasMedication> <http://ctro/data#Medication_75112> .
+<http://ctro/data#Intervention_75093> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_75098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_75105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_75105> <http://www.w3.org/2000/01/rdf-schema#label> "sit" .
+<http://ctro/data#Medication_75105> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin> .
+<http://ctro/data#BioAndMedicalUnit_75108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_75109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_75112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_75112> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Medication_75112> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride> .
+<http://ctro/data#BioAndMedicalUnit_75115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_75116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_75147> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75147> <http://www.w3.org/2000/01/rdf-schema#label> "fmd 1" .
+<http://ctro/data#Outcome_75147> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75142> .
+<http://ctro/data#Outcome_75147> <http://ctro/data#hasBaselineValue> "5 . 6" .
+<http://ctro/data#Outcome_75147> <http://ctro/data#hasResultMeasuredValue> "5 . 6" .
+<http://ctro/data#Outcome_75174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75174> <http://www.w3.org/2000/01/rdf-schema#label> "fmd 2" .
+<http://ctro/data#Outcome_75174> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75142> .
+<http://ctro/data#Outcome_75174> <http://ctro/data#hasBaselineValue> "5 . 6" .
+<http://ctro/data#Outcome_75174> <http://ctro/data#hasResultMeasuredValue> "6 . 0" .
+<http://ctro/data#Outcome_75231> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75231> <http://www.w3.org/2000/01/rdf-schema#label> "sec 1" .
+<http://ctro/data#Outcome_75231> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75201> .
+<http://ctro/data#Outcome_75231> <http://ctro/data#hasObservedResult> "significantly improved" .
+<http://ctro/data#Outcome_75258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75258> <http://www.w3.org/2000/01/rdf-schema#label> "tnf" .
+<http://ctro/data#Outcome_75258> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75206> .
+<http://ctro/data#Outcome_75258> <http://ctro/data#hasObservedResult> "significantly improved" .
+<http://ctro/data#Outcome_75285> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75285> <http://www.w3.org/2000/01/rdf-schema#label> "adi" .
+<http://ctro/data#Outcome_75285> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75211> .
+<http://ctro/data#Outcome_75285> <http://ctro/data#hasObservedResult> "significantly improved" .
+<http://ctro/data#Outcome_75312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75312> <http://www.w3.org/2000/01/rdf-schema#label> "bio" .
+<http://ctro/data#Outcome_75312> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75216> .
+<http://ctro/data#Outcome_75312> <http://ctro/data#hasObservedResult> "significantly improved" .
+<http://ctro/data#Outcome_75339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75339> <http://www.w3.org/2000/01/rdf-schema#label> "sup" .
+<http://ctro/data#Outcome_75339> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75221> .
+<http://ctro/data#Outcome_75339> <http://ctro/data#hasObservedResult> "tended to improve" .
+<http://ctro/data#Outcome_75366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75366> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_75366> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75226> .
+<http://ctro/data#Outcome_75366> <http://ctro/data#hasObservedResult> "improvements in HbA1c levels were similar between groups" .
+<http://ctro/data#Outcome_75393> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75393> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_75393> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75226> .
+<http://ctro/data#Outcome_75393> <http://ctro/data#hasObservedResult> "improvements in HbA1c levels were similar between groups" .
+<http://ctro/data#Outcome_75430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75430> <http://www.w3.org/2000/01/rdf-schema#label> "car 1" .
+<http://ctro/data#Outcome_75430> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75420> .
+<http://ctro/data#Outcome_75430> <http://ctro/data#hasObservedResult> "Cardiac index , blood pressure and most other metabolic parameters were not different ." .
+<http://ctro/data#Outcome_75457> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75457> <http://www.w3.org/2000/01/rdf-schema#label> "car 2" .
+<http://ctro/data#Outcome_75457> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75420> .
+<http://ctro/data#Outcome_75457> <http://ctro/data#hasObservedResult> "Cardiac index , blood pressure and most other metabolic parameters were not different ." .
+<http://ctro/data#Outcome_75484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75484> <http://www.w3.org/2000/01/rdf-schema#label> "bp 1" .
+<http://ctro/data#Outcome_75484> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75425> .
+<http://ctro/data#Outcome_75484> <http://ctro/data#hasObservedResult> "Cardiac index , blood pressure and most other metabolic parameters were not different ." .
+<http://ctro/data#Outcome_75511> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_75511> <http://www.w3.org/2000/01/rdf-schema#label> "bp 2" .
+<http://ctro/data#Outcome_75511> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_75425> .
+<http://ctro/data#Outcome_75511> <http://ctro/data#hasObservedResult> "Cardiac index , blood pressure and most other metabolic parameters were not different ." .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

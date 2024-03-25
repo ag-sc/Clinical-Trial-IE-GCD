@@ -1,0 +1,118 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2017", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasPublicationYear> \"2017\"."
+4, Title, 100, 235, "Faster Aspart Versus Insulin Aspart as Part of a Basal - Bolus Regimen in Inadequately Controlled Type 2 Diabetes : The onset 2 Trial .", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasTitle> \"Faster Aspart Versus Insulin Aspart as Part of a Basal - Bolus Regimen in Inadequately Controlled Type 2 Diabetes : The onset 2 Trial .\"."
+29, InsulinAspart, 100, 113, "Faster Aspart", "", 
+2, InsulinAspart, 121, 135, "Insulin Aspart", "", 
+126, Precondition, 174, 213, "Inadequately Controlled Type 2 Diabetes", "", 
+3, Type2Diabetes, 198, 213, "Type 2 Diabetes", "", 
+5, Author, 236, 246, "Bowering K", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Bowering K\"."
+6, Author, 255, 261, "Case C", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Case C\"."
+7, Author, 270, 278, "Harvey J", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Harvey J\"."
+8, Author, 287, 295, "Reeves M", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Reeves M\"."
+9, Author, 304, 313, "Sampson M", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Sampson M\"."
+10, Author, 322, 332, "Strzinek R", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Strzinek R\"."
+11, Author, 341, 351, "Bretler DM", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Bretler DM\"."
+12, Author, 360, 367, "Bang RB", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Bang RB\"."
+13, Author, 376, 383, "Bode BW", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasAuthor> \"Bode BW\"."
+14, Canada, 507, 513, "Canada", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#Canada>."
+142, USA, 603, 605, "MO", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+16, UK, 681, 688, "U . K .", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+141, USA, 736, 738, "TN", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+15, UK, 869, 876, "U . K .", "", 
+138, USA, 921, 923, "TX", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+17, Country, 964, 971, "Denmark", "", "<http://ctro/data#Country_83838> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#Country_83838>."
+139, USA, 1020, 1022, "GA", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+149, ObjectiveDescription, 1148, 1334, "This multicenter , double - blind , treat - to - target , phase 3 trial evaluated the efficacy and safety of fast - acting insulin aspart ( faster aspart ) versus insulin aspart ( IAsp )", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasObjectiveDescription> \"This multicenter , double - blind , treat - to - target , phase 3 trial evaluated the efficacy and safety of fast - acting insulin aspart ( faster aspart ) versus insulin aspart ( IAsp )\"."
+18, Multicenter, 1153, 1164, "multicenter", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+19, DoubleBlind, 1167, 1181, "double - blind", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+145, CTDesign, 1184, 1203, "treat - to - target", "", "<http://ctro/data#CTDesign_83822> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_83822>."
+27, InsulinAspart, 1257, 1285, "fast - acting insulin aspart", "", 
+28, InsulinAspart, 1288, 1301, "faster aspart", "", 
+20, InsulinAspart, 1311, 1325, "insulin aspart", "", 
+21, InsulinAspart, 1328, 1332, "IAsp", "", 
+150, ObjectiveDescription, 1335, 1420, "in adults with type 2 diabetes receiving basal insulin and oral antidiabetic agents .", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasObjectiveDescription> \"in adults with type 2 diabetes receiving basal insulin and oral antidiabetic agents .\"."
+148, Precondition, 1338, 1418, "adults with type 2 diabetes receiving basal insulin and oral antidiabetic agents", "", "<http://ctro/data#Population_83826> <http://ctro/data#hasPrecondition> \"adults with type 2 diabetes receiving basal insulin and oral antidiabetic agents\"."
+22, Type2Diabetes, 1350, 1365, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+23, Insulin, 1376, 1389, "basal insulin", "", 
+24, OralAntidiabeticAgent, 1394, 1418, "oral antidiabetic agents", "", 
+30, HbA1c, 1477, 1482, "HbA1c", "", 
+31, TimePoint, 1495, 1503, "baseline", "", 
+99222, Duration, 1510, 1518, "26 weeks", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasCTduration> \"26 weeks\"."
+33, Duration, 1542, 1550, "8 - week", "", 
+34, Insulin, 1572, 1585, "basal insulin", "", 
+35, Randomized, 1602, 1612, "randomized", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+161, AllocationRatio, 1615, 1620, "1 : 1", "", "<http://ctro/data#AllocationRatio_83808> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_83808>."
+162, RelativeTime, 1626, 1634, "mealtime", "", "<http://ctro/data#RelativeTime_83898> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_83893> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_83898>."
+36, InsulinAspart, 1635, 1648, "faster aspart", "", "<http://ctro/data#Medication_83899> <http://ctro/data#hasDrug> <http://ctro/data#InsulinAspart>."
+39, NumberPatientsArm, 1655, 1658, "345", "", "<http://ctro/data#Arm_83875> <http://ctro/data#hasNumberPatientsArm> \"345\"."
+37, InsulinAspart, 1664, 1668, "IAsp", "", "<http://ctro/data#Medication_83906> <http://ctro/data#hasDrug> <http://ctro/data#InsulinAspart>."
+40, NumberPatientsArm, 1675, 1678, "344", "", "<http://ctro/data#Arm_83884> <http://ctro/data#hasNumberPatientsArm> \"344\"."
+38, DoseDescription, 1683, 1739, "titrated using a simple daily patient - driven algorithm", "", "<http://ctro/data#Medication_83899> <http://ctro/data#hasDoseDescription> \"titrated using a simple daily patient - driven algorithm\". <http://ctro/data#Medication_83906> <http://ctro/data#hasDoseDescription> \"titrated using a simple daily patient - driven algorithm\"."
+166, InsulinGlargine, 1747, 1763, "insulin glargine", "", "<http://ctro/data#Medication_83913> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+42, Metformin, 1773, 1782, "metformin", "", "<http://ctro/data#Medication_83920> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+43, HbA1c, 1795, 1800, "HbA1c", "", "<http://ctro/data#Endpoint_83840> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+171, Reduction, 1814, 1820, "1 . 38", "", "<http://ctro/data#Outcome_83933> <http://ctro/data#hasChangeValue> \"1 . 38\"."
+44, Percentage, 1821, 1822, "%", "", "<http://ctro/data#Endpoint_83840> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+57, InsulinAspart, 1825, 1838, "faster aspart", "", 
+172, Reduction, 1847, 1853, "1 . 36", "", "<http://ctro/data#Outcome_83960> <http://ctro/data#hasChangeValue> \"1 . 36\"."
+45, Percentage, 1854, 1855, "%", "", 
+58, InsulinAspart, 1858, 1862, "IAsp", "", 
+54, Mean, 1867, 1871, "mean", "", "<http://ctro/data#Mean_83842> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_83840> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_83842>."
+55, HbA1c, 1872, 1877, "HbA1c", "", 
+175, ResultMeasuredValue, 1882, 1887, "6 . 6", "", "<http://ctro/data#Outcome_83933> <http://ctro/data#hasResultMeasuredValue> \"6 . 6\". <http://ctro/data#Outcome_83960> <http://ctro/data#hasResultMeasuredValue> \"6 . 6\"."
+46, Percentage, 1888, 1889, "%", "", 
+59, InsulinAspart, 1908, 1921, "Faster aspart", "", 
+60, InsulinAspart, 1957, 1961, "IAsp", "", 
+61, HbA1c, 1974, 1979, "HbA1c", "", 
+62, DiffGroupAbsValue, 2033, 2041, "- 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_83987> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 02\"."
+48, Percentage, 2042, 2043, "%", "", 
+63, ConfIntervalDiff, 2046, 2063, "- 0 . 15 ; 0 . 10", "", "<http://ctro/data#DiffBetweenGroups_83987> <http://ctro/data#hasConfIntervalDiff> \"- 0 . 15 ; 0 . 10\"."
+64, PostprandialPlasmaGlucose, 2095, 2122, "postprandial plasma glucose", "", "<http://ctro/data#Endpoint_83845> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialPlasmaGlucose>."
+65, PostprandialPlasmaGlucose, 2125, 2128, "PPG", "", 
+181, PostprandialPlasmaGlucose, 2145, 2148, "PPG", "", 
+184, ObservedResult, 2180, 2245, "was statistically significant in favor of faster aspart after 1 h", "", "<http://ctro/data#Outcome_83996> <http://ctro/data#hasObservedResult> \"was statistically significant in favor of faster aspart after 1 h\"."
+69, InsulinAspart, 2222, 2235, "faster aspart", "", 
+70, DiffGroupAbsValue, 2264, 2272, "- 0 . 59", "", "<http://ctro/data#DiffBetweenGroups_84050> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 59\"."
+67, Millimoles_per_litre, 2273, 2281, "mmol / L", "", "<http://ctro/data#Endpoint_83845> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+72, ConfIntervalDiff, 2284, 2303, "- 1 . 09 ; - 0 . 09", "", "<http://ctro/data#DiffBetweenGroups_84050> <http://ctro/data#hasConfIntervalDiff> \"- 1 . 09 ; - 0 . 09\"."
+71, DiffGroupAbsValue, 2308, 2317, "- 10 . 63", "", 
+68, Mg_per_deciliter, 2318, 2325, "mg / dL", "", 
+73, ConfIntervalDiff, 2328, 2348, "- 19 . 56 ; - 1 . 69", "", 
+74, PvalueDiff, 2353, 2365, "P = 0 . 0198", "", "<http://ctro/data#DiffBetweenGroups_84050> <http://ctro/data#hasPvalueDiff> \"P = 0 . 0198\"."
+185, ObservedResult, 2370, 2391, "but not after 2 - 4 h", "", "<http://ctro/data#Outcome_83996> <http://ctro/data#hasObservedResult> \"but not after 2 - 4 h\"."
+75, TimePoint, 2406, 2414, "baseline", "", 
+76, FastingPlasmaGlucose, 2418, 2440, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_83850> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+77, BodyWeight, 2443, 2454, "body weight", "", "<http://ctro/data#Endpoint_83855> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+78, BloodGlucose, 2478, 2491, "blood glucose", "", "<http://ctro/data#Endpoint_83860> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodGlucose>."
+99227, Hypoglycemia, 2504, 2516, "hypoglycemia", "", "<http://ctro/data#Endpoint_83865> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+106266, AggregationMethod, 2525, 2535, "rate ratio", "", "<http://ctro/data#AggregationMethod_83872> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod>. <http://ctro/data#Endpoint_83870> <http://ctro/data#hasAggregationMethod> <http://ctro/data#AggregationMethod_83872>."
+106267, AggregationMethod, 2538, 2540, "RR", "", 
+84, DiffGroupRelValue, 2555, 2561, "1 . 09", "", "<http://ctro/data#DiffBetweenGroups_84195> <http://ctro/data#hasDiffGroupRelValue> \"1 . 09\"."
+86, ConfIntervalDiff, 2564, 2579, "0 . 88 ; 1 . 36", "", "<http://ctro/data#DiffBetweenGroups_84195> <http://ctro/data#hasConfIntervalDiff> \"0 . 88 ; 1 . 36\"."
+200, ObservedResult, 2584, 2615, "were similar between treatments", "", "<http://ctro/data#Outcome_84060> <http://ctro/data#hasObservedResult> \"were similar between treatments\". <http://ctro/data#Outcome_84114> <http://ctro/data#hasObservedResult> \"were similar between treatments\". <http://ctro/data#Outcome_84141> <http://ctro/data#hasObservedResult> \"were similar between treatments\". <http://ctro/data#Outcome_84168> <http://ctro/data#hasObservedResult> \"were similar between treatments\". <http://ctro/data#Outcome_91511> <http://ctro/data#hasObservedResult> \"were similar between treatments\"."
+80, Hypoglycemia, 2618, 2651, "Postmeal hypoglycemia ( 0 - 2 h )", "", "<http://ctro/data#Endpoint_83870> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+106268, SubGroupDescription, 2618, 2639, "Postmeal hypoglycemia", "", "<http://ctro/data#Outcome_84204> <http://ctro/data#hasSubGroupDescription> \"Postmeal hypoglycemia\". <http://ctro/data#Outcome_84231> <http://ctro/data#hasSubGroupDescription> \"Postmeal hypoglycemia\"."
+99228, AggregationMethod, 2652, 2657, "rates", "", 
+82, ResultMeasuredValue, 2663, 2669, "2 . 27", "", "<http://ctro/data#Outcome_84204> <http://ctro/data#hasResultMeasuredValue> \"2 . 27\"."
+88, InsulinAspart, 2672, 2685, "faster aspart", "", 
+83, ResultMeasuredValue, 2692, 2698, "1 . 49", "", "<http://ctro/data#Outcome_84231> <http://ctro/data#hasResultMeasuredValue> \"1 . 49\"."
+89, InsulinAspart, 2701, 2705, "IAsp", "", 
+205, BioAndMedicalUnit, 2712, 2738, "patient - year of exposure", "", 
+85, DiffGroupRelValue, 2756, 2762, "1 . 60", "", "<http://ctro/data#DiffBetweenGroups_84258> <http://ctro/data#hasDiffGroupRelValue> \"1 . 60\"."
+87, ConfIntervalDiff, 2765, 2780, "1 . 13 ; 2 . 27", "", "<http://ctro/data#DiffBetweenGroups_84258> <http://ctro/data#hasConfIntervalDiff> \"1 . 13 ; 2 . 27\"."
+90, InsulinAspart, 2801, 2814, "Faster aspart", "", 
+102, ConclusionComment, 2801, 2919, "Faster aspart and IAsp were confirmed noninferior in a basal - bolus regimen regarding change from baseline in HbA1c .", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasConclusionComment> \"Faster aspart and IAsp were confirmed noninferior in a basal - bolus regimen regarding change from baseline in HbA1c .\"."
+91, InsulinAspart, 2819, 2823, "IAsp", "", 
+95, TimePoint, 2900, 2908, "baseline", "", 
+96, HbA1c, 2912, 2917, "HbA1c", "", 
+92, InsulinAspart, 2920, 2933, "Faster aspart", "", 
+103, ConclusionComment, 2920, 3003, "Faster aspart improved 1 - h PPG with no differences in 2 - 4 - h PPG versus IAsp .", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasConclusionComment> \"Faster aspart improved 1 - h PPG with no differences in 2 - 4 - h PPG versus IAsp .\"."
+207, PostprandialPlasmaGlucose, 2943, 2952, "1 - h PPG", "", 
+98, PostprandialPlasmaGlucose, 2976, 2989, "2 - 4 - h PPG", "", 
+93, InsulinAspart, 2997, 3001, "IAsp", "", 
+99, Hypoglycemia, 3004, 3024, "Overall hypoglycemia", "", 
+104, ConclusionComment, 3004, 3122, "Overall hypoglycemia rates were similar except for an increase in 0 - 2 - h postmeal hypoglycemia with faster aspart .", "", "<http://ctro/data#ClinicalTrial_83804> <http://ctro/data#hasConclusionComment> \"Overall hypoglycemia rates were similar except for an increase in 0 - 2 - h postmeal hypoglycemia with faster aspart .\"."
+100, Hypoglycemia, 3070, 3101, "0 - 2 - h postmeal hypoglycemia", "", 
+94, InsulinAspart, 3107, 3120, "faster aspart", "", 
+101, PMID, 3206, 3214, "28483786", "", "<http://ctro/data#Publication_83789> <http://ctro/data#hasPMID> \"28483786\"."

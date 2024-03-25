@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 18, "Eur J Ophthalmol .", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasJournal> \"Eur J Ophthalmol .\"."
+1, PublicationYear, 19, 23, "2005", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasPublicationYear> \"2005\"."
+2, Title, 58, 170, "Safety and efficacy of bimatoprost 0 . 03 % versus timolol maleate 0 . 5 % / dorzolamide 2 % fixed combination .", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasTitle> \"Safety and efficacy of bimatoprost 0 . 03 % versus timolol maleate 0 . 5 % / dorzolamide 2 % fixed combination .\"."
+3, Bimatoprost, 81, 92, "bimatoprost", "", "<http://ctro/data#Medication_90636> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+6, DoseValue, 93, 99, "0 . 03", "", "<http://ctro/data#Medication_90636> <http://ctro/data#hasDoseValue> \"0 . 03\"."
+84, Percentage, 100, 101, "%", "", "<http://ctro/data#Medication_90636> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+4, Timolol, 109, 124, "timolol maleate", "", 
+9, Dorz/TimFC, 109, 168, "timolol maleate 0 . 5 % / dorzolamide 2 % fixed combination", "", "<http://ctro/data#Medication_97059> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+7, DoseValue, 125, 130, "0 . 5", "", 
+85, Percentage, 131, 132, "%", "", 
+5, Dorzolamide, 135, 146, "dorzolamide", "", 
+8, DoseValue, 147, 148, "2", "", 
+86, Percentage, 149, 150, "%", "", 
+10, Author, 171, 177, "Day DG", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Day DG\"."
+11, Author, 186, 195, "Sharpe ED", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Sharpe ED\"."
+12, Author, 198, 209, "Beischel CJ", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Beischel CJ\"."
+13, Author, 212, 222, "Jenkins JN", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Jenkins JN\"."
+14, Author, 225, 235, "Stewart JA", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+15, Author, 238, 248, "Stewart WC", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+16, USA, 313, 316, "USA", "", 
+17, ObjectiveDescription, 329, 538, "To determine the efficacy and safety of bimatoprost given every evening versus the dorzolamide / timolol fixed combination ( DTFC ) given twice daily in open - angle glaucoma and ocular hypertensive patients .", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasObjectiveDescription> \"To determine the efficacy and safety of bimatoprost given every evening versus the dorzolamide / timolol fixed combination ( DTFC ) given twice daily in open - angle glaucoma and ocular hypertensive patients .\"."
+18, Bimatoprost, 369, 380, "bimatoprost", "", 
+106, Frequency, 387, 400, "every evening", "", "<http://ctro/data#Intervention_90624> <http://ctro/data#hasFrequency> \"every evening\"."
+20, Dorzolamide, 412, 423, "dorzolamide", "", 
+22, Dorz/TimFC, 412, 451, "dorzolamide / timolol fixed combination", "", 
+21, Timolol, 426, 433, "timolol", "", 
+23, Dorz/TimFC, 454, 458, "DTFC", "", 
+24, Frequency, 467, 478, "twice daily", "", "<http://ctro/data#Intervention_90630> <http://ctro/data#hasFrequency> \"twice daily\"."
+25, OpenAngleGlaucoma, 482, 503, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+103, Precondition, 482, 536, "open - angle glaucoma and ocular hypertensive patients", "", "<http://ctro/data#Population_90598> <http://ctro/data#hasPrecondition> \"open - angle glaucoma and ocular hypertensive patients\"."
+26, OcularHypertension, 508, 527, "ocular hypertensive", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+27, DoubleBlind, 551, 566, "double - masked", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+28, Multicenter, 569, 583, "three - center", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+29, Prospective, 586, 597, "prospective", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+30, Randomized, 600, 610, "randomized", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Crossover, 613, 622, "crossover", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+32, Duration, 643, 651, "8 - week", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasCTduration> \"8 - week\"."
+113, Precondition, 670, 719, "following a 4 - week medicine free washout period", "", "<http://ctro/data#Population_90598> <http://ctro/data#hasPrecondition> \"following a 4 - week medicine free washout period\"."
+33, Duration, 682, 690, "4 - week", "", 
+34, Diurnal_IOP, 722, 757, "Diurnal curve intraocular pressures", "", 
+35, Diurnal_IOP, 760, 764, "IOPs", "", 
+116, TimePoint, 781, 788, "08 : 00", "", 
+117, Trough_IOP, 791, 797, "trough", "", 
+118, TimePoint, 804, 811, "10 : 00", "", 
+119, TimePoint, 816, 829, "16 : 00 hours", "", 
+36, NumberPatientsCT, 853, 855, "35", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasNumberPatientsCT> \"35\"."
+37, FinalNumPatientsCT, 883, 885, "32", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasFinalNumberPatientsCT> \"32\"."
+38, Diurnal_IOP, 945, 966, "intraocular pressures", "", "<http://ctro/data#Endpoint_90671> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+39, BaseLineValue, 971, 977, "24 . 8", "", "<http://ctro/data#Outcome_90676> <http://ctro/data#hasBaselineValue> \"24 . 8\". <http://ctro/data#Outcome_90703> <http://ctro/data#hasBaselineValue> \"24 . 8\"."
+124, SdDevBL, 984, 989, "2 . 4", "", "<http://ctro/data#Outcome_90676> <http://ctro/data#hasSdDevBL> \"2 . 4\". <http://ctro/data#Outcome_90703> <http://ctro/data#hasSdDevBL> \"2 . 4\"."
+41, mmHg, 990, 994, "mmHg", "", "<http://ctro/data#Endpoint_90671> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+42, Mean, 1030, 1034, "mean", "", "<http://ctro/data#Mean_90673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_90671> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_90673>."
+43, Diurnal_IOP, 1035, 1064, "diurnal intraocular pressures", "", 
+44, ResultMeasuredValue, 1069, 1075, "17 . 4", "", "<http://ctro/data#Outcome_90676> <http://ctro/data#hasResultMeasuredValue> \"17 . 4\"."
+130, SdDevResValue, 1082, 1087, "2 . 9", "", "<http://ctro/data#Outcome_90676> <http://ctro/data#hasSdDevResValue> \"2 . 9\"."
+48, Bimatoprost, 1092, 1103, "bimatoprost", "", 
+45, ResultMeasuredValue, 1108, 1114, "18 . 1", "", "<http://ctro/data#Outcome_90703> <http://ctro/data#hasResultMeasuredValue> \"18 . 1\"."
+131, SdDevResValue, 1121, 1126, "2 . 8", "", "<http://ctro/data#Outcome_90703> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+49, mmHg, 1127, 1131, "mmHg", "", 
+50, Dorz/TimFC, 1136, 1140, "DTFC", "", 
+135, PvalueDiff, 1145, 1153, "= 0 . 35", "", "<http://ctro/data#DiffBetweenGroups_90730> <http://ctro/data#hasPvalueDiff> \"= 0 . 35\"."
+52, IOP, 1189, 1210, "intraocular pressures", "", 
+53, IOP, 1299, 1320, "intraocular pressures", "", 
+102388, TimePoint, 1326, 1334, "baseline", "", 
+139, Diurnal_IOP, 1367, 1380, "diurnal curve", "", 
+54, PValueChangeValue, 1383, 1398, "p & lt ; 0 . 05", "", "<http://ctro/data#Outcome_90676> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 05\". <http://ctro/data#Outcome_90703> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 05\"."
+55, ConjunctivalHyperemia, 1461, 1483, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_90739> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+56, Bimatoprost, 1489, 1500, "bimatoprost", "", 
+58, NumberAffected, 1507, 1509, "15", "", "<http://ctro/data#Outcome_90749> <http://ctro/data#hasNumberAffected> \"15\"."
+57, Dorz/TimFC, 1522, 1526, "DTFC", "", 
+59, NumberAffected, 1533, 1534, "7", "", "<http://ctro/data#Outcome_90776> <http://ctro/data#hasNumberAffected> \"7\"."
+152, PvalueDiff, 1539, 1548, "= 0 . 013", "", "<http://ctro/data#DiffBetweenGroups_90857> <http://ctro/data#hasPvalueDiff> \"= 0 . 013\"."
+102396, EndPointDescription, 1560, 1580, "burning and stinging", "", "<http://ctro/data#EndPointDescription_90745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_90744> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_90745>."
+63, Dorz/TimFC, 1586, 1590, "DTFC", "", 
+64, NumberAffected, 1597, 1599, "12", "", "<http://ctro/data#Outcome_90830> <http://ctro/data#hasNumberAffected> \"12\"."
+66, Bimatoprost, 1612, 1623, "bimatoprost", "", 
+65, NumberAffected, 1630, 1631, "0", "", 
+153, PvalueDiff, 1634, 1646, "p = 0 . 0005", "", "<http://ctro/data#DiffBetweenGroups_90866> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0005\"."
+68, PvalueDiff, 1775, 1790, "p & gt ; 0 . 05", "", 
+69, ConclusionComment, 1809, 2000, "This study indicates that the intraocular pressures are lowered to a statistically similar amount with DTFC compared to bimatoprost in open - angle glaucoma and ocular hypertensive patients .", "", "<http://ctro/data#ClinicalTrial_90582> <http://ctro/data#hasConclusionComment> \"This study indicates that the intraocular pressures are lowered to a statistically similar amount with DTFC compared to bimatoprost in open - angle glaucoma and ocular hypertensive patients .\"."
+70, IOP, 1839, 1860, "intraocular pressures", "", 
+71, Dorz/TimFC, 1912, 1916, "DTFC", "", 
+72, Bimatoprost, 1929, 1940, "bimatoprost", "", 
+73, OpenAngleGlaucoma, 1944, 1965, "open - angle glaucoma", "", 
+74, OcularHypertension, 1970, 1989, "ocular hypertensive", "", 
+75, PMID, 2045, 2053, "15945001", "", "<http://ctro/data#Publication_53473> <http://ctro/data#hasPMID> \"15945001\"."

@@ -1,0 +1,10 @@
+bash scripts-generative/ptr/ptr_eval_gl_led.sh &> gl_led_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_gl_t5.sh &> gl_t5_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_dm2_led.sh &> dm2_led_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_dm2_t5.sh &> dm2_t5_$(date '+%Y_%m_%d').txt
+
+bash scripts-generative/ptr/ptr_eval_gl_led.sh ptr &> ptr_gl_led_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_gl_t5.sh ptr &> ptr_gl_t5_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_dm2_led.sh ptr &> ptr_dm2_led_$(date '+%Y_%m_%d').txt
+bash scripts-generative/ptr/ptr_eval_dm2_t5.sh ptr &> ptr_dm2_t5_$(date '+%Y_%m_%d').txt
+

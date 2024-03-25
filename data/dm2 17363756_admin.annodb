@@ -1,0 +1,90 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+75, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+0, PublicationYear, 16, 20, "2007", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasPublicationYear> \"2007\"."
+1, PublicationYear, 54, 58, "2007", "", 
+153, Title, 68, 260, "A randomized , double - blind , placebo - controlled , multicenter study to assess the efficacy and safety of topiramate controlled release in the treatment of obese type 2 diabetic patients .", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasTitle> \"A randomized , double - blind , placebo - controlled , multicenter study to assess the efficacy and safety of topiramate controlled release in the treatment of obese type 2 diabetic patients .\"."
+2, Randomized, 70, 80, "randomized", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, DoubleBlind, 83, 97, "double - blind", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+79, Placebo, 100, 107, "placebo", "", 
+4, Multicenter, 123, 134, "multicenter", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+5, Drug, 178, 188, "topiramate", "", 
+7, Precondition, 228, 258, "obese type 2 diabetic patients", "", 
+6, Type2Diabetes, 234, 249, "type 2 diabetic", "", 
+8, Author, 261, 273, "Rosenstock J", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+9, Author, 282, 293, "Hollander P", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Hollander P\"."
+10, Author, 296, 304, "Gadde KM", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Gadde KM\"."
+11, Author, 307, 312, "Sun X", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Sun X\"."
+12, Author, 315, 324, "Strauss R", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Strauss R\"."
+13, Author, 327, 334, "Leung A", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasAuthor> \"Leung A\"."
+14, USA, 450, 453, "USA", "", "<http://ctro/data#Population_42783> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+20, ObjectiveDescription, 507, 642, "This is a randomized , placebo - controlled study of the weight - loss efficacy and safety of a controlled - release ( CR ) formulation", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasObjectiveDescription> \"This is a randomized , placebo - controlled study of the weight - loss efficacy and safety of a controlled - release ( CR ) formulation\"."
+15, Randomized, 517, 527, "randomized", "", 
+92, Placebo, 530, 537, "placebo", "", 
+21, BodyWeight, 564, 570, "weight", "", 
+155, ObjectiveDescription, 643, 782, "of topiramate in overweight and obese patients with type 2 diabetes treated with diet and exercise alone or in combination with metformin .", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasObjectiveDescription> \"of topiramate in overweight and obese patients with type 2 diabetes treated with diet and exercise alone or in combination with metformin .\"."
+16, Drug, 646, 656, "topiramate", "", 
+19, Precondition, 660, 780, "overweight and obese patients with type 2 diabetes treated with diet and exercise alone or in combination with metformin", "", 
+17, Type2Diabetes, 695, 710, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+18, Metformin, 771, 780, "metformin", "", 
+28, Precondition, 813, 979, "Patients with type 2 diabetes , BMI > or = 27 kg / m2 , A1C > 6 . 5 and < 11 . 0 % , treated with diet and exercise alone or in combination with metformin monotherapy", "", "<http://ctro/data#Population_42783> <http://ctro/data#hasPrecondition> \"Patients with type 2 diabetes , BMI > or = 27 kg / m2 , A1C > 6 . 5 and < 11 . 0 % , treated with diet and exercise alone or in combination with metformin monotherapy\"."
+22, Type2Diabetes, 827, 842, "type 2 diabetes", "", 
+23, BMI, 845, 848, "BMI", "", 
+25, Kg_per_squareMeter, 859, 866, "kg / m2", "", 
+24, HbA1c, 869, 872, "A1C", "", 
+26, Percentage, 894, 895, "%", "", 
+27, Metformin, 958, 967, "metformin", "", 
+29, Randomized, 1010, 1020, "randomized", "", 
+30, Placebo, 1024, 1031, "placebo", "", "<http://ctro/data#Medication_42853> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+31, Drug, 1035, 1045, "topiramate", "", "<http://ctro/data#Drug_42847> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug>. <http://ctro/data#Medication_42846> <http://ctro/data#hasDrug> <http://ctro/data#Drug_42847>."
+51213, DoseDescription, 1049, 1076, "titrated up to 175 mg / day", "", "<http://ctro/data#Medication_42846> <http://ctro/data#hasDoseDescription> \"titrated up to 175 mg / day\"."
+32, DoseValue, 1064, 1067, "175", "", "<http://ctro/data#Medication_42846> <http://ctro/data#hasDoseValue> \"175\"."
+33, mg, 1068, 1070, "mg", "", "<http://ctro/data#Medication_42846> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+34, Interval, 1073, 1076, "day", "", "<http://ctro/data#Intervention_42834> <http://ctro/data#hasInterval> \"day\"."
+35, Duration, 1104, 1112, "7 - week", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasCTduration> \"7 - week\"."
+36, Duration, 1143, 1151, "9 - week", "", 
+37, NumberPatientsCT, 1193, 1196, "111", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasNumberPatientsCT> \"111\"."
+38, Randomized, 1211, 1221, "randomized", "", 
+39, TimePoint, 1251, 1258, "week 16", "", 
+40, Placebo, 1277, 1284, "placebo", "", 
+41, Drug, 1289, 1299, "topiramate", "", 
+42, Reduction, 1312, 1317, "2 . 5", "", "<http://ctro/data#Outcome_42887> <http://ctro/data#hasChangeValue> \"2 . 5\"."
+43, Reduction, 1322, 1327, "6 . 0", "", "<http://ctro/data#Outcome_42860> <http://ctro/data#hasChangeValue> \"6 . 0\"."
+44, Kg, 1328, 1330, "kg", "", "<http://ctro/data#Endpoint_42796> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+45, RelativeReduction, 1351, 1356, "2 . 3", "", "<http://ctro/data#Outcome_42887> <http://ctro/data#hasRelativeChangeValue> \"2 . 3\"."
+46, RelativeReduction, 1361, 1366, "5 . 8", "", "<http://ctro/data#Outcome_42860> <http://ctro/data#hasRelativeChangeValue> \"5 . 8\"."
+72, BodyWeight, 1404, 1415, "body weight", "", "<http://ctro/data#Endpoint_42796> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+47, PvalueDiff, 1418, 1429, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_42914> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+73, Placebo, 1435, 1442, "placebo", "", 
+48, HbA1c, 1447, 1450, "A1C", "", "<http://ctro/data#Endpoint_42791> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+166, TimePoint, 1467, 1475, "baseline", "", 
+49, BaseLineValue, 1479, 1484, "7 . 4", "", "<http://ctro/data#Outcome_42950> <http://ctro/data#hasBaselineValue> \"7 . 4\"."
+50, Percentage, 1485, 1486, "%", "", "<http://ctro/data#Endpoint_42791> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+51, Placebo, 1494, 1501, "placebo", "", 
+52, BaseLineValue, 1506, 1511, "7 . 6", "", "<http://ctro/data#Outcome_42923> <http://ctro/data#hasBaselineValue> \"7 . 6\"."
+53, Percentage, 1512, 1513, "%", "", "<http://ctro/data#Outcome_42923> <http://ctro/data#hasBaselineValue> \"7 . 6\"."
+54, Drug, 1521, 1531, "topiramate", "", 
+55, ResultMeasuredValue, 1542, 1547, "7 . 1", "", "<http://ctro/data#Outcome_42950> <http://ctro/data#hasResultMeasuredValue> \"7 . 1\"."
+56, ResultMeasuredValue, 1552, 1557, "6 . 7", "", "<http://ctro/data#Outcome_42923> <http://ctro/data#hasResultMeasuredValue> \"6 . 7\"."
+57, Percentage, 1558, 1559, "%", "", 
+58, RelativeReduction, 1592, 1597, "0 . 4", "", "<http://ctro/data#Outcome_42950> <http://ctro/data#hasRelativeChangeValue> \"0 . 4\"."
+59, RelativeReduction, 1602, 1607, "0 . 9", "", "<http://ctro/data#Outcome_42923> <http://ctro/data#hasRelativeChangeValue> \"0 . 9\"."
+165, TimePoint, 1625, 1633, "baseline", "", 
+60, PvalueDiff, 1651, 1662, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_42977> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+74, Placebo, 1668, 1675, "placebo", "", 
+61, Drug, 1680, 1690, "Topiramate", "", 
+140, ObservedResult, 1696, 1717, "significantly reduced", "", "<http://ctro/data#Outcome_42986> <http://ctro/data#hasObservedResult> \"significantly reduced\". <http://ctro/data#Outcome_43013> <http://ctro/data#hasObservedResult> \"significantly reduced\"."
+157, BloodPressure, 1718, 1732, "blood pressure", "", "<http://ctro/data#BloodPressure_42802> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_42801> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_42802>."
+62, EndPointDescription, 1737, 1762, "urinary albumin excretion", "", "<http://ctro/data#EndPointDescription_42807> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_42806> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_42807>."
+159, EndPointDescription, 1765, 1779, "Adverse events", "", "<http://ctro/data#EndPointDescription_42812> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_42811> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_42812>."
+160, ObservedResult, 1780, 1864, "were predominantly neuropsychiatric or central and peripheral nervous system related", "", "<http://ctro/data#Outcome_43040> <http://ctro/data#hasObservedResult> \"were predominantly neuropsychiatric or central and peripheral nervous system related\"."
+63, Drug, 1881, 1891, "Topiramate", "", 
+161, ConclusionComment, 1881, 2096, "Topiramate CR treatment produced significant weight loss and meaningful improvements in A1C and blood pressure in obese patients with type 2 diabetes treated with diet and exercise or in combination with metformin .", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasConclusionComment> \"Topiramate CR treatment produced significant weight loss and meaningful improvements in A1C and blood pressure in obese patients with type 2 diabetes treated with diet and exercise or in combination with metformin .\"."
+142, BodyWeight, 1926, 1937, "weight loss", "", 
+65, HbA1c, 1969, 1972, "A1C", "", 
+163, BloodPressure, 1977, 1991, "blood pressure", "", 
+66, Type2Diabetes, 2015, 2030, "type 2 diabetes", "", 
+67, Metformin, 2085, 2094, "metformin", "", 
+162, ConclusionComment, 2097, 2252, "However , the central nervous system and psychiatric adverse event profile of topiramate CR makes it unsuitable for the treatment of obesity and diabetes .", "", "<http://ctro/data#ClinicalTrial_42763> <http://ctro/data#hasConclusionComment> \"However , the central nervous system and psychiatric adverse event profile of topiramate CR makes it unsuitable for the treatment of obesity and diabetes .\"."
+69, Drug, 2175, 2185, "topiramate", "", 
+70, Type2Diabetes, 2242, 2250, "diabetes", "", 
+71, PMID, 2290, 2298, "17363756", "", "<http://ctro/data#Publication_42751> <http://ctro/data#hasPMID> \"17363756\"."

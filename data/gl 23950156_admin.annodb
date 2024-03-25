@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 27, "Invest Ophthalmol Vis Sci .", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasJournal> \"Invest Ophthalmol Vis Sci .\"."
+1, PublicationYear, 28, 32, "2013", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasPublicationYear> \"2013\"."
+85, Title, 102, 266, "Hypotensive effect of latanoprost / timolol versus travoprost / timolol fixed combinations in NTG patients : a randomized , multicenter , crossover clinical trial .", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasTitle> \"Hypotensive effect of latanoprost / timolol versus travoprost / timolol fixed combinations in NTG patients : a randomized , multicenter , crossover clinical trial .\"."
+3, Latanoprost, 124, 135, "latanoprost", "", "<http://ctro/data#Latanoprost_93035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_93034> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_93035>."
+73, Lat/TimFC, 124, 145, "latanoprost / timolol", "", 
+4, Timolol, 138, 145, "timolol", "", 
+58, Travoprost, 153, 163, "travoprost", "", 
+74, Trav/TimFC, 153, 173, "travoprost / timolol", "", 
+6, Timolol, 166, 173, "timolol", "", "<http://ctro/data#Medication_93027> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+60, NormalTensionGlaucoma, 196, 199, "NTG", "", 
+106344, Randomized, 213, 223, "randomized", "", 
+106340, Multicenter, 226, 237, "multicenter", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+106341, Crossover, 240, 249, "crossover", "", 
+11, Author, 267, 274, "Shoji T", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Shoji T\"."
+12, Author, 283, 289, "Sato H", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Sato H\"."
+13, Author, 292, 302, "Mizukawa A", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Mizukawa A\"."
+14, Author, 305, 313, "Hirota N", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Hirota N\"."
+15, Author, 316, 323, "Enoki T", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Enoki T\"."
+16, Author, 326, 334, "Kojima T", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Kojima T\"."
+17, Author, 337, 344, "Kanda T", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Kanda T\"."
+18, Author, 347, 357, "Takeuchi M", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasAuthor> \"Takeuchi M\"."
+53, Japan, 464, 469, "Japan", "", "<http://ctro/data#Population_93007> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+19, ObjectiveDescription, 482, 668, "To compare the ocular hypotensive effect of travoprost plus timolol ( TTFC ) and latanoprost plus timolol fixed combinations ( LTFC ) in patients with normal - tension glaucoma ( NTG ) .", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasObjectiveDescription> \"To compare the ocular hypotensive effect of travoprost plus timolol ( TTFC ) and latanoprost plus timolol fixed combinations ( LTFC ) in patients with normal - tension glaucoma ( NTG ) .\"."
+76, Travoprost, 526, 536, "travoprost", "", "<http://ctro/data#Medication_93020> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+78, Trav/TimFC, 526, 549, "travoprost plus timolol", "", 
+6, Timolol, 542, 549, "timolol", "", "<http://ctro/data#Medication_93027> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+75, Trav/TimFC, 552, 556, "TTFC", "", 
+3, Latanoprost, 563, 574, "latanoprost", "", "<http://ctro/data#Latanoprost_93035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_93034> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_93035>."
+81, Lat/TimFC, 563, 587, "latanoprost plus timolol", "", 
+4, Timolol, 580, 587, "timolol", "", 
+82, Lat/TimFC, 609, 613, "LTFC", "", 
+83, NormalTensionGlaucoma, 633, 658, "normal - tension glaucoma", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#analysesHealthCondition> <http://ctro/data#NormalTensionGlaucoma>."
+84, NormalTensionGlaucoma, 661, 664, "NTG", "", 
+22, CTDesign, 681, 695, "two - sequence", "", "<http://ctro/data#CTDesign_94221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_94221>."
+94196, Duration, 696, 705, "12 - week", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTduration> \"12 - week\"."
+106339, Multicenter, 708, 719, "multicenter", "", 
+87, Prospective, 722, 733, "prospective", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+106345, Randomized, 736, 746, "randomized", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+24, Blind, 749, 765, "single - blinded", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+106342, Crossover, 768, 777, "crossover", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+25, NumberPatientsCT, 802, 804, "59", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasNumberPatientsCT> \"59\"."
+92, NormalTensionGlaucoma, 805, 808, "NTG", "", 
+97, Precondition, 918, 999, "After a 12 - week run - in period with dorzolamide plus timolol fixed combination", "", "<http://ctro/data#Population_93007> <http://ctro/data#hasPrecondition> \"After a 12 - week run - in period with dorzolamide plus timolol fixed combination\"."
+94201, TimePoint, 926, 935, "12 - week", "", 
+27, Dorzolamide, 957, 968, "dorzolamide", "", 
+95, Dorz/TimFC, 957, 999, "dorzolamide plus timolol fixed combination", "", 
+28, Timolol, 974, 981, "timolol", "", 
+96, Dorz/TimFC, 1002, 1006, "DTFC", "", 
+106346, Randomized, 1025, 1035, "randomized", "", 
+106343, Crossover, 1056, 1065, "crossover", "", 
+94198, Duration, 1093, 1101, "12 weeks", "", 
+100, Trav/TimFC, 1107, 1111, "TTFC", "", 
+101, Lat/TimFC, 1115, 1119, "LTFC", "", 
+94199, Duration, 1198, 1206, "12 weeks", "", 
+30, IOP, 1247, 1250, "IOP", "", 
+94200, TimePoint, 1257, 1265, "12 weeks", "", 
+31, IOP, 1322, 1325, "IOP", "", 
+32, Mean, 1382, 1386, "mean", "", "<http://ctro/data#Mean_93017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_93015> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_93017>."
+33, IOP, 1396, 1399, "IOP", "", "<http://ctro/data#IOP_93016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_93015> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_93016>."
+34, BaseLineValue, 1404, 1410, "14 . 8", "", 
+108, SdDevBL, 1413, 1418, "3 . 3", "", 
+36, mmHg, 1419, 1424, "mm Hg", "", "<http://ctro/data#Endpoint_93015> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+37, ConfIntervalBL, 1427, 1482, "95 % confidence interval [ CI ] , 14 . 1 - 15 . 3 mm Hg", "", 
+38, mmHg, 1477, 1482, "mm Hg", "", 
+112, Dorz/TimFC, 1504, 1508, "DTFC", "", 
+113, Trav/TimFC, 1515, 1519, "TTFC", "", 
+39, Mean, 1563, 1567, "mean", "", 
+40, IOP, 1568, 1571, "IOP", "", 
+116, Lat/TimFC, 1586, 1590, "LTFC", "", 
+41, Mean, 1641, 1645, "Mean", "", 
+42, IOP, 1659, 1662, "IOP", "", 
+123, TimePoint, 1666, 1674, "12 weeks", "", 
+124, Trav/TimFC, 1708, 1712, "TTFC", "", 
+125, Lat/TimFC, 1731, 1735, "LTFC", "", 
+43, Reduction, 1746, 1751, "2 . 4", "", "<http://ctro/data#Outcome_93071> <http://ctro/data#hasChangeValue> \"2 . 4\"."
+128, SdDevChangeValue, 1754, 1759, "2 . 3", "", "<http://ctro/data#Outcome_93071> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+45, mmHg, 1760, 1765, "mm Hg", "", 
+46, Reduction, 1773, 1778, "1 . 1", "", "<http://ctro/data#Outcome_93098> <http://ctro/data#hasChangeValue> \"1 . 1\"."
+129, SdDevChangeValue, 1781, 1786, "2 . 3", "", "<http://ctro/data#Outcome_93098> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+48, mmHg, 1787, 1792, "mm Hg", "", 
+132, PvalueDiff, 1799, 1806, "0 . 021", "", "<http://ctro/data#DiffBetweenGroups_93125> <http://ctro/data#hasPvalueDiff> \"0 . 021\"."
+50, ConclusionComment, 2049, 2166, "The additional reduction in IOP was greater with TTFC than with LTFC , and their tolerability profiles were similar .", "", "<http://ctro/data#ClinicalTrial_92985> <http://ctro/data#hasConclusionComment> \"The additional reduction in IOP was greater with TTFC than with LTFC , and their tolerability profiles were similar .\"."
+52, IOP, 2077, 2080, "IOP", "", 
+119912, Trav/TimFC, 2098, 2102, "TTFC", "", 
+119, Lat/TimFC, 2113, 2117, "LTFC", "", 
+51, PMID, 2282, 2290, "23950156", "", "<http://ctro/data#Publication_92971> <http://ctro/data#hasPMID> \"23950156\"."

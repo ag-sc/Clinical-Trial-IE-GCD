@@ -1,0 +1,7 @@
+scripts-generative/generative-dm2.sh 'allenai/led-base-16384' &> tee train-led-dm2-gen.txt
+
+scripts-generative/generative-dm2.sh 'google/flan-t5-base' &> train-t5-dm2-gen.txt
+
+scripts-generative/generative-gl.sh 'allenai/led-base-16384' &> train-led-gl-gen.txt
+
+scripts-generative/generative-gl.sh 'google/flan-t5-base' &> train-t5-gl-gen.txt

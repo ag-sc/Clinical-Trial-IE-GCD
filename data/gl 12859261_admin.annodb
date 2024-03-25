@@ -1,0 +1,112 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Acta Ophthalmol Scand", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasJournal> \"Acta Ophthalmol Scand\"."
+1, PublicationYear, 24, 28, "2003", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasPublicationYear> \"2003\"."
+38478, Dorz/TimFC, 57, 90, "Timolol 0 . 5 % / dorzolamide 2 %", "", 
+79, Timolol, 57, 64, "Timolol", "", 
+113, Title, 57, 234, "Timolol 0 . 5 % / dorzolamide 2 % fixed combination versus timolol 0 . 5 % / pilocarpine 2 % fixed combination in primary open - angle glaucoma or ocular hypertensive patients .", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasTitle> \"Timolol 0 . 5 % / dorzolamide 2 % fixed combination versus timolol 0 . 5 % / pilocarpine 2 % fixed combination in primary open - angle glaucoma or ocular hypertensive patients .\"."
+2, DoseValue, 65, 70, "0 . 5", "", 
+3, Percentage, 71, 72, "%", "", 
+80, Dorzolamide, 75, 86, "dorzolamide", "", 
+4, DoseValue, 87, 88, "2", "", 
+5, Percentage, 89, 90, "%", "", 
+81, Timolol, 116, 123, "timolol", "", 
+38510, Pilo/TimFC, 116, 149, "timolol 0 . 5 % / pilocarpine 2 %", "", 
+6, DoseValue, 124, 129, "0 . 5", "", 
+7, Percentage, 130, 131, "%", "", 
+82, Pilocarpine, 134, 145, "pilocarpine", "", 
+8, DoseValue, 146, 147, "2", "", 
+9, Percentage, 148, 149, "%", "", 
+83, Primary_OpenAngleGlaucoma, 171, 200, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+54378, Precondition, 171, 232, "primary open - angle glaucoma or ocular hypertensive patients", "", "<http://ctro/data#Population_98192> <http://ctro/data#hasPrecondition> \"primary open - angle glaucoma or ocular hypertensive patients\"."
+10, OcularHypertension, 204, 223, "ocular hypertensive", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+11, Author, 235, 247, "Ka ł uzny JJ", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Ka ł uzny JJ\"."
+12, Author, 256, 265, "Szaflik J", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Szaflik J\"."
+13, Author, 268, 290, "Czechowicz - Janicka K", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Czechowicz - Janicka K\"."
+14, Author, 293, 304, "Ka ł uzny J", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Ka ł uzny J\"."
+15, Author, 307, 321, "Orzalkiewicz A", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Orzalkiewicz A\"."
+16, Author, 324, 333, "Zaleska A", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Zaleska A\"."
+17, Author, 336, 347, "Krajewska M", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Krajewska M\"."
+18, Author, 350, 360, "Stewart JA", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+19, Author, 363, 371, "Leech JN", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Leech JN\"."
+20, Author, 374, 384, "Stewart WC", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+21, Poland, 447, 453, "Poland", "", "<http://ctro/data#Population_98192> <http://ctro/data#hasCountry> <http://ctro/data#Poland>."
+22, ObjectiveDescription, 466, 720, "To establish the efficacy and safety of timolol maleate / dorzolamide fixed combination ( TDFC ) versus timolol maleate / pilocarpine fixed combination ( TPFC ) , each given twice daily , in primary open - angle glaucoma or ocular hypertensive patients .", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasObjectiveDescription> \"To establish the efficacy and safety of timolol maleate / dorzolamide fixed combination ( TDFC ) versus timolol maleate / pilocarpine fixed combination ( TPFC ) , each given twice daily , in primary open - angle glaucoma or ocular hypertensive patients .\"."
+38479, Dorz/TimFC, 506, 535, "timolol maleate / dorzolamide", "", "<http://ctro/data#Medication_98201> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+84, Timolol, 506, 521, "timolol maleate", "", 
+85, Dorzolamide, 524, 535, "dorzolamide", "", 
+38480, Dorz/TimFC, 556, 560, "TDFC", "", 
+86, Timolol, 570, 585, "timolol maleate", "", 
+38511, Pilo/TimFC, 570, 599, "timolol maleate / pilocarpine", "", "<http://ctro/data#Medication_98217> <http://ctro/data#hasDrug> <http://ctro/data#Pilo/TimFC>."
+87, Pilocarpine, 588, 599, "pilocarpine", "", 
+38512, Pilo/TimFC, 620, 624, "TPFC", "", 
+23, Frequency, 640, 651, "twice daily", "", "<http://ctro/data#Intervention_19438> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_98224> <http://ctro/data#hasFrequency> \"twice daily\"."
+88, Primary_OpenAngleGlaucoma, 657, 686, "primary open - angle glaucoma", "", 
+10, OcularHypertension, 690, 709, "ocular hypertensive", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+77573, Prospective, 739, 750, "prospective", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+25, Multicenter, 753, 765, "multicentred", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+26, DoubleBlind, 768, 783, "double - masked", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+27, NumberPatientsCT, 792, 794, "37", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasNumberPatientsCT> \"37\"."
+77572, Precondition, 795, 853, "patients were treated twice daily with timolol for 4 weeks", "", "<http://ctro/data#Population_98192> <http://ctro/data#hasPrecondition> \"patients were treated twice daily with timolol for 4 weeks\"."
+29, Frequency, 817, 828, "twice daily", "", 
+89, Timolol, 834, 841, "timolol", "", 
+28, Duration, 846, 853, "4 weeks", "", 
+33959, Randomized, 871, 881, "randomized", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+30, Duration, 922, 929, "6 weeks", "", "<http://ctro/data#Intervention_19438> <http://ctro/data#hasDuration> \"6 weeks\". <http://ctro/data#Intervention_98224> <http://ctro/data#hasDuration> \"6 weeks\"."
+90, Timolol, 967, 974, "timolol", "", 
+31, Duration, 985, 992, "2 weeks", "", 
+91, Duration, 1054, 1061, "6 weeks", "", 
+61, FinalNumPatientsCT, 1085, 1087, "36", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasFinalNumberPatientsCT> \"36\"."
+33, Mean, 1125, 1129, "mean", "", "<http://ctro/data#Mean_98241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_98239> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_98241>."
+92, IOP, 1139, 1159, "intraocular pressure", "", "<http://ctro/data#IOP_98240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_98239> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_98240>."
+93, IOP, 1162, 1165, "IOP", "", 
+34, BaseLineValue, 1172, 1178, "22 . 3", "", "<http://ctro/data#Outcome_98244> <http://ctro/data#hasBaselineValue> \"22 . 3\". <http://ctro/data#Outcome_98271> <http://ctro/data#hasBaselineValue> \"22 . 3\"."
+35, SdErrorBL, 1185, 1190, "3 . 7", "", "<http://ctro/data#Outcome_98244> <http://ctro/data#hasSdErrorBL> \"3 . 7\". <http://ctro/data#Outcome_98271> <http://ctro/data#hasSdErrorBL> \"3 . 7\"."
+36, mmHg, 1191, 1195, "mmHg", "", "<http://ctro/data#Endpoint_98239> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+94, Duration, 1208, 1215, "6 weeks", "", 
+37, Mean, 1235, 1239, "mean", "", "<http://ctro/data#Mean_98300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_98298> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_98300>."
+38, Trough_IOP, 1240, 1268, "trough ( 08 . 00 hours ) IOP", "", "<http://ctro/data#Endpoint_98298> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Trough_IOP>."
+77578, TimePoint, 1249, 1262, "08 . 00 hours", "", 
+39, ResultMeasuredValue, 1273, 1279, "18 . 0", "", "<http://ctro/data#Outcome_98303> <http://ctro/data#hasResultMeasuredValue> \"18 . 0\"."
+40, SdErrorResValue, 1286, 1291, "2 . 2", "", "<http://ctro/data#Outcome_98303> <http://ctro/data#hasSdErrorResValue> \"2 . 2\"."
+41, mmHg, 1292, 1296, "mmHg", "", "<http://ctro/data#Endpoint_98298> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38481, Dorz/TimFC, 1301, 1305, "TDFC", "", 
+42, ResultMeasuredValue, 1310, 1316, "17 . 4", "", "<http://ctro/data#Outcome_98330> <http://ctro/data#hasResultMeasuredValue> \"17 . 4\"."
+43, SdErrorResValue, 1323, 1328, "2 . 0", "", "<http://ctro/data#Outcome_98330> <http://ctro/data#hasSdErrorResValue> \"2 . 0\"."
+44, mmHg, 1329, 1333, "mmHg", "", 
+38513, Pilo/TimFC, 1338, 1342, "TPFC", "", 
+77574, PvalueDiff, 1345, 1355, "p = 0 . 22", "", "<http://ctro/data#DiffBetweenGroups_98357> <http://ctro/data#hasPvalueDiff> \"p = 0 . 22\"."
+46, Mean, 1364, 1368, "mean", "", "<http://ctro/data#Mean_98368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_98366> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_98368>."
+47, Diurnal_IOP, 1369, 1386, "diurnal curve IOP", "", "<http://ctro/data#Endpoint_98366> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+48, ResultMeasuredValue, 1391, 1397, "18 . 1", "", "<http://ctro/data#Outcome_98371> <http://ctro/data#hasResultMeasuredValue> \"18 . 1\"."
+50, SdErrorResValue, 1404, 1409, "2 . 2", "", "<http://ctro/data#Outcome_98371> <http://ctro/data#hasSdErrorResValue> \"2 . 2\"."
+52, mmHg, 1410, 1414, "mmHg", "", "<http://ctro/data#Endpoint_98366> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38482, Dorz/TimFC, 1419, 1423, "TDFC", "", 
+49, ResultMeasuredValue, 1428, 1434, "16 . 7", "", "<http://ctro/data#Outcome_98398> <http://ctro/data#hasResultMeasuredValue> \"16 . 7\"."
+51, SdErrorResValue, 1441, 1446, "1 . 9", "", "<http://ctro/data#Outcome_98398> <http://ctro/data#hasSdErrorResValue> \"1 . 9\"."
+53, mmHg, 1447, 1451, "mmHg", "", "<http://ctro/data#Endpoint_98366> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38514, Pilo/TimFC, 1456, 1460, "TPFC", "", 
+77575, PvalueDiff, 1463, 1475, "p = 0 . 0007", "", "<http://ctro/data#DiffBetweenGroups_98425> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0007\"."
+77576, TimePoint, 1497, 1550, "time - points ( 10 . 00 , 18 . 00 and 20 . 00 hours )", "", 
+38515, Pilo/TimFC, 1553, 1557, "TPFC", "", 
+76, IOP, 1558, 1562, "IOPs", "", 
+38483, Dorz/TimFC, 1593, 1597, "TDFC", "", 
+77, IOP, 1598, 1602, "IOPs", "", 
+78, PvalueDiff, 1605, 1615, "p < 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_98434> <http://ctro/data#hasPvalueDiff> \"p < 0 . 03\"."
+75, ObservedResult, 1620, 1738, "There were statistically more unsolicited reports of vision change and ocular pain associated with TPFC ( p = 0 . 04 )", "", "<http://ctro/data#Outcome_98453> <http://ctro/data#hasObservedResult> \"There were statistically more unsolicited reports of vision change and ocular pain associated with TPFC ( p = 0 . 04 )\". <http://ctro/data#Outcome_98480> <http://ctro/data#hasObservedResult> \"There were statistically more unsolicited reports of vision change and ocular pain associated with TPFC ( p = 0 . 04 )\". <http://ctro/data#Outcome_98507> <http://ctro/data#hasObservedResult> \"There were statistically more unsolicited reports of vision change and ocular pain associated with TPFC ( p = 0 . 04 )\". <http://ctro/data#Outcome_98534> <http://ctro/data#hasObservedResult> \"There were statistically more unsolicited reports of vision change and ocular pain associated with TPFC ( p = 0 . 04 )\"."
+33958, EndPointDescription, 1673, 1686, "vision change", "AdverseEffect", "<http://ctro/data#EndPointDescription_98444> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98443> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98444>."
+33956, EndPointDescription, 1691, 1702, "ocular pain", "AdverseEffect", "<http://ctro/data#EndPointDescription_98449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98448> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98449>."
+38516, Pilo/TimFC, 1719, 1723, "TPFC", "", 
+33960, PvalueDiff, 1726, 1736, "p = 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_98561> <http://ctro/data#hasPvalueDiff> \"p = 0 . 04\". <http://ctro/data#DiffBetweenGroups_98570> <http://ctro/data#hasPvalueDiff> \"p = 0 . 04\"."
+55, NumPatientsLeftArm, 1741, 1744, "Six", "", "<http://ctro/data#Arm_98230> <http://ctro/data#hasNumPatientsLeftArm> \"Six\"."
+38517, Pilo/TimFC, 1783, 1787, "TPFC", "", 
+33962, RelNumPatientsLeftArm, 1798, 1800, "17", "", "<http://ctro/data#Arm_98230> <http://ctro/data#hasRelNumPatientsLeftArm> \"17\"."
+56, NumPatientsLeftArm, 1812, 1815, "two", "", "<http://ctro/data#Arm_98208> <http://ctro/data#hasNumPatientsLeftArm> \"two\"."
+38484, Dorz/TimFC, 1821, 1825, "TDFC", "", 
+33963, RelNumPatientsLeftArm, 1828, 1829, "6", "", "<http://ctro/data#Arm_98208> <http://ctro/data#hasRelNumPatientsLeftArm> \"6\"."
+57, ConclusionComment, 1865, 2034, "This study suggests that TPFC can provide at least a similar efficacious reduction in IOP as TDFC in patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_98172> <http://ctro/data#hasConclusionComment> \"This study suggests that TPFC can provide at least a similar efficacious reduction in IOP as TDFC in patients with primary open - angle glaucoma or ocular hypertension .\"."
+38518, Pilo/TimFC, 1890, 1894, "TPFC", "", 
+58, IOP, 1951, 1954, "IOP", "", 
+38485, Dorz/TimFC, 1958, 1962, "TDFC", "", 
+96, Primary_OpenAngleGlaucoma, 1980, 2009, "primary open - angle glaucoma", "", 
+59, OcularHypertension, 2013, 2032, "ocular hypertension", "", 
+60, PMID, 2042, 2050, "12859261", "", "<http://ctro/data#Publication_98156> <http://ctro/data#hasPMID> \"12859261\"."

@@ -1,0 +1,132 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "Adv Ther .", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasJournal> \"Adv Ther .\"."
+1, PublicationYear, 11, 15, "2014", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasPublicationYear> \"2014\"."
+2, Title, 108, 266, "24 - hour efficacy of travoprost / timolol BAK - free versus latanoprost / timolol fixed combinations in patients insufficiently controlled with latanoprost .", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasTitle> \"24 - hour efficacy of travoprost / timolol BAK - free versus latanoprost / timolol fixed combinations in patients insufficiently controlled with latanoprost .\"."
+104340, FixedCombDrug, 130, 161, "travoprost / timolol BAK - free", "", 
+15, Travoprost, 130, 140, "travoprost", "", 
+16, Timolol, 143, 161, "timolol BAK - free", "", 
+18, Latanoprost, 169, 180, "latanoprost", "", 
+20, Lat/TimFC, 169, 209, "latanoprost / timolol fixed combinations", "", 
+17, Timolol, 183, 190, "timolol", "", 
+22, Precondition, 213, 264, "patients insufficiently controlled with latanoprost", "", 
+21, Latanoprost, 253, 264, "latanoprost", "", 
+3, Author, 267, 277, "Konstas AG", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+4, Author, 286, 302, "Voudouragkaki IC", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Voudouragkaki IC\"."
+5, Author, 305, 317, "Boboridis KG", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Boboridis KG\"."
+6, Author, 320, 330, "Haidich AB", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Haidich AB\"."
+7, Author, 333, 346, "Paschalinou E", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Paschalinou E\"."
+8, Author, 349, 363, "Giannopoulos T", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Giannopoulos T\"."
+9, Author, 366, 378, "Dragoumis ND", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Dragoumis ND\"."
+10, Author, 381, 392, "Makridis AK", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Makridis AK\"."
+11, Author, 395, 404, "Kahook MY", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasAuthor> \"Kahook MY\"."
+12, Greece, 563, 569, "Greece", "", "<http://ctro/data#Population_93704> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+154, ObjectiveDescription, 615, 867, "To compare the 24 - h intraocular pressure ( IOP ) control and tolerability of travoprost / timolol benzalkonium chloride ( BAK ) - free ( TTFC ) vs . latanoprost / timolol fixed combination preserved with BAK ( LTFC ) in open - angle glaucoma patients", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasObjectiveDescription> \"To compare the 24 - h intraocular pressure ( IOP ) control and tolerability of travoprost / timolol benzalkonium chloride ( BAK ) - free ( TTFC ) vs . latanoprost / timolol fixed combination preserved with BAK ( LTFC ) in open - angle glaucoma patients\"."
+23, IOP, 630, 657, "24 - h intraocular pressure", "", "<http://ctro/data#IOP_93713> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_93712> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_93713>."
+24, IOP, 660, 663, "IOP", "", 
+104343, FixedCombDrug, 694, 751, "travoprost / timolol benzalkonium chloride ( BAK ) - free", "", 
+25, Travoprost, 694, 704, "travoprost", "", "<http://ctro/data#Medication_93717> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+26, Timolol, 707, 751, "timolol benzalkonium chloride ( BAK ) - free", "", "<http://ctro/data#Medication_93724> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+104352, FixedCombDrug, 754, 758, "TTFC", "", 
+29, Latanoprost, 766, 777, "latanoprost", "", "<http://ctro/data#Latanoprost_93732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_93731> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_93732>."
+31, Lat/TimFC, 766, 824, "latanoprost / timolol fixed combination preserved with BAK", "", 
+30, Timolol, 780, 787, "timolol", "", 
+32, Lat/TimFC, 827, 831, "LTFC", "", 
+33, OpenAngleGlaucoma, 837, 858, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+34, Precondition, 859, 932, "patients insufficiently controlled with latanoprost 0 . 005 % monotherapy", "", "<http://ctro/data#Population_93704> <http://ctro/data#hasPrecondition> \"patients insufficiently controlled with latanoprost 0 . 005 % monotherapy\"."
+155, ObjectiveDescription, 868, 960, "insufficiently controlled with latanoprost 0 . 005 % monotherapy given once in the evening .", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasObjectiveDescription> \"insufficiently controlled with latanoprost 0 . 005 % monotherapy given once in the evening .\"."
+35, Latanoprost, 899, 910, "latanoprost", "", 
+36, DoseValue, 911, 918, "0 . 005", "", 
+151, Percentage, 919, 920, "%", "", 
+153, Frequency, 939, 958, "once in the evening", "", 
+38, Evening, 951, 958, "evening", "", 
+39, Prospective, 1000, 1011, "prospective", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+40, Blind, 1014, 1031, "observer - masked", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+41, CTDesign, 1034, 1053, "active - controlled", "", "<http://ctro/data#CTDesign_93700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_93700>."
+42, Crossover, 1056, 1068, "cross - over", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+43, OpenAngleGlaucoma, 1100, 1121, "open - angle glaucoma", "", 
+44, Latanoprost, 1150, 1161, "latanoprost", "", 
+162, Morning, 1172, 1179, "morning", "", 
+45, IOP, 1180, 1183, "IOP", "", 
+164, TimePoint, 1186, 1199, "10 : 00 ± 1 h", "", 
+46, mmHg, 1218, 1222, "mmHg", "", 
+48, Randomized, 1251, 1261, "randomized", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+49, Duration, 1266, 1274, "3 months", "", 
+104344, FixedCombDrug, 1293, 1297, "TTFC", "", 
+51, Lat/TimFC, 1301, 1305, "LTFC", "", 
+52, Crossover, 1327, 1339, "crossed over", "", 
+53, Duration, 1378, 1386, "3 months", "", 
+54, Latanoprost, 1407, 1418, "latanoprost", "", 
+55, TimePoint, 1443, 1452, "3 - month", "", 
+56, IOP, 1487, 1497, "24 - h IOP", "", 
+57, MeasurementDevice, 1540, 1570, "Goldmann applanation tonometry", "", "<http://ctro/data#MeasurementDevice_93716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_93712> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_93716>."
+104346, RelativeTime, 1595, 1609, "during the day", "", 
+175, TimePoint, 1612, 1619, "10 : 00", "", 
+176, TimePoint, 1622, 1629, "14 : 00", "", 
+177, TimePoint, 1632, 1639, "18 : 00", "", 
+178, TimePoint, 1644, 1651, "22 : 00", "", 
+58, MeasurementDevice, 1658, 1675, "Perkins tonometry", "", "<http://ctro/data#MeasurementDevice_93770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_93712> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_93770>."
+104345, RelativeTime, 1699, 1707, "at night", "", 
+179, TimePoint, 1710, 1717, "02 : 00", "", 
+180, TimePoint, 1722, 1729, "06 : 00", "", 
+59, FinalNumPatientsCT, 1822, 1833, "Forty - two", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasFinalNumberPatientsCT> \"Forty - two\"."
+60, OpenAngleGlaucoma, 1834, 1855, "open - angle glaucoma", "", 
+61, Mean, 1891, 1895, "mean", "", 
+69, IOP, 1912, 1915, "IOP", "", 
+62, Latanoprost, 1919, 1930, "latanoprost", "", 
+63, BaseLineValue, 1935, 1941, "21 . 5", "", "<http://ctro/data#Outcome_93772> <http://ctro/data#hasBaselineValue> \"21 . 5\". <http://ctro/data#Outcome_93799> <http://ctro/data#hasBaselineValue> \"21 . 5\"."
+186, SdDevBL, 1944, 1949, "1 . 6", "", "<http://ctro/data#Outcome_93772> <http://ctro/data#hasSdDevBL> \"1 . 6\". <http://ctro/data#Outcome_93799> <http://ctro/data#hasSdDevBL> \"1 . 6\"."
+65, mmHg, 1950, 1954, "mmHg", "", "<http://ctro/data#Endpoint_93712> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+66, IOP, 2007, 2010, "IOP", "", 
+67, Mean, 2040, 2044, "mean", "", "<http://ctro/data#Mean_93714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_93712> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_93714>."
+190, Peak_IOP, 2047, 2051, "peak", "", 
+68, IOP, 2071, 2081, "24 - h IOP", "", 
+70, Latanoprost, 2096, 2107, "latanoprost", "", 
+104347, PvalueDiff, 2122, 2132, "P < 0 . 01", "", 
+104348, FixedCombDrug, 2194, 2198, "TTFC", "", 
+73, Mean, 2228, 2232, "mean", "", 
+74, IOP, 2233, 2243, "24 - h IOP", "", 
+75, ResultMeasuredValue, 2246, 2252, "18 . 9", "", "<http://ctro/data#Outcome_93772> <http://ctro/data#hasResultMeasuredValue> \"18 . 9\"."
+208, SdDevResValue, 2255, 2260, "2 . 2", "", "<http://ctro/data#Outcome_93772> <http://ctro/data#hasSdDevResValue> \"2 . 2\"."
+80, mmHg, 2261, 2265, "mmHg", "", 
+79, Lat/TimFC, 2273, 2277, "LTFC", "", 
+76, ResultMeasuredValue, 2280, 2286, "19 . 3", "", "<http://ctro/data#Outcome_93799> <http://ctro/data#hasResultMeasuredValue> \"19 . 3\"."
+209, SdDevResValue, 2289, 2294, "2 . 3", "", "<http://ctro/data#Outcome_93799> <http://ctro/data#hasSdDevResValue> \"2 . 3\"."
+81, mmHg, 2295, 2299, "mmHg", "", 
+212, PvalueDiff, 2304, 2315, "P = 0 . 004", "", "<http://ctro/data#DiffBetweenGroups_93826> <http://ctro/data#hasPvalueDiff> \"P = 0 . 004\"."
+83, IOP, 2342, 2345, "IOP", "", 
+213, TimePoint, 2349, 2356, "18 : 00", "", "<http://ctro/data#Outcome_93840> <http://ctro/data#hasTimePoint> \"18 : 00\". <http://ctro/data#Outcome_93867> <http://ctro/data#hasTimePoint> \"18 : 00\"."
+84, ResultMeasuredValue, 2359, 2365, "18 . 6", "", "<http://ctro/data#Outcome_93840> <http://ctro/data#hasResultMeasuredValue> \"18 . 6\"."
+210, SdDevResValue, 2368, 2373, "2 . 5", "", "<http://ctro/data#Outcome_93840> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+85, ResultMeasuredValue, 2379, 2385, "19 . 5", "", "<http://ctro/data#Outcome_93867> <http://ctro/data#hasResultMeasuredValue> \"19 . 5\"."
+211, SdDevResValue, 2388, 2393, "2 . 7", "", "<http://ctro/data#Outcome_93867> <http://ctro/data#hasSdDevResValue> \"2 . 7\"."
+88, mmHg, 2394, 2398, "mmHg", "", 
+89, Lat/TimFC, 2403, 2407, "LTFC", "", 
+202, PvalueDiff, 2412, 2423, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_93894> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+104349, FixedCombDrug, 2438, 2442, "TTFC", "", 
+92, EndPointDescription, 2477, 2502, "tear film break - up time", "", "<http://ctro/data#EndPointDescription_93904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_93903> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_93904>."
+93, ResultMeasuredValue, 2505, 2511, "5 . 15", "", "<http://ctro/data#Outcome_93908> <http://ctro/data#hasResultMeasuredValue> \"5 . 15\"."
+94, ResultMeasuredValue, 2517, 2523, "4 . 65", "", "<http://ctro/data#Outcome_93935> <http://ctro/data#hasResultMeasuredValue> \"4 . 65\"."
+95, Second, 2524, 2525, "s", "", "<http://ctro/data#Endpoint_93903> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Second>."
+96, EndPointDescription, 2530, 2543, "corneal stain", "", "<http://ctro/data#EndPointDescription_93963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_93962> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_93963>."
+97, ResultMeasuredValue, 2546, 2551, "1 . 5", "", "<http://ctro/data#Outcome_93967> <http://ctro/data#hasResultMeasuredValue> \"1 . 5\"."
+98, ResultMeasuredValue, 2557, 2562, "1 . 8", "", "<http://ctro/data#Outcome_93994> <http://ctro/data#hasResultMeasuredValue> \"1 . 8\"."
+101, EndPointDescription, 2569, 2584, "Schirmer I test", "", "<http://ctro/data#EndPointDescription_94022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_94021> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94022>."
+99, ResultMeasuredValue, 2587, 2592, "9 . 9", "", "<http://ctro/data#Outcome_94026> <http://ctro/data#hasResultMeasuredValue> \"9 . 9\"."
+100, ResultMeasuredValue, 2598, 2603, "9 . 2", "", "<http://ctro/data#Outcome_94053> <http://ctro/data#hasResultMeasuredValue> \"9 . 2\"."
+102, BioAndMedicalUnit, 2604, 2606, "mm", "", "<http://ctro/data#BioAndMedicalUnit_94024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_94021> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_94024>."
+103, Lat/TimFC, 2623, 2627, "LTFC", "", 
+223, TimePoint, 2628, 2642, "after 3 months", "", "<http://ctro/data#Outcome_93908> <http://ctro/data#hasTimePoint> \"after 3 months\". <http://ctro/data#Outcome_93935> <http://ctro/data#hasTimePoint> \"after 3 months\". <http://ctro/data#Outcome_93967> <http://ctro/data#hasTimePoint> \"after 3 months\". <http://ctro/data#Outcome_93994> <http://ctro/data#hasTimePoint> \"after 3 months\". <http://ctro/data#Outcome_94026> <http://ctro/data#hasTimePoint> \"after 3 months\". <http://ctro/data#Outcome_94053> <http://ctro/data#hasTimePoint> \"after 3 months\"."
+104, Duration, 2634, 2642, "3 months", "", 
+105, PvalueDiff, 2656, 2666, "P < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_94080> <http://ctro/data#hasPvalueDiff> \"P < 0 . 01\". <http://ctro/data#DiffBetweenGroups_94089> <http://ctro/data#hasPvalueDiff> \"P < 0 . 01\". <http://ctro/data#DiffBetweenGroups_94098> <http://ctro/data#hasPvalueDiff> \"P < 0 . 01\"."
+112, ConclusionComment, 2704, 2861, "The mean 24 - h IOP lowering of TTFC was statistically more significant compared to LTFC in patients insufficiently controlled with latanoprost monotherapy .", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasConclusionComment> \"The mean 24 - h IOP lowering of TTFC was statistically more significant compared to LTFC in patients insufficiently controlled with latanoprost monotherapy .\"."
+106, Mean, 2708, 2712, "mean", "", 
+107, IOP, 2713, 2723, "24 - h IOP", "", 
+104350, FixedCombDrug, 2736, 2740, "TTFC", "", 
+109, Lat/TimFC, 2788, 2792, "LTFC", "", 
+110, Latanoprost, 2836, 2847, "latanoprost", "", 
+113, ConclusionComment, 2862, 2966, "Measurement of ocular surface health and tear film status favored the BAK - free TTFC compared to LTFC .", "", "<http://ctro/data#ClinicalTrial_93682> <http://ctro/data#hasConclusionComment> \"Measurement of ocular surface health and tear film status favored the BAK - free TTFC compared to LTFC .\"."
+114, EndPointDescription, 2877, 2898, "ocular surface health", "", 
+115, EndPointDescription, 2903, 2919, "tear film status", "", 
+104351, FixedCombDrug, 2932, 2947, "BAK - free TTFC", "", 
+117, Lat/TimFC, 2960, 2964, "LTFC", "", 
+118, PMID, 3016, 3024, "24919410", "", "<http://ctro/data#Publication_93667> <http://ctro/data#hasPMID> \"24919410\"."

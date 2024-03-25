@@ -1,0 +1,95 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2008", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasPublicationYear> \"2008\"."
+98, Title, 66, 282, "Advancing insulin therapy in type 2 diabetes previously treated with glargine plus oral agents : prandial premixed ( insulin lispro protamine suspension / lispro ) versus basal / bolus ( glargine / lispro ) therapy .", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasTitle> \"Advancing insulin therapy in type 2 diabetes previously treated with glargine plus oral agents : prandial premixed ( insulin lispro protamine suspension / lispro ) versus basal / bolus ( glargine / lispro ) therapy .\"."
+2, Insulin, 76, 83, "insulin", "", 
+3, Type2Diabetes, 95, 110, "type 2 diabetes", "", 
+4, InsulinGlargine, 135, 143, "glargine", "", 
+5, OralAntidiabeticAgent, 149, 160, "oral agents", "", 
+50159, LisproProtamine, 183, 207, "insulin lispro protamine", "", 
+97, Lispro, 221, 227, "lispro", "", 
+6, InsulinGlargine, 253, 261, "glargine", "", 
+96, Lispro, 264, 270, "lispro", "", 
+7, Author, 283, 295, "Rosenstock J", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+8, Author, 304, 313, "Ahmann AJ", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Ahmann AJ\"."
+9, Author, 316, 323, "Colon G", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Colon G\"."
+10, Author, 326, 341, "Scism - Bacon J", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Scism - Bacon J\"."
+11, Author, 344, 351, "Jiang H", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Jiang H\"."
+12, Author, 354, 362, "Martin S", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasAuthor> \"Martin S\"."
+13, USA, 467, 470, "USA", "", "<http://ctro/data#Population_48325> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+27, ObjectiveDescription, 524, 668, "The purpose of this study was to compare two analog insulin therapies ( prandial premixed therapy [ PPT ] versus basal / bolus therapy [ BBT ] )", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasObjectiveDescription> \"The purpose of this study was to compare two analog insulin therapies ( prandial premixed therapy [ PPT ] versus basal / bolus therapy [ BBT ] )\"."
+174, ObjectiveDescription, 669, 843, "in type 2 diabetic patients previously treated with insulin glargine ( > or = 30 units / day ) plus oral agents , with the aim of demonstrating noninferiority of PPT to BBT .", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasObjectiveDescription> \"in type 2 diabetic patients previously treated with insulin glargine ( > or = 30 units / day ) plus oral agents , with the aim of demonstrating noninferiority of PPT to BBT .\"."
+18, Type2Diabetes, 672, 687, "type 2 diabetic", "", 
+20, Precondition, 672, 780, "type 2 diabetic patients previously treated with insulin glargine ( > or = 30 units / day ) plus oral agents", "", "<http://ctro/data#Population_48325> <http://ctro/data#hasPrecondition> \"type 2 diabetic patients previously treated with insulin glargine ( > or = 30 units / day ) plus oral agents\"."
+19, InsulinGlargine, 721, 737, "insulin glargine", "", 
+21, DoseValue, 740, 749, "> or = 30", "", 
+22, BioAndMedicalUnit, 750, 755, "units", "", 
+50160, Interval, 758, 761, "day", "", 
+24, OralAntidiabeticAgent, 769, 780, "oral agents", "", 
+28, Randomized, 888, 896, "randomly", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+51216, Lispro50/50, 915, 933, "lispro mix 50 / 50", "", "<http://ctro/data#Medication_48357> <http://ctro/data#hasDrug> <http://ctro/data#Lispro50/50>."
+51217, LisproProtamine, 941, 965, "insulin lispro protamine", "", 
+114, Lispro, 986, 992, "lispro", "", 
+30, NumberPatientsArm, 999, 1002, "187", "", "<http://ctro/data#Arm_48348> <http://ctro/data#hasNumberPatientsArm> \"187\"."
+31, Frequency, 1005, 1014, "t . i . d", "", "<http://ctro/data#Intervention_48378> <http://ctro/data#hasFrequency> \"t . i . d\"."
+33, InsulinGlargine, 1037, 1045, "glargine", "", "<http://ctro/data#Medication_48400> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+51224, Bedtime, 1049, 1056, "bedtime", "", "<http://ctro/data#Intervention_48393> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+34, RelativeTime, 1062, 1070, "mealtime", "", "<http://ctro/data#RelativeTime_48399> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_48393> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_48399>."
+119, Lispro, 1071, 1077, "lispro", "", "<http://ctro/data#Medication_48407> <http://ctro/data#hasDrug> <http://ctro/data#Lispro>."
+35, NumberPatientsArm, 1084, 1087, "187", "", "<http://ctro/data#Arm_48384> <http://ctro/data#hasNumberPatientsArm> \"187\"."
+36, Duration, 1095, 1104, "24 - week", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasCTduration> \"24 - week\"."
+37, Multicenter, 1107, 1118, "multicenter", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+38, OpenLabel, 1121, 1133, "open - label", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+39, CTDesign, 1136, 1150, "noninferiority", "", "<http://ctro/data#CTDesign_48323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_48323>."
+51214, Lispro50/50, 1187, 1205, "lispro mix 50 / 50", "", 
+51215, Lispro75/25, 1218, 1229, "mix 75 / 25", "", 
+40, Bedtime, 1237, 1249, "evening meal", "", 
+41, FastingPlasmaGlucose_target, 1257, 1286, "fasting plasma glucose target", "", 
+181, TimePoint, 1316, 1324, "Baseline", "", "<http://ctro/data#Outcome_48414> <http://ctro/data#hasTimePoint> \"Baseline\". <http://ctro/data#Outcome_48441> <http://ctro/data#hasTimePoint> \"Baseline\"."
+42, HbA1c, 1325, 1328, "A1C", "", "<http://ctro/data#Endpoint_48333> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+48, BaseLineValue, 1347, 1352, "8 . 8", "", "<http://ctro/data#Outcome_48414> <http://ctro/data#hasBaselineValue> \"8 . 8\". <http://ctro/data#Outcome_48477> <http://ctro/data#hasBaselineValue> \"8 . 8\"."
+47, Percentage, 1353, 1354, "%", "", "<http://ctro/data#Endpoint_48333> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+49, BaseLineValue, 1361, 1366, "8 . 9", "", "<http://ctro/data#Outcome_48441> <http://ctro/data#hasBaselineValue> \"8 . 9\". <http://ctro/data#Outcome_48504> <http://ctro/data#hasBaselineValue> \"8 . 9\"."
+46, Percentage, 1367, 1368, "%", "", 
+45, PvalueDiff, 1371, 1382, "P = 0 . 598", "", "<http://ctro/data#DiffBetweenGroups_48468> <http://ctro/data#hasPvalueDiff> \"P = 0 . 598\"."
+131, TimePoint, 1390, 1397, "week 24", "", "<http://ctro/data#Outcome_48477> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_48504> <http://ctro/data#hasTimePoint> \"week 24\"."
+50, HbA1c, 1400, 1403, "A1C", "", 
+52, ResultMeasuredValue, 1425, 1431, "6 . 78", "", "<http://ctro/data#Outcome_48504> <http://ctro/data#hasResultMeasuredValue> \"6 . 78\"."
+53, ResultMeasuredValue, 1437, 1443, "6 . 95", "", "<http://ctro/data#Outcome_48504> <http://ctro/data#hasResultMeasuredValue> \"6 . 78\"."
+54, Percentage, 1444, 1445, "%", "", 
+55, PvalueDiff, 1448, 1459, "P = 0 . 021", "", "<http://ctro/data#DiffBetweenGroups_48531> <http://ctro/data#hasPvalueDiff> \"P = 0 . 021\"."
+56, HbA1c, 1464, 1467, "A1C", "", 
+57, ObservedResult, 1468, 1526, "was reduced significantly from baseline for both therapies", "", "<http://ctro/data#Outcome_48477> <http://ctro/data#hasObservedResult> \"was reduced significantly from baseline for both therapies\". <http://ctro/data#Outcome_48504> <http://ctro/data#hasObservedResult> \"was reduced significantly from baseline for both therapies\"."
+191, TimePoint, 1499, 1507, "baseline", "", 
+50165, PValueChangeValue, 1529, 1541, "P < 0 . 0001", "", "<http://ctro/data#Outcome_48477> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\". <http://ctro/data#Outcome_48504> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+59, HbA1c, 1564, 1567, "A1C", "", 
+183, TimePoint, 1580, 1588, "baseline", "", 
+184, TimePoint, 1596, 1605, "end point", "", 
+65, DiffGroupAbsValue, 1628, 1636, "- 0 . 22", "", "<http://ctro/data#DiffBetweenGroups_48531> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 22\"."
+66, Percentage, 1637, 1638, "%", "", 
+67, ConfIntervalDiff, 1641, 1669, "90 % CI - 0 . 38 to - 0 . 07", "", "<http://ctro/data#DiffBetweenGroups_48531> <http://ctro/data#hasConfIntervalDiff> \"90 % CI - 0 . 38 to - 0 . 07\"."
+185, ObservedResult, 1674, 1782, "Noninferiority of PPT to BBT was not demonstrated based on the prespecified noninferiority margin of 0 . 3 %", "", "<http://ctro/data#Outcome_48477> <http://ctro/data#hasObservedResult> \"Noninferiority of PPT to BBT was not demonstrated based on the prespecified noninferiority margin of 0 . 3 %\". <http://ctro/data#Outcome_48504> <http://ctro/data#hasObservedResult> \"Noninferiority of PPT to BBT was not demonstrated based on the prespecified noninferiority margin of 0 . 3 %\"."
+64, HbA1c_target, 1823, 1843, "target A1C < 7 . 0 %", "", "<http://ctro/data#Endpoint_48338> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+139, Percentage, 1842, 1843, "%", "", 
+70, PercentageAffected, 1883, 1885, "54", "", "<http://ctro/data#Outcome_48540> <http://ctro/data#hasPercentageAffected> \"54\"."
+71, PercentageAffected, 1891, 1893, "69", "", "<http://ctro/data#Outcome_48569> <http://ctro/data#hasPercentageAffected> \"69\"."
+72, PvalueDiff, 1898, 1909, "P = 0 . 009", "", "<http://ctro/data#DiffBetweenGroups_48597> <http://ctro/data#hasPvalueDiff> \"P = 0 . 009\"."
+73, HbA1c_target, 1920, 1941, "target < or = 6 . 5 %", "", "<http://ctro/data#Endpoint_48606> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+141, Percentage, 1940, 1941, "%", "", 
+74, PercentageAffected, 1947, 1949, "35", "", "<http://ctro/data#Outcome_48611> <http://ctro/data#hasPercentageAffected> \"35\"."
+75, PercentageAffected, 1955, 1957, "50", "", "<http://ctro/data#Outcome_48638> <http://ctro/data#hasPercentageAffected> \"50\"."
+142, Percentage, 1958, 1959, "%", "", 
+76, PvalueDiff, 1962, 1972, "P = 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_48665> <http://ctro/data#hasPvalueDiff> \"P = 0 . 01\"."
+78, HbA1c_target, 1998, 2032, "target < or = 6 . 0 % or < 7 . 5 %", "", 
+143, Percentage, 2018, 2019, "%", "", 
+144, Percentage, 2031, 2032, "%", "", 
+186, ObservedResult, 2035, 2085, "Rates of hypoglycemia were similar for both groups", "", "<http://ctro/data#Outcome_48674> <http://ctro/data#hasObservedResult> \"Rates of hypoglycemia were similar for both groups\"."
+79, Hypoglycemia, 2044, 2056, "hypoglycemia", "", "<http://ctro/data#Endpoint_48343> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+89, ConclusionComment, 2102, 2308, "Although noninferiority of PPT to BBT was not demonstrated , findings for A1C reduction , percentage of patients achieving A1C targets , hypoglycemia , and number of required injections should be considered", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasConclusionComment> \"Although noninferiority of PPT to BBT was not demonstrated , findings for A1C reduction , percentage of patients achieving A1C targets , hypoglycemia , and number of required injections should be considered\"."
+84, HbA1c, 2176, 2179, "A1C", "", 
+85, HbA1c_target, 2225, 2236, "A1C targets", "", 
+86, Hypoglycemia, 2239, 2251, "hypoglycemia", "", 
+187, ConclusionComment, 2309, 2424, "in the individual decision - making process of advancing insulin replacement to PPT versus BBT in type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_48304> <http://ctro/data#hasConclusionComment> \"in the individual decision - making process of advancing insulin replacement to PPT versus BBT in type 2 diabetes .\"."
+87, Insulin, 2366, 2373, "insulin", "", 
+88, Type2Diabetes, 2407, 2422, "type 2 diabetes", "", 
+90, PMID, 2462, 2470, "17934150", "", "<http://ctro/data#Publication_48292> <http://ctro/data#hasPMID> \"17934150\"."

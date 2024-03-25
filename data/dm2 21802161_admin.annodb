@@ -1,0 +1,69 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 25, "Diabetes Res Clin Pract .", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasJournal> \"Diabetes Res Clin Pract .\"."
+1, PublicationYear, 26, 30, "2011", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasPublicationYear> \"2011\"."
+6, Title, 126, 236, "Effect of folic acid supplementation on biochemical indices in overweight and obese men with type 2 diabetes .", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasTitle> \"Effect of folic acid supplementation on biochemical indices in overweight and obese men with type 2 diabetes .\"."
+99, Drug, 136, 146, "folic acid", "", 
+4, Precondition, 189, 234, "overweight and obese men with type 2 diabetes", "", 
+3, Male, 210, 213, "men", "", 
+2, Type2Diabetes, 219, 234, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+66, Author, 237, 247, "Gargari BP", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasAuthor> \"Gargari BP\"."
+7, Author, 256, 271, "Aghamohammadi V", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasAuthor> \"Aghamohammadi V\"."
+8, Author, 274, 290, "Aliasgharzadeh A", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasAuthor> \"Aliasgharzadeh A\"."
+9, Iran, 472, 476, "Iran", "", "<http://ctro/data#Population_33607> <http://ctro/data#hasCountry> <http://ctro/data#Iran>."
+18, ObjectiveDescription, 509, 754, "This study performed to determine the effects of folate supplementation on indices of glycemic control , insulin resistance and lipid profile in overweight and obese men with type 2 diabetes under metformin ( at least 1500 mg daily ) treatment .", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#hasObjectiveDescription> \"This study performed to determine the effects of folate supplementation on indices of glycemic control , insulin resistance and lipid profile in overweight and obese men with type 2 diabetes under metformin ( at least 1500 mg daily ) treatment .\"."
+100, Drug, 558, 564, "folate", "", 
+101, Insulin, 614, 621, "insulin", "", 
+17, Precondition, 654, 752, "overweight and obese men with type 2 diabetes under metformin ( at least 1500 mg daily ) treatment", "", "<http://ctro/data#Population_33607> <http://ctro/data#hasPrecondition> \"overweight and obese men with type 2 diabetes under metformin ( at least 1500 mg daily ) treatment\"."
+11, Male, 675, 678, "men", "", 
+12, Type2Diabetes, 684, 699, "type 2 diabetes", "", 
+13, Metformin, 706, 715, "metformin", "", 
+14, DoseValue, 718, 731, "at least 1500", "", 
+15, mg, 732, 734, "mg", "", 
+16, Frequency, 735, 740, "daily", "", 
+19, DoubleBlind, 781, 795, "double - blind", "", 
+20, Randomized, 796, 806, "randomized", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+21, NumberPatientsCT, 835, 848, "Forty - eight", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#hasNumberPatientsCT> \"Forty - eight\"."
+22, Male, 870, 873, "men", "", "<http://ctro/data#Population_33607> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+23, AvgAge, 881, 887, "58 . 2", "", "<http://ctro/data#Population_33607> <http://ctro/data#hasAvgAge> \"58 . 2\"."
+24, BMI, 904, 907, "BMI", "", 
+25, Kg_per_squareMeter, 925, 937, "kg / m ( 2 )", "", 
+26, Type2Diabetes, 945, 960, "type 2 diabetes", "", 
+28, Randomized, 1011, 1019, "randomly", "", 
+29, Drug, 1039, 1049, "folic acid", "", 
+30, DoseValue, 1052, 1053, "5", "", "<http://ctro/data#Medication_33645> <http://ctro/data#hasDoseValue> \"5\"."
+31, mg, 1054, 1056, "mg", "", "<http://ctro/data#Medication_33645> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+59680, Interval, 1059, 1060, "d", "", "<http://ctro/data#Intervention_33633> <http://ctro/data#hasInterval> \"d\"."
+33, Placebo, 1067, 1074, "placebo", "", "<http://ctro/data#Medication_33652> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+34, Duration, 1115, 1126, "eight weeks", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#hasCTduration> \"eight weeks\". <http://ctro/data#Intervention_33633> <http://ctro/data#hasDuration> \"eight weeks\". <http://ctro/data#Intervention_33639> <http://ctro/data#hasDuration> \"eight weeks\"."
+35, Drug, 1160, 1170, "folic acid", "", 
+59684, RelativeReduction, 1178, 1179, "8", "", "<http://ctro/data#Outcome_33704> <http://ctro/data#hasRelativeChangeValue> \"8\"."
+36, HbA1c, 1194, 1199, "HbA1C", "", "<http://ctro/data#Endpoint_33679> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+39, PValueChangeValue, 1202, 1213, "p = 0 . 048", "", "<http://ctro/data#Outcome_33704> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 048\"."
+40, RelativeReduction, 1218, 1223, "7 . 5", "", "<http://ctro/data#Outcome_33731> <http://ctro/data#hasRelativeChangeValue> \"7 . 5\"."
+67, FastingBloodGlucose, 1229, 1250, "fasting blood glucose", "", "<http://ctro/data#Endpoint_33684> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+47, PValueChangeValue, 1253, 1264, "p = 0 . 051", "", "<http://ctro/data#Outcome_33731> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 051\"."
+41, RelativeReduction, 1269, 1275, "16 . 2", "", "<http://ctro/data#Outcome_33758> <http://ctro/data#hasRelativeChangeValue> \"16 . 2\"."
+44, EndPointDescription, 1281, 1294, "serum insulin", "", "<http://ctro/data#EndPointDescription_33690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33689> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33690>."
+48, PValueChangeValue, 1297, 1308, "p = 0 . 021", "", "<http://ctro/data#Outcome_33758> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 021\"."
+42, RelativeReduction, 1313, 1319, "20 . 5", "", "<http://ctro/data#Outcome_33785> <http://ctro/data#hasRelativeChangeValue> \"20 . 5\"."
+45, EndPointDescription, 1325, 1343, "insulin resistance", "", "<http://ctro/data#EndPointDescription_33695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33694> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33695>."
+49, PValueChangeValue, 1346, 1357, "p = 0 . 041", "", "<http://ctro/data#Outcome_33785> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 041\"."
+43, RelativeReduction, 1364, 1370, "21 . 2", "", "<http://ctro/data#Outcome_33812> <http://ctro/data#hasRelativeChangeValue> \"21 . 2\"."
+46, EndPointDescription, 1376, 1395, "plasma homocysteine", "", "<http://ctro/data#EndPointDescription_33700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33699> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33700>."
+50, PValueChangeValue, 1398, 1409, "p = 0 . 000", "", "<http://ctro/data#Outcome_33812> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 000\"."
+51, EndPointDescription, 1440, 1452, "serum folate", "", "<http://ctro/data#EndPointDescription_33840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33839> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33840>."
+52, EndPointDescription, 1457, 1467, "B12 levels", "", "<http://ctro/data#EndPointDescription_33845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33844> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33845>."
+53, RelativeIncrement, 1470, 1472, "19", "", "<http://ctro/data#EndPointDescription_33845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_33844> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_33845>."
+54, RelativeIncrement, 1479, 1485, "17 . 3", "", "<http://ctro/data#Outcome_33876> <http://ctro/data#hasRelativeChangeValue> \"17 . 3\"."
+55, PValueChangeValue, 1490, 1501, "p = 0 . 000", "", "<http://ctro/data#Outcome_33849> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 000\". <http://ctro/data#Outcome_33876> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 000\"."
+56, Drug, 1540, 1550, "folic acid", "", 
+128, ObservedResult, 1567, 1589, "no significant changes", "", "<http://ctro/data#Outcome_91867> <http://ctro/data#hasObservedResult> \"no significant changes\". <http://ctro/data#Outcome_91896> <http://ctro/data#hasObservedResult> \"no significant changes\"."
+57, Placebo, 1606, 1613, "placebo", "", 
+58, Drug, 1636, 1646, "folic acid", "", 
+59, Placebo, 1651, 1658, "placebo", "", 
+61, ObservedResult, 1668, 1701, "there were no significant changes", "", 
+60, BodyWeight, 1705, 1716, "body weight", "", 
+138, Drug, 1733, 1743, "Folic acid", "", 
+65, ConclusionComment, 1733, 1882, "Folic acid supplementation lowered plasma level of homocysteine , improved glycemic control and insulin resistance in patients with type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_33591> <http://ctro/data#hasConclusionComment> \"Folic acid supplementation lowered plasma level of homocysteine , improved glycemic control and insulin resistance in patients with type 2 diabetes .\"."
+63, Type2Diabetes, 1865, 1880, "type 2 diabetes", "", 
+64, PMID, 2000, 2008, "21802161", "", "<http://ctro/data#Publication_33584> <http://ctro/data#hasPMID> \"21802161\"."

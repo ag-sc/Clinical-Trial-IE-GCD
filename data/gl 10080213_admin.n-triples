@@ -1,0 +1,202 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_24986> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_24986> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasTitle> "A 12 - month , randomized , double - masked study comparing latanoprost with timolol in pigmentary glaucoma ." .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> "Mastropasqua L" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasPublicationYear> "twice daily" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasPublicationYear> "1999" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasJournal> "Ophthalmology" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasPMID> "10080213" .
+<http://ctro/data#Publication_24986> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_24996> .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> "Carpineto P" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> "Ciancaglini M" .
+<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> "Gallenga PE" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_24996> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_24996> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasObjectiveDescription> "To compare the efficacy and side effects and the effect on aqueous humor dynamics of 0 . 005 % latanoprost applied topically once daily with 0 . 5 % timolol given twice daily for 12 months to patients with pigmentary glaucoma ." .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasNumberPatientsCT> "Thirty - six" .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTduration> "12 - month" .
+<http://ctro/data#AllocationRatio_25000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_25001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasConclusionComment> "Although further studies may need to confirm these data on a larger sample and to evaluate the side effect of increased iris pigmentation on long - term follow - up , in patients with pigmentary glaucoma , 0 . 005 % latanoprost taken once daily was" .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasArm> <http://ctro/data#Arm_25048> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#analysesHealthCondition> <http://ctro/data#PigmentaryGlaucoma> .
+<http://ctro/data#Population_25006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_13097> .
+<http://ctro/data#EvidenceQuality_25008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasConclusionComment> "well tolerated and more effective in reducing IOP than 0 . 5 % timolol taken twice daily ." .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasArm> <http://ctro/data#Arm_25057> .
+<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_25209> .
+# RDF export of group: Population
+<http://ctro/data#Population_25015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_25015> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_25015> <http://ctro/data#hasPrecondition> "patients with pigmentary glaucoma" .
+<http://ctro/data#Ethnicity_25017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_25015> <http://ctro/data#hasCountry> <http://ctro/data#Italy> .
+<http://ctro/data#Gender_25022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_25023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25023> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_IOP" .
+<http://ctro/data#IOP_25024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_25023> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_25024> .
+<http://ctro/data#Mean_25025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_25023> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25025> .
+<http://ctro/data#MeasurementDevice_25027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25023> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Endpoint_25028> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25028> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_C" .
+<http://ctro/data#Endpoint_25028> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Outflow_Facility_C> .
+<http://ctro/data#Mean_25030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_25028> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25030> .
+<http://ctro/data#Endpoint_25028> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_25032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25028> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_25032> .
+<http://ctro/data#Endpoint_25033> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25033> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_H" .
+<http://ctro/data#Endpoint_25033> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia> .
+<http://ctro/data#Mean_25035> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_25033> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25035> .
+<http://ctro/data#BioAndMedicalUnit_25036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_25037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25038> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25038> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_Iris" .
+<http://ctro/data#IrisPigmentation_25039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation> .
+<http://ctro/data#Endpoint_25038> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_25039> .
+<http://ctro/data#AggregationMethod_25040> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_25041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_25042> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25043> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25043> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_HR" .
+<http://ctro/data#HeartRate_25044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate> .
+<http://ctro/data#Endpoint_25043> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_25044> .
+<http://ctro/data#AggregationMethod_25045> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_25046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Endpoint_25043> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_25046> .
+<http://ctro/data#MeasurementDevice_25047> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_25048> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_25048> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_lat" .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasNumberPatientsArm> "18" .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_25066> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25101> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25272> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_25413> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25128> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25245> .
+<http://ctro/data#Arm_25048> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25327> .
+<http://ctro/data#Arm_25057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_25057> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_tim" .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasNumberPatientsArm> "18" .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_25072> .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25155> .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25300> .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25182> .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25354> .
+<http://ctro/data#Arm_25057> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25381> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_25066> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_25066> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_lat" .
+<http://ctro/data#Intervention_25066> <http://ctro/data#hasMedication> <http://ctro/data#Medication_25078> .
+<http://ctro/data#Intervention_25066> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_25071> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_25066> <http://ctro/data#hasMedication> <http://ctro/data#Medication_25086> .
+<http://ctro/data#Intervention_25072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_25072> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_tim" .
+<http://ctro/data#Intervention_25072> <http://ctro/data#hasMedication> <http://ctro/data#Medication_25093> .
+<http://ctro/data#Intervention_25072> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_25077> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_25413> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_25413> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_Pla" .
+<http://ctro/data#Intervention_25413> <http://ctro/data#hasMedication> <http://ctro/data#Medication_25086> .
+<http://ctro/data#RelativeTime_25418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_25413> <http://ctro/data#hasFrequency> "once daily" .
+# RDF export of group: Medication
+<http://ctro/data#Medication_25078> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_25078> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_Lat" .
+<http://ctro/data#Latanoprost_25079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_25078> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_25079> .
+<http://ctro/data#Medication_25078> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_25078> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_25078> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Topic> .
+<http://ctro/data#Medication_25078> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_25086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_25086> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_Pla" .
+<http://ctro/data#BioAndMedicalUnit_25089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_25086> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_25086> <http://ctro/data#hasDrug> <http://ctro/data#Placebo> .
+<http://ctro/data#Medication_25093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_25093> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_tim" .
+<http://ctro/data#Medication_25093> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_25093> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_25093> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_25093> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_25101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25101> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat_IOP_6" .
+<http://ctro/data#Outcome_25101> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25023> .
+<http://ctro/data#Outcome_25101> <http://ctro/data#hasChangeValue> "6 . 0" .
+<http://ctro/data#Outcome_25101> <http://ctro/data#hasSdErrorChangeValue> "4 . 5" .
+<http://ctro/data#Outcome_25101> <http://ctro/data#hasTimePoint> "6 and 12 months" .
+<http://ctro/data#Outcome_25128> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25128> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat_IOP_12" .
+<http://ctro/data#Outcome_25128> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25023> .
+<http://ctro/data#Outcome_25128> <http://ctro/data#hasChangeValue> "5 . 9" .
+<http://ctro/data#Outcome_25128> <http://ctro/data#hasSdErrorChangeValue> "4 . 6" .
+<http://ctro/data#Outcome_25128> <http://ctro/data#hasTimePoint> "12 months" .
+<http://ctro/data#Outcome_25155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25155> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tim_IOP_6" .
+<http://ctro/data#Outcome_25155> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25023> .
+<http://ctro/data#Outcome_25155> <http://ctro/data#hasChangeValue> "4 . 8" .
+<http://ctro/data#Outcome_25155> <http://ctro/data#hasSdErrorChangeValue> "3 . 0" .
+<http://ctro/data#Outcome_25155> <http://ctro/data#hasTimePoint> "6 and 12 months" .
+<http://ctro/data#Outcome_25182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25182> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tim_IOP_12" .
+<http://ctro/data#Outcome_25182> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25023> .
+<http://ctro/data#Outcome_25182> <http://ctro/data#hasChangeValue> "4 . 6" .
+<http://ctro/data#Outcome_25182> <http://ctro/data#hasSdErrorChangeValue> "3 . 1" .
+<http://ctro/data#Outcome_25182> <http://ctro/data#hasTimePoint> "12 months" .
+<http://ctro/data#Outcome_25245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25245> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat_C" .
+<http://ctro/data#Outcome_25245> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25028> .
+<http://ctro/data#Outcome_25245> <http://ctro/data#hasRelativeChangeValue> "30" .
+<http://ctro/data#Outcome_25245> <http://ctro/data#hasPValueChangeValue> "P = 0 . 017" .
+<http://ctro/data#Outcome_25272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25272> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat_H" .
+<http://ctro/data#Outcome_25272> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25033> .
+<http://ctro/data#Outcome_25272> <http://ctro/data#hasResultMeasuredValue> "0 . 3" .
+<http://ctro/data#Outcome_25300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25300> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tim_H" .
+<http://ctro/data#Outcome_25300> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25033> .
+<http://ctro/data#Outcome_25300> <http://ctro/data#hasResultMeasuredValue> "0 . 2" .
+<http://ctro/data#Outcome_25327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25327> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_lat_Iris" .
+<http://ctro/data#Outcome_25327> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25038> .
+<http://ctro/data#Outcome_25327> <http://ctro/data#hasNumberAffected> "1" .
+<http://ctro/data#Outcome_25354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25354> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tim_Iris" .
+<http://ctro/data#Outcome_25354> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25038> .
+<http://ctro/data#Outcome_25354> <http://ctro/data#hasNumberAffected> "none" .
+<http://ctro/data#Outcome_25381> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25381> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_tim_HR" .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25043> .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasBaselineValue> "72" .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasSdErrorBL> "9" .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasResultMeasuredValue> "67" .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasSdErrorResValue> "10" .
+<http://ctro/data#Outcome_25381> <http://ctro/data#hasTimePoint> "12 months" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_13097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_13097> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_IOP" .
+<http://ctro/data#DiffBetweenGroups_13097> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_13097> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_25101> .
+<http://ctro/data#DiffBetweenGroups_13097> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_25155> .
+<http://ctro/data#DiffBetweenGroups_25209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_25209> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_IOP_12" .
+<http://ctro/data#DiffBetweenGroups_25209> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_25209> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_25128> .
+<http://ctro/data#DiffBetweenGroups_25209> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_25182> .
+# RDF export of group: EvidenceQuality

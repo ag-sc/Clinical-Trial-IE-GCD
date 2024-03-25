@@ -1,0 +1,119 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2007", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasPublicationYear> \"2007\"."
+2, Title, 52, 201, "Comparing the fixed combination brimonidine - timolol versus fixed combination dorzolamide - timolol in patients with elevated intraocular pressure .", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasTitle> \"Comparing the fixed combination brimonidine - timolol versus fixed combination dorzolamide - timolol in patients with elevated intraocular pressure .\"."
+5, Brimo/TimFC, 66, 105, "fixed combination brimonidine - timolol", "", 
+3, Brimonidine, 84, 95, "brimonidine", "", 
+4, Timolol, 98, 105, "timolol", "", 
+8, Dorz/TimFC, 113, 152, "fixed combination dorzolamide - timolol", "", 
+6, Dorzolamide, 131, 142, "dorzolamide", "", 
+7, Timolol, 145, 152, "timolol", "", 
+115, Precondition, 156, 199, "patients with elevated intraocular pressure", "", "<http://ctro/data#Population_87416> <http://ctro/data#hasPrecondition> \"patients with elevated intraocular pressure\"."
+9, IOP, 179, 199, "intraocular pressure", "", 
+10, Author, 202, 212, "Arcieri ES", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"Arcieri ES\"."
+11, Author, 221, 231, "Arcieri RS", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"Arcieri RS\"."
+12, Author, 234, 244, "Pereira AC", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"Pereira AC\"."
+13, Author, 247, 256, "Andreo EG", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"Andreo EG\"."
+14, Author, 259, 269, "Finotti IG", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"Finotti IG\"."
+15, Author, 272, 284, "S á Filho WF", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasAuthor> \"S á Filho WF\"."
+16, Glaucoma, 314, 322, "Glaucoma", "", 
+17, Brazil, 425, 431, "Brazil", "", "<http://ctro/data#Population_87416> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+18, ObjectiveDescription, 471, 707, "To evaluate the efficacy of fixed combination brimonidine - timolol ( FCBT ) versus fixed combination dorzolamide - timolol ( FCDT ) given twice daily in patients with primary open angle glaucoma ( POAG ) or ocular hypertension ( OH ) .", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy of fixed combination brimonidine - timolol ( FCBT ) versus fixed combination dorzolamide - timolol ( FCDT ) given twice daily in patients with primary open angle glaucoma ( POAG ) or ocular hypertension ( OH ) .\"."
+23, Brimo/TimFC, 499, 538, "fixed combination brimonidine - timolol", "", 
+19, Brimonidine, 517, 528, "brimonidine", "", 
+21, Timolol, 531, 538, "timolol", "", 
+24, Brimo/TimFC, 541, 545, "FCBT", "", "<http://ctro/data#Medication_87432> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+25, Dorz/TimFC, 555, 594, "fixed combination dorzolamide - timolol", "", "<http://ctro/data#Medication_87439> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+20, Dorzolamide, 573, 584, "dorzolamide", "", 
+22, Timolol, 587, 594, "timolol", "", 
+26, Dorz/TimFC, 597, 601, "FCDT", "", 
+27, Frequency, 610, 621, "twice daily", "", "<http://ctro/data#Intervention_87446> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_87452> <http://ctro/data#hasFrequency> \"twice daily\"."
+139, Precondition, 625, 705, "patients with primary open angle glaucoma ( POAG ) or ocular hypertension ( OH )", "", "<http://ctro/data#Population_87416> <http://ctro/data#hasPrecondition> \"patients with primary open angle glaucoma ( POAG ) or ocular hypertension ( OH )\"."
+28, Primary_OpenAngleGlaucoma, 639, 666, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+29, Primary_OpenAngleGlaucoma, 669, 673, "POAG", "", 
+30, OcularHypertension, 679, 698, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+31, OcularHypertension, 701, 703, "OH", "", 
+32, Prospective, 717, 728, "Prospective", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+33, Multicenter, 731, 742, "multicentre", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+34, Blind, 745, 762, "masked - observer", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+35, Crossover, 765, 774, "crossover", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+145, NumberAffected, 803, 810, "Sixteen", "", 
+36, Primary_OpenAngleGlaucoma, 825, 829, "POAG", "", 
+146, NumberAffected, 834, 836, "14", "", 
+39, OcularHypertension, 842, 844, "OH", "", 
+149, Precondition, 892, 933, "washed out from their previous medication", "", "<http://ctro/data#Population_87416> <http://ctro/data#hasPrecondition> \"washed out from their previous medication\"."
+40, Randomized, 938, 948, "randomized", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+41, Brimo/TimFC, 958, 962, "FCBT", "", 
+42, Dorz/TimFC, 966, 970, "FCDT", "", 
+43, Duration, 985, 993, "4 - week", "", 
+44, Duration, 1043, 1050, "4 weeks", "", 
+45, Duration, 1105, 1113, "4 - week", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasCTduration> \"4 - week\"."
+46, IOP, 1123, 1143, "Intraocular pressure", "", "<http://ctro/data#IOP_87428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_87427> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_87428>."
+47, IOP, 1146, 1149, "IOP", "", 
+48, MeasurementDevice, 1172, 1202, "Goldmann applanation tonometer", "", "<http://ctro/data#MeasurementDevice_87431> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_87427> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_87431>."
+155, TimePoint, 1206, 1220, "8 : 00 a . m .", "", 
+156, TimePoint, 1223, 1235, "12 : 00 noon", "", 
+157, TimePoint, 1240, 1254, "4 : 00 p . m .", "", 
+49, TimePoint, 1263, 1271, "baseline", "", 
+159, TimePoint, 1276, 1311, "at the end of each treatment period", "", 
+50, IOP, 1411, 1414, "IOP", "", 
+51, Brimo/TimFC, 1434, 1438, "FCBT", "", 
+52, Dorz/TimFC, 1443, 1447, "FCDT", "", 
+53, Mean, 1473, 1477, "mean", "", 
+54, Diurnal_IOP, 1478, 1489, "diurnal IOP", "", 
+55, NumberPatientsCT, 1498, 1500, "30", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasNumberPatientsCT> \"30\"."
+56, BaseLineValue, 1526, 1532, "22 . 9", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasBaselineValue> \"22 . 9\". <http://ctro/data#Outcome_87503> <http://ctro/data#hasBaselineValue> \"22 . 9\"."
+167, SdDevBL, 1539, 1544, "1 . 6", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasSdDevBL> \"1 . 6\". <http://ctro/data#Outcome_87503> <http://ctro/data#hasSdDevBL> \"1 . 6\"."
+58, mmHg, 1545, 1549, "mmHg", "", 
+63, IOP, 1598, 1601, "IOP", "", 
+64, PValueChangeValue, 1627, 1645, "p & lt ; 0 . 00001", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 00001\". <http://ctro/data#Outcome_87503> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 00001\"."
+65, Mean, 1654, 1658, "mean", "", 
+66, Diurnal_IOP, 1659, 1670, "diurnal IOP", "", 
+67, Duration, 1681, 1688, "4 weeks", "", 
+68, ResultMeasuredValue, 1704, 1710, "15 . 0", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasResultMeasuredValue> \"15 . 0\"."
+103781, SdDevResValue, 1717, 1722, "2 . 1", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+60, mmHg, 1723, 1727, "mmHg", "", 
+72, Brimo/TimFC, 1732, 1736, "FCBT", "", 
+69, ResultMeasuredValue, 1741, 1747, "15 . 4", "", "<http://ctro/data#Outcome_87503> <http://ctro/data#hasResultMeasuredValue> \"15 . 4\"."
+103789, SdDevResValue, 1754, 1759, "2 . 1", "", "<http://ctro/data#Outcome_87503> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+59, mmHg, 1760, 1764, "mmHg", "", 
+73, Dorz/TimFC, 1769, 1773, "FCDT", "", 
+103790, PvalueDiff, 1776, 1787, "p = 0 . 510", "", 
+75, Mean, 1796, 1800, "mean", "", 
+76, Diurnal_IOP, 1801, 1812, "diurnal IOP", "", 
+77, Reduction, 1827, 1832, "7 . 8", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasChangeValue> \"7 . 8\"."
+176, SdDevChangeValue, 1839, 1844, "1 . 9", "", "<http://ctro/data#Outcome_87476> <http://ctro/data#hasSdDevChangeValue> \"1 . 9\"."
+61, mmHg, 1845, 1849, "mmHg", "", 
+81, Brimo/TimFC, 1854, 1858, "FCBT", "", 
+78, Reduction, 1863, 1868, "7 . 4", "", "<http://ctro/data#Outcome_87503> <http://ctro/data#hasChangeValue> \"7 . 4\"."
+177, SdDevChangeValue, 1875, 1880, "1 . 8", "", "<http://ctro/data#Outcome_87503> <http://ctro/data#hasSdDevChangeValue> \"1 . 8\"."
+62, mmHg, 1881, 1885, "mmHg", "", 
+82, Dorz/TimFC, 1890, 1894, "FCDT", "", 
+182, PvalueDiff, 1899, 1908, "= 0 . 430", "", "<http://ctro/data#DiffBetweenGroups_87539> <http://ctro/data#hasPvalueDiff> \"= 0 . 430\"."
+84, NumberAffected, 1923, 1925, "14", "", 
+103791, EndPointDescription, 1959, 1973, "adverse events", "", "<http://ctro/data#EndPointDescription_87549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_87548> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_87549>."
+85, NumberAffected, 1976, 1979, "two", "", "<http://ctro/data#Outcome_87553> <http://ctro/data#hasNumberAffected> \"two\"."
+88, Brimo/TimFC, 1989, 1993, "FCBT", "", 
+86, NumberAffected, 1996, 2001, "seven", "", "<http://ctro/data#Outcome_87580> <http://ctro/data#hasNumberAffected> \"seven\"."
+89, Dorz/TimFC, 2011, 2015, "FCDT", "", 
+103792, ObservedResult, 2020, 2039, "five for both drugs", "", "<http://ctro/data#Outcome_87553> <http://ctro/data#hasObservedResult> \"five for both drugs\". <http://ctro/data#Outcome_87580> <http://ctro/data#hasObservedResult> \"five for both drugs\"."
+87, NumberAffected, 2020, 2024, "five", "", 
+90, Brimo/TimFC, 2159, 2163, "FCBT", "", 
+94, NumberAffected, 2170, 2171, "7", "", "<http://ctro/data#Outcome_87675> <http://ctro/data#hasNumberAffected> \"7\"."
+92, Dorz/TimFC, 2178, 2182, "FCDT", "", 
+95, NumberAffected, 2189, 2191, "12", "", "<http://ctro/data#Outcome_87702> <http://ctro/data#hasNumberAffected> \"12\"."
+198, PvalueDiff, 2198, 2207, "= 0 . 359", "", "<http://ctro/data#DiffBetweenGroups_87729> <http://ctro/data#hasPvalueDiff> \"= 0 . 359\"."
+93, Dorz/TimFC, 2212, 2216, "FCDT", "", 
+200, Stinging, 2229, 2244, "ocular stinging", "", "<http://ctro/data#Endpoint_87607> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Stinging>."
+103793, DeliveryMethod, 2250, 2262, "instillation", "", 
+96, NumberAffected, 2269, 2270, "9", "", "<http://ctro/data#Outcome_87639> <http://ctro/data#hasNumberAffected> \"9\"."
+91, Brimo/TimFC, 2278, 2282, "FCBT", "", 
+97, NumberAffected, 2289, 2290, "1", "", "<http://ctro/data#Outcome_87612> <http://ctro/data#hasNumberAffected> \"1\"."
+204, PvalueDiff, 2297, 2306, "= 0 . 027", "", "<http://ctro/data#DiffBetweenGroups_87666> <http://ctro/data#hasPvalueDiff> \"= 0 . 027\"."
+101, ConclusionComment, 2324, 2441, "This study suggests that FCBT and FCDT , each given twice daily , have similar efficacy in patients with POAG or OH .", "", "<http://ctro/data#ClinicalTrial_87395> <http://ctro/data#hasConclusionComment> \"This study suggests that FCBT and FCDT , each given twice daily , have similar efficacy in patients with POAG or OH .\"."
+102, Brimo/TimFC, 2349, 2353, "FCBT", "", 
+103, Dorz/TimFC, 2358, 2362, "FCDT", "", 
+104, Frequency, 2376, 2387, "twice daily", "", 
+105, Primary_OpenAngleGlaucoma, 2429, 2433, "POAG", "", 
+106, OcularHypertension, 2437, 2439, "OH", "", 
+107, PMID, 2484, 2492, "17407624", "", "<http://ctro/data#Publication_87383> <http://ctro/data#hasPMID> \"17407624\"."

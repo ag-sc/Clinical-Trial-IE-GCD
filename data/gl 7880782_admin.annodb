@@ -1,0 +1,84 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Br J Ophthalmol .", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasJournal> \"Br J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "1995", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasPublicationYear> \"1995\"."
+2, Title, 49, 196, "Latanoprost administered once daily caused a maintained reduction of intraocular pressure in glaucoma patients treated concomitantly with timolol .", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasTitle> \"Latanoprost administered once daily caused a maintained reduction of intraocular pressure in glaucoma patients treated concomitantly with timolol .\"."
+3, Latanoprost, 49, 60, "Latanoprost", "", 
+4, Frequency, 74, 84, "once daily", "", 
+5, IOP, 118, 138, "intraocular pressure", "", 
+6, Glaucoma, 142, 150, "glaucoma", "", 
+7, Timolol, 187, 194, "timolol", "", 
+8, Author, 197, 202, "Alm A", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Alm A\"."
+9, Author, 211, 224, "Wideng å rd I", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Wideng å rd I\"."
+10, Author, 227, 238, "Kjellgren D", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Kjellgren D\"."
+11, Author, 241, 257, "S ö derstr ö m M", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"S ö derstr ö m M\"."
+12, Author, 260, 272, "Fristr ö m B", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Fristr ö m B\"."
+13, Author, 275, 282, "Heijl A", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Heijl A\"."
+14, Author, 285, 299, "Stjerschantz J", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasAuthor> \"Stjerschantz J\"."
+15, Sweden, 391, 397, "Sweden", "", "<http://ctro/data#Population_95822> <http://ctro/data#hasCountry> <http://ctro/data#Sweden>."
+16, PublicationYear, 429, 433, "1995", "", 
+17, ObjectiveDescription, 459, 657, "The long term effects of two dose regimens of latanoprost ( PhXA41 ) administered to eyes concomitantly treated with timolol which had not adequately been controlled by timolol alone were compared .", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasObjectiveDescription> \"The long term effects of two dose regimens of latanoprost ( PhXA41 ) administered to eyes concomitantly treated with timolol which had not adequately been controlled by timolol alone were compared .\"."
+18, Latanoprost, 505, 516, "latanoprost", "", 
+51, Latanoprost, 519, 525, "PhXA41", "", 
+20, Precondition, 544, 641, "eyes concomitantly treated with timolol which had not adequately been controlled by timolol alone", "", "<http://ctro/data#Population_95822> <http://ctro/data#hasPrecondition> \"eyes concomitantly treated with timolol which had not adequately been controlled by timolol alone\"."
+19, Timolol, 576, 583, "timolol", "", 
+21, Timolol, 628, 635, "timolol", "", 
+22, NumberPatientsCT, 669, 671, "50", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasNumberPatientsCT> \"50\"."
+55, NumberAffected, 683, 685, "17", "", 
+23, Primary_OpenAngleGlaucoma, 691, 718, "primary open angle glaucoma", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+57, NumberAffected, 723, 725, "33", "", 
+24, Glaucoma, 731, 748, "capsular glaucoma", "", "<http://ctro/data#Glaucoma_95821> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_95803> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_95821>."
+35, Multicenter, 771, 783, "five clinics", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+49, Precondition, 794, 935, "glaucomatous visual field defects and an intraocular pressure ( IOP ) of at least 22 mm Hg despite treatment with 0 . 5 % timolol twice daily", "", "<http://ctro/data#Population_95822> <http://ctro/data#hasPrecondition> \"glaucomatous visual field defects and an intraocular pressure ( IOP ) of at least 22 mm Hg despite treatment with 0 . 5 % timolol twice daily\"."
+38, IOP, 835, 855, "intraocular pressure", "", 
+40, IOP, 858, 861, "IOP", "", 
+41, mmHg, 879, 884, "mm Hg", "", 
+43, DoseValue, 908, 913, "0 . 5", "", 
+71, Percentage, 914, 915, "%", "", 
+44, Timolol, 916, 923, "timolol", "", 
+45, Frequency, 924, 935, "twice daily", "", 
+59, Randomized, 952, 962, "randomised", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+61, DoseValue, 1002, 1009, "0 . 006", "", "<http://ctro/data#Medication_95836> <http://ctro/data#hasDoseValue> \"0 . 006\"."
+85, Percentage, 1010, 1011, "%", "", "<http://ctro/data#Medication_95836> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+62, Latanoprost, 1012, 1023, "latanoprost", "", "<http://ctro/data#Latanoprost_95837> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_95836> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_95837>."
+65, Frequency, 1034, 1045, "twice daily", "", "<http://ctro/data#Intervention_95843> <http://ctro/data#hasFrequency> \"twice daily\"."
+66, Placebo, 1067, 1074, "placebo", "", "<http://ctro/data#Medication_95861> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+106386, Morning, 1088, 1092, "8 am", "", "<http://ctro/data#Intervention_95849> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+68, Latanoprost, 1097, 1108, "latanoprost", "", "<http://ctro/data#Latanoprost_95869> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_95868> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_95869>."
+106387, Evening, 1112, 1116, "8 pm", "", "<http://ctro/data#Intervention_95875> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+69, Duration, 1121, 1129, "3 months", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasCTduration> \"3 months\"."
+72, Timolol, 1149, 1156, "timolol", "", 
+105583, Diurnal_IOP, 1192, 1203, "daytime IOP", "", "<http://ctro/data#Endpoint_97249> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+112, Mean, 1206, 1210, "mean", "", "<http://ctro/data#Mean_97251> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_97249> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_97251>."
+107, TimePoint, 1223, 1231, "baseline", "", 
+76, Timolol, 1237, 1244, "timolol", "", 
+77, TimePoint, 1263, 1277, "4 and 12 weeks", "", "<http://ctro/data#Outcome_98645> <http://ctro/data#hasTimePoint> \"4 and 12 weeks\". <http://ctro/data#Outcome_98672> <http://ctro/data#hasTimePoint> \"4 and 12 weeks\"."
+78, TimePoint, 1269, 1277, "12 weeks", "", "<http://ctro/data#Outcome_97313> <http://ctro/data#hasTimePoint> \"12 weeks\". <http://ctro/data#Outcome_97367> <http://ctro/data#hasTimePoint> \"12 weeks\"."
+79, BaseLineValue, 1294, 1300, "24 . 8", "", "<http://ctro/data#Outcome_97313> <http://ctro/data#hasBaselineValue> \"24 . 8\". <http://ctro/data#Outcome_98645> <http://ctro/data#hasBaselineValue> \"24 . 8\"."
+91, SdDevBL, 1303, 1308, "3 . 6", "", "<http://ctro/data#Outcome_97313> <http://ctro/data#hasSdDevBL> \"3 . 6\". <http://ctro/data#Outcome_98645> <http://ctro/data#hasSdDevBL> \"3 . 6\"."
+105584, ResultMeasuredValue, 1313, 1319, "16 . 8", "", "<http://ctro/data#Outcome_98645> <http://ctro/data#hasResultMeasuredValue> \"16 . 8\"."
+105586, SdDevResValue, 1322, 1327, "4 . 3", "", "<http://ctro/data#Outcome_98645> <http://ctro/data#hasSdDevResValue> \"4 . 3\"."
+105585, ResultMeasuredValue, 1336, 1342, "15 . 7", "", "<http://ctro/data#Outcome_97313> <http://ctro/data#hasResultMeasuredValue> \"15 . 7\"."
+105588, SdDevResValue, 1345, 1350, "2 . 4", "", "<http://ctro/data#Outcome_97313> <http://ctro/data#hasSdDevResValue> \"2 . 4\"."
+102, mmHg, 1353, 1358, "mm Hg", "", 
+110, Frequency, 1377, 1387, "once daily", "", 
+109, Latanoprost, 1403, 1414, "latanoprost", "", 
+96, BaseLineValue, 1419, 1425, "24 . 9", "", "<http://ctro/data#Outcome_97367> <http://ctro/data#hasBaselineValue> \"24 . 9\". <http://ctro/data#Outcome_98672> <http://ctro/data#hasBaselineValue> \"24 . 9\"."
+135, SdDevBL, 1428, 1433, "2 . 9", "", "<http://ctro/data#Outcome_97367> <http://ctro/data#hasSdDevBL> \"2 . 9\". <http://ctro/data#Outcome_98672> <http://ctro/data#hasSdDevBL> \"2 . 9\"."
+86, ResultMeasuredValue, 1438, 1444, "18 . 1", "", "<http://ctro/data#Outcome_98672> <http://ctro/data#hasResultMeasuredValue> \"18 . 1\"."
+105, SdDevResValue, 1447, 1452, "3 . 0", "", "<http://ctro/data#Outcome_98672> <http://ctro/data#hasSdDevResValue> \"3 . 0\"."
+87, ResultMeasuredValue, 1461, 1467, "18 . 0", "", "<http://ctro/data#Outcome_97367> <http://ctro/data#hasResultMeasuredValue> \"18 . 0\"."
+106, SdDevResValue, 1470, 1475, "3 . 6", "", "<http://ctro/data#Outcome_97367> <http://ctro/data#hasSdDevResValue> \"3 . 6\"."
+103, mmHg, 1478, 1483, "mm Hg", "", 
+108, Latanoprost, 1502, 1513, "latanoprost", "", 
+111, Frequency, 1514, 1525, "twice daily", "", 
+143, ObservedResult, 1528, 1599, "No clinically significant side effects were observed during treatment .", "", "<http://ctro/data#Outcome_97259> <http://ctro/data#hasObservedResult> \"No clinically significant side effects were observed during treatment .\"."
+105589, EndPointDescription, 1554, 1566, "side effects", "", "<http://ctro/data#EndPointDescription_97255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_97254> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_97255>."
+113, Latanoprost, 1600, 1611, "Latanoprost", "", 
+121, ConclusionComment, 1600, 1707, "Latanoprost causes a marked and sustained IOP reduction in eyes which are also being treated with timolol .", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasConclusionComment> \"Latanoprost causes a marked and sustained IOP reduction in eyes which are also being treated with timolol .\"."
+115, IOP, 1642, 1645, "IOP", "", 
+117, Timolol, 1698, 1705, "timolol", "", 
+114, Latanoprost, 1708, 1719, "Latanoprost", "", 
+123, ConclusionComment, 1708, 1815, "Latanoprost given once daily is at least as effective and probably superior to a twice daily dose regimen .", "", "<http://ctro/data#ClinicalTrial_95803> <http://ctro/data#hasConclusionComment> \"Latanoprost given once daily is at least as effective and probably superior to a twice daily dose regimen .\"."
+119, Frequency, 1726, 1736, "once daily", "", 
+120, Frequency, 1789, 1800, "twice daily", "", 
+124, PMID, 1877, 1884, "7880782", "", "<http://ctro/data#Publication_95790> <http://ctro/data#hasPMID> \"7880782\"."

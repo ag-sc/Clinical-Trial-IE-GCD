@@ -1,0 +1,117 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+107, Journal, 0, 25, "Obesity ( Silver Spring )", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasJournal> \"Obesity ( Silver Spring )\"."
+1, PublicationYear, 28, 32, "2013", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasPublicationYear> \"2013\"."
+26, Title, 93, 216, "Effects of taspoglutide on glycemic control and body weight in obese patients with type 2 diabetes ( T - emerge 7 study ) .", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasTitle> \"Effects of taspoglutide on glycemic control and body weight in obese patients with type 2 diabetes ( T - emerge 7 study ) .\"."
+106322, Taspoglutide, 104, 116, "taspoglutide", "", 
+11, BodyWeight, 141, 152, "body weight", "", 
+22, Precondition, 156, 191, "obese patients with type 2 diabetes", "", 
+16, Type2Diabetes, 176, 191, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+27, Author, 217, 228, "Hollander P", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Hollander P\"."
+28, Author, 237, 244, "Lasko B", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Lasko B\"."
+29, Author, 247, 257, "Barnett AH", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Barnett AH\"."
+30, Author, 260, 268, "Bengus M", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Bengus M\"."
+31, Author, 271, 280, "Kanitra L", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Kanitra L\"."
+32, Author, 283, 297, "Pi - Sunyer FX", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Pi - Sunyer FX\"."
+33, Author, 300, 308, "Balena R", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasAuthor> \"Balena R\"."
+34, USA, 402, 405, "USA", "", "<http://ctro/data#Population_44400> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+127, ObjectiveDescription, 450, 600, "Therapies that lower blood glucose and provide weight loss may provide meaningful benefits for obese patients with type 2 diabetes mellitus ( T2DM ) .", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasObjectiveDescription> \"Therapies that lower blood glucose and provide weight loss may provide meaningful benefits for obese patients with type 2 diabetes mellitus ( T2DM ) .\"."
+122, BloodGlucose, 471, 484, "blood glucose", "", 
+12, BodyWeight, 497, 503, "weight", "", 
+23, Precondition, 545, 589, "obese patients with type 2 diabetes mellitus", "", 
+17, Type2Diabetes, 565, 589, "type 2 diabetes mellitus", "", 
+18, Type2Diabetes, 592, 596, "T2DM", "", 
+37, ObjectiveDescription, 601, 783, "This study assessed the efficacy of taspoglutide compared with placebo on glycemic control and weight in obese patients with T2DM inadequately controlled with metformin monotherapy .", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasObjectiveDescription> \"This study assessed the efficacy of taspoglutide compared with placebo on glycemic control and weight in obese patients with T2DM inadequately controlled with metformin monotherapy .\"."
+106323, Taspoglutide, 637, 649, "taspoglutide", "", 
+35, Placebo, 664, 671, "placebo", "", 
+13, BodyWeight, 696, 702, "weight", "", 
+24, Precondition, 706, 781, "obese patients with T2DM inadequately controlled with metformin monotherapy", "", "<http://ctro/data#Population_44400> <http://ctro/data#hasPrecondition> \"obese patients with T2DM inadequately controlled with metformin monotherapy\"."
+19, Type2Diabetes, 726, 730, "T2DM", "", 
+36, Metformin, 760, 769, "metformin", "", 
+38, Duration, 810, 819, "24 - week", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasCTduration> \"24 - week\"."
+39, Randomized, 822, 832, "randomized", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+40, DoubleBlind, 835, 849, "double - blind", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+41, Placebo, 852, 859, "placebo", "", 
+48, Multicenter, 875, 886, "multicenter", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+49, Precondition, 895, 917, "obese adults with T2DM", "", 
+20, Type2Diabetes, 913, 917, "T2DM", "", 
+50, Randomized, 923, 933, "randomized", "", 
+51, AllocationRatio, 936, 941, "1 : 1", "", "<http://ctro/data#AllocationRatio_44388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_44388>."
+52, Frequency, 947, 953, "weekly", "", "<http://ctro/data#Intervention_44426> <http://ctro/data#hasFrequency> \"weekly\". <http://ctro/data#Intervention_44432> <http://ctro/data#hasFrequency> \"weekly\"."
+53, Subcutaneous, 954, 966, "subcutaneous", "", "<http://ctro/data#Intervention_44426> <http://ctro/data#hasFrequency> \"weekly\". <http://ctro/data#Intervention_44432> <http://ctro/data#hasFrequency> \"weekly\"."
+106324, Taspoglutide, 967, 979, "taspoglutide", "", 
+54, DoseValue, 980, 982, "20", "", "<http://ctro/data#Medication_44438> <http://ctro/data#hasDoseValue> \"20\"."
+55, mg, 983, 985, "mg", "", "<http://ctro/data#Medication_44438> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+57, DoseValue, 988, 990, "10", "", 
+56, mg, 991, 993, "mg", "", 
+58, TimePoint, 994, 1011, "for first 4 weeks", "", 
+59, NumberPatientsArm, 1020, 1023, "154", "", "<http://ctro/data#Arm_44408> <http://ctro/data#hasNumberPatientsArm> \"154\"."
+42, Placebo, 1029, 1036, "placebo", "", "<http://ctro/data#Medication_44445> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+60, NumberPatientsArm, 1043, 1046, "151", "", "<http://ctro/data#Arm_44417> <http://ctro/data#hasNumberPatientsArm> \"151\"."
+61, Duration, 1053, 1061, "24 weeks", "", 
+62, HbA1c, 1091, 1105, "hemoglobin A1c", "", 
+63, HbA1c, 1108, 1113, "HbA1c", "", 
+14, BodyWeight, 1125, 1136, "body weight", "", 
+95, HbA1c_target, 1172, 1199, "HbA1c ≤ 6 . 5 and ≤ 7 . 0 %", "", 
+157, Percentage, 1198, 1199, "%", "", 
+66, FastingPlasmaGlucose, 1206, 1228, "fasting plasma glucose", "", 
+67, FastingPlasmaGlucose, 1231, 1234, "FPG", "", 
+69, EndPointDescription, 1239, 1253, "Adverse events", "", 
+70, EndPointDescription, 1256, 1259, "AEs", "", 
+160, Mean, 1288, 1292, "Mean", "", 
+162, TimePoint, 1293, 1301, "baseline", "", 
+64, HbA1c, 1302, 1307, "HbA1c", "", "<http://ctro/data#Endpoint_44477> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+72, BaseLineValue, 1312, 1318, "7 . 55", "", "<http://ctro/data#Outcome_44482> <http://ctro/data#hasBaselineValue> \"7 . 55\". <http://ctro/data#Outcome_44509> <http://ctro/data#hasBaselineValue> \"7 . 55\"."
+74, Percentage, 1319, 1320, "%", "", "<http://ctro/data#Endpoint_44477> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+165, Mean, 1325, 1329, "mean", "", 
+166, TimePoint, 1330, 1338, "baseline", "", 
+77, BMI, 1339, 1342, "BMI", "", 
+73, BaseLineValue, 1347, 1353, "36 . 7", "", 
+78, Kg_per_squareMeter, 1354, 1366, "kg / m ( 2 )", "", 
+65, HbA1c, 1369, 1374, "HbA1c", "", 
+171, TimePoint, 1391, 1399, "baseline", "", 
+106326, Taspoglutide, 1432, 1444, "taspoglutide", "", 
+43, Placebo, 1450, 1457, "placebo", "", 
+79, LeastSquaresMean, 1460, 1477, "least square mean", "", "<http://ctro/data#Endpoint_44477> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+80, LeastSquaresMean, 1480, 1486, "LSMean", "", 
+81, Reduction, 1493, 1499, "0 . 81", "", "<http://ctro/data#Outcome_44482> <http://ctro/data#hasChangeValue> \"0 . 81\"."
+75, Percentage, 1500, 1501, "%", "", 
+82, Reduction, 1509, 1515, "0 . 09", "", "<http://ctro/data#Outcome_44509> <http://ctro/data#hasChangeValue> \"0 . 09\"."
+76, Percentage, 1516, 1517, "%", "", 
+83, PvalueDiff, 1520, 1532, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_44536> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+15, BodyWeight, 1537, 1543, "Weight", "", "<http://ctro/data#Endpoint_44545> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+106, TimePoint, 1552, 1559, "week 24", "", "<http://ctro/data#Outcome_44550> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_44577> <http://ctro/data#hasTimePoint> \"week 24\"."
+106325, Taspoglutide, 1591, 1603, "taspoglutide", "", 
+44, Placebo, 1609, 1616, "placebo", "", 
+86, LeastSquaresMean, 1619, 1625, "LSMean", "", "<http://ctro/data#Endpoint_44545> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+87, Reduction, 1630, 1636, "3 . 16", "", "<http://ctro/data#Outcome_44550> <http://ctro/data#hasChangeValue> \"3 . 16\"."
+88, Reduction, 1644, 1650, "1 . 85", "", "<http://ctro/data#Outcome_44577> <http://ctro/data#hasChangeValue> \"1 . 85\"."
+89, Kg, 1651, 1653, "kg", "", "<http://ctro/data#Endpoint_44545> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+84, PvalueDiff, 1656, 1666, "P < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_44604> <http://ctro/data#hasPvalueDiff> \"P < 0 . 01\"."
+106327, Taspoglutide, 1678, 1690, "taspoglutide", "", 
+45, Placebo, 1695, 1702, "placebo", "", 
+96, HbA1c_target, 1712, 1745, "target HbA1c levels ( ≤ 6 . 5 % )", "", "<http://ctro/data#Endpoint_44613> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+198, Percentage, 1742, 1743, "%", "", 
+193, PercentageAffected, 1763, 1765, "49", "", "<http://ctro/data#Outcome_44623> <http://ctro/data#hasPercentageAffected> \"49\"."
+92, PercentageAffected, 1770, 1772, "16", "", "<http://ctro/data#Outcome_44650> <http://ctro/data#hasPercentageAffected> \"16\"."
+195, PercentageAffected, 1810, 1812, "72", "", "<http://ctro/data#Outcome_44677> <http://ctro/data#hasPercentageAffected> \"72\"."
+93, PercentageAffected, 1817, 1819, "36", "", "<http://ctro/data#Outcome_44704> <http://ctro/data#hasPercentageAffected> \"36\"."
+94, HbA1c_target, 1831, 1849, "HbA1c levels ≤ 7 %", "", "<http://ctro/data#Endpoint_44618> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+201, Percentage, 1848, 1849, "%", "", 
+68, FastingPlasmaGlucose, 1865, 1868, "FPG", "", "<http://ctro/data#Endpoint_44731> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+106328, Taspoglutide, 1901, 1913, "taspoglutide", "", 
+46, Placebo, 1919, 1926, "placebo", "", 
+97, Reduction, 1931, 1938, "23 . 59", "", "<http://ctro/data#Outcome_44736> <http://ctro/data#hasChangeValue> \"23 . 59\"."
+98, Increment, 1944, 1950, "0 . 09", "", "<http://ctro/data#Outcome_44763> <http://ctro/data#hasChangeValue> \"0 . 09\"."
+99, Mg_per_deciliter, 1951, 1958, "mg / dl", "", "<http://ctro/data#Endpoint_44731> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+85, PvalueDiff, 1961, 1973, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_44790> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+100, Nausea, 1978, 1984, "Nausea", "", "<http://ctro/data#Endpoint_44799> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Nausea>."
+101, EndPointDescription, 1989, 1997, "vomiting", "", "<http://ctro/data#EndPointDescription_44805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_44804> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_44805>."
+102, ObservedResult, 2003, 2111, "the most common AEs associated with taspoglutide , but tended to be transient and generally mild or moderate", "", "<http://ctro/data#Outcome_44809> <http://ctro/data#hasObservedResult> \"the most common AEs associated with taspoglutide , but tended to be transient and generally mild or moderate\". <http://ctro/data#Outcome_44836> <http://ctro/data#hasObservedResult> \"the most common AEs associated with taspoglutide , but tended to be transient and generally mild or moderate\"."
+71, EndPointDescription, 2019, 2022, "AEs", "", 
+106329, Taspoglutide, 2039, 2051, "taspoglutide", "", 
+104, ConclusionComment, 2128, 2253, "In obese patients with T2DM , once - weekly taspoglutide provided the combined benefits of glycemic control and weight loss .", "", "<http://ctro/data#ClinicalTrial_44384> <http://ctro/data#hasConclusionComment> \"In obese patients with T2DM , once - weekly taspoglutide provided the combined benefits of glycemic control and weight loss .\"."
+21, Type2Diabetes, 2151, 2155, "T2DM", "", 
+103, Frequency, 2158, 2171, "once - weekly", "", 
+106330, Taspoglutide, 2172, 2184, "taspoglutide", "", 
+47, BodyWeight, 2240, 2246, "weight", "", 
+105, PMID, 2330, 2338, "23404788", "", "<http://ctro/data#Publication_44377> <http://ctro/data#hasPMID> \"23404788\"."

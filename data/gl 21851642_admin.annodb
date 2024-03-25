@@ -1,0 +1,113 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "BMC Ophthalmol .", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasJournal> \"BMC Ophthalmol .\"."
+1, PublicationYear, 17, 21, "2011", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasPublicationYear> \"2011\"."
+2, Title, 83, 253, "Comparative efficacy and safety of the fixed versus unfixed combination of latanoprost and timolol in Chinese patients with open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasTitle> \"Comparative efficacy and safety of the fixed versus unfixed combination of latanoprost and timolol in Chinese patients with open - angle glaucoma or ocular hypertension .\"."
+3, Latanoprost, 158, 169, "latanoprost", "", 
+98, Lat/TimFC, 158, 181, "latanoprost and timolol", "", 
+4, Timolol, 174, 181, "timolol", "", 
+5, Ethnicity, 185, 192, "Chinese", "", "<http://ctro/data#Ethnicity_65355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_65353> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_65355>."
+6, OpenAngleGlaucoma, 207, 228, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+7, OcularHypertension, 232, 251, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+8, Author, 254, 261, "Zhao JL", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Zhao JL\"."
+9, Author, 270, 274, "Ge J", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Ge J\"."
+10, Author, 277, 282, "Li XX", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Li XX\"."
+11, Author, 285, 290, "Li YM", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Li YM\"."
+12, Author, 293, 301, "Sheng YH", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Sheng YH\"."
+13, Author, 304, 310, "Sun NX", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Sun NX\"."
+14, Author, 313, 319, "Sun XH", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Sun XH\"."
+15, Author, 322, 327, "Yao K", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Yao K\"."
+16, Author, 330, 337, "Zhong Z", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasAuthor> \"Zhong Z\"."
+113, Lat/TimFC, 340, 347, "Xalacom", "", "<http://ctro/data#Medication_65403> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+17, China, 363, 368, "China", "", "<http://ctro/data#Population_65353> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+18, China, 785, 790, "China", "", 
+19, ObjectiveDescription, 840, 1041, "A noninferiority trial was conducted to evaluate the efficacy of a single evening dose of fixed - combination latanoprost 50 μ g / mL and timolol 0 . 5 mg / mL ( Xalacom ®; LTFC ) , in Chinese patients", "", 
+21, Lat/TimFC, 930, 999, "fixed - combination latanoprost 50 μ g / mL and timolol 0 . 5 mg / mL", "", 
+22, Latanoprost, 950, 961, "latanoprost", "", 
+23, DoseValue, 962, 964, "50", "", 
+119, ConcentrationUnit, 965, 973, "μ g / mL", "", 
+24, Timolol, 978, 985, "timolol", "", 
+25, DoseValue, 986, 991, "0 . 5", "", 
+118, ConcentrationUnit, 992, 999, "mg / mL", "", 
+117, Lat/TimFC, 1002, 1009, "Xalacom", "", 
+26, Lat/TimFC, 1013, 1017, "LTFC", "", 
+27, Ethnicity, 1025, 1032, "Chinese", "", 
+20, ObjectiveDescription, 1042, 1213, "with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) who were insufficiently controlled on β- blocker monotherapy or β- blocker - based dual therapy .", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasObjectiveDescription> \"with primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) who were insufficiently controlled on β- blocker monotherapy or β- blocker - based dual therapy .\"."
+89463, Precondition, 1047, 1211, "primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) who were insufficiently controlled on β- blocker monotherapy or β- blocker - based dual therapy", "", "<http://ctro/data#Population_65353> <http://ctro/data#hasPrecondition> \"primary open - angle glaucoma ( POAG ) or ocular hypertension ( OH ) who were insufficiently controlled on β- blocker monotherapy or β- blocker - based dual therapy\"."
+28, Primary_OpenAngleGlaucoma, 1047, 1076, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+29, Primary_OpenAngleGlaucoma, 1079, 1083, "POAG", "", 
+30, OcularHypertension, 1089, 1108, "ocular hypertension", "", 
+31, OcularHypertension, 1111, 1113, "OH", "", 
+33, Duration, 1229, 1237, "8 - week", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasCTduration> \"8 - week\". <http://ctro/data#Intervention_65389> <http://ctro/data#hasDuration> \"8 - week\"."
+34, Randomized, 1240, 1250, "randomized", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+35, OpenLabel, 1253, 1265, "open - label", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+36, Parallel, 1268, 1284, "parallel - group", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+37, Frequency, 1317, 1329, "once - daily", "", "<http://ctro/data#Intervention_65389> <http://ctro/data#hasFrequency> \"once - daily\"."
+38, Evening, 1330, 1337, "evening", "", "<http://ctro/data#Intervention_65389> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+39, Lat/TimFC, 1348, 1352, "LTFC", "", 
+40, Latanoprost, 1385, 1396, "latanoprost", "", "<http://ctro/data#Latanoprost_65440> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_65439> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_65440>."
+89468, DoseDescription, 1399, 1407, "one drop", "", "<http://ctro/data#Medication_65439> <http://ctro/data#hasDoseDescription> \"one drop\"."
+139, Eyedrops, 1403, 1407, "drop", "", "<http://ctro/data#Medication_65439> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+41, Evening, 1415, 1422, "evening", "", "<http://ctro/data#Intervention_65395> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+42, Timolol, 1429, 1436, "timolol", "", "<http://ctro/data#Medication_65446> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+89471, DoseDescription, 1439, 1447, "one drop", "", "<http://ctro/data#Medication_65446> <http://ctro/data#hasDoseDescription> \"one drop\"."
+140, Eyedrops, 1443, 1447, "drop", "", "<http://ctro/data#Medication_65446> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+43, Morning, 1455, 1462, "morning", "", "<http://ctro/data#Intervention_98600> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+44, Mean, 1513, 1517, "mean", "", "<http://ctro/data#Mean_65363> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_65361> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_65363>."
+45, TimePoint, 1530, 1538, "baseline", "", 
+46, TimePoint, 1542, 1548, "week 8", "", 
+47, Diurnal_IOP, 1552, 1580, "diurnal intraocular pressure", "", "<http://ctro/data#Endpoint_65361> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+48, IOP, 1583, 1586, "IOP", "", 
+145, Mean, 1589, 1593, "mean", "", 
+146, TimePoint, 1597, 1601, "8 AM", "", 
+147, TimePoint, 1604, 1609, "10 AM", "", 
+148, TimePoint, 1612, 1616, "2 PM", "", 
+149, TimePoint, 1619, 1623, "4 PM", "", 
+150, IOP, 1624, 1628, "IOPs", "", 
+49, Lat/TimFC, 1633, 1637, "LTFC", "", 
+50, mmHg, 1762, 1766, "mmHg", "", "<http://ctro/data#Endpoint_65361> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+52, Lat/TimFC, 1848, 1852, "LTFC", "", 
+58, NumberPatientsArm, 1859, 1862, "125", "", "<http://ctro/data#Arm_65371> <http://ctro/data#hasNumberPatientsArm> \"125\"."
+53, Primary_OpenAngleGlaucoma, 1865, 1869, "POAG", "", 
+162, PercentageAffected, 1872, 1874, "70", "", 
+54, Mean, 1879, 1883, "mean", "", 
+55, IOP, 1884, 1887, "IOP", "", 
+56, BaseLineValue, 1890, 1896, "25 . 8", "", "<http://ctro/data#Outcome_65411> <http://ctro/data#hasBaselineValue> \"25 . 8\"."
+57, mmHg, 1897, 1901, "mmHg", "", 
+59, NumberPatientsArm, 1920, 1923, "125", "", 
+60, Primary_OpenAngleGlaucoma, 1926, 1930, "POAG", "", 
+163, PercentageAffected, 1933, 1935, "69", "", 
+61, Mean, 1940, 1944, "mean", "", 
+62, IOP, 1945, 1948, "IOP", "", 
+63, BaseLineValue, 1951, 1957, "26 . 0", "", "<http://ctro/data#Outcome_65454> <http://ctro/data#hasBaselineValue> \"26 . 0\"."
+64, mmHg, 1958, 1962, "mmHg", "", 
+65, Mean, 1967, 1971, "Mean", "", 
+66, Diurnal_IOP, 1972, 1983, "diurnal IOP", "", 
+67, TimePoint, 1997, 2005, "baseline", "", 
+68, TimePoint, 2009, 2015, "week 8", "", "<http://ctro/data#Outcome_65411> <http://ctro/data#hasTimePoint> \"week 8\". <http://ctro/data#Outcome_65454> <http://ctro/data#hasTimePoint> \"week 8\"."
+69, Reduction, 2023, 2028, "8 . 6", "", "<http://ctro/data#Outcome_65411> <http://ctro/data#hasChangeValue> \"8 . 6\"."
+71, mmHg, 2029, 2033, "mmHg", "", 
+73, Lat/TimFC, 2039, 2043, "LTFC", "", 
+70, Reduction, 2050, 2055, "8 . 9", "", "<http://ctro/data#Outcome_65454> <http://ctro/data#hasChangeValue> \"8 . 9\"."
+72, mmHg, 2056, 2060, "mmHg", "", 
+74, DiffGroupAbsValue, 2107, 2112, "0 . 3", "", "<http://ctro/data#DiffBetweenGroups_65481> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 3\"."
+75, mmHg, 2113, 2117, "mmHg", "", 
+183, ConfIntervalDiff, 2120, 2148, "95 % - CI , - 0 . 3 to 1 . 0", "", "<http://ctro/data#DiffBetweenGroups_65481> <http://ctro/data#hasConfIntervalDiff> \"95 % - CI , - 0 . 3 to 1 . 0\"."
+77, ConclusionComment, 2205, 2370, "A single evening dose of LTFC was at least as effective as the unfixed combination of latanoprost in the PM and timolol in the AM in reducing IOP in Chinese subjects", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasConclusionComment> \"A single evening dose of LTFC was at least as effective as the unfixed combination of latanoprost in the PM and timolol in the AM in reducing IOP in Chinese subjects\"."
+79, Evening, 2214, 2221, "evening", "", 
+80, Lat/TimFC, 2230, 2234, "LTFC", "", 
+81, Latanoprost, 2291, 2302, "latanoprost", "", 
+89488, Evening, 2303, 2312, "in the PM", "", 
+82, Timolol, 2317, 2324, "timolol", "", 
+89489, Morning, 2325, 2334, "in the AM", "", 
+83, IOP, 2347, 2350, "IOP", "", 
+84, Ethnicity, 2354, 2361, "Chinese", "", 
+85, Primary_OpenAngleGlaucoma, 2376, 2380, "POAG", "", 
+86, OcularHypertension, 2384, 2386, "OH", "", 
+77, ConclusionComment, 2387, 2488, "whose IOP was insufficiently reduced with β- blocker monotherapy or β- blocker - based dual therapy .", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasConclusionComment> \"whose IOP was insufficiently reduced with β- blocker monotherapy or β- blocker - based dual therapy .\"."
+87, IOP, 2393, 2396, "IOP", "", 
+88, ConclusionComment, 2489, 2569, "LTFC is an effective and well tolerated once - daily treatment for POAG and OH .", "", "<http://ctro/data#ClinicalTrial_65327> <http://ctro/data#hasConclusionComment> \"LTFC is an effective and well tolerated once - daily treatment for POAG and OH .\"."
+89, Lat/TimFC, 2489, 2493, "LTFC", "", 
+90, Frequency, 2529, 2541, "once - daily", "", 
+91, Primary_OpenAngleGlaucoma, 2556, 2560, "POAG", "", 
+92, OcularHypertension, 2565, 2567, "OH", "", 
+93, PMID, 2636, 2644, "21851642", "", "<http://ctro/data#Publication_65312> <http://ctro/data#hasPMID> \"21851642\"."

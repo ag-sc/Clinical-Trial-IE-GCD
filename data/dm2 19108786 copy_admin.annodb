@@ -1,0 +1,178 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 11, "Clin Ther .", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasJournal> \"Clin Ther .\"."
+1, PublicationYear, 12, 16, "2008", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasPublicationYear> \"2008\"."
+160, Title, 99, 344, "A 52 - week , multinational , open - label , parallel - group , noninferiority , treat - to - target trial comparing insulin detemir with insulin glargine in a basal - bolus regimen with mealtime insulin aspart in patients with type 2 diabetes .", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasTitle> \"A 52 - week , multinational , open - label , parallel - group , noninferiority , treat - to - target trial comparing insulin detemir with insulin glargine in a basal - bolus regimen with mealtime insulin aspart in patients with type 2 diabetes .\"."
+2, Duration, 101, 110, "52 - week", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTduration> \"52 - week\"."
+153, Multicenter, 113, 126, "multinational", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+3, OpenLabel, 129, 141, "open - label", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+4, Parallel, 144, 160, "parallel - group", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+5, CTDesign, 163, 177, "noninferiority", "", "<http://ctro/data#CTDesign_110825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_110825>."
+6, CTDesign, 180, 199, "treat - to - target", "", "<http://ctro/data#CTDesign_110826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_110826>."
+7, InsulinDetemir, 216, 231, "insulin detemir", "", 
+8, InsulinGlargine, 237, 253, "insulin glargine", "", 
+9, RelativeTime, 286, 294, "mealtime", "", 
+10, InsulinAspart, 295, 309, "insulin aspart", "", 
+11, Type2Diabetes, 327, 342, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+12, Author, 345, 356, "Hollander P", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasAuthor> \"Hollander P\"."
+13, Author, 365, 373, "Cooper J", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasAuthor> \"Cooper J\"."
+14, Author, 376, 388, "Bregnh ø j J", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasAuthor> \"Bregnh ø j J\"."
+15, Author, 391, 402, "Pedersen CB", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasAuthor> \"Pedersen CB\"."
+16, USA, 477, 480, "USA", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+28, ObjectiveDescription, 653, 809, "This trial compared the efficacy and safety profiles of the insulin analogues detemir and glargine as the basal insulin component of a basal - bolus regimen", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasObjectiveDescription> \"This trial compared the efficacy and safety profiles of the insulin analogues detemir and glargine as the basal insulin component of a basal - bolus regimen\"."
+17, Insulin, 713, 720, "insulin", "", 
+18, InsulinDetemir, 731, 738, "detemir", "", 
+19, InsulinGlargine, 743, 751, "glargine", "", 
+52521, Insulin, 765, 772, "insulin", "", 
+314, ObjectiveDescription, 810, 955, "in patients with type 2 diabetes mellitus ( T2DM ) who were being treated with oral antidiabetic drugs ( OADs ) or insulin with or without OADs .", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasObjectiveDescription> \"in patients with type 2 diabetes mellitus ( T2DM ) who were being treated with oral antidiabetic drugs ( OADs ) or insulin with or without OADs .\"."
+27, Precondition, 813, 953, "patients with type 2 diabetes mellitus ( T2DM ) who were being treated with oral antidiabetic drugs ( OADs ) or insulin with or without OADs", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes mellitus ( T2DM ) who were being treated with oral antidiabetic drugs ( OADs ) or insulin with or without OADs\"."
+21, Type2Diabetes, 827, 851, "type 2 diabetes mellitus", "", 
+22, Type2Diabetes, 854, 858, "T2DM", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+23, OralAntidiabeticAgent, 889, 912, "oral antidiabetic drugs", "", 
+24, OralAntidiabeticAgent, 915, 919, "OADs", "", 
+26, Insulin, 925, 932, "insulin", "", 
+25, OralAntidiabeticAgent, 949, 953, "OADs", "", 
+174, Multicenter, 977, 990, "multinational", "", 
+29, Duration, 993, 1002, "52 - week", "", 
+30, OpenLabel, 1005, 1014, "openlabel", "", 
+31, Parallel, 1017, 1033, "parallel - group", "", 
+32, CTDesign, 1036, 1050, "noninferiority", "", 
+33, CTDesign, 1053, 1072, "treat - to - target", "", 
+42, Precondition, 1081, 1216, "Patients with a diagnosis of T2DM for > or = 12 months who had been receiving an OAD or insulin , with or without OADs , for > 4 months", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasPrecondition> \"Patients with a diagnosis of T2DM for > or = 12 months who had been receiving an OAD or insulin , with or without OADs , for > 4 months\"."
+34, Type2Diabetes, 1110, 1114, "T2DM", "", 
+35, OralAntidiabeticAgent, 1162, 1165, "OAD", "", 
+37, Insulin, 1169, 1176, "insulin", "", 
+36, OralAntidiabeticAgent, 1195, 1199, "OADs", "", 
+38, Randomized, 1222, 1232, "randomized", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+39, AllocationRatio, 1238, 1243, "2 : 1", "", "<http://ctro/data#AllocationRatio_110810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_110810>."
+40, InsulinDetemir, 1261, 1268, "detemir", "", 
+41, InsulinGlargine, 1272, 1280, "glargine", "", 
+43, InsulinDetemir, 1320, 1327, "detemir", "", "<http://ctro/data#Medication_110877> <http://ctro/data#hasDrug> <http://ctro/data#InsulinDetemir>."
+44, Frequency, 1350, 1369, "once or twice daily", "", "<http://ctro/data#Intervention_110859> <http://ctro/data#hasFrequency> \"once or twice daily\"."
+45, InsulinGlargine, 1376, 1384, "glargine", "", "<http://ctro/data#Medication_110884> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+46, Frequency, 1402, 1412, "once daily", "", "<http://ctro/data#Intervention_110865> <http://ctro/data#hasFrequency> \"once daily\"."
+47, InsulinAspart, 1415, 1429, "Insulin aspart", "", "<http://ctro/data#Medication_111224> <http://ctro/data#hasDrug> <http://ctro/data#InsulinAspart>."
+52522, RelativeTime, 1443, 1452, "mealtimes", "", "<http://ctro/data#RelativeTime_110876> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_110871> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_110876>."
+49, Insulin, 1455, 1462, "Insulin", "", 
+50, OralAntidiabeticAgent, 1556, 1560, "OADs", "", 
+51, InsulinDetemir, 1587, 1594, "detemir", "", 
+52, InsulinGlargine, 1599, 1607, "glargine", "", 
+52525, DoseDescription, 1608, 1749, "were titrated to achieve a prebreakfast ( and predinner for detemir administered twice daily ) plasma glucose target of < or = 6 . 0 mmol / L", "", "<http://ctro/data#Medication_110877> <http://ctro/data#hasDoseDescription> \"were titrated to achieve a prebreakfast ( and predinner for detemir administered twice daily ) plasma glucose target of < or = 6 . 0 mmol / L\". <http://ctro/data#Medication_110884> <http://ctro/data#hasDoseDescription> \"were titrated to achieve a prebreakfast ( and predinner for detemir administered twice daily ) plasma glucose target of < or = 6 . 0 mmol / L\"."
+52524, RelativeTime, 1635, 1647, "prebreakfast", "", 
+52523, RelativeTime, 1654, 1663, "predinner", "", 
+55, InsulinDetemir, 1668, 1675, "detemir", "", 
+56, Frequency, 1689, 1700, "twice daily", "", 
+57, FastingPlasmaGlucose_target, 1703, 1749, "plasma glucose target of < or = 6 . 0 mmol / L", "", 
+200, Millimoles_per_litre, 1741, 1749, "mmol / L", "", 
+316, PlasmaGlucose, 1777, 1791, "plasma glucose", "", 
+58, Insulin, 1893, 1900, "insulin", "", 
+317, PlasmaGlucose, 1977, 1991, "plasma glucose", "", 
+318, PlasmaGlucose, 1994, 1998, "SMPG", "", 
+202, TimePoint, 2004, 2012, "baseline", "", 
+203, TimePoint, 2017, 2025, "after 24", "", 
+204, TimePoint, 2030, 2038, "52 weeks", "", 
+59, HbA1c, 2076, 2099, "glycosylated hemoglobin", "", "<http://ctro/data#Endpoint_110891> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+60, HbA1c, 2102, 2112, "HbA ( 1c )", "", 
+206, TimePoint, 2118, 2126, "52 weeks", "", 
+62, FastingPlasmaGlucose, 2179, 2201, "fasting plasma glucose", "", 
+63, FastingPlasmaGlucose, 2204, 2207, "FPG", "", 
+319, PostprandialPlasmaGlucose, 2212, 2239, "postprandial plasma glucose", "", 
+320, InsulinDose, 2242, 2255, "insulin doses", "", 
+64, BodyWeight, 2262, 2268, "weight", "", 
+211, TimePoint, 2279, 2287, "52 weeks", "", 
+65, Hypoglycemia, 2334, 2346, "hypoglycemia", "", 
+66, EndPointDescription, 2351, 2365, "adverse events", "", 
+67, EndPointDescription, 2368, 2371, "AEs", "", 
+68, IntentionToTreat, 2390, 2412, "intention - to - treat", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+69, NumberPatientsCT, 2433, 2436, "319", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasNumberPatientsCT> \"319\"."
+70, Male, 2448, 2456, "58 . 0 %", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+71, Female, 2464, 2472, "42 . 0 %", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasGender> <http://ctro/data#Female>."
+72, Ethnicity, 2482, 2496, "78 . 4 % white", "", "<http://ctro/data#Ethnicity_110833> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_110831> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_110833>."
+218, Mean, 2499, 2503, "mean", "", 
+73, AvgAge, 2510, 2512, "58", "", "<http://ctro/data#Population_110831> <http://ctro/data#hasAvgAge> \"58\"."
+216, Year, 2513, 2518, "years", "", 
+217, Mean, 2521, 2525, "mean", "", 
+74, BodyWeight, 2526, 2532, "weight", "", 
+75, Kg, 2542, 2544, "kg", "", 
+219, Mean, 2547, 2551, "mean", "", 
+102224, Duration, 2575, 2587, "13 . 6 years", "", 
+322, TimePoint, 2595, 2606, "study entry", "", 
+226, OralAntidiabeticAgent, 2666, 2669, "OAD", "", 
+228, OralAntidiabeticAgent, 2746, 2749, "OAD", "", 
+230, TimePoint, 2760, 2768, "52 weeks", "", "<http://ctro/data#Outcome_110896> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_110923> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_110964> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_110991> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_111100> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_111127> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_111159> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_111186> <http://ctro/data#hasTimePoint> \"52 weeks\"."
+84, InsulinDetemir, 2815, 2822, "detemir", "", 
+85, InsulinGlargine, 2827, 2835, "glargine", "", 
+240, Mean, 2848, 2852, "mean", "", "<http://ctro/data#Mean_110893> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_110891> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_110893>."
+86, HbA1c, 2853, 2863, "HbA ( 1c )", "", 
+89, ResultMeasuredValue, 2866, 2872, "7 . 19", "", "<http://ctro/data#Outcome_110896> <http://ctro/data#hasResultMeasuredValue> \"7 . 19\"."
+91, Percentage, 2873, 2874, "%", "", "<http://ctro/data#Endpoint_110891> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+90, ResultMeasuredValue, 2879, 2885, "7 . 03", "", "<http://ctro/data#Outcome_110923> <http://ctro/data#hasResultMeasuredValue> \"7 . 03\"."
+92, Percentage, 2886, 2887, "%", "", 
+241, Mean, 2905, 2909, "mean", "", 
+88, DiffGroupAbsValue, 2923, 2929, "0 . 17", "", "<http://ctro/data#DiffBetweenGroups_110950> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 17\"."
+93, Percentage, 2930, 2931, "%", "", 
+87, ConfIntervalDiff, 2934, 2962, "95 % CI , - 0 . 07 to 0 . 40", "", "<http://ctro/data#DiffBetweenGroups_110950> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 07 to 0 . 40\"."
+242, Mean, 2974, 2978, "mean", "", 
+96, HbA1c, 2991, 2996, "HbAlc", "", 
+323, TimePoint, 3002, 3010, "baseline", "", 
+97, Reduction, 3015, 3021, "1 . 52", "", "<http://ctro/data#Outcome_110896> <http://ctro/data#hasChangeValue> \"1 . 52\"."
+94, Percentage, 3022, 3023, "%", "", 
+98, Reduction, 3030, 3036, "1 . 68", "", "<http://ctro/data#Outcome_110923> <http://ctro/data#hasChangeValue> \"1 . 68\"."
+95, Percentage, 3037, 3038, "%", "", 
+99, HbA1c, 3060, 3070, "HbA ( 1c )", "", 
+100, InsulinDetemir, 3113, 3120, "detemir", "", 
+101, Frequency, 3138, 3157, "once or twice daily", "", 
+52526, Mean, 3225, 3229, "mean", "", "<http://ctro/data#Mean_110961> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_110959> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_110961>."
+102, FastingPlasmaGlucose, 3230, 3233, "FPG", "", "<http://ctro/data#Endpoint_110959> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+104, ResultMeasuredValue, 3236, 3242, "7 . 05", "", "<http://ctro/data#Outcome_110964> <http://ctro/data#hasResultMeasuredValue> \"7 . 05\"."
+105, ResultMeasuredValue, 3247, 3253, "6 . 68", "", "<http://ctro/data#Outcome_110991> <http://ctro/data#hasResultMeasuredValue> \"6 . 68\"."
+106, Millimoles_per_litre, 3254, 3262, "mmol / L", "", "<http://ctro/data#Endpoint_110959> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+52527, Mean, 3272, 3276, "mean", "", 
+103, FastingPlasmaGlucose, 3287, 3290, "FPG", "", 
+333, TimePoint, 3296, 3304, "baseline", "", 
+109, Reduction, 3309, 3315, "2 . 56", "", "<http://ctro/data#Outcome_110964> <http://ctro/data#hasChangeValue> \"2 . 56\"."
+108, Reduction, 3322, 3328, "2 . 92", "", "<http://ctro/data#Outcome_110991> <http://ctro/data#hasChangeValue> \"2 . 92\"."
+107, Millimoles_per_litre, 3329, 3337, "mmol / L", "", 
+263, Mean, 3340, 3344, "mean", "", 
+110, DiffGroupAbsValue, 3358, 3364, "0 . 36", "", "<http://ctro/data#DiffBetweenGroups_111018> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 36\"."
+111, ConfIntervalDiff, 3367, 3395, "95 % CI , - 0 . 26 to 0 . 99", "", "<http://ctro/data#DiffBetweenGroups_111018> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 0 . 26 to 0 . 99\"."
+267, Mean, 3499, 3503, "Mean", "", "<http://ctro/data#Mean_111029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_111027> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_111029>."
+268, WeightGain, 3504, 3515, "weight gain", "", "<http://ctro/data#Endpoint_111027> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#WeightGain>."
+269, TimePoint, 3519, 3527, "52 weeks", "", "<http://ctro/data#Outcome_111032> <http://ctro/data#hasTimePoint> \"52 weeks\". <http://ctro/data#Outcome_111059> <http://ctro/data#hasTimePoint> \"52 weeks\"."
+115, InsulinDetemir, 3557, 3564, "detemir", "", 
+116, InsulinGlargine, 3575, 3583, "glargine", "", 
+272, ResultMeasuredValue, 3586, 3591, "2 . 8", "", "<http://ctro/data#Outcome_111032> <http://ctro/data#hasResultMeasuredValue> \"2 . 8\"."
+273, ResultMeasuredValue, 3595, 3600, "3 . 8", "", "<http://ctro/data#Outcome_111059> <http://ctro/data#hasResultMeasuredValue> \"3 . 8\"."
+119, Kg, 3601, 3603, "kg", "", "<http://ctro/data#Endpoint_111027> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+275, Mean, 3606, 3610, "mean", "", 
+120, DiffGroupAbsValue, 3624, 3632, "- 1 . 04", "", "<http://ctro/data#DiffBetweenGroups_111086> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 04\"."
+121, ConfIntervalDiff, 3635, 3665, "95 % CI , - 2 . 08 to - 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_111086> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 2 . 08 to - 0 . 01\"."
+122, PvalueDiff, 3668, 3678, "P < 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_111086> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 2 . 08 to - 0 . 01\"."
+334, TimePoint, 3723, 3743, "the end of the study", "", 
+125, Hypoglycemia, 3800, 3812, "hypoglycemic", "", "<http://ctro/data#Endpoint_111095> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+124, PercentageAffected, 3839, 3844, "4 . 7", "", "<http://ctro/data#Outcome_111100> <http://ctro/data#hasPercentageAffected> \"4 . 7\"."
+123, PercentageAffected, 3851, 3856, "5 . 7", "", "<http://ctro/data#Outcome_111127> <http://ctro/data#hasPercentageAffected> \"5 . 7\"."
+328, ObservedResult, 3908, 3988, "There was no significant difference in the risk of hypoglycemia between groups .", "", 
+126, Hypoglycemia, 3959, 3971, "hypoglycemia", "", 
+127, EndPointDescription, 4021, 4024, "AEs", "", "<http://ctro/data#EndPointDescription_111155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_111154> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_111155>."
+128, EndPointDescription, 4043, 4046, "AEs", "", 
+129, NumberAffected, 4092, 4095, "185", "", "<http://ctro/data#Outcome_111159> <http://ctro/data#hasNumberAffected> \"185\"."
+131, NumberPatientsArm, 4098, 4101, "214", "", "<http://ctro/data#Arm_110841> <http://ctro/data#hasNumberPatientsArm> \"214\"."
+133, PercentageAffected, 4113, 4119, "86 . 4", "", "<http://ctro/data#Outcome_111159> <http://ctro/data#hasPercentageAffected> \"86 . 4\"."
+135, EndPointDescription, 4138, 4141, "AEs", "", 
+130, NumberAffected, 4146, 4148, "88", "", "<http://ctro/data#Outcome_111186> <http://ctro/data#hasNumberAffected> \"88\"."
+132, NumberPatientsArm, 4151, 4154, "105", "", "<http://ctro/data#Arm_110850> <http://ctro/data#hasNumberPatientsArm> \"105\"."
+134, PercentageAffected, 4166, 4172, "83 . 8", "", "<http://ctro/data#Outcome_111186> <http://ctro/data#hasPercentageAffected> \"83 . 8\"."
+136, EndPointDescription, 4191, 4194, "AEs", "", 
+304, ConclusionComment, 4213, 4439, "when used as indicated as part of a basal - bolus regimen in patients with T2DM who had previously received other insulin and / or OAD regimens , detemir was noninferior to glargine in its effects on overall glycemic control .", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasConclusionComment> \"when used as indicated as part of a basal - bolus regimen in patients with T2DM who had previously received other insulin and / or OAD regimens , detemir was noninferior to glargine in its effects on overall glycemic control .\"."
+139, Type2Diabetes, 4288, 4292, "T2DM", "", 
+140, Insulin, 4327, 4334, "insulin", "", 
+299, OralAntidiabeticAgent, 4344, 4347, "OAD", "", 
+142, InsulinDetemir, 4359, 4366, "detemir", "", 
+143, InsulinGlargine, 4386, 4394, "glargine", "", 
+306, ConclusionComment, 4440, 4530, "Both basal insulins were associated with clinically relevant reductions in hyperglycemia .", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasConclusionComment> \"Both basal insulins were associated with clinically relevant reductions in hyperglycemia .\"."
+145, Insulin, 4451, 4459, "insulins", "", 
+146, Hypoglycemia, 4515, 4528, "hyperglycemia", "", 
+307, ConclusionComment, 4531, 4630, "Both were well tolerated , with no significant difference in the frequency of hypoglycemia or AEs .", "", "<http://ctro/data#ClinicalTrial_110806> <http://ctro/data#hasConclusionComment> \"Both were well tolerated , with no significant difference in the frequency of hypoglycemia or AEs .\"."
+147, Hypoglycemia, 4609, 4621, "hypoglycemia", "", 
+148, EndPointDescription, 4625, 4628, "AEs", "", 
+149, PMID, 4688, 4696, "19108786", "", "<http://ctro/data#Publication_110796> <http://ctro/data#hasPMID> \"19108786\"."

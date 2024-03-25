@@ -1,0 +1,132 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2014", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasPublicationYear> \"2014\"."
+2, Dapagliflozin, 96, 109, "Dapagliflozin", "", 
+28, Title, 96, 272, "Dapagliflozin is effective as add - on therapy to sitagliptin with or without metformin : a 24 - week , multicenter , randomized , double - blind , placebo - controlled study .", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasTitle> \"Dapagliflozin is effective as add - on therapy to sitagliptin with or without metformin : a 24 - week , multicenter , randomized , double - blind , placebo - controlled study .\"."
+12, Sitagliptin, 146, 157, "sitagliptin", "", 
+14, Metformin, 174, 183, "metformin", "", 
+19, Duration, 188, 197, "24 - week", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasCTduration> \"24 - week\"."
+20, Multicenter, 200, 211, "multicenter", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+21, Randomized, 214, 224, "randomized", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+22, DoubleBlind, 227, 241, "double - blind", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+23, Placebo, 244, 251, "placebo", "", 
+24, Author, 273, 283, "Jabbour SA", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasAuthor> \"Jabbour SA\"."
+25, Author, 292, 299, "Hardy E", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasAuthor> \"Hardy E\"."
+26, Author, 302, 308, "Sugg J", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasAuthor> \"Sugg J\"."
+27, Author, 311, 319, "Parikh S", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasAuthor> \"Parikh S\"."
+32, ObjectiveDescription, 2128, 2334, "To assess the efficacy and safety of dapagliflozin as add - on therapy in patients with type 2 diabetes who were inadequately controlled with a dipeptidyl peptidase - 4 inhibitor with or without metformin .", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasObjectiveDescription> \"To assess the efficacy and safety of dapagliflozin as add - on therapy in patients with type 2 diabetes who were inadequately controlled with a dipeptidyl peptidase - 4 inhibitor with or without metformin .\"."
+3, Dapagliflozin, 2165, 2178, "dapagliflozin", "", 
+31, Precondition, 2202, 2332, "patients with type 2 diabetes who were inadequately controlled with a dipeptidyl peptidase - 4 inhibitor with or without metformin", "", "<http://ctro/data#Population_50345> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes who were inadequately controlled with a dipeptidyl peptidase - 4 inhibitor with or without metformin\"."
+29, Type2Diabetes, 2216, 2231, "type 2 diabetes", "", 
+15, Metformin, 2323, 2332, "metformin", "", 
+33, Duration, 2373, 2382, "24 - week", "", 
+34, Multicenter, 2385, 2396, "multicenter", "", 
+35, Randomized, 2399, 2409, "randomized", "", 
+36, DoubleBlind, 2412, 2426, "double - blind", "", 
+37, Placebo, 2429, 2436, "placebo", "", 
+38, Parallel, 2452, 2468, "parallel - group", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+39, Duration, 2492, 2501, "24 - week", "", 
+40, NumberPatientsCT, 2529, 2532, "432", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasNumberPatientsCT> \"432\"."
+41, Randomized, 2547, 2557, "randomized", "", 
+4, Dapagliflozin, 2569, 2582, "dapagliflozin", "", "<http://ctro/data#Medication_50395> <http://ctro/data#hasDrug> <http://ctro/data#Dapagliflozin>."
+42, DoseValue, 2583, 2585, "10", "", "<http://ctro/data#Medication_50395> <http://ctro/data#hasDoseValue> \"10\"."
+45, mg, 2586, 2588, "mg", "", "<http://ctro/data#Medication_50395> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+48, Frequency, 2591, 2594, "day", "", "<http://ctro/data#Intervention_50371> <http://ctro/data#hasFrequency> \"day\"."
+51, Placebo, 2598, 2605, "placebo", "", "<http://ctro/data#Medication_50402> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+13, Sitagliptin, 2615, 2626, "sitagliptin", "", 
+43, DoseValue, 2629, 2632, "100", "", 
+46, mg, 2633, 2635, "mg", "", 
+49, Frequency, 2638, 2641, "day", "", 
+16, Metformin, 2646, 2655, "metformin", "", 
+44, DoseValue, 2658, 2667, "≥ 1 , 500", "", 
+47, mg, 2668, 2670, "mg", "", 
+50, Frequency, 2673, 2676, "day", "", 
+165, TimePoint, 2691, 2699, "Baseline", "", 
+57, HbA1c, 2700, 2705, "HbA1c", "", "<http://ctro/data#Endpoint_50434> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+58, FastingPlasmaGlucose, 2710, 2713, "FPG", "", "<http://ctro/data#Endpoint_50439> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+59, BaseLineValue, 2726, 2731, "7 . 9", "", "<http://ctro/data#Outcome_50444> <http://ctro/data#hasBaselineValue> \"7 . 9\"."
+67, Percentage, 2732, 2733, "%", "", "<http://ctro/data#Endpoint_50434> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+60, BaseLineValue, 2736, 2742, "63 . 0", "", 
+79783, Millimoles_per_mole, 2743, 2753, "mmol / mol", "", 
+61, BaseLineValue, 2760, 2767, "162 . 2", "", "<http://ctro/data#Outcome_50498> <http://ctro/data#hasBaselineValue> \"162 . 2\"."
+71, Mg_per_deciliter, 2768, 2775, "mg / dL", "", "<http://ctro/data#Endpoint_50439> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+62, BaseLineValue, 2778, 2783, "9 . 0", "", 
+73, Millimoles_per_litre, 2784, 2792, "mmol / L", "", 
+5, Dapagliflozin, 2803, 2816, "dapagliflozin", "", 
+63, BaseLineValue, 2827, 2832, "8 . 0", "", "<http://ctro/data#Outcome_50471> <http://ctro/data#hasBaselineValue> \"8 . 0\"."
+68, Percentage, 2833, 2834, "%", "", 
+64, BaseLineValue, 2837, 2843, "64 . 0", "", 
+79784, Millimoles_per_mole, 2844, 2854, "mmol / mol", "", 
+65, BaseLineValue, 2861, 2864, "163", "", "<http://ctro/data#Outcome_50525> <http://ctro/data#hasBaselineValue> \"163\"."
+72, Mg_per_deciliter, 2865, 2872, "mg / dL", "", 
+66, BaseLineValue, 2875, 2880, "9 . 0", "", 
+74, Millimoles_per_litre, 2881, 2889, "mmol / L", "", 
+52, Placebo, 2896, 2903, "placebo", "", 
+75, TimePoint, 2909, 2916, "week 24", "", 
+6, Dapagliflozin, 2919, 2932, "dapagliflozin", "", 
+188, Mean, 2955, 2959, "mean", "", "<http://ctro/data#Mean_50436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_50434> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_50436>."
+77, HbA1c, 2960, 2965, "HbA1c", "", 
+79, Reduction, 2977, 2982, "0 . 5", "", "<http://ctro/data#Outcome_50444> <http://ctro/data#hasChangeValue> \"0 . 5\"."
+81, Percentage, 2983, 2984, "%", "", 
+80, Reduction, 2989, 2994, "4 . 9", "", 
+79785, Millimoles_per_mole, 2995, 3005, "mmol / mol", "", 
+78, Placebo, 3017, 3024, "placebo", "", 
+85, NoChange, 3027, 3032, "0 . 0", "", "<http://ctro/data#Outcome_50471> <http://ctro/data#hasChangeValue> \"0 . 0\"."
+82, Percentage, 3033, 3034, "%", "", 
+86, Increment, 3039, 3044, "0 . 4", "", 
+79786, Millimoles_per_mole, 3045, 3055, "mmol / mol", "", 
+7, Dapagliflozin, 3062, 3075, "Dapagliflozin", "", 
+87, BodyWeight, 3084, 3095, "body weight", "", "<http://ctro/data#Endpoint_50552> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+53, Placebo, 3103, 3110, "placebo", "", 
+89, Reduction, 3115, 3120, "2 . 1", "", "<http://ctro/data#Outcome_50557> <http://ctro/data#hasChangeValue> \"2 . 1\"."
+90, Reduction, 3127, 3132, "0 . 3", "", "<http://ctro/data#Outcome_50584> <http://ctro/data#hasChangeValue> \"0 . 3\"."
+204, Kg, 3133, 3135, "kg", "", "<http://ctro/data#Endpoint_50552> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+88, HbA1c, 3150, 3155, "HbA1c", "", 
+92, SubGroupDescription, 3166, 3205, "patients with baseline values ≥ 8 . 0 %", "", "<http://ctro/data#Outcome_50616> <http://ctro/data#hasSubGroupDescription> \"patients with baseline values ≥ 8 . 0 %\". <http://ctro/data#Outcome_50643> <http://ctro/data#hasSubGroupDescription> \"patients with baseline values ≥ 8 . 0 %\"."
+93, Percentage, 3204, 3205, "%", "", 
+94, Reduction, 3210, 3215, "0 . 8", "", "<http://ctro/data#Outcome_50616> <http://ctro/data#hasChangeValue> \"0 . 8\"."
+209, Percentage, 3216, 3217, "%", "", 
+96, ResultMeasuredValue, 3220, 3225, "8 . 7", "", 
+79788, Millimoles_per_mole, 3226, 3236, "mmol / mol", "", 
+95, NoChange, 3243, 3248, "0 . 0", "", "<http://ctro/data#Outcome_50643> <http://ctro/data#hasChangeValue> \"0 . 0\"."
+99, Percentage, 3249, 3250, "%", "", 
+214, ChangeValue, 3253, 3258, "0 . 3", "", 
+79787, Millimoles_per_mole, 3259, 3269, "mmol / mol", "", 
+101, FastingPlasmaGlucose, 3278, 3300, "fasting plasma glucose", "", 
+102, Reduction, 3312, 3318, "24 . 1", "", "<http://ctro/data#Outcome_50498> <http://ctro/data#hasChangeValue> \"24 . 1\"."
+106, Mg_per_deciliter, 3319, 3326, "mg / dL", "", 
+103, Reduction, 3331, 3336, "1 . 3", "", 
+108, Millimoles_per_litre, 3337, 3345, "mmol / L", "", 
+104, Increment, 3352, 3357, "3 . 8", "", "<http://ctro/data#Outcome_50525> <http://ctro/data#hasChangeValue> \"3 . 8\"."
+107, Mg_per_deciliter, 3358, 3365, "mg / dL", "", 
+105, Increment, 3368, 3373, "0 . 2", "", 
+109, Millimoles_per_litre, 3374, 3382, "mmol / L", "", 
+110, TimePoint, 3510, 3517, "week 24", "", 
+111, TimePoint, 3542, 3549, "week 48", "", 
+112, TimePoint, 3565, 3573, "baseline", "", 
+114, BloodPressure, 3577, 3600, "systolic blood pressure", "", 
+115, ObservedResult, 3601, 3670, "at week 8 were not significantly different between treatment groups .", "", 
+113, TimePoint, 3604, 3610, "week 8", "", 
+231, TimePoint, 3676, 3684, "48 weeks", "", 
+8, Dapagliflozin, 3712, 3725, "dapagliflozin", "", 
+54, Placebo, 3809, 3816, "placebo", "", 
+116, EndPointDescription, 3819, 3833, "Adverse events", "", 
+117, ObservedResult, 3834, 3901, "were balanced between groups , and discontinuation rates were low .", "", 
+76, TimePoint, 3905, 3912, "week 48", "", 
+118, EndPointDescription, 3948, 3965, "genital infection", "", 
+9, Dapagliflozin, 3990, 4003, "dapagliflozin", "", 
+119, PercentageAffected, 4006, 4011, "9 . 8", "", 
+55, Placebo, 4026, 4033, "placebo", "", 
+120, PercentageAffected, 4036, 4041, "0 . 4", "", 
+123, EndPointDescription, 4081, 4104, "urinary tract infection", "", "<http://ctro/data#EndPointDescription_50671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_50670> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_50671>."
+10, Dapagliflozin, 4127, 4140, "dapagliflozin", "", 
+121, PercentageAffected, 4143, 4148, "6 . 7", "", "<http://ctro/data#Outcome_50675> <http://ctro/data#hasPercentageAffected> \"6 . 7\"."
+56, Placebo, 4157, 4164, "placebo", "", 
+122, PercentageAffected, 4167, 4172, "6 . 2", "", "<http://ctro/data#Outcome_50675> <http://ctro/data#hasPercentageAffected> \"6 . 7\"."
+124, ConclusionComment, 4193, 4420, "These results suggest that in patients with type 2 diabetes , inadequately controlled on sitagliptin with or without metformin , add - on treatment with dapagliflozin provides additional clinical benefit and is well tolerated .", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#hasConclusionComment> \"These results suggest that in patients with type 2 diabetes , inadequately controlled on sitagliptin with or without metformin , add - on treatment with dapagliflozin provides additional clinical benefit and is well tolerated .\"."
+106273, Precondition, 4223, 4319, "patients with type 2 diabetes , inadequately controlled on sitagliptin with or without metformin", "", "<http://ctro/data#Population_50345> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes , inadequately controlled on sitagliptin with or without metformin\"."
+30, Type2Diabetes, 4237, 4252, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_50329> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+18, Sitagliptin, 4282, 4293, "sitagliptin", "", 
+17, Metformin, 4310, 4319, "metformin", "", 
+11, Dapagliflozin, 4346, 4359, "dapagliflozin", "", 
+125, PMID, 4458, 4466, "24144654", "", "<http://ctro/data#Publication_50322> <http://ctro/data#hasPMID> \"24144654\"."

@@ -1,0 +1,101 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_64531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_64531> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasTitle> "Comparison of the ocular hypotensive effects of bimatoprost and timolol - dorzolamide combination in patients with elevated intraocular pressure : a 6 - month study ." .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> "Ozturk F" .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasPublicationYear> "2007" .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasJournal> "Acta Ophthalmol Scand" .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasPMID> "17244215" .
+<http://ctro/data#Publication_64531> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_64540> .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> "Ermis SS" .
+<http://ctro/data#Publication_64531> <http://ctro/data#hasAuthor> "Inan UU" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_64540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_64540> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasObjectiveDescription> "To compare the ocular hypotensive efficacy and safety of topical bimatoprost and timolol - dorzolamide combination in patients with primary open - angle glaucoma ( POAG ) or ocular hypertension during 6 months of treatment ." .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasNumberPatientsCT> "65" .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasCTduration> "6 - month" .
+<http://ctro/data#AllocationRatio_64544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_64545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> "The IOP - lowering efficacies of bimatoprost and timolol - dorzolamide combination were similar over a 6 - month follow - up ." .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasArm> <http://ctro/data#Arm_64572> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasPopulation> <http://ctro/data#Population_64559> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_64664> .
+<http://ctro/data#EvidenceQuality_64552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> "Both bimatoprost and the timolol - dorzolamide combination were well tolerated ." .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasConclusionComment> "Bimatoprost can be used as a longterm monotherapy agent in the treatment of POAG and ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_64540> <http://ctro/data#hasArm> <http://ctro/data#Arm_64581> .
+# RDF export of group: Population
+<http://ctro/data#Population_64559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_64559> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_64559> <http://ctro/data#hasPrecondition> "elevated intraocular pressure" .
+<http://ctro/data#Ethnicity_64561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_64559> <http://ctro/data#hasCountry> <http://ctro/data#Turkey> .
+<http://ctro/data#Gender_64566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_64567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_64567> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint" .
+<http://ctro/data#IOP_64568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_64567> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_64568> .
+<http://ctro/data#AggregationMethod_64569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_64567> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_64571> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_64572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_64572> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_bim" .
+<http://ctro/data#Arm_64572> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_64590> .
+<http://ctro/data#Arm_64572> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_64610> .
+<http://ctro/data#Outcome_64577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_64581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_64581> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_dor-tim" .
+<http://ctro/data#Arm_64581> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_19432> .
+<http://ctro/data#Arm_64581> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_64637> .
+<http://ctro/data#Outcome_64586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_19432> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_19432> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_dor-tim" .
+<http://ctro/data#Intervention_19432> <http://ctro/data#hasMedication> <http://ctro/data#Medication_64596> .
+<http://ctro/data#Intervention_19432> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_19437> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_64590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_64590> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_bim" .
+<http://ctro/data#Intervention_64590> <http://ctro/data#hasMedication> <http://ctro/data#Medication_64603> .
+<http://ctro/data#Intervention_64590> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_64595> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_64596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_64596> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_dor-tim" .
+<http://ctro/data#Medication_64596> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_64599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_64600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_64603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_64603> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_bim" .
+<http://ctro/data#Medication_64603> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost> .
+<http://ctro/data#Medication_64603> <http://ctro/data#hasDoseValue> "0 . 03" .
+<http://ctro/data#Medication_64603> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_64607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_64610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_64610> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_bim" .
+<http://ctro/data#Outcome_64610> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_64567> .
+<http://ctro/data#Outcome_64610> <http://ctro/data#hasChangeValue> "6 . 2" .
+<http://ctro/data#Outcome_64610> <http://ctro/data#hasSdDevChangeValue> "1 . 8" .
+<http://ctro/data#Outcome_64610> <http://ctro/data#hasObservedResult> "Differences in IOP between the bimatoprost and timolol - dorzolamide groups were statistically insignificant at all study visits ( p > 0 . 05 ) ." .
+<http://ctro/data#Outcome_64610> <http://ctro/data#hasTimePoint> "6 months" .
+<http://ctro/data#Outcome_64637> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_64637> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_dor-tim" .
+<http://ctro/data#Outcome_64637> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_64567> .
+<http://ctro/data#Outcome_64637> <http://ctro/data#hasChangeValue> "6 . 5" .
+<http://ctro/data#Outcome_64637> <http://ctro/data#hasSdDevChangeValue> "2 . 3" .
+<http://ctro/data#Outcome_64637> <http://ctro/data#hasObservedResult> "Differences in IOP between the bimatoprost and timolol - dorzolamide groups were statistically insignificant at all study visits ( p > 0 . 05 ) ." .
+<http://ctro/data#Outcome_64637> <http://ctro/data#hasTimePoint> "6 months" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_64664> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_64664> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_iop" .
+<http://ctro/data#DiffBetweenGroups_64664> <http://ctro/data#hasPvalueDiff> "p = 0 . 48" .
+<http://ctro/data#DiffBetweenGroups_64664> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_64610> .
+<http://ctro/data#DiffBetweenGroups_64664> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_64637> .
+# RDF export of group: EvidenceQuality

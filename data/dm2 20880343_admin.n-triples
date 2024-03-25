@@ -1,0 +1,213 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_27563> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_27563> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 27563" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasTitle> "Prandial - basal insulin regimens plus oral antihyperglycaemic agents to improve mealtime glycaemia : initiate and progressively advance insulin therapy in type 2 diabetes ." .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Jain SM" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasPublicationYear> "2010" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasJournal> "Diabetes Obes Metab ." .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasPMID> "20880343" .
+<http://ctro/data#Publication_27563> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_27570> .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Mao X" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Escalante - Pulido M" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Vorokhobina N" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Lopez I" .
+<http://ctro/data#Publication_27563> <http://ctro/data#hasAuthor> "Ilag LL" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_27570> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_27570> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 27570" .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasObjectiveDescription> "To compare two progressive approaches [ once - daily insulin glargine plus ≤ 3 mealtime lispro ( G + L ) vs . insulin lispro mix 50 / 50 ( LM50 / 50 ) progression once up to thrice daily ( premix progression , PP ) ]" .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasCTduration> "36 - week" .
+<http://ctro/data#AllocationRatio_27574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_27575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasConclusionComment> "Both treatments progressively improved glycaemic control in patients with T2D on oral therapy , although non - inferiority of PP to G + L was not shown ." .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasArm> <http://ctro/data#Arm_27594> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasPopulation> <http://ctro/data#Population_27586> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_27721> .
+<http://ctro/data#EvidenceQuality_27582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasArm> <http://ctro/data#Arm_27603> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasObjectiveDescription> "of beginning and advancing insulin in patients with type 2 diabetes ( T2D ) and inadequate glycaemic control on oral therapy , with the aim of showing non - inferiority of PP to G + L ." .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasConclusionComment> "Higher insulin doses were observed with PP with no between - treatment differences in overall hypoglycaemia or weight gain ." .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_27892> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_27901> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_27910> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_28037> .
+<http://ctro/data#ClinicalTrial_27570> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_28046> .
+# RDF export of group: Population
+<http://ctro/data#Population_27586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_27586> <http://www.w3.org/2000/01/rdf-schema#label> "Population 27586" .
+<http://ctro/data#Population_27586> <http://ctro/data#hasPrecondition> "patients with type 2 diabetes ( T2D ) and inadequate glycaemic control on oral therapy" .
+<http://ctro/data#Ethnicity_27588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_27586> <http://ctro/data#hasCountry> <http://ctro/data#India> .
+<http://ctro/data#Gender_27593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_27662> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_27662> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_27662> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#AggregationMethod_27664> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_27662> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_27666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_27919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_27919> <http://www.w3.org/2000/01/rdf-schema#label> "ins" .
+<http://ctro/data#InsulinDose_27920> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose> .
+<http://ctro/data#Endpoint_27919> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_27920> .
+<http://ctro/data#AggregationMethod_27921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_27919> <http://ctro/data#hasBaselineUnit> <http://ctro/data#IntUnit_per_Kg> .
+<http://ctro/data#MeasurementDevice_27923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_27924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_27924> <http://www.w3.org/2000/01/rdf-schema#label> "inj" .
+<http://ctro/data#EndPointDescription_27925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_27924> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_27925> .
+<http://ctro/data#AggregationMethod_27926> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_27927> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_27928> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_27594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_27594> <http://www.w3.org/2000/01/rdf-schema#label> "gl+lispro" .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasNumberPatientsArm> "242" .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_27612> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27667> .
+<http://ctro/data#Outcome_27599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27730> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27784> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27838> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27929> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27983> .
+<http://ctro/data#Arm_27594> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_91780> .
+<http://ctro/data#Arm_27603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_27603> <http://www.w3.org/2000/01/rdf-schema#label> "lisrpo505" .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasNumberPatientsArm> "242" .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_27624> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27694> .
+<http://ctro/data#Outcome_27608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27757> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27811> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27865> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_27956> .
+<http://ctro/data#Arm_27603> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_28010> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_27612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_27612> <http://www.w3.org/2000/01/rdf-schema#label> "gla" .
+<http://ctro/data#Intervention_27612> <http://ctro/data#hasMedication> <http://ctro/data#Medication_27630> .
+<http://ctro/data#Intervention_27612> <http://ctro/data#hasFrequency> "once - daily" .
+<http://ctro/data#RelativeTime_27617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_27624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_27624> <http://www.w3.org/2000/01/rdf-schema#label> "lispro5050" .
+<http://ctro/data#Intervention_27624> <http://ctro/data#hasMedication> <http://ctro/data#Medication_27637> .
+<http://ctro/data#Intervention_27624> <http://ctro/data#hasFrequency> "once up to thrice daily" .
+<http://ctro/data#RelativeTime_27629> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_91780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_91780> <http://www.w3.org/2000/01/rdf-schema#label> "lispro" .
+<http://ctro/data#Intervention_91780> <http://ctro/data#hasMedication> <http://ctro/data#Medication_91772> .
+<http://ctro/data#Intervention_91780> <http://ctro/data#hasFrequency> "≤ 3" .
+<http://ctro/data#RelativeTime_91785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_91780> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_91785> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_27630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_27630> <http://www.w3.org/2000/01/rdf-schema#label> "gla" .
+<http://ctro/data#Medication_27630> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine> .
+<http://ctro/data#BioAndMedicalUnit_27633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_27634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_27637> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_27637> <http://www.w3.org/2000/01/rdf-schema#label> "lis5050" .
+<http://ctro/data#Medication_27637> <http://ctro/data#hasDrug> <http://ctro/data#Lispro50/50> .
+<http://ctro/data#BioAndMedicalUnit_27640> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_27641> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_91772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_91772> <http://www.w3.org/2000/01/rdf-schema#label> "lispro" .
+<http://ctro/data#Medication_91772> <http://ctro/data#hasDrug> <http://ctro/data#Lispro> .
+<http://ctro/data#BioAndMedicalUnit_91775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_91776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_27667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27667> <http://www.w3.org/2000/01/rdf-schema#label> "hba gl" .
+<http://ctro/data#Outcome_27667> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27667> <http://ctro/data#hasBaselineValue> "9 . 3" .
+<http://ctro/data#Outcome_27667> <http://ctro/data#hasChangeValue> "1 . 93" .
+<http://ctro/data#Outcome_27667> <http://ctro/data#hasTimePoint> "endpoint" .
+<http://ctro/data#Outcome_27694> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27694> <http://www.w3.org/2000/01/rdf-schema#label> "hba 55" .
+<http://ctro/data#Outcome_27694> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27694> <http://ctro/data#hasBaselineValue> "9 . 5" .
+<http://ctro/data#Outcome_27694> <http://ctro/data#hasChangeValue> "1 . 76" .
+<http://ctro/data#Outcome_27694> <http://ctro/data#hasTimePoint> "endpoint" .
+<http://ctro/data#Outcome_27730> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27730> <http://www.w3.org/2000/01/rdf-schema#label> "hba12 gl" .
+<http://ctro/data#Outcome_27730> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27730> <http://ctro/data#hasTimePoint> "weeks 12" .
+<http://ctro/data#Outcome_27757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27757> <http://www.w3.org/2000/01/rdf-schema#label> "hba12 55" .
+<http://ctro/data#Outcome_27757> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27757> <http://ctro/data#hasResultMeasuredValue> "7 . 9" .
+<http://ctro/data#Outcome_27757> <http://ctro/data#hasTimePoint> "weeks 12" .
+<http://ctro/data#Outcome_27784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27784> <http://www.w3.org/2000/01/rdf-schema#label> "hba24 gl" .
+<http://ctro/data#Outcome_27784> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27784> <http://ctro/data#hasResultMeasuredValue> "7 . 4" .
+<http://ctro/data#Outcome_27784> <http://ctro/data#hasTimePoint> "24" .
+<http://ctro/data#Outcome_27811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27811> <http://www.w3.org/2000/01/rdf-schema#label> "hba24 55" .
+<http://ctro/data#Outcome_27811> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27811> <http://ctro/data#hasResultMeasuredValue> "7 . 6" .
+<http://ctro/data#Outcome_27811> <http://ctro/data#hasTimePoint> "24" .
+<http://ctro/data#Outcome_27838> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27838> <http://www.w3.org/2000/01/rdf-schema#label> "hba36 gl" .
+<http://ctro/data#Outcome_27838> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27838> <http://ctro/data#hasResultMeasuredValue> "7 . 5" .
+<http://ctro/data#Outcome_27838> <http://ctro/data#hasTimePoint> "week 36" .
+<http://ctro/data#Outcome_27865> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27865> <http://www.w3.org/2000/01/rdf-schema#label> "hba36 55" .
+<http://ctro/data#Outcome_27865> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27662> .
+<http://ctro/data#Outcome_27865> <http://ctro/data#hasResultMeasuredValue> "7 . 6" .
+<http://ctro/data#Outcome_27865> <http://ctro/data#hasTimePoint> "week 36" .
+<http://ctro/data#Outcome_27929> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27929> <http://www.w3.org/2000/01/rdf-schema#label> "ins gl" .
+<http://ctro/data#Outcome_27929> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27919> .
+<http://ctro/data#Outcome_27929> <http://ctro/data#hasResultMeasuredValue> "0 . 51" .
+<http://ctro/data#Outcome_27956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27956> <http://www.w3.org/2000/01/rdf-schema#label> "ins 55" .
+<http://ctro/data#Outcome_27956> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27919> .
+<http://ctro/data#Outcome_27956> <http://ctro/data#hasResultMeasuredValue> "0 . 57" .
+<http://ctro/data#Outcome_27983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_27983> <http://www.w3.org/2000/01/rdf-schema#label> "inj gl" .
+<http://ctro/data#Outcome_27983> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27924> .
+<http://ctro/data#Outcome_27983> <http://ctro/data#hasResultMeasuredValue> "1 . 79" .
+<http://ctro/data#Outcome_28010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_28010> <http://www.w3.org/2000/01/rdf-schema#label> "inj 55" .
+<http://ctro/data#Outcome_28010> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_27924> .
+<http://ctro/data#Outcome_28010> <http://ctro/data#hasResultMeasuredValue> "1 . 98" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_27721> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_27721> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#DiffBetweenGroups_27721> <http://ctro/data#hasDiffGroupAbsValue> "0 . 17" .
+<http://ctro/data#DiffBetweenGroups_27721> <http://ctro/data#hasPvalueDiff> "p = 0 . 097" .
+<http://ctro/data#DiffBetweenGroups_27721> <http://ctro/data#hasConfIntervalDiff> "95 % confidence interval : - 0 . 03 , 0 . 37" .
+<http://ctro/data#DiffBetweenGroups_27721> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27667> .
+<http://ctro/data#DiffBetweenGroups_27721> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_27694> .
+<http://ctro/data#DiffBetweenGroups_27892> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_27892> <http://www.w3.org/2000/01/rdf-schema#label> "hba12" .
+<http://ctro/data#DiffBetweenGroups_27892> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27730> .
+<http://ctro/data#DiffBetweenGroups_27892> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_27757> .
+<http://ctro/data#DiffBetweenGroups_27901> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_27901> <http://www.w3.org/2000/01/rdf-schema#label> "hba24" .
+<http://ctro/data#DiffBetweenGroups_27901> <http://ctro/data#hasPvalueDiff> "p = 0 . 046" .
+<http://ctro/data#DiffBetweenGroups_27901> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27784> .
+<http://ctro/data#DiffBetweenGroups_27901> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_27811> .
+<http://ctro/data#DiffBetweenGroups_27910> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_27910> <http://www.w3.org/2000/01/rdf-schema#label> "hba36" .
+<http://ctro/data#DiffBetweenGroups_27910> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27838> .
+<http://ctro/data#DiffBetweenGroups_27910> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_27865> .
+<http://ctro/data#DiffBetweenGroups_28037> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_28037> <http://www.w3.org/2000/01/rdf-schema#label> "ins" .
+<http://ctro/data#DiffBetweenGroups_28037> <http://ctro/data#hasPvalueDiff> "p = 0 . 017" .
+<http://ctro/data#DiffBetweenGroups_28037> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27929> .
+<http://ctro/data#DiffBetweenGroups_28037> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_27956> .
+<http://ctro/data#DiffBetweenGroups_28046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_28046> <http://www.w3.org/2000/01/rdf-schema#label> "inj" .
+<http://ctro/data#DiffBetweenGroups_28046> <http://ctro/data#hasPvalueDiff> "p = 0 . 011" .
+<http://ctro/data#DiffBetweenGroups_28046> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_27983> .
+<http://ctro/data#DiffBetweenGroups_28046> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_28010> .
+# RDF export of group: EvidenceQuality

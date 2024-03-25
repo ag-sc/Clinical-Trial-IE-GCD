@@ -1,0 +1,89 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 14, "Eye ( Lond ) .", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasJournal> \"Eye ( Lond ) .\"."
+1, PublicationYear, 15, 19, "2012", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasPublicationYear> \"2012\"."
+2, Title, 102, 275, "Twenty - four hour efficacy with the dorzolamide / timolol - fixed combination compared with the brimonidine / timolol - fixed combination in primary open - angle glaucoma .", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasTitle> \"Twenty - four hour efficacy with the dorzolamide / timolol - fixed combination compared with the brimonidine / timolol - fixed combination in primary open - angle glaucoma .\"."
+3, Dorzolamide, 139, 150, "dorzolamide", "", 
+5, Dorz/TimFC, 139, 180, "dorzolamide / timolol - fixed combination", "", "<http://ctro/data#Medication_65557> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+4, Timolol, 153, 160, "timolol", "", 
+6, Brimonidine, 199, 210, "brimonidine", "", 
+8, Brimo/TimFC, 199, 240, "brimonidine / timolol - fixed combination", "", "<http://ctro/data#Medication_65564> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+7, Timolol, 213, 220, "timolol", "", 
+9, Primary_OpenAngleGlaucoma, 244, 273, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+10, Author, 276, 286, "Konstas AG", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+11, Author, 295, 305, "Quaranta L", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Quaranta L\"."
+12, Author, 308, 314, "Yan DB", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Yan DB\"."
+13, Author, 317, 331, "Mikropoulos DG", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Mikropoulos DG\"."
+14, Author, 334, 340, "Riva I", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Riva I\"."
+15, Author, 343, 350, "Gill NK", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Gill NK\"."
+16, Author, 353, 361, "Barton K", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Barton K\"."
+17, Author, 364, 374, "Haidich AB", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasAuthor> \"Haidich AB\"."
+18, Greece, 497, 503, "Greece", "", "<http://ctro/data#Population_65525> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+19, ObjectiveDescription, 538, 749, "The aim of this study is to compare the 24 - hour efficacy of dorzolamide / timolol - fixed combination ( DTFC ) and brimonidine / timolol - fixed combination ( BTFC ) in primary open - angle glaucoma ( POAG ) .", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasObjectiveDescription> \"The aim of this study is to compare the 24 - hour efficacy of dorzolamide / timolol - fixed combination ( DTFC ) and brimonidine / timolol - fixed combination ( BTFC ) in primary open - angle glaucoma ( POAG ) .\"."
+20, Dorzolamide, 600, 611, "dorzolamide", "", 
+23, Dorz/TimFC, 600, 641, "dorzolamide / timolol - fixed combination", "", 
+21, Timolol, 614, 621, "timolol", "", 
+24, Dorz/TimFC, 644, 648, "DTFC", "", 
+25, Brimonidine, 655, 666, "brimonidine", "", 
+26, Brimo/TimFC, 655, 696, "brimonidine / timolol - fixed combination", "", 
+22, Timolol, 669, 676, "timolol", "", 
+27, Brimo/TimFC, 699, 703, "BTFC", "", 
+28, Primary_OpenAngleGlaucoma, 709, 738, "primary open - angle glaucoma", "", 
+29, Primary_OpenAngleGlaucoma, 741, 745, "POAG", "", 
+30, NumberPatientsCT, 776, 778, "77", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasNumberPatientsCT> \"77\"."
+31, Primary_OpenAngleGlaucoma, 779, 783, "POAG", "", 
+32, Prospective, 814, 825, "prospective", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+33, Blind, 828, 845, "observer - masked", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+34, Crossover, 848, 857, "crossover", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+35, Duration, 883, 892, "2 - month", "", 
+36, Timolol, 893, 900, "timolol", "", 
+37, IOP, 938, 958, "intraocular pressure", "", 
+38, IOP, 961, 964, "IOP", "", 
+100, TimePoint, 983, 987, "1000", "", 
+101, TimePoint, 990, 994, "1200", "", 
+102, TimePoint, 999, 1005, "1400 h", "", 
+39, Timolol, 1015, 1022, "timolol", "", 
+43, Precondition, 1035, 1092, "Patients showing at least a 20 % IOP reduction on timolol", "", "<http://ctro/data#Population_65525> <http://ctro/data#hasPrecondition> \"Patients showing at least a 20 % IOP reduction on timolol\"."
+40, RelativeReduction, 1063, 1065, "20", "", 
+41, IOP, 1068, 1071, "IOP", "", 
+42, Timolol, 1085, 1092, "timolol", "", 
+44, Randomized, 1098, 1108, "randomised", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+45, Duration, 1112, 1120, "3 months", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasCTduration> \"3 months\"."
+46, Dorz/TimFC, 1137, 1141, "DTFC", "", 
+47, Brimo/TimFC, 1145, 1149, "BTFC", "", 
+48, Crossover, 1166, 1178, "crossed over", "", 
+49, FinalNumPatientsCT, 1215, 1220, "Sixty", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasFinalNumberPatientsCT> \"Sixty\"."
+50, Primary_OpenAngleGlaucoma, 1221, 1225, "POAG", "", 
+51, Mean, 1261, 1265, "mean", "", "<http://ctro/data#Mean_65535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_65533> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_65535>."
+89643, EndPointDescription, 1266, 1279, "24 - hour IOP", "", "<http://ctro/data#EndPointDescription_65534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_65533> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_65534>."
+53, Timolol, 1357, 1364, "timolol", "", 
+111, Diurnal_IOP, 1375, 1386, "diurnal IOP", "", 
+112, PvalueDiff, 1391, 1400, "< 0 . 001", "", 
+121, ObservedResult, 1405, 1534, "When the two fixed combinations were compared directly , DTFC demonstrated a lower mean 24 - hour IOP level as compared with BTFC", "", "<http://ctro/data#Outcome_65583> <http://ctro/data#hasObservedResult> \"When the two fixed combinations were compared directly , DTFC demonstrated a lower mean 24 - hour IOP level as compared with BTFC\". <http://ctro/data#Outcome_65619> <http://ctro/data#hasObservedResult> \"When the two fixed combinations were compared directly , DTFC demonstrated a lower mean 24 - hour IOP level as compared with BTFC\"."
+56, Dorz/TimFC, 1462, 1466, "DTFC", "", 
+57, Mean, 1488, 1492, "mean", "", 
+89644, EndPointDescription, 1493, 1506, "24 - hour IOP", "", 
+59, Brimo/TimFC, 1530, 1534, "BTFC", "", 
+60, Mean, 1537, 1541, "mean", "", 
+134, DiffGroupAbsValue, 1555, 1562, "- 0 . 7", "", "<http://ctro/data#DiffBetweenGroups_65610> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 7\"."
+118, mmHg, 1563, 1568, "mm Hg", "", "<http://ctro/data#Endpoint_65533> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+119, ConfIntervalDiff, 1571, 1624, "95 % confidence interval ( CI ) : ( - 1 . 0 , - 0 . 3", "", "<http://ctro/data#DiffBetweenGroups_65610> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval ( CI ) : ( - 1 . 0 , - 0 . 3\"."
+120, PvalueDiff, 1629, 1640, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_65610> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+122, Dorz/TimFC, 1677, 1681, "DTFC", "", "<http://ctro/data#Outcome_65583> <http://ctro/data#hasObservedResult> \"When the two fixed combinations were compared directly , DTFC demonstrated a lower mean 24 - hour IOP level as compared with BTFC\". <http://ctro/data#Outcome_65619> <http://ctro/data#hasObservedResult> \"When the two fixed combinations were compared directly , DTFC demonstrated a lower mean 24 - hour IOP level as compared with BTFC\"."
+123, IOP, 1704, 1707, "IOP", "", "<http://ctro/data#IOP_65701> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_65700> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_65701>."
+124, Brimo/TimFC, 1718, 1722, "BTFC", "", 
+125, TimePoint, 1728, 1734, "1800 h", "", "<http://ctro/data#Outcome_65646> <http://ctro/data#hasTimePoint> \"1800 h\". <http://ctro/data#Outcome_102291> <http://ctro/data#hasTimePoint> \"1800 h\"."
+133, DiffGroupAbsValue, 1737, 1744, "- 1 . 0", "", "<http://ctro/data#DiffBetweenGroups_65705> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 0\"."
+127, mmHg, 1745, 1750, "mm Hg", "", "<http://ctro/data#Endpoint_65700> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+129, ConfIntervalDiff, 1753, 1780, "95 % CI ( - 1 . 6 , - 0 . 5", "", "<http://ctro/data#DiffBetweenGroups_65705> <http://ctro/data#hasConfIntervalDiff> \"95 % CI ( - 1 . 6 , - 0 . 5\"."
+130, PvalueDiff, 1785, 1796, "P = 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_65705> <http://ctro/data#hasPvalueDiff> \"P = 0 . 001\"."
+126, TimePoint, 1806, 1810, "0200", "", "<http://ctro/data#Outcome_65673> <http://ctro/data#hasTimePoint> \"0200\". <http://ctro/data#Outcome_102318> <http://ctro/data#hasTimePoint> \"0200\"."
+135, DiffGroupAbsValue, 1813, 1820, "- 0 . 9", "", "<http://ctro/data#DiffBetweenGroups_65714> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 9\"."
+128, mmHg, 1821, 1826, "mm Hg", "", 
+132, ConfIntervalDiff, 1829, 1858, "95 % CI : ( - 1 . 4 , - 0 . 5", "", "<http://ctro/data#DiffBetweenGroups_65714> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : ( - 1 . 4 , - 0 . 5\"."
+131, PvalueDiff, 1863, 1874, "P = 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_65714> <http://ctro/data#hasPvalueDiff> \"P = 0 . 001\"."
+141, ConclusionComment, 1954, 2026, "Both the fixed combinations significantly reduce 24 - hour IOP in POAG .", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasConclusionComment> \"Both the fixed combinations significantly reduce 24 - hour IOP in POAG .\"."
+137, IOP, 2013, 2016, "IOP", "", 
+138, Primary_OpenAngleGlaucoma, 2020, 2024, "POAG", "", 
+139, Dorz/TimFC, 2027, 2031, "DTFC", "", 
+141, ConclusionComment, 2027, 2082, "DTFC provided significantly better 24 - hour efficacy .", "", "<http://ctro/data#ClinicalTrial_65504> <http://ctro/data#hasConclusionComment> \"DTFC provided significantly better 24 - hour efficacy .\"."
+140, PMID, 2144, 2152, "21960068", "", "<http://ctro/data#Publication_65490> <http://ctro/data#hasPMID> \"21960068\"."

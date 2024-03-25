@@ -1,0 +1,208 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_94473> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_94473> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasTitle> "Randomized trial of brinzolamide / brimonidine versus brinzolamide plus brimonidine for open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> "Gandolfi SA" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasPublicationYear> "2014" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasJournal> "Adv Ther ." .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasPMID> "25430900" .
+<http://ctro/data#Publication_94473> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_94484> .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> "Lim J" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> "Sanseau AC" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> "Parra Restrepo JC" .
+<http://ctro/data#Publication_94473> <http://ctro/data#hasAuthor> "Hamacher T" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_94484> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_94484> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> "Fixed - combination intraocular pressure ( IOP ) - lowering medications simplify treatment regimens for patients requiring 2 ocular hypotensive agents to maintain sufficiently low IOP ." .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTduration> "6 - month" .
+<http://ctro/data#AllocationRatio_94488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_94488> .
+<http://ctro/data#CTAnalysisApproach_94489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasConclusionComment> "Brinzolamide 1 % / brimonidine 0 . 2 % fixed combination was as well tolerated and effective as concomitant therapy with its components ." .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasArm> <http://ctro/data#Arm_94536> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasPopulation> <http://ctro/data#Population_94507> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_94669> .
+<http://ctro/data#EvidenceQuality_94496> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> "The aim of this study was to evaluate the safety and efficacy of fixed - combination brinzolamide 1 % / brimonidine 0 . 2 % ( BBFC ) versus concomitant administration of brinzolamide 1 %" .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasObjectiveDescription> "plus brimonidine 0 . 2 % ( BRINZ  +  BRIM ) in patients with open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasConclusionComment> "BBFC reduces treatment burden in patients who require multiple IOP - lowering medications ." .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_94484> <http://ctro/data#hasArm> <http://ctro/data#Arm_94566> .
+# RDF export of group: Population
+<http://ctro/data#Population_94507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_94507> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_94507> <http://ctro/data#hasPrecondition> "Patients who had insufficient IOP control with monotherapy or who were receiving   2 IOP - lowering medications" .
+<http://ctro/data#Ethnicity_94509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_94507> <http://ctro/data#hasCountry> <http://ctro/data#Italy> .
+<http://ctro/data#Gender_94514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_94575> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94575> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint d IOP " .
+<http://ctro/data#Endpoint_94575> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_94577> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_94575> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_94577> .
+<http://ctro/data#Endpoint_94575> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_94579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94580> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint CH" .
+<http://ctro/data#Endpoint_94580> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia> .
+<http://ctro/data#AggregationMethod_94582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94585> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint VD" .
+<http://ctro/data#EndPointDescription_94586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_94585> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94586> .
+<http://ctro/data#AggregationMethod_94587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94590> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint OAR" .
+<http://ctro/data#EndPointDescription_94591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_94590> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94591> .
+<http://ctro/data#AggregationMethod_94592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94595> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94595> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint OD" .
+<http://ctro/data#EndPointDescription_94596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_94595> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94596> .
+<http://ctro/data#AggregationMethod_94597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94600> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint D" .
+<http://ctro/data#EndPointDescription_94601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_94600> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94601> .
+<http://ctro/data#AggregationMethod_94602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94605> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint oral dryness" .
+<http://ctro/data#Endpoint_94605> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#OralDryness> .
+<http://ctro/data#AggregationMethod_94607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94609> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_94610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_94610> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint f/d" .
+<http://ctro/data#EndPointDescription_94611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_94610> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_94611> .
+<http://ctro/data#AggregationMethod_94612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_94613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_94614> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_94536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_94536> <http://www.w3.org/2000/01/rdf-schema#label> "Arm Brinz/BrimoFC" .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_94529> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_94615> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94678> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94705> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94732> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94759> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94786> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94813> .
+<http://ctro/data#Arm_94536> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94840> .
+<http://ctro/data#Arm_94566> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_94566> <http://www.w3.org/2000/01/rdf-schema#label> "Arm BRINZ + BRIM" .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_94559> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_94642> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94678> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94705> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94732> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94759> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94786> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94813> .
+<http://ctro/data#Arm_94566> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_94840> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_94529> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_94529> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention Brinz/BrimoFC" .
+<http://ctro/data#Intervention_94529> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94515> .
+<http://ctro/data#Intervention_94529> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#RelativeTime_94534> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_94529> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94522> .
+<http://ctro/data#Intervention_94559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_94559> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention BRINZ + BRIM" .
+<http://ctro/data#Intervention_94559> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94545> .
+<http://ctro/data#Intervention_94559> <http://ctro/data#hasFrequency> "twice - daily" .
+<http://ctro/data#RelativeTime_94564> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_94559> <http://ctro/data#hasMedication> <http://ctro/data#Medication_94552> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_94515> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94515> <http://www.w3.org/2000/01/rdf-schema#label> "Medication brin1" .
+<http://ctro/data#Medication_94515> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide> .
+<http://ctro/data#Medication_94515> <http://ctro/data#hasDoseValue> "1" .
+<http://ctro/data#Medication_94515> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_94522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94522> <http://www.w3.org/2000/01/rdf-schema#label> "Medication brim1" .
+<http://ctro/data#Medication_94522> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_94522> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_94522> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_94545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94545> <http://www.w3.org/2000/01/rdf-schema#label> "Medication brin2" .
+<http://ctro/data#Medication_94545> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide> .
+<http://ctro/data#Medication_94545> <http://ctro/data#hasDoseValue> "1" .
+<http://ctro/data#Medication_94545> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_94552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_94552> <http://www.w3.org/2000/01/rdf-schema#label> "Medication brim2" .
+<http://ctro/data#Medication_94552> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_94552> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_94552> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_94556> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_94615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94615> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome d IOP bb1" .
+<http://ctro/data#Outcome_94615> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94575> .
+<http://ctro/data#Outcome_94615> <http://ctro/data#hasChangeValue> "8 . 5" .
+<http://ctro/data#Outcome_94615> <http://ctro/data#hasSdErrorChangeValue> "0 . 16" .
+<http://ctro/data#Outcome_94615> <http://ctro/data#hasObservedResult> "The upper limits of the 95 % CIs were  < 1 . 5   mmHg at all time points" .
+<http://ctro/data#Outcome_94642> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94642> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome d IOP bb2" .
+<http://ctro/data#Outcome_94642> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94575> .
+<http://ctro/data#Outcome_94642> <http://ctro/data#hasChangeValue> "8 . 3" .
+<http://ctro/data#Outcome_94642> <http://ctro/data#hasSdErrorChangeValue> "0 . 16" .
+<http://ctro/data#Outcome_94642> <http://ctro/data#hasObservedResult> "The upper limits of the 95 % CIs were  < 1 . 5   mmHg at all time points" .
+<http://ctro/data#Outcome_94678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94678> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome CH both treatments " .
+<http://ctro/data#Outcome_94678> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94580> .
+<http://ctro/data#Outcome_94678> <http://ctro/data#hasObservedResult> "The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort ." .
+<http://ctro/data#Outcome_94705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94705> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome VD both treatments" .
+<http://ctro/data#Outcome_94705> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94585> .
+<http://ctro/data#Outcome_94705> <http://ctro/data#hasObservedResult> "The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort ." .
+<http://ctro/data#Outcome_94732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94732> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome OAD both treatments" .
+<http://ctro/data#Outcome_94732> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94590> .
+<http://ctro/data#Outcome_94732> <http://ctro/data#hasObservedResult> "The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort ." .
+<http://ctro/data#Outcome_94759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94759> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome OD both treatments" .
+<http://ctro/data#Outcome_94759> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94595> .
+<http://ctro/data#Outcome_94759> <http://ctro/data#hasObservedResult> "The most common ocular adverse drug reactions were hyperemia of the eye ( reported as ocular or conjunctival hyperemia ) , visual disturbances , ocular allergic reactions , and ocular discomfort ." .
+<http://ctro/data#Outcome_94786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94786> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome D both treatments" .
+<http://ctro/data#Outcome_94786> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94600> .
+<http://ctro/data#Outcome_94786> <http://ctro/data#hasObservedResult> "Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness ." .
+<http://ctro/data#Outcome_94813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94813> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome oral dryness" .
+<http://ctro/data#Outcome_94813> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94605> .
+<http://ctro/data#Outcome_94813> <http://ctro/data#hasObservedResult> "Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness ." .
+<http://ctro/data#Outcome_94840> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_94840> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome f/d" .
+<http://ctro/data#Outcome_94840> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_94610> .
+<http://ctro/data#Outcome_94840> <http://ctro/data#hasObservedResult> "Common systemic adverse drug reactions included dysgeusia , oral dryness , and fatigue / drowsiness ." .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_94669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_94669> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups d IOP " .
+<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasDiffGroupAbsValue> "- 0 . 1" .
+<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasConfIntervalDiff> "95 % CI - 0 . 5 to 0 . 2" .
+<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_94615> .
+<http://ctro/data#DiffBetweenGroups_94669> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_94642> .
+# RDF export of group: EvidenceQuality

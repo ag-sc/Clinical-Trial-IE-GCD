@@ -1,0 +1,95 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+92943, Journal, 0, 15, "Diabetes Care .", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasJournal> \"Diabetes Care .\"."
+92929, PublicationYear, 16, 20, "2001", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasPublicationYear> \"2001\"."
+92916, Title, 48, 161, "Basal insulin therapy in type 2 diabetes : 28 - week comparison of insulin glargine ( HOE 901 ) and NPH insulin .", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasTitle> \"Basal insulin therapy in type 2 diabetes : 28 - week comparison of insulin glargine ( HOE 901 ) and NPH insulin .\"."
+92459, Type2Diabetes, 73, 88, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+16, Duration, 91, 100, "28 - week", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasCTduration> \"28 - week\"."
+92952, InsulinGlargine, 115, 131, "insulin glargine", "", "<http://ctro/data#Medication_24343> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+92949, IsophaneInsulin_NPH, 148, 159, "NPH insulin", "", 
+92931, Author, 183, 194, "Schwartz SL", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasAuthor> \"Schwartz SL\"."
+92937, Author, 197, 208, "Clark CM Jr", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasAuthor> \"Clark CM Jr\"."
+92930, Author, 211, 218, "Park GD", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasAuthor> \"Park GD\"."
+92932, Author, 221, 230, "Donley DW", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasAuthor> \"Donley DW\"."
+92938, Author, 233, 243, "Edwards MB", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasAuthor> \"Edwards MB\"."
+92928, Country, 326, 329, "USA", "", "<http://ctro/data#Country_24280> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_24277> <http://ctro/data#hasCountry> <http://ctro/data#Country_24280>."
+167, ObjectiveDescription, 383, 572, "To determine the safety and efficacy of the long - acting analog insulin glargine compared with NPH insulin in patients with type 2 diabetes who were previously treated with insulin alone .", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasObjectiveDescription> \"To determine the safety and efficacy of the long - acting analog insulin glargine compared with NPH insulin in patients with type 2 diabetes who were previously treated with insulin alone .\"."
+92954, InsulinGlargine, 448, 464, "insulin glargine", "", 
+312, IsophaneInsulin_NPH, 479, 490, "NPH insulin", "", 
+62, Precondition, 494, 570, "patients with type 2 diabetes who were previously treated with insulin alone", "", 
+92953, Type2Diabetes, 508, 523, "type 2 diabetes", "", 
+109, Insulin, 557, 564, "insulin", "", 
+92466, Precondition, 618, 735, "subjects with type 2 diabetes who were receiving NPH insulin with or without regular insulin for postprandial control", "", "<http://ctro/data#Population_24277> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes who were receiving NPH insulin with or without regular insulin for postprandial control\"."
+316, Type2Diabetes, 632, 647, "type 2 diabetes", "", 
+92460, IsophaneInsulin_NPH, 667, 678, "NPH insulin", "", 
+110, Insulin, 703, 710, "insulin", "", 
+92463, Randomized, 741, 751, "randomized", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+92955, InsulinGlargine, 763, 779, "insulin glargine", "", 
+24, InsulinGlargine, 782, 789, "HOE 901", "", 
+106179, Frequency, 792, 802, "once daily", "", "<http://ctro/data#Intervention_24328> <http://ctro/data#hasFrequency> \"once daily\"."
+111, NumberPatientsArm, 809, 812, "259", "", "<http://ctro/data#Arm_24310> <http://ctro/data#hasNumberPatientsArm> \"259\"."
+92461, IsophaneInsulin_NPH, 818, 829, "NPH insulin", "", "<http://ctro/data#Medication_24350> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+106180, Frequency, 830, 849, "once or twice daily", "", "<http://ctro/data#Intervention_24334> <http://ctro/data#hasFrequency> \"once or twice daily\"."
+112, NumberPatientsArm, 855, 858, "259", "", "<http://ctro/data#Arm_24319> <http://ctro/data#hasNumberPatientsArm> \"259\"."
+92959, Duration, 865, 873, "28 weeks", "", 
+106178, OpenLabel, 880, 892, "open - label", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+106181, Multicenter, 895, 906, "multicenter", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+106182, DoseDescription, 915, 986, "Doses were adjusted to obtain target fasting glucose < 6 . 7 mmol / l .", "", "<http://ctro/data#Medication_24343> <http://ctro/data#hasDoseDescription> \"Doses were adjusted to obtain target fasting glucose < 6 . 7 mmol / l .\". <http://ctro/data#Medication_24350> <http://ctro/data#hasDoseDescription> \"Doses were adjusted to obtain target fasting glucose < 6 . 7 mmol / l .\"."
+153, FastingPlasmaGlucose_target, 952, 984, "fasting glucose < 6 . 7 mmol / l", "", 
+121, Millimoles_per_litre, 976, 984, "mmol / l", "", 
+164, TimePoint, 990, 1005, "study end point", "", 
+159, Insulin, 1031, 1038, "insulin", "", 
+63, DoseValue, 1073, 1079, "0 . 75", "", 
+117, IntUnit_per_Kg, 1080, 1087, "IU / kg", "", 
+39, HbA1c, 1152, 1157, "HbA1c", "", "<http://ctro/data#Endpoint_24285> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+181, TimePoint, 1163, 1171, "baseline", "", 
+182, TimePoint, 1175, 1184, "end point", "", 
+92948, IntentionToTreat, 1188, 1207, "intent - to - treat", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+162, Mean, 1223, 1227, "mean", "", 
+46, Mean, 1237, 1236, "", "", 
+40, HbA1c, 1257, 1262, "HbA1c", "", 
+183, TimePoint, 1268, 1276, "baseline", "", 
+184, TimePoint, 1280, 1289, "end point", "", 
+92960, InsulinGlargine, 1309, 1325, "insulin glargine", "", 
+92897, Reduction, 1336, 1342, "0 . 41", "", 
+92946, SdDevChangeValue, 1349, 1354, "0 . 1", "", 
+147, Percentage, 1355, 1356, "%", "", 
+34, IsophaneInsulin_NPH, 1367, 1370, "NPH", "", 
+50, Reduction, 1381, 1387, "0 . 59", "", "<http://ctro/data#Outcome_24384> <http://ctro/data#hasChangeValue> \"0 . 59\"."
+92945, SdDevChangeValue, 1394, 1399, "0 . 1", "", 
+148, Percentage, 1400, 1401, "%", "", 
+41, HbA1c, 1450, 1455, "HbA1c", "", 
+92944, BaseLineValue, 1473, 1478, "8 . 5", "", "<http://ctro/data#Outcome_24357> <http://ctro/data#hasBaselineValue> \"8 . 5\". <http://ctro/data#Outcome_24384> <http://ctro/data#hasBaselineValue> \"8 . 5\"."
+128, Percentage, 1479, 1480, "%", "", "<http://ctro/data#Endpoint_24285> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+52, ObservedResult, 1483, 1565, "The treatments were associated with similar reductions in fasting glucose levels .", "", 
+42, FastingPlasmaGlucose, 1541, 1563, "fasting glucose levels", "", "<http://ctro/data#Endpoint_24290> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+92950, SymptomaticHypoglycemia, 1581, 1605, "symptomatic hypoglycemia", "", "<http://ctro/data#Endpoint_24295> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+92962, InsulinGlargine, 1621, 1637, "insulin glargine", "", 
+92911, PercentageAffected, 1649, 1655, "61 . 4", "", "<http://ctro/data#Outcome_24438> <http://ctro/data#hasPercentageAffected> \"61 . 4\"."
+35, IsophaneInsulin_NPH, 1664, 1675, "NPH insulin", "", 
+92972, PercentageAffected, 1687, 1689, "66", "", "<http://ctro/data#Outcome_24465> <http://ctro/data#hasPercentageAffected> \"66\"."
+44, NocturnalHypoglycemia, 1706, 1728, "nocturnal hypoglycemia", "", "<http://ctro/data#Endpoint_24300> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+92958, InsulinGlargine, 1736, 1752, "insulin glargine", "", 
+55, RelativeReduction, 1774, 1776, "25", "", "<http://ctro/data#Outcome_24492> <http://ctro/data#hasRelativeChangeValue> \"25\"."
+133, PercentageAffected, 1842, 1848, "26 . 5", "", "<http://ctro/data#Outcome_24492> <http://ctro/data#hasPercentageAffected> \"26 . 5\"."
+134, PercentageAffected, 1854, 1860, "35 . 5", "", "<http://ctro/data#Outcome_24519> <http://ctro/data#hasPercentageAffected> \"35 . 5\"."
+135, PvalueDiff, 1865, 1877, "P = 0 . 0136", "", "<http://ctro/data#DiffBetweenGroups_24546> <http://ctro/data#hasPvalueDiff> \"P = 0 . 0136\"."
+28, InsulinGlargine, 1898, 1914, "insulin glargine", "", 
+136, WeightGain, 1938, 1949, "weight gain", "", "<http://ctro/data#Endpoint_24305> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#WeightGain>."
+92951, IsophaneInsulin_NPH, 1968, 1971, "NPH", "", 
+56, Increment, 1980, 1985, "0 . 4", "", "<http://ctro/data#Outcome_24555> <http://ctro/data#hasChangeValue> \"HbA1c\". <http://ctro/data#Outcome_24555> <http://ctro/data#hasChangeValue> \"0 . 4\"."
+57, Increment, 1991, 1996, "1 . 4", "", "<http://ctro/data#Outcome_24582> <http://ctro/data#hasChangeValue> \"HbA1c\". <http://ctro/data#Outcome_24582> <http://ctro/data#hasChangeValue> \"1 . 4\"."
+58, Kg, 1997, 1999, "kg", "", "<http://ctro/data#Endpoint_24305> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+139, PvalueDiff, 2002, 2014, "P < 0 . 0007", "", "<http://ctro/data#DiffBetweenGroups_24609> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0007\"."
+108, ConclusionComment, 2033, 2200, "In patients with type 2 diabetes , once - daily bedtime insulin glargine is as effective as once - or twice - daily NPH in improving and maintaining glycemic control .", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasConclusionComment> \"In patients with type 2 diabetes , once - daily bedtime insulin glargine is as effective as once - or twice - daily NPH in improving and maintaining glycemic control .\"."
+92956, Type2Diabetes, 2050, 2065, "type 2 diabetes", "", 
+65, Frequency, 2068, 2080, "once - daily", "", 
+92961, Bedtime, 2081, 2088, "bedtime", "", 
+29, InsulinGlargine, 2089, 2105, "insulin glargine", "", 
+68, Frequency, 2125, 2148, "once - or twice - daily", "", 
+36, IsophaneInsulin_NPH, 2149, 2152, "NPH", "", 
+314, ConclusionComment, 2201, 2331, "In addition , insulin glargine deonstrates a lower risk of nocturnal hypoglycemia and less weight gain compared with NPH insulin .", "", "<http://ctro/data#ClinicalTrial_24258> <http://ctro/data#hasConclusionComment> \"In addition , insulin glargine deonstrates a lower risk of nocturnal hypoglycemia and less weight gain compared with NPH insulin .\"."
+30, InsulinGlargine, 2215, 2231, "insulin glargine", "", 
+66, NocturnalHypoglycemia, 2260, 2282, "nocturnal hypoglycemia", "", 
+143, WeightGain, 2292, 2303, "weight gain", "", 
+92971, IsophaneInsulin_NPH, 2318, 2329, "NPH insulin", "", 
+92917, PMID, 2380, 2388, "11315821", "", "<http://ctro/data#Publication_24249> <http://ctro/data#hasPMID> \"11315821\"."

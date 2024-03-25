@@ -1,0 +1,15 @@
+# RDF export of group: Publication
+# RDF export of group: ClinicalTrial
+# RDF export of group: Population
+<http://ctro/data#Population_19090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_19090> <http://www.w3.org/2000/01/rdf-schema#label> "Population 19090" .
+<http://ctro/data#Ethnicity_19092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_19093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Gender_19097> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+# RDF export of group: Arm
+# RDF export of group: Intervention
+# RDF export of group: Medication
+# RDF export of group: Outcome
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

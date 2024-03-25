@@ -1,0 +1,111 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2014", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasPublicationYear> \"2014\"."
+23, Title, 104, 260, "Efficacy and safety of vildagliptin in patients with type 2 diabetes mellitus inadequately controlled with dual combination of metformin and sulphonylurea .", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasTitle> \"Efficacy and safety of vildagliptin in patients with type 2 diabetes mellitus inadequately controlled with dual combination of metformin and sulphonylurea .\"."
+2, Vildagliptin, 127, 139, "vildagliptin", "", 
+22, Precondition, 143, 258, "patients with type 2 diabetes mellitus inadequately controlled with dual combination of metformin and sulphonylurea", "", "<http://ctro/data#Population_50758> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes mellitus inadequately controlled with dual combination of metformin and sulphonylurea\"."
+13, Type2Diabetes, 157, 181, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+17, Metformin, 231, 240, "metformin", "", 
+21, Sulfonylureas, 245, 258, "sulphonylurea", "", 
+24, Author, 261, 274, "Lukashevich V", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasAuthor> \"Lukashevich V\"."
+25, Author, 283, 294, "Del Prato S", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasAuthor> \"Del Prato S\"."
+26, Author, 297, 304, "Araga M", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasAuthor> \"Araga M\"."
+27, Author, 307, 315, "Kothny W", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasAuthor> \"Kothny W\"."
+28, USA, 404, 407, "USA", "", 
+121, ObjectiveDescription, 416, 532, "The broadly used combination of metformin and sulphonylurea ( SU ) often fails to bring patients to glycaemic goal .", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasObjectiveDescription> \"The broadly used combination of metformin and sulphonylurea ( SU ) often fails to bring patients to glycaemic goal .\"."
+18, Metformin, 448, 457, "metformin", "", 
+29, Sulfonylureas, 462, 475, "sulphonylurea", "", 
+30, Sulfonylureas, 478, 480, "SU", "", 
+34, ObjectiveDescription, 533, 744, "This study assessed the efficacy and safety of vildagliptin as add - on therapy to metformin plus glimepiride combination in patients with type 2 diabetes mellitus ( T2DM ) who had inadequate glycaemic control .", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasObjectiveDescription> \"This study assessed the efficacy and safety of vildagliptin as add - on therapy to metformin plus glimepiride combination in patients with type 2 diabetes mellitus ( T2DM ) who had inadequate glycaemic control .\"."
+3, Vildagliptin, 580, 592, "vildagliptin", "", 
+19, Metformin, 616, 625, "metformin", "", 
+31, Glimepiride, 631, 642, "glimepiride", "", 
+33, Precondition, 658, 742, "patients with type 2 diabetes mellitus ( T2DM ) who had inadequate glycaemic control", "", 
+14, Type2Diabetes, 672, 696, "type 2 diabetes mellitus", "", 
+15, Type2Diabetes, 699, 703, "T2DM", "", 
+35, Multicenter, 757, 768, "multicentre", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36, DoubleBlind, 771, 785, "double - blind", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+37, Placebo, 788, 795, "placebo", "", 
+41, Randomized, 815, 825, "randomized", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, Vildagliptin, 861, 873, "vildagliptin", "", "<http://ctro/data#Medication_50796> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+42, DoseValue, 874, 876, "50", "", "<http://ctro/data#Medication_50796> <http://ctro/data#hasDoseValue> \"50\"."
+43, mg, 879, 881, "mg", "", "<http://ctro/data#Medication_50796> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+44, Frequency, 882, 885, "bid", "", "<http://ctro/data#Intervention_50784> <http://ctro/data#hasFrequency> \"bid\"."
+45, NumberPatientsArm, 894, 897, "158", "", "<http://ctro/data#Arm_50766> <http://ctro/data#hasNumberPatientsArm> \"158\"."
+47, Placebo, 903, 910, "placebo", "", "<http://ctro/data#Medication_50803> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+46, NumberPatientsArm, 919, 922, "160", "", "<http://ctro/data#Arm_50775> <http://ctro/data#hasNumberPatientsArm> \"160\"."
+48, Duration, 929, 939, "24   weeks", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasCTduration> \"24   weeks\"."
+49, TimePoint, 958, 968, "24   weeks", "", 
+136, Mean, 984, 988, "mean", "", "<http://ctro/data#Mean_50851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_50849> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_50851>."
+50, HbA1c, 999, 1014, "haemoglobin A1c", "", "<http://ctro/data#Endpoint_50849> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+51, HbA1c, 1017, 1022, "HbA1c", "", 
+52, Reduction, 1031, 1037, "1 . 01", "", "<http://ctro/data#Outcome_50854> <http://ctro/data#hasChangeValue> \"1 . 01\"."
+54, Percentage, 1038, 1039, "%", "", "<http://ctro/data#Endpoint_50849> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+5, Vildagliptin, 1045, 1057, "vildagliptin", "", 
+146, TimePoint, 1060, 1068, "baseline", "", 
+59, BaseLineValue, 1069, 1075, "8 . 75", "", "<http://ctro/data#Outcome_50854> <http://ctro/data#hasBaselineValue> \"8 . 75\"."
+55, Percentage, 1076, 1077, "%", "", 
+53, Reduction, 1086, 1092, "0 . 25", "", "<http://ctro/data#Outcome_50854> <http://ctro/data#hasChangeValue> \"1 . 01\"."
+56, Percentage, 1093, 1094, "%", "", 
+38, Placebo, 1100, 1107, "placebo", "", 
+147, TimePoint, 1110, 1118, "baseline", "", 
+60, BaseLineValue, 1119, 1125, "8 . 80", "", "<http://ctro/data#Outcome_50881> <http://ctro/data#hasBaselineValue> \"8 . 80\"."
+57, Percentage, 1126, 1127, "%", "", 
+61, DiffGroupAbsValue, 1173, 1181, "- 0 . 76", "", "<http://ctro/data#DiffBetweenGroups_50908> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 76\"."
+58, Percentage, 1182, 1183, "%", "", 
+62, PvalueDiff, 1186, 1199, "p  <  0 . 001", "", "<http://ctro/data#DiffBetweenGroups_50908> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 001\"."
+6, Vildagliptin, 1235, 1247, "vildagliptin", "", 
+155, HbA1c_target, 1261, 1279, "HbA1c target < 7 %", "", "<http://ctro/data#Endpoint_50917> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+156, Percentage, 1278, 1279, "%", "", 
+64, PercentageAffected, 1282, 1288, "28 . 3", "", "<http://ctro/data#Outcome_50922> <http://ctro/data#hasPercentageAffected> \"28 . 3\"."
+157, Percentage, 1289, 1290, "%", "", 
+65, PercentageAffected, 1296, 1301, "5 . 6", "", "<http://ctro/data#Outcome_50949> <http://ctro/data#hasPercentageAffected> \"5 . 6\"."
+158, Percentage, 1302, 1303, "%", "", 
+66, PvalueDiff, 1306, 1319, "p  <  0 . 001", "", "<http://ctro/data#DiffBetweenGroups_50976> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 001\"."
+67, FastingPlasmaGlucose, 1342, 1364, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_50985> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+7, Vildagliptin, 1383, 1395, "vildagliptin", "", 
+39, Placebo, 1400, 1407, "placebo", "", 
+68, DiffGroupAbsValue, 1412, 1420, "- 1 . 13", "", "<http://ctro/data#DiffBetweenGroups_51044> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 13\"."
+69, Millimoles_per_litre, 1423, 1431, "mmol / l", "", "<http://ctro/data#Endpoint_50985> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+70, PvalueDiff, 1434, 1447, "p  <  0 . 001", "", "<http://ctro/data#DiffBetweenGroups_51044> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 001\"."
+168, SubGroupDescription, 1467, 1501, "patients with baseline HbA1c ≤ 8 %", "", "<http://ctro/data#Outcome_51053> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≤ 8 %\". <http://ctro/data#Outcome_51080> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≤ 8 %\". <http://ctro/data#Outcome_51107> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≤ 8 %\". <http://ctro/data#Outcome_51134> <http://ctro/data#hasSubGroupDescription> \"patients with baseline HbA1c ≤ 8 %\"."
+72, HbA1c, 1490, 1495, "HbA1c", "", 
+170, Percentage, 1500, 1501, "%", "", 
+8, Vildagliptin, 1504, 1516, "vildagliptin", "", 
+73, HbA1c, 1525, 1530, "HbA1c", "", 
+74, Reduction, 1534, 1540, "0 . 74", "", "<http://ctro/data#Outcome_51080> <http://ctro/data#hasChangeValue> \"0 . 74\"."
+76, Percentage, 1541, 1542, "%", "", 
+181, TimePoint, 1548, 1556, "baseline", "", 
+75, BaseLineValue, 1557, 1563, "7 . 82", "", "<http://ctro/data#Outcome_51080> <http://ctro/data#hasBaselineValue> \"7 . 82\"."
+77, Percentage, 1564, 1565, "%", "", 
+79, DiffGroupAbsValue, 1601, 1609, "- 0 . 97", "", "<http://ctro/data#DiffBetweenGroups_51161> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 97\"."
+78, Percentage, 1610, 1611, "%", "", 
+80, PvalueDiff, 1614, 1625, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_51161> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+184, HbA1c_target, 1675, 1693, "HbA1c target < 7 %", "", 
+174, Percentage, 1692, 1693, "%", "", 
+82, PercentageAffected, 1696, 1702, "38 . 6", "", "<http://ctro/data#Outcome_51107> <http://ctro/data#hasPercentageAffected> \"38 . 6\"."
+83, PercentageAffected, 1710, 1716, "13 . 9", "", "<http://ctro/data#Outcome_51134> <http://ctro/data#hasPercentageAffected> \"13 . 9\"."
+84, PvalueDiff, 1721, 1734, "p  =  0 . 014", "", "<http://ctro/data#DiffBetweenGroups_51170> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 014\"."
+9, Vildagliptin, 1739, 1751, "Vildagliptin", "", 
+85, Hypoglycemia, 1793, 1806, "hypoglycaemia", "", "<http://ctro/data#Endpoint_51179> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+40, Placebo, 1835, 1842, "placebo", "", 
+86, PercentageAffected, 1845, 1850, "5 . 1", "", "<http://ctro/data#Outcome_51184> <http://ctro/data#hasPercentageAffected> \"5 . 1\"."
+87, PercentageAffected, 1858, 1863, "1 . 9", "", "<http://ctro/data#Outcome_51211> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+89, ObservedResult, 1872, 1906, "no clinically relevant weight gain", "", 
+195, WeightGain, 1895, 1906, "weight gain", "", 
+10, Vildagliptin, 1923, 1935, "Vildagliptin", "", 
+97, ConclusionComment, 1923, 2068, "Vildagliptin significantly improved glycaemic control in patients with T2DM inadequately controlled with metformin plus glimepiride combination .", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasConclusionComment> \"Vildagliptin significantly improved glycaemic control in patients with T2DM inadequately controlled with metformin plus glimepiride combination .\"."
+16, Type2Diabetes, 1994, 1998, "T2DM", "", 
+20, Metformin, 2028, 2037, "metformin", "", 
+32, Glimepiride, 2043, 2054, "glimepiride", "", 
+98, ConclusionComment, 2069, 2165, "The addition of vildagliptin was well tolerated with low risk of hypoglycaemia and weight gain .", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasConclusionComment> \"The addition of vildagliptin was well tolerated with low risk of hypoglycaemia and weight gain .\"."
+11, Vildagliptin, 2085, 2097, "vildagliptin", "", 
+90, Hypoglycemia, 2134, 2147, "hypoglycaemia", "", 
+202, WeightGain, 2152, 2163, "weight gain", "", 
+99, ConclusionComment, 2166, 2315, "This makes vildagliptin an attractive treatment option for patients failing on metformin plus SU particularly in patients with baseline HbA1c ≤ 8 % .", "", "<http://ctro/data#ClinicalTrial_50742> <http://ctro/data#hasConclusionComment> \"This makes vildagliptin an attractive treatment option for patients failing on metformin plus SU particularly in patients with baseline HbA1c ≤ 8 % .\"."
+12, Vildagliptin, 2177, 2189, "vildagliptin", "", 
+92, Metformin, 2245, 2254, "metformin", "", 
+93, Sulfonylureas, 2260, 2262, "SU", "", 
+94, HbA1c, 2302, 2307, "HbA1c", "", 
+95, Percentage, 2312, 2313, "%", "", 
+100, PMID, 2464, 2472, "24199686", "", "<http://ctro/data#Publication_50735> <http://ctro/data#hasPMID> \"24199686\"."

@@ -1,0 +1,91 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 8, "PLoS One", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasJournal> \"PLoS One\"."
+1, PublicationYear, 11, 15, "2016", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasPublicationYear> \"2016\"."
+5, Title, 111, 290, "A Randomized Controlled Trial Comparing the Effects of Sitagliptin and Glimepiride on Endothelial Function and Metabolic Parameters : Sapporo Athero - Incretin Study 1 ( SAIS1 ) .", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasTitle> \"A Randomized Controlled Trial Comparing the Effects of Sitagliptin and Glimepiride on Endothelial Function and Metabolic Parameters : Sapporo Athero - Incretin Study 1 ( SAIS1 ) .\"."
+2, Randomized, 113, 123, "Randomized", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, Sitagliptin, 166, 177, "Sitagliptin", "", 
+4, Glimepiride, 182, 193, "Glimepiride", "", 
+6, Author, 291, 299, "Nomoto H", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Nomoto H\"."
+7, Author, 308, 317, "Miyoshi H", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Miyoshi H\"."
+8, Author, 326, 336, "Furumoto T", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Furumoto T\"."
+9, Author, 351, 356, "Oba K", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Oba K\"."
+10, Author, 371, 380, "Tsutsui H", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Tsutsui H\"."
+11, Author, 389, 396, "Inoue A", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Inoue A\"."
+12, Author, 405, 413, "Atsumi T", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Atsumi T\"."
+13, Author, 422, 429, "Manda N", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Manda N\"."
+14, Author, 438, 448, "Kurihara Y", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Kurihara Y\"."
+15, Author, 457, 463, "Aoki S", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasAuthor> \"Aoki S\"."
+16, Japan, 636, 641, "Japan", "", "<http://ctro/data#Population_75061> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+17, Japan, 734, 739, "Japan", "", 
+18, Japan, 848, 853, "Japan", "", 
+19, Japan, 982, 987, "Japan", "", 
+20, Japan, 1079, 1084, "Japan", "", 
+21, Japan, 1167, 1172, "Japan", "", 
+22, Japan, 1217, 1222, "Japan", "", 
+23, Japan, 1259, 1264, "Japan", "", 
+24, Japan, 1297, 1302, "Japan", "", 
+97271, Drug, 1322, 1340, "DPP - 4 inhibitors", "", 
+118, Hypoglycemia, 1383, 1396, "hyperglycemia", "", 
+97273, DisorderOrSyndrome, 1482, 1497, "atherosclerosis", "", 
+97274, Drug, 1551, 1569, "DPP - 4 inhibitors", "", 
+25, Type2Diabetes, 1628, 1643, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+123, ObjectiveDescription, 1658, 1824, "we investigated the efficacy of sitagliptin , a DPP - 4 inhibitor , on endothelial function and glycemic metabolism compared with that of the sulfonylurea glimepiride", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasObjectiveDescription> \"we investigated the efficacy of sitagliptin , a DPP - 4 inhibitor , on endothelial function and glycemic metabolism compared with that of the sulfonylurea glimepiride\"."
+26, Sitagliptin, 1690, 1701, "sitagliptin", "", 
+97275, Drug, 1706, 1723, "DPP - 4 inhibitor", "", 
+27, Sulfonylureas, 1800, 1812, "sulfonylurea", "", 
+28, Glimepiride, 1813, 1824, "glimepiride", "", 
+32, Multicenter, 1859, 1870, "multicenter", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+33, Prospective, 1873, 1884, "prospective", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+34, Randomized, 1887, 1897, "randomized", "", 
+127, Parallel, 1898, 1914, "parallel - group", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+36, NumberPatientsCT, 1934, 1937, "103", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasNumberPatientsCT> \"103\"."
+134, Precondition, 1938, 2097, "outpatients with type 2 diabetes ( aged 59 . 9 ± 9 . 9 years with HbA1c levels of 7 . 5 ± 0 . 4 % ) with dietary cure only and / or current metformin treatment", "", "<http://ctro/data#Population_75061> <http://ctro/data#hasPrecondition> \"outpatients with type 2 diabetes ( aged 59 . 9 ± 9 . 9 years with HbA1c levels of 7 . 5 ± 0 . 4 % ) with dietary cure only and / or current metformin treatment\"."
+37, Type2Diabetes, 1955, 1970, "type 2 diabetes", "", 
+129, AvgAge, 1978, 1984, "59 . 9", "", "<http://ctro/data#Population_75061> <http://ctro/data#hasAvgAge> \"59 . 9\"."
+39, Year, 1993, 1998, "years", "", 
+40, HbA1c, 2004, 2009, "HbA1c", "", 
+42, Percentage, 2034, 2035, "%", "", 
+43, Metformin, 2078, 2087, "metformin", "", 
+44, Randomized, 2116, 2124, "randomly", "", 
+45, Sitagliptin, 2145, 2156, "sitagliptin", "", "<http://ctro/data#Medication_75105> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+46, Glimepiride, 2160, 2171, "glimepiride", "", "<http://ctro/data#Medication_75112> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride>."
+47, Frequency, 2180, 2190, "once daily", "", "<http://ctro/data#Intervention_75087> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_75093> <http://ctro/data#hasFrequency> \"once daily\"."
+48, Duration, 2195, 2203, "26 weeks", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasCTduration> \"26 weeks\"."
+52, EndPointDescription, 2206, 2230, "Flow - mediated dilation", "", "<http://ctro/data#EndPointDescription_75143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75143>."
+53, EndPointDescription, 2233, 2236, "FMD", "", "<http://ctro/data#EndPointDescription_75143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75142> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75143>."
+49, Percentage, 2466, 2467, "%", "", 
+54, EndPointDescription, 2468, 2471, "FMD", "", 
+55, Sitagliptin, 2498, 2509, "sitagliptin", "", 
+57, BaseLineValue, 2512, 2517, "5 . 6", "", "<http://ctro/data#Outcome_75147> <http://ctro/data#hasBaselineValue> \"5 . 6\"."
+59, ResultMeasuredValue, 2521, 2526, "5 . 6", "", "<http://ctro/data#Outcome_75147> <http://ctro/data#hasResultMeasuredValue> \"5 . 6\"."
+50, Percentage, 2527, 2528, "%", "", "<http://ctro/data#Endpoint_75142> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+56, Glimepiride, 2531, 2542, "glimepiride", "", 
+58, BaseLineValue, 2545, 2550, "5 . 6", "", "<http://ctro/data#Outcome_75174> <http://ctro/data#hasBaselineValue> \"5 . 6\"."
+60, ResultMeasuredValue, 2554, 2559, "6 . 0", "", "<http://ctro/data#Outcome_75174> <http://ctro/data#hasResultMeasuredValue> \"6 . 0\"."
+51, Percentage, 2560, 2561, "%", "", 
+66, EndPointDescription, 2566, 2610, "Secretory units of islets in transplantation", "", "<http://ctro/data#EndPointDescription_75202> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75201> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75202>."
+67, EndPointDescription, 2613, 2620, "TNF", "", "<http://ctro/data#EndPointDescription_75207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75206> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75207>."
+68, EndPointDescription, 2621, 2632, "adiponectin", "", "<http://ctro/data#EndPointDescription_75212> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75211> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75212>."
+69, EndPointDescription, 2637, 2669, "biological antioxidant potential", "", "<http://ctro/data#EndPointDescription_75217> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75216> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75217>."
+70, ObservedResult, 2670, 2692, "significantly improved", "", "<http://ctro/data#Outcome_75231> <http://ctro/data#hasObservedResult> \"significantly improved\". <http://ctro/data#Outcome_75258> <http://ctro/data#hasObservedResult> \"significantly improved\". <http://ctro/data#Outcome_75285> <http://ctro/data#hasObservedResult> \"significantly improved\". <http://ctro/data#Outcome_75312> <http://ctro/data#hasObservedResult> \"significantly improved\"."
+61, Sitagliptin, 2700, 2711, "sitagliptin", "", 
+71, EndPointDescription, 2724, 2744, "superoxide dismutase", "", "<http://ctro/data#EndPointDescription_75222> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75221> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75222>."
+152, ObservedResult, 2750, 2767, "tended to improve", "", "<http://ctro/data#Outcome_75339> <http://ctro/data#hasObservedResult> \"tended to improve\"."
+62, Sitagliptin, 2775, 2786, "sitagliptin", "", 
+153, ObservedResult, 2801, 2857, "improvements in HbA1c levels were similar between groups", "", "<http://ctro/data#Outcome_75366> <http://ctro/data#hasObservedResult> \"improvements in HbA1c levels were similar between groups\". <http://ctro/data#Outcome_75393> <http://ctro/data#hasObservedResult> \"improvements in HbA1c levels were similar between groups\"."
+63, HbA1c, 2817, 2822, "HbA1c", "", "<http://ctro/data#Endpoint_75226> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+64, EndPointDescription, 2860, 2873, "Cardiac index", "", "<http://ctro/data#EndPointDescription_75421> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75420> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75421>."
+158, ObservedResult, 2860, 2947, "Cardiac index , blood pressure and most other metabolic parameters were not different .", "", "<http://ctro/data#Outcome_75430> <http://ctro/data#hasObservedResult> \"Cardiac index , blood pressure and most other metabolic parameters were not different .\". <http://ctro/data#Outcome_75457> <http://ctro/data#hasObservedResult> \"Cardiac index , blood pressure and most other metabolic parameters were not different .\". <http://ctro/data#Outcome_75484> <http://ctro/data#hasObservedResult> \"Cardiac index , blood pressure and most other metabolic parameters were not different .\". <http://ctro/data#Outcome_75511> <http://ctro/data#hasObservedResult> \"Cardiac index , blood pressure and most other metabolic parameters were not different .\"."
+65, BloodPressure, 2876, 2890, "blood pressure", "", "<http://ctro/data#BloodPressure_75426> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_75425> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_75426>."
+74, ConclusionComment, 2962, 3138, "Regardless of glycemic improvement , early sitagliptin therapy did not affect endothelial function but may provide favorable effects on beta - cell function and on inflammatory", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasConclusionComment> \"Regardless of glycemic improvement , early sitagliptin therapy did not affect endothelial function but may provide favorable effects on beta - cell function and on inflammatory\". <http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasConclusionComment> \"and oxidative stress in patients with type 2 diabetes without advanced atherosclerosis .\"."
+72, Sitagliptin, 3005, 3016, "sitagliptin", "", 
+74, ConclusionComment, 3139, 3227, "and oxidative stress in patients with type 2 diabetes without advanced atherosclerosis .", "", "<http://ctro/data#ClinicalTrial_75045> <http://ctro/data#hasConclusionComment> \"and oxidative stress in patients with type 2 diabetes without advanced atherosclerosis .\"."
+73, Type2Diabetes, 3177, 3192, "type 2 diabetes", "", 
+76, PMID, 3372, 3380, "27711199", "", "<http://ctro/data#Publication_75038> <http://ctro/data#hasPMID> \"27711199\"."
+77, ConflictInterest, 3438, 3624, "I have read the journal ' s policy and the authors of this manuscript have the following competing interests : H . Miyoshi has received honoraria for lectures from Astellas , AstraZeneca", "", 
+78, ConflictInterest, 3625, 3796, ", Dainippon Pharma , Eli Lilly , Kissei , Mitsubishi Tanabe Pharma , MSD , Novartis , Novo Nordisk and Sanofi ; and received scholarship grants from Astellas , AstraZeneca", "", 
+79, ConflictInterest, 3797, 3977, ", Daiichi Sankyo , Eli Lilly , Mitsubishi Tanabe Pharma , MSD , Novo Nordisk , Sanofi , Takeda and Taisho Pharmaceutical Co . , Ltd . T . Atsumi has received honoraria for lectures", "", 
+80, ConflictInterest, 3978, 4154, "from Takeda Pharmaceutical , Mitsubishi Tanabe Pharma , Pfizer , Eisai , Avvie , UCB Japan , Astellas Pharma and Chugai Pharmaceutical Co . , Ltd ; and received research grants", "", 
+81, ConflictInterest, 4155, 4291, "from Astellas , Chugai , Sanofi , Eisai , Alexion , Bristol - Myers Squibb , Mitsubishi Tanabe Pharma and Janssen Pharmaceutical K . K .", "", 
+82, ConflictInterest, 4292, 4427, "; and received scholarship grants from Astellas , Takeda , Mitsubishi Tanabe Pharma , Chugai , Daiichi Sankyo , Eisai and Bayer , Ltd .", "", 
+83, ConflictInterest, 4428, 4514, "This does not alter our adherence to PLOS ONE policies on sharing data and materials .", "", 

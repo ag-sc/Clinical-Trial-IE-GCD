@@ -1,0 +1,169 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 11, "Clin Ther .", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasJournal> \"Clin Ther .\"."
+1, PublicationYear, 12, 16, "2006", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasPublicationYear> \"2006\"."
+149, Title, 44, 274, "A 6 - week , double - masked , parallel - group study of the efficacy and safety of travoprost 0 . 004 % compared with latanoprost 0 : 005 % / timolol 0 . 5 % in patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasTitle> \"A 6 - week , double - masked , parallel - group study of the efficacy and safety of travoprost 0 . 004 % compared with latanoprost 0 : 005 % / timolol 0 . 5 % in patients with primary open - angle glaucoma or ocular hypertension .\"."
+3, Duration, 46, 54, "6 - week", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTduration> \"6 - week\"."
+4, DoubleBlind, 57, 72, "double - masked", "", 
+5, Parallel, 75, 91, "parallel - group", "", 
+6, Travoprost, 128, 138, "travoprost", "", 
+9, DoseValue, 139, 146, "0 . 004", "", 
+146, Percentage, 147, 148, "%", "", 
+7, Latanoprost, 163, 174, "latanoprost", "", 
+175, Lat/TimFC, 163, 202, "latanoprost 0 : 005 % / timolol 0 . 5 %", "", 
+10, DoseValue, 175, 182, "0 : 005", "", 
+147, Percentage, 183, 184, "%", "", 
+8, Timolol, 187, 194, "timolol", "", 
+11, DoseValue, 195, 200, "0 . 5", "", 
+148, Percentage, 201, 202, "%", "", 
+150, Precondition, 206, 272, "patients with primary open - angle glaucoma or ocular hypertension", "", 
+12, Primary_OpenAngleGlaucoma, 220, 249, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+13, OcularHypertension, 253, 272, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+14, Author, 275, 284, "Franks WA", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasAuthor> \"Franks WA\"."
+15, Author, 293, 302, "Renard JP", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasAuthor> \"Renard JP\"."
+16, Author, 305, 316, "Cunliffe IA", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasAuthor> \"Cunliffe IA\"."
+154, Author, 319, 334, "Rojanapongpun P", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasAuthor> \"Rojanapongpun P\"."
+156, Glaucoma, 364, 372, "Glaucoma", "", 
+18, UK, 424, 438, "United Kingdom", "", "<http://ctro/data#Population_86344> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+19, ObjectiveDescription, 492, 640, "The objective of this study was to directly compare the intraocular pressure ( IOP ) - lowering efficacy and safety of travoprost 0 . 004 % eyedrops", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasObjectiveDescription> \"The objective of this study was to directly compare the intraocular pressure ( IOP ) - lowering efficacy and safety of travoprost 0 . 004 % eyedrops\"."
+21, IOP, 548, 568, "intraocular pressure", "", "<http://ctro/data#IOP_86372> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_86371> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_86372>."
+22, IOP, 571, 574, "IOP", "", 
+23, Travoprost, 611, 621, "travoprost", "", "<http://ctro/data#Medication_86403> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+25, DoseValue, 622, 629, "0 . 004", "", "<http://ctro/data#Medication_86403> <http://ctro/data#hasDoseValue> \"0 . 004\"."
+169, Percentage, 630, 631, "%", "", "<http://ctro/data#Medication_86403> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+24, Eyedrops, 632, 640, "eyedrops", "", "<http://ctro/data#Medication_86403> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+20, ObjectiveDescription, 641, 791, "with the fixed combination of latanoprost 0 . 005 % / timolol 0 . 5 % eyedrops in patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasObjectiveDescription> \"with the fixed combination of latanoprost 0 . 005 % / timolol 0 . 5 % eyedrops in patients with primary open - angle glaucoma or ocular hypertension .\"."
+26, Latanoprost, 671, 682, "latanoprost", "", "<http://ctro/data#Latanoprost_86411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_86410> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_86411>."
+174, Lat/TimFC, 671, 710, "latanoprost 0 . 005 % / timolol 0 . 5 %", "", 
+28, DoseValue, 683, 690, "0 . 005", "", "<http://ctro/data#Medication_86410> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+170, Percentage, 691, 692, "%", "", "<http://ctro/data#Medication_86410> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+27, Timolol, 695, 702, "timolol", "", "<http://ctro/data#Medication_86417> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+29, DoseValue, 703, 708, "0 . 5", "", "<http://ctro/data#Medication_86417> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+171, Percentage, 709, 710, "%", "", "<http://ctro/data#Medication_86417> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+30, Eyedrops, 711, 719, "eyedrops", "", "<http://ctro/data#Medication_86410> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_86417> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+181, Precondition, 723, 789, "patients with primary open - angle glaucoma or ocular hypertension", "", 
+31, Primary_OpenAngleGlaucoma, 737, 766, "primary open - angle glaucoma", "", 
+32, OcularHypertension, 770, 789, "ocular hypertension", "", 
+33, Randomized, 813, 823, "randomized", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+34, DoubleBlind, 826, 841, "double - masked", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+35, Multicenter, 844, 855, "multicenter", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36, Parallel, 858, 874, "parallel - group", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+37, CTDesign, 877, 896, "active - controlled", "", "<http://ctro/data#CTDesign_86341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_86341>."
+183, Precondition, 911, 1039, "subjects with open - angle glaucoma ( with or without pseudoexfoliation or pigment dispersion component ) or ocular hypertension", "", "<http://ctro/data#Population_86344> <http://ctro/data#hasPrecondition> \"subjects with open - angle glaucoma ( with or without pseudoexfoliation or pigment dispersion component ) or ocular hypertension\"."
+103368, OpenAngleGlaucoma, 925, 946, "open - angle glaucoma", "", 
+39, OcularHypertension, 1020, 1039, "ocular hypertension", "", 
+183, Precondition, 1069, 1164, "if their IOP was inadequately controlled with & gt ; or = 4 weeks of beta - blocker monotherapy", "", "<http://ctro/data#Population_86344> <http://ctro/data#hasPrecondition> \"if their IOP was inadequately controlled with & gt ; or = 4 weeks of beta - blocker monotherapy\"."
+40, OcularHypertension, 1078, 1081, "IOP", "", 
+189, IOP, 1078, 1081, "IOP", "", 
+103246, Duration, 1127, 1134, "4 weeks", "", 
+185, Drug, 1138, 1152, "beta - blocker", "", 
+42, IOP, 1183, 1186, "IOP", "", 
+43, mmHg, 1199, 1204, "mm Hg", "", 
+188, TimePoint, 1208, 1212, "9 AM", "", 
+44, Randomized, 1242, 1250, "randomly", "", 
+45, AllocationRatio, 1265, 1270, "1 : 1", "", "<http://ctro/data#AllocationRatio_86325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_86325>."
+46, Placebo, 1288, 1295, "placebo", "", "<http://ctro/data#Medication_86441> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+47, Travoprost, 1298, 1308, "travoprost", "", 
+48, Latanoprost, 1312, 1323, "latanoprost", "", 
+196, Lat/TimFC, 1312, 1333, "latanoprost / timolol", "", 
+49, Timolol, 1326, 1333, "timolol", "", 
+50, Placebo, 1336, 1343, "placebo", "", 
+51, Travoprost, 1362, 1372, "travoprost", "", 
+52, Travoprost, 1392, 1402, "travoprost", "", 
+106355, Evening, 1406, 1410, "9 PM", "", "<http://ctro/data#Intervention_86424> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+53, Placebo, 1415, 1422, "placebo", "", 
+106354, Morning, 1426, 1430, "9 AM", "", "<http://ctro/data#Intervention_94255> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Morning>."
+54, Latanoprost, 1449, 1460, "latanoprost", "", 
+103372, Lat/TimFC, 1449, 1470, "latanoprost / timolol", "", 
+55, Timolol, 1463, 1470, "timolol", "", 
+56, Latanoprost, 1490, 1501, "latanoprost", "", 
+103374, Lat/TimFC, 1490, 1511, "latanoprost / timolol", "", 
+57, Timolol, 1504, 1511, "timolol", "", 
+106352, Morning, 1515, 1519, "9 AM", "", 
+58, Placebo, 1524, 1531, "placebo", "", 
+106353, Evening, 1535, 1539, "9 PM", "", "<http://ctro/data#Intervention_94263> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+59, IOP, 1542, 1545, "IOP", "", 
+103375, MeasurementDevice, 1580, 1610, "Goldmann applanation tonometry", "", "<http://ctro/data#MeasurementDevice_86375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_86371> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_86375>."
+211, TimePoint, 1614, 1618, "9 AM", "", 
+212, TimePoint, 1623, 1627, "5 PM", "", 
+60, TimePoint, 1635, 1643, "week - 2", "", 
+61, TimePoint, 1648, 1656, "week - 6", "", 
+62, Randomized, 1761, 1771, "randomized", "", 
+63, NumberPatientsCT, 1867, 1882, "One hundred ten", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasNumberPatientsCT> \"One hundred ten\"."
+64, Randomized, 1897, 1907, "randomized", "", 
+65, FinalNumPatientsCT, 1918, 1921, "106", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasFinalNumberPatientsCT> \"106\"."
+66, Travoprost, 1948, 1958, "travoprost", "", 
+223, FinalNumPatientsArm, 1965, 1967, "50", "", "<http://ctro/data#Arm_86353> <http://ctro/data#hasFinalNumPatientsArm> \"50\"."
+222, Lat/TimFC, 1970, 1991, "latanoprost / timolol", "", 
+69, Latanoprost, 1970, 1981, "latanoprost", "", 
+70, Timolol, 1984, 1991, "timolol", "", 
+224, FinalNumPatientsArm, 1998, 2000, "56", "", "<http://ctro/data#Arm_86362> <http://ctro/data#hasFinalNumPatientsArm> \"56\"."
+71, Mean, 2162, 2166, "Mean", "", "<http://ctro/data#Mean_86373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_86371> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_86373>."
+72, IOP, 2167, 2170, "IOP", "", 
+229, TimePoint, 2286, 2290, "9 Am", "", 
+73, TimePoint, 2305, 2312, "weeks 2", "", "<http://ctro/data#Outcome_86376> <http://ctro/data#hasTimePoint> \"weeks 2\"."
+74, TimePoint, 2305, 2318, "weeks 2 and 6", "", 
+75, Mean, 2321, 2325, "mean", "", 
+76, IOP, 2334, 2337, "IOP", "", 
+77, Travoprost, 2353, 2363, "travoprost", "", 
+237, Lat/TimFC, 2368, 2389, "latanoprost / timolol", "", 
+78, Latanoprost, 2368, 2379, "latanoprost", "", 
+79, Timolol, 2382, 2389, "timolol", "", 
+80, Reduction, 2395, 2400, "7 . 0", "", "<http://ctro/data#Outcome_86376> <http://ctro/data#hasChangeValue> \"7 . 0\". <http://ctro/data#Outcome_86449> <http://ctro/data#hasChangeValue> \"7 . 0\"."
+82, SdErrorChangeValue, 2403, 2408, "0 . 5", "", "<http://ctro/data#Outcome_86376> <http://ctro/data#hasSdErrorChangeValue> \"0 . 5\". <http://ctro/data#Outcome_86449> <http://ctro/data#hasSdErrorChangeValue> \"0 . 5\"."
+81, Reduction, 2415, 2420, "6 . 4", "", "<http://ctro/data#Outcome_86476> <http://ctro/data#hasChangeValue> \"6 . 4\". <http://ctro/data#Outcome_86503> <http://ctro/data#hasChangeValue> \"6 . 4\"."
+83, SdErrorChangeValue, 2423, 2428, "0 . 5", "", "<http://ctro/data#Outcome_86476> <http://ctro/data#hasSdErrorChangeValue> \"0 . 5\". <http://ctro/data#Outcome_86503> <http://ctro/data#hasSdErrorChangeValue> \"0 . 5\"."
+84, mmHg, 2431, 2436, "mm Hg", "", 
+240, PvalueDiff, 2454, 2460, "P = NS", "", "<http://ctro/data#DiffBetweenGroups_86530> <http://ctro/data#hasPvalueDiff> \"P = NS\". <http://ctro/data#DiffBetweenGroups_86539> <http://ctro/data#hasPvalueDiff> \"P = NS\"."
+103376, EndPointDescription, 2465, 2479, "Adverse events", "", "<http://ctro/data#EndPointDescription_86549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86548> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86549>."
+103378, ObservedResult, 2465, 2609, "Adverse events related to therapy were mild in nature , and there were no statistically significant differences between the 2 treatment groups .", "", "<http://ctro/data#Outcome_86553> <http://ctro/data#hasObservedResult> \"Adverse events related to therapy were mild in nature , and there were no statistically significant differences between the 2 treatment groups .\"."
+86, Travoprost, 2664, 2674, "travoprost", "", 
+87, ConjunctivalHyperemia, 2686, 2702, "ocular hyperemia", "", "<http://ctro/data#Endpoint_86580> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+98, PercentageAffected, 2705, 2710, "9 . 3", "", "<http://ctro/data#Outcome_86635> <http://ctro/data#hasPercentageAffected> \"9 . 3\"."
+103379, EndPointDescription, 2717, 2739, "foreign body sensation", "", "<http://ctro/data#EndPointDescription_86586> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86585> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86586>."
+99, PercentageAffected, 2742, 2747, "5 . 6", "", "<http://ctro/data#Outcome_86662> <http://ctro/data#hasPercentageAffected> \"5 . 6\"."
+103380, EndPointDescription, 2754, 2769, "abnormal vision", "", "<http://ctro/data#EndPointDescription_86591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86590> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86591>."
+100, PercentageAffected, 2772, 2777, "1 . 9", "", "<http://ctro/data#Outcome_86689> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103381, EndPointDescription, 2784, 2801, "allergic reaction", "", "<http://ctro/data#EndPointDescription_86596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86595> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86596>."
+101, PercentageAffected, 2804, 2809, "1 . 9", "", "<http://ctro/data#Outcome_86716> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103382, EndPointDescription, 2816, 2830, "conjunctivitis", "", "<http://ctro/data#EndPointDescription_86601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86600> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86601>."
+102, PercentageAffected, 2833, 2838, "1 . 9", "", "<http://ctro/data#Outcome_86743> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103383, EndPointDescription, 2845, 2859, "dacryocystitis", "", "<http://ctro/data#EndPointDescription_86606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86605> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86606>."
+103, PercentageAffected, 2862, 2867, "1 . 9", "", "<http://ctro/data#Outcome_86770> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103384, EndPointDescription, 2874, 2887, "eye discharge", "", "<http://ctro/data#EndPointDescription_86611> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86610> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86611>."
+104, PercentageAffected, 2890, 2895, "1 . 9", "", "<http://ctro/data#Outcome_86797> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103385, EndPointDescription, 2902, 2914, "eye pruritus", "", "<http://ctro/data#EndPointDescription_86616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86615> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86616>."
+105, PercentageAffected, 2917, 2922, "1 . 9", "", "<http://ctro/data#Outcome_86824> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103386, EndPointDescription, 2929, 2938, "lid edema", "", "<http://ctro/data#EndPointDescription_86621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86620> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86621>."
+106, PercentageAffected, 2941, 2946, "1 . 9", "", "<http://ctro/data#Outcome_86851> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103387, EndPointDescription, 2953, 2965, "lid erythema", "", "<http://ctro/data#EndPointDescription_86626> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86625> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86626>."
+107, PercentageAffected, 2968, 2973, "1 . 9", "", "<http://ctro/data#Outcome_86878> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+103388, EndPointDescription, 2984, 2991, "tearing", "", "<http://ctro/data#EndPointDescription_86631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86630> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86631>."
+108, PercentageAffected, 2994, 2999, "1 . 9", "", "<http://ctro/data#Outcome_86905> <http://ctro/data#hasPercentageAffected> \"1 . 9\"."
+270, Lat/TimFC, 3013, 3034, "latanoprost / timolol", "", 
+115, Latanoprost, 3013, 3024, "latanoprost", "", 
+116, Timolol, 3027, 3034, "timolol", "", 
+103389, EndPointDescription, 3095, 3103, "cataract", "", "<http://ctro/data#EndPointDescription_86933> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86932> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86933>."
+109, PercentageAffected, 3106, 3111, "1 . 8", "", "<http://ctro/data#Outcome_86937> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+103390, EndPointDescription, 3118, 3126, "dry eyes", "", "<http://ctro/data#EndPointDescription_86965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_86964> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_86965>."
+110, PercentageAffected, 3129, 3134, "1 . 8", "", "<http://ctro/data#Outcome_86969> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+103391, EndPointDescription, 3141, 3153, "eye pruritus", "", 
+111, PercentageAffected, 3156, 3161, "1 . 8", "", "<http://ctro/data#Outcome_86996> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+103392, EndPointDescription, 3168, 3190, "foreign body sensation", "", 
+112, PercentageAffected, 3193, 3198, "1 . 8", "", "<http://ctro/data#Outcome_87023> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+121, ConjunctivalHyperemia, 3209, 3225, "ocular hyperemia", "", 
+113, PercentageAffected, 3228, 3233, "1 . 8", "", "<http://ctro/data#Outcome_87050> <http://ctro/data#hasPercentageAffected> \"1 . 8\"."
+114, Mean, 3254, 3258, "Mean", "", 
+122, ConclusionComment, 3254, 3439, "Mean IOP changes from baseline for travoprost 0 . 004 % and latanoprost 0 . 005 % / timolol 0 . 5 % fixed combination were not significantly different at follow - up in these patients .", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasConclusionComment> \"Mean IOP changes from baseline for travoprost 0 . 004 % and latanoprost 0 . 005 % / timolol 0 . 5 % fixed combination were not significantly different at follow - up in these patients .\"."
+123, IOP, 3259, 3262, "IOP", "", 
+124, Travoprost, 3289, 3299, "travoprost", "", 
+127, DoseValue, 3300, 3307, "0 . 004", "", 
+289, Percentage, 3308, 3309, "%", "", 
+125, Latanoprost, 3314, 3325, "latanoprost", "", 
+130, Lat/TimFC, 3314, 3371, "latanoprost 0 . 005 % / timolol 0 . 5 % fixed combination", "", 
+128, DoseValue, 3326, 3333, "0 . 005", "", 
+290, Percentage, 3334, 3335, "%", "", 
+126, Timolol, 3338, 3345, "timolol", "", 
+129, DoseValue, 3346, 3351, "0 . 5", "", 
+291, Percentage, 3352, 3353, "%", "", 
+131, ConclusionComment, 3440, 3478, "Both medications were well tolerated .", "", "<http://ctro/data#ClinicalTrial_86321> <http://ctro/data#hasConclusionComment> \"Both medications were well tolerated .\"."
+132, PMID, 3536, 3544, "16750448", "", "<http://ctro/data#Publication_86311> <http://ctro/data#hasPMID> \"16750448\"."

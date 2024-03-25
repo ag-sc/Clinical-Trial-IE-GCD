@@ -1,0 +1,126 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_35958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_35958> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasTitle> "Intraocular pressure - lowering efficacy of brinzolamide when added to travoprost / timolol fixed combination as adjunctive therapy ." .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> "Goldberg I" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasPublicationYear> "2012" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasJournal> "J Glaucoma" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasPMID> "21048504" .
+<http://ctro/data#Publication_35958> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_36635> .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> "Crowston JG" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> "Jasek MC" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> "Stewart JA" .
+<http://ctro/data#Publication_35958> <http://ctro/data#hasAuthor> "Stewart WC" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_36635> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_36635> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 36635" .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasObjectiveDescription> "To compare the efficacy of brinzolamide versus placebo when added to travoprost / timolol fixed combination ( TTFC ) in uncontrolled patients ." .
+<http://ctro/data#AllocationRatio_36639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasConclusionComment> "This study suggests that brinzolamide may be safely added to TTFC therapy to provide further significant reduction in IOP patients with ocular hypertensive or primary open - angle glaucoma ." .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasArm> <http://ctro/data#Arm_37103> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasPopulation> <http://ctro/data#Population_30612> .
+<http://ctro/data#EvidenceQuality_36647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasArm> <http://ctro/data#Arm_37116> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_36497> .
+<http://ctro/data#ClinicalTrial_36635> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_36506> .
+# RDF export of group: Population
+<http://ctro/data#Population_30612> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_30612> <http://ctro/data#hasPrecondition> "Patients treated with a prostaglandin - based mono or adjunctive therapy were changed to TTFC qam ( every day dosing ) for 4 weeks ." .
+<http://ctro/data#Gender_30619> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_30612> <http://ctro/data#hasCountry> <http://ctro/data#Australia> .
+<http://ctro/data#Ethnicity_36050> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_36946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_36946> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 36946 adverse event" .
+<http://ctro/data#EndPointDescription_36947> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_36946> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_36947> .
+<http://ctro/data#AggregationMethod_36948> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_36949> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_36950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_37096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_37096> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 37096 Diurnal IOP" .
+<http://ctro/data#Endpoint_37096> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_37098> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_37096> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_37098> .
+<http://ctro/data#Endpoint_37096> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_37100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_37103> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_37103> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 37103 Trav/Tim + Placebo" .
+<http://ctro/data#Arm_37103> <http://ctro/data#hasNumberPatientsArm> "78" .
+<http://ctro/data#Arm_37103> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_39250> .
+<http://ctro/data#Arm_37103> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_39265> .
+<http://ctro/data#Arm_37103> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_39294> .
+<http://ctro/data#Arm_37116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_37116> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 37116 Trav/Tim + Brinzolamide" .
+<http://ctro/data#Arm_37116> <http://ctro/data#hasNumberPatientsArm> "75" .
+<http://ctro/data#Arm_37116> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_37129> .
+<http://ctro/data#Arm_37116> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_36518> .
+<http://ctro/data#Arm_37116> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_41680> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_37129> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_37129> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 37129 Brinzolamide" .
+<http://ctro/data#Intervention_37129> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_37134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_37129> <http://ctro/data#hasMedication> <http://ctro/data#Medication_39235> .
+<http://ctro/data#Intervention_39250> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_39250> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 39250  Placebo" .
+<http://ctro/data#Intervention_39250> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_39255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_39250> <http://ctro/data#hasMedication> <http://ctro/data#Medication_39242> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_39235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_39235> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 39235 Brinzolamide" .
+<http://ctro/data#Medication_39235> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide> .
+<http://ctro/data#BioAndMedicalUnit_39238> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_39239> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_39242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_39242> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 39242 Placebo" .
+<http://ctro/data#Medication_39242> <http://ctro/data#hasDrug> <http://ctro/data#Placebo> .
+<http://ctro/data#BioAndMedicalUnit_39245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_39246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_36518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_36518> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 36518 Brinzolamide" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasBaselineValue> "20 . 3" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasSdDevBL> "2 . 0" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasResultMeasuredValue> "17 . 5" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasSdDevResValue> "2 . 6" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_36518> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_37096> .
+<http://ctro/data#Outcome_39265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_39265> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 39265 Placebo" .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_37096> .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasBaselineValue> "20 . 9" .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasSdDevBL> "2 . 7" .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasResultMeasuredValue> "19 . 4" .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasSdDevResValue> "3 . 8" .
+<http://ctro/data#Outcome_39265> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_39294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_39294> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 39294 adverse event placebo" .
+<http://ctro/data#Outcome_39294> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_36946> .
+<http://ctro/data#Outcome_39294> <http://ctro/data#hasNumberAffected> "30" .
+<http://ctro/data#Outcome_41680> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_41680> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 41680 adverse event Brinzolamide" .
+<http://ctro/data#Outcome_41680> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_36946> .
+<http://ctro/data#Outcome_41680> <http://ctro/data#hasNumberAffected> "24" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_36497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_36497> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 36497 mean diurnal IOP" .
+<http://ctro/data#DiffBetweenGroups_36497> <http://ctro/data#hasPvalueDiff> "P ≤ 0 . 014" .
+<http://ctro/data#DiffBetweenGroups_36497> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_36518> .
+<http://ctro/data#DiffBetweenGroups_36497> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_39265> .
+<http://ctro/data#DiffBetweenGroups_36506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_36506> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 36506 adverse events" .
+<http://ctro/data#DiffBetweenGroups_36506> <http://ctro/data#hasPvalueDiff> "P = 0 . 47" .
+<http://ctro/data#DiffBetweenGroups_36506> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_39294> .
+<http://ctro/data#DiffBetweenGroups_36506> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_41680> .
+# RDF export of group: EvidenceQuality

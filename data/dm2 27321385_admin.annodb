@@ -1,0 +1,93 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "Endocr J .", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasJournal> \"Endocr J .\"."
+1, PublicationYear, 11, 15, "2016", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasPublicationYear> \"2016\"."
+23, Title, 108, 247, "Comparative effects of vildagliptin and sitagliptin determined by continuous glucose monitoring in patients with type 2 diabetes mellitus .", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasTitle> \"Comparative effects of vildagliptin and sitagliptin determined by continuous glucose monitoring in patients with type 2 diabetes mellitus .\"."
+2, Vildagliptin, 131, 143, "vildagliptin", "", 
+10, Sitagliptin, 148, 159, "sitagliptin", "", 
+17, Type2Diabetes, 221, 245, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+24, Author, 248, 260, "Koyanagawa N", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Koyanagawa N\"."
+25, Author, 269, 278, "Miyoshi H", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Miyoshi H\"."
+26, Author, 281, 286, "Ono K", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Ono K\"."
+27, Author, 289, 299, "Nakamura A", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Nakamura A\"."
+28, Author, 302, 308, "Cho KY", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Cho KY\"."
+29, Author, 311, 321, "Yamamoto K", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Yamamoto K\"."
+30, Author, 324, 332, "Takano Y", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Takano Y\"."
+31, Author, 335, 348, "Dan - Noura M", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Dan - Noura M\"."
+32, Author, 351, 359, "Atsumi T", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasAuthor> \"Atsumi T\"."
+33, Japan, 507, 512, "Japan", "", "<http://ctro/data#Population_69448> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+3, Vildagliptin, 555, 567, "vildagliptin", "", 
+11, Sitagliptin, 572, 583, "sitagliptin", "", 
+18, Type2Diabetes, 624, 648, "type 2 diabetes mellitus", "", 
+34, Sitagliptin, 688, 699, "sitagliptin", "", 
+35, Insulin, 705, 712, "insulin", "", 
+12, Sitagliptin, 744, 755, "sitagliptin", "", 
+4, Vildagliptin, 772, 784, "vildagliptin", "", 
+114, BloodGlucose, 796, 809, "blood glucose", "", 
+40, ObjectiveDescription, 820, 990, "This study compared the effects of increasing sitagliptin and switching to vildagliptin in type 2 diabetes patients receiving standard doses of sitagliptin plus insulin .", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasObjectiveDescription> \"This study compared the effects of increasing sitagliptin and switching to vildagliptin in type 2 diabetes patients receiving standard doses of sitagliptin plus insulin .\"."
+38, Sitagliptin, 866, 877, "sitagliptin", "", 
+5, Vildagliptin, 895, 907, "vildagliptin", "", 
+19, Type2Diabetes, 911, 926, "type 2 diabetes", "", 
+39, Precondition, 911, 988, "type 2 diabetes patients receiving standard doses of sitagliptin plus insulin", "", 
+13, Sitagliptin, 964, 975, "sitagliptin", "", 
+37, Insulin, 981, 988, "insulin", "", 
+41, Prospective, 996, 1007, "prospective", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+42, Randomized, 1010, 1020, "randomized", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+43, Parallel, 1023, 1039, "parallel - group", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+44, NumberPatientsCT, 1066, 1068, "33", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasNumberPatientsCT> \"33\"."
+54, Precondition, 1069, 1145, "type 2 diabetes patients receiving 50 mg sitagliptin once daily plus insulin", "", "<http://ctro/data#Population_69448> <http://ctro/data#hasPrecondition> \"type 2 diabetes patients receiving 50 mg sitagliptin once daily plus insulin\"."
+20, Type2Diabetes, 1069, 1084, "type 2 diabetes", "", 
+45, DoseValue, 1104, 1106, "50", "", "<http://ctro/data#Medication_69493> <http://ctro/data#hasDoseValue> \"50\"."
+48, mg, 1107, 1109, "mg", "", "<http://ctro/data#Medication_69493> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+14, Sitagliptin, 1110, 1121, "sitagliptin", "", 
+51, Frequency, 1122, 1132, "once daily", "", 
+36, Insulin, 1138, 1145, "insulin", "", 
+55, NumberPatientsArm, 1148, 1157, "Seventeen", "", "<http://ctro/data#Arm_69456> <http://ctro/data#hasNumberPatientsArm> \"Seventeen\"."
+57, Randomized, 1172, 1182, "randomized", "", 
+46, DoseValue, 1186, 1188, "50", "", "<http://ctro/data#Medication_69486> <http://ctro/data#hasDoseValue> \"50\"."
+49, mg, 1189, 1191, "mg", "", "<http://ctro/data#Medication_69486> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+6, Vildagliptin, 1192, 1204, "vildagliptin", "", "<http://ctro/data#Medication_69486> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+52, Frequency, 1205, 1216, "twice daily", "", "<http://ctro/data#Intervention_69474> <http://ctro/data#hasFrequency> \"twice daily\"."
+56, NumberPatientsArm, 1223, 1225, "16", "", "<http://ctro/data#Arm_69465> <http://ctro/data#hasNumberPatientsArm> \"16\"."
+47, DoseValue, 1229, 1232, "100", "", 
+50, mg, 1233, 1235, "mg", "", 
+58, Sitagliptin, 1236, 1247, "sitagliptin", "", "<http://ctro/data#Medication_69493> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+53, Frequency, 1248, 1258, "once daily", "", "<http://ctro/data#Intervention_69474> <http://ctro/data#hasFrequency> \"twice daily\"."
+59, TimePoint, 1311, 1319, "baseline", "", 
+145, TimePoint, 1324, 1337, "after 8 weeks", "", 
+60, TimePoint, 1330, 1337, "8 weeks", "", 
+64, EndPointDescription, 1382, 1419, "mean amplitude of glycemic excursions", "", "<http://ctro/data#EndPointDescription_69924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_69923> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_69924>."
+63, EndPointDescription, 1422, 1426, "MAGE", "", 
+65, EndPointDescription, 1431, 1435, "MAGE", "", 
+62, TimePoint, 1451, 1459, "baseline", "", 
+7, Vildagliptin, 1472, 1484, "vildagliptin", "", 
+67, Reduction, 1489, 1495, "13 . 4", "", "<http://ctro/data#Outcome_69928> <http://ctro/data#hasChangeValue> \"13 . 4\"."
+69, SdDevChangeValue, 1498, 1504, "35 . 7", "", "<http://ctro/data#Outcome_69928> <http://ctro/data#hasSdDevChangeValue> \"35 . 7\"."
+71, Mg_per_deciliter, 1505, 1512, "mg / dL", "", "<http://ctro/data#Endpoint_69923> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+15, Sitagliptin, 1519, 1530, "sitagliptin", "", 
+68, Reduction, 1535, 1540, "8 . 4", "", "<http://ctro/data#Outcome_69955> <http://ctro/data#hasChangeValue> \"8 . 4\"."
+70, SdDevChangeValue, 1543, 1549, "24 . 3", "", "<http://ctro/data#Outcome_69955> <http://ctro/data#hasSdDevChangeValue> \"24 . 3\"."
+72, Mg_per_deciliter, 1550, 1557, "mg / dL", "", 
+74, BloodGlucose, 1693, 1706, "blood glucose", "", 
+76, BaseLineValue, 1714, 1719, "≥ 180", "", 
+75, Mg_per_deciliter, 1720, 1727, "mg / dL", "", 
+77, BaseLineValue, 1732, 1736, "< 70", "", 
+73, Mg_per_deciliter, 1737, 1744, "mg / dL", "", 
+78, ObservedResult, 1745, 1836, "tended to improve in both groups , but these differences were not statistically significant", "", 
+79, HbA1c, 1853, 1858, "HbA1c", "", "<http://ctro/data#Endpoint_69982> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+8, Vildagliptin, 1897, 1909, "vildagliptin", "", 
+80, BaseLineValue, 1923, 1928, "7 . 1", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasBaselineValue> \"7 . 1\"."
+82, SdDevBL, 1931, 1936, "0 . 6", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasSdDevBL> \"0 . 6\"."
+83, Percentage, 1937, 1938, "%", "", "<http://ctro/data#Endpoint_69982> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+81, TimePoint, 1942, 1950, "baseline", "", 
+85, ResultMeasuredValue, 1954, 1959, "6 . 8", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasResultMeasuredValue> \"6 . 8\"."
+86, SdDevResValue, 1962, 1967, "0 . 6", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasSdDevResValue> \"0 . 6\"."
+84, Percentage, 1968, 1969, "%", "", 
+61, TimePoint, 1973, 1980, "8 weeks", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasTimePoint> \"8 weeks\"."
+87, PValueChangeValue, 1983, 1994, "p = 0 . 006", "", "<http://ctro/data#Outcome_69987> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 006\"."
+89, ConclusionComment, 1999, 2167, "Increasing sitagliptin dose and switching to vildagliptin had limited effects in improving MAGE in type 2 diabetic patients treated with standard doses of sitagliptin .", "", "<http://ctro/data#ClinicalTrial_69432> <http://ctro/data#hasConclusionComment> \"Increasing sitagliptin dose and switching to vildagliptin had limited effects in improving MAGE in type 2 diabetic patients treated with standard doses of sitagliptin .\"."
+16, Sitagliptin, 2010, 2021, "sitagliptin", "", 
+9, Vildagliptin, 2044, 2056, "vildagliptin", "", 
+66, EndPointDescription, 2090, 2094, "MAGE", "", 
+21, Type2Diabetes, 2098, 2113, "type 2 diabetic", "", 
+22, Sitagliptin, 2154, 2165, "sitagliptin", "", 
+90, PMID, 2215, 2223, "27321385", "", "<http://ctro/data#Publication_69425> <http://ctro/data#hasPMID> \"27321385\"."

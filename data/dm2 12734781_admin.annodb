@@ -1,0 +1,86 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+143, Journal, 0, 16, "Horm Metab Res .", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasJournal> \"Horm Metab Res .\"."
+0, PublicationYear, 17, 21, "2003", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasPublicationYear> \"2003\"."
+144, Title, 50, 206, "A one - year , randomised , multicentre trial comparing insulin glargine with NPH insulin in combination with oral agents in patients with type 2 diabetes .", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasTitle> \"A one - year , randomised , multicentre trial comparing insulin glargine with NPH insulin in combination with oral agents in patients with type 2 diabetes .\"."
+60, Duration, 52, 62, "one - year", "", 
+20, Randomized, 65, 75, "randomised", "", 
+21, Multicenter, 78, 89, "multicentre", "", 
+22, InsulinGlargine, 106, 122, "insulin glargine", "", 
+30, IsophaneInsulin_NPH, 128, 139, "NPH insulin", "", 
+137, OralAntidiabeticAgent, 160, 171, "oral agents", "", 
+10, Type2Diabetes, 189, 204, "type 2 diabetes", "", 
+1, Author, 207, 224, "Massi Benedetti M", "", 
+2, Author, 233, 242, "Humburg E", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasAuthor> \"Humburg E\"."
+3, Author, 245, 255, "Dressler A", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasAuthor> \"Dressler A\"."
+4, Author, 258, 266, "Ziemen M", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasAuthor> \"Ziemen M\"."
+5, Italy, 330, 335, "Italy", "", "<http://ctro/data#Population_24643> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+145, ObjectiveDescription, 364, 527, "The aim of the trial was to compare the efficacy and safety of the new , long - acting basal insulin , insulin glargine ( LANTUS ( R ) ) , with NPH human insulin ,", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasObjectiveDescription> \"The aim of the trial was to compare the efficacy and safety of the new , long - acting basal insulin , insulin glargine ( LANTUS ( R ) ) , with NPH human insulin ,\"."
+142, Insulin, 457, 464, "insulin", "", 
+24, InsulinGlargine, 467, 483, "insulin glargine", "", 
+31, IsophaneInsulin_NPH, 508, 525, "NPH human insulin", "", 
+146, ObjectiveDescription, 528, 634, "each administered in a combination regimen with oral antidiabetic drugs in patients with Type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasObjectiveDescription> \"each administered in a combination regimen with oral antidiabetic drugs in patients with Type 2 diabetes .\"."
+136, OralAntidiabeticAgent, 576, 599, "oral antidiabetic drugs", "", 
+11, Type2Diabetes, 617, 632, "Type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+14, Multicenter, 650, 661, "multicentre", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+15, OpenLabel, 664, 668, "open", "", 
+16, Randomized, 671, 681, "randomised", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, NumberPatientsCT, 690, 693, "570", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasNumberPatientsCT> \"570\"."
+12, Type2Diabetes, 708, 723, "Type 2 diabetes", "", 
+7, MinAge, 731, 733, "34", "", "<http://ctro/data#Population_24643> <http://ctro/data#hasMinAge> \"34\"."
+8, MaxAge, 736, 738, "80", "", "<http://ctro/data#Population_24643> <http://ctro/data#hasMaxAge> \"80\"."
+17, Duration, 764, 772, "52 weeks", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasCTduration> \"52 weeks\"."
+25, InsulinGlargine, 778, 794, "insulin glargine", "", "<http://ctro/data#Medication_12133> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+32, IsophaneInsulin_NPH, 798, 809, "NPH insulin", "", "<http://ctro/data#Medication_24688> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+18, Frequency, 816, 826, "once daily", "", 
+19, Bedtime, 830, 837, "bedtime", "", 
+87, Precondition, 840, 911, "Previous oral antidiabetic therapy was continued throughout the study .", "", "<http://ctro/data#Population_24643> <http://ctro/data#hasPrecondition> \"Italy\". <http://ctro/data#Population_24643> <http://ctro/data#hasPrecondition> \"Previous oral antidiabetic therapy was continued throughout the study .\"."
+51, HbA1c, 966, 990, "glycosylated haemoglobin", "", "<http://ctro/data#Endpoint_2119> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+52, HbA1c, 993, 996, "GHb", "", 
+149, TimePoint, 1011, 1019, "baseline", "", 
+150, TimePoint, 1023, 1031, "endpoint", "", 
+26, InsulinGlargine, 1050, 1066, "insulin glargine", "", 
+39, Reduction, 1071, 1077, "0 . 46", "", "<http://ctro/data#Outcome_2092> <http://ctro/data#hasChangeValue> \"0 . 46\"."
+138, Percentage, 1078, 1079, "%", "", "<http://ctro/data#Endpoint_2119> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+33, IsophaneInsulin_NPH, 1082, 1093, "NPH insulin", "", 
+40, Reduction, 1098, 1104, "0 . 38", "", "<http://ctro/data#Outcome_24696> <http://ctro/data#hasChangeValue> \"0 . 38\"."
+139, Percentage, 1105, 1106, "%", "", 
+90, PvalueDiff, 1109, 1120, "p = 0 . 415", "", "<http://ctro/data#DiffBetweenGroups_24723> <http://ctro/data#hasPvalueDiff> \"34\". <http://ctro/data#DiffBetweenGroups_24723> <http://ctro/data#hasPvalueDiff> \"p = 0 . 415\"."
+91, SubGroupDescription, 1197, 1239, "overweight patients with BMI > 28 kg / m 2", "", "<http://ctro/data#Outcome_24732> <http://ctro/data#hasSubGroupDescription> \"80\". <http://ctro/data#Outcome_24732> <http://ctro/data#hasSubGroupDescription> \"overweight patients with BMI > 28 kg / m 2\". <http://ctro/data#Outcome_24759> <http://ctro/data#hasSubGroupDescription> \"80\". <http://ctro/data#Outcome_24759> <http://ctro/data#hasSubGroupDescription> \"overweight patients with BMI > 28 kg / m 2\". <http://ctro/data#Outcome_24939> <http://ctro/data#hasSubGroupDescription> \"80\". <http://ctro/data#Outcome_24939> <http://ctro/data#hasSubGroupDescription> \"overweight patients with BMI > 28 kg / m 2\"."
+133, BMI, 1222, 1225, "BMI", "", 
+41, Kg_per_squareMeter, 1231, 1239, "kg / m 2", "", 
+35, InsulinGlargine, 1242, 1258, "insulin glargine", "", 
+42, Reduction, 1263, 1269, "0 . 42", "", "<http://ctro/data#Outcome_24732> <http://ctro/data#hasChangeValue> \"0 . 42\"."
+140, Percentage, 1270, 1271, "%", "", 
+34, IsophaneInsulin_NPH, 1274, 1285, "NPH insulin", "", 
+43, Reduction, 1290, 1296, "0 . 11", "", "<http://ctro/data#Outcome_24759> <http://ctro/data#hasChangeValue> \"0 . 11\"."
+141, Percentage, 1297, 1298, "%", "", 
+94, PvalueDiff, 1301, 1313, "p = 0 . 0237", "", "<http://ctro/data#DiffBetweenGroups_24786> <http://ctro/data#hasPvalueDiff> \"570\". <http://ctro/data#DiffBetweenGroups_24786> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0237\"."
+36, IsophaneInsulin_NPH, 1353, 1364, "NPH insulin", "", 
+44, PercentageAffected, 1386, 1388, "41", "", "<http://ctro/data#Outcome_24822> <http://ctro/data#hasPercentageAffected> \"41\"."
+27, InsulinGlargine, 1397, 1413, "insulin glargine", "", 
+45, PercentageAffected, 1435, 1437, "35", "", "<http://ctro/data#Outcome_24795> <http://ctro/data#hasPercentageAffected> \"35\"."
+46, SymptomaticHypoglycemia, 1473, 1498, "symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_24652> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+37, IsophaneInsulin_NPH, 1592, 1603, "NPH insulin", "", 
+120, EndPointDescription, 1617, 1664, "at least one episode of nocturnal hypoglycaemia", "", "<http://ctro/data#EndPointDescription_24658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_24657> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_24658>."
+131, NocturnalHypoglycemia, 1641, 1664, "nocturnal hypoglycaemia", "", 
+28, InsulinGlargine, 1698, 1714, "insulin glargine", "", 
+118, SubGroupDescription, 1752, 1762, "overweight", "", 
+47, PercentageAffected, 1784, 1786, "24", "", "<http://ctro/data#Outcome_24876> <http://ctro/data#hasPercentageAffected> \"24\"."
+48, PercentageAffected, 1794, 1796, "12", "", "<http://ctro/data#Outcome_24849> <http://ctro/data#hasPercentageAffected> \"12\"."
+104, PvalueDiff, 1801, 1812, "p = 0 . 002", "", "<http://ctro/data#DiffBetweenGroups_24903> <http://ctro/data#hasPvalueDiff> \"p = 0 . 002\"."
+119, SubGroupDescription, 1815, 1825, "overweight", "", "<http://ctro/data#Outcome_24912> <http://ctro/data#hasSubGroupDescription> \"overweight\"."
+49, PercentageAffected, 1828, 1834, "22 . 2", "", "<http://ctro/data#Outcome_24939> <http://ctro/data#hasPercentageAffected> \"22 . 2\"."
+50, PercentageAffected, 1842, 1847, "9 . 5", "", "<http://ctro/data#Outcome_24912> <http://ctro/data#hasPercentageAffected> \"9 . 5\"."
+107, PvalueDiff, 1852, 1864, "p = 0 . 0006", "", "<http://ctro/data#DiffBetweenGroups_24966> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0006\"."
+53, MeasurementDevice, 1879, 1911, "Cochran - Mantel - Haenszel test", "", "<http://ctro/data#MeasurementDevice_24661> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_24657> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_24661>."
+115, SubGroupDescription, 1956, 1973, "insulin - na ï ve", "", 
+116, SubGroupDescription, 1978, 2010, "overweight ( BMI > 28 kg / m 2 )", "", 
+132, BMI, 1991, 1994, "BMI", "", 
+54, Kg_per_squareMeter, 2000, 2008, "kg / m 2", "", 
+108, ConclusionComment, 2109, 2354, "This study demonstrated that insulin glargine is as effective as NPH insulin in achieving glycaemic control in patients with Type 2 diabetes , and is associated with fewer episodes of symptomatic hypoglycaemia , particularly nocturnal episodes .", "", "<http://ctro/data#ClinicalTrial_12139> <http://ctro/data#hasConclusionComment> \"This study demonstrated that insulin glargine is as effective as NPH insulin in achieving glycaemic control in patients with Type 2 diabetes , and is associated with fewer episodes of symptomatic hypoglycaemia , particularly nocturnal episodes .\"."
+29, InsulinGlargine, 2138, 2154, "insulin glargine", "", 
+38, IsophaneInsulin_NPH, 2174, 2185, "NPH insulin", "", 
+13, Type2Diabetes, 2234, 2249, "Type 2 diabetes", "", 
+55, SymptomaticHypoglycemia, 2293, 2318, "symptomatic hypoglycaemia", "", 
+56, NocturnalHypoglycemia, 2334, 2352, "nocturnal episodes", "", 
+6, PMID, 2397, 2405, "12734781", "", "<http://ctro/data#Publication_24626> <http://ctro/data#hasPMID> \"12734781\"."

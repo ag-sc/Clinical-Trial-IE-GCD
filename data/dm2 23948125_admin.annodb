@@ -1,0 +1,109 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 6, "Lancet", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasJournal> \"Lancet\"."
+1, PublicationYear, 9, 13, "2013", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasPublicationYear> \"2013\"."
+2, Linagliptin, 119, 130, "Linagliptin", "", 
+25, Title, 119, 310, "Linagliptin for patients aged 70 years or older with type 2 diabetes inadequately controlled with common antidiabetes treatments : a randomised , double - blind , placebo - controlled trial .", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasTitle> \"Linagliptin for patients aged 70 years or older with type 2 diabetes inadequately controlled with common antidiabetes treatments : a randomised , double - blind , placebo - controlled trial .\"."
+10, MinAge, 149, 157, "70 years", "", 
+11, Type2Diabetes, 172, 187, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+112, Precondition, 188, 247, "inadequately controlled with common antidiabetes treatments", "", "<http://ctro/data#Population_46482> <http://ctro/data#hasPrecondition> \"inadequately controlled with common antidiabetes treatments\"."
+22, Randomized, 252, 262, "randomised", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+23, DoubleBlind, 265, 279, "double - blind", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+24, Placebo, 282, 289, "placebo", "", 
+26, Author, 311, 321, "Barnett AH", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"Barnett AH\"."
+27, Author, 330, 339, "Huisman H", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"Huisman H\"."
+28, Author, 342, 349, "Jones R", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"Jones R\"."
+29, Author, 352, 366, "von Eynatten M", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"von Eynatten M\"."
+30, Author, 369, 376, "Patel S", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"Patel S\"."
+31, Author, 379, 388, "Woerle HJ", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasAuthor> \"Woerle HJ\"."
+32, UK, 534, 536, "UK", "", "<http://ctro/data#Population_46482> <http://ctro/data#hasCountry> <http://ctro/data#UK>."
+12, Type2Diabetes, 907, 922, "type 2 diabetes", "", 
+67287, MinAge, 939, 947, "65 years", "", 
+21, ObjectiveDescription, 1043, 1178, "We aimed to assess the effectiveness of linagliptin , a dipeptidyl peptidase - 4 inhibitor , in elderly patients with type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasObjectiveDescription> \"We aimed to assess the effectiveness of linagliptin , a dipeptidyl peptidase - 4 inhibitor , in elderly patients with type 2 diabetes .\"."
+3, Linagliptin, 1083, 1094, "linagliptin", "", 
+125, Precondition, 1139, 1176, "elderly patients with type 2 diabetes", "", 
+13, Type2Diabetes, 1161, 1176, "type 2 diabetes", "", 
+33, Randomized, 1197, 1207, "randomised", "", 
+34, DoubleBlind, 1210, 1224, "double - blind", "", 
+35, Parallel, 1227, 1243, "parallel - group", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+36, Multicenter, 1246, 1259, "multinational", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+67378, Precondition, 1276, 1474, "patients aged 70 years or older with type 2 diabetes , glycated haemoglobin A1c ( HbA1c ) of 7 · 0 % or more , receiving metformin , sulfonylureas , or basal insulin , or combinations of these drugs", "", "<http://ctro/data#Population_46482> <http://ctro/data#hasPrecondition> \"patients aged 70 years or older with type 2 diabetes , glycated haemoglobin A1c ( HbA1c ) of 7 · 0 % or more , receiving metformin , sulfonylureas , or basal insulin , or combinations of these drugs\"."
+19, MinAge, 1290, 1298, "70 years", "", 
+14, Type2Diabetes, 1313, 1328, "type 2 diabetes", "", 
+37, HbA1c, 1331, 1355, "glycated haemoglobin A1c", "", 
+38, HbA1c, 1358, 1363, "HbA1c", "", 
+39, Percentage, 1375, 1376, "%", "", 
+40, Metformin, 1397, 1406, "metformin", "", 
+41, Sulfonylureas, 1409, 1422, "sulfonylureas", "", 
+67375, Insulin, 1434, 1441, "insulin", "", 
+43, Randomized, 1482, 1492, "randomised", "", 
+145, Randomized, 1519, 1532, "randomisation", "", 
+45, HbA1c, 1601, 1606, "HbA1c", "", 
+46, Percentage, 1623, 1624, "%", "", 
+47, Percentage, 1636, 1637, "%", "", 
+67377, Insulin, 1644, 1651, "insulin", "", 
+48, AllocationRatio, 1695, 1700, "2 : 1", "", "<http://ctro/data#AllocationRatio_46470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_46470>."
+49, Frequency, 1710, 1722, "once - daily", "", "<http://ctro/data#Intervention_46525> <http://ctro/data#hasFrequency> \"once - daily\". <http://ctro/data#Intervention_46531> <http://ctro/data#hasFrequency> \"once - daily\"."
+50, Oral, 1723, 1727, "oral", "", "<http://ctro/data#Medication_46490> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Oral>."
+4, Linagliptin, 1743, 1754, "linagliptin", "", "<http://ctro/data#Medication_46490> <http://ctro/data#hasDrug> <http://ctro/data#Linagliptin>."
+51, DoseValue, 1755, 1756, "5", "", "<http://ctro/data#Medication_46490> <http://ctro/data#hasDoseValue> \"5\"."
+52, mg, 1757, 1759, "mg", "", "<http://ctro/data#Medication_46490> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+53, Placebo, 1772, 1779, "placebo", "", "<http://ctro/data#Medication_46490> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+54, Duration, 1784, 1792, "24 weeks", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasCTduration> \"24 weeks\"."
+153, DoubleBlind, 1795, 1837, "Investigators and participants were masked", "", 
+55, HbA1c, 1910, 1915, "HbA1c", "", 
+56, TimePoint, 1921, 1929, "baseline", "", 
+57, TimePoint, 1933, 1940, "week 24", "", 
+59, NumberPatientsCT, 2028, 2031, "241", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasNumberPatientsCT> \"241\"."
+60, Randomized, 2068, 2078, "randomised", "", 
+61, NumberPatientsArm, 2081, 2084, "162", "", "<http://ctro/data#Arm_46555> <http://ctro/data#hasNumberPatientsArm> \"162\"."
+63, Linagliptin, 2085, 2096, "linagliptin", "", 
+62, NumberPatientsArm, 2099, 2101, "79", "", "<http://ctro/data#Arm_46568> <http://ctro/data#hasNumberPatientsArm> \"79\"."
+65, Placebo, 2102, 2109, "placebo", "", 
+163, Mean, 2114, 2118, "Mean", "", 
+162, AvgAge, 2127, 2139, "74 · 9 years", "", "<http://ctro/data#Population_46482> <http://ctro/data#hasAvgAge> \"74 · 9 years\"."
+164, Mean, 2155, 2159, "Mean", "", 
+69, HbA1c, 2160, 2165, "HbA1c", "", 
+70, BaseLineValue, 2170, 2175, "7 · 8", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasBaselineValue> \"7 · 8\"."
+71, Percentage, 2176, 2177, "%", "", 
+72, SdDevBL, 2183, 2188, "0 · 8", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasSdDevBL> \"0 · 8\"."
+58, TimePoint, 2196, 2203, "week 24", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasTimePoint> \"week 24\"."
+67, Placebo, 2206, 2213, "placebo", "", 
+171, Mean, 2225, 2229, "mean", "", "<http://ctro/data#Mean_46593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_46591> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_46593>."
+73, HbA1c, 2240, 2245, "HbA1c", "", "<http://ctro/data#Endpoint_46591> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+5, Linagliptin, 2251, 2262, "linagliptin", "", 
+74, Reduction, 2269, 2275, "0 · 64", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasChangeValue> \"0 · 64\"."
+75, Percentage, 2276, 2277, "%", "", "<http://ctro/data#Endpoint_46591> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+76, ConfIntervalChangeValue, 2280, 2308, "95 % CI - 0 · 81 to - 0 · 48", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI - 0 · 81 to - 0 · 48\"."
+77, PValueChangeValue, 2311, 2323, "p < 0 · 0001", "", "<http://ctro/data#Outcome_46596> <http://ctro/data#hasPValueChangeValue> \"p < 0 · 0001\"."
+6, Linagliptin, 2391, 2402, "linagliptin", "", 
+66, Placebo, 2407, 2414, "placebo", "", 
+78, PercentageAffected, 2424, 2430, "75 · 9", "", "<http://ctro/data#Outcome_46628> <http://ctro/data#hasPercentageAffected> \"75 · 9\". <http://ctro/data#Outcome_46655> <http://ctro/data#hasPercentageAffected> \"75 · 9\"."
+79, EndPointDescription, 2464, 2480, "an adverse event", "", "<http://ctro/data#EndPointDescription_46624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_46623> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_46624>."
+7, Linagliptin, 2483, 2494, "linagliptin", "", 
+80, NumberAffected, 2499, 2502, "123", "", "<http://ctro/data#Outcome_46628> <http://ctro/data#hasNumberAffected> \"123\"."
+82, Placebo, 2505, 2512, "placebo", "", 
+81, NumberAffected, 2517, 2519, "60", "", "<http://ctro/data#Outcome_46655> <http://ctro/data#hasNumberAffected> \"60\"."
+84, EndPointDescription, 2545, 2567, "Serious adverse events", "", "<http://ctro/data#EndPointDescription_46683> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_46682> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_46683>."
+85, PercentageAffected, 2580, 2585, "8 · 6", "", "<http://ctro/data#Outcome_46687> <http://ctro/data#hasPercentageAffected> \"8 · 6\"."
+87, NumberAffected, 2590, 2592, "14", "", "<http://ctro/data#Outcome_46687> <http://ctro/data#hasNumberAffected> \"14\"."
+64, Linagliptin, 2614, 2625, "linagliptin", "", 
+86, PercentageAffected, 2636, 2641, "6 · 3", "", "<http://ctro/data#Outcome_46714> <http://ctro/data#hasPercentageAffected> \"6 · 3\"."
+88, NumberAffected, 2646, 2650, "five", "", "<http://ctro/data#Outcome_46714> <http://ctro/data#hasNumberAffected> \"five\"."
+89, Placebo, 2669, 2676, "placebo", "", 
+90, ObservedResult, 2685, 2723, "none were deemed related to study drug", "", "<http://ctro/data#Outcome_46687> <http://ctro/data#hasObservedResult> \"none were deemed related to study drug\"."
+91, Hypoglycemia, 2726, 2739, "Hypoglycaemia", "", "<http://ctro/data#Endpoint_46742> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+93, PercentageAffected, 2827, 2833, "24 · 1", "", "<http://ctro/data#Outcome_46747> <http://ctro/data#hasPercentageAffected> \"24 · 1\"."
+95, NumberAffected, 2838, 2840, "39", "", "<http://ctro/data#Outcome_46747> <http://ctro/data#hasNumberAffected> \"39\"."
+8, Linagliptin, 2850, 2861, "linagliptin", "", 
+94, PercentageAffected, 2870, 2876, "16 · 5", "", "<http://ctro/data#Outcome_46774> <http://ctro/data#hasPercentageAffected> \"16 · 5\"."
+96, NumberAffected, 2881, 2883, "13", "", "<http://ctro/data#Outcome_46774> <http://ctro/data#hasNumberAffected> \"13\"."
+97, Placebo, 2893, 2900, "placebo", "", 
+98, ConfIntervalDiff, 2929, 2952, "95 % CI 0 · 78 - 3 · 78", "", "<http://ctro/data#DiffBetweenGroups_46801> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 0 · 78 - 3 · 78\"."
+99, PvalueDiff, 2955, 2967, "p = 0 · 2083", "", "<http://ctro/data#DiffBetweenGroups_46801> <http://ctro/data#hasPvalueDiff> \"p = 0 · 2083\"."
+101, ConclusionComment, 2989, 3120, "In elderly patients with type 2 diabetes linagliptin was efficacious in lowering glucose with a safety profile similar to placebo .", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasConclusionComment> \"In elderly patients with type 2 diabetes linagliptin was efficacious in lowering glucose with a safety profile similar to placebo .\"."
+15, Type2Diabetes, 3014, 3029, "type 2 diabetes", "", 
+9, Linagliptin, 3030, 3041, "linagliptin", "", 
+100, Placebo, 3111, 3118, "placebo", "", 
+102, ConclusionComment, 3121, 3274, "These findings could inform treatment decisions for achieving individualised glycaemic goals with minimal risk in this important population of patients .", "", "<http://ctro/data#ClinicalTrial_46466> <http://ctro/data#hasConclusionComment> \"These findings could inform treatment decisions for achieving individualised glycaemic goals with minimal risk in this important population of patients .\"."
+106321, PharmacySponsored, 3285, 3305, "Boehringer Ingelheim", "", "<http://ctro/data#EvidenceQuality_92007> <http://ctro/data#isPharmacySponsored> \"Boehringer Ingelheim\"."
+103, PMID, 3417, 3425, "23948125", "", "<http://ctro/data#Publication_46459> <http://ctro/data#hasPMID> \"23948125\"."

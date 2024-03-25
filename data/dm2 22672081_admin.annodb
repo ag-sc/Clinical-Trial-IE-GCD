@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 12, "Diabet Med .", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasJournal> \"Diabet Med .\"."
+1, PublicationYear, 13, 17, "2012", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasPublicationYear> \"2012\"."
+18, Title, 102, 321, "A study comparing insulin lispro mix 25 with glargine plus lispro therapy in patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication : results of the PARADIGM study .", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasTitle> \"A study comparing insulin lispro mix 25 with glargine plus lispro therapy in patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication : results of the PARADIGM study .\"."
+62981, Lispro75/25, 120, 141, "insulin lispro mix 25", "", 
+12, InsulinGlargine, 147, 155, "glargine", "", 
+3, Lispro, 161, 167, "lispro", "", 
+17, Precondition, 179, 287, "patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication", "", "<http://ctro/data#Population_35792> <http://ctro/data#hasPrecondition> \"patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication\"."
+13, Type2Diabetes, 193, 208, "Type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+62994, OralAntidiabeticAgent, 250, 287, "oral anti - hyperglycaemic medication", "", 
+19, Author, 322, 332, "Bowering K", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Bowering K\"."
+20, Author, 341, 348, "Reed VA", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Reed VA\"."
+21, Author, 351, 361, "Felicio JS", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Felicio JS\"."
+22, Author, 364, 372, "Landry J", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Landry J\"."
+23, Author, 375, 379, "Ji L", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Ji L\"."
+24, Author, 382, 392, "Oliveira J", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> \"Oliveira J\"."
+25, Canada, 535, 541, "Canada", "", "<http://ctro/data#Population_35792> <http://ctro/data#hasCountry> <http://ctro/data#Canada>."
+29, ObjectiveDescription, 650, 878, "To test the hypothesis that initiation and intensification with 25 % insulin lispro , 75 % insulin lispro protamine suspension ( LM25 ) , is non - inferior to initiation and intensification with glargine + insulin lispro therapy", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasObjectiveDescription> \"To test the hypothesis that initiation and intensification with 25 % insulin lispro , 75 % insulin lispro protamine suspension ( LM25 ) , is non - inferior to initiation and intensification with glargine + insulin lispro therapy\"."
+62982, Lispro75/25, 714, 765, "25 % insulin lispro , 75 % insulin lispro protamine", "", 
+62983, Lispro75/25, 779, 783, "LM25", "", 
+26, InsulinGlargine, 845, 853, "glargine", "", 
+27, Lispro, 856, 870, "insulin lispro", "", 
+30, ObjectiveDescription, 879, 918, "on change from baseline in HbA ( 1c ) .", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasObjectiveDescription> \"on change from baseline in HbA ( 1c ) .\"."
+95, TimePoint, 894, 902, "baseline", "", 
+28, HbA1c, 906, 916, "HbA ( 1c )", "", 
+31, Randomized, 937, 947, "randomized", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+32, CTDesign, 950, 967, "non - inferiority", "", "<http://ctro/data#CTDesign_35875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_35875>."
+33, Parallel, 992, 1000, "parallel", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+34, CTDesign, 1003, 1014, "prospective", "", "<http://ctro/data#CTDesign_35877> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_35877>."
+75, Multicenter, 1017, 1032, "multi - country", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+36, Duration, 1035, 1044, "48 - week", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTduration> \"48 - week\"."
+35, OpenLabel, 1047, 1059, "open - label", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+37, NumberPatientsCT, 1083, 1086, "426", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasNumberPatientsCT> \"426\"."
+15, Type2Diabetes, 1094, 1109, "Type 2 diabetes", "", 
+108, Precondition, 1094, 1177, "Type 2 diabetes inadequately controlled with oral anti - hyperglycaemic medications", "", 
+62995, OralAntidiabeticAgent, 1139, 1177, "oral anti - hyperglycaemic medications", "", 
+110, Frequency, 1226, 1235, "one daily", "", "<http://ctro/data#Intervention_35818> <http://ctro/data#hasFrequency> \"one daily\"."
+62984, Lispro75/25, 1236, 1240, "LM25", "", "<http://ctro/data#Medication_35836> <http://ctro/data#hasDrug> <http://ctro/data#Lispro75/25>."
+62987, IntramuscularInjection, 1241, 1250, "injection", "", "<http://ctro/data#Medication_35836> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection>."
+111, Frequency, 1271, 1282, "three daily", "", 
+62986, IntramuscularInjection, 1283, 1293, "injections", "", 
+44, NumberPatientsArm, 1318, 1321, "211", "", "<http://ctro/data#Arm_35800> <http://ctro/data#hasNumberPatientsArm> \"211\"."
+62988, PerProtocol, 1324, 1336, "per protocol", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+46, FinalNumPatientsArm, 1345, 1348, "177", "", "<http://ctro/data#Arm_35800> <http://ctro/data#hasFinalNumPatientsArm> \"177\"."
+42, Frequency, 1378, 1387, "one daily", "", "<http://ctro/data#Intervention_35824> <http://ctro/data#hasFrequency> \"one daily\"."
+41, InsulinGlargine, 1388, 1396, "glargine", "", "<http://ctro/data#Medication_35843> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+62989, IntramuscularInjection, 1397, 1406, "injection", "", "<http://ctro/data#Medication_35843> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection>."
+114, Frequency, 1429, 1440, "three daily", "", "<http://ctro/data#Intervention_35830> <http://ctro/data#hasFrequency> \"three daily\"."
+7, Lispro, 1441, 1455, "insulin lispro", "", 
+62990, IntramuscularInjection, 1456, 1466, "injections", "", "<http://ctro/data#Medication_35850> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection>."
+45, NumberPatientsArm, 1491, 1494, "212", "", "<http://ctro/data#Arm_35809> <http://ctro/data#hasNumberPatientsArm> \"212\"."
+62991, PerProtocol, 1497, 1509, "per protocol", "", 
+47, FinalNumPatientsArm, 1518, 1521, "184", "", "<http://ctro/data#Arm_35809> <http://ctro/data#hasFinalNumPatientsArm> \"184\"."
+62992, Lispro75/25, 1536, 1540, "LM25", "", 
+48, InsulinGlargine, 1583, 1591, "glargine", "", 
+49, Lispro, 1594, 1608, "insulin lispro", "", 
+50, ConfIntervalResValue, 1632, 1662, "upper limit of 95 % CI < 0 . 4", "", 
+127, LeastSquaresMean, 1674, 1694, "least - squares mean", "", "<http://ctro/data#Endpoint_35887> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+51, ConfIntervalResValue, 1708, 1715, "95 % CI", "", 
+52, HbA1c, 1721, 1731, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_35887> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+62996, Lispro75/25, 1734, 1738, "LM25", "", 
+54, InsulinGlargine, 1745, 1753, "glargine", "", 
+9, Lispro, 1756, 1770, "insulin lispro", "", 
+57, DiffGroupAbsValue, 1776, 1783, "- 0 . 4", "", "<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 4\"."
+79775, Millimoles_per_mole, 1784, 1794, "mmol / mol", "", "<http://ctro/data#Endpoint_35887> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_mole>."
+55, ConfIntervalDiff, 1797, 1821, "95 % CI - 2 . 7 to 1 . 9", "", "<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 2 . 7 to 1 . 9\"."
+58, DiffGroupAbsValue, 1826, 1834, "- 0 . 04", "", 
+60, Percentage, 1835, 1836, "%", "", 
+56, ConfIntervalDiff, 1839, 1865, "95 % CI - 0 . 25 to 0 . 17", "", 
+136, HbA1c, 1987, 1997, "HbA ( 1c )", "", 
+76, PostprandialBloodGlucose, 2009, 2035, "postprandial blood glucose", "", 
+77, InsulinDose, 2061, 2073, "insulin dose", "", 
+63, EndPointDescription, 2076, 2096, "number of injections", "", 
+137, BodyWeight, 2101, 2107, "weight", "", 
+65, ObservedResult, 2108, 2175, "change during the course of the study were similar in both groups .", "", 
+68, ObservedResult, 2176, 2219, "Patients in both groups experienced similar", "", 
+66, Hypoglycemia, 2220, 2233, "hypoglycaemia", "", 
+68, ObservedResult, 2234, 2239, "rates", "", 
+67, EndPointDescription, 2244, 2258, "safety profile", "", 
+72, ConclusionComment, 2275, 2496, "For patients with Type 2 diabetes inadequately controlled with oral anti - hyperglycaemic medications , glycaemic control when initiating and intensifying with LM25 therapy was found to be non - inferior to treatment with", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasConclusionComment> \"For patients with Type 2 diabetes inadequately controlled with oral anti - hyperglycaemic medications , glycaemic control when initiating and intensifying with LM25 therapy was found to be non - inferior to treatment with\"."
+14, Type2Diabetes, 2293, 2308, "Type 2 diabetes", "", 
+69, OralAntidiabeticAgent, 2338, 2376, "oral anti - hyperglycaemic medications", "", 
+62993, Lispro75/25, 2435, 2439, "LM25", "", 
+71, InsulinGlargine, 2497, 2505, "glargine", "", 
+73, ConclusionComment, 2497, 2532, "glargine + insulin lispro therapy .", "", "<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasConclusionComment> \"glargine + insulin lispro therapy .\"."
+11, Lispro, 2508, 2522, "insulin lispro", "", 
+74, PMID, 2663, 2671, "22672081", "", "<http://ctro/data#Publication_35769> <http://ctro/data#hasPMID> \"22672081\"."

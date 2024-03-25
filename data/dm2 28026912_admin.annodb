@@ -1,0 +1,146 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2017", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasPublicationYear> \"2017\"."
+55, Title, 107, 336, "Efficacy and safety of gemigliptin , a dipeptidyl peptidase - 4 inhibitor , in patients with type 2 diabetes mellitus inadequately controlled with combination treatment of metformin and sulphonylurea : a 24 - week , multicentre ,", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasTitle> \"Efficacy and safety of gemigliptin , a dipeptidyl peptidase - 4 inhibitor , in patients with type 2 diabetes mellitus inadequately controlled with combination treatment of metformin and sulphonylurea : a 24 - week , multicentre ,\"."
+97778, Gemigliptin, 130, 141, "gemigliptin", "", 
+176, Precondition, 186, 306, "patients with type 2 diabetes mellitus inadequately controlled with combination treatment of metformin and sulphonylurea", "", 
+3, Type2Diabetes, 200, 224, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+4, Metformin, 279, 288, "metformin", "", 
+5, Sulfonylureas, 293, 306, "sulphonylurea", "", 
+6, Duration, 311, 320, "24 - week", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasCTduration> \"24 - week\"."
+7, Multicenter, 323, 334, "multicentre", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+8, Randomized, 337, 347, "randomized", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+55, Title, 337, 412, "randomized , double - blind , placebo - controlled study ( TROICA study ) .", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasTitle> \"randomized , double - blind , placebo - controlled study ( TROICA study ) .\"."
+9, DoubleBlind, 350, 364, "double - blind", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+10, Placebo, 367, 374, "placebo", "", 
+11, Author, 413, 419, "Ahn CH", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Ahn CH\"."
+12, Author, 428, 434, "Han KA", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Han KA\"."
+13, Author, 443, 448, "Yu JM", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Yu JM\"."
+14, Author, 457, 463, "Nam JY", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Nam JY\"."
+15, Author, 472, 478, "Ahn KJ", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Ahn KJ\"."
+16, Author, 487, 492, "Oh TK", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Oh TK\"."
+17, Author, 501, 507, "Lee HW", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Lee HW\"."
+18, Author, 516, 522, "Lee DH", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Lee DH\"."
+19, Author, 531, 536, "Kim J", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Kim J\"."
+20, Author, 545, 553, "Chung CH", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Chung CH\"."
+21, Author, 563, 570, "Park TS", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Park TS\"."
+22, Author, 580, 586, "Kim BJ", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Kim BJ\"."
+23, Author, 596, 603, "Park SW", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Park SW\"."
+24, Author, 613, 620, "Park HK", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Park HK\"."
+25, Author, 630, 636, "Lee KJ", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Lee KJ\"."
+26, Author, 646, 652, "Kim SW", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Kim SW\"."
+27, Author, 662, 669, "Park JH", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Park JH\"."
+28, Author, 679, 684, "Ko KP", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Ko KP\"."
+29, Author, 694, 700, "Kim CH", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Kim CH\"."
+30, Author, 710, 715, "Lee H", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Lee H\"."
+31, Author, 725, 732, "Jang HC", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Jang HC\"."
+32, Author, 749, 756, "Park KS", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasAuthor> \"Park KS\"."
+33, SouthKorea, 885, 890, "Korea", "", "<http://ctro/data#Population_77933> <http://ctro/data#hasCountry> <http://ctro/data#SouthKorea>."
+34, SouthKorea, 966, 971, "Korea", "", 
+35, SouthKorea, 1072, 1077, "Korea", "", 
+36, SouthKorea, 1180, 1185, "Korea", "", 
+37, SouthKorea, 1291, 1296, "Korea", "", 
+38, SouthKorea, 1390, 1395, "Korea", "", 
+39, SouthKorea, 1483, 1488, "Korea", "", 
+40, SouthKorea, 1593, 1598, "Korea", "", 
+41, SouthKorea, 1683, 1688, "Korea", "", 
+42, SouthKorea, 1795, 1800, "Korea", "", 
+42, SouthKorea, 1892, 1897, "Korea", "", 
+43, SouthKorea, 1990, 1995, "Korea", "", 
+44, SouthKorea, 2079, 2084, "Korea", "", 
+45, SouthKorea, 2172, 2177, "Korea", "", 
+46, SouthKorea, 2256, 2261, "Korea", "", 
+47, SouthKorea, 2356, 2361, "Korea", "", 
+48, SouthKorea, 2451, 2456, "Korea", "", 
+49, SouthKorea, 2543, 2548, "Korea", "", 
+50, SouthKorea, 2628, 2633, "Korea", "", 
+51, SouthKorea, 2670, 2675, "Korea", "", 
+52, SouthKorea, 2775, 2780, "Korea", "", 
+53, SouthKorea, 2880, 2885, "Korea", "", 
+54, SouthKorea, 3053, 3058, "Korea", "", 
+62, ObjectiveDescription, 3068, 3238, "To assess the efficacy and safety of gemigliptin , a dipeptidyl peptidase - 4 inhibitor , added to metformin and sulphonylurea in patients with type 2 diabetes ( T2DM ) .", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasObjectiveDescription> \"To assess the efficacy and safety of gemigliptin , a dipeptidyl peptidase - 4 inhibitor , added to metformin and sulphonylurea in patients with type 2 diabetes ( T2DM ) .\"."
+97779, Gemigliptin, 3105, 3116, "gemigliptin", "", 
+58, Metformin, 3167, 3176, "metformin", "", 
+59, Sulfonylureas, 3181, 3194, "sulphonylurea", "", 
+60, Type2Diabetes, 3212, 3227, "type 2 diabetes", "", 
+61, Type2Diabetes, 3230, 3234, "T2DM", "", 
+63, Randomized, 3278, 3288, "randomized", "", 
+64, DoubleBlind, 3291, 3305, "double - blind", "", 
+65, Placebo, 3308, 3315, "placebo", "", 
+66, NumberPatientsCT, 3338, 3341, "219", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasNumberPatientsCT> \"219\"."
+67, Ethnicity, 3342, 3348, "Korean", "", "<http://ctro/data#Ethnicity_77935> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_77933> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_77935>."
+244, Precondition, 3342, 3412, "Korean patients inadequately controlled with metformin and glimepiride", "", "<http://ctro/data#Population_77933> <http://ctro/data#hasPrecondition> \"Korean patients inadequately controlled with metformin and glimepiride\"."
+68, Metformin, 3387, 3396, "metformin", "", 
+69, Glimepiride, 3401, 3412, "glimepiride", "", 
+71, Randomized, 3433, 3443, "randomized", "", 
+97780, Gemigliptin, 3447, 3458, "gemigliptin", "", "<http://ctro/data#Medication_79129> <http://ctro/data#hasDrug> <http://ctro/data#Gemigliptin>."
+246, DoseValue, 3459, 3461, "50", "", "<http://ctro/data#Medication_79129> <http://ctro/data#hasDoseValue> \"50\"."
+74, mg, 3464, 3466, "mg", "", "<http://ctro/data#Medication_79129> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+75, Frequency, 3467, 3477, "once daily", "", "<http://ctro/data#Intervention_79136> <http://ctro/data#hasFrequency> \"once daily\"."
+76, Placebo, 3481, 3488, "placebo", "", "<http://ctro/data#Medication_79142> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+77, Metformin, 3498, 3507, "metformin", "", "<http://ctro/data#Medication_79149> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+78, Glimepiride, 3512, 3523, "glimepiride", "", "<http://ctro/data#Medication_79156> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride>."
+79, HbA1c, 3561, 3581, "glycated haemoglobin", "", 
+80, HbA1c, 3584, 3589, "HbA1c", "", 
+81, TimePoint, 3603, 3611, "baseline", "", 
+82, TimePoint, 3615, 3622, "week 24", "", 
+83, TimePoint, 3639, 3647, "baseline", "", 
+84, HbA1c, 3648, 3653, "HbA1c", "", "<http://ctro/data#Endpoint_77942> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+85, BaseLineValue, 3658, 3663, "8 . 2", "", "<http://ctro/data#Outcome_79199> <http://ctro/data#hasBaselineValue> \"8 . 2\". <http://ctro/data#Outcome_79226> <http://ctro/data#hasBaselineValue> \"8 . 2\"."
+86, Percentage, 3664, 3665, "%", "", "<http://ctro/data#Endpoint_77942> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+97781, Gemigliptin, 3699, 3710, "gemigliptin", "", 
+88, Metformin, 3714, 3723, "metformin", "", 
+89, Glimepiride, 3728, 3739, "glimepiride", "", 
+252, HbA1c, 3762, 3767, "HbA1c", "", 
+91, TimePoint, 3778, 3785, "week 24", "", "<http://ctro/data#Outcome_79199> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_79226> <http://ctro/data#hasTimePoint> \"week 24\"."
+92, Placebo, 3800, 3807, "placebo", "", 
+93, Mean, 3849, 3853, "mean", "", "<http://ctro/data#Mean_77944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_77942> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_77944>."
+150, DiffGroupAbsValue, 3861, 3869, "- 0 . 87", "", "<http://ctro/data#DiffBetweenGroups_79253> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 87\"."
+94, Percentage, 3870, 3871, "%", "", 
+98, ConfIntervalDiff, 3874, 3930, "95 % confidence interval [ CI ] - 1 . 09 % to - 0 . 64 %", "", "<http://ctro/data#DiffBetweenGroups_79253> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval [ CI ] - 1 . 09 % to - 0 . 64 %\"."
+96, Percentage, 3915, 3916, "%", "", 
+97, Percentage, 3929, 3930, "%", "", 
+264, FastingPlasmaGlucose, 3935, 3957, "Fasting plasma glucose", "", "<http://ctro/data#Endpoint_77947> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+97782, Gemigliptin, 4000, 4011, "gemigliptin", "", 
+265, Reduction, 4016, 4022, "0 . 93", "", "<http://ctro/data#Outcome_79316> <http://ctro/data#hasChangeValue> \"0 . 93\"."
+102, Millimoles_per_litre, 4025, 4033, "mmol / L", "", "<http://ctro/data#Endpoint_77947> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+104, ConfIntervalChangeValue, 4036, 4075, "95 % CI - 1 . 50 to - 0 . 35   mmol / L", "", "<http://ctro/data#Outcome_79316> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI - 1 . 50 to - 0 . 35   mmol / L\"."
+103, Millimoles_per_litre, 4067, 4075, "mmol / L", "", 
+111, HbA1c_target, 4132, 4152, "HbA1c level of < 7 %", "", "<http://ctro/data#Endpoint_77952> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+106, Percentage, 4151, 4152, "%", "", 
+112, PercentageAffected, 4155, 4161, "39 . 3", "", "<http://ctro/data#Outcome_79262> <http://ctro/data#hasPercentageAffected> \"39 . 3\"."
+113, PercentageAffected, 4167, 4172, "5 . 5", "", "<http://ctro/data#Outcome_79289> <http://ctro/data#hasPercentageAffected> \"5 . 5\"."
+114, PvalueDiff, 4177, 4186, "P < . 001", "", "<http://ctro/data#DiffBetweenGroups_79370> <http://ctro/data#hasPvalueDiff> \"P < . 001\"."
+97783, Gemigliptin, 4196, 4207, "gemigliptin", "", 
+110, Placebo, 4226, 4233, "placebo", "", 
+117, EndPointDescription, 4242, 4259, "Total cholesterol", "", "<http://ctro/data#EndPointDescription_77958> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_77957> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_77958>."
+277, ObservedResult, 4242, 4376, "Total cholesterol and LDL cholesterol were modestly but significantly reduced in the gemigliptin group compared with the placebo group", "", "<http://ctro/data#Outcome_79379> <http://ctro/data#hasObservedResult> \"Total cholesterol and LDL cholesterol were modestly but significantly reduced in the gemigliptin group compared with the placebo group\". <http://ctro/data#Outcome_79406> <http://ctro/data#hasObservedResult> \"Total cholesterol and LDL cholesterol were modestly but significantly reduced in the gemigliptin group compared with the placebo group\". <http://ctro/data#Outcome_79469> <http://ctro/data#hasObservedResult> \"Total cholesterol and LDL cholesterol were modestly but significantly reduced in the gemigliptin group compared with the placebo group\". <http://ctro/data#Outcome_79496> <http://ctro/data#hasObservedResult> \"Total cholesterol and LDL cholesterol were modestly but significantly reduced in the gemigliptin group compared with the placebo group\"."
+118, EndPointDescription, 4264, 4279, "LDL cholesterol", "", "<http://ctro/data#EndPointDescription_77963> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_77962> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_77963>."
+97784, Gemigliptin, 4327, 4338, "gemigliptin", "", 
+116, Placebo, 4363, 4370, "placebo", "", 
+278, DiffGroupAbsValue, 4379, 4387, "- 0 . 21", "", "<http://ctro/data#DiffBetweenGroups_79433> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 21\"."
+123, Millimoles_per_litre, 4390, 4398, "mmol / L", "", "<http://ctro/data#Endpoint_77957> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>. <http://ctro/data#Endpoint_77962> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+284, ConfIntervalDiff, 4401, 4440, "95 % CI - 0 . 38 to - 0 . 03   mmol / L", "", "<http://ctro/data#DiffBetweenGroups_79433> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 38 to - 0 . 03   mmol / L\"."
+124, Millimoles_per_litre, 4432, 4440, "mmol / L", "", 
+119, EndPointDescription, 4445, 4462, "total cholesterol", "", 
+279, DiffGroupAbsValue, 4465, 4473, "- 0 . 18", "", "<http://ctro/data#DiffBetweenGroups_79523> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 18\"."
+125, Millimoles_per_litre, 4476, 4484, "mmol / L", "", 
+285, ConfIntervalDiff, 4487, 4526, "95 % CI - 0 . 34 to - 0 . 01   mmol / L", "", "<http://ctro/data#DiffBetweenGroups_79523> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 34 to - 0 . 01   mmol / L\"."
+126, Millimoles_per_litre, 4518, 4526, "mmol / L", "", 
+120, EndPointDescription, 4531, 4546, "LDL cholesterol", "", 
+131, Hypoglycemia, 4568, 4581, "hypoglycaemia", "", "<http://ctro/data#Endpoint_77967> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+134, PercentageAffected, 4586, 4591, "9 . 4", "", "<http://ctro/data#Outcome_79532> <http://ctro/data#hasPercentageAffected> \"9 . 4\"."
+97787, Gemigliptin, 4601, 4612, "gemigliptin", "", 
+135, PercentageAffected, 4623, 4628, "2 . 7", "", "<http://ctro/data#Outcome_79559> <http://ctro/data#hasPercentageAffected> \"2 . 7\"."
+133, Placebo, 4638, 4645, "placebo", "", 
+147, ConclusionComment, 4668, 4801, "Gemigliptin significantly improved glycaemic control in patients with T2DM inadequately controlled with metformin and sulphonylurea .", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasConclusionComment> \"Gemigliptin significantly improved glycaemic control in patients with T2DM inadequately controlled with metformin and sulphonylurea .\"."
+97785, Gemigliptin, 4668, 4679, "Gemigliptin", "", 
+139, Type2Diabetes, 4738, 4742, "T2DM", "", 
+140, Metformin, 4772, 4781, "metformin", "", 
+141, Sulfonylureas, 4786, 4799, "sulphonylurea", "", 
+148, ConclusionComment, 4802, 4959, "The incidence of hypoglycaemia was higher with gemigliptin than with placebo , which highlights the importance of optimal dose adjustment for sulphonylurea .", "", "<http://ctro/data#ClinicalTrial_77914> <http://ctro/data#hasConclusionComment> \"The incidence of hypoglycaemia was higher with gemigliptin than with placebo , which highlights the importance of optimal dose adjustment for sulphonylurea .\"."
+143, Hypoglycemia, 4819, 4832, "hypoglycaemia", "", 
+97786, Gemigliptin, 4849, 4860, "gemigliptin", "", 
+145, Placebo, 4871, 4878, "placebo", "", 
+146, Sulfonylureas, 4944, 4957, "sulphonylurea", "", 
+149, PMID, 5028, 5036, "28026912", "", "<http://ctro/data#Publication_77886> <http://ctro/data#hasPMID> \"28026912\"."

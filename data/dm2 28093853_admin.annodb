@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2017", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasPublicationYear> \"2017\"."
+2, Randomized, 107, 117, "Randomized", "", 
+128, Title, 107, 312, "Randomized clinical trial comparing the efficacy and safety of treatment with the once - weekly dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor omarigliptin or the once - daily DPP - 4 inhibitor sitagliptin", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasTitle> \"Randomized clinical trial comparing the efficacy and safety of treatment with the once - weekly dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor omarigliptin or the once - daily DPP - 4 inhibitor sitagliptin\"."
+3, Frequency, 189, 202, "once - weekly", "", 
+4, Omarigliptin, 250, 262, "omarigliptin", "", 
+5, Frequency, 270, 282, "once - daily", "", 
+6, Sitagliptin, 301, 312, "sitagliptin", "", 
+128, Title, 313, 396, "in patients with type 2 diabetes inadequately controlled on metformin monotherapy .", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasTitle> \"in patients with type 2 diabetes inadequately controlled on metformin monotherapy .\"."
+127, Precondition, 316, 394, "patients with type 2 diabetes inadequately controlled on metformin monotherapy", "", 
+7, Type2Diabetes, 330, 345, "type 2 diabetes", "", 
+9, Metformin, 373, 382, "metformin", "", 
+12, Author, 397, 409, "Goldenberg R", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Goldenberg R\"."
+13, Author, 418, 425, "Gantz I", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Gantz I\"."
+14, Author, 434, 444, "Andryuk PJ", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Andryuk PJ\"."
+15, Author, 453, 465, "O ' Neill EA", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"O ' Neill EA\"."
+16, Author, 474, 484, "Kaufman KD", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Kaufman KD\"."
+17, Author, 493, 498, "Lai E", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Lai E\"."
+18, Author, 507, 514, "Wang YN", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Wang YN\"."
+19, Author, 523, 536, "Suryawanshi S", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Suryawanshi S\"."
+20, Author, 545, 553, "Engel SS", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasAuthor> \"Engel SS\"."
+21, Canada, 640, 646, "Canada", "", "<http://ctro/data#Population_80176> <http://ctro/data#hasCountry> <http://ctro/data#Canada>."
+147, ObjectiveDescription, 710, 876, "To compare the efficacy and safety of the once - weekly oral dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor omarigliptin or once - daily DPP - 4 inhibitor sitagliptin", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of the once - weekly oral dipeptidyl peptidase - 4 ( DPP - 4 ) inhibitor omarigliptin or once - daily DPP - 4 inhibitor sitagliptin\"."
+22, Frequency, 752, 765, "once - weekly", "", "<http://ctro/data#Intervention_80222> <http://ctro/data#hasFrequency> \"once - weekly\"."
+24, Omarigliptin, 818, 830, "omarigliptin", "", 
+23, Frequency, 834, 846, "once - daily", "", "<http://ctro/data#Intervention_80228> <http://ctro/data#hasFrequency> \"once - daily\"."
+25, Sitagliptin, 865, 876, "sitagliptin", "", 
+147, ObjectiveDescription, 877, 966, "in patients with type 2 diabetes ( T2DM ) and inadequate glycaemic control on metformin .", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasObjectiveDescription> \"in patients with type 2 diabetes ( T2DM ) and inadequate glycaemic control on metformin .\"."
+146, Precondition, 880, 964, "patients with type 2 diabetes ( T2DM ) and inadequate glycaemic control on metformin", "", 
+26, Type2Diabetes, 894, 909, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+27, Type2Diabetes, 912, 916, "T2DM", "", 
+29, Metformin, 955, 964, "metformin", "", 
+158, Precondition, 991, 1138, "Patients with T2DM with a glycated haemoglobin ( HbA1c ) concentration ≥ 6 . 5 % to ≤ 9 . 0 % while on a stable dose of metformin ( ≥ 1500 mg / d )", "", "<http://ctro/data#Population_80176> <http://ctro/data#hasPrecondition> \"Patients with T2DM with a glycated haemoglobin ( HbA1c ) concentration ≥ 6 . 5 % to ≤ 9 . 0 % while on a stable dose of metformin ( ≥ 1500 mg / d )\"."
+32, Type2Diabetes, 1005, 1009, "T2DM", "", 
+33, HbA1c, 1017, 1037, "glycated haemoglobin", "", 
+34, HbA1c, 1040, 1045, "HbA1c", "", 
+35, Percentage, 1070, 1071, "%", "", 
+36, Percentage, 1083, 1084, "%", "", 
+37, Metformin, 1111, 1120, "metformin", "", 
+157, DoseValue, 1123, 1129, "≥ 1500", "", 
+155, mg, 1130, 1132, "mg", "", 
+98292, Interval, 1135, 1136, "d", "", 
+41, Randomized, 1144, 1154, "randomized", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+42, DoubleBlind, 1160, 1174, "double - blind", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+43, Omarigliptin, 1193, 1205, "omarigliptin", "", "<http://ctro/data#Medication_80240> <http://ctro/data#hasDrug> <http://ctro/data#Omarigliptin>."
+161, DoseValue, 1206, 1208, "25", "", "<http://ctro/data#Medication_80240> <http://ctro/data#hasDoseValue> \"25\"."
+46, mg, 1209, 1211, "mg", "", "<http://ctro/data#Medication_80240> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+45, Frequency, 1212, 1223, "once weekly", "", 
+47, NumberPatientsArm, 1230, 1233, "322", "", "<http://ctro/data#Arm_80204> <http://ctro/data#hasNumberPatientsArm> \"322\"."
+49, Sitagliptin, 1239, 1250, "sitagliptin", "", "<http://ctro/data#Medication_80247> <http://ctro/data#hasDrug> <http://ctro/data#Sitagliptin>."
+162, DoseValue, 1251, 1254, "100", "", "<http://ctro/data#Medication_80247> <http://ctro/data#hasDoseValue> \"100\"."
+51, mg, 1255, 1257, "mg", "", "<http://ctro/data#Medication_80247> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+52, Frequency, 1258, 1268, "once daily", "", 
+48, NumberPatientsArm, 1275, 1278, "320", "", "<http://ctro/data#Arm_80213> <http://ctro/data#hasNumberPatientsArm> \"320\"."
+53, Omarigliptin, 1321, 1333, "omarigliptin", "", 
+54, Sitagliptin, 1356, 1367, "sitagliptin", "", 
+55, HbA1c, 1380, 1385, "HbA1c", "", 
+56, TimePoint, 1389, 1396, "week 24", "", 
+57, Percentage, 1554, 1555, "%", "", 
+58, Mean, 1572, 1576, "mean", "", 
+60, HbA1c, 1586, 1591, "HbA1c", "", "<http://ctro/data#Endpoint_80184> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+62, BaseLineValue, 1596, 1601, "7 . 5", "", "<http://ctro/data#Outcome_80261> <http://ctro/data#hasBaselineValue> \"7 . 5\". <http://ctro/data#Outcome_80288> <http://ctro/data#hasBaselineValue> \"7 . 5\"."
+61, Percentage, 1602, 1603, "%", "", "<http://ctro/data#Endpoint_80184> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+106245, TimePoint, 1627, 1635, "24 weeks", "", "<http://ctro/data#Outcome_80261> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_80288> <http://ctro/data#hasTimePoint> \"24 weeks\"."
+64, LeastSquaresMean, 1642, 1667, "least squares ( LS ) mean", "", "<http://ctro/data#Endpoint_80184> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+65, HbA1c, 1678, 1683, "HbA1c", "", 
+66, TimePoint, 1689, 1697, "baseline", "", 
+181, Reduction, 1704, 1710, "0 . 47", "", "<http://ctro/data#Outcome_80261> <http://ctro/data#hasChangeValue> \"0 . 47\"."
+74, Percentage, 1711, 1712, "%", "", 
+69, Omarigliptin, 1720, 1732, "omarigliptin", "", 
+182, Reduction, 1745, 1751, "0 . 43", "", "<http://ctro/data#Outcome_80288> <http://ctro/data#hasChangeValue> \"0 . 43\"."
+75, Percentage, 1752, 1753, "%", "", 
+70, Sitagliptin, 1761, 1772, "sitagliptin", "", 
+71, DiffGroupAbsValue, 1818, 1826, "- 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_80315> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 03\"."
+72, Percentage, 1827, 1828, "%", "", 
+76, ConfIntervalDiff, 1831, 1856, "95 % CI - 0 . 15 , 0 . 08", "", "<http://ctro/data#DiffBetweenGroups_80315> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 15 , 0 . 08\"."
+77, LeastSquaresMean, 1942, 1949, "LS mean", "", "<http://ctro/data#Endpoint_80189> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>. <http://ctro/data#Endpoint_80324> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean>."
+78, TimePoint, 1962, 1970, "baseline", "", 
+79, FastingPlasmaGlucose, 1974, 1996, "fasting plasma glucose", "", "<http://ctro/data#Endpoint_80324> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+188, HbA1c_target, 2033, 2061, "HbA1c < 7 . 0 % or < 6 . 5 %", "", "<http://ctro/data#Endpoint_80189> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+83, Percentage, 2047, 2048, "%", "", 
+84, Percentage, 2060, 2061, "%", "", 
+82, TimePoint, 2065, 2072, "week 24", "", "<http://ctro/data#Outcome_80329> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_80383> <http://ctro/data#hasTimePoint> \"week 24\"."
+189, ObservedResult, 2073, 2113, "were similar in the two treatment groups", "", "<http://ctro/data#Outcome_80329> <http://ctro/data#hasObservedResult> \"were similar in the two treatment groups\". <http://ctro/data#Outcome_80383> <http://ctro/data#hasObservedResult> \"were similar in the two treatment groups\"."
+98295, ObservedResult, 2116, 2149, "There were no notable differences", "", "<http://ctro/data#Outcome_80437> <http://ctro/data#hasObservedResult> \"There were no notable differences\"."
+190, EndPointDescription, 2153, 2167, "adverse events", "", "<http://ctro/data#EndPointDescription_80195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_80194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_80195>."
+85, SymptomaticHypoglycemia, 2189, 2214, "symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_80199> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+98296, ObservedResult, 2215, 2248, "was low and similar in the groups", "", "<http://ctro/data#Outcome_80464> <http://ctro/data#hasObservedResult> \"was low and similar in the groups\"."
+198, ConclusionComment, 2265, 2465, "In patients with T2DM and inadequate glycaemic control on metformin , the addition of omarigliptin 25 mg once weekly or sitagliptin 100 mg once daily led to similar improvements in glycaemic control .", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasConclusionComment> \"In patients with T2DM and inadequate glycaemic control on metformin , the addition of omarigliptin 25 mg once weekly or sitagliptin 100 mg once daily led to similar improvements in glycaemic control .\"."
+86, Type2Diabetes, 2282, 2286, "T2DM", "", 
+88, Metformin, 2323, 2332, "metformin", "", 
+89, Omarigliptin, 2351, 2363, "omarigliptin", "", 
+194, DoseValue, 2364, 2366, "25", "", 
+95, mg, 2367, 2369, "mg", "", 
+91, Frequency, 2370, 2381, "once weekly", "", 
+92, Sitagliptin, 2385, 2396, "sitagliptin", "", 
+195, DoseValue, 2397, 2400, "100", "", 
+94, mg, 2401, 2403, "mg", "", 
+96, Frequency, 2404, 2414, "once daily", "", 
+199, ConclusionComment, 2466, 2547, "Both agents were generally well tolerated with a low incidence of hypoglycaemia .", "", "<http://ctro/data#ClinicalTrial_80157> <http://ctro/data#hasConclusionComment> \"Both agents were generally well tolerated with a low incidence of hypoglycaemia .\"."
+99, Hypoglycemia, 2532, 2545, "hypoglycaemia", "", 
+100, PMID, 2709, 2717, "28093853", "", "<http://ctro/data#Publication_80142> <http://ctro/data#hasPMID> \"28093853\"."

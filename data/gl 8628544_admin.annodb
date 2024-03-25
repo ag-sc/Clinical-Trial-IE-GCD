@@ -1,0 +1,85 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_98712> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+70, PublicationYear, 16, 20, "1996", "", "<http://ctro/data#Publication_98712> <http://ctro/data#hasPublicationYear> \"1996\"."
+15, Title, 50, 203, "Comparison of latanoprost and timolol in patients with ocular hypertension and glaucoma : a six - month masked , multicenter trial in the United States .", "", "<http://ctro/data#Publication_98712> <http://ctro/data#hasTitle> \"Comparison of latanoprost and timolol in patients with ocular hypertension and glaucoma : a six - month masked , multicenter trial in the United States .\"."
+2, Latanoprost, 64, 75, "latanoprost", "", 
+3, Timolol, 80, 87, "timolol", "", 
+4, OcularHypertension, 105, 124, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+5, Glaucoma, 129, 137, "glaucoma", "", "<http://ctro/data#Glaucoma_98739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_98719> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_98739>."
+6, Duration, 142, 153, "six - month", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTduration> \"six - month\"."
+7, Blind, 154, 160, "masked", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+8, Multicenter, 163, 174, "multicenter", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+9, USA, 188, 201, "United States", "", "<http://ctro/data#Population_98741> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+79, USA, 208, 221, "United States", "", 
+67, Latanoprost, 222, 233, "Latanoprost", "", 
+10, Author, 248, 257, "Camras CB", "", "<http://ctro/data#Publication_98712> <http://ctro/data#hasAuthor> \"Camras CB\"."
+11, USA, 357, 360, "USA", "", "<http://ctro/data#Population_98741> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+12, Latanoprost, 373, 384, "Latanoprost", "", 
+14, ObjectiveDescription, 373, 494, "Latanoprost , a new prostaglandin analogue , was compared with timolol for ocular hypotensive efficacy and side effects .", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasObjectiveDescription> \"Latanoprost , a new prostaglandin analogue , was compared with timolol for ocular hypotensive efficacy and side effects .\"."
+92862, ProstaglandinAnalogs, 393, 415, "prostaglandin analogue", "", 
+13, Timolol, 436, 443, "timolol", "", 
+16, Multicenter, 510, 521, "multicenter", "", 
+17, Randomized, 524, 534, "randomized", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+18, DoubleBlind, 537, 552, "double - masked", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+19, Parallel, 555, 563, "parallel", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+20, NumberPatientsCT, 578, 581, "268", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasNumberPatientsCT> \"268\"."
+54363, Precondition, 582, 654, "patients with ocular hypertension or early primary open - angle glaucoma", "", "<http://ctro/data#Population_98741> <http://ctro/data#hasPrecondition> \"patients with ocular hypertension or early primary open - angle glaucoma\"."
+21, OcularHypertension, 596, 615, "ocular hypertension", "", 
+93, Primary_OpenAngleGlaucoma, 625, 654, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+23, DoseValue, 671, 678, "0 . 005", "", "<http://ctro/data#Medication_98810> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+98, Percentage, 679, 680, "%", "", "<http://ctro/data#Medication_98810> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+25, Latanoprost, 681, 692, "latanoprost", "", "<http://ctro/data#Latanoprost_98811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_98810> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_98811>."
+26, Frequency, 693, 703, "once daily", "", "<http://ctro/data#Intervention_98798> <http://ctro/data#hasFrequency> \"once daily\"."
+24, DoseValue, 707, 712, "0 . 5", "", "<http://ctro/data#Medication_98817> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+99, Percentage, 713, 714, "%", "", "<http://ctro/data#Medication_98817> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+27, Timolol, 715, 722, "timolol", "", "<http://ctro/data#Medication_98817> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+28, Frequency, 723, 734, "twice daily", "", "<http://ctro/data#Intervention_98804> <http://ctro/data#hasFrequency> \"twice daily\"."
+29, Duration, 739, 747, "6 months", "", 
+30, NumPatientsLeftArm, 761, 764, "ten", "", "<http://ctro/data#Arm_98780> <http://ctro/data#hasNumPatientsLeftArm> \"ten\". <http://ctro/data#Arm_98789> <http://ctro/data#hasNumPatientsLeftArm> \"ten\"."
+31, IOP, 835, 855, "Intraocular pressure", "", 
+32, IOP, 858, 861, "IOP", "", 
+33, PValueChangeValue, 884, 895, "P < 0 . 001", "", 
+34, Duration, 986, 994, "6 months", "", 
+108, TimePoint, 1007, 1016, "6 - month", "", "<http://ctro/data#Outcome_98824> <http://ctro/data#hasTimePoint> \"6 - month\". <http://ctro/data#Outcome_98851> <http://ctro/data#hasTimePoint> \"6 - month\"."
+54185, TimePoint, 1022, 1030, "baseline", "", 
+36, Diurnal_IOP, 1031, 1042, "diurnal IOP", "", "<http://ctro/data#Endpoint_98750> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+37, IOP, 1056, 1059, "IOP", "", 
+114, Mean, 1072, 1076, "mean", "", "<http://ctro/data#Mean_98752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_98750> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_98752>."
+46, Latanoprost, 1118, 1129, "latanoprost", "", 
+39, Reduction, 1134, 1139, "6 . 7", "", "<http://ctro/data#Outcome_98824> <http://ctro/data#hasChangeValue> \"6 . 7\"."
+115, SdDevChangeValue, 1146, 1151, "3 . 4", "", "<http://ctro/data#Outcome_98824> <http://ctro/data#hasSdDevChangeValue> \"3 . 4\"."
+43, mmHg, 1152, 1156, "mmHg", "", "<http://ctro/data#Endpoint_98750> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+44, PValueChangeValue, 1179, 1190, "P < 0 . 001", "", "<http://ctro/data#Outcome_98824> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+45, Timolol, 1225, 1232, "timolol", "", 
+40, Reduction, 1235, 1240, "4 . 9", "", "<http://ctro/data#Outcome_98851> <http://ctro/data#hasChangeValue> \"4 . 9\"."
+116, SdDevChangeValue, 1247, 1252, "2 . 9", "", "<http://ctro/data#Outcome_98851> <http://ctro/data#hasSdDevChangeValue> \"2 . 9\"."
+42, mmHg, 1253, 1257, "mmHg", "", 
+47, NumPatientsLeftArm, 1262, 1266, "Four", "", 
+48, Timolol, 1289, 1296, "timolol", "", 
+49, Latanoprost, 1319, 1330, "latanoprost", "", 
+50, IOP, 1383, 1386, "IOP", "", 
+53, ObservedResult, 1397, 1475, "Pulse rate was significantly reduced with timolol , but not with latanoprost .", "", "<http://ctro/data#Outcome_98878> <http://ctro/data#hasObservedResult> \"Pulse rate was significantly reduced with timolol , but not with latanoprost .\"."
+54190, PulseRate, 1397, 1407, "Pulse rate", "", "<http://ctro/data#PulseRate_98906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#PulseRate>. <http://ctro/data#Endpoint_98905> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PulseRate_98906>."
+51, Timolol, 1439, 1446, "timolol", "", 
+52, Latanoprost, 1462, 1473, "latanoprost", "", 
+56, ObservedResult, 1476, 1585, "Slightly more conjunctival hyperemia appeared in latanoprost - treated compared with timolol - treated eyes .", "", "<http://ctro/data#Outcome_98910> <http://ctro/data#hasObservedResult> \"Slightly more conjunctival hyperemia appeared in latanoprost - treated compared with timolol - treated eyes .\"."
+127, ConjunctivalHyperemia, 1490, 1512, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_98755> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+54, Latanoprost, 1525, 1536, "latanoprost", "", 
+55, Timolol, 1561, 1568, "timolol", "", 
+58, ObservedResult, 1586, 1656, "Fewer subjective side effects occurred in latanoprost - treated eyes .", "", "<http://ctro/data#Outcome_98937> <http://ctro/data#hasObservedResult> \"Fewer subjective side effects occurred in latanoprost - treated eyes .\"."
+54191, EndPointDescription, 1592, 1615, "subjective side effects", "", "<http://ctro/data#EndPointDescription_98761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98760> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98761>."
+57, Latanoprost, 1628, 1639, "latanoprost", "", 
+60, ObservedResult, 1657, 1907, "Both eyes of a patient with a characteristic , concentric iris heterochromia ( darker centrally ) at baseline showed a definite , photographically documented increase in pigmentation during latanoprost treatment , making the irides uniformly darker .", "", "<http://ctro/data#Outcome_98964> <http://ctro/data#hasObservedResult> \"Both eyes of a patient with a characteristic , concentric iris heterochromia ( darker centrally ) at baseline showed a definite , photographically documented increase in pigmentation during latanoprost treatment , making the irides uniformly darker .\"."
+54192, TimePoint, 1758, 1766, "baseline", "", 
+131, IrisPigmentation, 1827, 1839, "pigmentation", "", 
+59, Latanoprost, 1847, 1858, "latanoprost", "", 
+61, ObservedResult, 1908, 1996, "Three additional patients treated with latanoprost were suspects for this color change .", "", "<http://ctro/data#Outcome_98991> <http://ctro/data#hasObservedResult> \"Three additional patients treated with latanoprost were suspects for this color change .\"."
+62, Latanoprost, 1947, 1958, "latanoprost", "", 
+54193, IrisPigmentation, 1982, 1994, "color change", "", "<http://ctro/data#IrisPigmentation_98766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation>. <http://ctro/data#Endpoint_98765> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_98766>."
+63, ObservedResult, 1997, 2151, "Otherwise , no significant difference between treatment groups occurred visual acuity , slit - lamp examination , blood pressure , and laboratory values .", "", "<http://ctro/data#Outcome_99018> <http://ctro/data#hasObservedResult> \"Otherwise , no significant difference between treatment groups occurred visual acuity , slit - lamp examination , blood pressure , and laboratory values .\". <http://ctro/data#Outcome_99045> <http://ctro/data#hasObservedResult> \"Otherwise , no significant difference between treatment groups occurred visual acuity , slit - lamp examination , blood pressure , and laboratory values .\"."
+54194, EndPointDescription, 2069, 2082, "visual acuity", "", "<http://ctro/data#EndPointDescription_98771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98770> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98771>."
+135, BloodPressure, 2111, 2125, "blood pressure", "", "<http://ctro/data#BloodPressure_98776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_98775> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_98776>."
+64, Latanoprost, 2165, 2176, "Latanoprost", "", 
+66, ConclusionComment, 2165, 2251, "Latanoprost has the potential for becoming a new first - line treatment for glaucoma .", "", "<http://ctro/data#ClinicalTrial_98719> <http://ctro/data#hasConclusionComment> \"Latanoprost has the potential for becoming a new first - line treatment for glaucoma .\"."
+65, Glaucoma, 2241, 2249, "glaucoma", "", 
+68, PMID, 2259, 2266, "8628544", "", "<http://ctro/data#Publication_98712> <http://ctro/data#hasPMID> \"8628544\"."

@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 18, "Eur J Ophthalmol .", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasJournal> \"Eur J Ophthalmol .\"."
+1, PublicationYear, 19, 23, "2009", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasPublicationYear> \"2009\"."
+2, Title, 57, 192, "Visual function , optic nerve structure , and ocular blood flow parameters after 1 year of glaucoma treatment with fixed combinations .", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasTitle> \"Visual function , optic nerve structure , and ocular blood flow parameters after 1 year of glaucoma treatment with fixed combinations .\"."
+76, EndPointDescription, 57, 72, "Visual function", "", 
+77, EndPointDescription, 75, 96, "optic nerve structure", "", 
+5, OcularBloodFlow, 103, 120, "ocular blood flow", "", 
+8, Precondition, 132, 190, "after 1 year of glaucoma treatment with fixed combinations", "", "<http://ctro/data#Population_88243> <http://ctro/data#hasPrecondition> \"after 1 year of glaucoma treatment with fixed combinations\"."
+79, Duration, 138, 144, "1 year", "", 
+7, Glaucoma, 148, 156, "glaucoma", "", 
+10, Author, 193, 208, "Januleviciene I", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasAuthor> \"Januleviciene I\"."
+11, Author, 217, 226, "Ehrlich R", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasAuthor> \"Ehrlich R\"."
+12, Author, 229, 237, "Siesky B", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasAuthor> \"Siesky B\"."
+13, Author, 240, 255, "Nedzelskien é I", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasAuthor> \"Nedzelskien é I\"."
+14, Author, 258, 266, "Harris A", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasAuthor> \"Harris A\"."
+6, Country, 350, 359, "Lithuania", "", "<http://ctro/data#Country_88246> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_88243> <http://ctro/data#hasCountry> <http://ctro/data#Country_88246>."
+27, ObjectiveDescription, 408, 649, "To compare the effects of latanoprost / timolol ( LTFC ) versus dorzolamide / timolol ( DTFC ) fixed combinations on intraocular pressure ( IOP ) , visual function , and retrobulbar blood flow in patients with open - angle glaucoma ( OAG ) .", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasObjectiveDescription> \"To compare the effects of latanoprost / timolol ( LTFC ) versus dorzolamide / timolol ( DTFC ) fixed combinations on intraocular pressure ( IOP ) , visual function , and retrobulbar blood flow in patients with open - angle glaucoma ( OAG ) .\"."
+15, Latanoprost, 434, 445, "latanoprost", "", "<http://ctro/data#Latanoprost_92623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_92622> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_92623>."
+22, Lat/TimFC, 434, 455, "latanoprost / timolol", "", 
+16, Timolol, 448, 455, "timolol", "", "<http://ctro/data#Medication_92629> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+21, Lat/TimFC, 458, 462, "LTFC", "", 
+18, Dorzolamide, 472, 483, "dorzolamide", "", "<http://ctro/data#Medication_92636> <http://ctro/data#hasDrug> <http://ctro/data#Dorzolamide>."
+19, Dorz/TimFC, 472, 493, "dorzolamide / timolol", "", 
+17, Timolol, 486, 493, "timolol", "", 
+20, Dorz/TimFC, 496, 500, "DTFC", "", 
+23, IOP, 525, 545, "intraocular pressure", "", 
+24, IOP, 548, 551, "IOP", "", 
+95, EndPointDescription, 556, 571, "visual function", "", 
+96, OcularBloodFlow, 578, 600, "retrobulbar blood flow", "", 
+34, Precondition, 604, 639, "patients with open - angle glaucoma", "", "<http://ctro/data#Population_88243> <http://ctro/data#hasPrecondition> \"patients with open - angle glaucoma\"."
+25, OpenAngleGlaucoma, 618, 639, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+26, OpenAngleGlaucoma, 642, 645, "OAG", "", 
+28, Prospective, 671, 682, "prospective", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+29, Randomized, 685, 695, "randomized", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+30, DoubleBlind, 698, 711, "double masked", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+31, Parallel, 714, 722, "parallel", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+32, NumberPatientsCT, 732, 734, "30", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasNumberPatientsCT> \"30\"."
+35, Precondition, 735, 752, "patients with OAG", "", 
+33, OpenAngleGlaucoma, 749, 752, "OAG", "", 
+105, Duration, 777, 784, "4 weeks", "", 
+36, Timolol, 788, 795, "timolol", "", 
+107, Randomized, 815, 828, "randomization", "", 
+37, Lat/TimFC, 832, 836, "LTFC", "", 
+38, Dorz/TimFC, 840, 844, "DTFC", "", 
+110, Randomized, 876, 889, "randomization", "", 
+42, TimePoint, 904, 925, "1 , 6 , and 12 months", "", 
+111, TimePoint, 904, 927, "1 , 6 , and 12 months ,", "", 
+41, TimePoint, 908, 925, "6 , and 12 months", "", 
+40, TimePoint, 916, 925, "12 months", "", 
+43, BloodPressure, 947, 961, "blood pressure", "", 
+44, IOP, 964, 967, "IOP", "", 
+116, EndPointDescription, 970, 1016, "color Doppler imaging of the ophthalmic artery", "", 
+117, EndPointDescription, 1019, 1021, "OA", "", 
+118, EndPointDescription, 1026, 1048, "central retinal artery", "", 
+119, EndPointDescription, 1055, 1085, "short posterior ciliary artery", "", 
+120, EndPointDescription, 1088, 1092, "SPCA", "", 
+121, EndPointDescription, 1097, 1123, "scanning laser polarimetry", "", 
+122, EndPointDescription, 1126, 1159, "Humphrey visual field examination", "", 
+45, IOP, 1193, 1196, "IOP", "", "<http://ctro/data#IOP_92588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_92587> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_92588>."
+46, Reduction, 1210, 1215, "5 . 0", "", "<http://ctro/data#Outcome_92700> <http://ctro/data#hasChangeValue> \"5 . 0\"."
+48, mmHg, 1216, 1220, "mmHg", "", "<http://ctro/data#Endpoint_92587> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+50, Dorz/TimFC, 1228, 1232, "DTFC", "", 
+130, PValueChangeValue, 1242, 1253, "p < 0 . 000", "", "<http://ctro/data#Outcome_92700> <http://ctro/data#hasPValueChangeValue> \"p < 0 . 000\"."
+47, Reduction, 1260, 1266, "5 . 44", "", "<http://ctro/data#Outcome_92673> <http://ctro/data#hasChangeValue> \"5 . 44\"."
+49, mmHg, 1267, 1271, "mmHg", "", 
+51, Lat/TimFC, 1279, 1283, "LTFC", "", 
+131, PValueChangeValue, 1293, 1305, "p = 0 . 0001", "", "<http://ctro/data#Outcome_92673> <http://ctro/data#hasPValueChangeValue> \"p = 0 . 0001\"."
+101609, Duration, 1314, 1323, "12 months", "", 
+134, EndPointDescription, 1383, 1395, "visual field", "", "<http://ctro/data#EndPointDescription_92593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92592> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92593>."
+101611, EndPointDescription, 1399, 1426, "nerve fiber layer thickness", "", "<http://ctro/data#EndPointDescription_92598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92597> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92598>."
+133, Duration, 1477, 1486, "12 months", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasCTduration> \"12 months\"."
+55, Mean, 1500, 1504, "Mean", "", 
+137, Duration, 1519, 1525, "1 year", "", 
+138, EndPointDescription, 1542, 1558, "ocular perfusion", "", "<http://ctro/data#EndPointDescription_92603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92602> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92603>."
+139, EndPointDescription, 1563, 1592, "diastolic perfusion pressures", "", "<http://ctro/data#EndPointDescription_92608> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92607> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92608>."
+140, RelativeIncrement, 1598, 1605, "10 . 46", "", "<http://ctro/data#Outcome_92727> <http://ctro/data#hasRelativeChangeValue> \"10 . 46\"."
+141, RelativeIncrement, 1612, 1619, "10 . 67", "", "<http://ctro/data#Outcome_92754> <http://ctro/data#hasRelativeChangeValue> \"10 . 67\"."
+62, Dorz/TimFC, 1629, 1633, "DTFC", "", 
+142, RelativeIncrement, 1644, 1650, "7 . 47", "", "<http://ctro/data#Outcome_92781> <http://ctro/data#hasRelativeChangeValue> \"7 . 47\"."
+143, RelativeIncrement, 1657, 1663, "5 . 61", "", "<http://ctro/data#Outcome_92808> <http://ctro/data#hasRelativeChangeValue> \"5 . 61\"."
+61, Lat/TimFC, 1673, 1677, "LTFC", "", 
+147, EndPointDescription, 1701, 1719, "OA resistive index", "", "<http://ctro/data#EndPointDescription_92613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92612> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92613>."
+148, EndPointDescription, 1722, 1724, "RI", "", 
+149, EndPointDescription, 1731, 1738, "SPCA RI", "", "<http://ctro/data#EndPointDescription_92618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_92617> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_92618>."
+66, TimePoint, 1775, 1784, "12 months", "", 
+63, PvalueDiff, 1828, 1836, "= 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_92943> <http://ctro/data#hasPvalueDiff> \"= 0 . 05\"."
+64, PvalueDiff, 1843, 1852, "= 0 . 000", "", "<http://ctro/data#DiffBetweenGroups_92952> <http://ctro/data#hasPvalueDiff> \"= 0 . 000\"."
+65, Dorz/TimFC, 1872, 1876, "DTFC", "", 
+153, EndPointDescription, 1910, 1912, "RI", "", 
+70, ConclusionComment, 1929, 2059, "One year of treatment with LTFC or DTFC resulted in similar IOP lowering effects as well as stable visual function and structure .", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasConclusionComment> \"One year of treatment with LTFC or DTFC resulted in similar IOP lowering effects as well as stable visual function and structure .\"."
+156, Duration, 1929, 1937, "One year", "", 
+67, Lat/TimFC, 1956, 1960, "LTFC", "", 
+68, Dorz/TimFC, 1964, 1968, "DTFC", "", 
+69, IOP, 1989, 1992, "IOP", "", 
+74, ConclusionComment, 2060, 2159, "The DTFC group showed lower vascular resistance in retrobulbar vessels compared to the LTFC group .", "", "<http://ctro/data#ClinicalTrial_88222> <http://ctro/data#hasConclusionComment> \"The DTFC group showed lower vascular resistance in retrobulbar vessels compared to the LTFC group .\"."
+71, Dorz/TimFC, 2064, 2068, "DTFC", "", 
+162, EndPointDescription, 2088, 2130, "vascular resistance in retrobulbar vessels", "", 
+72, Lat/TimFC, 2147, 2151, "LTFC", "", 
+73, PMID, 2204, 2212, "19787599", "", "<http://ctro/data#Publication_88211> <http://ctro/data#hasPMID> \"19787599\"."

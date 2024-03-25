@@ -1,0 +1,74 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+27346, PublicationYear, 13, 17, "2000", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasPublicationYear> \"2000\"."
+2, Title, 46, 245, "Comparison of the clinical success rates and quality of life effects of brimonidine tartrate 0 . 2 % and betaxolol 0 . 25 % suspension in patients with open - angle glaucoma and ocular hypertension .", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasTitle> \"Comparison of the clinical success rates and quality of life effects of brimonidine tartrate 0 . 2 % and betaxolol 0 . 25 % suspension in patients with open - angle glaucoma and ocular hypertension .\"."
+36943, EndPointDescription, 64, 80, "clinical success", "", "<http://ctro/data#EndPointDescription_32979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_32978> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_32979>."
+24602, Brimonidine, 118, 138, "brimonidine tartrate", "", 
+76, DoseValue, 139, 144, "0 . 2", "", 
+80, Percentage, 145, 146, "%", "", 
+25, Betaxolol, 151, 160, "betaxolol", "", "<http://ctro/data#Medication_33020> <http://ctro/data#hasDrug> <http://ctro/data#Betaxolol>."
+77, DoseValue, 161, 167, "0 . 25", "", 
+81, Percentage, 168, 169, "%", "", 
+23, OpenAngleGlaucoma, 198, 219, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+39, OcularHypertension, 224, 243, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+40, Brimonidine, 246, 257, "Brimonidine", "", 
+41, Author, 284, 292, "Javitt J", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasAuthor> \"Javitt J\"."
+4, Author, 301, 311, "Goldberg I", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasAuthor> \"Goldberg I\"."
+27348, USA, 428, 431, "USA", "", "<http://ctro/data#Population_32955> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+6, ObjectiveDescription, 444, 650, "To compare the clinical effectiveness and the impact on quality of life of twice - daily brimonidine 0 . 2 % with those of twice - daily betaxolol 0 . 25 % in patients with glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasObjectiveDescription> \"To compare the clinical effectiveness and the impact on quality of life of twice - daily brimonidine 0 . 2 % with those of twice - daily betaxolol 0 . 25 % in patients with glaucoma or ocular hypertension .\"."
+44, Frequency, 519, 532, "twice - daily", "", "<http://ctro/data#Intervention_33001> <http://ctro/data#hasFrequency> \"twice - daily\"."
+34, Brimonidine, 533, 544, "brimonidine", "", "<http://ctro/data#Medication_33013> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+102, DoseValue, 545, 550, "0 . 2", "", "<http://ctro/data#Medication_33013> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+82, Percentage, 551, 552, "%", "", "<http://ctro/data#Medication_33013> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+45, Frequency, 567, 580, "twice - daily", "", "<http://ctro/data#Intervention_33007> <http://ctro/data#hasFrequency> \"twice - daily\"."
+27347, Betaxolol, 581, 590, "betaxolol", "", 
+79, DoseValue, 591, 597, "0 . 25", "", "<http://ctro/data#Medication_33020> <http://ctro/data#hasDoseValue> \"0 . 25\"."
+27358, Percentage, 598, 599, "%", "", "<http://ctro/data#Medication_33020> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+36, Glaucoma, 617, 625, "glaucoma", "", "<http://ctro/data#Glaucoma_32954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_32932> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_32954>."
+24603, OcularHypertension, 629, 648, "ocular hypertension", "", 
+36941, Prospective, 663, 674, "prospective", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+8, DoubleBlind, 677, 692, "double - masked", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+51, Randomized, 695, 705, "randomized", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+27341, CTDesign, 708, 719, "comparative", "", "<http://ctro/data#CTDesign_32950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_32950>."
+11, Multicenter, 722, 733, "multicenter", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+12, Duration, 736, 745, "4 - month", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasCTduration> \"4 - month\"."
+54, NumberPatientsCT, 787, 790, "188", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasNumberPatientsCT> \"188\"."
+27349, Frequency, 829, 840, "twice daily", "", 
+46, IOP, 890, 910, "intraocular pressure", "", "<http://ctro/data#IOP_32964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_32963> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_32964>."
+96, Glaucoma, 1012, 1020, "Glaucoma", "", 
+16, HeartRate, 1042, 1052, "heart rate", "", "<http://ctro/data#HeartRate_32969> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_32968> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_32969>."
+60, BloodPressure, 1059, 1073, "blood pressure", "", "<http://ctro/data#BloodPressure_32974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_32973> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_32974>."
+49, IOP, 1116, 1136, "intraocular pressure", "", 
+111, TimePoint, 1143, 1150, "1 month", "", 
+36942, TimePoint, 1210, 1221, "first month", "", 
+27342, Duration, 1327, 1335, "4 months", "", 
+27343, EndPointDescription, 1385, 1401, "clinical success", "", 
+101, EndPointDescription, 1650, 1666, "clinical success", "", 
+27357, PercentageAffected, 1683, 1685, "74", "", "<http://ctro/data#Outcome_19320> <http://ctro/data#hasPercentageAffected> \"74\"."
+63, Brimonidine, 1713, 1724, "brimonidine", "", 
+84, PercentageAffected, 1744, 1746, "57", "", "<http://ctro/data#Outcome_33027> <http://ctro/data#hasPercentageAffected> \"57\"."
+27350, Betaxolol, 1774, 1783, "betaxolol", "", 
+50, PvalueDiff, 1786, 1797, "P = 0 . 027", "", "<http://ctro/data#DiffBetweenGroups_33054> <http://ctro/data#hasPvalueDiff> \"P = 0 . 027\"."
+65, Mean, 1814, 1818, "mean", "", "<http://ctro/data#Mean_32965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_32963> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_32965>."
+26, IOP, 1831, 1851, "intraocular pressure", "", 
+27353, Reduction, 1870, 1875, "5 . 9", "", "<http://ctro/data#Outcome_33063> <http://ctro/data#hasChangeValue> \"5 . 9\"."
+57, mmHg, 1876, 1881, "mm Hg", "", "<http://ctro/data#Endpoint_32963> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+71, Brimonidine, 1887, 1898, "brimonidine", "", 
+27354, Reduction, 1903, 1908, "3 . 8", "", "<http://ctro/data#Outcome_33090> <http://ctro/data#hasChangeValue> \"3 . 8\"."
+58, mmHg, 1909, 1914, "mm Hg", "", 
+72, Betaxolol, 1920, 1929, "betaxolol", "", 
+92990, ObservedResult, 1932, 2062, "Both treatments were well tolerated , and there were no significant between - group differences in the incidence of adverse events", "", "<http://ctro/data#Outcome_39059> <http://ctro/data#hasObservedResult> \"Both treatments were well tolerated , and there were no significant between - group differences in the incidence of adverse events\". <http://ctro/data#Outcome_39086> <http://ctro/data#hasObservedResult> \"Both treatments were well tolerated , and there were no significant between - group differences in the incidence of adverse events\"."
+92991, EndPointDescription, 2048, 2062, "adverse events", "", "<http://ctro/data#EndPointDescription_39055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_39054> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_39055>."
+31, ConclusionComment, 2120, 2274, "Twice - daily brimonidine 0 . 2 % and betaxolol 0 . 25 % suspension were safe and effective as first - line therapy for glaucoma and ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasConclusionComment> \"Twice - daily brimonidine 0 . 2 % and betaxolol 0 . 25 % suspension were safe and effective as first - line therapy for glaucoma and ocular hypertension .\"."
+27351, Frequency, 2120, 2133, "Twice - daily", "", 
+27352, Brimonidine, 2134, 2145, "brimonidine", "", 
+27356, DoseValue, 2146, 2151, "0 . 2", "", 
+69, Percentage, 2152, 2153, "%", "", 
+24590, Betaxolol, 2158, 2167, "betaxolol", "", 
+27355, DoseValue, 2168, 2174, "0 . 25", "", 
+70, Percentage, 2175, 2176, "%", "", 
+124, Glaucoma, 2240, 2248, "glaucoma", "", 
+24604, OcularHypertension, 2253, 2272, "ocular hypertension", "", 
+27345, ConclusionComment, 2275, 2364, "In this study , brimonidine showed clinical effectiveness superior to that of betaxolol .", "", "<http://ctro/data#ClinicalTrial_32932> <http://ctro/data#hasConclusionComment> \"In this study , brimonidine showed clinical effectiveness superior to that of betaxolol .\"."
+27344, Brimonidine, 2291, 2302, "brimonidine", "", 
+92975, PMID, 2372, 2380, "11039742", "", "<http://ctro/data#Publication_32924> <http://ctro/data#hasPMID> \"11039742\"."

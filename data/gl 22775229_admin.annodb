@@ -1,0 +1,95 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2012", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasPublicationYear> \"2012\"."
+76, Title, 113, 365, "A double - masked randomized crossover study comparing the effect of latanoprost / timolol and brimonidine / timolol fixed combination on intraocular pressure and ocular blood flow in patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasTitle> \"A double - masked randomized crossover study comparing the effect of latanoprost / timolol and brimonidine / timolol fixed combination on intraocular pressure and ocular blood flow in patients with primary open - angle glaucoma or ocular hypertension .\"."
+10, DoubleBlind, 115, 130, "double - masked", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+11, Randomized, 131, 141, "randomized", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+12, Crossover, 142, 151, "crossover", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+13, Latanoprost, 182, 193, "latanoprost", "", 
+71, Lat/TimFC, 182, 203, "latanoprost / timolol", "", 
+14, Timolol, 196, 203, "timolol", "", 
+15, Brimonidine, 208, 219, "brimonidine", "", 
+72, Brimo/TimFC, 208, 229, "brimonidine / timolol", "", 
+16, Timolol, 222, 229, "timolol", "", 
+17, IOP, 251, 271, "intraocular pressure", "", "<http://ctro/data#IOP_66589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_66588> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_66589>."
+79130, OcularBloodFlow, 276, 293, "ocular blood flow", "", "<http://ctro/data#Endpoint_66593> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#OcularBloodFlow>."
+74, Primary_OpenAngleGlaucoma, 311, 340, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+79122, OcularHypertension, 344, 363, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+3, Author, 366, 374, "Hommer A", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Hommer A\"."
+4, Author, 383, 390, "Sperl P", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Sperl P\"."
+5, Author, 393, 400, "Resch H", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Resch H\"."
+6, Author, 403, 423, "Popa - Cherecheanu A", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Popa - Cherecheanu A\"."
+81, Author, 426, 432, "Qiao C", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Qiao C\"."
+82, Author, 435, 448, "Schmetterer L", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Schmetterer L\"."
+8, Author, 451, 463, "Garh ö fer G", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> \"Garh ö fer G\"."
+9, Austria, 571, 578, "Austria", "", "<http://ctro/data#Population_66580> <http://ctro/data#hasCountry> <http://ctro/data#Austria>."
+79131, OcularBloodFlow, 591, 608, "Ocular blood flow", "", 
+61, Glaucoma, 666, 674, "glaucoma", "", 
+79132, OcularBloodFlow, 733, 750, "ocular blood flow", "", 
+23, ObjectiveDescription, 839, 1086, "In the present study , we set out to compare the effects of latanoprost 0 . 005 % / timolol 0 . 5 % ( LT ) fixed combination and brimonidine 0 . 2 % / timolol 0 . 5 % ( BT ) fixed combination on intraocular pressure ( IOP ) and ocular blood flow .", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasObjectiveDescription> \"In the present study , we set out to compare the effects of latanoprost 0 . 005 % / timolol 0 . 5 % ( LT ) fixed combination and brimonidine 0 . 2 % / timolol 0 . 5 % ( BT ) fixed combination on intraocular pressure ( IOP ) and ocular blood flow .\"."
+13, Latanoprost, 899, 910, "latanoprost", "", 
+92, Lat/TimFC, 899, 963, "latanoprost 0 . 005 % / timolol 0 . 5 % ( LT ) fixed combination", "", "<http://ctro/data#Medication_66613> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+24, DoseValue, 911, 918, "0 . 005", "", 
+28, Percentage, 919, 920, "%", "", 
+14, Timolol, 923, 930, "timolol", "", 
+25, DoseValue, 931, 936, "0 . 5", "", 
+29, Percentage, 937, 938, "%", "", 
+93, Brimonidine, 968, 979, "brimonidine", "", 
+99, Brimo/TimFC, 968, 1030, "brimonidine 0 . 2 % / timolol 0 . 5 % ( BT ) fixed combination", "", "<http://ctro/data#Medication_66620> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+26, DoseValue, 980, 985, "0 . 2", "", 
+30, Percentage, 986, 987, "%", "", 
+16, Timolol, 990, 997, "timolol", "", 
+27, DoseValue, 998, 1003, "0 . 5", "", 
+31, Percentage, 1004, 1005, "%", "", 
+32, IOP, 1034, 1054, "intraocular pressure", "", 
+33, IOP, 1057, 1060, "IOP", "", 
+102, OcularBloodFlow, 1067, 1084, "ocular blood flow", "", 
+11, Randomized, 1137, 1147, "randomized", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+10, DoubleBlind, 1150, 1165, "double - masked", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+12, Crossover, 1174, 1183, "crossover", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+34, NumberPatientsCT, 1193, 1195, "16", "", 
+107, Primary_OpenAngleGlaucoma, 1210, 1239, "primary open - angle glaucoma", "", 
+35, NumberPatientsCT, 1244, 1245, "2", "", 
+79125, OcularHypertension, 1260, 1279, "ocular hypertension", "", 
+36, Duration, 1321, 1329, "6 - week", "", 
+111, Lat/TimFC, 1345, 1347, "LT", "", 
+57, Duration, 1354, 1362, "6 - week", "", 
+112, Brimo/TimFC, 1378, 1380, "BT", "", 
+79140, EndPointDescription, 1436, 1463, "Optic nerve head blood flow", "", "<http://ctro/data#EndPointDescription_66599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_66598> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66599>."
+79141, EndPointDescription, 1466, 1471, "ONHBF", "", 
+37, MeasurementDevice, 1493, 1516, "laser Doppler flowmetry", "", "<http://ctro/data#MeasurementDevice_66602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_66598> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_66602>."
+38, MeasurementDevice, 1567, 1588, "color Doppler imaging", "", 
+39, IOP, 1682, 1685, "IOP", "", 
+79136, TimePoint, 1702, 1706, "8 AM", "", 
+79138, TimePoint, 1709, 1714, "12 PM", "", 
+79139, TimePoint, 1721, 1725, "4 PM", "", 
+40, Mean, 1742, 1746, "mean", "", "<http://ctro/data#Mean_66590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_66588> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_66590>."
+41, IOP, 1756, 1759, "IOP", "", 
+42, BaseLineValue, 1764, 1770, "25 . 3", "", "<http://ctro/data#Outcome_66639> <http://ctro/data#hasBaselineValue> \"25 . 3\". <http://ctro/data#Outcome_66666> <http://ctro/data#hasBaselineValue> \"25 . 3\"."
+117, SdDevBL, 1773, 1778, "2 . 8", "", "<http://ctro/data#Outcome_66639> <http://ctro/data#hasSdDevBL> \"2 . 8\". <http://ctro/data#Outcome_66666> <http://ctro/data#hasSdDevBL> \"2 . 8\"."
+44, mmHg, 1781, 1785, "mmHg", "", "<http://ctro/data#Endpoint_66588> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+45, IOP, 1834, 1837, "IOP", "", 
+120, Lat/TimFC, 1840, 1842, "LT", "", 
+46, RelativeReduction, 1847, 1853, "35 . 0", "", "<http://ctro/data#Outcome_66639> <http://ctro/data#hasRelativeChangeValue> \"35 . 0\"."
+123, SdDevChangeValue, 1857, 1863, "10 . 0", "", "<http://ctro/data#Outcome_66639> <http://ctro/data#hasSdDevChangeValue> \"10 . 0\"."
+121, Brimo/TimFC, 1868, 1870, "BT", "", 
+48, RelativeReduction, 1875, 1881, "33 . 6", "", "<http://ctro/data#Outcome_66666> <http://ctro/data#hasRelativeChangeValue> \"33 . 6\"."
+125, SdDevChangeValue, 1885, 1890, "8 . 8", "", "<http://ctro/data#Outcome_66666> <http://ctro/data#hasSdDevChangeValue> \"8 . 8\"."
+50, PvalueDiff, 1895, 1906, "P = 0 . 463", "", "<http://ctro/data#DiffBetweenGroups_66756> <http://ctro/data#hasPvalueDiff> \"P = 0 . 463\"."
+79134, ObservedResult, 1940, 1953, "no difference", "", "<http://ctro/data#Outcome_66693> <http://ctro/data#hasObservedResult> \"no difference\". <http://ctro/data#Outcome_66693> <http://ctro/data#hasObservedResult> \"was observed between the 2 treatment groups\"."
+79133, EndPointDescription, 1957, 1982, "ocular perfusion pressure", "", "<http://ctro/data#EndPointDescription_66604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_66603> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66604>."
+79134, ObservedResult, 1983, 2026, "was observed between the 2 treatment groups", "", 
+51, PvalueDiff, 2029, 2038, "P = 0 . 1", "", 
+106409, ObservedResult, 2060, 2091, "Neither LT nor BT altered ONHBF", "", "<http://ctro/data#Outcome_66729> <http://ctro/data#hasObservedResult> \"Neither LT nor BT altered ONHBF\"."
+128, Lat/TimFC, 2068, 2070, "LT", "", 
+129, Brimo/TimFC, 2075, 2077, "BT", "", 
+79142, EndPointDescription, 2086, 2091, "ONHBF", "", 
+52, PValueChangeValue, 2094, 2103, "P = 0 . 4", "", "<http://ctro/data#Outcome_66729> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 4\"."
+55, ConclusionComment, 2249, 2346, "In the present study , a 6 - week treatment with LT or BT was equally effective in reducing IOP .", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasConclusionComment> \"In the present study , a 6 - week treatment with LT or BT was equally effective in reducing IOP .\"."
+58, Duration, 2274, 2282, "6 - week", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTduration> \"6 - week\"."
+79143, Lat/TimFC, 2298, 2300, "LT", "", 
+79144, Brimo/TimFC, 2304, 2306, "BT", "", 
+59, IOP, 2341, 2344, "IOP", "", 
+56, ConclusionComment, 2347, 2454, "In addition , none of the administered drugs induced a significant effect on ocular blood flow parameters .", "", "<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasConclusionComment> \"In addition , none of the administered drugs induced a significant effect on ocular blood flow parameters .\"."
+130, OcularBloodFlow, 2424, 2441, "ocular blood flow", "", 
+60, PMID, 2498, 2506, "22775229", "", "<http://ctro/data#Publication_66561> <http://ctro/data#hasPMID> \"22775229\"."

@@ -1,0 +1,39 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_14085> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_14085> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> "Ahr é n B" .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasPublicationYear> "2007" .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasPMID> "17992639" .
+<http://ctro/data#ClinicalTrial_14091> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> "Pacini G" .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> "Tura A" .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> "Foley JE" .
+<http://ctro/data#Publication_14085> <http://ctro/data#hasAuthor> "Schweizer A" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_14096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_14096> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#hasNumberPatientsCT> "Fifty - five" .
+<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#hasCTduration> "52 weeks" .
+<http://ctro/data#AllocationRatio_14100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_14101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#Arm_14104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#ClinicalTrial_14096> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#Population_14106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#DiffBetweenGroups_14107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_14108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#CTDesign_14112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+# RDF export of group: Population
+<http://ctro/data#Population_14113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_14113> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_14113> <http://ctro/data#hasPrecondition> "patients with type 2 diabetes ( 56 . 5 + / - 1 . 5 years ; BMI = 29 . 6 + / - 0 . 5 kg / m ( 2 ) ; FPG = 9 . 9 + / - 0 . 2 mmol / l ; HbA1c = 7 . 7 + / - 0 . 1 % )" .
+<http://ctro/data#Ethnicity_14115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_14113> <http://ctro/data#hasCountry> <http://ctro/data#Sweden> .
+<http://ctro/data#Population_14113> <http://ctro/data#hasAvgAge> "56 . 5" .
+<http://ctro/data#Gender_14120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+# RDF export of group: Arm
+# RDF export of group: Intervention
+# RDF export of group: Medication
+# RDF export of group: Outcome
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

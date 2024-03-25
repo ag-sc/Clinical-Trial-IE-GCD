@@ -1,0 +1,70 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+67, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2013", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasPublicationYear> \"2013\"."
+23, Title, 99, 241, "The efficacy and safety of imeglimin as add - on therapy in patients with type 2 diabetes inadequately controlled with metformin monotherapy .", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasTitle> \"The efficacy and safety of imeglimin as add - on therapy in patients with type 2 diabetes inadequately controlled with metformin monotherapy .\"."
+2, Drug, 126, 135, "imeglimin", "", 
+21, Precondition, 159, 239, "patients with type 2 diabetes inadequately controlled with metformin monotherapy", "", "<http://ctro/data#Population_41254> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes inadequately controlled with metformin monotherapy\"."
+9, Type2Diabetes, 173, 188, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+12, Metformin, 218, 227, "metformin", "", 
+24, Author, 242, 253, "Fouqueray P", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Fouqueray P\"."
+25, Author, 262, 270, "Pirags V", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Pirags V\"."
+26, Author, 273, 284, "Inzucchi SE", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Inzucchi SE\"."
+27, Author, 287, 296, "Bailey CJ", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Bailey CJ\"."
+28, Author, 299, 313, "Schernthaner G", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Schernthaner G\"."
+29, Author, 316, 325, "Diamant M", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Diamant M\"."
+30, Author, 328, 339, "Lebovitz HE", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasAuthor> \"Lebovitz HE\"."
+66, France, 387, 393, "France", "", "<http://ctro/data#Population_41254> <http://ctro/data#hasCountry> <http://ctro/data#France>."
+34, ObjectiveDescription, 448, 640, "A 12 - week study assessed the efficacy and safety of a new oral antidiabetic agent , imeglimin , as add - on therapy in type 2 diabetes patients inadequately controlled with metformin alone .", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasObjectiveDescription> \"A 12 - week study assessed the efficacy and safety of a new oral antidiabetic agent , imeglimin , as add - on therapy in type 2 diabetes patients inadequately controlled with metformin alone .\"."
+31, Duration, 450, 459, "12 - week", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasCTduration> \"12 - week\"."
+33, OralAntidiabeticAgent, 508, 531, "oral antidiabetic agent", "", 
+3, Drug, 534, 543, "imeglimin", "", 
+10, Type2Diabetes, 569, 584, "type 2 diabetes", "", 
+22, Precondition, 569, 638, "type 2 diabetes patients inadequately controlled with metformin alone", "", "<http://ctro/data#Population_41254> <http://ctro/data#hasPrecondition> \"type 2 diabetes patients inadequately controlled with metformin alone\"."
+13, Metformin, 623, 632, "metformin", "", 
+35, NumberPatientsCT, 682, 685, "156", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasNumberPatientsCT> \"156\"."
+36, Randomized, 700, 710, "randomized", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+37, AllocationRatio, 711, 716, "1 : 1", "", "<http://ctro/data#AllocationRatio_41242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_41242>."
+4, Drug, 728, 737, "imeglimin", "", "<http://ctro/data#Drug_41299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug>. <http://ctro/data#Medication_41298> <http://ctro/data#hasDrug> <http://ctro/data#Drug_41299>."
+38, DoseValue, 740, 747, "1 , 500", "", "<http://ctro/data#Medication_41298> <http://ctro/data#hasDoseValue> \"1 , 500\"."
+39, mg, 748, 750, "mg", "", "<http://ctro/data#Medication_41298> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+40, Frequency, 751, 762, "twice a day", "", "<http://ctro/data#Intervention_41280> <http://ctro/data#hasFrequency> \"twice a day\"."
+41, Placebo, 768, 775, "placebo", "", "<http://ctro/data#Medication_41305> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+14, Metformin, 802, 811, "metformin", "", 
+42, DoseValue, 814, 831, "1 , 500 - 2 , 000", "", 
+43, mg, 832, 834, "mg", "", 
+44, Frequency, 837, 840, "day", "", 
+45, HbA1c, 855, 858, "A1C", "", 
+93, TimePoint, 864, 872, "baseline", "", 
+46, FastingPlasmaGlucose, 936, 958, "fasting plasma glucose", "", 
+47, FastingPlasmaGlucose, 961, 964, "FPG", "", 
+48, EndPointDescription, 971, 997, "proinsulin / insulin ratio", "", 
+102, TimePoint, 1016, 1024, "12 weeks", "", 
+49, Placebo, 1031, 1038, "placebo", "", 
+52, HbA1c, 1064, 1067, "A1C", "", "<http://ctro/data#Endpoint_41329> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+15, Metformin, 1073, 1082, "metformin", "", 
+5, Drug, 1085, 1094, "imeglimin", "", 
+53, Reduction, 1101, 1107, "0 . 44", "", "<http://ctro/data#Endpoint_41329> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+54, Percentage, 1108, 1109, "%", "", "<http://ctro/data#Endpoint_41329> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+55, PValueChangeValue, 1112, 1123, "P < 0 . 001", "", "<http://ctro/data#Outcome_41344> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+16, Metformin, 1128, 1137, "Metformin", "", 
+6, Drug, 1140, 1149, "imeglimin", "", 
+56, FastingPlasmaGlucose, 1178, 1181, "FPG", "", "<http://ctro/data#Endpoint_41334> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+57, EndPointDescription, 1190, 1216, "proinsulin / insulin ratio", "", "<http://ctro/data#EndPointDescription_41340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_41339> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_41340>."
+114, TimePoint, 1222, 1230, "baseline", "", 
+58, Reduction, 1235, 1241, "0 . 91", "", "<http://ctro/data#Outcome_41371> <http://ctro/data#hasChangeValue> \"0 . 91\"."
+59, Mg_per_deciliter, 1242, 1249, "mg / dL", "", "<http://ctro/data#Endpoint_41334> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+60, Reduction, 1256, 1261, "7 . 5", "", "<http://ctro/data#Outcome_41425> <http://ctro/data#hasChangeValue> \"7 . 5\"."
+19, Metformin, 1293, 1302, "metformin", "", 
+50, Placebo, 1305, 1312, "placebo", "", 
+61, Increment, 1315, 1321, "0 . 36", "", "<http://ctro/data#Outcome_41398> <http://ctro/data#hasChangeValue> \"0 . 36\"."
+62, Mg_per_deciliter, 1322, 1329, "mg / dL", "", 
+63, Increment, 1334, 1341, "11 . 81", "", "<http://ctro/data#Outcome_41452> <http://ctro/data#hasChangeValue> \"11 . 81\"."
+17, Metformin, 1346, 1355, "Metformin", "", 
+7, Drug, 1358, 1367, "imeglimin", "", 
+18, Metformin, 1443, 1452, "metformin", "", 
+51, Placebo, 1455, 1462, "placebo", "", 
+64, ConclusionComment, 1479, 1601, "Addition of imeglimin to metformin improved glycemic control and offers potential as a new treatment for type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_41238> <http://ctro/data#hasConclusionComment> \"Addition of imeglimin to metformin improved glycemic control and offers potential as a new treatment for type 2 diabetes .\"."
+8, Drug, 1491, 1500, "imeglimin", "", 
+20, Metformin, 1504, 1513, "metformin", "", 
+11, Type2Diabetes, 1584, 1599, "type 2 diabetes", "", 
+65, PMID, 1658, 1666, "23160726", "", "<http://ctro/data#Publication_41231> <http://ctro/data#hasPMID> \"23160726\"."

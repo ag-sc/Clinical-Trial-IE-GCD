@@ -1,0 +1,71 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "Acta Ophthalmol Scand .", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasJournal> \"Acta Ophthalmol Scand .\"."
+1, PublicationYear, 24, 28, "2003", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasPublicationYear> \"2003\"."
+12, Title, 56, 185, "Efficacy and safety of timolol maleate / latanoprost fixed combination versus timolol maleate and brimonidine given twice daily .", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasTitle> \"Efficacy and safety of timolol maleate / latanoprost fixed combination versus timolol maleate and brimonidine given twice daily .\"."
+2, Timolol, 79, 94, "timolol maleate", "", 
+71, Lat/TimFC, 79, 126, "timolol maleate / latanoprost fixed combination", "", 
+3, Latanoprost, 97, 108, "latanoprost", "", 
+5, Timolol, 134, 149, "timolol maleate", "", 
+6, Brimonidine, 154, 165, "brimonidine", "", 
+7, Frequency, 172, 183, "twice daily", "", 
+8, Author, 186, 196, "Stewart WC", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+9, Author, 205, 215, "Stewart JA", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+10, Author, 218, 223, "Day D", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasAuthor> \"Day D\"."
+11, Author, 226, 235, "Sharpe ED", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasAuthor> \"Sharpe ED\"."
+13, USA, 348, 351, "USA", "", 
+80, ObjectiveDescription, 387, 510, "To evaluate the efficacy and safety of the timolol maleate / latanoprost fixed combination ( TLFC ) given once each evening", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and safety of the timolol maleate / latanoprost fixed combination ( TLFC ) given once each evening\"."
+14, Timolol, 430, 445, "timolol maleate", "", 
+84, Lat/TimFC, 430, 477, "timolol maleate / latanoprost fixed combination", "", "<http://ctro/data#Medication_97003> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC>."
+15, Latanoprost, 448, 459, "latanoprost", "", 
+16, Lat/TimFC, 480, 484, "TLFC", "", 
+86, Frequency, 493, 510, "once each evening", "", "<http://ctro/data#Intervention_88534> <http://ctro/data#hasFrequency> \"once each evening\"."
+81, ObjectiveDescription, 511, 658, "versus brimonidine and timolol solution given twice daily as concomitant therapy in primary open - angle glaucoma or ocular hypertension patients .", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasObjectiveDescription> \"versus brimonidine and timolol solution given twice daily as concomitant therapy in primary open - angle glaucoma or ocular hypertension patients .\"."
+20, Brimonidine, 518, 529, "brimonidine", "", "<http://ctro/data#Medication_88560> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+21, Timolol, 534, 541, "timolol", "", "<http://ctro/data#Medication_88567> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+22, Frequency, 557, 568, "twice daily", "", "<http://ctro/data#Intervention_88540> <http://ctro/data#hasFrequency> \"twice daily\"."
+23, Primary_OpenAngleGlaucoma, 595, 624, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+24, OcularHypertension, 628, 647, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+25, Timolol, 702, 709, "timolol", "", 
+26, Frequency, 716, 727, "twice daily", "", 
+95, Duration, 732, 739, "1 month", "", 
+27, Randomized, 749, 759, "randomized", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+28, Lat/TimFC, 770, 774, "TLFC", "", 
+29, Brimonidine, 778, 789, "brimonidine", "", 
+30, Timolol, 794, 801, "timolol", "", 
+100, Duration, 826, 833, "6 weeks", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasCTduration> \"6 weeks\"."
+31, IOP, 897, 918, "Intraocular pressures", "", 
+32, IOP, 921, 925, "IOPs", "", 
+103, TimePoint, 993, 1001, "baseline", "", 
+34, TimePoint, 1013, 1029, "end of periods 1", "", 
+35, TimePoint, 1013, 1035, "end of periods 1 and 2", "", 
+106, NumberPatientsCT, 1073, 1075, "32", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasNumberPatientsCT> \"32\"."
+37, Diurnal_IOP, 1089, 1106, "IOP diurnal curve", "", "<http://ctro/data#Endpoint_88582> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+38, Timolol, 1110, 1117, "timolol", "", 
+39, BaseLineValue, 1126, 1132, "20 . 9", "", "<http://ctro/data#Outcome_88587> <http://ctro/data#hasBaselineValue> \"20 . 9\". <http://ctro/data#Outcome_88614> <http://ctro/data#hasBaselineValue> \"20 . 9\"."
+40, SdDevBL, 1139, 1144, "2 . 8", "", "<http://ctro/data#Outcome_88587> <http://ctro/data#hasSdDevBL> \"2 . 8\". <http://ctro/data#Outcome_88614> <http://ctro/data#hasSdDevBL> \"2 . 8\"."
+43, mmHg, 1145, 1149, "mmHg", "", "<http://ctro/data#Endpoint_88582> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+41, ResultMeasuredValue, 1165, 1171, "17 . 9", "", "<http://ctro/data#Outcome_88587> <http://ctro/data#hasResultMeasuredValue> \"17 . 9\"."
+45, SdDevResValue, 1178, 1183, "3 . 2", "", "<http://ctro/data#Outcome_88587> <http://ctro/data#hasSdDevResValue> \"3 . 2\"."
+44, mmHg, 1184, 1188, "mmHg", "", 
+50, Lat/TimFC, 1221, 1225, "TLFC", "", 
+42, ResultMeasuredValue, 1233, 1239, "19 . 0", "", "<http://ctro/data#Outcome_88614> <http://ctro/data#hasResultMeasuredValue> \"19 . 0\"."
+46, SdDevResValue, 1246, 1251, "2 . 4", "", "<http://ctro/data#Outcome_88614> <http://ctro/data#hasSdDevResValue> \"2 . 4\"."
+47, mmHg, 1252, 1256, "mmHg", "", 
+48, Brimonidine, 1289, 1300, "brimonidine", "", 
+49, Timolol, 1305, 1312, "timolol", "", 
+51, PvalueDiff, 1317, 1325, "= 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_88641> <http://ctro/data#hasPvalueDiff> \"= 0 . 02\"."
+52, IOP, 1330, 1351, "Intraocular pressures", "", 
+54, Lat/TimFC, 1521, 1525, "TLFC", "", 
+55, IOP, 1580, 1584, "IOPs", "", 
+126, PvalueDiff, 1686, 1706, "p & lt ; or = 0 . 05", "", 
+57, ObservedResult, 1711, 1802, "The incidence of both solicited and unsolicited side - effects was similar between groups .", "", 
+100308, EndPointDescription, 1759, 1773, "side - effects", "", 
+64, ConclusionComment, 1816, 1971, "This study suggests that TLFC given in the evening reduces the mean daytime diurnal IOP more than brimonidine and timolol given concomitantly twice daily .", "", "<http://ctro/data#ClinicalTrial_88492> <http://ctro/data#hasConclusionComment> \"This study suggests that TLFC given in the evening reduces the mean daytime diurnal IOP more than brimonidine and timolol given concomitantly twice daily .\"."
+58, Lat/TimFC, 1841, 1845, "TLFC", "", 
+130, Evening, 1859, 1866, "evening", "", "<http://ctro/data#Intervention_88534> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Evening>."
+59, Mean, 1879, 1883, "mean", "", 
+60, Diurnal_IOP, 1892, 1903, "diurnal IOP", "", 
+61, Brimonidine, 1914, 1925, "brimonidine", "", 
+62, Timolol, 1930, 1937, "timolol", "", 
+63, Frequency, 1958, 1969, "twice daily", "", 
+65, PMID, 2032, 2040, "12780402", "", "<http://ctro/data#Publication_88485> <http://ctro/data#hasPMID> \"12780402\"."

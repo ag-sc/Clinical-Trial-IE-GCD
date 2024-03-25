@@ -1,0 +1,127 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_41482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_41482> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 41482" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasTitle> "Effects of metformin versus glipizide on cardiovascular outcomes in patients with type 2 diabetes and coronary artery disease ." .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Hong J" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasPublicationYear> "2013" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasJournal> "Diabetes Care" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasPMID> "23230096" .
+<http://ctro/data#Publication_41482> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_41489> .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Zhang Y" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Lai S" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Lv A" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Su Q" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Dong Y" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Zhou Z" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Tang W" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Zhao J" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Cui L" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Zou D" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Ning G" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Li H" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Liu C" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Wu G" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Shen J" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Zhu D" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Wang W" .
+<http://ctro/data#Publication_41482> <http://ctro/data#hasAuthor> "Shen W" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_41489> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_41489> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 41489" .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasObjectiveDescription> "The two major classes of antidiabetic drugs , sulfonylureas and metformin , may differentially affect macrovascular complications and mortality in diabetic patients ." .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasNumberPatientsCT> "304" .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTduration> "3 years" .
+<http://ctro/data#AllocationRatio_41493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasConclusionComment> "Treatment with metformin for 3 years substantially reduced major cardiovascular events in a median follow - up of 5 . 0 years compared with glipizide ." .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasArm> <http://ctro/data#Arm_41513> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasPopulation> <http://ctro/data#Population_41505> .
+<http://ctro/data#DiffBetweenGroups_41500> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_41501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasObjectiveDescription> "We compared the long - term effects of glipizide and metformin on the major cardiovascular events in type 2 diabetic patients who had a history of coronary artery disease ( CAD ) ." .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasConclusionComment> "Our results indicated a potential benefit of metformin therapy on cardiovascular outcomes in high - risk patients ." .
+<http://ctro/data#ClinicalTrial_41489> <http://ctro/data#hasArm> <http://ctro/data#Arm_41522> .
+# RDF export of group: Population
+<http://ctro/data#Population_41505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_41505> <http://www.w3.org/2000/01/rdf-schema#label> "Population 41505" .
+<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> "patients with type 2 diabetes and coronary artery disease" .
+<http://ctro/data#Ethnicity_41507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Country_41508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country> .
+<http://ctro/data#Population_41505> <http://ctro/data#hasMinAge> "36" .
+<http://ctro/data#Population_41505> <http://ctro/data#hasMaxAge> "80" .
+<http://ctro/data#Population_41505> <http://ctro/data#hasAvgAge> "63 . 3" .
+<http://ctro/data#Gender_41512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> "type 2 diabetic patients who had a history of coronary artery disease ( CAD )" .
+<http://ctro/data#Population_41505> <http://ctro/data#hasPrecondition> "type 2 diabetic patients with CAD" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_41583> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_41583> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_41583> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#AggregationMethod_41585> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_41583> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_41587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_41647> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_41647> <http://www.w3.org/2000/01/rdf-schema#label> "card" .
+<http://ctro/data#EndPointDescription_41648> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_41647> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_41648> .
+<http://ctro/data#AggregationMethod_41649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_41647> <http://ctro/data#hasAggregationMethod> <http://ctro/data#AggregationMethod_41649> .
+<http://ctro/data#BioAndMedicalUnit_41650> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_41651> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_41513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_41513> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Arm_41513> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_41531> .
+<http://ctro/data#Arm_41513> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_41588> .
+<http://ctro/data#Outcome_41518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_41522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_41522> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Arm_41522> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_41537> .
+<http://ctro/data#Arm_41522> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_41615> .
+<http://ctro/data#Outcome_41527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_41522> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_41652> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_41531> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_41531> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Intervention_41531> <http://ctro/data#hasMedication> <http://ctro/data#Medication_41543> .
+<http://ctro/data#Intervention_41531> <http://ctro/data#hasFrequency> "daily" .
+<http://ctro/data#RelativeTime_41536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_41537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_41537> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Intervention_41537> <http://ctro/data#hasMedication> <http://ctro/data#Medication_41550> .
+<http://ctro/data#Intervention_41537> <http://ctro/data#hasFrequency> "daily" .
+<http://ctro/data#RelativeTime_41542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_41543> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_41543> <http://www.w3.org/2000/01/rdf-schema#label> "gli" .
+<http://ctro/data#Medication_41543> <http://ctro/data#hasDrug> <http://ctro/data#Glipizide> .
+<http://ctro/data#Medication_41543> <http://ctro/data#hasDoseValue> "30" .
+<http://ctro/data#Medication_41543> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg> .
+<http://ctro/data#DeliveryMethod_41547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_41550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_41550> <http://www.w3.org/2000/01/rdf-schema#label> "met" .
+<http://ctro/data#Medication_41550> <http://ctro/data#hasDrug> <http://ctro/data#Metformin> .
+<http://ctro/data#Medication_41550> <http://ctro/data#hasDoseValue> "1 . 5" .
+<http://ctro/data#Medication_41550> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram> .
+<http://ctro/data#DeliveryMethod_41554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_41588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_41588> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_41588> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_41583> .
+<http://ctro/data#Outcome_41588> <http://ctro/data#hasChangeValue> "7 . 1" .
+<http://ctro/data#Outcome_41615> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_41615> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_41615> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_41583> .
+<http://ctro/data#Outcome_41615> <http://ctro/data#hasChangeValue> "7 . 0" .
+<http://ctro/data#Outcome_41652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_41652> <http://www.w3.org/2000/01/rdf-schema#label> "card 2" .
+<http://ctro/data#Outcome_41652> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_41647> .
+<http://ctro/data#Outcome_41652> <http://ctro/data#hasResultMeasuredValue> "0 . 54" .
+<http://ctro/data#Outcome_41652> <http://ctro/data#hasPValueResValue> "P = 0 . 026" .
+<http://ctro/data#Outcome_41652> <http://ctro/data#hasConfIntervalResValue> "95 % CI 0 . 30 - 0 . 90" .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

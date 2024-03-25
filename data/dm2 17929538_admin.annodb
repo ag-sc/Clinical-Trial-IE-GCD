@@ -1,0 +1,96 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+139, Journal, 0, 19, "Srp Arh Celok Lek .", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasJournal> \"Srp Arh Celok Lek .\"."
+0, PublicationYear, 20, 24, "2007", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasPublicationYear> \"2007\"."
+140, Title, 64, 187, "[ The effect of metformin on fasting and postprandial insulin secretion in obese patients with diabetes mellitus type 2 ] .", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasTitle> \"[ The effect of metformin on fasting and postprandial insulin secretion in obese patients with diabetes mellitus type 2 ] .\"."
+1, Metformin, 80, 89, "metformin", "", 
+49950, EndPointDescription, 93, 135, "fasting and postprandial insulin secretion", "", 
+49950, EndPointDescription, 105, 135, "postprandial insulin secretion", "", 
+2, Insulin, 118, 125, "insulin", "", 
+4, Precondition, 139, 183, "obese patients with diabetes mellitus type 2", "", 
+3, Type2Diabetes, 159, 183, "diabetes mellitus type 2", "", 
+9, Country, 201, 208, "Serbian", "", "<http://ctro/data#Country_48100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_48097> <http://ctro/data#hasCountry> <http://ctro/data#Country_48100>."
+5, Author, 211, 221, "Vukovi ć M", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasAuthor> \"Vukovi ć M\"."
+6, Author, 224, 235, "Lapcevi ć M", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasAuthor> \"Lapcevi ć M\"."
+7, Author, 238, 248, "Kalezi ć N", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasAuthor> \"Kalezi ć N\"."
+8, Author, 251, 266, "Gvozdenovi ć BS", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasAuthor> \"Gvozdenovi ć BS\"."
+10, Metformin, 333, 342, "metformin", "", 
+11, Insulin, 379, 386, "insulin", "", 
+142, ObjectiveDescription, 499, 612, "The purpose of the study was to establish the effect of metformin on fasting and postprandial insulin secretion .", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasObjectiveDescription> \"The purpose of the study was to establish the effect of metformin on fasting and postprandial insulin secretion .\"."
+12, Metformin, 555, 564, "metformin", "", 
+49954, EndPointDescription, 568, 610, "fasting and postprandial insulin secretion", "", 
+49953, EndPointDescription, 580, 610, "postprandial insulin secretion", "", 
+146, Insulin, 593, 600, "insulin", "", 
+13, DoubleBlind, 648, 660, "double blind", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+14, CTDesign, 663, 673, "controlled", "", "<http://ctro/data#CTDesign_48092> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_48092>."
+15, CTDesign, 676, 687, "comparative", "", "<http://ctro/data#CTDesign_48093> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_48093>."
+16, Randomized, 690, 700, "randomized", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+17, Multicenter, 703, 715, "multicentric", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+19, NumberPatientsArm, 786, 788, "43", "", 
+20, Metformin, 816, 825, "metformin", "", "<http://ctro/data#Medication_48147> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+21, NumberPatientsArm, 853, 855, "46", "", "<http://ctro/data#Arm_48126> <http://ctro/data#hasNumberPatientsArm> \"46\"."
+22, Placebo, 876, 883, "placebo", "", "<http://ctro/data#Medication_48154> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+96, Precondition, 922, 1053, "newly diagnosed with diabetes mellitus ( DM ) type 2 , glycaemia < 12 mmol / l , and had the Body Mass Index ( BMI ) > 30 kg / m2 .", "", "<http://ctro/data#Population_48097> <http://ctro/data#hasPrecondition> \"newly diagnosed with diabetes mellitus ( DM ) type 2 , glycaemia < 12 mmol / l , and had the Body Mass Index ( BMI ) > 30 kg / m2 .\"."
+23, Type2Diabetes, 943, 974, "diabetes mellitus ( DM ) type 2", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+24, Millimoles_per_litre, 992, 1000, "mmol / l", "", 
+25, BMI, 1015, 1030, "Body Mass Index", "", 
+26, BMI, 1033, 1036, "BMI", "", 
+27, Kg_per_squareMeter, 1044, 1051, "kg / m2", "", 
+148, FastingBloodGlucose, 1103, 1137, "fasting and postprandial glycaemia", "", 
+149, PostprandialBloodGlucose, 1115, 1137, "postprandial glycaemia", "", 
+28, HbA1c, 1140, 1164, "glycosylated haemoglobin", "", 
+29, HbA1c, 1167, 1172, "HbA1c", "", 
+49960, EndPointDescription, 1183, 1220, "fasting and postprandial insulinaemia", "", 
+49961, EndPointDescription, 1195, 1220, "postprandial insulinaemia", "", 
+30, EndPointDescription, 1223, 1235, "blood lipids", "", 
+34, EndPointDescription, 1244, 1255, "cholesterol", "", 
+35, EndPointDescription, 1264, 1277, "triglycerides", "", 
+36, EndPointDescription, 1280, 1295, "HDL cholesterol", "", 
+37, EndPointDescription, 1302, 1317, "LDL cholesterol", "", 
+32, EndPointDescription, 1326, 1352, "gamma glutaryl transferase", "", 
+33, EndPointDescription, 1355, 1358, "GGT", "", 
+38, BMI, 1369, 1372, "BMI", "", 
+39, Duration, 1402, 1409, "42 days", "", 
+49962, EndPointDescription, 1425, 1462, "fasting and postprandial insulinaemia", "", 
+49963, EndPointDescription, 1437, 1462, "postprandial insulinaemia", "", 
+49964, EndPointDescription, 1560, 1597, "fasting and postprandial insulinaemia", "", 
+49965, EndPointDescription, 1572, 1597, "postprandial insulinaemia", "", 
+42, MeasurementDevice, 1613, 1626, "ANOVA two way", "", "<http://ctro/data#MeasurementDevice_48109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_48105> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_48109>. <http://ctro/data#MeasurementDevice_48115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_48111> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_48115>."
+43, MeasurementDevice, 1631, 1644, "ANCOVA method", "", "<http://ctro/data#MeasurementDevice_48110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_48105> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_48110>. <http://ctro/data#MeasurementDevice_48116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_48111> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_48116>."
+44, Metformin, 1675, 1684, "metformin", "", 
+45, Placebo, 1722, 1729, "placebo", "", 
+114, EndPointDescription, 1764, 1784, "fasting insulinaemia", "", "<http://ctro/data#EndPointDescription_48106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_48105> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_48106>."
+46, Duration, 1798, 1807, "six weeks", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasCTduration> \"six weeks\"."
+47, Type2Diabetes, 1842, 1851, "DM type 2", "", 
+49, ResultMeasuredValue, 1854, 1862, "24 . 392", "", "<http://ctro/data#Outcome_48161> <http://ctro/data#hasResultMeasuredValue> \"24 . 392\"."
+117, MilliUnits_per_litre, 1863, 1869, "mU / l", "", "<http://ctro/data#Endpoint_48105> <http://ctro/data#hasBaselineUnit> <http://ctro/data#MilliUnits_per_litre>."
+52, ResultMeasuredValue, 1875, 1883, "25 . 667", "", "<http://ctro/data#Outcome_48188> <http://ctro/data#hasResultMeasuredValue> \"25 . 667\"."
+118, MilliUnits_per_litre, 1884, 1890, "mU / l", "", 
+53, BMI, 1917, 1920, "BMI", "", "<http://ctro/data#Outcome_48188> <http://ctro/data#hasResultMeasuredValue> \"25 . 667\"."
+49959, EndPointDescription, 1958, 1978, "fasting insulinaemia", "", 
+54, PvalueDiff, 1995, 2006, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_48215> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+55, BMI, 2065, 2068, "BMI", "", 
+56, EndPointDescription, 2073, 2076, "GGT", "", 
+49956, EndPointDescription, 2123, 2148, "postprandial insulinaemia", "", "<http://ctro/data#EndPointDescription_48112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_48111> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_48112>."
+57, BMI, 2228, 2231, "BMI", "", 
+49958, EndPointDescription, 2268, 2293, "postprandial insulinaemia", "", 
+58, PvalueDiff, 2342, 2352, "p < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_48278> <http://ctro/data#hasPvalueDiff> \"p < 0 . 01\"."
+121, Mean, 2366, 2370, "mean", "", "<http://ctro/data#Mean_48113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_48111> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_48113>."
+122, EndPointDescription, 2382, 2407, "postprandial insulinaemia", "", "<http://ctro/data#Mean_48113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_48111> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_48113>."
+59, Placebo, 2429, 2436, "placebo", "", 
+60, Metformin, 2473, 2482, "metformin", "", 
+63, ResultMeasuredValue, 2491, 2499, "44 . 807", "", "<http://ctro/data#Outcome_48251> <http://ctro/data#hasResultMeasuredValue> \"44 . 807\"."
+128, MilliUnits_per_litre, 2500, 2506, "mU / l", "", "<http://ctro/data#Endpoint_48111> <http://ctro/data#hasBaselineUnit> <http://ctro/data#MilliUnits_per_litre>."
+64, ResultMeasuredValue, 2512, 2520, "47 . 114", "", "<http://ctro/data#Outcome_48224> <http://ctro/data#hasResultMeasuredValue> \"47 . 114\"."
+127, MilliUnits_per_litre, 2521, 2527, "mU / l", "", 
+137, ConclusionComment, 2545, 2693, "It can be concluded that , as compared to place - bo , metformin is more efficient in reducing insulin resistance in obese patients with DM type 2 .", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasConclusionComment> \"It can be concluded that , as compared to place - bo , metformin is more efficient in reducing insulin resistance in obese patients with DM type 2 .\"."
+65, Placebo, 2587, 2597, "place - bo", "", 
+66, Metformin, 2600, 2609, "metformin", "", 
+67, Insulin, 2640, 2647, "insulin", "", 
+68, Type2Diabetes, 2682, 2691, "DM type 2", "", 
+138, ConclusionComment, 2694, 2873, "In addition , as compared to placebo , metformin maintains more efficient productive insulin secretion , indicating that metformin protects the pancreas from beta cell depletion .", "", "<http://ctro/data#ClinicalTrial_48076> <http://ctro/data#hasConclusionComment> \"In addition , as compared to placebo , metformin maintains more efficient productive insulin secretion , indicating that metformin protects the pancreas from beta cell depletion .\"."
+70, Placebo, 2723, 2730, "placebo", "", 
+71, Metformin, 2733, 2742, "metformin", "", 
+49957, EndPointDescription, 2779, 2796, "insulin secretion", "", 
+72, Insulin, 2779, 2786, "insulin", "", 
+73, Metformin, 2815, 2824, "metformin", "", 
+74, PMID, 2881, 2889, "17929538", "", "<http://ctro/data#Publication_48066> <http://ctro/data#hasPMID> \"17929538\"."

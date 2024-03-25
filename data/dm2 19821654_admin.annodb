@@ -1,0 +1,109 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2009", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasPublicationYear> \"2009\"."
+118, Title, 93, 285, "Once - daily initiation with biphasic insulin aspart 30 versus insulin glargine in patients with type 2 diabetes inadequately controlled with oral drugs : an open - label , multinational RCT .", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasTitle> \"Once - daily initiation with biphasic insulin aspart 30 versus insulin glargine in patients with type 2 diabetes inadequately controlled with oral drugs : an open - label , multinational RCT .\"."
+2, Frequency, 93, 105, "Once - daily", "", 
+55210, Aspart70/30, 122, 148, "biphasic insulin aspart 30", "", 
+4, InsulinGlargine, 156, 172, "insulin glargine", "", 
+7, Precondition, 176, 245, "patients with type 2 diabetes inadequately controlled with oral drugs", "", 
+5, Type2Diabetes, 190, 205, "type 2 diabetes", "", 
+98, Precondition, 206, 245, "inadequately controlled with oral drugs", "", 
+8, OpenLabel, 251, 263, "open - label", "", 
+100, Multicenter, 266, 279, "multinational", "", 
+9, Randomized, 280, 283, "RCT", "", 
+10, Author, 286, 295, "Strojek K", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Strojek K\"."
+11, Author, 304, 314, "Bebakar WM", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Bebakar WM\"."
+12, Author, 317, 329, "Khutsoane DT", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Khutsoane DT\"."
+13, Author, 332, 339, "Pesic M", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Pesic M\"."
+14, Author, 342, 354, "Smahelov á A", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Smahelov á A\"."
+15, Author, 357, 367, "Thomsen HF", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Thomsen HF\"."
+16, Author, 370, 377, "Kalra S", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasAuthor> \"Kalra S\"."
+17, Poland, 507, 513, "Poland", "", "<http://ctro/data#Population_69550> <http://ctro/data#hasCountry> <http://ctro/data#Poland>."
+119, ObjectiveDescription, 555, 774, "To assess the efficacy and safety of biphasic insulin aspart 70 / 30 ( BIAsp 30 ) and insulin glargine , administered once daily in subjects with type 2 diabetes inadequately controlled with oral anti - diabetic drugs .", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasObjectiveDescription> \"To assess the efficacy and safety of biphasic insulin aspart 70 / 30 ( BIAsp 30 ) and insulin glargine , administered once daily in subjects with type 2 diabetes inadequately controlled with oral anti - diabetic drugs .\"."
+55217, Aspart70/30, 592, 623, "biphasic insulin aspart 70 / 30", "", 
+55218, Aspart70/30, 626, 634, "BIAsp 30", "", 
+20, InsulinGlargine, 641, 657, "insulin glargine", "", 
+21, Frequency, 673, 683, "once daily", "", "<http://ctro/data#Intervention_69602> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_69608> <http://ctro/data#hasFrequency> \"once daily\"."
+24, Precondition, 687, 772, "subjects with type 2 diabetes inadequately controlled with oral anti - diabetic drugs", "", "<http://ctro/data#Population_69550> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes inadequately controlled with oral anti - diabetic drugs\"."
+22, Type2Diabetes, 701, 716, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+115, Precondition, 717, 772, "inadequately controlled with oral anti - diabetic drugs", "", 
+23, OralAntidiabeticAgent, 746, 772, "oral anti - diabetic drugs", "", 
+25, Duration, 813, 822, "26 - week", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTduration> \"26 - week\"."
+26, OpenLabel, 825, 839, "open - labeled", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+27, Randomized, 842, 852, "randomized", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+28, Parallel, 855, 871, "parallel - group", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+124, Multicenter, 874, 887, "multinational", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+29, CTDesign, 890, 909, "treat - to - target", "", "<http://ctro/data#CTDesign_69547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_69547>."
+30, NumberPatientsCT, 918, 921, "480", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasNumberPatientsCT> \"480\"."
+31, Precondition, 922, 948, "insulin - na ï ve subjects", "", "<http://ctro/data#Population_69550> <http://ctro/data#hasPrecondition> \"insulin - na ï ve subjects\"."
+32, Randomized, 954, 964, "randomized", "", 
+55219, Aspart70/30, 983, 991, "BIAsp 30", "", "<http://ctro/data#Medication_69620> <http://ctro/data#hasDrug> <http://ctro/data#Aspart70/30>."
+34, RelativeTime, 992, 1005, "before dinner", "", "<http://ctro/data#RelativeTime_69607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_69602> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_69607>."
+35, InsulinGlargine, 1009, 1025, "insulin glargine", "", "<http://ctro/data#Medication_69627> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+55229, Bedtime, 1029, 1036, "bedtime", "", "<http://ctro/data#Intervention_69608> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+36, Metformin, 1064, 1073, "metformin", "", "<http://ctro/data#Medication_69634> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+37, Glimepiride, 1078, 1089, "glimepiride", "", "<http://ctro/data#Medication_69641> <http://ctro/data#hasDrug> <http://ctro/data#Glimepiride>."
+38, FinalNumPatientsCT, 1171, 1174, "433", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasFinalNumberPatientsCT> \"433\"."
+135, Mean, 1216, 1220, "mean", "", "<http://ctro/data#Mean_69561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_69559> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_69561>."
+39, HbA1c, 1234, 1244, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_69559> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+206, TimePoint, 1250, 1258, "baseline", "", 
+207, TimePoint, 1262, 1278, "end of treatment", "", "<http://ctro/data#Outcome_69648> <http://ctro/data#hasTimePoint> \"end of treatment\". <http://ctro/data#Outcome_69675> <http://ctro/data#hasTimePoint> \"end of treatment\"."
+40, Reduction, 1285, 1291, "1 . 41", "", "<http://ctro/data#Outcome_69648> <http://ctro/data#hasChangeValue> \"1 . 41\"."
+43, Percentage, 1292, 1293, "%", "", "<http://ctro/data#Endpoint_69559> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+55220, Aspart70/30, 1299, 1307, "BIAsp 30", "", 
+41, Reduction, 1314, 1320, "1 . 25", "", "<http://ctro/data#Outcome_69675> <http://ctro/data#hasChangeValue> \"1 . 25\"."
+44, Percentage, 1321, 1322, "%", "", 
+45, InsulinGlargine, 1328, 1344, "insulin glargine", "", 
+55221, Aspart70/30, 1347, 1355, "BIAsp 30", "", 
+46, InsulinGlargine, 1358, 1374, "insulin glargine", "", 
+48, DiffGroupAbsValue, 1377, 1385, "- 0 . 16", "", "<http://ctro/data#DiffBetweenGroups_69702> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 16\"."
+49, Percentage, 1386, 1387, "%", "", 
+50, ConfIntervalDiff, 1390, 1421, "95 % CI [ - 0 . 30 ; - 0 . 02 ]", "", "<http://ctro/data#DiffBetweenGroups_69702> <http://ctro/data#hasConfIntervalDiff> \"95 % CI [ - 0 . 30 ; - 0 . 02 ]\"."
+51, PvalueDiff, 1424, 1435, "p = 0 . 029", "", "<http://ctro/data#DiffBetweenGroups_69702> <http://ctro/data#hasPvalueDiff> \"p = 0 . 029\"."
+208, TimePoint, 1447, 1463, "end of treatment", "", 
+149, Mean, 1466, 1470, "mean", "", 
+52, HbA1c, 1471, 1481, "HbA ( 1c )", "", 
+53, ResultMeasuredValue, 1486, 1491, "7 . 1", "", "<http://ctro/data#Outcome_69648> <http://ctro/data#hasResultMeasuredValue> \"7 . 1\"."
+55, Percentage, 1492, 1493, "%", "", 
+54, ResultMeasuredValue, 1498, 1503, "7 . 3", "", "<http://ctro/data#Outcome_69675> <http://ctro/data#hasResultMeasuredValue> \"7 . 3\"."
+56, Percentage, 1504, 1505, "%", "", 
+55222, Aspart70/30, 1510, 1518, "BIAsp 30", "", 
+58, InsulinGlargine, 1523, 1539, "insulin glargine", "", 
+209, PlasmaGlucose, 1577, 1591, "plasma glucose", "", "<http://ctro/data#PlasmaGlucose_69565> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#PlasmaGlucose>. <http://ctro/data#Endpoint_69564> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PlasmaGlucose_69565>."
+55223, Aspart70/30, 1618, 1626, "BIAsp 30", "", 
+106175, TimePoint, 1627, 1640, "post - dinner", "", "<http://ctro/data#Outcome_69711> <http://ctro/data#hasTimePoint> \"post - dinner\". <http://ctro/data#Outcome_69738> <http://ctro/data#hasTimePoint> \"post - dinner\"."
+61, InsulinAspart, 1643, 1651, "BIAsp 30", "", 
+62, InsulinGlargine, 1654, 1670, "insulin glargine", "", 
+63, DiffGroupAbsValue, 1673, 1681, "- 0 . 52", "", "<http://ctro/data#DiffBetweenGroups_69765> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 52\"."
+64, Millimoles_per_litre, 1682, 1690, "mmol / L", "", "<http://ctro/data#Endpoint_69564> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+65, ConfIntervalDiff, 1693, 1724, "95 % CI [ - 1 . 02 ; - 0 . 03 ]", "", "<http://ctro/data#DiffBetweenGroups_69765> <http://ctro/data#hasConfIntervalDiff> \"95 % CI [ - 1 . 02 ; - 0 . 03 ]\"."
+66, PvalueDiff, 1727, 1737, "p = 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_69765> <http://ctro/data#hasPvalueDiff> \"p = 0 . 04\"."
+106176, TimePoint, 1747, 1754, "bedtime", "", "<http://ctro/data#Outcome_72953> <http://ctro/data#hasTimePoint> \"bedtime\". <http://ctro/data#Outcome_72980> <http://ctro/data#hasTimePoint> \"bedtime\"."
+55227, Aspart70/30, 1757, 1765, "BIAsp 30", "", 
+69, InsulinGlargine, 1768, 1784, "insulin glargine", "", 
+70, DiffGroupAbsValue, 1787, 1795, "- 0 . 78", "", "<http://ctro/data#DiffBetweenGroups_69774> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 78\"."
+71, Millimoles_per_litre, 1796, 1804, "mmol / L", "", 
+72, ConfIntervalDiff, 1807, 1838, "95 % CI [ - 1 . 25 ; - 0 . 31 ]", "", "<http://ctro/data#DiffBetweenGroups_69774> <http://ctro/data#hasConfIntervalDiff> \"95 % CI [ - 1 . 25 ; - 0 . 31 ]\"."
+73, PvalueDiff, 1841, 1851, "p < 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_69774> <http://ctro/data#hasPvalueDiff> \"p < 0 . 01\"."
+74, NocturnalHypoglycemia, 1899, 1921, "nocturnal hypoglycemic", "", "<http://ctro/data#Endpoint_69569> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+55228, Aspart70/30, 1990, 1998, "BIAsp 30", "", 
+76, InsulinGlargine, 2009, 2025, "insulin glargine", "", 
+77, ResultMeasuredValue, 2028, 2033, "1 . 1", "", "<http://ctro/data#Outcome_69783> <http://ctro/data#hasResultMeasuredValue> \"1 . 1\"."
+78, ResultMeasuredValue, 2041, 2046, "0 . 5", "", "<http://ctro/data#Outcome_69810> <http://ctro/data#hasResultMeasuredValue> \"0 . 5\"."
+79, BioAndMedicalUnit, 2047, 2062, "episodes / year", "", "<http://ctro/data#BioAndMedicalUnit_69572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_69569> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_69572>."
+80, ConfIntervalDiff, 2079, 2106, "95 % CI [ 1 . 34 ; 4 . 34 ]", "", "<http://ctro/data#DiffBetweenGroups_69837> <http://ctro/data#hasConfIntervalDiff> \"95 % CI [ 1 . 34 ; 4 . 34 ]\"."
+81, PvalueDiff, 2109, 2120, "p = 0 . 003", "", "<http://ctro/data#DiffBetweenGroups_69837> <http://ctro/data#hasPvalueDiff> \"p = 0 . 003\"."
+83, ObservedResult, 2129, 2164, "overall hypoglycemia rates were low", "", "<http://ctro/data#Outcome_69846> <http://ctro/data#hasObservedResult> \"overall hypoglycemia rates were low\"."
+185, Hypoglycemia, 2129, 2149, "overall hypoglycemia", "", "<http://ctro/data#Endpoint_69574> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+187, NumberAffected, 2178, 2183, "three", "", "<http://ctro/data#Outcome_69873> <http://ctro/data#hasNumberAffected> \"three\"."
+55224, SevereHypoglycemia, 2184, 2202, "major hypoglycemic", "", "<http://ctro/data#Endpoint_69579> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SevereHypoglycemia>."
+197, ConclusionComment, 2242, 2486, "With respect to HbA ( 1c ) , BIAsp 30 fulfilled the statistical criteria for non - inferiority and superiority to insulin glargine and , according to pre - defined criteria , the improvements in HbA ( 1c ) are considered clinically equivalent .", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasConclusionComment> \"With respect to HbA ( 1c ) , BIAsp 30 fulfilled the statistical criteria for non - inferiority and superiority to insulin glargine and , according to pre - defined criteria , the improvements in HbA ( 1c ) are considered clinically equivalent .\"."
+85, HbA1c, 2258, 2268, "HbA ( 1c )", "", 
+55226, Aspart70/30, 2271, 2279, "BIAsp 30", "", 
+87, InsulinGlargine, 2356, 2372, "insulin glargine", "", 
+88, HbA1c, 2437, 2447, "HbA ( 1c )", "", 
+196, ConclusionComment, 2487, 2565, "Subjects had an increased risk of minor nocturnal hypoglycemia with BIAsp 30 .", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasConclusionComment> \"Subjects had an increased risk of minor nocturnal hypoglycemia with BIAsp 30 .\"."
+89, NocturnalHypoglycemia, 2527, 2549, "nocturnal hypoglycemia", "", 
+55225, Aspart70/30, 2555, 2563, "BIAsp 30", "", 
+195, ConclusionComment, 2566, 2642, "There were no differences in treatment satisfaction between the two groups .", "", "<http://ctro/data#ClinicalTrial_69528> <http://ctro/data#hasConclusionComment> \"There were no differences in treatment satisfaction between the two groups .\"."
+91, PMID, 2686, 2694, "19821654", "", "<http://ctro/data#Publication_69515> <http://ctro/data#hasPMID> \"19821654\"."

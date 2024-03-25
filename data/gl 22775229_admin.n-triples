@@ -1,0 +1,137 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_66561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_66561> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 66561" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasTitle> "A double - masked randomized crossover study comparing the effect of latanoprost / timolol and brimonidine / timolol fixed combination on intraocular pressure and ocular blood flow in patients with primary open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Hommer A" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasPublicationYear> "2012" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasJournal> "J Ocul Pharmacol Ther ." .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasPMID> "22775229" .
+<http://ctro/data#Publication_66561> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_19681> .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Sperl P" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Resch H" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Popa - Cherecheanu A" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Qiao C" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Schmetterer L" .
+<http://ctro/data#Publication_66561> <http://ctro/data#hasAuthor> "Garh ö fer G" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_19681> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasObjectiveDescription> "In the present study , we set out to compare the effects of latanoprost 0 . 005 % / timolol 0 . 5 % ( LT ) fixed combination and brimonidine 0 . 2 % / timolol 0 . 5 % ( BT ) fixed combination on intraocular pressure ( IOP ) and ocular blood flow ." .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTduration> "6 - week" .
+<http://ctro/data#AllocationRatio_19685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_19686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasConclusionComment> "In the present study , a 6 - week treatment with LT or BT was equally effective in reducing IOP ." .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasArm> <http://ctro/data#Arm_66765> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasPopulation> <http://ctro/data#Population_66580> .
+<http://ctro/data#DiffBetweenGroups_19692> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_19693> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasConclusionComment> "In addition , none of the administered drugs induced a significant effect on ocular blood flow parameters ." .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasArm> <http://ctro/data#Arm_66774> .
+<http://ctro/data#ClinicalTrial_19681> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_66756> .
+# RDF export of group: Population
+<http://ctro/data#Population_66580> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_66580> <http://www.w3.org/2000/01/rdf-schema#label> "Population 66580" .
+<http://ctro/data#Ethnicity_66582> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_66580> <http://ctro/data#hasCountry> <http://ctro/data#Austria> .
+<http://ctro/data#Gender_66587> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_66588> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_66588> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 66588 IOP" .
+<http://ctro/data#IOP_66589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_66588> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_66589> .
+<http://ctro/data#Mean_66590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_66588> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_66590> .
+<http://ctro/data#Endpoint_66588> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_66592> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_66593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_66593> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 66593 ocular blood flow" .
+<http://ctro/data#Endpoint_66593> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#OcularBloodFlow> .
+<http://ctro/data#AggregationMethod_66595> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_66596> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_66597> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_66598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_66598> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 66598 optic nerve head blood flow" .
+<http://ctro/data#EndPointDescription_66599> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_66598> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66599> .
+<http://ctro/data#AggregationMethod_66600> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_66601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_66602> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_66598> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_66602> .
+<http://ctro/data#Endpoint_66603> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_66603> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint 66603 ocular perfusion pressure" .
+<http://ctro/data#EndPointDescription_66604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_66603> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_66604> .
+<http://ctro/data#AggregationMethod_66605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_66606> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_66607> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_66765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_66765> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 66765 LTFC" .
+<http://ctro/data#Arm_66765> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_66627> .
+<http://ctro/data#Arm_66765> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66639> .
+<http://ctro/data#Outcome_66770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_66765> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66693> .
+<http://ctro/data#Arm_66765> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66729> .
+<http://ctro/data#Arm_66774> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_66774> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 66774 BTFC" .
+<http://ctro/data#Arm_66774> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_66633> .
+<http://ctro/data#Arm_66774> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66666> .
+<http://ctro/data#Outcome_66779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_66774> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66693> .
+<http://ctro/data#Arm_66774> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_66729> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_66627> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_66627> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 66627 LTFC" .
+<http://ctro/data#Intervention_66627> <http://ctro/data#hasMedication> <http://ctro/data#Medication_66613> .
+<http://ctro/data#RelativeTime_66632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_66633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_66633> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 66633 BTFC" .
+<http://ctro/data#Intervention_66633> <http://ctro/data#hasMedication> <http://ctro/data#Medication_66620> .
+<http://ctro/data#RelativeTime_66638> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_66613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_66613> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 66613 LTFC" .
+<http://ctro/data#Medication_66613> <http://ctro/data#hasDrug> <http://ctro/data#Lat/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_66616> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_66617> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_66620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_66620> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 66620 BTFC" .
+<http://ctro/data#Medication_66620> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC> .
+<http://ctro/data#BioAndMedicalUnit_66623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_66624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_66639> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_66639> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 66639 LTFC" .
+<http://ctro/data#Outcome_66639> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_66588> .
+<http://ctro/data#Outcome_66639> <http://ctro/data#hasBaselineValue> "25 . 3" .
+<http://ctro/data#Outcome_66639> <http://ctro/data#hasSdDevBL> "2 . 8" .
+<http://ctro/data#Outcome_66639> <http://ctro/data#hasRelativeChangeValue> "35 . 0" .
+<http://ctro/data#Outcome_66639> <http://ctro/data#hasSdDevChangeValue> "10 . 0" .
+<http://ctro/data#Outcome_66666> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_66666> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 66666 BTFC" .
+<http://ctro/data#Outcome_66666> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_66588> .
+<http://ctro/data#Outcome_66666> <http://ctro/data#hasBaselineValue> "25 . 3" .
+<http://ctro/data#Outcome_66666> <http://ctro/data#hasSdDevBL> "2 . 8" .
+<http://ctro/data#Outcome_66666> <http://ctro/data#hasRelativeChangeValue> "33 . 6" .
+<http://ctro/data#Outcome_66666> <http://ctro/data#hasSdDevChangeValue> "8 . 8" .
+<http://ctro/data#Outcome_66693> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_66693> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 66693 ocular perfusion pressure" .
+<http://ctro/data#Outcome_66693> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_66603> .
+<http://ctro/data#Outcome_66693> <http://ctro/data#hasObservedResult> "no difference" .
+<http://ctro/data#Outcome_66693> <http://ctro/data#hasObservedResult> "was observed between the 2 treatment groups" .
+<http://ctro/data#Outcome_66729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_66729> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 66729 optic nerve head blood flow" .
+<http://ctro/data#Outcome_66729> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_66598> .
+<http://ctro/data#Outcome_66729> <http://ctro/data#hasPValueChangeValue> "P = 0 . 4" .
+<http://ctro/data#Outcome_66729> <http://ctro/data#hasObservedResult> "Neither LT nor BT altered ONHBF" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_66756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_66756> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 66756" .
+<http://ctro/data#DiffBetweenGroups_66756> <http://ctro/data#hasPvalueDiff> "P = 0 . 463" .
+<http://ctro/data#DiffBetweenGroups_66756> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_66639> .
+<http://ctro/data#DiffBetweenGroups_66756> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_66666> .
+# RDF export of group: EvidenceQuality

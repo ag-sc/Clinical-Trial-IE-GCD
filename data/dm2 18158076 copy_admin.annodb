@@ -1,0 +1,291 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 11, "Clin Ther .", "", 
+1, PublicationYear, 12, 16, "2007", "", 
+37, Title, 47, 245, "Mealtime 50 / 50 basal + prandial insulin analogue mixture with a basal insulin analogue , both plus metformin , in the achievement of target HbA1c and pre - and postprandial blood glucose levels in", "", "<http://ctro/data#Publication_108277> <http://ctro/data#hasTitle> \"Mealtime 50 / 50 basal + prandial insulin analogue mixture with a basal insulin analogue , both plus metformin , in the achievement of target HbA1c and pre - and postprandial blood glucose levels in\"."
+9, RelativeTime, 47, 55, "Mealtime", "", 
+334, Insulin, 56, 105, "50 / 50 basal + prandial insulin analogue mixture", "", 
+335, Insulin, 113, 135, "basal insulin analogue", "", 
+2, Metformin, 148, 157, "metformin", "", 
+3, HbA1c_target, 182, 194, "target HbA1c", "", 
+51014, PostprandialBloodGlucose, 209, 235, "postprandial blood glucose", "", 
+37, Title, 246, 365, "patients with type 2 diabetes : a multinational , 24 - week , randomized , open - label , parallel - group comparison .", "", "<http://ctro/data#Publication_108277> <http://ctro/data#hasTitle> \"patients with type 2 diabetes : a multinational , 24 - week , randomized , open - label , parallel - group comparison .\"."
+4, Type2Diabetes, 260, 275, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+452, Multicenter, 280, 293, "multinational", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+5, Duration, 296, 305, "24 - week", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasCTduration> \"24 - week\"."
+6, Randomized, 308, 318, "randomized", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+7, OpenLabel, 321, 333, "open - label", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+8, Parallel, 336, 352, "parallel - group", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+12, Author, 366, 376, "Robbins DC", "", 
+13, Author, 385, 399, "Beisswenger PJ", "", 
+14, Author, 402, 412, "Ceriello A", "", 
+15, Author, 415, 426, "Goldberg RB", "", 
+16, Author, 429, 437, "Moses RG", "", 
+17, Author, 440, 451, "Pagkalos EM", "", 
+18, Author, 454, 465, "Milicevic Z", "", 
+19, Author, 468, 476, "Jones CA", "", 
+20, Author, 479, 487, "Sarwat S", "", 
+21, Author, 490, 496, "Tan MH", "", 
+22, USA, 615, 618, "USA", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+229, DisorderOrSyndrome, 652, 660, "diabetes", "", 
+51199, EndPointDescription, 691, 708, "insulin secretion", "", 
+23, Insulin, 691, 698, "insulin", "", 
+453, Insulin, 788, 795, "insulin", "", 
+51198, EndPointDescription, 874, 891, "insulin secretion", "", 
+24, Insulin, 874, 881, "insulin", "", 
+26, Frequency, 919, 931, "once - daily", "", 
+51196, Insulin, 932, 945, "basal insulin", "", 
+25, Type2Diabetes, 963, 980, "diabetes mellitus", "", 
+51197, Lispro50/50, 989, 1014, "lispro mix ( LM ) 50 / 50", "", 
+28, HbA1c, 1086, 1109, "glycosylated hemoglobin", "", 
+29, HbA1c, 1112, 1122, "HbA ( lc )", "", 
+455, PreprandialBloodGlucose, 1129, 1132, "pre", "", 
+456, PostprandialBloodGlucose, 1139, 1165, "postprandial blood glucose", "", 
+457, BloodGlucose, 1168, 1170, "BG", "", 
+38, ObjectiveDescription, 1222, 1407, "The aim of this study was to test the hypothesis that treatment with a premixed insulin analogue containing 50 / 50 basal + prandial insulins administered before each meal would achieve", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasObjectiveDescription> \"The aim of this study was to test the hypothesis that treatment with a premixed insulin analogue containing 50 / 50 basal + prandial insulins administered before each meal would achieve\"."
+240, Insulin, 1293, 1318, "premixed insulin analogue", "", 
+241, Insulin, 1330, 1363, "50 / 50 basal + prandial insulins", "", 
+234, RelativeTime, 1377, 1393, "before each meal", "", 
+458, ObjectiveDescription, 1408, 1568, "lower overall and mealtime glycemic control than once - daily basal insulin analogue , both plus metformin ( Met ) , in patients with type 2 diabetes mellitus .", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasObjectiveDescription> \"lower overall and mealtime glycemic control than once - daily basal insulin analogue , both plus metformin ( Met ) , in patients with type 2 diabetes mellitus .\"."
+32, Frequency, 1457, 1469, "once - daily", "", 
+242, Insulin, 1470, 1492, "basal insulin analogue", "", 
+34, Metformin, 1505, 1514, "metformin", "", 
+35, Metformin, 1517, 1520, "Met", "", 
+36, Type2Diabetes, 1542, 1566, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+39, Duration, 1584, 1593, "24 - week", "", 
+40, Randomized, 1596, 1606, "randomized", "", 
+41, OpenLabel, 1609, 1621, "open - label", "", 
+42, Parallel, 1624, 1640, "parallel - group", "", 
+247, Multicenter, 1661, 1672, "at 38 sites", "", 
+248, Australia, 1680, 1689, "Australia", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#Australia>."
+249, Greece, 1692, 1698, "Greece", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+250, India, 1701, 1706, "India", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#India>."
+251, Netherlands, 1709, 1724, "The Netherlands", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#Netherlands>."
+252, Poland, 1727, 1733, "Poland", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#Poland>."
+253, Country, 1736, 1747, "Puerto Rico", "", "<http://ctro/data#Country_108347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Country>. <http://ctro/data#Population_108334> <http://ctro/data#hasCountry> <http://ctro/data#Country_108347>."
+254, USA, 1758, 1771, "United States", "", 
+255, AnyGender, 1774, 1789, "Male and female", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasGender> <http://ctro/data#AnyGender>."
+44, MinAge, 1804, 1806, "35", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasMinAge> \"35\"."
+45, MaxAge, 1810, 1812, "75", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasMaxAge> \"75\"."
+258, Year, 1813, 1818, "years", "", 
+56, Precondition, 1819, 2031, "with type 2 diabetes mellitus and an HbA ( 1c ) level of 6 . 5 % to 11 . 0 % , who were receiving metformin and / or a sulfonylurea with a stable dose of 0 to 2 daily insulin injections over the previous 3 months", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasPrecondition> \"with type 2 diabetes mellitus and an HbA ( 1c ) level of 6 . 5 % to 11 . 0 % , who were receiving metformin and / or a sulfonylurea with a stable dose of 0 to 2 daily insulin injections over the previous 3 months\"."
+46, Type2Diabetes, 1824, 1848, "type 2 diabetes mellitus", "", 
+47, HbA1c, 1856, 1866, "HbA ( 1c )", "", 
+48, Percentage, 1882, 1883, "%", "", 
+49, Percentage, 1894, 1895, "%", "", 
+50, Metformin, 1917, 1926, "metformin", "", 
+51, Sulfonylureas, 1938, 1950, "sulfonylurea", "", 
+100509, DoseDescription, 1956, 2004, "a stable dose of 0 to 2 daily insulin injections", "", 
+53, Frequency, 1980, 1985, "daily", "", 
+54, Insulin, 1986, 1993, "insulin", "", 
+100512, DeliveryMethod, 1994, 2004, "injections", "", 
+55, Duration, 2023, 2031, "3 months", "", 
+57, Randomized, 2062, 2070, "randomly", "", 
+51200, Lispro50/50, 2091, 2100, "LM50 / 50", "", "<http://ctro/data#Medication_108391> <http://ctro/data#hasDrug> <http://ctro/data#Lispro50/50>."
+461, Lispro, 2108, 2143, "insulin lispro protamine suspension", "", 
+100511, DeliveryMethod, 2133, 2143, "suspension", "", "<http://ctro/data#DeliveryMethod_108395> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod>. <http://ctro/data#Medication_108391> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#DeliveryMethod_108395>."
+462, Lispro, 2146, 2150, "ILPS", "", 
+283, Lispro, 2162, 2168, "lispro", "", 
+58, Frequency, 2171, 2174, "TID", "", "<http://ctro/data#Intervention_108373> <http://ctro/data#hasFrequency> \"TID\"."
+59, Metformin, 2180, 2189, "metformin", "", "<http://ctro/data#Medication_108398> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+100513, DoseDescription, 2192, 2250, "to a maximally tolerated daily dosage of 500 - 1000 mg BID", "", "<http://ctro/data#Medication_108398> <http://ctro/data#hasDoseDescription> \"to a maximally tolerated daily dosage of 500 - 1000 mg BID\"."
+60, Frequency, 2217, 2222, "daily", "", 
+61, DoseValue, 2233, 2243, "500 - 1000", "", "<http://ctro/data#Medication_108398> <http://ctro/data#hasDoseValue> \"500 - 1000\"."
+62, mg, 2244, 2246, "mg", "", "<http://ctro/data#Medication_108398> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+63, Frequency, 2247, 2250, "BID", "", "<http://ctro/data#Intervention_108379> <http://ctro/data#hasFrequency> \"BID\"."
+464, Lispro, 2255, 2264, "LM50 / 50", "", 
+64, Metformin, 2267, 2270, "Met", "", 
+65, InsulinGlargine, 2276, 2292, "insulin glargine", "", "<http://ctro/data#Medication_108405> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+294, Frequency, 2293, 2295, "QD", "", "<http://ctro/data#Intervention_108385> <http://ctro/data#hasFrequency> \"QD\"."
+51225, Bedtime, 2299, 2306, "bedtime", "", "<http://ctro/data#Intervention_108385> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+66, Metformin, 2312, 2321, "metformin", "", 
+67, DoseValue, 2324, 2334, "500 - 1000", "", 
+68, mg, 2335, 2337, "mg", "", 
+69, Frequency, 2338, 2341, "BID", "", 
+70, InsulinGlargine, 2346, 2347, "G", "", 
+71, Metformin, 2350, 2353, "Met", "", 
+72, Duration, 2360, 2368, "24 weeks", "", 
+51204, Lispro50/50, 2376, 2385, "LM50 / 50", "", 
+73, Metformin, 2388, 2391, "Met", "", 
+74, Insulin, 2398, 2405, "insulin", "", 
+467, FastingBloodGlucose_target, 2427, 2498, "target a fasting BG ( FBG ) level of < 6 . 7 mmol / L ( < 120 mg / dL )", "", 
+296, Millimoles_per_litre, 2472, 2480, "mmol / L", "", 
+298, Mg_per_deciliter, 2489, 2496, "mg / dL", "", 
+468, PostprandialBloodGlucose, 2505, 2532, "2 - hour post - prandial BG", "", 
+469, PostprandialBloodGlucose, 2535, 2539, "PPBG", "", 
+75, Millimoles_per_litre, 2559, 2567, "mmol / L", "", 
+76, Mg_per_deciliter, 2576, 2583, "mg / dL", "", 
+470, FastingBloodGlucose_target, 2616, 2626, "FBG target", "", 
+77, RelativeTime, 2650, 2659, "presupper", "", 
+51205, Lispro50/50, 2660, 2669, "LM50 / 50", "", 
+51206, Lispro75/25, 2673, 2682, "LM75 / 25", "", 
+273, Percentage, 2688, 2689, "%", "", 
+473, Lispro, 2690, 2694, "ILPS", "", 
+274, Percentage, 2700, 2701, "%", "", 
+300, Lispro, 2702, 2708, "lispro", "", 
+78, NumberPatientsCT, 2734, 2737, "315", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasNumberPatientsCT> \"315\"."
+79, Randomized, 2752, 2762, "randomized", "", 
+80, Female, 2788, 2797, "158 women", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasGender> <http://ctro/data#Female>."
+81, Male, 2800, 2807, "157 men", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+303, AvgAge, 2821, 2827, "57 . 7", "", "<http://ctro/data#Population_108334> <http://ctro/data#hasAvgAge> \"57 . 7\"."
+304, Year, 2828, 2833, "years", "", 
+83, BMI, 2841, 2856, "body mass index", "", 
+84, Kg_per_squareMeter, 2866, 2873, "kg / m2", "", 
+475, Lispro, 2876, 2885, "LM50 / 50", "", 
+85, Metformin, 2888, 2891, "Met", "", 
+86, NumberPatientsArm, 2894, 2897, "157", "", "<http://ctro/data#Arm_108355> <http://ctro/data#hasNumberPatientsArm> \"157\"."
+88, InsulinGlargine, 2909, 2910, "G", "", 
+89, Metformin, 2913, 2916, "Met", "", 
+87, NumberPatientsArm, 2919, 2922, "158", "", "<http://ctro/data#Arm_108364> <http://ctro/data#hasNumberPatientsArm> \"158\"."
+476, TimePoint, 2939, 2947, "24 weeks", "", "<http://ctro/data#Outcome_108412> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_108439> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_108480> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_108507> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_108548> <http://ctro/data#hasTimePoint> \"24 weeks\". <http://ctro/data#Outcome_108575> <http://ctro/data#hasTimePoint> \"24 weeks\"."
+319, Mean, 2954, 2958, "mean", "", "<http://ctro/data#Mean_108352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108350> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108352>."
+90, HbA1c, 2966, 2976, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_108350> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+51207, Lispro50/50, 3014, 3023, "LM50 / 50", "", 
+91, Metformin, 3026, 3029, "Met", "", 
+93, InsulinGlargine, 3048, 3049, "G", "", 
+92, Metformin, 3052, 3055, "Met", "", 
+94, ResultMeasuredValue, 3064, 3069, "7 . 1", "", "<http://ctro/data#Outcome_108412> <http://ctro/data#hasResultMeasuredValue> \"7 . 1\"."
+96, Percentage, 3070, 3071, "%", "", "<http://ctro/data#Endpoint_108350> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+98, SdDevResValue, 3074, 3079, "0 . 9", "", "<http://ctro/data#Outcome_108412> <http://ctro/data#hasSdDevResValue> \"0 . 9\"."
+271, Percentage, 3080, 3081, "%", "", 
+95, ResultMeasuredValue, 3087, 3092, "7 . 5", "", "<http://ctro/data#Outcome_108439> <http://ctro/data#hasResultMeasuredValue> \"7 . 5\"."
+97, Percentage, 3093, 3094, "%", "", 
+99, SdDevResValue, 3097, 3102, "1 . 0", "", "<http://ctro/data#Outcome_108439> <http://ctro/data#hasSdDevResValue> \"1 . 0\"."
+269, Percentage, 3103, 3104, "%", "", 
+100, PvalueDiff, 3109, 3120, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_108466> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+101, HbA1c_target, 3159, 3194, "HbA ( 1c ) target of < or = 7 . 0 %", "", "<http://ctro/data#Endpoint_108475> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+268, Percentage, 3193, 3194, "%", "", "<http://ctro/data#Endpoint_108475> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+102, NumberAffected, 3209, 3211, "88", "", "<http://ctro/data#Outcome_108480> <http://ctro/data#hasNumberAffected> \"88\"."
+104, PercentageAffected, 3214, 3220, "56 . 1", "", "<http://ctro/data#Outcome_108480> <http://ctro/data#hasPercentageAffected> \"56 . 1\"."
+267, Percentage, 3221, 3222, "%", "", 
+103, NumberAffected, 3228, 3230, "63", "", "<http://ctro/data#Outcome_108507> <http://ctro/data#hasNumberAffected> \"63\"."
+105, PercentageAffected, 3233, 3239, "39 . 9", "", "<http://ctro/data#Outcome_108507> <http://ctro/data#hasPercentageAffected> \"39 . 9\"."
+266, Percentage, 3240, 3241, "%", "", 
+106, PvalueDiff, 3246, 3257, "P = 0 . 005", "", "<http://ctro/data#DiffBetweenGroups_108534> <http://ctro/data#hasPvalueDiff> \"P = 0 . 005\"."
+107, InsulinGlargine, 3266, 3267, "G", "", 
+108, Metformin, 3270, 3273, "Met", "", 
+340, Mean, 3292, 3296, "mean", "", "<http://ctro/data#Mean_108545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108543> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108545>."
+478, FastingBloodGlucose, 3304, 3307, "FBG", "", "<http://ctro/data#Endpoint_108543> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+109, ResultMeasuredValue, 3316, 3321, "6 . 5", "", "<http://ctro/data#Outcome_108575> <http://ctro/data#hasResultMeasuredValue> \"6 . 5\"."
+111, SdDevResValue, 3324, 3329, "1 . 6", "", "<http://ctro/data#Outcome_108575> <http://ctro/data#hasSdDevResValue> \"1 . 6\"."
+110, ResultMeasuredValue, 3335, 3340, "8 . 1", "", "<http://ctro/data#Outcome_108548> <http://ctro/data#hasResultMeasuredValue> \"8 . 1\"."
+112, SdDevResValue, 3343, 3348, "1 . 8", "", "<http://ctro/data#Outcome_108548> <http://ctro/data#hasSdDevResValue> \"1 . 8\"."
+113, Millimoles_per_litre, 3351, 3359, "mmol / L", "", "<http://ctro/data#Endpoint_108543> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+114, PvalueDiff, 3362, 3373, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_108602> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+51212, Lispro50/50, 3382, 3391, "LM50 / 50", "", 
+115, Metformin, 3394, 3397, "Met", "", 
+349, Mean, 3414, 3418, "mean", "", "<http://ctro/data#Mean_108613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108611> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108613>."
+480, PreprandialBloodGlucose, 3419, 3433, "preprandial BG", "", "<http://ctro/data#Endpoint_108611> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PreprandialBloodGlucose>."
+116, TimePoint, 3441, 3449, "prelunch", "", "<http://ctro/data#Outcome_108616> <http://ctro/data#hasTimePoint> \"prelunch\". <http://ctro/data#Outcome_108643> <http://ctro/data#hasTimePoint> \"prelunch\"."
+118, ResultMeasuredValue, 3452, 3457, "7 . 4", "", "<http://ctro/data#Outcome_108616> <http://ctro/data#hasResultMeasuredValue> \"7 . 4\"."
+122, SdDevResValue, 3460, 3465, "1 . 9", "", "<http://ctro/data#Outcome_108706> <http://ctro/data#hasResultMeasuredValue> \"8 . 9\"."
+119, ResultMeasuredValue, 3471, 3476, "7 . 9", "", "<http://ctro/data#Outcome_108643> <http://ctro/data#hasResultMeasuredValue> \"7 . 9\"."
+123, SdDevResValue, 3479, 3484, "2 . 1", "", "<http://ctro/data#Outcome_108643> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+126, Millimoles_per_litre, 3487, 3495, "mmol / L", "", "<http://ctro/data#Endpoint_108611> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+128, PvalueDiff, 3498, 3508, "P = 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_108670> <http://ctro/data#hasPvalueDiff> \"P = 0 . 03\"."
+117, TimePoint, 3515, 3524, "presupper", "", "<http://ctro/data#Outcome_108679> <http://ctro/data#hasTimePoint> \"presupper\"."
+120, ResultMeasuredValue, 3527, 3532, "8 . 3", "", "<http://ctro/data#Outcome_108679> <http://ctro/data#hasResultMeasuredValue> \"8 . 3\"."
+124, SdDevResValue, 3535, 3540, "2 . 0", "", "<http://ctro/data#Outcome_108679> <http://ctro/data#hasSdDevResValue> \"2 . 0\"."
+121, ResultMeasuredValue, 3546, 3551, "8 . 9", "", "<http://ctro/data#Outcome_108706> <http://ctro/data#hasResultMeasuredValue> \"8 . 9\"."
+125, SdDevResValue, 3554, 3559, "2 . 8", "", "<http://ctro/data#Outcome_108706> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+127, Millimoles_per_litre, 3562, 3570, "mmol / L", "", 
+129, PvalueDiff, 3573, 3583, "P = 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_108733> <http://ctro/data#hasPvalueDiff> \"P = 0 . 04\"."
+481, Lispro, 3592, 3601, "LM50 / 50", "", 
+130, Metformin, 3604, 3607, "Met", "", 
+365, Mean, 3629, 3633, "mean", "", "<http://ctro/data#Mean_108744> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108742> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108744>."
+482, PostprandialBloodGlucose, 3634, 3647, "2 - hour PPBG", "", "<http://ctro/data#Endpoint_108742> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialBloodGlucose>."
+131, TimePoint, 3655, 3668, "postbreakfast", "", "<http://ctro/data#Outcome_108747> <http://ctro/data#hasTimePoint> \"postbreakfast\". <http://ctro/data#Outcome_108774> <http://ctro/data#hasTimePoint> \"postbreakfast\"."
+133, ResultMeasuredValue, 3671, 3676, "8 . 7", "", "<http://ctro/data#Outcome_108747> <http://ctro/data#hasResultMeasuredValue> \"8 . 7\"."
+140, SdDevResValue, 3679, 3684, "2 . 2", "", "<http://ctro/data#Outcome_108747> <http://ctro/data#hasSdDevResValue> \"2 . 2\"."
+134, ResultMeasuredValue, 3690, 3695, "9 . 2", "", "<http://ctro/data#Outcome_108774> <http://ctro/data#hasResultMeasuredValue> \"9 . 2\"."
+141, SdDevResValue, 3698, 3703, "2 . 5", "", "<http://ctro/data#Outcome_108774> <http://ctro/data#hasSdDevResValue> \"2 . 5\"."
+146, Millimoles_per_litre, 3706, 3714, "mmol / L", "", "<http://ctro/data#Endpoint_108742> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+149, PvalueDiff, 3717, 3727, "P = 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_108801> <http://ctro/data#hasPvalueDiff> \"P = 0 . 03\"."
+139, TimePoint, 3732, 3741, "postlunch", "", "<http://ctro/data#Outcome_108810> <http://ctro/data#hasTimePoint> \"postlunch\". <http://ctro/data#Outcome_108837> <http://ctro/data#hasTimePoint> \"postlunch\"."
+135, ResultMeasuredValue, 3744, 3749, "8 . 4", "", "<http://ctro/data#Outcome_108810> <http://ctro/data#hasResultMeasuredValue> \"8 . 4\"."
+142, SdDevResValue, 3752, 3757, "1 . 9", "", "<http://ctro/data#Outcome_108810> <http://ctro/data#hasSdDevResValue> \"1 . 9\"."
+136, ResultMeasuredValue, 3763, 3768, "9 . 8", "", "<http://ctro/data#Outcome_108837> <http://ctro/data#hasResultMeasuredValue> \"9 . 8\"."
+143, SdDevResValue, 3771, 3776, "2 . 6", "", "<http://ctro/data#Outcome_108837> <http://ctro/data#hasSdDevResValue> \"2 . 6\"."
+147, Millimoles_per_litre, 3781, 3789, "mmol / L", "", 
+150, PvalueDiff, 3792, 3803, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_108864> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+132, TimePoint, 3812, 3822, "postsupper", "", "<http://ctro/data#Outcome_108873> <http://ctro/data#hasTimePoint> \"postsupper\". <http://ctro/data#Outcome_108900> <http://ctro/data#hasTimePoint> \"postsupper\"."
+137, ResultMeasuredValue, 3825, 3830, "8 . 7", "", "<http://ctro/data#Outcome_108873> <http://ctro/data#hasResultMeasuredValue> \"8 . 7\"."
+144, SdDevResValue, 3833, 3838, "2 . 2", "", "<http://ctro/data#Outcome_108873> <http://ctro/data#hasSdDevResValue> \"2 . 2\"."
+138, ResultMeasuredValue, 3844, 3850, "10 . 7", "", "<http://ctro/data#Outcome_108900> <http://ctro/data#hasResultMeasuredValue> \"10 . 7\"."
+145, SdDevResValue, 3853, 3858, "3 . 2", "", "<http://ctro/data#Outcome_108900> <http://ctro/data#hasSdDevResValue> \"3 . 2\"."
+148, Millimoles_per_litre, 3863, 3871, "mmol / L", "", 
+151, PvalueDiff, 3874, 3885, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_108927> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+387, Mean, 3894, 3898, "mean", "", "<http://ctro/data#Mean_108938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_108936> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_108938>."
+483, InsulinDose, 3912, 3925, "insulin doses", "", "<http://ctro/data#InsulinDose_108937> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_108936> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_108937>."
+500, TimePoint, 3929, 3944, "study end point", "", "<http://ctro/data#Outcome_108941> <http://ctro/data#hasTimePoint> \"study end point\". <http://ctro/data#Outcome_108968> <http://ctro/data#hasTimePoint> \"study end point\"."
+152, ResultMeasuredValue, 3950, 3955, "0 . 7", "", "<http://ctro/data#Outcome_108941> <http://ctro/data#hasResultMeasuredValue> \"0 . 7\"."
+154, SdDevResValue, 3958, 3963, "0 . 3", "", "<http://ctro/data#Outcome_108941> <http://ctro/data#hasSdDevResValue> \"0 . 3\"."
+156, IntUnit_per_Kg, 3966, 3972, "U / kg", "", "<http://ctro/data#Endpoint_108936> <http://ctro/data#hasBaselineUnit> <http://ctro/data#IntUnit_per_Kg>."
+484, Lispro, 3980, 3989, "LM50 / 50", "", 
+158, Metformin, 3992, 3995, "Met", "", 
+153, ResultMeasuredValue, 4006, 4011, "0 . 6", "", "<http://ctro/data#Outcome_108968> <http://ctro/data#hasResultMeasuredValue> \"0 . 6\"."
+155, SdDevResValue, 4014, 4019, "0 . 3", "", "<http://ctro/data#Outcome_108968> <http://ctro/data#hasSdDevResValue> \"0 . 3\"."
+157, IntUnit_per_Kg, 4022, 4028, "U / kg", "", 
+159, InsulinGlargine, 4036, 4037, "G", "", 
+160, Metformin, 4040, 4043, "Met", "", 
+161, PvalueDiff, 4052, 4063, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_108995> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+51210, EndPointDescription, 4072, 4093, "mean ( SD ) M - value", "", "<http://ctro/data#EndPointDescription_109005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_109004> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_109005>."
+399, Mean, 4072, 4076, "mean", "", "<http://ctro/data#Mean_109006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_109004> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_109006>."
+400, Mean, 4113, 4117, "mean", "", 
+485, TimePoint, 4212, 4220, "baseline", "", 
+51211, Lispro50/50, 4252, 4261, "LM50 / 50", "", 
+164, Metformin, 4264, 4267, "Met", "", 
+487, TimePoint, 4277, 4286, "end point", "", "<http://ctro/data#Outcome_109009> <http://ctro/data#hasTimePoint> \"end point\". <http://ctro/data#Outcome_109036> <http://ctro/data#hasTimePoint> \"end point\"."
+165, ResultMeasuredValue, 4289, 4295, "17 . 3", "", "<http://ctro/data#Outcome_109009> <http://ctro/data#hasResultMeasuredValue> \"17 . 3\"."
+167, SdDevResValue, 4298, 4304, "13 . 8", "", "<http://ctro/data#Outcome_109009> <http://ctro/data#hasSdDevResValue> \"13 . 8\"."
+166, ResultMeasuredValue, 4310, 4316, "25 . 1", "", "<http://ctro/data#Outcome_109036> <http://ctro/data#hasResultMeasuredValue> \"25 . 1\"."
+168, SdDevResValue, 4319, 4325, "24 . 8", "", "<http://ctro/data#Outcome_109036> <http://ctro/data#hasSdDevResValue> \"24 . 8\"."
+169, Millimoles_per_litre, 4328, 4336, "mmol / L", "", "<http://ctro/data#Endpoint_109004> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+170, PvalueDiff, 4339, 4350, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_109063> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+183, TimePoint, 4355, 4389, "During the entire treatment period", "", "<http://ctro/data#Outcome_109082> <http://ctro/data#hasTimePoint> \"During the entire treatment period\". <http://ctro/data#Outcome_109109> <http://ctro/data#hasTimePoint> \"During the entire treatment period\". <http://ctro/data#Outcome_109136> <http://ctro/data#hasTimePoint> \"During the entire treatment period\". <http://ctro/data#Outcome_109163> <http://ctro/data#hasTimePoint> \"During the entire treatment period\"."
+409, Mean, 4392, 4396, "mean", "", "<http://ctro/data#Mean_109074> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_109072> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_109074>. <http://ctro/data#Mean_109079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_109077> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_109079>."
+488, Hypoglycemia, 4404, 4411, "overall", "", "<http://ctro/data#Endpoint_109072> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+489, NocturnalHypoglycemia, 4416, 4438, "nocturnal hypoglycemia", "", "<http://ctro/data#Endpoint_109077> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+172, BioAndMedicalUnit, 4447, 4479, "episodes per patient for 30 days", "", 
+173, ResultMeasuredValue, 4542, 4547, "0 . 8", "", "<http://ctro/data#Outcome_109082> <http://ctro/data#hasResultMeasuredValue> \"0 . 8\"."
+175, SdDevResValue, 4550, 4555, "1 . 4", "", "<http://ctro/data#Outcome_109082> <http://ctro/data#hasSdDevResValue> \"1 . 4\"."
+174, ResultMeasuredValue, 4561, 4566, "0 . 5", "", "<http://ctro/data#Outcome_109109> <http://ctro/data#hasResultMeasuredValue> \"0 . 5\"."
+176, SdDevResValue, 4569, 4574, "1 . 0", "", "<http://ctro/data#Outcome_109109> <http://ctro/data#hasSdDevResValue> \"1 . 0\"."
+177, NocturnalHypoglycemia, 4579, 4588, "nocturnal", "", 
+178, ResultMeasuredValue, 4591, 4596, "0 . 2", "", "<http://ctro/data#Outcome_109136> <http://ctro/data#hasResultMeasuredValue> \"0 . 2\"."
+180, SdDevResValue, 4599, 4604, "0 . 7", "", "<http://ctro/data#Outcome_109136> <http://ctro/data#hasSdDevResValue> \"0 . 7\"."
+179, ResultMeasuredValue, 4610, 4615, "0 . 3", "", "<http://ctro/data#Outcome_109163> <http://ctro/data#hasResultMeasuredValue> \"0 . 3\"."
+181, SdDevResValue, 4618, 4623, "0 . 6", "", "<http://ctro/data#Outcome_109163> <http://ctro/data#hasSdDevResValue> \"0 . 6\"."
+423, TimePoint, 4633, 4642, "end point", "", "<http://ctro/data#Outcome_109190> <http://ctro/data#hasTimePoint> \"end point\". <http://ctro/data#Outcome_109217> <http://ctro/data#hasTimePoint> \"end point\". <http://ctro/data#Outcome_109244> <http://ctro/data#hasTimePoint> \"end point\". <http://ctro/data#Outcome_109271> <http://ctro/data#hasTimePoint> \"end point\"."
+420, Mean, 4649, 4653, "mean", "", 
+182, NocturnalHypoglycemia, 4661, 4683, "nocturnal hypoglycemia", "", 
+184, ResultMeasuredValue, 4726, 4731, "0 . 2", "", "<http://ctro/data#Outcome_109190> <http://ctro/data#hasResultMeasuredValue> \"0 . 2\"."
+186, SdDevResValue, 4734, 4739, "0 . 9", "", "<http://ctro/data#Outcome_109190> <http://ctro/data#hasSdDevResValue> \"0 . 9\"."
+185, ResultMeasuredValue, 4745, 4750, "0 . 2", "", "<http://ctro/data#Outcome_109217> <http://ctro/data#hasResultMeasuredValue> \"0 . 2\"."
+187, SdDevResValue, 4753, 4758, "0 . 6", "", "<http://ctro/data#Outcome_109217> <http://ctro/data#hasSdDevResValue> \"0 . 6\"."
+437, Hypoglycemia, 4801, 4813, "hypoglycemia", "", 
+51209, Lispro50/50, 4837, 4846, "LM50 / 50", "", 
+188, Metformin, 4849, 4852, "Met", "", 
+190, ResultMeasuredValue, 4865, 4870, "0 . 7", "", "<http://ctro/data#Outcome_109244> <http://ctro/data#hasResultMeasuredValue> \"0 . 7\"."
+196, SdDevResValue, 4873, 4878, "1 . 7", "", "<http://ctro/data#Outcome_109244> <http://ctro/data#hasSdDevResValue> \"1 . 7\"."
+191, ResultMeasuredValue, 4884, 4889, "0 . 3", "", "<http://ctro/data#Outcome_109271> <http://ctro/data#hasResultMeasuredValue> \"0 . 3\"."
+197, SdDevResValue, 4892, 4897, "0 . 8", "", "<http://ctro/data#Outcome_109271> <http://ctro/data#hasSdDevResValue> \"0 . 8\"."
+198, PvalueDiff, 4902, 4912, "P = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_109298> <http://ctro/data#hasPvalueDiff> \"P = 0 . 02\"."
+192, ResultMeasuredValue, 4933, 4938, "0 . 5", "", 
+194, SdDevResValue, 4941, 4946, "1 . 2", "", 
+193, ResultMeasuredValue, 4952, 4957, "0 . 1", "", 
+195, SdDevResValue, 4960, 4965, "0 . 4", "", 
+199, PvalueDiff, 4970, 4981, "P = 0 . 002", "", 
+207, ConclusionComment, 4999, 5148, "In these patients with type 2 diabetes , mealtime LM50 / 50 + Met was associated with lower overall ( HbA ( 1c ) ) and preprandial BG and PPBG levels", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasConclusionComment> \"In these patients with type 2 diabetes , mealtime LM50 / 50 + Met was associated with lower overall ( HbA ( 1c ) ) and preprandial BG and PPBG levels\"."
+200, Type2Diabetes, 5022, 5037, "type 2 diabetes", "", 
+201, RelativeTime, 5040, 5048, "mealtime", "", 
+51208, Lispro50/50, 5049, 5058, "LM50 / 50", "", 
+202, Metformin, 5061, 5064, "Met", "", 
+203, HbA1c, 5101, 5111, "HbA ( 1c )", "", 
+496, PreprandialBloodGlucose, 5118, 5132, "preprandial BG", "", 
+497, PostprandialBloodGlucose, 5137, 5141, "PPBG", "", 
+498, ConclusionComment, 5149, 5261, "( except for FBG ) , with similar nocturnal hypoglycemia and less glycemic variability , compared with G + Met .", "", "<http://ctro/data#ClinicalTrial_108312> <http://ctro/data#hasConclusionComment> \"( except for FBG ) , with similar nocturnal hypoglycemia and less glycemic variability , compared with G + Met .\"."
+499, FastingBloodGlucose, 5162, 5165, "FBG", "", 
+204, NocturnalHypoglycemia, 5183, 5205, "nocturnal hypoglycemia", "", 
+205, InsulinGlargine, 5252, 5253, "G", "", 
+206, Metformin, 5256, 5259, "Met", "", 
+208, PMID, 5364, 5372, "18158076", "", 

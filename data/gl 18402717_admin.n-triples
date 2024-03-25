@@ -1,0 +1,140 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_70751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_70751> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasTitle> "Brimonidine purite 0 . 1 % versus brinzolamide 1 % as adjunctive therapy to latanoprost in patients with glaucoma or ocular hypertension ." .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasAuthor> "Day DG" .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasPublicationYear> "2008" .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasJournal> "Curr Med Res Opin" .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasPMID> "18402717" .
+<http://ctro/data#Publication_70751> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_70759> .
+<http://ctro/data#Publication_70751> <http://ctro/data#hasAuthor> "Hollander DA" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_70759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_70759> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasObjectiveDescription> "To evaluate the efficacy and tolerability of brimonidine purite 0 . 1 % in comparison to brinzolamide 1 % when used as adjunctive therapy to latanoprost 0 . 005 % in patients with glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasCTduration> "3 months" .
+<http://ctro/data#AllocationRatio_70763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_70764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasConclusionComment> "Brimonidine purite 0 . 1 % provided significantly lower IOP compared with brinzolamide 1 % when used as adjunctive therapy to latanoprost ." .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasArm> <http://ctro/data#Arm_70795> .
+<http://ctro/data#Glaucoma_70768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_70768> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasPopulation> <http://ctro/data#Population_70782> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_70906> .
+<http://ctro/data#EvidenceQuality_70771> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasConclusionComment> "Both adjunctive therapies were well tolerated ." .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasConclusionComment> "Limitations of this study include the use of a single site and the sample size ." .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasConclusionComment> "Additional studies are needed to further evaluate these drugs as adjunctive therapy to prostaglandin analogs" .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_70759> <http://ctro/data#hasArm> <http://ctro/data#Arm_70804> .
+# RDF export of group: Population
+<http://ctro/data#Population_70782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_70782> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_70782> <http://ctro/data#hasPrecondition> "IOP > or = 18 mmHg while on once - daily latanoprost" .
+<http://ctro/data#Ethnicity_70784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_70782> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_70789> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_70790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_70790> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint" .
+<http://ctro/data#Endpoint_70790> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_70792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_70790> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_70792> .
+<http://ctro/data#Endpoint_70790> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_70794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_70915> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_70915> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_BV" .
+<http://ctro/data#Endpoint_70915> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BlurredVison> .
+<http://ctro/data#AggregationMethod_70917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_70918> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_70919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_70920> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_70920> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_T" .
+<http://ctro/data#EndPointDescription_70921> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_70920> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_70921> .
+<http://ctro/data#AggregationMethod_70922> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_70923> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_70924> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_70795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_70795> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_brim" .
+<http://ctro/data#Arm_70795> <http://ctro/data#hasNumberPatientsArm> "20" .
+<http://ctro/data#Arm_70795> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_70813> .
+<http://ctro/data#Arm_70795> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_70852> .
+<http://ctro/data#Outcome_70800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_70804> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_70804> <http://www.w3.org/2000/01/rdf-schema#label> "Arm_brinz" .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasNumberPatientsArm> "20" .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_70819> .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_70879> .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_70925> .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_70952> .
+<http://ctro/data#Arm_70804> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_70979> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_70813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_70813> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_brim" .
+<http://ctro/data#Intervention_70813> <http://ctro/data#hasFrequency> "TID" .
+<http://ctro/data#RelativeTime_70818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_70813> <http://ctro/data#hasMedication> <http://ctro/data#Medication_70838> .
+<http://ctro/data#Intervention_70819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_70819> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention_brinz" .
+<http://ctro/data#Intervention_70819> <http://ctro/data#hasFrequency> "TID" .
+<http://ctro/data#RelativeTime_70824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_70819> <http://ctro/data#hasMedication> <http://ctro/data#Medication_70845> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_70838> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_70838> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_brim" .
+<http://ctro/data#Medication_70838> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_70838> <http://ctro/data#hasDoseValue> "0 . 1" .
+<http://ctro/data#Medication_70838> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_70838> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+<http://ctro/data#Medication_70845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_70845> <http://www.w3.org/2000/01/rdf-schema#label> "Medication_brinz" .
+<http://ctro/data#Medication_70845> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide> .
+<http://ctro/data#Medication_70845> <http://ctro/data#hasDoseValue> "1" .
+<http://ctro/data#Medication_70845> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#Medication_70845> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_70852> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_70852> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_brim" .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_70790> .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasBaselineValue> "19 . 6" .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasSdDevBL> "2 . 94" .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasResultMeasuredValue> "16 . 3" .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasSdDevResValue> "2 . 63" .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasObservedResult> "Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) ." .
+<http://ctro/data#Outcome_70852> <http://ctro/data#hasTimePoint> "Month 3" .
+<http://ctro/data#Outcome_70879> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_70879> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_brinz" .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_70790> .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasBaselineValue> "19 . 8" .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasSdDevBL> "3 . 25" .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasResultMeasuredValue> "17 . 8" .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasSdDevResValue> "2 . 19" .
+<http://ctro/data#Outcome_70879> <http://ctro/data#hasObservedResult> "Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) ." .
+<http://ctro/data#Outcome_70925> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_70925> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_brinz_BV" .
+<http://ctro/data#Outcome_70925> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_70915> .
+<http://ctro/data#Outcome_70925> <http://ctro/data#hasObservedResult> "Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops ." .
+<http://ctro/data#Outcome_70925> <http://ctro/data#hasTimePoint> "Month 1" .
+<http://ctro/data#Outcome_70952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_70952> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_brinz_T" .
+<http://ctro/data#Outcome_70952> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_70920> .
+<http://ctro/data#Outcome_70952> <http://ctro/data#hasObservedResult> "Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops ." .
+<http://ctro/data#Outcome_70952> <http://ctro/data#hasTimePoint> "Months 1" .
+<http://ctro/data#Outcome_70979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_70979> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_brinz_T_3" .
+<http://ctro/data#Outcome_70979> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_70920> .
+<http://ctro/data#Outcome_70979> <http://ctro/data#hasObservedResult> "Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops ." .
+<http://ctro/data#Outcome_70979> <http://ctro/data#hasTimePoint> "Months 1 and 3" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_70906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_70906> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups" .
+<http://ctro/data#DiffBetweenGroups_70906> <http://ctro/data#hasPvalueDiff> "0 . 028" .
+<http://ctro/data#DiffBetweenGroups_70906> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_70852> .
+<http://ctro/data#DiffBetweenGroups_70906> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_70879> .
+# RDF export of group: EvidenceQuality

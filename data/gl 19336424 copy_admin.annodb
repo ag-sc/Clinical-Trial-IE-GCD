@@ -1,0 +1,88 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Br J Ophthalmol .", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasJournal> \"Br J Ophthalmol .\"."
+1, PublicationYear, 18, 22, "2009", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasPublicationYear> \"2009\"."
+2, Title, 109, 225, "A randomised crossover study comparing bimatoprost and latanoprost in subjects with primary angle closure glaucoma .", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasTitle> \"A randomised crossover study comparing bimatoprost and latanoprost in subjects with primary angle closure glaucoma .\"."
+3, Randomized, 111, 121, "randomised", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, Crossover, 122, 131, "crossover", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+5, Bimatoprost, 148, 159, "bimatoprost", "", 
+6, Latanoprost, 164, 175, "latanoprost", "", 
+73, Primary_AngleClosureGlaucoma, 193, 223, "primary angle closure glaucoma", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_AngleClosureGlaucoma>."
+7, Author, 226, 232, "How AC", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"How AC\"."
+8, Author, 241, 249, "Kumar RS", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Kumar RS\"."
+9, Author, 252, 259, "Chen YM", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Chen YM\"."
+10, Author, 262, 267, "Su DH", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Su DH\"."
+11, Author, 270, 275, "Gao H", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Gao H\"."
+12, Author, 278, 284, "Oen FT", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Oen FT\"."
+13, Author, 287, 292, "Ho CL", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Ho CL\"."
+14, Author, 295, 302, "Seah SK", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Seah SK\"."
+15, Author, 305, 311, "Aung T", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasAuthor> \"Aung T\"."
+16, Singapore, 373, 382, "Singapore", "", 
+107, ObjectiveDescription, 405, 600, "To compare the intraocular pressure ( IOP ) lowering efficacy and side effects of latanoprost 0 . 005 % and bimatoprost 0 . 03 % in subjects with chronic primary angle closure glaucoma ( PACG ) .", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasObjectiveDescription> \"To compare the intraocular pressure ( IOP ) lowering efficacy and side effects of latanoprost 0 . 005 % and bimatoprost 0 . 03 % in subjects with chronic primary angle closure glaucoma ( PACG ) .\"."
+18, IOP, 420, 440, "intraocular pressure", "", 
+19, IOP, 443, 446, "IOP", "", 
+20, Latanoprost, 487, 498, "latanoprost", "", "<http://ctro/data#Latanoprost_106753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_106752> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_106753>."
+21, DoseValue, 499, 506, "0 . 005", "", "<http://ctro/data#Medication_106752> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+22, Percentage, 507, 508, "%", "", "<http://ctro/data#Medication_106752> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+23, Bimatoprost, 513, 524, "bimatoprost", "", "<http://ctro/data#Medication_106759> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+77, DoseValue, 525, 531, "0 . 03", "", "<http://ctro/data#Medication_106759> <http://ctro/data#hasDoseValue> \"0 . 03\"."
+78, Percentage, 532, 533, "%", "", "<http://ctro/data#Medication_106759> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+78500, Precondition, 537, 598, "subjects with chronic primary angle closure glaucoma ( PACG )", "", "<http://ctro/data#Population_106714> <http://ctro/data#hasPrecondition> \"subjects with chronic primary angle closure glaucoma ( PACG )\"."
+75, Primary_AngleClosureGlaucoma, 559, 589, "primary angle closure glaucoma", "", 
+76, Primary_AngleClosureGlaucoma, 592, 596, "PACG", "", 
+24, Blind, 623, 640, "observer - masked", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+25, Randomized, 641, 651, "randomised", "", 
+26, Crossover, 652, 661, "crossover", "", 
+27, NumberPatientsCT, 671, 673, "60", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasNumberPatientsCT> \"60\"."
+74, Primary_AngleClosureGlaucoma, 674, 678, "PACG", "", 
+28, Latanoprost, 708, 719, "latanoprost", "", 
+29, Bimatoprost, 723, 734, "bimatoprost", "", 
+30, Duration, 739, 746, "6 weeks", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasCTduration> \"6 weeks\"."
+32, Crossover, 771, 783, "crossed over", "", 
+31, Duration, 820, 827, "6 weeks", "", 
+33, IOP, 834, 837, "IOP", "", 
+34, IOP, 908, 911, "IOP", "", 
+78505, TimePoint, 918, 925, "6 weeks", "", 
+78504, TimePoint, 953, 961, "baseline", "", 
+36, FinalNumPatientsCT, 974, 986, "Fifty - four", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasFinalNumberPatientsCT> \"Fifty - four\"."
+37, Latanoprost, 1030, 1041, "Latanoprost", "", 
+38, IOP, 1050, 1053, "IOP", "", "<http://ctro/data#IOP_106780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_106779> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_106780>."
+121, Mean, 1056, 1060, "mean", "", "<http://ctro/data#Mean_106781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_106779> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_106781>."
+39, Reduction, 1073, 1078, "8 . 4", "", "<http://ctro/data#Outcome_106784> <http://ctro/data#hasChangeValue> \"8 . 4\"."
+40, SdDevChangeValue, 1081, 1086, "3 . 8", "", "<http://ctro/data#Outcome_106784> <http://ctro/data#hasSdDevChangeValue> \"3 . 8\"."
+41, mmHg, 1089, 1094, "mm Hg", "", "<http://ctro/data#Endpoint_106779> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+42, Bimatoprost, 1099, 1110, "bimatoprost", "", 
+43, Reduction, 1114, 1119, "8 . 9", "", "<http://ctro/data#Outcome_106811> <http://ctro/data#hasChangeValue> \"8 . 9\"."
+44, SdDevChangeValue, 1122, 1127, "3 . 9", "", "<http://ctro/data#Outcome_106811> <http://ctro/data#hasSdDevChangeValue> \"3 . 9\"."
+45, mmHg, 1130, 1135, "mm Hg", "", 
+78506, TimePoint, 1143, 1151, "baseline", "", 
+46, BaseLineValue, 1155, 1161, "25 . 2", "", "<http://ctro/data#Outcome_106784> <http://ctro/data#hasBaselineValue> \"25 . 2\"."
+47, SdDevBL, 1164, 1169, "3 . 6", "", "<http://ctro/data#Outcome_106784> <http://ctro/data#hasSdDevBL> \"3 . 6\"."
+48, mmHg, 1172, 1177, "mm Hg", "", 
+49, BaseLineValue, 1182, 1188, "25 . 2", "", "<http://ctro/data#Outcome_106811> <http://ctro/data#hasBaselineValue> \"25 . 2\"."
+50, SdDevBL, 1191, 1196, "3 . 6", "", "<http://ctro/data#Outcome_106811> <http://ctro/data#hasSdDevBL> \"3 . 6\"."
+51, mmHg, 1199, 1204, "mm Hg", "", 
+135, PvalueDiff, 1222, 1230, "= 0 . 23", "", "<http://ctro/data#DiffBetweenGroups_106838> <http://ctro/data#hasPvalueDiff> \"= 0 . 23\"."
+78507, EndPointDescription, 1324, 1337, "adverse event", "", "<http://ctro/data#EndPointDescription_106848> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_106847> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_106848>."
+53, Bimatoprost, 1345, 1356, "bimatoprost", "", 
+54, PercentageAffected, 1365, 1367, "81", "", "<http://ctro/data#Outcome_106879> <http://ctro/data#hasPercentageAffected> \"81\"."
+55, Latanoprost, 1390, 1401, "latanoprost", "", 
+56, PercentageAffected, 1410, 1412, "40", "", "<http://ctro/data#Outcome_106852> <http://ctro/data#hasPercentageAffected> \"40\"."
+141, PvalueDiff, 1419, 1427, "< 0 . 01", "", "<http://ctro/data#DiffBetweenGroups_106906> <http://ctro/data#hasPvalueDiff> \"< 0 . 01\"."
+78510, EndPointDescription, 1432, 1449, "Ocular irritation", "", 
+58, NumberAffected, 1514, 1516, "22", "", "<http://ctro/data#Outcome_106947> <http://ctro/data#hasNumberAffected> \"22\"."
+59, PercentageAffected, 1528, 1534, "37 . 9", "", "<http://ctro/data#Outcome_106947> <http://ctro/data#hasPercentageAffected> \"37 . 9\"."
+60, Bimatoprost, 1552, 1563, "bimatoprost", "", 
+146, OcularHypertension, 1576, 1593, "ocular hyperaemia", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+61, NumberAffected, 1611, 1613, "13", "", "<http://ctro/data#Outcome_106920> <http://ctro/data#hasNumberAffected> \"13\"."
+62, PercentageAffected, 1625, 1631, "22 . 4", "", "<http://ctro/data#Outcome_106920> <http://ctro/data#hasPercentageAffected> \"22 . 4\"."
+63, Latanoprost, 1649, 1660, "latanoprost", "", 
+150, PvalueDiff, 1665, 1673, "= 0 . 11", "", "<http://ctro/data#DiffBetweenGroups_106975> <http://ctro/data#hasPvalueDiff> \"= 0 . 11\"."
+67, Bimatoprost, 1692, 1703, "Bimatoprost", "", 
+65, ConclusionComment, 1692, 1823, "Bimatoprost once daily was similarly effective in reducing IOP compared with latanoprost once daily in subjects with chronic PACG .", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasConclusionComment> \"Bimatoprost once daily was similarly effective in reducing IOP compared with latanoprost once daily in subjects with chronic PACG .\"."
+68, Frequency, 1704, 1714, "once daily", "", "<http://ctro/data#Intervention_106746> <http://ctro/data#hasFrequency> \"once daily\"."
+69, IOP, 1751, 1754, "IOP", "", 
+70, Latanoprost, 1769, 1780, "latanoprost", "", 
+71, Frequency, 1781, 1791, "once daily", "", "<http://ctro/data#Intervention_106740> <http://ctro/data#hasFrequency> \"once daily\"."
+156, Primary_AngleClosureGlaucoma, 1817, 1821, "PACG", "", 
+66, ConclusionComment, 1824, 1888, "Both drugs were well tolerated with mild ocular adverse events .", "", "<http://ctro/data#ClinicalTrial_106698> <http://ctro/data#hasConclusionComment> \"Both drugs were well tolerated with mild ocular adverse events .\"."
+72, PMID, 1934, 1942, "19336424", "", "<http://ctro/data#Publication_106691> <http://ctro/data#hasPMID> \"19336424\"."

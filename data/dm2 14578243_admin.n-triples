@@ -1,0 +1,149 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_25480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_25480> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasTitle> "The treat - to - target trial : randomized addition of glargine or human NPH insulin to oral therapy of type 2 diabetic patients ." .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> "Riddle MC" .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasJournal> "Diabetes Care ." .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasPMID> "14578243" .
+<http://ctro/data#Publication_25480> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_25490> .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> "Rosenstock J" .
+<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> "Gerich J" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_25490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_25490> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasObjectiveDescription> "To compare the abilities and associated hypoglycemia risks of insulin glargine and human NPH insulin added to oral therapy of type 2 diabetes to achieve 7 % HbA ( 1c ) ." .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTduration> "24 - week" .
+<http://ctro/data#AllocationRatio_25509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_25510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> "Systematically titrating bedtime basal insulin added to oral therapy can safely achieve 7 % HbA ( 1c ) in a majority of overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone ." .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasArm> <http://ctro/data#Arm_25560> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasPopulation> <http://ctro/data#Population_25526> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_25766> .
+<http://ctro/data#EvidenceQuality_25517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> "In doing this , glargine causes significantly less nocturnal hypoglycemia than NPH , thus reducing a leading barrier to initiating insulin ." .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> "This simple regimen may facilitate earlier and effective insulin use in routine medical practice , improving achievement of recommended standards of diabetes care ." .
+<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasArm> <http://ctro/data#Arm_25569> .
+# RDF export of group: Population
+<http://ctro/data#Population_25526> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_25526> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_25526> <http://ctro/data#hasPrecondition> "overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone" .
+<http://ctro/data#Ethnicity_25528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_25526> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Population_25526> <http://ctro/data#hasGender> <http://ctro/data#Male> .
+<http://ctro/data#Population_25526> <http://ctro/data#hasGender> <http://ctro/data#Female> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_25535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25535> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint fpg" .
+<http://ctro/data#Endpoint_25535> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose> .
+<http://ctro/data#AggregationMethod_25537> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_25535> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter> .
+<http://ctro/data#MeasurementDevice_25539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25540> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint hba1c" .
+<http://ctro/data#Endpoint_25540> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#AggregationMethod_25542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_25540> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#MeasurementDevice_25544> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25545> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25545> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint hba1c target" .
+<http://ctro/data#Endpoint_25545> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target> .
+<http://ctro/data#AggregationMethod_25547> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_25548> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_25549> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25550> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint nh" .
+<http://ctro/data#Endpoint_25550> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia> .
+<http://ctro/data#AggregationMethod_25552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_25553> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_25554> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_25555> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_25555> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint sh" .
+<http://ctro/data#Endpoint_25555> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia> .
+<http://ctro/data#AggregationMethod_25557> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_25558> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_25559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_25560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_25560> <http://www.w3.org/2000/01/rdf-schema#label> "Arm ig" .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_25578> .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25604> .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25712> .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25658> .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25775> .
+<http://ctro/data#Arm_25560> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25807> .
+<http://ctro/data#Arm_25569> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_25569> <http://www.w3.org/2000/01/rdf-schema#label> "Arm nph" .
+<http://ctro/data#Arm_25569> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_25584> .
+<http://ctro/data#Arm_25569> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25631> .
+<http://ctro/data#Arm_25569> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_25739> .
+<http://ctro/data#Arm_25569> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25685> .
+<http://ctro/data#Arm_25569> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_25807> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_25578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_25578> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention ig" .
+<http://ctro/data#Intervention_25578> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#Intervention_25578> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime> .
+<http://ctro/data#Intervention_25578> <http://ctro/data#hasMedication> <http://ctro/data#Medication_19620> .
+<http://ctro/data#Intervention_25584> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_25584> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention nph" .
+<http://ctro/data#Intervention_25584> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_25589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_25584> <http://ctro/data#hasMedication> <http://ctro/data#Medication_25590> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_19620> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_19620> <http://www.w3.org/2000/01/rdf-schema#label> "Medication ig" .
+<http://ctro/data#Medication_19620> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine> .
+<http://ctro/data#BioAndMedicalUnit_19623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_19624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_19620> <http://ctro/data#hasDoseDescription> "titrated using a simple algorithm seeking a target fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l ) ." .
+<http://ctro/data#Medication_25590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_25590> <http://www.w3.org/2000/01/rdf-schema#label> "Medication nph" .
+<http://ctro/data#Medication_25590> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH> .
+<http://ctro/data#BioAndMedicalUnit_25593> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_25594> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_25590> <http://ctro/data#hasDoseDescription> "titrated using a simple algorithm seeking a target fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l ) ." .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_25604> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25604> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome fpg ig" .
+<http://ctro/data#Outcome_25604> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25535> .
+<http://ctro/data#Outcome_25604> <http://ctro/data#hasResultMeasuredValue> "117" .
+<http://ctro/data#Outcome_25631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25631> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome fpg nph" .
+<http://ctro/data#Outcome_25631> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25535> .
+<http://ctro/data#Outcome_25631> <http://ctro/data#hasResultMeasuredValue> "120" .
+<http://ctro/data#Outcome_25658> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25658> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome hba1c ig" .
+<http://ctro/data#Outcome_25658> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25540> .
+<http://ctro/data#Outcome_25658> <http://ctro/data#hasResultMeasuredValue> "6 . 96" .
+<http://ctro/data#Outcome_25685> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25685> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome hba1c nph" .
+<http://ctro/data#Outcome_25685> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25540> .
+<http://ctro/data#Outcome_25685> <http://ctro/data#hasResultMeasuredValue> "6 . 97" .
+<http://ctro/data#Outcome_25712> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25712> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome nh ig " .
+<http://ctro/data#Outcome_25712> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25550> .
+<http://ctro/data#Outcome_25712> <http://ctro/data#hasPercentageAffected> "33 . 2" .
+<http://ctro/data#Outcome_25739> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25739> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome nh nph" .
+<http://ctro/data#Outcome_25739> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25550> .
+<http://ctro/data#Outcome_25739> <http://ctro/data#hasPercentageAffected> "26 . 7" .
+<http://ctro/data#Outcome_25775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25775> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome sh ig" .
+<http://ctro/data#Outcome_25775> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25555> .
+<http://ctro/data#Outcome_25807> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_25807> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome hba1c target both drugs" .
+<http://ctro/data#Outcome_25807> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_25545> .
+<http://ctro/data#Outcome_25807> <http://ctro/data#hasPercentageAffected> "60" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_25766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_25766> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups nh" .
+<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasDiffGroupRelValue> "25" .
+<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasPvalueDiff> "P < 0 . 05" .
+<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_25712> .
+<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_25739> .
+# RDF export of group: EvidenceQuality

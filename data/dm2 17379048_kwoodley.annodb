@@ -1,0 +1,145 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+31662, Journal, 0, 11, "Clin Ther .", "", 
+4464, PublicationYear, 12, 16, "2007", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasPublicationYear> \"2007\"."
+31663, Title, 44, 284, "Results of the glucose - lowering effect of WelChol study ( GLOWS ) : a randomized , double - blind , placebo - controlled pilot study evaluating the effect of colesevelam hydrochloride on glycemic control in subjects with type 2 diabetes .", "", 
+4466, Randomized, 116, 126, "randomized", "", "<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4467, DoubleBlind, 129, 143, "double - blind", "", "<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+31664, Placebo, 146, 153, "placebo", "", 
+4469, Drug, 204, 229, "colesevelam hydrochloride", "", 
+4470, Type2Diabetes, 267, 282, "type 2 diabetes", "", 
+4472, Author, 285, 293, "Zieve FJ", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> \"Zieve FJ\"."
+4473, Author, 302, 310, "Kalin MF", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> \"Kalin MF\"."
+4474, Author, 313, 324, "Schwartz SL", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> \"Schwartz SL\"."
+4475, Author, 327, 335, "Jones MR", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> \"Jones MR\"."
+4476, Author, 338, 347, "Bailey WL", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasAuthor> \"Bailey WL\"."
+4477, USA, 451, 454, "USA", "", "<http://ctro/data#Population_12903> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+31665, ObjectiveDescription, 494, 736, "This study evaluated the glycosylated hemoglobin ( HbA ( 1c ) - lowering effect of colesevelam hydrochloride , a bile acid sequestrant , in subjects with type 2 diabetes that was inadequately controlled by existing antihyperglycemic therapy .", "", 
+4478, HbA1c, 519, 542, "glycosylated hemoglobin", "", 
+4479, HbA1c, 545, 555, "HbA ( 1c )", "", 
+4480, Drug, 577, 602, "colesevelam hydrochloride", "", 
+4482, Precondition, 634, 734, "subjects with type 2 diabetes that was inadequately controlled by existing antihyperglycemic therapy", "", "<http://ctro/data#Population_12903> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes that was inadequately controlled by existing antihyperglycemic therapy\"."
+4481, Type2Diabetes, 648, 663, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+4484, Placebo, 764, 771, "placebo", "", 
+4489, Precondition, 790, 866, "subjects with type 2 diabetes and an HbA ( 1c ) value of 7 . 0 % to 10 . 0 %", "", "<http://ctro/data#Population_12903> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes and an HbA ( 1c ) value of 7 . 0 % to 10 . 0 %\"."
+4485, Type2Diabetes, 804, 819, "type 2 diabetes", "", 
+4486, HbA1c, 827, 837, "HbA ( 1c )", "", 
+4487, Percentage, 853, 854, "%", "", 
+4488, Percentage, 865, 866, "%", "", 
+4490, Randomized, 872, 882, "randomized", "", 
+4491, Drug, 894, 905, "colesevelam", "", "<http://ctro/data#Drug_13009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug>. <http://ctro/data#Medication_13008> <http://ctro/data#hasDrug> <http://ctro/data#Drug_13009>."
+4492, DoseValue, 906, 912, "3 . 75", "", "<http://ctro/data#Medication_13008> <http://ctro/data#hasDoseValue> \"3 . 75\"."
+4493, Gram, 913, 914, "g", "", "<http://ctro/data#Medication_13008> <http://ctro/data#hasDoseUnit> <http://ctro/data#Gram>."
+31666, Frequency, 917, 918, "d", "", 
+4495, Placebo, 931, 938, "placebo", "", "<http://ctro/data#Medication_13014> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+4496, Duration, 943, 951, "12 weeks", "", "<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasCTduration> \"12 weeks\". <http://ctro/data#Intervention_12996> <http://ctro/data#hasDuration> \"12 weeks\". <http://ctro/data#Intervention_13002> <http://ctro/data#hasDuration> \"12 weeks\"."
+4497, OralAntidiabeticAgent, 974, 1008, "oral anti hyperglycemic medication", "", 
+4498, Sulfonylureas, 1011, 1023, "sulfonylurea", "", 
+4499, Metformin, 1033, 1042, "metformin", "", 
+4500, FastingPlasmaGlucose, 1082, 1095, "Fasting blood", "", 
+4501, HbA1c, 1213, 1223, "HbA ( 1c )", "", 
+31667, TimePoint, 1229, 1237, "baseline", "", 
+31668, TimePoint, 1241, 1248, "week 12", "", 
+4502, Fructosamine, 1292, 1304, "fructosamine", "", 
+4503, FastingPlasmaGlucose, 1314, 1336, "fasting plasma glucose", "", 
+31669, PostprandialBloodGlucose, 1346, 1366, "postprandial glucose", "", 
+4506, MealGlucoseResponse, 1379, 1400, "meal glucose response", "", 
+4507, EndPointDescription, 1490, 1506, "lipid parameters", "lipid parameters", 
+31670, TimePoint, 1512, 1520, "baseline", "", 
+31671, TimePoint, 1524, 1531, "week 12", "", 
+4508, NumberPatientsCT, 1548, 1550, "65", "", "<http://ctro/data#ClinicalTrial_12886> <http://ctro/data#hasNumberPatientsCT> \"65\"."
+4509, Randomized, 1551, 1561, "randomized", "", 
+4510, NumberPatientsArm, 1573, 1575, "31", "", "<http://ctro/data#Arm_12984> <http://ctro/data#hasNumberPatientsArm> \"31\"."
+4512, Drug, 1576, 1587, "colesevelam", "", 
+4511, NumberPatientsArm, 1590, 1592, "34", "", "<http://ctro/data#Arm_12990> <http://ctro/data#hasNumberPatientsArm> \"34\"."
+4513, Placebo, 1593, 1600, "placebo", "", 
+4514, AvgAge, 1621, 1627, "56 . 2", "", "<http://ctro/data#Population_12903> <http://ctro/data#hasAvgAge> \"56 . 2\"."
+4515, BMI, 1645, 1660, "body mass index", "", 
+4516, Kg_per_squareMeter, 1671, 1677, "kg / m", "", 
+4517, Male, 1686, 1704, "55 . 4 % were male", "", "<http://ctro/data#Population_12903> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+4518, Ethnicity, 1709, 1728, "53 . 8 % were white", "", "<http://ctro/data#Ethnicity_12905> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_12903> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_12905>."
+31672, LeastSquaresMean, 1765, 1767, "LS", "", 
+4519, HbA1c, 1792, 1802, "HbA ( 1c )", "", 
+4520, Drug, 1815, 1826, "colesevelam", "", 
+4521, Placebo, 1841, 1848, "placebo", "", 
+10294, DiffGroupAbsValue, 1859, 1866, "- 0 . 5", "", 
+10296, Percentage, 1867, 1868, "%", "", 
+10297, SdErrorDiff, 1871, 1877, "0 . 18", "", 
+4526, PvalueDiff, 1882, 1893, "P = 0 . 007", "", 
+5195, SubGroupDescription, 1901, 1946, "subjects with a baseline HbAIc > or = 8 . 0 %", "", 
+5196, HbA1c, 1926, 1931, "HbAIc", "", 
+5197, Percentage, 1945, 1946, "%", "", 
+31673, LeastSquaresMean, 1967, 1969, "LS", "", 
+5198, HbA1c, 1985, 1995, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_12929> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+10298, DiffGroupAbsValue, 2000, 2007, "- 1 . 0", "", 
+10300, Percentage, 2008, 2009, "%", "", 
+10301, SdErrorChangeValue, 2012, 2018, "0 . 27", "", 
+5202, PvalueDiff, 2023, 2034, "P = 0 . 002", "", 
+5206, Placebo, 2051, 2058, "placebo", "", 
+5207, Drug, 2061, 2072, "colesevelam", "", 
+5208, Fructosamine, 2127, 2139, "fructosamine", "", "<http://ctro/data#Endpoint_12934> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Fructosamine>."
+5209, Reduction, 2144, 2150, "29 . 0", "", 
+10302, ResultMeasuredValue, 2153, 2159, "10 . 9", "", 
+5210, Picomole_per_liter, 2162, 2170, "pmol / L", "", "<http://ctro/data#Endpoint_12934> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Picomole_per_liter>."
+5211, PValueChangeValue, 2173, 2184, "P = 0 . 011", "", 
+31674, PostprandialBloodGlucose, 2191, 2211, "postprandial glucose", "", 
+5214, Reduction, 2216, 2222, "31 . 5", "", 
+5215, ResultMeasuredValue, 2225, 2231, "13 . 6", "", 
+5216, Mg_per_deciliter, 2234, 2241, "mg / dL", "", "<http://ctro/data#Endpoint_12939> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+5217, PValueChangeValue, 2244, 2255, "P = 0 . 026", "", 
+5218, EndPointDescription, 2287, 2324, "low - density lipoprotein cholesterol", "", "<http://ctro/data#EndPointDescription_12945> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_12944> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12945>."
+5219, RelativeReduction, 2331, 2336, "9 . 6", "", 
+5220, Drug, 2346, 2357, "colesevelam", "", 
+31675, RelativeIncrement, 2380, 2385, "2 . 1", "", 
+5222, Placebo, 2395, 2402, "placebo", "", 
+5223, DiffGroupRelValue, 2436, 2442, "11 . 7", "", 
+5224, DiffGroupAbsValue, 2447, 2452, "4 . 2", "", 
+5225, PvalueDiff, 2457, 2468, "P = 0 . 007", "", 
+5226, EndPointDescription, 2518, 2529, "cholesterol", "", "<http://ctro/data#EndPointDescription_12950> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_12949> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12950>."
+5227, RelativeReduction, 2537, 2542, "4 . 0", "", 
+5228, RelativeReduction, 2549, 2554, "3 . 4", "", 
+5229, DiffGroupRelValue, 2584, 2589, "7 . 3", "", 
+5230, DiffGroupAbsValue, 2594, 2599, "3 . 0", "", 
+5231, PvalueDiff, 2604, 2615, "P = 0 . 019", "", 
+5232, Drug, 2620, 2631, "Colesevelam", "", 
+5233, EndPointDescription, 2704, 2720, "apolipoprotein B", "", "<http://ctro/data#EndPointDescription_12955> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_12954> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12955>."
+5234, PValueChangeValue, 2723, 2734, "P = 0 . 003", "", 
+5235, EndPointDescription, 2741, 2789, "low - density lipoprotein particle concentration", "", "<http://ctro/data#EndPointDescription_12960> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_12959> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_12960>."
+5236, PValueChangeValue, 2792, 2803, "P = 0 . 037", "", 
+5243, ObservedResult, 2808, 2897, "The incidence of treatment - emergent adverse events ( TEAEs ) was similar in both groups", "", 
+10292, EndPointDescription, 2812, 2860, "incidence of treatment - emergent adverse events", "", 
+10293, EndPointDescription, 2863, 2868, "TEAEs", "", "<http://ctro/data#EndPointDescription_19105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_12964> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_19105>."
+5244, SubGroupDescription, 2909, 2943, "treatment - related adverse events", "", 
+5238, Drug, 2970, 2981, "colesevelam", "", 
+5239, Placebo, 3000, 3007, "placebo", "", 
+5245, PercentageAffected, 3016, 3022, "29 . 0", "", 
+5246, PercentageAffected, 3028, 3033, "8 . 8", "", 
+5248, Drug, 3086, 3097, "colesevelam", "", 
+5247, GastrointestinalProblem, 3109, 3135, "gastrointestinal disorders", "", "<http://ctro/data#Endpoint_12969> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#GastrointestinalProblem>."
+5249, PercentageAffected, 3138, 3144, "22 . 6", "", 
+5252, SubGroupDescription, 3151, 3173, "primarily constipation", "", 
+5251, PercentageAffected, 3176, 3182, "19 . 4", "", 
+5253, PercentageAffected, 3206, 3211, "8 . 8", "", 
+5254, GastrointestinalProblem, 3227, 3253, "gastrointestinal disorders", "", 
+5256, PercentageAffected, 3256, 3257, "0", "", 
+5257, SubGroupDescription, 3260, 3272, "constipation", "", 
+5255, Placebo, 3282, 3289, "placebo", "", 
+31676, ObservedResult, 3298, 3407, "There were no significant changes in body weight or the occurrence of hypoglycemia between treatment groups .", "", 
+5259, BodyWeight, 3335, 3346, "body weight", "", "<http://ctro/data#Endpoint_12974> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+5260, Hypoglycemia, 3368, 3380, "hypoglycemia", "", "<http://ctro/data#Endpoint_12979> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+31677, ConclusionComment, 3422, 3630, "In these subjects with type 2 diabetes , 12 weeks of colesevelam treatment were associated with significant reductions in HbA ( 1c ) and in fructosamine and postprandial glucose levels compared with placebo .", "", 
+5262, Type2Diabetes, 3445, 3460, "type 2 diabetes", "", 
+5263, Duration, 3463, 3471, "12 weeks", "", 
+5264, Drug, 3475, 3486, "colesevelam", "", 
+5265, HbA1c, 3544, 3554, "HbA ( 1c )", "", 
+5266, Fructosamine, 3562, 3574, "fructosamine", "", 
+31682, PostprandialBloodGlucose, 3579, 3599, "postprandial glucose", "", 
+5268, Placebo, 3621, 3628, "placebo", "", 
+31678, ConclusionComment, 3631, 3771, "The 2 groups had a similar adverse - event profile , with the exception of an increased incidence of constipation in the colesevelam group .", "", 
+5271, Constipation, 3732, 3744, "constipation", "", 
+5272, Drug, 3752, 3763, "colesevelam", "", 
+31679, ConclusionComment, 3772, 3942, "These results suggest that colesevelam may improve both lipid control and glycemic control in patients with type 2 diabetes receiving oral antihyperglycemic medications .", "", 
+5277, Drug, 3799, 3810, "colesevelam", "", 
+31680, Precondition, 3866, 3940, "patients with type 2 diabetes receiving oral antihyperglycemic medications", "", 
+5278, Type2Diabetes, 3880, 3895, "type 2 diabetes", "", 
+31681, OralAntidiabeticAgent, 3906, 3940, "oral antihyperglycemic medications", "", 
+5282, PMID, 4000, 4008, "17379048", "", "<http://ctro/data#Publication_12875> <http://ctro/data#hasPMID> \"17379048\"."

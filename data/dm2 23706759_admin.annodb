@@ -1,0 +1,87 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 6, "Lancet", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasJournal> \"Lancet\"."
+1, PublicationYear, 9, 13, "2013", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasPublicationYear> \"2013\"."
+9, Title, 118, 322, "Individualised treatment targets for elderly patients with type 2 diabetes using vildagliptin add - on or lone therapy ( INTERVAL ) : a 24 week , randomised , double - blind , placebo - controlled study .", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasTitle> \"Individualised treatment targets for elderly patients with type 2 diabetes using vildagliptin add - on or lone therapy ( INTERVAL ) : a 24 week , randomised , double - blind , placebo - controlled study .\"."
+82, Precondition, 155, 236, "elderly patients with type 2 diabetes using vildagliptin add - on or lone therapy", "", "<http://ctro/data#Population_45929> <http://ctro/data#hasPrecondition> \"elderly patients with type 2 diabetes using vildagliptin add - on or lone therapy\"."
+3, Type2Diabetes, 177, 192, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+2, Vildagliptin, 199, 211, "vildagliptin", "", 
+4, Duration, 254, 261, "24 week", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasCTduration> \"24 week\"."
+5, Randomized, 264, 274, "randomised", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+6, DoubleBlind, 277, 291, "double - blind", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+7, Placebo, 294, 301, "placebo", "", 
+10, Author, 323, 332, "Strain WD", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasAuthor> \"Strain WD\"."
+11, Author, 341, 354, "Lukashevich V", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasAuthor> \"Lukashevich V\"."
+12, Author, 363, 371, "Kothny W", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasAuthor> \"Kothny W\"."
+13, Author, 380, 393, "Hoellinger MJ", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasAuthor> \"Hoellinger MJ\"."
+14, Author, 402, 416, "Pald á nius PM", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasAuthor> \"Pald á nius PM\"."
+15, UK, 539, 541, "UK", "", 
+96, USA, 662, 665, "USA", "", 
+97, Switzerland, 703, 714, "Switzerland", "", 
+98, Precondition, 912, 949, "elderly patients with type 2 diabetes", "", 
+16, Type2Diabetes, 934, 949, "type 2 diabetes", "", 
+22, ObjectiveDescription, 974, 1146, "We aimed to assess the feasibility of setting and achieving individualised targets over 24 weeks along with conventional HbA1c reduction using vildagliptin versus placebo .", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasObjectiveDescription> \"We aimed to assess the feasibility of setting and achieving individualised targets over 24 weeks along with conventional HbA1c reduction using vildagliptin versus placebo .\"."
+18, Duration, 1062, 1070, "24 weeks", "", 
+19, HbA1c, 1095, 1100, "HbA1c", "", 
+20, Vildagliptin, 1117, 1129, "vildagliptin", "", 
+21, Placebo, 1137, 1144, "placebo", "", 
+23, Multicenter, 1165, 1178, "multinational", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+24, DoubleBlind, 1181, 1195, "double - blind", "", 
+25, Duration, 1198, 1205, "24 week", "", 
+113, HbA1c, 1268, 1296, "glycosylated haemoglobin A1c", "", 
+27, HbA1c, 1299, 1304, "HbA1c", "", 
+28, Percentage, 1315, 1316, "%", "", 
+116, Percentage, 1329, 1330, "%", "", 
+29, Type2Diabetes, 1347, 1362, "type 2 diabetes", "", 
+30, MinAge, 1368, 1370, "70", "", "<http://ctro/data#Population_45929> <http://ctro/data#hasMinAge> \"70\"."
+112, Multicenter, 1391, 1412, "45 outpatient centres", "", 
+117, TimePoint, 1498, 1506, "baseline", "", 
+32, HbA1c, 1507, 1512, "HbA1c", "", 
+119, Randomized, 1586, 1594, "randomly", "", 
+33, AllocationRatio, 1615, 1620, "1 : 1", "", "<http://ctro/data#AllocationRatio_45917> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_45917>."
+34, Vildagliptin, 1626, 1638, "vildagliptin", "", "<http://ctro/data#Medication_45967> <http://ctro/data#hasDrug> <http://ctro/data#Vildagliptin>."
+35, DoseValue, 1641, 1643, "50", "", "<http://ctro/data#Medication_45967> <http://ctro/data#hasDoseValue> \"50\"."
+36, mg, 1644, 1646, "mg", "", "<http://ctro/data#Medication_45967> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+123, Frequency, 1647, 1666, "once or twice daily", "", "<http://ctro/data#Intervention_45955> <http://ctro/data#hasFrequency> \"once or twice daily\"."
+38, Placebo, 1685, 1692, "placebo", "", "<http://ctro/data#Medication_45974> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+39, HbA1c_target, 1790, 1802, "HbA1c target", "", 
+40, HbA1c, 1807, 1812, "HbA1c", "", 
+41, TimePoint, 1828, 1836, "baseline", "", 
+42, TimePoint, 1840, 1849, "study end", "", 
+43, Randomized, 2087, 2095, "randomly", "", 
+133, NumberPatientsArm, 2105, 2108, "139", "", "<http://ctro/data#Arm_45937> <http://ctro/data#hasNumberPatientsArm> \"139\". <http://ctro/data#Arm_45946> <http://ctro/data#hasNumberPatientsArm> \"139\"."
+45, Vildagliptin, 2130, 2142, "vildagliptin", "", 
+46, Placebo, 2147, 2154, "placebo", "", 
+47, NumberAffected, 2164, 2166, "37", "", "<http://ctro/data#Outcome_46021> <http://ctro/data#hasNumberAffected> \"37\"."
+48, PercentageAffected, 2169, 2171, "27", "", "<http://ctro/data#Outcome_46021> <http://ctro/data#hasPercentageAffected> \"27\"."
+93017, FinalNumPatientsArm, 2179, 2182, "137", "", "<http://ctro/data#Arm_45946> <http://ctro/data#hasFinalNumPatientsArm> \"137\"."
+50, Placebo, 2199, 2206, "placebo", "", 
+66189, HbA1c_target, 2243, 2250, "targets", "", "<http://ctro/data#Endpoint_45989> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+51, NumberAffected, 2311, 2313, "72", "", "<http://ctro/data#Outcome_45994> <http://ctro/data#hasNumberAffected> \"72\"."
+52, PercentageAffected, 2316, 2322, "52 · 6", "", "<http://ctro/data#Outcome_45994> <http://ctro/data#hasPercentageAffected> \"52 · 6\"."
+93018, FinalNumPatientsArm, 2330, 2333, "137", "", "<http://ctro/data#Arm_45937> <http://ctro/data#hasFinalNumPatientsArm> \"137\"."
+66197, HbA1c_target, 2358, 2364, "target", "", 
+54, Vildagliptin, 2372, 2384, "vildagliptin", "", 
+56, ConfIntervalDiff, 2431, 2449, "CI 1 · 81 - 5 · 52", "", "<http://ctro/data#DiffBetweenGroups_46048> <http://ctro/data#hasConfIntervalDiff> \"CI 1 · 81 - 5 · 52\"."
+55, PvalueDiff, 2452, 2464, "p < 0 · 0001", "", "<http://ctro/data#DiffBetweenGroups_46048> <http://ctro/data#hasPvalueDiff> \"p < 0 · 0001\"."
+57, Reduction, 2523, 2528, "0 · 9", "", "<http://ctro/data#Outcome_46062> <http://ctro/data#hasChangeValue> \"0 · 9\"."
+58, Percentage, 2529, 2530, "%", "", 
+59, HbA1c, 2544, 2549, "HbA1c", "", "<http://ctro/data#Endpoint_46057> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+146, TimePoint, 2557, 2565, "baseline", "", 
+60, BaseLineValue, 2569, 2574, "7 · 9", "", "<http://ctro/data#Outcome_46062> <http://ctro/data#hasBaselineValue> \"7 · 9\"."
+61, Percentage, 2575, 2576, "%", "", "<http://ctro/data#Endpoint_46057> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+62, Vildagliptin, 2582, 2594, "vildagliptin", "", 
+63, DiffGroupAbsValue, 2631, 2638, "- 0 · 6", "", "<http://ctro/data#DiffBetweenGroups_46116> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 · 6\"."
+64, Percentage, 2639, 2640, "%", "", 
+65, ConfIntervalDiff, 2643, 2675, "98 · 8 % CI - 0 · 81 to - 0 · 33", "", "<http://ctro/data#DiffBetweenGroups_46116> <http://ctro/data#hasConfIntervalDiff> \"98 · 8 % CI - 0 · 81 to - 0 · 33\"."
+66, PvalueDiff, 2678, 2690, "p < 0 · 0001", "", "<http://ctro/data#DiffBetweenGroups_46116> <http://ctro/data#hasPvalueDiff> \"p < 0 · 0001\"."
+67, Vildagliptin, 2750, 2762, "vildagliptin", "", 
+68, Placebo, 2767, 2774, "placebo", "", 
+70, ObservedResult, 2789, 2802, "low incidence", "", 
+69, Hypoglycemia, 2806, 2819, "hypoglycaemia", "", 
+74, ConclusionComment, 2878, 3028, "This study is the first to introduce and show the feasibility of using individualised HbA1c targets as an endpoint in any type 2 diabetes population .", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasConclusionComment> \"This study is the first to introduce and show the feasibility of using individualised HbA1c targets as an endpoint in any type 2 diabetes population .\"."
+160, HbA1c_target, 2964, 2977, "HbA1c targets", "", 
+73, Type2Diabetes, 3000, 3015, "type 2 diabetes", "", 
+78, ConclusionComment, 3029, 3176, "Individualised glycaemic target levels are achievable with vildagliptin without any tolerability issues in the elderly type 2 diabetes population .", "", "<http://ctro/data#ClinicalTrial_45913> <http://ctro/data#hasConclusionComment> \"Individualised glycaemic target levels are achievable with vildagliptin without any tolerability issues in the elderly type 2 diabetes population .\"."
+75, Vildagliptin, 3088, 3100, "vildagliptin", "", 
+76, Type2Diabetes, 3148, 3163, "type 2 diabetes", "", 
+79, PMID, 3317, 3325, "23706759", "", "<http://ctro/data#Publication_45906> <http://ctro/data#hasPMID> \"23706759\"."

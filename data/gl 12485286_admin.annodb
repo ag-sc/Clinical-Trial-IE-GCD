@@ -1,0 +1,84 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "Acta Ophthalmol Scand .", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasJournal> \"Acta Ophthalmol Scand .\"."
+1, PublicationYear, 24, 28, "2002", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasPublicationYear> \"2002\"."
+2, Title, 57, 239, "A comparison of the effects on intraocular pressure of latanoprost 0 . 005 % and the fixed combination of dorzolamide 2 % and timolol 0 . 5 % in patients with open - angle glaucoma .", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasTitle> \"A comparison of the effects on intraocular pressure of latanoprost 0 . 005 % and the fixed combination of dorzolamide 2 % and timolol 0 . 5 % in patients with open - angle glaucoma .\"."
+3, IOP, 88, 108, "intraocular pressure", "", 
+4, Latanoprost, 112, 123, "latanoprost", "", 
+8, DoseValue, 124, 131, "0 . 005", "", 
+83, Percentage, 132, 133, "%", "", 
+7, Dorz/TimFC, 142, 198, "fixed combination of dorzolamide 2 % and timolol 0 . 5 %", "", "<http://ctro/data#Medication_96989> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+5, Dorzolamide, 163, 174, "dorzolamide", "", 
+9, DoseValue, 175, 176, "2", "", 
+84, Percentage, 177, 178, "%", "", 
+78, Timolol, 183, 190, "timolol", "", 
+10, DoseValue, 191, 196, "0 . 5", "", 
+85, Percentage, 197, 198, "%", "", 
+11, OpenAngleGlaucoma, 216, 237, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_82912> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+12, Author, 240, 251, "Honrubia FM", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasAuthor> \"Honrubia FM\"."
+13, Author, 260, 270, "Larsson LI", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasAuthor> \"Larsson LI\"."
+14, Author, 273, 282, "Spiegel D", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasAuthor> \"Spiegel D\"."
+15, Latanoprost, 294, 305, "latanoprost", "", 
+16, Spain, 411, 416, "Spain", "", 
+17, ObjectiveDescription, 469, 615, "To compare the effects on intraocular pressure ( IOP ) of latanoprost 0 . 005 % and the fixed combination of dorzolamide 2 % and timolol 0 . 5 % .", "", "<http://ctro/data#ClinicalTrial_82912> <http://ctro/data#hasObjectiveDescription> \"To compare the effects on intraocular pressure ( IOP ) of latanoprost 0 . 005 % and the fixed combination of dorzolamide 2 % and timolol 0 . 5 % .\"."
+18, IOP, 495, 515, "intraocular pressure", "", 
+19, IOP, 518, 521, "IOP", "", 
+20, Latanoprost, 527, 538, "latanoprost", "", "<http://ctro/data#Latanoprost_82973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_82972> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_82973>."
+23, DoseValue, 539, 546, "0 . 005", "", "<http://ctro/data#Medication_82972> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+100, Percentage, 547, 548, "%", "", "<http://ctro/data#Medication_82972> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+26, Dorz/TimFC, 557, 613, "fixed combination of dorzolamide 2 % and timolol 0 . 5 %", "", 
+21, Dorzolamide, 578, 589, "dorzolamide", "", 
+24, DoseValue, 590, 591, "2", "", 
+101, Percentage, 592, 593, "%", "", 
+22, Timolol, 598, 605, "timolol", "", 
+25, DoseValue, 606, 611, "0 . 5", "", 
+102, Percentage, 612, 613, "%", "", 
+27, NumberPatientsCT, 636, 639, "226", "", "<http://ctro/data#ClinicalTrial_82912> <http://ctro/data#hasNumberPatientsCT> \"226\"."
+30, Precondition, 640, 705, "patients whose IOP was insufficiently controlled by timolol alone", "", "<http://ctro/data#Population_82928> <http://ctro/data#hasPrecondition> \"patients whose IOP was insufficiently controlled by timolol alone\"."
+106, IOP, 655, 658, "IOP", "", 
+29, Timolol, 692, 699, "timolol", "", 
+31, Randomized, 711, 721, "randomized", "", "<http://ctro/data#ClinicalTrial_82912> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+32, Latanoprost, 740, 751, "latanoprost", "", 
+33, Frequency, 752, 762, "once daily", "", "<http://ctro/data#Intervention_82954> <http://ctro/data#hasFrequency> \"once daily\"."
+114, Dorz/TimFC, 770, 815, "fixed combination of dorzolamide plus timolol", "", 
+34, Dorzolamide, 791, 802, "dorzolamide", "", 
+35, Timolol, 808, 815, "timolol", "", 
+37, Frequency, 816, 827, "twice daily", "", "<http://ctro/data#Intervention_82960> <http://ctro/data#hasFrequency> \"twice daily\"."
+38, IOP, 830, 850, "Intraocular pressure", "", 
+116, TimePoint, 867, 877, "10 : 00 am", "", 
+117, TimePoint, 882, 891, "5 : 00 pm", "", 
+39, TimePoint, 895, 903, "baseline", "", 
+40, TimePoint, 914, 922, "3 months", "", "<http://ctro/data#Outcome_83016> <http://ctro/data#hasTimePoint> \"3 months\". <http://ctro/data#Outcome_83043> <http://ctro/data#hasTimePoint> \"3 months\"."
+41, Mean, 948, 952, "Mean", "", "<http://ctro/data#Mean_83013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_83011> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_83013>."
+42, IOP, 953, 956, "IOP", "", "<http://ctro/data#IOP_83012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_83011> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_83012>."
+96939, TimePoint, 974, 982, "baseline", "", 
+43, PValueChangeValue, 1000, 1016, "p & lt ; 0 . 001", "", "<http://ctro/data#Outcome_83016> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 001\". <http://ctro/data#Outcome_83043> <http://ctro/data#hasPValueChangeValue> \"p & lt ; 0 . 001\"."
+122, Mean, 1028, 1032, "mean", "", 
+44, Reduction, 1058, 1063, "4 . 3", "", "<http://ctro/data#Outcome_83016> <http://ctro/data#hasChangeValue> \"4 . 3\"."
+46, SdErrorChangeValue, 1070, 1075, "0 . 3", "", "<http://ctro/data#Outcome_83016> <http://ctro/data#hasSdErrorChangeValue> \"0 . 3\"."
+49, mmHg, 1076, 1080, "mmHg", "", "<http://ctro/data#Endpoint_83011> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+50, RelativeReduction, 1083, 1085, "19", "", "<http://ctro/data#Outcome_83016> <http://ctro/data#hasRelativeChangeValue> \"19\"."
+52, Latanoprost, 1098, 1109, "latanoprost", "", 
+45, Reduction, 1132, 1137, "4 . 0", "", "<http://ctro/data#Outcome_83043> <http://ctro/data#hasChangeValue> \"4 . 0\"."
+47, SdErrorChangeValue, 1144, 1149, "0 . 3", "", "<http://ctro/data#Outcome_83043> <http://ctro/data#hasSdErrorChangeValue> \"0 . 3\"."
+48, mmHg, 1150, 1154, "mmHg", "", 
+51, RelativeReduction, 1157, 1159, "17", "", "<http://ctro/data#Outcome_83043> <http://ctro/data#hasRelativeChangeValue> \"17\"."
+53, Dorzolamide, 1172, 1183, "dorzolamide", "", 
+133, Dorz/TimFC, 1172, 1196, "dorzolamide plus timolol", "", 
+54, Timolol, 1189, 1196, "timolol", "", 
+55, IOP, 1270, 1273, "IOP", "", 
+56, Mean, 1283, 1287, "mean", "", 
+57, DiffGroupAbsValue, 1314, 1321, "- 0 . 4", "", "<http://ctro/data#DiffBetweenGroups_83070> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 4\"."
+58, SdErrorDiff, 1328, 1333, "0 . 4", "", "<http://ctro/data#DiffBetweenGroups_83070> <http://ctro/data#hasStandardErrorDiff> \"0 . 4\"."
+59, ConfIntervalDiff, 1336, 1378, "95 % confidence interval : - 1 . 1 , 0 . 4", "", "<http://ctro/data#DiffBetweenGroups_83070> <http://ctro/data#hasConfIntervalDiff> \"95 % confidence interval : - 1 . 1 , 0 . 4\"."
+60, ConclusionComment, 1397, 1605, "Monotherapy with latanoprost once daily was as effective in reducing mean IOP as the fixed combination of dorzolamide plus timolol twice daily in patients with IOP insufficiently controlled by timolol alone .", "", "<http://ctro/data#ClinicalTrial_82912> <http://ctro/data#hasConclusionComment> \"Monotherapy with latanoprost once daily was as effective in reducing mean IOP as the fixed combination of dorzolamide plus timolol twice daily in patients with IOP insufficiently controlled by timolol alone .\"."
+61, Latanoprost, 1414, 1425, "latanoprost", "", 
+62, Frequency, 1426, 1436, "once daily", "", 
+64, Mean, 1466, 1470, "mean", "", 
+65, IOP, 1471, 1474, "IOP", "", 
+68, Dorz/TimFC, 1482, 1527, "fixed combination of dorzolamide plus timolol", "", 
+66, Dorzolamide, 1503, 1514, "dorzolamide", "", 
+67, Timolol, 1520, 1527, "timolol", "", 
+63, Frequency, 1528, 1539, "twice daily", "", 
+69, IOP, 1557, 1560, "IOP", "", 
+70, Timolol, 1590, 1597, "timolol", "", 
+72, PMID, 1667, 1675, "12485286", "", "<http://ctro/data#Publication_82905> <http://ctro/data#hasPMID> \"12485286\"."

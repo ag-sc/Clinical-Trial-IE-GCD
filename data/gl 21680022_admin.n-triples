@@ -1,0 +1,180 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_47673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_47673> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 47673" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasTitle> "Comparison of latanoprost and timolol in pediatric glaucoma : a phase 3 , 12 - week , randomized , double - masked multicenter study ." .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Maeda - Chubachi T" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasPublicationYear> "2011" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasJournal> "Ophthalmology" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasPMID> "21680022" .
+<http://ctro/data#Publication_47673> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_47686> .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Chi - Burris K" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Simons BD" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Freedman SF" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Khaw PT" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Wirostko B" .
+<http://ctro/data#Publication_47673> <http://ctro/data#hasAuthor> "Yan E" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_47686> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_47686> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 47686" .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasObjectiveDescription> "To compare the efficacy and safety of latanoprost versus timolol in pediatric patients with glaucoma ." .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasNumberPatientsCT> "137" .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTduration> "12 - week" .
+<http://ctro/data#AllocationRatio_47690> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_47690> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasConclusionComment> "Latanoprost 0 . 005 % is not inferior ( i . e . , is either more or similarly effective ) to timolol and produces clinically relevant IOP reductions across pediatric patients with and without PCG ." .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasArm> <http://ctro/data#Arm_47723> .
+<http://ctro/data#Glaucoma_47695> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47695> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasPopulation> <http://ctro/data#Population_47709> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_53487> .
+<http://ctro/data#EvidenceQuality_47698> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasFinalNumberPatientsCT> "125" .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasConclusionComment> "Both latanoprost and timolol had favorable safety profiles over the duration of this 3 - month trial ." .
+<http://ctro/data#Glaucoma_47707> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47707> .
+<http://ctro/data#Glaucoma_47708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_47708> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasArm> <http://ctro/data#Arm_47778> .
+<http://ctro/data#DiffBetweenGroups_53551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_53552> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#ClinicalTrial_47686> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_102106> .
+# RDF export of group: Population
+<http://ctro/data#Population_47709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_47709> <http://www.w3.org/2000/01/rdf-schema#label> "Population 47709" .
+<http://ctro/data#Population_47709> <http://ctro/data#hasPrecondition> "pediatric patients with glaucoma" .
+<http://ctro/data#Ethnicity_47711> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_47709> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Population_47709> <http://ctro/data#hasMaxAge> "18 years" .
+<http://ctro/data#Population_47709> <http://ctro/data#hasAvgAge> "8 . 8" .
+<http://ctro/data#Gender_47716> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+<http://ctro/data#Population_47709> <http://ctro/data#hasPrecondition> "Individuals aged ≤ 18 years with glaucoma" .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_47718> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_47718> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint_diurnalIOP" .
+<http://ctro/data#Endpoint_47718> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_47720> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_47718> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_47720> .
+<http://ctro/data#Endpoint_47718> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_47722> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_98705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_98705> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-ResponseRate" .
+<http://ctro/data#EndPointDescription_98706> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_98705> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98706> .
+<http://ctro/data#AggregationMethod_98707> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_98708> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_98709> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_47723> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_47723> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 47723 Latanoprost and vehicle" .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_47772> .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_47788> .
+<http://ctro/data#Outcome_47728> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_47732> .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_47843> .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102115> .
+<http://ctro/data#Arm_47723> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102142> .
+<http://ctro/data#Arm_47778> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_47778> <http://www.w3.org/2000/01/rdf-schema#label> "Arm 47778 Timolol" .
+<http://ctro/data#Arm_47778> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_47738> .
+<http://ctro/data#Arm_47778> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_47816> .
+<http://ctro/data#Outcome_47783> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_47778> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_47870> .
+<http://ctro/data#Arm_47778> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102169> .
+<http://ctro/data#Arm_47778> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_102196> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_47732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_47732> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 47732 Latanoprost vehicle" .
+<http://ctro/data#Intervention_47732> <http://ctro/data#hasMedication> <http://ctro/data#Medication_47750> .
+<http://ctro/data#RelativeTime_47737> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_47738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_47738> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 47738 Timolol" .
+<http://ctro/data#Intervention_47738> <http://ctro/data#hasMedication> <http://ctro/data#Medication_47764> .
+<http://ctro/data#Intervention_47738> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#Intervention_47738> <http://ctro/data#hasDuration> "12 - week" .
+<http://ctro/data#RelativeTime_47743> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_47772> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_47772> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention 47772 Latanoprost" .
+<http://ctro/data#Intervention_47772> <http://ctro/data#hasMedication> <http://ctro/data#Medication_47757> .
+<http://ctro/data#RelativeTime_47777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_47750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_47750> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 47750 latanoprost vehicle" .
+<http://ctro/data#Latanoprost_47751> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_47750> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_47751> .
+<http://ctro/data#BioAndMedicalUnit_47753> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_47754> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_47757> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_47757> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 47757 latanoprost" .
+<http://ctro/data#Latanoprost_47758> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_47757> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_47758> .
+<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_47757> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_47761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_47764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_47764> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 47764 timolol" .
+<http://ctro/data#Medication_47764> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_47764> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_47768> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_47764> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_47788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_47788> <http://www.w3.org/2000/01/rdf-schema#label> "DiurnalIOP_Latanoprost" .
+<http://ctro/data#Outcome_47788> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_47718> .
+<http://ctro/data#Outcome_47788> <http://ctro/data#hasBaselineValue> "27 . 7" .
+<http://ctro/data#Outcome_47788> <http://ctro/data#hasSdDevBL> "6 . 17" .
+<http://ctro/data#Outcome_47788> <http://ctro/data#hasChangeValue> "7 . 2" .
+<http://ctro/data#Outcome_47788> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_47816> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_47816> <http://www.w3.org/2000/01/rdf-schema#label> "DiurnalIOP_Timolol" .
+<http://ctro/data#Outcome_47816> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_47718> .
+<http://ctro/data#Outcome_47816> <http://ctro/data#hasBaselineValue> "27 . 7" .
+<http://ctro/data#Outcome_47816> <http://ctro/data#hasSdDevBL> "6 . 17" .
+<http://ctro/data#Outcome_47816> <http://ctro/data#hasChangeValue> "5 . 7" .
+<http://ctro/data#Outcome_47816> <http://ctro/data#hasTimePoint> "week 12" .
+<http://ctro/data#Outcome_47843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_47843> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 47843 responder rate Latanoprost" .
+<http://ctro/data#Outcome_47843> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_47843> <http://ctro/data#hasPercentageAffected> "60" .
+<http://ctro/data#Outcome_47870> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_47870> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome 47870 responder rate Timolol" .
+<http://ctro/data#Outcome_47870> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_47870> <http://ctro/data#hasPercentageAffected> "52" .
+<http://ctro/data#Outcome_102115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102115> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_Responder_lat_pcg" .
+<http://ctro/data#Outcome_102115> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_102115> <http://ctro/data#hasPercentageAffected> "50" .
+<http://ctro/data#Outcome_102115> <http://ctro/data#hasSubGroupDescription> "PCG group" .
+<http://ctro/data#Outcome_102142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102142> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_Respond_lat_npcg" .
+<http://ctro/data#Outcome_102142> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_102142> <http://ctro/data#hasPercentageAffected> "72" .
+<http://ctro/data#Outcome_102142> <http://ctro/data#hasSubGroupDescription> "non - PCG group" .
+<http://ctro/data#Outcome_102169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102169> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_Responder_tim_pcg" .
+<http://ctro/data#Outcome_102169> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_102169> <http://ctro/data#hasPercentageAffected> "46" .
+<http://ctro/data#Outcome_102169> <http://ctro/data#hasSubGroupDescription> "PCG group" .
+<http://ctro/data#Outcome_102196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_102196> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_Responder_tim_npcg" .
+<http://ctro/data#Outcome_102196> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_98705> .
+<http://ctro/data#Outcome_102196> <http://ctro/data#hasPercentageAffected> "57" .
+<http://ctro/data#Outcome_102196> <http://ctro/data#hasSubGroupDescription> "non - PCG group" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_53487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_53487> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups 53487 Diurnal IOP" .
+<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasDiffGroupAbsValue> "1 . 5" .
+<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasPvalueDiff> "P = 0 . 21" .
+<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasConfIntervalDiff> "95 % CI , - 0 . 8 to 3 . 7" .
+<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_47788> .
+<http://ctro/data#DiffBetweenGroups_53487> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_47816> .
+<http://ctro/data#DiffBetweenGroups_102106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_102106> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups_Responder" .
+<http://ctro/data#DiffBetweenGroups_102106> <http://ctro/data#hasPvalueDiff> "P = 0 . 33" .
+<http://ctro/data#DiffBetweenGroups_102106> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_47843> .
+<http://ctro/data#DiffBetweenGroups_102106> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_47870> .
+# RDF export of group: EvidenceQuality

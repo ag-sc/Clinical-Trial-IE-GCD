@@ -1,0 +1,118 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+32101, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_81315> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2010", "", "<http://ctro/data#Publication_81315> <http://ctro/data#hasPublicationYear> \"2010\"."
+2, Bimatoprost, 114, 125, "Bimatoprost", "", 
+103, Title, 114, 223, "Bimatoprost versus travoprost in an Egyptian population : a hospital - based prospective , randomized study .", "", "<http://ctro/data#Publication_81315> <http://ctro/data#hasTitle> \"Bimatoprost versus travoprost in an Egyptian population : a hospital - based prospective , randomized study .\"."
+37003, Travoprost, 133, 143, "travoprost", "", 
+37002, Prospective, 191, 202, "prospective", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+3, Randomized, 205, 215, "randomized", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, Author, 224, 232, "Macky TA", "", "<http://ctro/data#Publication_81315> <http://ctro/data#hasAuthor> \"Macky TA\"."
+5, Egypt, 349, 354, "Egypt", "", "<http://ctro/data#Population_81340> <http://ctro/data#hasCountry> <http://ctro/data#Egypt>."
+109, ObjectiveDescription, 392, 515, "To compare the efficacy of bimatoprost and travoprost on intraocular pressure ( IOP ) reduction in an Egyptian population .", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy of bimatoprost and travoprost on intraocular pressure ( IOP ) reduction in an Egyptian population .\"."
+6, Bimatoprost, 419, 430, "bimatoprost", "", 
+32083, Travoprost, 435, 445, "travoprost", "", 
+7, IOP, 449, 469, "intraocular pressure", "", "<http://ctro/data#IOP_81349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_81348> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_81349>."
+8, IOP, 472, 475, "IOP", "", 
+106360, Precondition, 526, 592, "Patients with primary open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_81340> <http://ctro/data#hasPrecondition> \"Patients with primary open - angle glaucoma or ocular hypertension\"."
+32091, Primary_OpenAngleGlaucoma, 540, 569, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+12, OcularHypertension, 573, 592, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+13, Randomized, 598, 608, "randomized", "", 
+14, Bimatoprost, 627, 638, "bimatoprost", "", "<http://ctro/data#Medication_81393> <http://ctro/data#hasDrug> <http://ctro/data#Bimatoprost>."
+16, DoseValue, 639, 645, "0 . 03", "", "<http://ctro/data#Medication_81393> <http://ctro/data#hasDoseValue> \"0 . 03\"."
+18, Percentage, 646, 647, "%", "", "<http://ctro/data#Medication_81393> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+32095, Travoprost, 651, 661, "travoprost", "", "<http://ctro/data#Medication_81400> <http://ctro/data#hasDrug> <http://ctro/data#Travoprost>."
+17, DoseValue, 662, 669, "0 . 004", "", "<http://ctro/data#Medication_81400> <http://ctro/data#hasDoseValue> \"0 . 004\"."
+19, Percentage, 670, 671, "%", "", "<http://ctro/data#Medication_81400> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+15, Frequency, 672, 682, "once daily", "", "<http://ctro/data#Intervention_81381> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_81387> <http://ctro/data#hasFrequency> \"once daily\"."
+32092, IOP, 685, 689, "IOPs", "", 
+121, TimePoint, 707, 715, "baseline", "", 
+122, TimePoint, 718, 725, "2 weeks", "", 
+32105, TimePoint, 732, 756, "1 , 2 , 4 , and 6 months", "", 
+106242, TimePoint, 736, 756, "2 , 4 , and 6 months", "", 
+106243, TimePoint, 740, 756, "4 , and 6 months", "", 
+106244, TimePoint, 748, 756, "6 months", "", 
+32096, MeasurementDevice, 763, 793, "Goldman applanation tonometery", "", "<http://ctro/data#MeasurementDevice_81352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_81348> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_81352>. <http://ctro/data#MeasurementDevice_81357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_81353> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_81357>. <http://ctro/data#MeasurementDevice_81362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_81358> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_81362>."
+127, NumberPatientsCT, 806, 819, "Seventy - two", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#hasNumberPatientsCT> \"Seventy - two\"."
+128, NumberPatientsArm, 845, 847, "34", "", "<http://ctro/data#Arm_81363> <http://ctro/data#hasNumberPatientsArm> \"34\"."
+129, NumberPatientsArm, 852, 854, "38", "", "<http://ctro/data#Arm_81372> <http://ctro/data#hasNumberPatientsArm> \"38\"."
+32102, PvalueDiff, 857, 870, "P  =  0 . 142", "", 
+32097, TimePoint, 880, 888, "baseline", "", 
+25, Mean, 889, 893, "mean", "", "<http://ctro/data#Mean_81350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_81348> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_81350>."
+26, IOP, 894, 897, "IOP", "", 
+27, BaseLineValue, 902, 909, "26 . 52", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasBaselineValue> \"26 . 52\". <http://ctro/data#Outcome_81470> <http://ctro/data#hasBaselineValue> \"26 . 52\"."
+29, SdDevBL, 914, 921, "5 . 185", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasSdDevBL> \"5 . 185\". <http://ctro/data#Outcome_81470> <http://ctro/data#hasSdDevBL> \"5 . 185\"."
+28, BaseLineValue, 926, 933, "26 . 36", "", "<http://ctro/data#Outcome_81434> <http://ctro/data#hasBaselineValue> \"26 . 36\". <http://ctro/data#Outcome_81497> <http://ctro/data#hasBaselineValue> \"26 . 36\"."
+30, SdDevBL, 938, 945, "1 . 605", "", "<http://ctro/data#Outcome_81434> <http://ctro/data#hasSdDevBL> \"1 . 605\". <http://ctro/data#Outcome_81497> <http://ctro/data#hasSdDevBL> \"1 . 605\"."
+31, mmHg, 948, 953, "mm Hg", "", "<http://ctro/data#Endpoint_81348> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+32098, PvalueDiff, 956, 969, "P  =  0 . 629", "", 
+33, Bimatoprost, 976, 987, "bimatoprost", "", 
+32094, Travoprost, 992, 1002, "travoprost", "", 
+34, Eyedrops, 1025, 1030, "drops", "", "<http://ctro/data#Medication_81393> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_81400> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+35, IOP, 1066, 1069, "IOP", "", 
+140, PValueChangeValue, 1111, 1124, "P  <  0 . 001", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\". <http://ctro/data#Outcome_81434> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\". <http://ctro/data#Outcome_81470> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\". <http://ctro/data#Outcome_81497> <http://ctro/data#hasPValueChangeValue> \"P  <  0 . 001\"."
+37, Bimatoprost, 1129, 1140, "Bimatoprost", "", 
+38, Mean, 1177, 1181, "mean", "", 
+39, IOP, 1182, 1185, "IOP", "", 
+32093, Travoprost, 1216, 1226, "travoprost", "", 
+42, Mean, 1243, 1247, "Mean", "", 
+43, IOP, 1248, 1251, "IOP", "", 
+44, Reduction, 1267, 1273, "8 . 77", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasChangeValue> \"8 . 77\"."
+46, mmHg, 1276, 1281, "mm Hg", "", 
+48, RelativeReduction, 1284, 1291, "33 . 39", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasRelativeChangeValue> \"33 . 39\"."
+45, Reduction, 1300, 1306, "8 . 42", "", "<http://ctro/data#Outcome_81434> <http://ctro/data#hasChangeValue> \"8 . 42\"."
+47, mmHg, 1309, 1314, "mm Hg", "", 
+49, RelativeReduction, 1317, 1324, "31 . 54", "", "<http://ctro/data#Outcome_81434> <http://ctro/data#hasRelativeChangeValue> \"31 . 54\"."
+50, TimePoint, 1332, 1339, "2 weeks", "", "<http://ctro/data#Outcome_81407> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_81434> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+51, PvalueDiff, 1342, 1355, "P  =  0 . 703", "", "<http://ctro/data#DiffBetweenGroups_81461> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 703\"."
+52, Reduction, 1364, 1370, "8 . 47", "", "<http://ctro/data#Outcome_81470> <http://ctro/data#hasChangeValue> \"8 . 47\"."
+56, mmHg, 1373, 1378, "mm Hg", "", 
+54, RelativeReduction, 1381, 1388, "31 . 61", "", "<http://ctro/data#Outcome_81470> <http://ctro/data#hasRelativeChangeValue> \"31 . 61\"."
+53, Reduction, 1397, 1403, "7 . 84", "", "<http://ctro/data#Outcome_81470> <http://ctro/data#hasChangeValue> \"8 . 47\"."
+57, mmHg, 1406, 1411, "mm Hg", "", 
+55, RelativeReduction, 1414, 1421, "29 . 50", "", "<http://ctro/data#Outcome_81497> <http://ctro/data#hasRelativeChangeValue> \"29 . 50\"."
+58, TimePoint, 1429, 1437, "6 months", "", "<http://ctro/data#Outcome_81470> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_81497> <http://ctro/data#hasTimePoint> \"6 months\"."
+59, PvalueDiff, 1440, 1453, "P  =  0 . 536", "", "<http://ctro/data#DiffBetweenGroups_81524> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 536\"."
+60, Bimatoprost, 1460, 1471, "bimatoprost", "", 
+32103, Travoprost, 1476, 1486, "travoprost", "", 
+32104, IOP, 1504, 1508, "IOPs", "", 
+62, TimePoint, 1512, 1519, "2 weeks", "", "<http://ctro/data#Outcome_81533> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_81596> <http://ctro/data#hasTimePoint> \"2 weeks\". <http://ctro/data#Outcome_81623> <http://ctro/data#hasTimePoint> \"2 weeks\"."
+32107, EndPointDescription, 1525, 1537, "≤ 18   mm Hg", "IOP", "<http://ctro/data#EndPointDescription_81354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_81353> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_81354>."
+63, mmHg, 1532, 1537, "mm Hg", "", "<http://ctro/data#Endpoint_81353> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+71, NumberAffected, 1541, 1543, "20", "", "<http://ctro/data#Outcome_81533> <http://ctro/data#hasNumberAffected> \"20\"."
+79, PercentageAffected, 1546, 1552, "58 . 8", "", "<http://ctro/data#Outcome_81533> <http://ctro/data#hasPercentageAffected> \"58 . 8\"."
+73, NumberAffected, 1564, 1566, "19", "", "<http://ctro/data#Outcome_81560> <http://ctro/data#hasNumberAffected> \"19\"."
+80, PercentageAffected, 1569, 1571, "50", "", "<http://ctro/data#Outcome_81560> <http://ctro/data#hasPercentageAffected> \"50\"."
+87, PvalueDiff, 1583, 1596, "P  =  0 . 603", "", "<http://ctro/data#DiffBetweenGroups_81587> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 603\"."
+32109, EndPointDescription, 1605, 1617, "≤ 16   mm Hg", "IOP", "<http://ctro/data#EndPointDescription_81359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_81358> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_81359>."
+66, mmHg, 1612, 1617, "mm Hg", "", "<http://ctro/data#Endpoint_81358> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+72, NumberAffected, 1621, 1623, "12", "", "<http://ctro/data#Outcome_81596> <http://ctro/data#hasNumberAffected> \"12\"."
+81, PercentageAffected, 1626, 1628, "35", "", "<http://ctro/data#Outcome_81596> <http://ctro/data#hasPercentageAffected> \"35\"."
+74, NumberAffected, 1640, 1642, "12", "", "<http://ctro/data#Outcome_81623> <http://ctro/data#hasNumberAffected> \"12\"."
+82, PercentageAffected, 1645, 1647, "32", "", "<http://ctro/data#Outcome_81623> <http://ctro/data#hasPercentageAffected> \"32\"."
+88, PvalueDiff, 1659, 1672, "P  =  0 . 456", "", "<http://ctro/data#DiffBetweenGroups_81650> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 456\"."
+91, TimePoint, 1684, 1692, "6 months", "", "<http://ctro/data#Outcome_81659> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_81686> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_81722> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_81749> <http://ctro/data#hasTimePoint> \"6 months\"."
+32108, EndPointDescription, 1693, 1705, "≤ 18   mm Hg", "IOP", 
+67, mmHg, 1700, 1705, "mm Hg", "", 
+75, NumberAffected, 1709, 1711, "22", "", "<http://ctro/data#Outcome_81659> <http://ctro/data#hasNumberAffected> \"22\"."
+83, PercentageAffected, 1714, 1716, "65", "", "<http://ctro/data#Outcome_81659> <http://ctro/data#hasPercentageAffected> \"65\"."
+76, NumberAffected, 1728, 1730, "14", "", "<http://ctro/data#Outcome_81686> <http://ctro/data#hasNumberAffected> \"14\"."
+84, PercentageAffected, 1733, 1735, "37", "", "<http://ctro/data#Outcome_81686> <http://ctro/data#hasPercentageAffected> \"37\"."
+89, PvalueDiff, 1747, 1760, "P  =  0 . 045", "", "<http://ctro/data#DiffBetweenGroups_81713> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 045\"."
+32110, EndPointDescription, 1769, 1781, "≤ 16   mm Hg", "IOP", 
+68, mmHg, 1776, 1781, "mm Hg", "", 
+77, NumberAffected, 1785, 1787, "12", "", "<http://ctro/data#Outcome_81722> <http://ctro/data#hasNumberAffected> \"12\"."
+85, PercentageAffected, 1790, 1792, "35", "", "<http://ctro/data#Outcome_81722> <http://ctro/data#hasPercentageAffected> \"35\"."
+78, NumberAffected, 1804, 1805, "7", "", "<http://ctro/data#Outcome_81749> <http://ctro/data#hasNumberAffected> \"7\"."
+86, PercentageAffected, 1808, 1810, "18", "", "<http://ctro/data#Outcome_81749> <http://ctro/data#hasPercentageAffected> \"18\"."
+90, PvalueDiff, 1822, 1835, "P  =  0 . 037", "", "<http://ctro/data#DiffBetweenGroups_81776> <http://ctro/data#hasPvalueDiff> \"P  =  0 . 037\"."
+92, Bimatoprost, 1842, 1853, "bimatoprost", "", 
+32106, Travoprost, 1858, 1868, "travoprost", "", 
+94, ObservedResult, 1886, 1956, "Ocular adverse and clinical success occurred equally with both drops .", "", 
+93, Eyedrops, 1949, 1954, "drops", "", 
+99, ConclusionComment, 1970, 2094, "Both drops lowered IOP effectively but bimatoprost showed a greater non - significant reductions in mean IOP from baseline .", "", "<http://ctro/data#ClinicalTrial_81322> <http://ctro/data#hasConclusionComment> \"Both drops lowered IOP effectively but bimatoprost showed a greater non - significant reductions in mean IOP from baseline .\"."
+192, Eyedrops, 1975, 1980, "drops", "", 
+95, IOP, 1989, 1992, "IOP", "", 
+96, Bimatoprost, 2009, 2020, "bimatoprost", "", 
+97, Mean, 2070, 2074, "mean", "", 
+98, IOP, 2075, 2078, "IOP", "", 
+100, PMID, 2138, 2146, "21034177", "", "<http://ctro/data#Publication_81315> <http://ctro/data#hasPMID> \"21034177\"."

@@ -1,0 +1,91 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2014", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasPublicationYear> \"2014\"."
+25, Title, 107, 239, "Effect of the sodium glucose co - transporter 2 inhibitor canagliflozin on plasma volume in patients with type 2 diabetes mellitus .", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasTitle> \"Effect of the sodium glucose co - transporter 2 inhibitor canagliflozin on plasma volume in patients with type 2 diabetes mellitus .\"."
+79609, Canagliflozin, 165, 178, "canagliflozin", "", 
+11, EndPointDescription, 182, 195, "plasma volume", "", 
+23, Type2Diabetes, 213, 237, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+26, Author, 240, 245, "Sha S", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Sha S\"."
+27, Author, 254, 264, "Polidori D", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Polidori D\"."
+28, Author, 267, 274, "Heise T", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Heise T\"."
+29, Author, 277, 288, "Natarajan J", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Natarajan J\"."
+30, Author, 291, 300, "Farrell K", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Farrell K\"."
+31, Author, 303, 310, "Wang SS", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Wang SS\"."
+32, Author, 313, 319, "Sica D", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Sica D\"."
+33, Author, 322, 334, "Rothenberg P", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Rothenberg P\"."
+34, Author, 337, 356, "Plum - M ö rschel L", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasAuthor> \"Plum - M ö rschel L\"."
+35, USA, 440, 443, "USA", "", "<http://ctro/data#Population_60977> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+45, ObjectiveDescription, 452, 615, "To evaluate the effects of canagliflozin on plasma volume , urinary glucose excretion ( UGE ) , fasting plasma glucose ( FPG ) , glycated haemoglobin ( HbA1c ) and", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasObjectiveDescription> \"To evaluate the effects of canagliflozin on plasma volume , urinary glucose excretion ( UGE ) , fasting plasma glucose ( FPG ) , glycated haemoglobin ( HbA1c ) and\"."
+79611, Canagliflozin, 479, 492, "canagliflozin", "", 
+12, EndPointDescription, 496, 509, "plasma volume", "", 
+13, EndPointDescription, 512, 537, "urinary glucose excretion", "", 
+14, EndPointDescription, 540, 543, "UGE", "", 
+36, FastingPlasmaGlucose, 548, 570, "fasting plasma glucose", "", 
+37, FastingPlasmaGlucose, 573, 576, "FPG", "", 
+40, HbA1c, 581, 601, "glycated haemoglobin", "", 
+41, HbA1c, 604, 609, "HbA1c", "", 
+46, ObjectiveDescription, 616, 818, "additional measures of fluid / electrolyte balance in patients with type 2 diabetes on background therapy with metformin and angiotensin - converting enzyme inhibitors or angiotensin receptor blockers .", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasObjectiveDescription> \"additional measures of fluid / electrolyte balance in patients with type 2 diabetes on background therapy with metformin and angiotensin - converting enzyme inhibitors or angiotensin receptor blockers .\"."
+47, Precondition, 670, 816, "patients with type 2 diabetes on background therapy with metformin and angiotensin - converting enzyme inhibitors or angiotensin receptor blockers", "", "<http://ctro/data#Population_60977> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes on background therapy with metformin and angiotensin - converting enzyme inhibitors or angiotensin receptor blockers\"."
+24, Type2Diabetes, 684, 699, "type 2 diabetes", "", 
+43, Metformin, 727, 736, "metformin", "", 
+48, NumberPatientsCT, 844, 846, "36", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasNumberPatientsCT> \"36\"."
+49, Randomized, 854, 864, "randomized", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+50, AllocationRatio, 867, 872, "1 : 1", "", "<http://ctro/data#AllocationRatio_60965> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_60965>."
+79612, Canagliflozin, 886, 899, "canagliflozin", "", "<http://ctro/data#Medication_61015> <http://ctro/data#hasDrug> <http://ctro/data#Canagliflozin>."
+51, DoseValue, 900, 903, "300", "", "<http://ctro/data#Medication_61015> <http://ctro/data#hasDoseValue> \"300\"."
+52, mg, 904, 906, "mg", "", "<http://ctro/data#Medication_61015> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+54, Placebo, 910, 917, "placebo", "", "<http://ctro/data#Medication_61022> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+53, Duration, 922, 930, "12 weeks", "", "<http://ctro/data#Medication_61015> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+57, TimePoint, 977, 985, "baseline", "", 
+58, TimePoint, 993, 1000, "weeks 1", "", 
+59, TimePoint, 993, 1007, "weeks 1 and 12", "", 
+15, EndPointDescription, 1030, 1040, "24 - h UGE", "", "<http://ctro/data#EndPointDescription_61055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61054> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61055>."
+79614, Canagliflozin, 1057, 1070, "canagliflozin", "", 
+55, Placebo, 1110, 1117, "placebo", "", 
+60, TimePoint, 1132, 1138, "week 1", "", "<http://ctro/data#Outcome_61059> <http://ctro/data#hasTimePoint> \"week 1\". <http://ctro/data#Outcome_61086> <http://ctro/data#hasTimePoint> \"week 1\"."
+71, Increment, 1141, 1147, "91 . 8", "", "<http://ctro/data#Outcome_61059> <http://ctro/data#hasChangeValue> \"91 . 8\"."
+73, Reduction, 1155, 1160, "2 . 4", "", "<http://ctro/data#Outcome_61086> <http://ctro/data#hasChangeValue> \"2 . 4\"."
+75, Gram, 1161, 1162, "g", "", "<http://ctro/data#Endpoint_61054> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Gram>."
+61, TimePoint, 1169, 1176, "week 12", "", "<http://ctro/data#Outcome_61113> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_61140> <http://ctro/data#hasTimePoint> \"week 12\"."
+72, Increment, 1179, 1185, "82 . 6", "", "<http://ctro/data#Outcome_61113> <http://ctro/data#hasChangeValue> \"82 . 6\"."
+74, Reduction, 1193, 1198, "0 . 4", "", "<http://ctro/data#Outcome_61140> <http://ctro/data#hasChangeValue> \"0 . 4\"."
+76, Gram, 1199, 1200, "g", "", 
+79616, Canagliflozin, 1205, 1218, "Canagliflozin", "", 
+77, ObservedResult, 1224, 1231, "reduced", "", "<http://ctro/data#Outcome_61177> <http://ctro/data#hasObservedResult> \"reduced\". <http://ctro/data#Outcome_61204> <http://ctro/data#hasObservedResult> \"reduced\"."
+38, FastingPlasmaGlucose, 1237, 1240, "FPG", "", "<http://ctro/data#Endpoint_61167> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+42, HbA1c, 1245, 1250, "HbA1c", "", "<http://ctro/data#Endpoint_61172> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+78, ObservedResult, 1253, 1263, "Reductions", "", "<http://ctro/data#Outcome_61241> <http://ctro/data#hasObservedResult> \"Reductions\". <http://ctro/data#Outcome_61268> <http://ctro/data#hasObservedResult> \"Reductions\". <http://ctro/data#Outcome_61295> <http://ctro/data#hasObservedResult> \"Reductions\". <http://ctro/data#Outcome_61322> <http://ctro/data#hasObservedResult> \"Reductions\"."
+79, BodyWeight, 1267, 1278, "body weight", "", "<http://ctro/data#Endpoint_61231> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+80, BloodPressure, 1283, 1297, "blood pressure", "", "<http://ctro/data#BloodPressure_61237> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BloodPressure>. <http://ctro/data#Endpoint_61236> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BloodPressure_61237>."
+62, TimePoint, 1315, 1322, "weeks 1", "", "<http://ctro/data#Outcome_61241> <http://ctro/data#hasTimePoint> \"weeks 1\". <http://ctro/data#Outcome_61295> <http://ctro/data#hasTimePoint> \"weeks 1\"."
+63, TimePoint, 1315, 1329, "weeks 1 and 12", "", "<http://ctro/data#Outcome_61268> <http://ctro/data#hasTimePoint> \"weeks 1 and 12\". <http://ctro/data#Outcome_61322> <http://ctro/data#hasTimePoint> \"weeks 1 and 12\"."
+79621, Canagliflozin, 1332, 1345, "Canagliflozin", "", 
+16, EndPointDescription, 1356, 1369, "plasma volume", "", "<http://ctro/data#EndPointDescription_61350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61349> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61350>."
+56, Placebo, 1401, 1408, "placebo", "", 
+64, TimePoint, 1412, 1418, "week 1", "", "<http://ctro/data#Outcome_61354> <http://ctro/data#hasTimePoint> \"week 1\". <http://ctro/data#Outcome_61381> <http://ctro/data#hasTimePoint> \"week 1\"."
+75919, RelativeReduction, 1423, 1428, "5 . 4", "", "<http://ctro/data#Outcome_61354> <http://ctro/data#hasRelativeChangeValue> \"5 . 4\"."
+75997, RelativeIncrement, 1434, 1439, "4 . 3", "", "<http://ctro/data#Outcome_61381> <http://ctro/data#hasRelativeChangeValue> \"4 . 3\"."
+87, PvalueDiff, 1444, 1454, "p = 0 . 02", "", "<http://ctro/data#DiffBetweenGroups_61462> <http://ctro/data#hasPvalueDiff> \"p = 0 . 02\"."
+65, TimePoint, 1494, 1501, "week 12", "", "<http://ctro/data#Outcome_61408> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_61435> <http://ctro/data#hasTimePoint> \"week 12\"."
+75998, RelativeIncrement, 1504, 1509, "4 . 6", "", "<http://ctro/data#Outcome_61408> <http://ctro/data#hasRelativeChangeValue> \"4 . 6\"."
+75999, RelativeIncrement, 1515, 1520, "5 . 8", "", "<http://ctro/data#Outcome_61435> <http://ctro/data#hasRelativeChangeValue> \"5 . 8\"."
+88, PvalueDiff, 1525, 1535, "p = 0 . 76", "", "<http://ctro/data#DiffBetweenGroups_61471> <http://ctro/data#hasPvalueDiff> \"p = 0 . 76\"."
+89, ObservedResult, 1540, 1656, "A modest numerical increase in urine volume was observed with canagliflozin at week 1 that was attenuated at week 12", "", "<http://ctro/data#Outcome_61485> <http://ctro/data#hasObservedResult> \"A modest numerical increase in urine volume was observed with canagliflozin at week 1 that was attenuated at week 12\". <http://ctro/data#Outcome_61512> <http://ctro/data#hasObservedResult> \"A modest numerical increase in urine volume was observed with canagliflozin at week 1 that was attenuated at week 12\"."
+17, EndPointDescription, 1571, 1583, "urine volume", "", "<http://ctro/data#EndPointDescription_61481> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61480> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61481>."
+79618, Canagliflozin, 1602, 1615, "canagliflozin", "", 
+66, TimePoint, 1619, 1625, "week 1", "", "<http://ctro/data#Outcome_61485> <http://ctro/data#hasTimePoint> \"week 1\"."
+67, TimePoint, 1649, 1656, "week 12", "", "<http://ctro/data#Outcome_61512> <http://ctro/data#hasTimePoint> \"week 12\"."
+18, EndPointDescription, 1701, 1720, "blood urea nitrogen", "", 
+19, EndPointDescription, 1723, 1739, "serum creatinine", "", 
+20, EndPointDescription, 1744, 1755, "haematocrit", "", "<http://ctro/data#EndPointDescription_61550> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61549> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61550>."
+90, ObservedResult, 1758, 1785, "remained modestly increased", "", "<http://ctro/data#Outcome_61554> <http://ctro/data#hasObservedResult> \"remained modestly increased\". <http://ctro/data#Outcome_61581> <http://ctro/data#hasObservedResult> \"remained modestly increased\". <http://ctro/data#Outcome_61608> <http://ctro/data#hasObservedResult> \"remained modestly increased\"."
+79620, Canagliflozin, 1791, 1804, "canagliflozin", "", 
+68, TimePoint, 1808, 1815, "week 12", "", "<http://ctro/data#Outcome_61554> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_61581> <http://ctro/data#hasTimePoint> \"week 12\". <http://ctro/data#Outcome_61608> <http://ctro/data#hasTimePoint> \"week 12\"."
+79619, Canagliflozin, 1831, 1844, "Canagliflozin", "", 
+91, ConclusionComment, 1831, 1984, "Canagliflozin provided sustained effects on UGE and FPG over 12 weeks and a transient reduction in plasma volume that was largely attenuated by week 12 .", "", "<http://ctro/data#ClinicalTrial_60961> <http://ctro/data#hasConclusionComment> \"Canagliflozin provided sustained effects on UGE and FPG over 12 weeks and a transient reduction in plasma volume that was largely attenuated by week 12 .\"."
+21, EndPointDescription, 1875, 1878, "UGE", "", 
+39, FastingPlasmaGlucose, 1883, 1886, "FPG", "", 
+69, Duration, 1892, 1900, "12 weeks", "", 
+22, EndPointDescription, 1930, 1943, "plasma volume", "", 
+70, TimePoint, 1975, 1982, "week 12", "", 
+92, PMID, 2053, 2061, "24939043", "", "<http://ctro/data#Publication_60954> <http://ctro/data#hasPMID> \"24939043\"."

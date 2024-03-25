@@ -1,0 +1,99 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+160, Journal, 0, 15, "Diabetes Care .", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasJournal> \"Diabetes Care .\"."
+1, PublicationYear, 16, 20, "2003", "", 
+61, Title, 50, 180, "The treat - to - target trial : randomized addition of glargine or human NPH insulin to oral therapy of type 2 diabetic patients .", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasTitle> \"The treat - to - target trial : randomized addition of glargine or human NPH insulin to oral therapy of type 2 diabetic patients .\"."
+62, Randomized, 82, 92, "randomized", "", 
+18, InsulinGlargine, 105, 113, "glargine", "", 
+57, IsophaneInsulin_NPH, 117, 134, "human NPH insulin", "", 
+138, OralAntidiabeticAgent, 138, 150, "oral therapy", "", 
+10, Type2Diabetes, 154, 169, "type 2 diabetic", "", 
+2, Author, 181, 190, "Riddle MC", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> \"Riddle MC\"."
+3, Author, 199, 211, "Rosenstock J", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+4, Author, 214, 222, "Gerich J", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasAuthor> \"Gerich J\"."
+5, USA, 361, 364, "USA", "", "<http://ctro/data#Population_25526> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+162, ObjectiveDescription, 400, 569, "To compare the abilities and associated hypoglycemia risks of insulin glargine and human NPH insulin added to oral therapy of type 2 diabetes to achieve 7 % HbA ( 1c ) .", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasObjectiveDescription> \"To compare the abilities and associated hypoglycemia risks of insulin glargine and human NPH insulin added to oral therapy of type 2 diabetes to achieve 7 % HbA ( 1c ) .\"."
+32, Hypoglycemia, 440, 452, "hypoglycemia", "", 
+19, InsulinGlargine, 462, 478, "insulin glargine", "", 
+28, IsophaneInsulin_NPH, 483, 500, "human NPH insulin", "", "<http://ctro/data#Medication_25590> <http://ctro/data#hasDrug> <http://ctro/data#IsophaneInsulin_NPH>."
+139, OralAntidiabeticAgent, 510, 522, "oral therapy", "", 
+11, Type2Diabetes, 526, 541, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+150, HbA1c_target, 553, 567, "7 % HbA ( 1c )", "", 
+167, Percentage, 555, 556, "%", "", 
+86, HbA1c, 557, 567, "HbA ( 1c )", "", 
+13, Randomized, 605, 615, "randomized", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+14, OpenLabel, 618, 630, "open - label", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+15, Parallel, 633, 641, "parallel", "", 
+17, Duration, 644, 653, "24 - week", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTduration> \"24 - week\"."
+16, Multicenter, 654, 665, "multicenter", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+9, NumberPatientsCT, 674, 677, "756", "", 
+8, Precondition, 678, 786, "overweight men and women with inadequate glycemic control ( HbA ( 1c ) > 7 . 5 % ) on one or two oral agents", "", 
+6, Male, 689, 692, "men", "", "<http://ctro/data#Population_25526> <http://ctro/data#hasGender> <http://ctro/data#Male>."
+7, Female, 697, 702, "women", "", "<http://ctro/data#Population_25526> <http://ctro/data#hasGender> <http://ctro/data#Female>."
+151, HbA1c, 738, 748, "HbA ( 1c )", "", 
+152, Percentage, 757, 758, "%", "", 
+140, OralAntidiabeticAgent, 775, 786, "oral agents", "", 
+141, OralAntidiabeticAgent, 806, 817, "oral agents", "", 
+51222, Bedtime, 831, 838, "bedtime", "", "<http://ctro/data#Intervention_25578> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#Bedtime>."
+20, InsulinGlargine, 839, 847, "glargine", "", 
+29, IsophaneInsulin_NPH, 851, 854, "NPH", "", 
+34, Frequency, 855, 865, "once daily", "", "<http://ctro/data#Intervention_25578> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_25584> <http://ctro/data#hasFrequency> \"once daily\"."
+60991, DoseDescription, 868, 989, "titrated using a simple algorithm seeking a target fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l ) .", "", "<http://ctro/data#Medication_19620> <http://ctro/data#hasDoseDescription> \"titrated using a simple algorithm seeking a target fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l ) .\". <http://ctro/data#Medication_25590> <http://ctro/data#hasDoseDescription> \"titrated using a simple algorithm seeking a target fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l ) .\"."
+142, FastingPlasmaGlucose_target, 919, 987, "fasting plasma glucose ( FPG ) < or = 100 mg / dl ( 5 . 5 mmol / l )", "", 
+85, Mg_per_deciliter, 961, 968, "mg / dl", "", 
+87, Millimoles_per_litre, 977, 985, "mmol / l", "", 
+35, FastingPlasmaGlucose, 1012, 1015, "FPG", "", 
+36, HbA1c, 1018, 1028, "HbA ( 1c )", "", 
+37, Hypoglycemia, 1031, 1043, "hypoglycemia", "", 
+153, HbA1c_target, 1082, 1147, "HbA ( 1c ) < or = 7 % without documented nocturnal hypoglycemia .", "", 
+38, NocturnalHypoglycemia, 1123, 1145, "nocturnal hypoglycemia", "", 
+149, Mean, 1158, 1162, "Mean", "", 
+39, FastingPlasmaGlucose, 1163, 1166, "FPG", "", "<http://ctro/data#Endpoint_25535> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+154, TimePoint, 1170, 1179, "end point", "", 
+21, InsulinGlargine, 1197, 1205, "glargine", "", 
+30, IsophaneInsulin_NPH, 1210, 1213, "NPH", "", 
+41, ResultMeasuredValue, 1216, 1219, "117", "", "<http://ctro/data#Outcome_25604> <http://ctro/data#hasResultMeasuredValue> \"117\"."
+42, ResultMeasuredValue, 1225, 1228, "120", "", "<http://ctro/data#Outcome_25631> <http://ctro/data#hasResultMeasuredValue> \"120\"."
+96, Mg_per_deciliter, 1229, 1236, "mg / dl", "", "<http://ctro/data#Endpoint_25535> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Mg_per_deciliter>."
+43, ResultMeasuredValue, 1239, 1244, "6 . 5", "", 
+44, ResultMeasuredValue, 1250, 1255, "6 . 7", "", 
+45, Millimoles_per_litre, 1256, 1264, "mmol / l", "", 
+40, HbA1c, 1278, 1288, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_25540> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+46, ResultMeasuredValue, 1291, 1297, "6 . 96", "", "<http://ctro/data#Outcome_25658> <http://ctro/data#hasResultMeasuredValue> \"6 . 96\"."
+47, ResultMeasuredValue, 1303, 1309, "6 . 97", "", "<http://ctro/data#Outcome_25685> <http://ctro/data#hasResultMeasuredValue> \"6 . 97\"."
+103, Percentage, 1310, 1311, "%", "", "<http://ctro/data#Endpoint_25540> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+48, PercentageAffected, 1355, 1357, "60", "", "<http://ctro/data#Outcome_25807> <http://ctro/data#hasPercentageAffected> \"60\"."
+155, HbA1c_target, 1371, 1392, "HbA ( 1c ) < or = 7 %", "", "<http://ctro/data#Endpoint_25545> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+27, Insulin, 1403, 1410, "insulin", "", 
+106, DiffGroupRelValue, 1435, 1437, "25", "", "<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasDiffGroupRelValue> \"25\"."
+117, Percentage, 1438, 1439, "%", "", 
+107, NocturnalHypoglycemia, 1487, 1550, "nocturnal hypoglycemia ( < or = 72 mg / dl [ 4 . 0 mmol / l ] )", "", "<http://ctro/data#Endpoint_25550> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#NocturnalHypoglycemia>."
+156, Mg_per_deciliter, 1522, 1529, "mg / dl", "", 
+157, Millimoles_per_litre, 1538, 1546, "mmol / l", "", 
+22, InsulinGlargine, 1556, 1564, "glargine", "", 
+50, PercentageAffected, 1567, 1573, "33 . 2", "", "<http://ctro/data#Outcome_25712> <http://ctro/data#hasPercentageAffected> \"33 . 2\"."
+51, PercentageAffected, 1579, 1585, "26 . 7", "", "<http://ctro/data#Outcome_25739> <http://ctro/data#hasPercentageAffected> \"26 . 7\"."
+52, PvalueDiff, 1590, 1600, "P < 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasPvalueDiff> \"P < 0 . 05\"."
+92973, ObservedResult, 1616, 1704, "rates of other categories of symptomatic hypoglycemia were 21 - 48 % lower with glargine", "", 
+53, SymptomaticHypoglycemia, 1645, 1669, "symptomatic hypoglycemia", "", "<http://ctro/data#DiffBetweenGroups_25766> <http://ctro/data#hasPvalueDiff> \"P < 0 . 05\"."
+118, Percentage, 1683, 1684, "%", "", 
+23, InsulinGlargine, 1696, 1704, "glargine", "", 
+163, ConclusionComment, 1721, 1947, "Systematically titrating bedtime basal insulin added to oral therapy can safely achieve 7 % HbA ( 1c ) in a majority of overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone .", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> \"Systematically titrating bedtime basal insulin added to oral therapy can safely achieve 7 % HbA ( 1c ) in a majority of overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone .\"."
+51223, Bedtime, 1746, 1753, "bedtime", "", 
+121, Insulin, 1754, 1767, "basal insulin", "", 
+146, OralAntidiabeticAgent, 1777, 1789, "oral therapy", "", 
+58, HbA1c_target, 1809, 1823, "7 % HbA ( 1c )", "", 
+123, Percentage, 1811, 1812, "%", "", 
+122, HbA1c, 1813, 1823, "HbA ( 1c )", "", 
+148, Precondition, 1841, 1945, "overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone", "", "<http://ctro/data#Population_25526> <http://ctro/data#hasPrecondition> \"overweight patients with type 2 diabetes with HbA ( 1c ) between 7 . 5 and 10 . 0 % on oral agents alone\"."
+12, Type2Diabetes, 1866, 1881, "type 2 diabetes", "", 
+55, HbA1c, 1887, 1897, "HbA ( 1c )", "", 
+159, Percentage, 1923, 1924, "%", "", 
+147, OralAntidiabeticAgent, 1928, 1939, "oral agents", "", 
+164, ConclusionComment, 1948, 2088, "In doing this , glargine causes significantly less nocturnal hypoglycemia than NPH , thus reducing a leading barrier to initiating insulin .", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> \"In doing this , glargine causes significantly less nocturnal hypoglycemia than NPH , thus reducing a leading barrier to initiating insulin .\"."
+24, InsulinGlargine, 1964, 1972, "glargine", "", 
+56, NocturnalHypoglycemia, 1999, 2021, "nocturnal hypoglycemia", "", 
+31, IsophaneInsulin_NPH, 2027, 2030, "NPH", "", 
+26, Insulin, 2079, 2086, "insulin", "", 
+165, ConclusionComment, 2089, 2253, "This simple regimen may facilitate earlier and effective insulin use in routine medical practice , improving achievement of recommended standards of diabetes care .", "", "<http://ctro/data#ClinicalTrial_25490> <http://ctro/data#hasConclusionComment> \"This simple regimen may facilitate earlier and effective insulin use in routine medical practice , improving achievement of recommended standards of diabetes care .\"."
+25, Insulin, 2146, 2153, "insulin", "", 
+92974, PMID, 2304, 2312, "14578243", "", "<http://ctro/data#Publication_25480> <http://ctro/data#hasPMID> \"14578243\"."

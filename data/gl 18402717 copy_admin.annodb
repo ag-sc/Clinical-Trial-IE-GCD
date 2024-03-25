@@ -1,0 +1,111 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+15, Journal, 0, 17, "Curr Med Res Opin", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasJournal> \"Curr Med Res Opin\"."
+16, PublicationYear, 20, 24, "2008", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasPublicationYear> \"2008\"."
+56, Brimonidine, 109, 127, "Brimonidine purite", "", 
+17, Title, 109, 247, "Brimonidine purite 0 . 1 % versus brinzolamide 1 % as adjunctive therapy to latanoprost in patients with glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasTitle> \"Brimonidine purite 0 . 1 % versus brinzolamide 1 % as adjunctive therapy to latanoprost in patients with glaucoma or ocular hypertension .\"."
+59, DoseValue, 128, 133, "0 . 1", "", 
+61, Percentage, 134, 135, "%", "", 
+57, Brinzolamide, 143, 155, "brinzolamide", "", 
+60, DoseValue, 156, 157, "1", "", 
+62, Percentage, 158, 159, "%", "", 
+58, Latanoprost, 185, 196, "latanoprost", "", 
+18, Glaucoma, 214, 222, "glaucoma", "", "<http://ctro/data#Glaucoma_104775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_104766> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_104775>."
+19, OcularHypertension, 226, 245, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+20, Author, 248, 254, "Day DG", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasAuthor> \"Day DG\"."
+21, Author, 263, 275, "Hollander DA", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasAuthor> \"Hollander DA\"."
+22, USA, 340, 343, "USA", "", 
+23, ObjectiveDescription, 384, 597, "To evaluate the efficacy and tolerability of brimonidine purite 0 . 1 % in comparison to brinzolamide 1 % when used as adjunctive therapy to latanoprost 0 . 005 % in patients with glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasObjectiveDescription> \"To evaluate the efficacy and tolerability of brimonidine purite 0 . 1 % in comparison to brinzolamide 1 % when used as adjunctive therapy to latanoprost 0 . 005 % in patients with glaucoma or ocular hypertension .\"."
+63, Brimonidine, 429, 447, "brimonidine purite", "", "<http://ctro/data#Medication_104820> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+65, DoseValue, 448, 453, "0 . 1", "", "<http://ctro/data#Medication_104820> <http://ctro/data#hasDoseValue> \"0 . 1\"."
+67, Percentage, 454, 455, "%", "", "<http://ctro/data#Medication_104820> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+64, Brinzolamide, 473, 485, "brinzolamide", "", "<http://ctro/data#Medication_104827> <http://ctro/data#hasDrug> <http://ctro/data#Brinzolamide>."
+66, DoseValue, 486, 487, "1", "", "<http://ctro/data#Medication_104827> <http://ctro/data#hasDoseValue> \"1\"."
+68, Percentage, 488, 489, "%", "", "<http://ctro/data#Medication_104827> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+116, Latanoprost, 525, 536, "latanoprost", "", 
+24, DoseValue, 537, 544, "0 . 005", "", 
+25, Percentage, 545, 546, "%", "", 
+26, Glaucoma, 564, 572, "glaucoma", "", 
+27, OcularHypertension, 576, 595, "ocular hypertension", "", 
+69, Randomized, 608, 618, "Randomized", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+28, SingleCenter, 621, 636, "single - center", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasCTDesign> <http://ctro/data#SingleCenter>."
+35544, Blind, 654, 660, "masked", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+30, Parallel, 663, 671, "parallel", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+32, Precondition, 711, 763, "IOP > or = 18 mmHg while on once - daily latanoprost", "", "<http://ctro/data#Population_104782> <http://ctro/data#hasPrecondition> \"IOP > or = 18 mmHg while on once - daily latanoprost\"."
+31, IOP, 711, 714, "IOP", "", 
+33, mmHg, 725, 729, "mmHg", "", 
+34, Frequency, 739, 751, "once - daily", "", "<http://ctro/data#Intervention_104841> <http://ctro/data#hasFrequency> \"once - daily\"."
+70, Latanoprost, 752, 763, "latanoprost", "", "<http://ctro/data#Latanoprost_104835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_104834> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_104835>."
+71, Randomized, 769, 779, "randomized", "", 
+72, Brimonidine, 809, 827, "brimonidine purite", "", 
+35, Frequency, 828, 831, "TID", "", "<http://ctro/data#Intervention_104808> <http://ctro/data#hasFrequency> \"TID\"."
+36, NumberPatientsArm, 838, 840, "20", "", "<http://ctro/data#Arm_104790> <http://ctro/data#hasNumberPatientsArm> \"20\"."
+73, Brinzolamide, 846, 858, "brinzolamide", "", 
+37, Frequency, 859, 862, "TID", "", "<http://ctro/data#Intervention_104814> <http://ctro/data#hasFrequency> \"TID\"."
+38, NumberPatientsArm, 869, 871, "20", "", "<http://ctro/data#Arm_104799> <http://ctro/data#hasNumberPatientsArm> \"20\"."
+39, Duration, 878, 886, "3 months", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasCTduration> \"3 months\"."
+40, IOP, 889, 909, "Intraocular pressure", "", 
+41, IOP, 912, 915, "IOP", "", 
+74, Latanoprost, 976, 987, "latanoprost", "", 
+76, TimePoint, 998, 1006, "baseline", "", 
+75, TimePoint, 1017, 1031, "1 and 3 months", "", 
+37059, TimePoint, 1023, 1031, "3 months", "", 
+77, Latanoprost, 1035, 1046, "latanoprost", "", 
+42, Eyedrops, 1145, 1153, "eye drop", "", "<http://ctro/data#Medication_104820> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_104827> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+43, Mean, 1188, 1192, "mean", "", "<http://ctro/data#Mean_104860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_104858> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_104860>."
+78, Diurnal_IOP, 1193, 1204, "diurnal IOP", "", "<http://ctro/data#Endpoint_104858> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+1, mmHg, 1234, 1238, "mmHg", "", "<http://ctro/data#Endpoint_104858> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+79, Latanoprost, 1244, 1255, "latanoprost", "", 
+80, Brimonidine, 1288, 1306, "brimonidine purite", "", 
+2, BaseLineValue, 1309, 1315, "19 . 6", "", "<http://ctro/data#Outcome_104863> <http://ctro/data#hasBaselineValue> \"19 . 6\"."
+3, SdDevBL, 1322, 1328, "2 . 94", "", "<http://ctro/data#Outcome_104863> <http://ctro/data#hasSdDevBL> \"2 . 94\"."
+81, Brinzolamide, 1331, 1343, "brinzolamide", "", 
+4, BaseLineValue, 1346, 1352, "19 . 8", "", "<http://ctro/data#Outcome_104890> <http://ctro/data#hasBaselineValue> \"19 . 8\"."
+5, SdDevBL, 1359, 1365, "3 . 25", "", "<http://ctro/data#Outcome_104890> <http://ctro/data#hasSdDevBL> \"3 . 25\"."
+157, PvalueDiff, 1372, 1379, "0 . 846", "", 
+0, Mean, 1384, 1388, "Mean", "", 
+82, Diurnal_IOP, 1389, 1400, "diurnal IOP", "", 
+7, TimePoint, 1404, 1411, "Month 3", "", "<http://ctro/data#Outcome_104863> <http://ctro/data#hasTimePoint> \"Month 3\". <http://ctro/data#Outcome_104890> <http://ctro/data#hasTimePoint> \"Month 3\"."
+8, ResultMeasuredValue, 1416, 1422, "16 . 3", "", "<http://ctro/data#Outcome_104863> <http://ctro/data#hasResultMeasuredValue> \"16 . 3\"."
+9, SdDevResValue, 1429, 1435, "2 . 63", "", "<http://ctro/data#Outcome_104863> <http://ctro/data#hasSdDevResValue> \"2 . 63\"."
+10, mmHg, 1436, 1440, "mmHg", "", 
+83, Brimonidine, 1446, 1464, "brimonidine purite", "", 
+11, ResultMeasuredValue, 1469, 1475, "17 . 8", "", "<http://ctro/data#Outcome_104890> <http://ctro/data#hasResultMeasuredValue> \"17 . 8\"."
+12, SdDevResValue, 1482, 1488, "2 . 19", "", "<http://ctro/data#Outcome_104890> <http://ctro/data#hasSdDevResValue> \"2 . 19\"."
+13, mmHg, 1489, 1493, "mmHg", "", 
+84, Brinzolamide, 1499, 1511, "brinzolamide", "", 
+170, PvalueDiff, 1518, 1525, "0 . 028", "", "<http://ctro/data#DiffBetweenGroups_104917> <http://ctro/data#hasPvalueDiff> \"0 . 028\"."
+47, ObservedResult, 1530, 1749, "Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .", "", "<http://ctro/data#Outcome_104926> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\". <http://ctro/data#Outcome_104953> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\". <http://ctro/data#Outcome_104980> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\". <http://ctro/data#Outcome_105007> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\". <http://ctro/data#Outcome_105034> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\". <http://ctro/data#Outcome_105061> <http://ctro/data#hasObservedResult> \"Adjunctive use of brimonidine purite provided greater IOP lowering than brinzolamide at 10 a . m . ( p < 0 . 001 ) and 4 p . m . ( p = 0 . 050 ) and equivalent IOP lowering to brinzolamide at 8 a . m . ( p = 0 . 716 ) .\"."
+85, Brimonidine, 1548, 1566, "brimonidine purite", "", 
+44, IOP, 1584, 1587, "IOP", "", 
+86, Brinzolamide, 1602, 1614, "brinzolamide", "", 
+174, TimePoint, 1618, 1628, "10 a . m .", "", "<http://ctro/data#Outcome_104926> <http://ctro/data#hasTimePoint> \"10 a . m .\". <http://ctro/data#Outcome_104953> <http://ctro/data#hasTimePoint> \"10 a . m .\"."
+45, PvalueDiff, 1631, 1642, "p < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_105088> <http://ctro/data#hasPvalueDiff> \"p < 0 . 001\"."
+175, TimePoint, 1649, 1658, "4 p . m .", "", "<http://ctro/data#Outcome_104980> <http://ctro/data#hasTimePoint> \"4 p . m .\". <http://ctro/data#Outcome_105007> <http://ctro/data#hasTimePoint> \"4 p . m .\"."
+177, PvalueDiff, 1661, 1672, "p = 0 . 050", "", "<http://ctro/data#DiffBetweenGroups_105097> <http://ctro/data#hasPvalueDiff> \"p = 0 . 050\"."
+87, IOP, 1690, 1693, "IOP", "", 
+88, Brinzolamide, 1706, 1718, "brinzolamide", "", 
+181, TimePoint, 1722, 1731, "8 a . m .", "", "<http://ctro/data#Outcome_105034> <http://ctro/data#hasTimePoint> \"8 a . m .\". <http://ctro/data#Outcome_105061> <http://ctro/data#hasTimePoint> \"8 a . m .\"."
+46, PvalueDiff, 1734, 1745, "p = 0 . 716", "", "<http://ctro/data#DiffBetweenGroups_105106> <http://ctro/data#hasPvalueDiff> \"p = 0 . 716\"."
+189, ObservedResult, 1750, 1873, "Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops .", "", "<http://ctro/data#Outcome_105143> <http://ctro/data#hasObservedResult> \"Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops .\". <http://ctro/data#Outcome_105170> <http://ctro/data#hasObservedResult> \"Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops .\". <http://ctro/data#Outcome_105197> <http://ctro/data#hasObservedResult> \"Blurred vision at Month 1 and bitter taste at Months 1 and 3 were more common upon instillation of brinzolamide eye drops .\"."
+92866, BlurredVison, 1750, 1764, "Blurred vision", "", "<http://ctro/data#Endpoint_105133> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BlurredVison>."
+89, TimePoint, 1768, 1775, "Month 1", "", "<http://ctro/data#Outcome_105143> <http://ctro/data#hasTimePoint> \"Month 1\"."
+35547, EndPointDescription, 1780, 1792, "bitter taste", "AdverseEffect", "<http://ctro/data#EndPointDescription_105139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_105138> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_105139>."
+37060, TimePoint, 1796, 1804, "Months 1", "", "<http://ctro/data#Outcome_105170> <http://ctro/data#hasTimePoint> \"Months 1\"."
+90, TimePoint, 1796, 1810, "Months 1 and 3", "", "<http://ctro/data#Outcome_105197> <http://ctro/data#hasTimePoint> \"Months 1 and 3\"."
+91, Brinzolamide, 1849, 1861, "brinzolamide", "", 
+48, Eyedrops, 1862, 1871, "eye drops", "", 
+92, Brimonidine, 1887, 1905, "Brimonidine purite", "", 
+49, ConclusionComment, 1887, 2026, "Brimonidine purite 0 . 1 % provided significantly lower IOP compared with brinzolamide 1 % when used as adjunctive therapy to latanoprost .", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasConclusionComment> \"Brimonidine purite 0 . 1 % provided significantly lower IOP compared with brinzolamide 1 % when used as adjunctive therapy to latanoprost .\"."
+94, DoseValue, 1906, 1911, "0 . 1", "", 
+96, Percentage, 1912, 1913, "%", "", 
+53, IOP, 1943, 1946, "IOP", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasConclusionComment> \"Additional studies are needed to further evaluate these drugs as adjunctive therapy to prostaglandin analogs\"."
+93, Brinzolamide, 1961, 1973, "brinzolamide", "", 
+95, DoseValue, 1974, 1975, "1", "", 
+97, Percentage, 1976, 1977, "%", "", 
+98, Latanoprost, 2013, 2024, "latanoprost", "", 
+50, ConclusionComment, 2027, 2074, "Both adjunctive therapies were well tolerated .", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasConclusionComment> \"Both adjunctive therapies were well tolerated .\"."
+51, ConclusionComment, 2075, 2155, "Limitations of this study include the use of a single site and the sample size .", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasConclusionComment> \"Limitations of this study include the use of a single site and the sample size .\"."
+55, SingleCenter, 2122, 2133, "single site", "", 
+52, ConclusionComment, 2156, 2264, "Additional studies are needed to further evaluate these drugs as adjunctive therapy to prostaglandin analogs", "", "<http://ctro/data#ClinicalTrial_104766> <http://ctro/data#hasConclusionComment> \"Additional studies are needed to further evaluate these drugs as adjunctive therapy to prostaglandin analogs\"."
+92851, ProstaglandinAnalogs, 2243, 2264, "prostaglandin analogs", "", 
+54, PMID, 2309, 2317, "18402717", "", "<http://ctro/data#Publication_104759> <http://ctro/data#hasPMID> \"18402717\"."

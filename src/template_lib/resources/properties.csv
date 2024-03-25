@@ -1,0 +1,88 @@
+#domainClass	relation	rangeClass	from	to	isDataTypeProperty	mergedName	description
+Arm	hasNumberPatientsArm	NumberPatientsArm	1	1	TRUE	hasNumberPatientsArm	
+Arm	hasFinalNumPatientsArm	FinalNumPatientsArm	1	1	TRUE	hasFinalNumberPatients	
+Arm	hasNumPatientsLeftArm	NumPatientsLeftArm	1	1	TRUE	hasNumPatientsLeftArm	
+Arm	hasRelNumPatientsLeftArm	RelNumPatientsLeftArm	1	1	TRUE	hasRelNumPatientsLeftArm	
+Arm	hasIntervention	Intervention	1	m	FALSE	hasIntervention	
+Arm	hasOutcome	Outcome	1	m	FALSE	hasOutcome	
+Arm	hasAdverseEffect	Outcome	1	m	FALSE	hasAdverseEffect
+Arm	hasRelFinalNumPatientsArm	RelativeFinalNumPatientsArm	1	1	TRUE	hasRelFinalNumPatientsArm	
+ClinicalTrial	hasObjectiveDescription	ObjectiveDescription	1	m	TRUE	hasObjectiveDescription	
+ClinicalTrial	hasNumberPatientsCT	NumberPatientsCT	1	1	TRUE	hasNumberPatientsCT	
+ClinicalTrial	hasCTduration	Duration	1	1	TRUE	hasCTduration	
+ClinicalTrial	hasAllocationRatio	AllocationRatio	1	1	FALSE	hasAllocationRatio	
+ClinicalTrial	hasAnalysisApproach	CTAnalysisApproach	1	m	FALSE	hasCTAnalysisApproach	
+ClinicalTrial	hasCTDesign	CTDesign	1	m	FALSE	hasCTDesign	
+ClinicalTrial	hasConclusionComment	ConclusionComment	1	m	TRUE	hasConclusionComment
+ClinicalTrial	hasArm	Arm	1	m	FALSE	hasArm	
+ClinicalTrial	analysesHealthCondition	DisorderOrSyndrome	1	m	FALSE	analysesHealthCondition	
+ClinicalTrial	hasFinalNumberPatientsCT	FinalNumberPatientsCT	1	1	TRUE	hasFinalNumberPatientsCT	
+ClinicalTrial	hasNumPatientsLeftCT	NumPatientsLeftCT	1	1	TRUE	hasNumPatientsLeftCT	
+ClinicalTrial	hasRelNumPatientsLeftCT	RelNumPatientsLeftCT	1	1	TRUE	hasRelNumPatientsLeftCT
+ClinicalTrial	hasPopulation	Population	1	1	FALSE	hasPopulation	
+ClinicalTrial	hasDiffBetweenGroups	DiffBetweenGroups	1	m	FALSE	hasDiffBetweenGroups	
+ClinicalTrial	hasEvidQualityIndicator	EvidenceQuality	1	1	FALSE	hasEvidQualityIndicator	
+DiffBetweenGroups	hasDiffGroupAbsValue	DiffGroupAbsValue	1	1	TRUE	hasDiffAbsValue	
+DiffBetweenGroups	hasDiffGroupRelValue	DiffGroupRelValue	1	1	TRUE	hasDiffRelativeValue	
+DiffBetweenGroups	hasPvalueDiff	PvalueDiff	1	1	TRUE	hasPvalueDiff	
+DiffBetweenGroups	hasConfIntervalDiff	ConfIntervalDiff	1	1	TRUE	hasConfIntervalDiff	
+DiffBetweenGroups	hasStandardDevDiff	SdDevDiff	1	1	TRUE	hasStandardDevDiff
+DiffBetweenGroups	hasStandardErrorDiff	SdErrorDiff	1	1	TRUE	hasStandardErrorDiff
+DiffBetweenGroups	hasOutcome1	Outcome	1	1	FALSE	hasOutcome1	
+DiffBetweenGroups	hasOutcome2	Outcome	1	1	FALSE	hasOutcome2	
+Endpoint	hasEndoPointDescription	EndPointDescription	1	1	FALSE	hasEndPointDescription	
+Endpoint	hasAggregationMethod	AggregationMethod	1	1	FALSE	hasAggregationMethod	
+Endpoint	hasBaselineUnit	BioAndMedicalUnit	1	1	FALSE	hasBaselineUnit	
+Endpoint	hasMeasurementDevice	MeasurementDevice	1	m	FALSE	hasMeasurementDevice	
+EvidenceQuality	isPharmacySponsored	PharmacySponsored	1	m	TRUE	isPharmacySponsored	
+EvidenceQuality	hasConflictInterest	ConflictInterest	1	m	TRUE	hasConflictInterest	
+Intervention	hasMedication	Medication	1	m	FALSE	hasMedication	
+Intervention	hasFrequency	Frequency	1	1	TRUE	hasFrequency	Number of times in the day that the intervention is applied. Eg. Twice daily
+Intervention	hasInterval	Interval	1	1	TRUE	hasInterval	Time interval in which the intervention is applied. Eg. Every third day
+Intervention	hasDuration	Duration	1	1	TRUE	hasDuration	Duration of the intervention
+Intervention	hasRelativeFreqTime	RelativeTime	1	m	FALSE	hasRelativeTime	
+Medication	hasDrug	Drug	1	1	FALSE	hasDrug	
+Medication	hasDoseValue	DoseValue	1	1	TRUE	hasDoseValue	
+Medication	hasDoseUnit	BioAndMedicalUnit	1	1	FALSE	hasDoseUnit	
+Medication	hasDoseDescription	DoseDescription	1	1	TRUE	hasDoseDescription	
+Medication	hasDeliveryMethod	DeliveryMethod	1	m	FALSE	hasDeliveryMethod	
+Medication	hasApplicationCondition	ApplicationCondition	1	m	TRUE	hasApplicationCondition	
+Outcome	hasEndpoint	Endpoint	1	1	FALSE	hasEndpoint
+Outcome	hasBaselineValue	BaseLineValue	1	1	TRUE	hasBaselineValue
+Outcome	hasPValueBL	PvalueBL	1	1	TRUE	hasPValueBL	
+Outcome	hasConfIntervalBL	ConfIntervalBL	1	1	TRUE	hasConfIntBL	
+Outcome	hasSdDevBL	SdDevBL	1	1	TRUE	hasSdDevBL	
+Outcome	hasSdErrorBL	SdErrorBL	1	1	TRUE	hasSdErrorBL	
+Outcome	hasResultMeasuredValue	ResultMeasuredValue	1	m	TRUE	hasResultMeasuredValue	
+Outcome	hasPValueResValue	PvalueResValue	1	1	TRUE	hasPValueResValue	
+Outcome	hasConfIntervalResValue	ConfIntervalResValue	1	1	TRUE	hasConfIntResValue	
+Outcome	hasSdDevResValue	SdDevResValue	1	1	TRUE	hasSdDevResValue	
+Outcome	hasSdErrorResValue	SdErrorResValue	1	1	TRUE	hasSdErrorResValue	
+Outcome	hasChangeValue	ChangeValue	1	1	TRUE	hasChangeValue	It can be Reduction, Increment
+Outcome	hasRelativeChangeValue	RelativeChangeValue	1	1	TRUE	hasRelativeChangeValue	It can be Reduction, Increment
+Outcome	hasPValueChangeValue	PvalueChangeValue	1	1	TRUE	hasPValueChangeValue	
+Outcome	hasConfIntervalChangeValue	ConfIntervalChangeValue	1	1	TRUE	hasConfIntChangeValue	
+Outcome	hasSdDevChangeValue	SdDevChangeValue	1	1	TRUE	hasSdDevChangeValue	
+Outcome	hasSdErrorChangeValue	SdErrorChangeValue	1	1	TRUE	hasSdErrorChangeValue	
+Outcome	hasNumberAffected	NumberAffected	1	1	TRUE	NumberAffected	
+Outcome	hasPercentageAffected	PercentageAffected	1	1	TRUE	hasPercentageAffected	
+Outcome	hasPValueNumAffected	PvalueNumAffected	1	1	TRUE	hasPValueNumAffected	
+Outcome	hasConfIntervalNumAffected	ConfIntervalNumAffected	1	1	TRUE	hasConfIntNumAffected	
+Outcome	hasSdDevNumAffected	SdDevNumAffected	1	1	TRUE	hasSdDevNumAffected	
+Outcome	hasSdErrorNumAffected	SdErrorNumAffected	1	1	TRUE	hasSdErrorNumAffected	
+Outcome	hasObservedResult	ObservedResult	1	m	TRUE	hasObservedResult	
+Outcome	hasTimePoint	TimePoint	1	1	TRUE	hasTimePoint	Time when an outcome was measured
+Outcome	hasSubGroupDescription	SubGroupDescription	1	m	TRUE	hasSubGroupDescription	
+Population	hasPrecondition	Precondition	1	m	TRUE	hasPreconditionDescription	
+Population	hasEthnicity	Ethnicity	1	m	FALSE	hasEthnicity	
+Population	hasCountry	Country	1	m	FALSE	hasCountry	
+Population	hasMinAge	MinAge	1	1	TRUE	hasMinAge	
+Population	hasMaxAge	MaxAge	1	1	TRUE	hasMaxAge	
+Population	hasAvgAge	AvgAge	1	1	TRUE	hasAvgAge	
+Population	hasGender	Gender	1	m	FALSE	hasGender	
+Publication	hasTitle	Title	1	1	TRUE	hasTitle	
+Publication	hasAuthor	Author	1	m	TRUE	hasAuthor 	
+Publication	hasPublicationYear	PublicationYear	1	1	TRUE	hasPublicationYear	
+Publication	hasJournal	Journal	1	1	TRUE	hasJournal	
+Publication	hasPMID	PMID	1	1	TRUE	hasPMID	Journal Pubmed Id
+Publication	describes	ClinicalTrial	1	1	FALSE	describes	

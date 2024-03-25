@@ -1,0 +1,103 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "J Ocul Pharmacol Ther .", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasJournal> \"J Ocul Pharmacol Ther .\"."
+1, PublicationYear, 24, 28, "2013", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasPublicationYear> \"2013\"."
+2, Title, 112, 283, "Comparison of 24 - hour intraocular pressure reduction obtained with brinzolamide / timolol or brimonidine / timolol fixed - combination adjunctive to travoprost therapy .", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasTitle> \"Comparison of 24 - hour intraocular pressure reduction obtained with brinzolamide / timolol or brimonidine / timolol fixed - combination adjunctive to travoprost therapy .\"."
+3, IOP, 136, 156, "intraocular pressure", "", "<http://ctro/data#IOP_84776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_84775> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_84776>."
+4, Brinzolamide, 181, 193, "brinzolamide", "", 
+75, Brinz/TimFC, 181, 203, "brinzolamide / timolol", "", "<http://ctro/data#Medication_84816> <http://ctro/data#hasDrug> <http://ctro/data#Brinz/TimFC>."
+5, Timolol, 196, 203, "timolol", "", 
+6, Brimonidine, 207, 218, "brimonidine", "", 
+76, Brimo/TimFC, 207, 228, "brimonidine / timolol", "", "<http://ctro/data#Medication_84823> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+7, Timolol, 221, 228, "timolol", "", 
+74, Travoprost, 263, 273, "travoprost", "", 
+9, Author, 284, 294, "Konstas AG", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Konstas AG\"."
+10, Author, 303, 311, "Holl ó G", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Holl ó G\"."
+11, Author, 314, 324, "Haidich AB", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Haidich AB\"."
+12, Author, 327, 341, "Mikropoulos DG", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Mikropoulos DG\"."
+13, Author, 344, 358, "Giannopoulos T", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Giannopoulos T\"."
+14, Author, 361, 377, "Voudouragkaki IC", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Voudouragkaki IC\"."
+15, Author, 380, 393, "Paschalinou E", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Paschalinou E\"."
+16, Author, 396, 407, "Konidaris V", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Konidaris V\"."
+17, Author, 410, 420, "Samples JR", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasAuthor> \"Samples JR\"."
+18, Greece, 543, 549, "Greece", "", "<http://ctro/data#Population_84767> <http://ctro/data#hasCountry> <http://ctro/data#Greece>."
+19, ObjectiveDescription, 591, 813, "To determine the adjunctive 24 - h efficacy obtained with brinzolamide / timolol , or brimonidine / timolol fixed combinations ( FCs ) in open - angle glaucoma patients insufficiently controlled on travoprost monotherapy .", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasObjectiveDescription> \"To determine the adjunctive 24 - h efficacy obtained with brinzolamide / timolol , or brimonidine / timolol fixed combinations ( FCs ) in open - angle glaucoma patients insufficiently controlled on travoprost monotherapy .\"."
+92230, Brinz/TimFC, 649, 671, "brinzolamide / timolol", "", 
+4, Brinzolamide, 649, 661, "brinzolamide", "", 
+5, Timolol, 664, 671, "timolol", "", 
+92235, Brimo/TimFC, 677, 698, "brimonidine / timolol", "", 
+6, Brimonidine, 677, 688, "brimonidine", "", 
+7, Timolol, 691, 698, "timolol", "", 
+94, Precondition, 729, 811, "open - angle glaucoma patients insufficiently controlled on travoprost monotherapy", "", "<http://ctro/data#Population_84767> <http://ctro/data#hasPrecondition> \"open - angle glaucoma patients insufficiently controlled on travoprost monotherapy\"."
+20, OpenAngleGlaucoma, 729, 750, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+93, Travoprost, 789, 799, "travoprost", "", 
+96, Prospective, 824, 835, "Prospective", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+23, Blind, 838, 855, "observer - masked", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind>."
+24, CTDesign, 858, 875, "active controlled", "", "<http://ctro/data#CTDesign_84761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_84761>."
+32, Crossover, 878, 887, "crossover", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+99, Primary_OpenAngleGlaucoma, 913, 933, "primary open - angle", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+26, IOP, 983, 1003, "intraocular pressure", "", 
+27, IOP, 1006, 1009, "IOP", "", 
+28, mmHg, 1019, 1024, "mm Hg", "", 
+104, TimePoint, 1028, 1035, "10 : 00", "", 
+105, Travoprost, 1039, 1049, "travoprost", "", 
+30, Randomized, 1067, 1077, "randomized", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+31, Duration, 1082, 1090, "3 months", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTduration> \"3 months\"."
+112, Brinz/TimFC, 1101, 1123, "brinzolamide / timolol", "", 
+4, Brinzolamide, 1101, 1113, "brinzolamide", "", 
+5, Timolol, 1116, 1123, "timolol", "", 
+113, Brimo/TimFC, 1129, 1150, "brimonidine / timolol", "", 
+6, Brimonidine, 1129, 1140, "brimonidine", "", 
+7, Timolol, 1143, 1150, "timolol", "", 
+114, Travoprost, 1173, 1183, "travoprost", "", 
+32, Crossover, 1205, 1219, "crossed - over", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+33, Duration, 1256, 1264, "3 months", "", 
+92236, TimePoint, 1270, 1278, "baseline", "", 
+34, IOP, 1351, 1354, "IOP", "", 
+35, FinalNumPatientsCT, 1378, 1383, "Fifty", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasFinalNumberPatientsCT> \"Fifty\"."
+36, Mean, 1419, 1423, "mean", "", "<http://ctro/data#Mean_84777> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_84775> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_84777>."
+37, IOP, 1440, 1443, "IOP", "", 
+118, Travoprost, 1447, 1457, "travoprost", "", 
+38, BaseLineValue, 1474, 1480, "20 . 1", "", "<http://ctro/data#Outcome_84837> <http://ctro/data#hasBaselineValue> \"20 . 1\". <http://ctro/data#Outcome_84864> <http://ctro/data#hasBaselineValue> \"20 . 1\"."
+39, mmHg, 1483, 1488, "mm Hg", "", "<http://ctro/data#Endpoint_84775> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+40, ConfIntervalBL, 1491, 1548, "95 % confidence interval ( CI ) : 19 . 6 , 20 . 7   mm Hg", "", "<http://ctro/data#Outcome_84837> <http://ctro/data#hasConfIntervalBL> \"95 % confidence interval ( CI ) : 19 . 6 , 20 . 7   mm Hg\". <http://ctro/data#Outcome_84864> <http://ctro/data#hasConfIntervalBL> \"95 % confidence interval ( CI ) : 19 . 6 , 20 . 7   mm Hg\"."
+41, mmHg, 1543, 1548, "mm Hg", "", 
+42, IOP, 1608, 1611, "IOP", "", 
+43, Mean, 1643, 1647, "mean", "", 
+44, IOP, 1655, 1658, "IOP", "", 
+45, PValueChangeValue, 1661, 1672, "P < 0 . 001", "", 
+126, Travoprost, 1689, 1699, "travoprost", "", 
+129, Brinz/TimFC, 1714, 1739, "Brinzolamide / timolol FC", "", 
+4, Brinzolamide, 1714, 1726, "Brinzolamide", "", 
+5, Timolol, 1729, 1736, "timolol", "", 
+46, Mean, 1771, 1775, "mean", "", 
+47, IOP, 1783, 1786, "IOP", "", 
+48, ResultMeasuredValue, 1789, 1795, "17 . 2", "", "<http://ctro/data#Outcome_84837> <http://ctro/data#hasResultMeasuredValue> \"17 . 2\"."
+50, mmHg, 1798, 1803, "mm Hg", "", 
+55, ConfIntervalResValue, 1806, 1839, "95 % CI : 16 . 4 , 17 . 9   mm Hg", "", "<http://ctro/data#Outcome_84837> <http://ctro/data#hasConfIntervalResValue> \"95 % CI : 16 . 4 , 17 . 9   mm Hg\"."
+51, mmHg, 1834, 1839, "mm Hg", "", 
+142, Brimo/TimFC, 1847, 1871, "brimonidine / timolol FC", "", 
+6, Brimonidine, 1847, 1858, "brimonidine", "", 
+7, Timolol, 1861, 1868, "timolol", "", 
+49, ResultMeasuredValue, 1874, 1880, "18 . 0", "", "<http://ctro/data#Outcome_84864> <http://ctro/data#hasResultMeasuredValue> \"18 . 0\"."
+52, mmHg, 1883, 1888, "mm Hg", "", 
+56, ConfIntervalResValue, 1891, 1924, "95 % CI : 17 . 3 , 18 . 8   mm Hg", "", "<http://ctro/data#Outcome_84864> <http://ctro/data#hasConfIntervalResValue> \"95 % CI : 17 . 3 , 18 . 8   mm Hg\"."
+53, mmHg, 1919, 1924, "mm Hg", "", 
+54, PvalueDiff, 1929, 1940, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_84891> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+146, Brinz/TimFC, 2004, 2029, "brinzolamide / timolol FC", "", 
+4, Brinzolamide, 2004, 2016, "brinzolamide", "", 
+5, Timolol, 2019, 2026, "timolol", "", 
+57, IOP, 2061, 2064, "IOP", "", 
+150, Brimo/TimFC, 2074, 2098, "brimonidine / timolol FC", "", 
+6, Brimonidine, 2074, 2085, "brimonidine", "", 
+7, Timolol, 2088, 2095, "timolol", "", 
+58, PvalueDiff, 2101, 2112, "P ≤ 0 . 036", "", 
+61, ConclusionComment, 2203, 2349, "This study demonstrated that both FCs provide statistically and clinically significant incremental 24 - h IOP lowering to travoprost monotherapy .", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasConclusionComment> \"This study demonstrated that both FCs provide statistically and clinically significant incremental 24 - h IOP lowering to travoprost monotherapy .\"."
+63, IOP, 2309, 2312, "IOP", "", 
+153, Travoprost, 2325, 2335, "travoprost", "", 
+62, ConclusionComment, 2350, 2500, "The brinzolamide / timolol FC however achieves a better mean 24 - h IOP control owing to the greater efficacy in late afternoon and during the night .", "", "<http://ctro/data#ClinicalTrial_84744> <http://ctro/data#hasConclusionComment> \"The brinzolamide / timolol FC however achieves a better mean 24 - h IOP control owing to the greater efficacy in late afternoon and during the night .\"."
+156, Brinz/TimFC, 2354, 2379, "brinzolamide / timolol FC", "", 
+4, Brinzolamide, 2354, 2366, "brinzolamide", "", 
+5, Timolol, 2369, 2376, "timolol", "", 
+64, Mean, 2406, 2410, "mean", "", 
+65, IOP, 2418, 2421, "IOP", "", 
+66, PMID, 2544, 2552, "23550916", "", "<http://ctro/data#Publication_84729> <http://ctro/data#hasPMID> \"23550916\"."

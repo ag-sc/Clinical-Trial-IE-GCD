@@ -1,0 +1,136 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2018", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasPublicationYear> \"2018\"."
+8, Title, 106, 284, "Efficacy and safety of lixisenatide in a predominantly Asian population with type 2 diabetes insufficiently controlled with basal insulin : The GetGoal - L - C randomized trial .", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasTitle> \"Efficacy and safety of lixisenatide in a predominantly Asian population with type 2 diabetes insufficiently controlled with basal insulin : The GetGoal - L - C randomized trial .\"."
+99938, Lixisenatide, 129, 141, "lixisenatide", "", 
+140, Ethnicity, 145, 177, "a predominantly Asian population", "", "<http://ctro/data#Ethnicity_75574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity>. <http://ctro/data#Population_75572> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_75574>."
+3, Ethnicity, 161, 166, "Asian", "", 
+4, Type2Diabetes, 183, 198, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+6, Precondition, 199, 243, "insufficiently controlled with basal insulin", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasPrecondition> \"insufficiently controlled with basal insulin\"."
+5, Insulin, 230, 243, "basal insulin", "", 
+146, Insulin, 236, 243, "insulin", "", 
+7, Randomized, 266, 276, "randomized", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+9, Author, 285, 291, "Yang W", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Yang W\"."
+10, Author, 300, 305, "Min K", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Min K\"."
+11, Author, 314, 320, "Zhou Z", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Zhou Z\"."
+12, Author, 329, 333, "Li L", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Li L\"."
+13, Author, 342, 346, "Xu X", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Xu X\"."
+14, Author, 355, 360, "Zhu D", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Zhu D\"."
+15, Author, 369, 387, "Venkateshwar Rao A", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Venkateshwar Rao A\"."
+16, Author, 396, 405, "Murthy LS", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Murthy LS\"."
+17, Author, 414, 421, "Zhang N", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Zhang N\"."
+18, Author, 430, 434, "Li I", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Li I\"."
+19, Author, 443, 455, "Niemoeller E", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Niemoeller E\"."
+20, Author, 465, 472, "Shang S", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasAuthor> \"Shang S\"."
+21, China, 508, 513, "China", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+29, Japan, 516, 521, "Japan", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#Japan>."
+22, China, 554, 559, "China", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#China>."
+30, SouthKorea, 601, 612, "South Korea", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#SouthKorea>."
+23, China, 690, 695, "China", "", 
+24, China, 726, 731, "China", "", 
+25, China, 764, 769, "China", "", 
+26, China, 813, 818, "China", "", 
+27, China, 862, 867, "China", "", 
+31, India, 907, 912, "India", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#India>."
+32, India, 958, 963, "India", "", 
+28, China, 992, 997, "China", "", 
+33, Germany, 1048, 1055, "Germany", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+44, ObjectiveDescription, 1065, 1319, "To assess the effects on glycaemic control of lixisenatide vs placebo as add - on treatment to basal insulin ( BI )  ±  metformin and effects on glycated haemoglobin ( HbA1c ) reduction in patients with insufficiently controlled type 2 diabetes ( T2D ) .", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasObjectiveDescription> \"To assess the effects on glycaemic control of lixisenatide vs placebo as add - on treatment to basal insulin ( BI )  ±  metformin and effects on glycated haemoglobin ( HbA1c ) reduction in patients with insufficiently controlled type 2 diabetes ( T2D ) .\"."
+99930, Lixisenatide, 1111, 1123, "lixisenatide", "", 
+35, Placebo, 1127, 1134, "placebo", "", 
+36, Insulin, 1160, 1173, "basal insulin", "", 
+37, Insulin, 1176, 1178, "BI", "", 
+38, Metformin, 1185, 1194, "metformin", "", 
+39, HbA1c, 1210, 1230, "glycated haemoglobin", "", 
+40, HbA1c, 1233, 1238, "HbA1c", "", 
+189, Precondition, 1254, 1317, "patients with insufficiently controlled type 2 diabetes ( T2D )", "", 
+41, Type2Diabetes, 1294, 1309, "type 2 diabetes", "", 
+42, Type2Diabetes, 1312, 1315, "T2D", "", 
+45, NumberPatientsCT, 1347, 1350, "448", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasNumberPatientsCT> \"448\"."
+47, Precondition, 1358, 1381, "inadequately controlled", "", 
+46, Type2Diabetes, 1382, 1385, "T2D", "", 
+48, Randomized, 1391, 1401, "randomized", "", 
+194, AllocationRatio, 1404, 1409, "1 : 1", "", "<http://ctro/data#AllocationRatio_75560> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_75560>."
+99932, Lixisenatide, 1415, 1427, "lixisenatide", "", "<http://ctro/data#Medication_75622> <http://ctro/data#hasDrug> <http://ctro/data#Lixisenatide>."
+50, Placebo, 1431, 1438, "placebo", "", "<http://ctro/data#Medication_75629> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+51, Insulin, 1454, 1456, "BI", "", 
+52, Metformin, 1461, 1470, "metformin", "", 
+53, Duration, 1475, 1485, "24   weeks", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasCTduration> \"24   weeks\"."
+54, Duration, 1495, 1503, "8 - week", "", 
+55, Insulin, 1534, 1536, "BI", "", 
+56, DoseDescription, 1541, 1629, "titrated to a target self - monitored plasma glucose ( SMPG ; 4 . 4 - 5 . 6   mmol / L )", "", 
+196, PlasmaGlucose, 1555, 1593, "target self - monitored plasma glucose", "", 
+99940, PlasmaGlucose, 1596, 1600, "SMPG", "", 
+58, Millimoles_per_litre, 1619, 1627, "mmol / L", "", 
+59, HbA1c, 1676, 1681, "HbA1c", "", 
+60, TimePoint, 1687, 1695, "baseline", "", 
+61, TimePoint, 1699, 1706, "week 24", "", 
+63, PostprandialPlasmaGlucose, 1787, 1823, "2 - hour postprandial plasma glucose", "", 
+64, PostprandialPlasmaGlucose, 1826, 1829, "PPG", "", 
+205, EndPointDescription, 1834, 1848, "7 - point SMPG", "", 
+65, BodyWeight, 1869, 1880, "body weight", "", 
+66, BodyWeight, 1883, 1885, "BW", "", 
+208, InsulinDose, 1902, 1909, "BI dose", "", 
+70, FastingPlasmaGlucose, 1912, 1934, "fasting plasma glucose", "", 
+210, EndPointDescription, 1941, 1959, "safety assessments", "", 
+71, TimePoint, 1972, 1980, "Baseline", "", 
+72, Insulin, 2043, 2050, "insulin", "", 
+99933, Lixisenatide, 2082, 2094, "lixisenatide", "", 
+74, Placebo, 2111, 2118, "placebo", "", 
+75, Mean, 2122, 2126, "mean", "", "<http://ctro/data#Mean_75668> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_75666> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_75668>."
+62, TimePoint, 2139, 2147, "baseline", "", 
+84, BaseLineValue, 2150, 2155, "7 . 9", "", "<http://ctro/data#Outcome_75671> <http://ctro/data#hasBaselineValue> \"7 . 9\"."
+76, Percentage, 2156, 2157, "%", "", "<http://ctro/data#Endpoint_75666> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+86, SdDevBL, 2193, 2199, "0 . 66", "", "<http://ctro/data#Outcome_75671> <http://ctro/data#hasSdDevBL> \"0 . 66\"."
+85, BaseLineValue, 2206, 2211, "7 . 9", "", "<http://ctro/data#Outcome_75698> <http://ctro/data#hasBaselineValue> \"7 . 9\"."
+77, Percentage, 2212, 2213, "%", "", 
+87, SdDevBL, 2216, 2222, "0 . 70", "", "<http://ctro/data#Outcome_75698> <http://ctro/data#hasSdDevBL> \"0 . 70\"."
+88, TimePoint, 2245, 2252, "week 24", "", "<http://ctro/data#Outcome_75671> <http://ctro/data#hasTimePoint> \"week 24\". <http://ctro/data#Outcome_75698> <http://ctro/data#hasTimePoint> \"week 24\"."
+89, HbA1c, 2256, 2261, "HbA1c", "", "<http://ctro/data#Endpoint_75666> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+90, LeastSquaresMean, 2264, 2282, "least squares mean", "", 
+219, Reduction, 2323, 2329, "0 . 62", "", "<http://ctro/data#Outcome_75671> <http://ctro/data#hasChangeValue> \"0 . 62\"."
+78, Percentage, 2330, 2331, "%", "", 
+93, SdErrorChangeValue, 2334, 2340, "0 . 09", "", "<http://ctro/data#Outcome_75671> <http://ctro/data#hasSdErrorChangeValue> \"0 . 09\"."
+220, Reduction, 2348, 2354, "0 . 11", "", "<http://ctro/data#Outcome_75698> <http://ctro/data#hasChangeValue> \"0 . 11\"."
+79, Percentage, 2355, 2356, "%", "", 
+94, SdErrorChangeValue, 2359, 2365, "0 . 09", "", "<http://ctro/data#Outcome_75698> <http://ctro/data#hasSdErrorChangeValue> \"0 . 09\"."
+95, PvalueDiff, 2370, 2381, "P  < . 0001", "", "<http://ctro/data#DiffBetweenGroups_75725> <http://ctro/data#hasPvalueDiff> \"P  < . 0001\"."
+99939, HbA1c, 2443, 2448, "HbA1c", "", 
+97, PostprandialPlasmaGlucose, 2459, 2473, "Two - hour PPG", "", "<http://ctro/data#Endpoint_75734> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PostprandialPlasmaGlucose>."
+99941, Mean, 2482, 2486, "mean", "", "<http://ctro/data#Mean_75741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_75739> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_75741>."
+100, PlasmaGlucose, 2487, 2491, "SMPG", "", "<http://ctro/data#PlasmaGlucose_75740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#PlasmaGlucose>. <http://ctro/data#Endpoint_75739> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#PlasmaGlucose_75740>."
+99, Mean, 2496, 2500, "mean", "", "<http://ctro/data#Mean_75746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_75744> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_75746>."
+101, BodyWeight, 2501, 2503, "BW", "", "<http://ctro/data#Endpoint_75744> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+232, ObservedResult, 2504, 2524, "were reduced further", "", "<http://ctro/data#Outcome_75754> <http://ctro/data#hasObservedResult> \"were reduced further\". <http://ctro/data#Outcome_75781> <http://ctro/data#hasObservedResult> \"were reduced further\". <http://ctro/data#Outcome_75808> <http://ctro/data#hasObservedResult> \"were reduced further\"."
+231, InsulinDose, 2535, 2542, "BI dose", "", "<http://ctro/data#InsulinDose_75750> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_75749> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_75750>."
+233, ObservedResult, 2543, 2552, "was lower", "", "<http://ctro/data#Outcome_75862> <http://ctro/data#hasObservedResult> \"was lower\"."
+99934, Lixisenatide, 2558, 2570, "lixisenatide", "", 
+104, Placebo, 2576, 2583, "placebo", "", 
+234, Reduction, 2588, 2594, "1 . 12", "", "<http://ctro/data#Outcome_75808> <http://ctro/data#hasChangeValue> \"1 . 12\"."
+109, Kg, 2597, 2599, "kg", "", "<http://ctro/data#Endpoint_75744> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+239, Increment, 2603, 2609, "0 . 04", "", "<http://ctro/data#Outcome_75835> <http://ctro/data#hasChangeValue> \"0 . 04\"."
+110, Kg, 2612, 2614, "kg", "", 
+113, PvalueDiff, 2617, 2628, "P  < . 0001", "", "<http://ctro/data#DiffBetweenGroups_75916> <http://ctro/data#hasPvalueDiff> \"P  < . 0001\"."
+235, Reduction, 2635, 2640, "3 . 0", "", "<http://ctro/data#Outcome_75862> <http://ctro/data#hasChangeValue> \"3 . 0\"."
+111, Int_Unit, 2643, 2644, "U", "", "<http://ctro/data#Endpoint_75749> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Int_Unit>."
+236, Reduction, 2650, 2655, "1 . 9", "", "<http://ctro/data#Outcome_75889> <http://ctro/data#hasChangeValue> \"1 . 9\"."
+112, Int_Unit, 2658, 2659, "U", "", 
+114, PvalueDiff, 2662, 2673, "P  = . 0033", "", "<http://ctro/data#DiffBetweenGroups_75925> <http://ctro/data#hasPvalueDiff> \"P  = . 0033\"."
+244, EndPointDescription, 2716, 2730, "adverse events", "", "<http://ctro/data#EndPointDescription_75989> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_75988> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_75989>."
+99935, Lixisenatide, 2749, 2761, "lixisenatide", "", 
+116, Placebo, 2767, 2774, "placebo", "", 
+117, PercentageAffected, 2777, 2783, "63 . 8", "", "<http://ctro/data#Outcome_75934> <http://ctro/data#hasPercentageAffected> \"63 . 8\"."
+118, PercentageAffected, 2789, 2795, "40 . 8", "", "<http://ctro/data#Outcome_75961> <http://ctro/data#hasPercentageAffected> \"40 . 8\"."
+119, SymptomaticHypoglycemia, 2834, 2859, "symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_75993> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+99936, Lixisenatide, 2874, 2886, "lixisenatide", "", 
+120, PercentageAffected, 2887, 2893, "15 . 6", "", "<http://ctro/data#Outcome_75998> <http://ctro/data#hasPercentageAffected> \"15 . 6\"."
+123, Placebo, 2899, 2906, "placebo", "", 
+121, PercentageAffected, 2907, 2913, "13 . 5", "", "<http://ctro/data#Outcome_76025> <http://ctro/data#hasPercentageAffected> \"13 . 5\"."
+251, ConclusionComment, 2934, 3154, "In Asian patients insufficiently controlled on BI  ±  metformin , lixisenatide was superior to placebo in glycaemic control , with a tolerability profile in line with other glucagon - like peptide - 1 receptor agonists .", "", "<http://ctro/data#ClinicalTrial_75556> <http://ctro/data#hasConclusionComment> \"In Asian patients insufficiently controlled on BI  ±  metformin , lixisenatide was superior to placebo in glycaemic control , with a tolerability profile in line with other glucagon - like peptide - 1 receptor agonists .\"."
+124, Ethnicity, 2937, 2942, "Asian", "", 
+106276, Precondition, 2943, 2997, "patients insufficiently controlled on BI  ±  metformin", "", "<http://ctro/data#Population_75572> <http://ctro/data#hasPrecondition> \"patients insufficiently controlled on BI  ±  metformin\"."
+125, Insulin, 2981, 2983, "BI", "", 
+126, Metformin, 2988, 2997, "metformin", "", 
+99937, Lixisenatide, 3000, 3012, "lixisenatide", "", 
+128, Placebo, 3029, 3036, "placebo", "", 
+129, PMID, 3366, 3374, "28742225", "", "<http://ctro/data#Publication_75549> <http://ctro/data#hasPMID> \"28742225\"."

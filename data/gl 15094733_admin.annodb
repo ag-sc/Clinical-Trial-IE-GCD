@@ -1,0 +1,100 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 14, "Eye ( Lond ) .", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasJournal> \"Eye ( Lond ) .\"."
+1, PublicationYear, 15, 19, "2005", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasPublicationYear> \"2005\"."
+45, Brimonidine, 47, 58, "Brimonidine", "", "<http://ctro/data#Medication_52535> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+2, Title, 47, 218, "Brimonidine 0 . 2 % vs unoprostone 0 . 15 % both added to timolol maleate 0 . 5 % given twice daily to patients with primary open - angle glaucoma or ocular hypertension .", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasTitle> \"Brimonidine 0 . 2 % vs unoprostone 0 . 15 % both added to timolol maleate 0 . 5 % given twice daily to patients with primary open - angle glaucoma or ocular hypertension .\"."
+48, DoseValue, 59, 64, "0 . 2", "", "<http://ctro/data#Medication_52535> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+51, Percentage, 65, 66, "%", "", "<http://ctro/data#Medication_52535> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+46, Unoprostone, 70, 81, "unoprostone", "", "<http://ctro/data#Medication_52542> <http://ctro/data#hasDrug> <http://ctro/data#Unoprostone>."
+49, DoseValue, 82, 88, "0 . 15", "", "<http://ctro/data#Medication_52542> <http://ctro/data#hasDoseValue> \"0 . 15\"."
+52, Percentage, 89, 90, "%", "", "<http://ctro/data#Medication_52542> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+47, Timolol, 105, 120, "timolol maleate", "", "<http://ctro/data#Medication_52528> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+50, DoseValue, 121, 126, "0 . 5", "", "<http://ctro/data#Medication_52528> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+53, Percentage, 127, 128, "%", "", "<http://ctro/data#Medication_52542> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+54, Frequency, 135, 146, "twice daily", "", "<http://ctro/data#Intervention_52516> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_52522> <http://ctro/data#hasFrequency> \"twice daily\"."
+85404, Precondition, 150, 216, "patients with primary open - angle glaucoma or ocular hypertension", "", "<http://ctro/data#Population_52480> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma or ocular hypertension\"."
+55, Primary_OpenAngleGlaucoma, 164, 193, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+3, OcularHypertension, 197, 216, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+4, Author, 219, 228, "Sharpe ED", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Sharpe ED\"."
+5, Author, 237, 245, "Henry CJ", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Henry CJ\"."
+6, Author, 248, 258, "Mundorf TK", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Mundorf TK\"."
+7, Author, 261, 267, "Day DG", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Day DG\"."
+8, Author, 270, 280, "Stewart JA", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Stewart JA\"."
+9, Author, 283, 293, "Jenkins JN", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Jenkins JN\"."
+10, Author, 296, 306, "Stewart WC", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> \"Stewart WC\"."
+11, USA, 383, 386, "USA", "", "<http://ctro/data#Population_52480> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+12, ObjectiveDescription, 399, 545, "To compare the efficacy and safety of brimonidine 0 . 2 % vs unoprostone 0 . 15 % , both added to timolol maleate 0 . 5 % each given twice daily .", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of brimonidine 0 . 2 % vs unoprostone 0 . 15 % , both added to timolol maleate 0 . 5 % each given twice daily .\"."
+56, Brimonidine, 437, 448, "brimonidine", "", 
+59, DoseValue, 449, 454, "0 . 2", "", 
+62, Percentage, 455, 456, "%", "", 
+57, Unoprostone, 460, 471, "unoprostone", "", 
+60, DoseValue, 472, 478, "0 . 15", "", 
+63, Percentage, 479, 480, "%", "", 
+58, Timolol, 497, 512, "timolol maleate", "", 
+61, DoseValue, 513, 518, "0 . 5", "", 
+64, Percentage, 519, 520, "%", "", 
+65, Frequency, 532, 543, "twice daily", "", 
+124, Prospective, 564, 575, "prospective", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+14, Multicenter, 578, 593, "multi - centred", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+15, DoubleBlind, 596, 611, "double - masked", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+16, Crossover, 614, 623, "crossover", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+17, Randomized, 651, 661, "randomized", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+18, Duration, 691, 699, "6 - week", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTduration> \"6 - week\"."
+66, Crossover, 728, 740, "crossed over", "", 
+85407, TimePoint, 800, 804, "0800", "", 
+85408, TimePoint, 807, 811, "1000", "", 
+85409, TimePoint, 814, 818, "1600", "", 
+85410, TimePoint, 821, 825, "1800", "", 
+85411, TimePoint, 832, 836, "2000", "", 
+85406, TimePoint, 842, 850, "baseline", "", 
+19, NumberPatientsCT, 912, 914, "33", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasNumberPatientsCT> \"33\"."
+20, FinalNumPatientsCT, 947, 949, "29", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasFinalNumberPatientsCT> \"29\"."
+67, Trough_IOP, 975, 1002, "trough intraocular pressure", "", "<http://ctro/data#Endpoint_52488> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Trough_IOP>."
+137, IOP, 1005, 1008, "IOP", "", 
+21, BaseLineValue, 1015, 1021, "23 . 3", "", "<http://ctro/data#Outcome_52551> <http://ctro/data#hasBaselineValue> \"23 . 3\". <http://ctro/data#Outcome_52578> <http://ctro/data#hasBaselineValue> \"23 . 3\"."
+140, SdDevBL, 1028, 1033, "2 . 4", "", "<http://ctro/data#Outcome_52551> <http://ctro/data#hasSdDevBL> \"2 . 4\". <http://ctro/data#Outcome_52578> <http://ctro/data#hasSdDevBL> \"2 . 4\"."
+23, Diurnal_IOP, 1042, 1059, "diurnal curve IOP", "", "<http://ctro/data#Endpoint_52493> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+24, BaseLineValue, 1064, 1070, "22 . 0", "", "<http://ctro/data#Outcome_52605> <http://ctro/data#hasBaselineValue> \"22 . 0\". <http://ctro/data#Outcome_52632> <http://ctro/data#hasBaselineValue> \"22 . 0\"."
+143, SdDevBL, 1077, 1082, "1 . 3", "", "<http://ctro/data#Outcome_52605> <http://ctro/data#hasSdDevBL> \"1 . 3\". <http://ctro/data#Outcome_52632> <http://ctro/data#hasSdDevBL> \"1 . 3\"."
+26, mmHg, 1083, 1087, "mmHg", "", "<http://ctro/data#Endpoint_52488> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>. <http://ctro/data#Endpoint_52493> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+69, Brimonidine, 1098, 1109, "brimonidine", "", 
+70, Timolol, 1114, 1129, "timolol maleate", "", 
+71, Trough_IOP, 1152, 1162, "trough IOP", "", 
+27, ResultMeasuredValue, 1167, 1173, "21 . 6", "", "<http://ctro/data#Outcome_52551> <http://ctro/data#hasResultMeasuredValue> \"21 . 6\"."
+97106, SdDevResValue, 1180, 1185, "3 . 3", "", "<http://ctro/data#Outcome_52551> <http://ctro/data#hasSdDevResValue> \"3 . 3\"."
+72, Diurnal_IOP, 1194, 1211, "diurnal curve IOP", "", 
+29, ResultMeasuredValue, 1216, 1222, "19 . 8", "", "<http://ctro/data#Outcome_52605> <http://ctro/data#hasResultMeasuredValue> \"19 . 8\"."
+97107, SdDevResValue, 1229, 1234, "2 . 1", "", "<http://ctro/data#Outcome_52605> <http://ctro/data#hasSdDevResValue> \"2 . 1\"."
+31, mmHg, 1235, 1239, "mmHg", "", 
+73, Timolol, 1252, 1259, "timolol", "", 
+74, Unoprostone, 1264, 1275, "unoprostone", "", 
+75, Trough_IOP, 1295, 1305, "trough IOP", "", 
+32, ResultMeasuredValue, 1309, 1315, "20 . 9", "", "<http://ctro/data#Outcome_52578> <http://ctro/data#hasResultMeasuredValue> \"20 . 9\"."
+97108, SdDevResValue, 1322, 1327, "3 . 8", "", "<http://ctro/data#Outcome_52578> <http://ctro/data#hasSdDevResValue> \"3 . 8\"."
+76, Diurnal_IOP, 1334, 1351, "diurnal curve IOP", "", 
+34, ResultMeasuredValue, 1355, 1361, "19 . 3", "", "<http://ctro/data#Outcome_52632> <http://ctro/data#hasResultMeasuredValue> \"19 . 3\"."
+97109, SdDevResValue, 1368, 1373, "2 . 4", "", "<http://ctro/data#Outcome_52632> <http://ctro/data#hasSdDevResValue> \"2 . 4\"."
+36, mmHg, 1374, 1378, "mmHg", "", 
+164, ObservedResult, 1381, 1534, "There was no significant difference between treatment groups at any time point for the diurnal curve , or in the reduction from baseline ( P > 0 . 05 ) .", "", 
+77, Diurnal_IOP, 1468, 1481, "diurnal curve", "", 
+42, PvalueDiff, 1520, 1530, "P > 0 . 05", "", "<http://ctro/data#DiffBetweenGroups_52659> <http://ctro/data#hasPvalueDiff> \"P > 0 . 05\"."
+78, IOP, 1586, 1589, "IOP", "", 
+85412, TimePoint, 1607, 1613, "1800 h", "", 
+39, ObservedResult, 1749, 1852, "more dryness ( P = 0 . 02 ) and burning upon instillation ( P < 0 . 0001 ) with unoprostone by survey .", "", "<http://ctro/data#Outcome_112506> <http://ctro/data#hasObservedResult> \"more dryness ( P = 0 . 02 ) and burning upon instillation ( P < 0 . 0001 ) with unoprostone by survey .\". <http://ctro/data#Outcome_112533> <http://ctro/data#hasObservedResult> \"more dryness ( P = 0 . 02 ) and burning upon instillation ( P < 0 . 0001 ) with unoprostone by survey .\"."
+37, EndPointDescription, 1754, 1761, "dryness", "", "<http://ctro/data#EndPointDescription_52670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_52669> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52670>."
+85413, PvalueDiff, 1764, 1774, "P = 0 . 02", "", 
+38, EndPointDescription, 1781, 1788, "burning", "", "<http://ctro/data#EndPointDescription_52675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_52674> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52675>."
+169, PvalueDiff, 1811, 1821, "< 0 . 0001", "", 
+79, Unoprostone, 1829, 1840, "unoprostone", "", 
+40, ConclusionComment, 1866, 2017, "Brimonidine 0 . 2 % or unoprostone 0 . 15 % added to timolol maleate 0 . 5 % provide similar efficacy and safety throughout the daytime diurnal curve .", "", "<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasConclusionComment> \"Brimonidine 0 . 2 % or unoprostone 0 . 15 % added to timolol maleate 0 . 5 % provide similar efficacy and safety throughout the daytime diurnal curve .\"."
+80, Brimonidine, 1866, 1877, "Brimonidine", "", 
+83, DoseValue, 1878, 1883, "0 . 2", "", 
+86, Percentage, 1884, 1885, "%", "", 
+81, Unoprostone, 1889, 1900, "unoprostone", "", 
+84, DoseValue, 1901, 1907, "0 . 15", "", 
+87, Percentage, 1908, 1909, "%", "", 
+82, Timolol, 1919, 1934, "timolol maleate", "", 
+85, DoseValue, 1935, 1940, "0 . 5", "", 
+88, Percentage, 1941, 1942, "%", "", 
+89, Diurnal_IOP, 2002, 2015, "diurnal curve", "", 
+41, PMID, 2062, 2070, "15094733", "", "<http://ctro/data#Publication_52445> <http://ctro/data#hasPMID> \"15094733\"."

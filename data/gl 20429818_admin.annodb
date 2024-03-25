@@ -1,0 +1,116 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 19, "Curr Med Res Opin .", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasJournal> \"Curr Med Res Opin .\"."
+1, PublicationYear, 20, 24, "2010", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasPublicationYear> \"2010\"."
+2, Title, 100, 215, "Comparison of ocular hypotensive actions of fixed combinations of brimonidine / timolol and dorzolamide / timolol .", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasTitle> \"Comparison of ocular hypotensive actions of fixed combinations of brimonidine / timolol and dorzolamide / timolol .\"."
+111, Brimo/TimFC, 166, 187, "brimonidine / timolol", "", 
+3, Brimonidine, 166, 177, "brimonidine", "", 
+4, Timolol, 180, 187, "timolol", "", 
+110, Dorz/TimFC, 192, 213, "dorzolamide / timolol", "", 
+5, Dorzolamide, 192, 203, "dorzolamide", "", 
+6, Timolol, 206, 213, "timolol", "", 
+8, Author, 216, 236, "Garc í a - Feijo ó J", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"Garc í a - Feijo ó J\"."
+9, Author, 245, 266, "S á enz - Franc é s F", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"S á enz - Franc é s F\"."
+10, Author, 269, 299, "Mart í nez - de - la - Casa JM", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"Mart í nez - de - la - Casa JM\"."
+11, Author, 302, 326, "M é ndez - Hern á ndez C", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"M é ndez - Hern á ndez C\"."
+12, Author, 329, 350, "Fern á ndez - Vidal A", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"Fern á ndez - Vidal A\"."
+13, Author, 353, 373, "Calvo - Gonz á lez C", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"Calvo - Gonz á lez C\"."
+14, Author, 376, 398, "Garc í a - S á nchez J", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasAuthor> \"Garc í a - S á nchez J\"."
+7, Spain, 509, 514, "Spain", "", "<http://ctro/data#Population_97891> <http://ctro/data#hasCountry> <http://ctro/data#Spain>."
+15, ObjectiveDescription, 529, 774, "To compare brimonidine / timolol fixed combination ( BrTFC ; Combigan * ) with dorzolamide / timolol fixed combination ( DTFC ; Cosopt dagger ) in terms of ability to lower intraocular pressure ( IOP ) in primary open - angle glaucoma ( POAG ) .", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasObjectiveDescription> \"To compare brimonidine / timolol fixed combination ( BrTFC ; Combigan * ) with dorzolamide / timolol fixed combination ( DTFC ; Cosopt dagger ) in terms of ability to lower intraocular pressure ( IOP ) in primary open - angle glaucoma ( POAG ) .\"."
+122, Brimo/TimFC, 540, 561, "brimonidine / timolol", "", 
+16, Brimonidine, 540, 551, "brimonidine", "", 
+17, Timolol, 554, 561, "timolol", "", 
+123, Brimo/TimFC, 582, 587, "BrTFC", "", 
+126, Dorz/TimFC, 608, 629, "dorzolamide / timolol", "", 
+25, Dorzolamide, 608, 619, "dorzolamide", "", 
+26, Timolol, 622, 629, "timolol", "", 
+127, Dorz/TimFC, 650, 654, "DTFC", "", 
+34, IOP, 702, 722, "intraocular pressure", "", 
+35, IOP, 725, 728, "IOP", "", 
+36, Primary_OpenAngleGlaucoma, 734, 763, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+37, Primary_OpenAngleGlaucoma, 766, 770, "POAG", "", 
+132, Prospective, 796, 807, "prospective", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+133, Randomized, 810, 820, "randomized", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+134, DoubleBlind, 823, 838, "double - masked", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+135, Crossover, 841, 850, "crossover", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover>."
+38, Timolol, 889, 904, "timolol maleate", "", 
+39, DoseValue, 905, 910, "0 . 5", "", 
+40, Percentage, 911, 912, "%", "", 
+41, Frequency, 913, 924, "twice daily", "", 
+42, Randomized, 941, 951, "randomized", "", 
+140, Brimo/TimFC, 955, 960, "BrTFC", "", "<http://ctro/data#Medication_97899> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+43, Frequency, 961, 972, "twice daily", "", "<http://ctro/data#Intervention_97906> <http://ctro/data#hasFrequency> \"twice daily\"."
+141, Dorz/TimFC, 976, 980, "DTFC", "", "<http://ctro/data#Medication_97930> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+44, Frequency, 981, 992, "twice daily", "", "<http://ctro/data#Intervention_97937> <http://ctro/data#hasFrequency> \"twice daily\"."
+119913, Duration, 997, 1004, "6 weeks", "", 
+46, Crossover, 1020, 1032, "crossed over", "", 
+47, IOP, 1112, 1115, "IOP", "", 
+146, Mean, 1227, 1231, "mean", "", 
+48, Diurnal_IOP, 1232, 1243, "diurnal IOP", "", 
+50, TimePoint, 1249, 1257, "baseline", "", 
+49, TimePoint, 1261, 1268, "6 weeks", "", 
+51, EndPointDescription, 1297, 1338, "percentage of patients with IOP < 18 mmHg", "", 
+52, IOP, 1325, 1328, "IOP", "", 
+53, mmHg, 1334, 1338, "mmHg", "", 
+54, TimePoint, 1342, 1349, "6 weeks", "", 
+55, NumberPatientsCT, 1425, 1438, "Twenty - five", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasNumberPatientsCT> \"Twenty - five\"."
+56, Randomized, 1453, 1463, "randomized", "", 
+57, FinalNumPatientsCT, 1468, 1470, "20", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasFinalNumberPatientsCT> \"20\"."
+58, Mean, 1493, 1497, "Mean", "", "<http://ctro/data#Mean_97946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_97944> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_97946>."
+59, Diurnal_IOP, 1498, 1509, "diurnal IOP", "", "<http://ctro/data#Endpoint_97944> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+60, BaseLineValue, 1555, 1562, "20 . 28", "", "<http://ctro/data#Outcome_97949> <http://ctro/data#hasBaselineValue> \"20 . 28\". <http://ctro/data#Outcome_97976> <http://ctro/data#hasBaselineValue> \"20 . 28\"."
+61, SdDevBL, 1569, 1575, "2 . 03", "", "<http://ctro/data#Outcome_97949> <http://ctro/data#hasSdDevBL> \"2 . 03\". <http://ctro/data#Outcome_97976> <http://ctro/data#hasSdDevBL> \"2 . 03\"."
+62, mmHg, 1576, 1580, "mmHg", "", 
+63, Timolol, 1584, 1591, "timolol", "", 
+64, TimePoint, 1619, 1626, "6 weeks", "", "<http://ctro/data#Outcome_97949> <http://ctro/data#hasTimePoint> \"6 weeks\". <http://ctro/data#Outcome_97976> <http://ctro/data#hasTimePoint> \"6 weeks\"."
+65, Mean, 1629, 1633, "mean", "", 
+67, Diurnal_IOP, 1634, 1645, "diurnal IOP", "", 
+68, ResultMeasuredValue, 1650, 1657, "16 . 28", "", "<http://ctro/data#Outcome_97949> <http://ctro/data#hasResultMeasuredValue> \"16 . 28\"."
+69, SdDevResValue, 1664, 1670, "2 . 07", "", "<http://ctro/data#Outcome_97949> <http://ctro/data#hasSdDevResValue> \"2 . 07\"."
+70, mmHg, 1671, 1675, "mmHg", "", 
+171, Brimo/TimFC, 1686, 1691, "BrTFC", "", 
+71, ResultMeasuredValue, 1696, 1703, "17 . 23", "", "<http://ctro/data#Outcome_97976> <http://ctro/data#hasResultMeasuredValue> \"17 . 23\"."
+72, SdDevResValue, 1710, 1716, "2 . 29", "", "<http://ctro/data#Outcome_97976> <http://ctro/data#hasSdDevResValue> \"2 . 29\"."
+73, mmHg, 1717, 1721, "mmHg", "", 
+172, Dorz/TimFC, 1732, 1736, "DTFC", "", 
+74, DiffGroupAbsValue, 1752, 1758, "0 . 95", "", "<http://ctro/data#DiffBetweenGroups_98003> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 95\"."
+75, mmHg, 1759, 1763, "mmHg", "", 
+106388, ConfIntervalDiff, 1766, 1789, "95 % CI 0 . 10 - 1 . 80", "", "<http://ctro/data#DiffBetweenGroups_98003> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 0 . 10 - 1 . 80\"."
+176, PvalueDiff, 1794, 1802, "= 0 . 03", "", "<http://ctro/data#DiffBetweenGroups_98003> <http://ctro/data#hasPvalueDiff> \"= 0 . 03\"."
+66, Mean, 1807, 1811, "Mean", "", "<http://ctro/data#Mean_98068> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_98066> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_98068>."
+78, IOP, 1812, 1815, "IOP", "", "<http://ctro/data#IOP_98067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_98066> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_98067>."
+78095, TimePoint, 1819, 1826, "09 . 00", "", 
+80, BaseLineValue, 1831, 1838, "20 . 95", "", "<http://ctro/data#Outcome_98012> <http://ctro/data#hasBaselineValue> \"20 . 95\". <http://ctro/data#Outcome_98039> <http://ctro/data#hasBaselineValue> \"20 . 95\"."
+81, SdDevBL, 1845, 1851, "2 . 31", "", "<http://ctro/data#Outcome_98012> <http://ctro/data#hasSdDevBL> \"2 . 31\". <http://ctro/data#Outcome_98039> <http://ctro/data#hasSdDevBL> \"2 . 31\"."
+82, mmHg, 1852, 1856, "mmHg", "", "<http://ctro/data#Endpoint_98066> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+78096, TimePoint, 1860, 1868, "baseline", "", 
+83, ResultMeasuredValue, 1891, 1898, "15 . 85", "", "<http://ctro/data#Outcome_98012> <http://ctro/data#hasResultMeasuredValue> \"15 . 85\"."
+85, SdDevResValue, 1905, 1911, "2 . 56", "", "<http://ctro/data#Outcome_98012> <http://ctro/data#hasSdDevResValue> \"2 . 56\"."
+87, mmHg, 1912, 1916, "mmHg", "", 
+187, Brimo/TimFC, 1927, 1932, "BrTFC", "", 
+84, ResultMeasuredValue, 1937, 1944, "17 . 55", "", "<http://ctro/data#Outcome_98039> <http://ctro/data#hasResultMeasuredValue> \"17 . 55\"."
+86, SdDevResValue, 1951, 1957, "2 . 67", "", "<http://ctro/data#Outcome_98039> <http://ctro/data#hasSdDevResValue> \"2 . 67\"."
+88, mmHg, 1958, 1962, "mmHg", "", 
+190, Dorz/TimFC, 1973, 1977, "DTFC", "", 
+89, DiffGroupAbsValue, 1993, 1999, "1 . 70", "", "<http://ctro/data#DiffBetweenGroups_98071> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 70\"."
+106389, ConfIntervalDiff, 2002, 2025, "95 % CI 0 . 80 - 2 . 60", "", "<http://ctro/data#DiffBetweenGroups_98071> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 0 . 80 - 2 . 60\"."
+195, PvalueDiff, 2030, 2039, "= 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_98071> <http://ctro/data#hasPvalueDiff> \"= 0 . 001\"."
+196, RelativeTime, 2052, 2059, "12 . 00", "", 
+197, RelativeTime, 2064, 2071, "16 . 00", "", 
+92, Mean, 2089, 2093, "mean", "", 
+78097, EndPointDescription, 2186, 2209, "target IOP of < 18 mmHg", "", "<http://ctro/data#EndPointDescription_98081> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_98080> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_98081>."
+94, mmHg, 2205, 2209, "mmHg", "", 
+96, PercentageAffected, 2215, 2217, "85", "", "<http://ctro/data#Outcome_98086> <http://ctro/data#hasPercentageAffected> \"85\"."
+203, Brimo/TimFC, 2230, 2235, "BrTFC", "", 
+97, PercentageAffected, 2240, 2242, "60", "", "<http://ctro/data#Outcome_98113> <http://ctro/data#hasPercentageAffected> \"60\"."
+204, Dorz/TimFC, 2255, 2259, "DTFC", "", 
+205, PvalueDiff, 2264, 2288, "= NS [ not significant ]", "", "<http://ctro/data#DiffBetweenGroups_98140> <http://ctro/data#hasPvalueDiff> \"= NS [ not significant ]\"."
+119914, Duration, 2438, 2446, "6 - week", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasCTduration> \"6 - week\"."
+213, ConclusionComment, 2559, 2660, "Reductions from baseline in mean diurnal IOP and morning IOP were greater with BrTFC than with DTFC .", "", "<http://ctro/data#ClinicalTrial_97872> <http://ctro/data#hasConclusionComment> \"Reductions from baseline in mean diurnal IOP and morning IOP were greater with BrTFC than with DTFC .\"."
+101, Mean, 2587, 2591, "mean", "", 
+102, Diurnal_IOP, 2592, 2603, "diurnal IOP", "", 
+209, Morning, 2608, 2615, "morning", "", 
+103, IOP, 2616, 2619, "IOP", "", 
+210, Brimo/TimFC, 2638, 2643, "BrTFC", "", 
+211, Dorz/TimFC, 2654, 2658, "DTFC", "", 
+104, PMID, 2711, 2719, "20429818", "", "<http://ctro/data#Publication_97859> <http://ctro/data#hasPMID> \"20429818\"."

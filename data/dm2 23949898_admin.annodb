@@ -1,0 +1,161 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 20, "Clin Drug Investig .", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasJournal> \"Clin Drug Investig .\"."
+1, PublicationYear, 21, 25, "2013", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasPublicationYear> \"2013\"."
+2, Saxagliptin, 99, 110, "Saxagliptin", "", 
+27, Title, 99, 227, "Saxagliptin add - on therapy to insulin with or without metformin for type 2 diabetes mellitus : 52 - week safety and efficacy .", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasTitle> \"Saxagliptin add - on therapy to insulin with or without metformin for type 2 diabetes mellitus : 52 - week safety and efficacy .\"."
+13, Insulin, 131, 138, "insulin", "", 
+14, Metformin, 155, 164, "metformin", "", 
+21, Type2Diabetes, 169, 193, "type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+26, Duration, 196, 205, "52 - week", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasCTduration> \"52 - week\"."
+28, Author, 228, 238, "Barnett AH", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Barnett AH\"."
+29, Author, 247, 259, "Charbonnel B", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Charbonnel B\"."
+30, Author, 262, 266, "Li J", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Li J\"."
+31, Author, 269, 278, "Donovan M", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Donovan M\"."
+32, Author, 281, 290, "Fleming D", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Fleming D\"."
+33, Author, 293, 300, "Iqbal N", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasAuthor> \"Iqbal N\"."
+34, UK, 450, 452, "UK", "", 
+22, Type2Diabetes, 547, 571, "type 2 diabetes mellitus", "", 
+23, Type2Diabetes, 574, 578, "T2DM", "", 
+49, ObjectiveDescription, 595, 844, "The objective of this study was to evaluate the safety and efficacy of the dipeptidyl peptidase - 4 inhibitor saxagliptin versus placebo as add - on therapy in patients with T2DM inadequately controlled with insulin alone or insulin plus metformin .", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasObjectiveDescription> \"The objective of this study was to evaluate the safety and efficacy of the dipeptidyl peptidase - 4 inhibitor saxagliptin versus placebo as add - on therapy in patients with T2DM inadequately controlled with insulin alone or insulin plus metformin .\"."
+3, Saxagliptin, 705, 716, "saxagliptin", "", 
+35, Placebo, 724, 731, "placebo", "", 
+48, Precondition, 755, 842, "patients with T2DM inadequately controlled with insulin alone or insulin plus metformin", "", "<http://ctro/data#Population_49113> <http://ctro/data#hasPrecondition> \"patients with T2DM inadequately controlled with insulin alone or insulin plus metformin\"."
+24, Type2Diabetes, 769, 773, "T2DM", "", 
+46, Insulin, 803, 810, "insulin", "", 
+47, Insulin, 820, 827, "insulin", "", 
+15, Metformin, 833, 842, "metformin", "", 
+50, Duration, 880, 889, "28 - week", "", 
+51, Duration, 922, 931, "24 - week", "", 
+52, Randomized, 936, 946, "randomized", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+53, DoubleBlind, 949, 963, "double - blind", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+54, Parallel, 966, 982, "parallel - group", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+4, Saxagliptin, 992, 1003, "saxagliptin", "", "<http://ctro/data#Medication_49151> <http://ctro/data#hasDrug> <http://ctro/data#Saxagliptin>."
+55, DoseValue, 1004, 1005, "5", "", "<http://ctro/data#Medication_49151> <http://ctro/data#hasDoseValue> \"5\"."
+56, mg, 1006, 1008, "mg", "", "<http://ctro/data#Medication_49151> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+57, Frequency, 1009, 1019, "once daily", "", 
+36, Placebo, 1027, 1034, "placebo", "", "<http://ctro/data#Medication_49158> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+58, OpenLabel, 1058, 1070, "open - label", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+59, Insulin, 1071, 1078, "insulin", "", 
+60, Insulin, 1082, 1089, "insulin", "", 
+37, Metformin, 1095, 1104, "metformin", "", 
+61, Duration, 1122, 1130, "52 weeks", "", 
+62, InsulinDose, 1196, 1210, "insulin dosage", "", 
+63, InsulinDose, 1274, 1288, "insulin dosage", "", 
+71, Precondition, 1463, 1650, "Patients with T2DM aged 18 - 78 years with glycated hemoglobin ( HbA1c ) 7 . 5 - 11 % on a stable insulin regimen ( 30 - 150 U / day with or without metformin ) for ≥ 8 weeks at screening", "", "<http://ctro/data#Population_49113> <http://ctro/data#hasPrecondition> \"Patients with T2DM aged 18 - 78 years with glycated hemoglobin ( HbA1c ) 7 . 5 - 11 % on a stable insulin regimen ( 30 - 150 U / day with or without metformin ) for ≥ 8 weeks at screening\"."
+25, Type2Diabetes, 1477, 1481, "T2DM", "", 
+64, MinAge, 1487, 1489, "18", "", "<http://ctro/data#Population_49113> <http://ctro/data#hasMinAge> \"18\"."
+65, MaxAge, 1492, 1494, "78", "", "<http://ctro/data#Population_49113> <http://ctro/data#hasMaxAge> \"78\"."
+196, Year, 1495, 1500, "years", "", 
+66, HbA1c, 1506, 1525, "glycated hemoglobin", "", 
+67, HbA1c, 1528, 1533, "HbA1c", "", 
+68, Percentage, 1547, 1548, "%", "", 
+70, InsulinDose, 1561, 1576, "insulin regimen", "", 
+201, Insulin, 1561, 1568, "insulin", "", 
+204, DoseValue, 1579, 1587, "30 - 150", "", 
+69, BioAndMedicalUnit, 1588, 1595, "U / day", "", 
+16, Metformin, 1612, 1621, "metformin", "", 
+205, Duration, 1630, 1637, "8 weeks", "", 
+72, Metformin, 1708, 1717, "metformin", "", 
+73, Randomized, 1726, 1734, "randomly", "", 
+74, AllocationRatio, 1744, 1749, "2 : 1", "", "<http://ctro/data#AllocationRatio_49101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_49101>."
+5, Saxagliptin, 1758, 1769, "saxagliptin", "", 
+75, DoseValue, 1770, 1771, "5", "", 
+76, mg, 1772, 1774, "mg", "", 
+77, NumberPatientsArm, 1781, 1784, "304", "", "<http://ctro/data#Arm_49121> <http://ctro/data#hasNumberPatientsArm> \"304\"."
+38, Placebo, 1790, 1797, "placebo", "", 
+78, NumberPatientsArm, 1804, 1807, "151", "", "<http://ctro/data#Arm_49130> <http://ctro/data#hasNumberPatientsArm> \"151\"."
+79, Frequency, 1810, 1820, "once daily", "", "<http://ctro/data#Intervention_49139> <http://ctro/data#hasFrequency> \"once daily\". <http://ctro/data#Intervention_49145> <http://ctro/data#hasFrequency> \"once daily\"."
+80, Duration, 1862, 1870, "24 weeks", "", 
+81, Duration, 1920, 1929, "28 - week", "", 
+82, HbA1c, 2040, 2045, "HbA1c", "", 
+83, TimePoint, 2051, 2059, "baseline", "", 
+84, TimePoint, 2063, 2070, "week 52", "", 
+85, TimePoint, 2121, 2128, "week 24", "", 
+86, TimePoint, 2147, 2154, "week 52", "", 
+225, Mean, 2166, 2170, "mean", "", "<http://ctro/data#Mean_49207> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_49205> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_49207>."
+91, TimePoint, 2183, 2191, "baseline", "", 
+92, HbA1c, 2192, 2197, "HbA1c", "", "<http://ctro/data#Endpoint_49205> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+87, TimePoint, 2201, 2208, "week 52", "", "<http://ctro/data#Outcome_49210> <http://ctro/data#hasTimePoint> \"week 52\"."
+6, Saxagliptin, 2226, 2237, "saxagliptin", "", 
+93, Reduction, 2242, 2248, "0 . 75", "", "<http://ctro/data#Outcome_49210> <http://ctro/data#hasChangeValue> \"0 . 75\"."
+95, Percentage, 2249, 2250, "%", "", "<http://ctro/data#Endpoint_49205> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+39, Placebo, 2260, 2267, "placebo", "", 
+94, Reduction, 2272, 2278, "0 . 38", "", "<http://ctro/data#Outcome_91542> <http://ctro/data#hasChangeValue> \"0 . 38\"."
+96, Percentage, 2279, 2280, "%", "", 
+97, DiffGroupAbsValue, 2329, 2337, "- 0 . 37", "", "<http://ctro/data#DiffBetweenGroups_49264> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 37\"."
+98, Percentage, 2338, 2339, "%", "", 
+99, ConfIntervalDiff, 2342, 2370, "95 % CI - 0 . 55 to - 0 . 19", "", "<http://ctro/data#DiffBetweenGroups_49264> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 55 to - 0 . 19\"."
+244, SubGroupDescription, 2419, 2450, "patients treated with metformin", "", "<http://ctro/data#Outcome_49273> <http://ctro/data#hasSubGroupDescription> \"patients treated with metformin\". <http://ctro/data#Outcome_49300> <http://ctro/data#hasSubGroupDescription> \"patients treated with metformin\"."
+17, Metformin, 2441, 2450, "metformin", "", 
+100, DiffGroupAbsValue, 2453, 2461, "- 0 . 37", "", "<http://ctro/data#DiffBetweenGroups_49381> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 37\"."
+105, Percentage, 2462, 2463, "%", "", 
+106, ConfIntervalDiff, 2466, 2494, "95 % CI - 0 . 59 to - 0 . 15", "", "<http://ctro/data#DiffBetweenGroups_49381> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 59 to - 0 . 15\"."
+103, SubGroupDescription, 2503, 2520, "without metformin", "", "<http://ctro/data#Outcome_49327> <http://ctro/data#hasSubGroupDescription> \"without metformin\". <http://ctro/data#Outcome_49354> <http://ctro/data#hasSubGroupDescription> \"without metformin\"."
+101, DiffGroupAbsValue, 2523, 2531, "- 0 . 37", "", "<http://ctro/data#DiffBetweenGroups_49390> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 37\"."
+104, Percentage, 2532, 2533, "%", "", 
+107, ConfIntervalDiff, 2536, 2564, "95 % CI - 0 . 69 to - 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_49390> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 69 to - 0 . 04\"."
+88, TimePoint, 2574, 2581, "week 52", "", "<http://ctro/data#Outcome_49404> <http://ctro/data#hasTimePoint> \"week 52\". <http://ctro/data#Outcome_49431> <http://ctro/data#hasTimePoint> \"week 52\"."
+7, Saxagliptin, 2627, 2638, "saxagliptin", "", 
+108, HbA1c_target, 2648, 2659, "HbA1c < 7 %", "", "<http://ctro/data#Endpoint_49399> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+252, Percentage, 2658, 2659, "%", "", 
+40, Placebo, 2681, 2688, "placebo", "", 
+109, PercentageAffected, 2691, 2697, "21 . 3", "", "<http://ctro/data#Outcome_49404> <http://ctro/data#hasPercentageAffected> \"21 . 3\"."
+110, PercentageAffected, 2703, 2708, "8 . 7", "", "<http://ctro/data#Outcome_49431> <http://ctro/data#hasPercentageAffected> \"8 . 7\"."
+111, DiffGroupRelValue, 2740, 2746, "12 . 6", "", "<http://ctro/data#DiffBetweenGroups_49458> <http://ctro/data#hasDiffGroupRelValue> \"12 . 6\"."
+112, ConfIntervalDiff, 2751, 2773, "95 % CI 6 . 1 - 19 . 1", "", "<http://ctro/data#DiffBetweenGroups_49458> <http://ctro/data#hasConfIntervalDiff> \"95 % CI 6 . 1 - 19 . 1\"."
+113, TimePoint, 2798, 2806, "baseline", "", 
+261, Mean, 2810, 2814, "mean", "", "<http://ctro/data#Mean_49469> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_49467> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_49469>."
+114, InsulinDose, 2827, 2839, "insulin dose", "", "<http://ctro/data#InsulinDose_49468> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_49467> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_49468>."
+89, TimePoint, 2843, 2850, "week 52", "", "<http://ctro/data#Outcome_49472> <http://ctro/data#hasTimePoint> \"week 52\". <http://ctro/data#Outcome_49499> <http://ctro/data#hasTimePoint> \"week 52\"."
+8, Saxagliptin, 2880, 2891, "saxagliptin", "", 
+115, ResultMeasuredValue, 2894, 2900, "5 . 67", "", "<http://ctro/data#Outcome_49472> <http://ctro/data#hasResultMeasuredValue> \"5 . 67\"."
+116, ResultMeasuredValue, 2904, 2910, "6 . 67", "", "<http://ctro/data#Outcome_49499> <http://ctro/data#hasResultMeasuredValue> \"6 . 67\"."
+268, Int_Unit, 2911, 2912, "U", "", "<http://ctro/data#Endpoint_49467> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Int_Unit>."
+41, Placebo, 2918, 2925, "placebo", "", 
+118, DiffGroupAbsValue, 2941, 2949, "- 1 . 01", "", "<http://ctro/data#DiffBetweenGroups_49526> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 01\"."
+269, Int_Unit, 2950, 2951, "U", "", 
+120, ConfIntervalDiff, 2954, 2980, "95 % CI - 3 . 24 to 1 . 22", "", "<http://ctro/data#DiffBetweenGroups_49526> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 3 . 24 to 1 . 22\"."
+90, TimePoint, 2998, 3007, "52 - week", "", "<http://ctro/data#Outcome_49540> <http://ctro/data#hasTimePoint> \"52 - week\". <http://ctro/data#Outcome_49567> <http://ctro/data#hasTimePoint> \"52 - week\"."
+121, EndPointDescription, 3060, 3077, "≥ 1 adverse event", "", "<http://ctro/data#EndPointDescription_49536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_49535> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_49536>."
+122, EndPointDescription, 3080, 3082, "AE", "", "<http://ctro/data#EndPointDescription_49536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_49535> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_49536>."
+123, PercentageAffected, 3089, 3095, "66 . 4", "", "<http://ctro/data#Outcome_49540> <http://ctro/data#hasPercentageAffected> \"66 . 4\"."
+9, Saxagliptin, 3103, 3114, "saxagliptin", "", 
+124, PercentageAffected, 3119, 3125, "71 . 5", "", "<http://ctro/data#Outcome_49567> <http://ctro/data#hasPercentageAffected> \"71 . 5\"."
+42, Placebo, 3133, 3140, "placebo", "", 
+20, Saxagliptin, 3227, 3238, "saxagliptin", "", 
+43, Placebo, 3242, 3249, "placebo", "", 
+67694, EndPointDescription, 3257, 3280, "urinary tract infection", "", 
+67696, EndPointDescription, 3283, 3298, "nasopharyngitis", "", 
+67697, EndPointDescription, 3301, 3334, "upper respiratory tract infection", "", 
+67698, Headache, 3337, 3345, "headache", "", 
+67699, EndPointDescription, 3348, 3357, "influenza", "", 
+67700, EndPointDescription, 3364, 3381, "pain in extremity", "", 
+67686, ObservedResult, 3384, 3445, "the incidence of each AE was similar between treatment groups", "", 
+10, Saxagliptin, 3455, 3466, "saxagliptin", "", 
+44, Placebo, 3471, 3478, "placebo", "", 
+129, Hypoglycemia, 3514, 3526, "hypoglycemia", "", "<http://ctro/data#Endpoint_49594> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+130, PercentageAffected, 3531, 3537, "22 . 7", "", "<http://ctro/data#Outcome_49599> <http://ctro/data#hasPercentageAffected> \"22 . 7\"."
+131, PercentageAffected, 3542, 3548, "26 . 5", "", "<http://ctro/data#Outcome_49626> <http://ctro/data#hasPercentageAffected> \"26 . 5\"."
+132, Hypoglycemia, 3595, 3607, "hypoglycemia", "", "<http://ctro/data#Endpoint_49653> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+135, Mg_per_deciliter, 3635, 3642, "mg / dL", "", 
+136, Millimoles_per_litre, 3653, 3661, "mmol / L", "", 
+133, PercentageAffected, 3699, 3704, "7 . 6", "", "<http://ctro/data#Outcome_49658> <http://ctro/data#hasPercentageAffected> \"7 . 6\"."
+134, PercentageAffected, 3709, 3714, "6 . 6", "", "<http://ctro/data#Outcome_49685> <http://ctro/data#hasPercentageAffected> \"6 . 6\"."
+294, Mean, 3743, 3747, "mean", "", "<http://ctro/data#Mean_49714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_49712> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_49714>."
+138, TimePoint, 3760, 3768, "baseline", "", 
+139, BodyWeight, 3769, 3780, "body weight", "", "<http://ctro/data#Endpoint_49712> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+140, Increment, 3787, 3792, "0 . 8", "", "<http://ctro/data#Outcome_49717> <http://ctro/data#hasChangeValue> \"0 . 8\"."
+142, Kg, 3793, 3795, "kg", "", "<http://ctro/data#Endpoint_49712> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+11, Saxagliptin, 3801, 3812, "saxagliptin", "", 
+141, Increment, 3819, 3824, "0 . 5", "", "<http://ctro/data#Outcome_49744> <http://ctro/data#hasChangeValue> \"0 . 5\"."
+143, Kg, 3825, 3827, "kg", "", 
+45, Placebo, 3833, 3840, "placebo", "", 
+12, Saxagliptin, 3856, 3867, "Saxagliptin", "", 
+149, ConclusionComment, 3856, 4051, "Saxagliptin 5 mg once daily as add - on to insulin , with or without concomitant metformin , produced a durable improvement in glycemic control and was well tolerated over 52 weeks of treatment .", "", "<http://ctro/data#ClinicalTrial_49097> <http://ctro/data#hasConclusionComment> \"Saxagliptin 5 mg once daily as add - on to insulin , with or without concomitant metformin , produced a durable improvement in glycemic control and was well tolerated over 52 weeks of treatment .\"."
+144, DoseValue, 3868, 3869, "5", "", 
+145, mg, 3870, 3872, "mg", "", 
+146, Frequency, 3873, 3883, "once daily", "", 
+147, Insulin, 3899, 3906, "insulin", "", 
+19, Metformin, 3937, 3946, "metformin", "", 
+148, Duration, 4028, 4036, "52 weeks", "", 
+150, PMID, 4101, 4109, "23949898", "", "<http://ctro/data#Publication_49090> <http://ctro/data#hasPMID> \"23949898\"."

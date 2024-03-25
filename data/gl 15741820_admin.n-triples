@@ -1,0 +1,107 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_52944> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_52944> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasTitle> "Latanoprost or brimonidine as treatment for elevated intraocular pressure : multicenter trial in the United States ." .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasAuthor> "Camras CB" .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasPublicationYear> "2005" .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasJournal> "J Glaucoma" .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasPMID> "15741820" .
+<http://ctro/data#Publication_52944> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_52952> .
+<http://ctro/data#Publication_52944> <http://ctro/data#hasAuthor> "Sheu WP" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_52952> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_52952> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasObjectiveDescription> "To compare the efficacy and tolerability of latanoprost or brimonidine in patients with elevated intraocular pressure ( IOP )" .
+<http://ctro/data#AllocationRatio_52956> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_52957> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasConclusionComment> "Latanoprost instilled once daily is more effective and better tolerated than brimonidine administered twice daily for the treatment of patients with glaucoma or ocular hypertension ." .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasArm> <http://ctro/data#Arm_52988> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasPopulation> <http://ctro/data#Population_52975> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_53086> .
+<http://ctro/data#EvidenceQuality_52964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasCTDesign> <http://ctro/data#Blind> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasConclusionComment> "During therapy , the range of daily fluctuation of IOP is less for latanoprost compared with brimonidine ." .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#Glaucoma_52974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_52974> .
+<http://ctro/data#ClinicalTrial_52952> <http://ctro/data#hasArm> <http://ctro/data#Arm_52997> .
+# RDF export of group: Population
+<http://ctro/data#Population_52975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_52975> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_52975> <http://ctro/data#hasPrecondition> "patients with elevated intraocular pressure ( IOP )" .
+<http://ctro/data#Ethnicity_52977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_52975> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_52982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_52983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_52983> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-iop" .
+<http://ctro/data#Endpoint_52983> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#Mean_52985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean> .
+<http://ctro/data#Endpoint_52983> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_52985> .
+<http://ctro/data#Endpoint_52983> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_52987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_52988> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_52988> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-bri" .
+<http://ctro/data#Arm_52988> <http://ctro/data#hasNumberPatientsArm> "151" .
+<http://ctro/data#Arm_52988> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_53012> .
+<http://ctro/data#Arm_52988> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_53059> .
+<http://ctro/data#Outcome_52993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_52997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_52997> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-lat" .
+<http://ctro/data#Arm_52997> <http://ctro/data#hasNumberPatientsArm> "152" .
+<http://ctro/data#Arm_52997> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_53006> .
+<http://ctro/data#Arm_52997> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_53032> .
+<http://ctro/data#Outcome_53002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_53006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_53006> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-lat" .
+<http://ctro/data#Intervention_53006> <http://ctro/data#hasMedication> <http://ctro/data#Medication_53018> .
+<http://ctro/data#Intervention_53006> <http://ctro/data#hasFrequency> "once daily" .
+<http://ctro/data#RelativeTime_53011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_53012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_53012> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-bri" .
+<http://ctro/data#Intervention_53012> <http://ctro/data#hasMedication> <http://ctro/data#Medication_53025> .
+<http://ctro/data#Intervention_53012> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_53017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_53018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_53018> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-lat" .
+<http://ctro/data#Latanoprost_53019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost> .
+<http://ctro/data#Medication_53018> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_53019> .
+<http://ctro/data#Medication_53018> <http://ctro/data#hasDoseValue> "0 . 005" .
+<http://ctro/data#Medication_53018> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_53022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_53025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_53025> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-bri" .
+<http://ctro/data#Medication_53025> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_53025> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_53025> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_53029> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_53032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_53032> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-iop-lat" .
+<http://ctro/data#Outcome_53032> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52983> .
+<http://ctro/data#Outcome_53032> <http://ctro/data#hasSdErrorChangeValue> "0 . 3" .
+<http://ctro/data#Outcome_53032> <http://ctro/data#hasTimePoint> "month 6" .
+<http://ctro/data#Outcome_53059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_53059> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-iop-bri" .
+<http://ctro/data#Outcome_53059> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52983> .
+<http://ctro/data#Outcome_53059> <http://ctro/data#hasChangeValue> "3 . 1" .
+<http://ctro/data#Outcome_53059> <http://ctro/data#hasSdErrorChangeValue> "0 . 3" .
+<http://ctro/data#Outcome_53059> <http://ctro/data#hasTimePoint> "month 6" .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_53086> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_53086> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups" .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasDiffGroupAbsValue> "2 . 5" .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasPvalueDiff> "P < 0 . 001" .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasConfIntervalDiff> "95 % CI : 1 . 9 , 3 . 2" .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasStandardDevDiff> "0 . 3" .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_53032> .
+<http://ctro/data#DiffBetweenGroups_53086> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_53059> .
+# RDF export of group: EvidenceQuality

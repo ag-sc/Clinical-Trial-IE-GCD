@@ -1,0 +1,164 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_52445> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_52445> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasTitle> "Brimonidine 0 . 2 % vs unoprostone 0 . 15 % both added to timolol maleate 0 . 5 % given twice daily to patients with primary open - angle glaucoma or ocular hypertension ." .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Sharpe ED" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasPublicationYear> "2005" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasJournal> "Eye ( Lond ) ." .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasPMID> "15094733" .
+<http://ctro/data#Publication_52445> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_52458> .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Henry CJ" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Mundorf TK" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Day DG" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Stewart JA" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Jenkins JN" .
+<http://ctro/data#Publication_52445> <http://ctro/data#hasAuthor> "Stewart WC" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_52458> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_52458> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial" .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasObjectiveDescription> "To compare the efficacy and safety of brimonidine 0 . 2 % vs unoprostone 0 . 15 % , both added to timolol maleate 0 . 5 % each given twice daily ." .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasNumberPatientsCT> "33" .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTduration> "6 - week" .
+<http://ctro/data#AllocationRatio_52462> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_52463> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasConclusionComment> "Brimonidine 0 . 2 % or unoprostone 0 . 15 % added to timolol maleate 0 . 5 % provide similar efficacy and safety throughout the daytime diurnal curve ." .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasArm> <http://ctro/data#Arm_52498> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasPopulation> <http://ctro/data#Population_52480> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_52659> .
+<http://ctro/data#EvidenceQuality_52470> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasFinalNumberPatientsCT> "29" .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Crossover> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension> .
+<http://ctro/data#ClinicalTrial_52458> <http://ctro/data#hasArm> <http://ctro/data#Arm_52507> .
+<http://ctro/data#DiffBetweenGroups_52725> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_52726> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+# RDF export of group: Population
+<http://ctro/data#Population_52480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_52480> <http://www.w3.org/2000/01/rdf-schema#label> "Population" .
+<http://ctro/data#Population_52480> <http://ctro/data#hasPrecondition> "patients with primary open - angle glaucoma or ocular hypertension" .
+<http://ctro/data#Ethnicity_52482> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_52480> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_52487> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_52488> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_52488> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-tiop" .
+<http://ctro/data#Endpoint_52488> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Trough_IOP> .
+<http://ctro/data#AggregationMethod_52490> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_52488> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_52492> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_52493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_52493> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-diop" .
+<http://ctro/data#Endpoint_52493> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP> .
+<http://ctro/data#AggregationMethod_52495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_52493> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_52497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_52669> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_52669> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-dryness" .
+<http://ctro/data#EndPointDescription_52670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_52669> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52670> .
+<http://ctro/data#AggregationMethod_52671> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_52672> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_52673> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+<http://ctro/data#Endpoint_52674> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_52674> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint-burning" .
+<http://ctro/data#EndPointDescription_52675> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription> .
+<http://ctro/data#Endpoint_52674> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_52675> .
+<http://ctro/data#AggregationMethod_52676> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#BioAndMedicalUnit_52677> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#MeasurementDevice_52678> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_52498> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_52498> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-tim-bri" .
+<http://ctro/data#Arm_52498> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_52516> .
+<http://ctro/data#Arm_52498> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_52551> .
+<http://ctro/data#Arm_52498> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_112506> .
+<http://ctro/data#Arm_52498> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_52605> .
+<http://ctro/data#Arm_52498> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_112533> .
+<http://ctro/data#Arm_52507> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_52507> <http://www.w3.org/2000/01/rdf-schema#label> "Arm-tim-uno" .
+<http://ctro/data#Arm_52507> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_52522> .
+<http://ctro/data#Arm_52507> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_52578> .
+<http://ctro/data#Arm_52507> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_112506> .
+<http://ctro/data#Arm_52507> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_52632> .
+<http://ctro/data#Arm_52507> <http://ctro/data#hasAdverseEffect> <http://ctro/data#Outcome_112533> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_52516> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_52516> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-tim-bri" .
+<http://ctro/data#Intervention_52516> <http://ctro/data#hasMedication> <http://ctro/data#Medication_52528> .
+<http://ctro/data#Intervention_52516> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_52521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_52516> <http://ctro/data#hasMedication> <http://ctro/data#Medication_52535> .
+<http://ctro/data#Intervention_52522> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_52522> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention-tim-uno" .
+<http://ctro/data#Intervention_52522> <http://ctro/data#hasMedication> <http://ctro/data#Medication_52528> .
+<http://ctro/data#Intervention_52522> <http://ctro/data#hasFrequency> "twice daily" .
+<http://ctro/data#RelativeTime_52527> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_52522> <http://ctro/data#hasMedication> <http://ctro/data#Medication_52542> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_52528> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_52528> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-tim" .
+<http://ctro/data#Medication_52528> <http://ctro/data#hasDrug> <http://ctro/data#Timolol> .
+<http://ctro/data#Medication_52528> <http://ctro/data#hasDoseValue> "0 . 5" .
+<http://ctro/data#Medication_52528> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_52532> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_52535> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_52535> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-bri" .
+<http://ctro/data#Medication_52535> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine> .
+<http://ctro/data#Medication_52535> <http://ctro/data#hasDoseValue> "0 . 2" .
+<http://ctro/data#Medication_52535> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_52539> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_52542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_52542> <http://www.w3.org/2000/01/rdf-schema#label> "Medication-uno" .
+<http://ctro/data#Medication_52542> <http://ctro/data#hasDrug> <http://ctro/data#Unoprostone> .
+<http://ctro/data#Medication_52542> <http://ctro/data#hasDoseValue> "0 . 15" .
+<http://ctro/data#Medication_52542> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage> .
+<http://ctro/data#DeliveryMethod_52546> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_52551> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_52551> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-tiop-bri" .
+<http://ctro/data#Outcome_52551> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52488> .
+<http://ctro/data#Outcome_52551> <http://ctro/data#hasBaselineValue> "23 . 3" .
+<http://ctro/data#Outcome_52551> <http://ctro/data#hasSdDevBL> "2 . 4" .
+<http://ctro/data#Outcome_52551> <http://ctro/data#hasResultMeasuredValue> "21 . 6" .
+<http://ctro/data#Outcome_52551> <http://ctro/data#hasSdDevResValue> "3 . 3" .
+<http://ctro/data#Outcome_52578> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_52578> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-tiop-uno" .
+<http://ctro/data#Outcome_52578> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52488> .
+<http://ctro/data#Outcome_52578> <http://ctro/data#hasBaselineValue> "23 . 3" .
+<http://ctro/data#Outcome_52578> <http://ctro/data#hasSdDevBL> "2 . 4" .
+<http://ctro/data#Outcome_52578> <http://ctro/data#hasResultMeasuredValue> "20 . 9" .
+<http://ctro/data#Outcome_52578> <http://ctro/data#hasSdDevResValue> "3 . 8" .
+<http://ctro/data#Outcome_52605> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_52605> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-diop-bri" .
+<http://ctro/data#Outcome_52605> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52493> .
+<http://ctro/data#Outcome_52605> <http://ctro/data#hasBaselineValue> "22 . 0" .
+<http://ctro/data#Outcome_52605> <http://ctro/data#hasSdDevBL> "1 . 3" .
+<http://ctro/data#Outcome_52605> <http://ctro/data#hasResultMeasuredValue> "19 . 8" .
+<http://ctro/data#Outcome_52605> <http://ctro/data#hasSdDevResValue> "2 . 1" .
+<http://ctro/data#Outcome_52632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_52632> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome-diop-uno" .
+<http://ctro/data#Outcome_52632> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52493> .
+<http://ctro/data#Outcome_52632> <http://ctro/data#hasBaselineValue> "22 . 0" .
+<http://ctro/data#Outcome_52632> <http://ctro/data#hasSdDevBL> "1 . 3" .
+<http://ctro/data#Outcome_52632> <http://ctro/data#hasResultMeasuredValue> "19 . 3" .
+<http://ctro/data#Outcome_52632> <http://ctro/data#hasSdDevResValue> "2 . 4" .
+<http://ctro/data#Outcome_112506> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_112506> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_dryness" .
+<http://ctro/data#Outcome_112506> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52669> .
+<http://ctro/data#Outcome_112506> <http://ctro/data#hasObservedResult> "more dryness ( P = 0 . 02 ) and burning upon instillation ( P < 0 . 0001 ) with unoprostone by survey ." .
+<http://ctro/data#Outcome_112533> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_112533> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome_burning" .
+<http://ctro/data#Outcome_112533> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_52669> .
+<http://ctro/data#Outcome_112533> <http://ctro/data#hasObservedResult> "more dryness ( P = 0 . 02 ) and burning upon instillation ( P < 0 . 0001 ) with unoprostone by survey ." .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_52659> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_52659> <http://www.w3.org/2000/01/rdf-schema#label> "DiffBetweenGroups-diop" .
+<http://ctro/data#DiffBetweenGroups_52659> <http://ctro/data#hasPvalueDiff> "P > 0 . 05" .
+<http://ctro/data#DiffBetweenGroups_52659> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_52605> .
+<http://ctro/data#DiffBetweenGroups_52659> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_52632> .
+# RDF export of group: EvidenceQuality

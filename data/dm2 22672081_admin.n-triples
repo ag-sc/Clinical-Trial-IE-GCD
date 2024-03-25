@@ -1,0 +1,116 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_35769> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_35769> <http://www.w3.org/2000/01/rdf-schema#label> "Publication 35769" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasTitle> "A study comparing insulin lispro mix 25 with glargine plus lispro therapy in patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication : results of the PARADIGM study ." .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Bowering K" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasPublicationYear> "2012" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasJournal> "Diabet Med ." .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasPMID> "22672081" .
+<http://ctro/data#Publication_35769> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_35776> .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Reed VA" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Felicio JS" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Landry J" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Ji L" .
+<http://ctro/data#Publication_35769> <http://ctro/data#hasAuthor> "Oliveira J" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_35776> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_35776> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial 35776" .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasObjectiveDescription> "To test the hypothesis that initiation and intensification with 25 % insulin lispro , 75 % insulin lispro protamine suspension ( LM25 ) , is non - inferior to initiation and intensification with glargine + insulin lispro therapy" .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasNumberPatientsCT> "426" .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTduration> "48 - week" .
+<http://ctro/data#AllocationRatio_35780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasConclusionComment> "For patients with Type 2 diabetes inadequately controlled with oral anti - hyperglycaemic medications , glycaemic control when initiating and intensifying with LM25 therapy was found to be non - inferior to treatment with" .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasArm> <http://ctro/data#Arm_35800> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasPopulation> <http://ctro/data#Population_35792> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasDiffBetweenGroups> <http://ctro/data#DiffBetweenGroups_35946> .
+<http://ctro/data#EvidenceQuality_35788> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasObjectiveDescription> "on change from baseline in HbA ( 1c ) ." .
+<http://ctro/data#CTDesign_35875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_35875> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel> .
+<http://ctro/data#CTDesign_35877> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_35877> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel> .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasConclusionComment> "glargine + insulin lispro therapy ." .
+<http://ctro/data#ClinicalTrial_35776> <http://ctro/data#hasArm> <http://ctro/data#Arm_35809> .
+# RDF export of group: Population
+<http://ctro/data#Population_35792> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_35792> <http://www.w3.org/2000/01/rdf-schema#label> "Population 35792" .
+<http://ctro/data#Population_35792> <http://ctro/data#hasPrecondition> "patients with Type 2 diabetes who have inadequate glycaemic control on oral anti - hyperglycaemic medication" .
+<http://ctro/data#Ethnicity_35794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_35792> <http://ctro/data#hasCountry> <http://ctro/data#Canada> .
+<http://ctro/data#Gender_35799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_35887> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_35887> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#Endpoint_35887> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c> .
+<http://ctro/data#Endpoint_35887> <http://ctro/data#hasAggregationMethod> <http://ctro/data#LeastSquaresMean> .
+<http://ctro/data#Endpoint_35887> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_mole> .
+<http://ctro/data#MeasurementDevice_35891> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_35800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_35800> <http://www.w3.org/2000/01/rdf-schema#label> "lm" .
+<http://ctro/data#Arm_35800> <http://ctro/data#hasNumberPatientsArm> "211" .
+<http://ctro/data#Arm_35800> <http://ctro/data#hasFinalNumPatientsArm> "177" .
+<http://ctro/data#Arm_35800> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_35818> .
+<http://ctro/data#Arm_35800> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_35892> .
+<http://ctro/data#Outcome_35805> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_35809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_35809> <http://www.w3.org/2000/01/rdf-schema#label> "gla" .
+<http://ctro/data#Arm_35809> <http://ctro/data#hasNumberPatientsArm> "212" .
+<http://ctro/data#Arm_35809> <http://ctro/data#hasFinalNumPatientsArm> "184" .
+<http://ctro/data#Arm_35809> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_35824> .
+<http://ctro/data#Arm_35809> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_35919> .
+<http://ctro/data#Outcome_35814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_35809> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_35830> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_35818> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_35818> <http://www.w3.org/2000/01/rdf-schema#label> "lm" .
+<http://ctro/data#Intervention_35818> <http://ctro/data#hasMedication> <http://ctro/data#Medication_35836> .
+<http://ctro/data#Intervention_35818> <http://ctro/data#hasFrequency> "one daily" .
+<http://ctro/data#RelativeTime_35823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_35824> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_35824> <http://www.w3.org/2000/01/rdf-schema#label> "gla" .
+<http://ctro/data#Intervention_35824> <http://ctro/data#hasMedication> <http://ctro/data#Medication_35843> .
+<http://ctro/data#Intervention_35824> <http://ctro/data#hasFrequency> "one daily" .
+<http://ctro/data#RelativeTime_35829> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_35830> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_35830> <http://www.w3.org/2000/01/rdf-schema#label> "lis" .
+<http://ctro/data#Intervention_35830> <http://ctro/data#hasMedication> <http://ctro/data#Medication_35850> .
+<http://ctro/data#Intervention_35830> <http://ctro/data#hasFrequency> "three daily" .
+<http://ctro/data#RelativeTime_35835> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_35836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_35836> <http://www.w3.org/2000/01/rdf-schema#label> "lm" .
+<http://ctro/data#Medication_35836> <http://ctro/data#hasDrug> <http://ctro/data#Lispro75/25> .
+<http://ctro/data#BioAndMedicalUnit_35839> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_35836> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection> .
+<http://ctro/data#Medication_35843> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_35843> <http://www.w3.org/2000/01/rdf-schema#label> "gla" .
+<http://ctro/data#Medication_35843> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine> .
+<http://ctro/data#BioAndMedicalUnit_35846> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_35843> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection> .
+<http://ctro/data#Medication_35850> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_35850> <http://www.w3.org/2000/01/rdf-schema#label> "lis" .
+<http://ctro/data#Drug_35851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug> .
+<http://ctro/data#BioAndMedicalUnit_35853> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#Medication_35850> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#IntramuscularInjection> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_35892> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_35892> <http://www.w3.org/2000/01/rdf-schema#label> "hba 1" .
+<http://ctro/data#Outcome_35892> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_35887> .
+<http://ctro/data#Outcome_35919> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_35919> <http://www.w3.org/2000/01/rdf-schema#label> "hba 2" .
+<http://ctro/data#Outcome_35919> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_35887> .
+# RDF export of group: DiffBetweenGroups
+<http://ctro/data#DiffBetweenGroups_35946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#DiffBetweenGroups_35946> <http://www.w3.org/2000/01/rdf-schema#label> "hba" .
+<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasDiffGroupAbsValue> "- 0 . 4" .
+<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasConfIntervalDiff> "95 % CI - 2 . 7 to 1 . 9" .
+<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasOutcome1> <http://ctro/data#Outcome_35892> .
+<http://ctro/data#DiffBetweenGroups_35946> <http://ctro/data#hasOutcome2> <http://ctro/data#Outcome_35919> .
+# RDF export of group: EvidenceQuality

@@ -1,0 +1,95 @@
+# RDF export of group: Publication
+<http://ctro/data#Publication_97109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Publication> .
+<http://ctro/data#Publication_97109> <http://www.w3.org/2000/01/rdf-schema#label> "Publication " .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasTitle> "Levobunolol compared to dipivefrin in African American patients with open angle glaucoma ." .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasAuthor> "Drake MV" .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasPublicationYear> "1993" .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasJournal> "J Ocul Pharmacol ." .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasPMID> "8123096" .
+<http://ctro/data#Publication_97109> <http://ctro/data#describes> <http://ctro/data#ClinicalTrial_97119> .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasAuthor> "Wilson MR" .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasAuthor> "Harris D" .
+<http://ctro/data#Publication_97109> <http://ctro/data#hasAuthor> "Goodwin L" .
+# RDF export of group: ClinicalTrial
+<http://ctro/data#ClinicalTrial_97119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#ClinicalTrial> .
+<http://ctro/data#ClinicalTrial_97119> <http://www.w3.org/2000/01/rdf-schema#label> "ClinicalTrial " .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasObjectiveDescription> "We treated both eyes of 38 African American patients who have stable open angle glaucoma with either levobunolol b . i . d ." .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasObjectiveDescription> "or dipivefrin b . i . d ." .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasObjectiveDescription> "to evaluate the effectiveness of each drug in lowering intraocular pressure ." .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasNumberPatientsCT> "38" .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasCTduration> "six weeks" .
+<http://ctro/data#AllocationRatio_97123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio> .
+<http://ctro/data#CTAnalysisApproach_97124> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTAnalysisApproach> .
+<http://ctro/data#CTDesign_97125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign> .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasConclusionComment> "Both levobunolol and dipivefrin produce a statistically significant decrease in intraocular pressure in African American patients with open angle glaucoma ." .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasArm> <http://ctro/data#Arm_97158> .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma> .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasPopulation> <http://ctro/data#Population_97137> .
+<http://ctro/data#DiffBetweenGroups_97130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DiffBetweenGroups> .
+<http://ctro/data#EvidenceQuality_97131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EvidenceQuality> .
+<http://ctro/data#ClinicalTrial_97119> <http://ctro/data#hasArm> <http://ctro/data#Arm_97180> .
+# RDF export of group: Population
+<http://ctro/data#Population_97137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Population> .
+<http://ctro/data#Population_97137> <http://www.w3.org/2000/01/rdf-schema#label> "Population " .
+<http://ctro/data#Population_97137> <http://ctro/data#hasPrecondition> "following a two week washout period" .
+<http://ctro/data#Ethnicity_97139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Ethnicity> .
+<http://ctro/data#Population_97137> <http://ctro/data#hasEthnicity> <http://ctro/data#Ethnicity_97139> .
+<http://ctro/data#Population_97137> <http://ctro/data#hasCountry> <http://ctro/data#USA> .
+<http://ctro/data#Gender_97144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Gender> .
+# RDF export of group: Endpoint
+<http://ctro/data#Endpoint_97189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Endpoint> .
+<http://ctro/data#Endpoint_97189> <http://www.w3.org/2000/01/rdf-schema#label> "Endpoint IOP " .
+<http://ctro/data#IOP_97190> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP> .
+<http://ctro/data#Endpoint_97189> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_97190> .
+<http://ctro/data#AggregationMethod_97191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AggregationMethod> .
+<http://ctro/data#Endpoint_97189> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg> .
+<http://ctro/data#MeasurementDevice_97193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice> .
+# RDF export of group: Arm
+<http://ctro/data#Arm_97158> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_97158> <http://www.w3.org/2000/01/rdf-schema#label> "Arm l" .
+<http://ctro/data#Arm_97158> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_97152> .
+<http://ctro/data#Arm_97158> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_97194> .
+<http://ctro/data#Outcome_97163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Arm_97180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Arm> .
+<http://ctro/data#Arm_97180> <http://www.w3.org/2000/01/rdf-schema#label> "Arm d" .
+<http://ctro/data#Arm_97180> <http://ctro/data#hasIntervention> <http://ctro/data#Intervention_97174> .
+<http://ctro/data#Arm_97180> <http://ctro/data#hasOutcome> <http://ctro/data#Outcome_97221> .
+<http://ctro/data#Outcome_97185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+# RDF export of group: Intervention
+<http://ctro/data#Intervention_97152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_97152> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention l " .
+<http://ctro/data#Intervention_97152> <http://ctro/data#hasMedication> <http://ctro/data#Medication_97145> .
+<http://ctro/data#Intervention_97152> <http://ctro/data#hasFrequency> "b . i . d" .
+<http://ctro/data#RelativeTime_97157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+<http://ctro/data#Intervention_97174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Intervention> .
+<http://ctro/data#Intervention_97174> <http://www.w3.org/2000/01/rdf-schema#label> "Intervention d" .
+<http://ctro/data#Intervention_97174> <http://ctro/data#hasMedication> <http://ctro/data#Medication_97167> .
+<http://ctro/data#Intervention_97174> <http://ctro/data#hasFrequency> "b . i . d" .
+<http://ctro/data#RelativeTime_97179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime> .
+# RDF export of group: Medication
+<http://ctro/data#Medication_97145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_97145> <http://www.w3.org/2000/01/rdf-schema#label> "Medication l" .
+<http://ctro/data#Medication_97145> <http://ctro/data#hasDrug> <http://ctro/data#Levobunolol> .
+<http://ctro/data#BioAndMedicalUnit_97148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_97149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+<http://ctro/data#Medication_97167> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_97167> <http://www.w3.org/2000/01/rdf-schema#label> "Medication d" .
+<http://ctro/data#Drug_97168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug> .
+<http://ctro/data#Medication_97167> <http://ctro/data#hasDrug> <http://ctro/data#Drug_97168> .
+<http://ctro/data#BioAndMedicalUnit_97170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_97171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+<http://ctro/data#Outcome_97194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_97194> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP l" .
+<http://ctro/data#Outcome_97194> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_97189> .
+<http://ctro/data#Outcome_97194> <http://ctro/data#hasBaselineValue> "24 . 4" .
+<http://ctro/data#Outcome_97194> <http://ctro/data#hasResultMeasuredValue> "17 . 0" .
+<http://ctro/data#Outcome_97194> <http://ctro/data#hasTimePoint> "week six" .
+<http://ctro/data#Outcome_97221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Outcome> .
+<http://ctro/data#Outcome_97221> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome IOP d" .
+<http://ctro/data#Outcome_97221> <http://ctro/data#hasEndpoint> <http://ctro/data#Endpoint_97189> .
+<http://ctro/data#Outcome_97221> <http://ctro/data#hasBaselineValue> "25 . 4" .
+<http://ctro/data#Outcome_97221> <http://ctro/data#hasResultMeasuredValue> "18 . 2" .
+<http://ctro/data#Outcome_97221> <http://ctro/data#hasTimePoint> "week six" .
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

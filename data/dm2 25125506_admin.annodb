@@ -1,0 +1,95 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2014", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasPublicationYear> \"2014\"."
+96, Title, 101, 237, "Efficacy and safety of oral methazolamide in patients with type 2 diabetes : a 24 - week , placebo - controlled , double - blind study .", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasTitle> \"Efficacy and safety of oral methazolamide in patients with type 2 diabetes : a 24 - week , placebo - controlled , double - blind study .\"."
+2, Oral, 124, 128, "oral", "", 
+79642, Methazolamide, 129, 142, "methazolamide", "", 
+10, Type2Diabetes, 160, 175, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+13, Duration, 180, 189, "24 - week", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasCTduration> \"24 - week\"."
+15, Placebo, 192, 199, "placebo", "", 
+18, DoubleBlind, 215, 229, "double - blind", "", 
+19, Author, 238, 248, "Simpson RW", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Simpson RW\"."
+20, Author, 257, 269, "Nicholson GC", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Nicholson GC\"."
+21, Author, 278, 288, "Proietto J", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Proietto J\"."
+22, Author, 297, 304, "Sarah A", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Sarah A\"."
+23, Author, 313, 323, "Sanders KM", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Sanders KM\"."
+24, Author, 332, 342, "Phillips G", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Phillips G\"."
+25, Author, 351, 361, "Chambers J", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Chambers J\"."
+26, Author, 370, 381, "MacGinley R", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"MacGinley R\"."
+27, Author, 390, 398, "Orford N", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Orford N\"."
+28, Author, 407, 415, "Walder K", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Walder K\"."
+29, Author, 424, 434, "Krippner G", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Krippner G\"."
+30, Author, 443, 450, "Skoff K", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Skoff K\"."
+31, Author, 459, 468, "Wacher VJ", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasAuthor> \"Wacher VJ\"."
+32, Australia, 546, 555, "Australia", "", 
+33, Australia, 681, 690, "Australia", "", 
+34, Australia, 783, 792, "Australia", "", 
+35, Australia, 885, 894, "Australia", "", 
+36, Australia, 944, 953, "Australia", "", 
+37, Australia, 1134, 1143, "Australia", "", 
+38, Australia, 1207, 1216, "Australia", "", 
+39, Australia, 1280, 1289, "Australia", "", 
+40, ObjectiveDescription, 1334, 1431, "To evaluate the safety and efficacy of methazolamide as a potential therapy for type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasObjectiveDescription> \"To evaluate the safety and efficacy of methazolamide as a potential therapy for type 2 diabetes .\"."
+79643, Methazolamide, 1373, 1386, "methazolamide", "", 
+11, Type2Diabetes, 1414, 1429, "type 2 diabetes", "", 
+41, DoubleBlind, 1467, 1481, "double - blind", "", 
+42, Placebo, 1484, 1491, "placebo", "", 
+43, Randomized, 1511, 1521, "randomized", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+44, NumberPatientsCT, 1522, 1524, "76", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasNumberPatientsCT> \"76\"."
+45, Oral, 1537, 1541, "oral", "", "<http://ctro/data#Medication_63139> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Oral>."
+79649, Methazolamide, 1542, 1555, "methazolamide", "", "<http://ctro/data#Medication_63139> <http://ctro/data#hasDrug> <http://ctro/data#Methazolamide>."
+46, DoseValue, 1558, 1560, "40", "", "<http://ctro/data#Medication_63139> <http://ctro/data#hasDoseValue> \"40\"."
+47, mg, 1561, 1563, "mg", "", "<http://ctro/data#Medication_63139> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+48, Frequency, 1564, 1575, "b . i . d .", "", "<http://ctro/data#Intervention_63127> <http://ctro/data#hasFrequency> \"b . i . d .\"."
+16, Placebo, 1581, 1588, "placebo", "", "<http://ctro/data#Medication_63146> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+14, Duration, 1593, 1601, "24 weeks", "", 
+79645, Methazolamide, 1639, 1652, "methazolamide", "", 
+49, Placebo, 1669, 1676, "placebo", "", 
+50, HbA1c, 1702, 1707, "HbA1c", "", 
+54, TimePoint, 1713, 1721, "baseline", "", 
+55, TimePoint, 1728, 1736, "24 weeks", "", 
+51, HbA1c, 1741, 1746, "HbA1c", "", 
+140, Mean, 1761, 1765, "Mean", "", "<http://ctro/data#Mean_63196> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_63194> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_63196>."
+56, TimePoint, 1771, 1779, "baseline", "", 
+52, HbA1c, 1780, 1785, "HbA1c", "", "<http://ctro/data#Endpoint_63194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+57, BaseLineValue, 1790, 1795, "7 . 1", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasBaselineValue> \"7 . 1\"."
+59, SdDevBL, 1798, 1803, "0 . 7", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasSdDevBL> \"0 . 7\"."
+61, Percentage, 1804, 1805, "%", "", "<http://ctro/data#Endpoint_63194> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+58, BaseLineValue, 1808, 1810, "54", "", 
+60, SdDevBL, 1813, 1814, "5", "", 
+79864, Millimoles_per_mole, 1815, 1825, "mmol / mol", "", 
+65, NumberPatientsArm, 1832, 1834, "37", "", "<http://ctro/data#Arm_63107> <http://ctro/data#hasNumberPatientsArm> \"37\"."
+67, BaseLineValue, 1841, 1846, "7 . 4", "", "<http://ctro/data#Outcome_63235> <http://ctro/data#hasBaselineValue> \"7 . 4\"."
+69, SdDevBL, 1849, 1854, "0 . 6", "", "<http://ctro/data#Outcome_63235> <http://ctro/data#hasSdDevBL> \"0 . 6\"."
+62, Percentage, 1855, 1856, "%", "", 
+68, BaseLineValue, 1859, 1861, "57", "", 
+70, SdDevBL, 1864, 1865, "5", "", 
+79865, Millimoles_per_mole, 1866, 1876, "mmol / mol", "", 
+66, NumberPatientsArm, 1883, 1885, "39", "", "<http://ctro/data#Arm_63117> <http://ctro/data#hasNumberPatientsArm> \"39\"."
+79651, Methazolamide, 1895, 1908, "methazolamide", "", 
+17, Placebo, 1913, 1920, "placebo", "", 
+79653, Methazolamide, 1945, 1958, "Methazolamide", "", 
+53, HbA1c, 1993, 1998, "HbA1c", "", "<http://ctro/data#Endpoint_63194> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+71, Reduction, 2004, 2010, "0 . 39", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasChangeValue> \"0 . 39\"."
+73, Percentage, 2011, 2012, "%", "", 
+74, ConfIntervalChangeValue, 2015, 2040, "95 % CI - 0 . 82 , 0 . 04", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI - 0 . 82 , 0 . 04\"."
+76589, PValueChangeValue, 2043, 2053, "P < 0 . 05", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 05\"."
+72, Reduction, 2060, 2065, "4 . 3", "", 
+79866, Millimoles_per_mole, 2066, 2076, "mmol / mol", "", 
+75, ConfIntervalChangeValue, 2079, 2094, "- 9 . 0 , 0 . 4", "", 
+78, HbA1c_target, 2153, 2168, "HbA1c ≤ 6 . 5 %", "", "<http://ctro/data#Endpoint_63262> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+166, Percentage, 2167, 2168, "%", "", 
+79867, Millimoles_per_mole, 2174, 2184, "mmol / mol", "", 
+174, PercentageAffected, 2192, 2193, "8", "", "<http://ctro/data#Outcome_63294> <http://ctro/data#hasPercentageAffected> \"8\"."
+79, PercentageAffected, 2197, 2199, "33", "", "<http://ctro/data#Outcome_63267> <http://ctro/data#hasPercentageAffected> \"33\"."
+81, EndPointDescription, 2225, 2249, "alanine aminotransferase", "", "<http://ctro/data#EndPointDescription_63322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_63321> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_63322>."
+80, Reduction, 2254, 2256, "10", "", "<http://ctro/data#Outcome_63331> <http://ctro/data#hasChangeValue> \"10\"."
+84, BioAndMedicalUnit, 2257, 2266, "units / L", "", "<http://ctro/data#BioAndMedicalUnit_63324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_63321> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_63324>."
+82, BodyWeight, 2275, 2281, "weight", "", "<http://ctro/data#Endpoint_63326> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+83, RelativeReduction, 2289, 2290, "2", "", "<http://ctro/data#Outcome_63358> <http://ctro/data#hasRelativeChangeValue> \"2\"."
+100521, SubGroupDescription, 2298, 2328, "metformin - cotreated patients", "", "<http://ctro/data#Outcome_63208> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\". <http://ctro/data#Outcome_63235> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\". <http://ctro/data#Outcome_63267> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\". <http://ctro/data#Outcome_63294> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\". <http://ctro/data#Outcome_63331> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\". <http://ctro/data#Outcome_63358> <http://ctro/data#hasSubGroupDescription> \"metformin - cotreated patients\"."
+85, Metformin, 2298, 2307, "metformin", "", 
+79655, Methazolamide, 2345, 2358, "Methazolamide", "", 
+87, ConclusionComment, 2345, 2465, "Methazolamide is the archetype for a new intervention in type 2 diabetes with clinical benefits beyond glucose control .", "", "<http://ctro/data#ClinicalTrial_63063> <http://ctro/data#hasConclusionComment> \"Methazolamide is the archetype for a new intervention in type 2 diabetes with clinical benefits beyond glucose control .\"."
+12, Type2Diabetes, 2402, 2417, "type 2 diabetes", "", 
+88, PMID, 2692, 2700, "25125506", "", "<http://ctro/data#Publication_63056> <http://ctro/data#hasPMID> \"25125506\"."

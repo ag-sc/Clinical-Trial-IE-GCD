@@ -1,0 +1,133 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+27025, Journal, 0, 13, "Ophthalmology", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasJournal> \"Ophthalmology\"."
+1, PublicationYear, 16, 20, "1999", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasPublicationYear> \"1999\"."
+77, Title, 49, 158, "A 12 - month , randomized , double - masked study comparing latanoprost with timolol in pigmentary glaucoma .", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasTitle> \"A 12 - month , randomized , double - masked study comparing latanoprost with timolol in pigmentary glaucoma .\"."
+25340, Duration, 51, 61, "12 - month", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTduration> \"12 - month\"."
+3, Randomized, 64, 74, "randomized", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+4, DoubleBlind, 77, 92, "double - masked", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+5, Latanoprost, 109, 120, "latanoprost", "", 
+6, Timolol, 126, 133, "timolol", "", 
+25342, PigmentaryGlaucoma, 137, 156, "pigmentary glaucoma", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#analysesHealthCondition> <http://ctro/data#PigmentaryGlaucoma>."
+8, Author, 159, 173, "Mastropasqua L", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> \"Mastropasqua L\"."
+9, Author, 182, 193, "Carpineto P", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> \"Carpineto P\"."
+10, Author, 196, 209, "Ciancaglini M", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> \"Ciancaglini M\"."
+11, Author, 212, 223, "Gallenga PE", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasAuthor> \"Gallenga PE\"."
+12, Italy, 338, 343, "Italy", "", "<http://ctro/data#Population_25015> <http://ctro/data#hasCountry> <http://ctro/data#Italy>."
+13, ObjectiveDescription, 358, 585, "To compare the efficacy and side effects and the effect on aqueous humor dynamics of 0 . 005 % latanoprost applied topically once daily with 0 . 5 % timolol given twice daily for 12 months to patients with pigmentary glaucoma .", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and side effects and the effect on aqueous humor dynamics of 0 . 005 % latanoprost applied topically once daily with 0 . 5 % timolol given twice daily for 12 months to patients with pigmentary glaucoma .\"."
+27038, DoseValue, 443, 450, "0 . 005", "", "<http://ctro/data#Medication_25078> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+119896, Percentage, 451, 452, "%", "", "<http://ctro/data#Endpoint_25023> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+27052, Latanoprost, 453, 464, "latanoprost", "", 
+27054, Topic, 473, 482, "topically", "", "<http://ctro/data#Medication_25078> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Topic>."
+27048, Frequency, 483, 493, "once daily", "", 
+27050, DoseValue, 499, 504, "0 . 5", "", 
+25338, Percentage, 505, 506, "%", "", 
+21, Timolol, 507, 514, "timolol", "", 
+27049, Frequency, 521, 532, "twice daily", "", 
+25341, Duration, 537, 546, "12 months", "", 
+195, Precondition, 550, 583, "patients with pigmentary glaucoma", "", "<http://ctro/data#Population_25015> <http://ctro/data#hasPrecondition> \"patients with pigmentary glaucoma\"."
+25347, PigmentaryGlaucoma, 564, 583, "pigmentary glaucoma", "", 
+36927, Prospective, 595, 606, "Prospective", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasCTDesign> <http://ctro/data#Prospective>."
+23, Randomized, 609, 619, "randomized", "", 
+24, DoubleBlind, 622, 637, "double - masked", "", 
+25, NumberPatientsCT, 672, 684, "Thirty - six", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasNumberPatientsCT> \"Thirty - six\"."
+4145, Precondition, 708, 798, "bilateral pigmentary glaucoma controlled with no more than a single hypotensive medication", "", 
+25346, PigmentaryGlaucoma, 718, 737, "pigmentary glaucoma", "", 
+36928, Randomized, 869, 877, "randomly", "", 
+36931, NumberPatientsArm, 935, 937, "18", "", "<http://ctro/data#Arm_25048> <http://ctro/data#hasNumberPatientsArm> \"18\". <http://ctro/data#Arm_25057> <http://ctro/data#hasNumberPatientsArm> \"18\"."
+119898, DoseValue, 966, 973, "0 . 005", "", 
+119897, Percentage, 974, 975, "%", "", 
+27, Latanoprost, 976, 987, "latanoprost", "", "<http://ctro/data#Latanoprost_25079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_25078> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_25079>."
+28, Eyedrops, 988, 996, "eyedrops", "", "<http://ctro/data#Medication_25078> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>. <http://ctro/data#Medication_25086> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+33209, Frequency, 997, 1007, "once daily", "", "<http://ctro/data#Intervention_25066> <http://ctro/data#hasFrequency> \"once daily\"."
+92842, Vehicle, 1016, 1023, "vehicle", "", 
+29, Placebo, 1026, 1033, "placebo", "", "<http://ctro/data#Medication_25086> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+30, Frequency, 1036, 1046, "once daily", "", "<http://ctro/data#Intervention_25413> <http://ctro/data#hasFrequency> \"once daily\"."
+31, Timolol, 1073, 1080, "timolol", "", "<http://ctro/data#Medication_25093> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+27030, DoseValue, 1081, 1086, "0 . 5", "", "<http://ctro/data#Medication_25093> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+25337, Percentage, 1087, 1088, "%", "", "<http://ctro/data#Medication_25093> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+32, Eyedrops, 1089, 1097, "eyedrops", "", "<http://ctro/data#Medication_25093> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#Eyedrops>."
+27035, Frequency, 1098, 1109, "twice daily", "", "<http://ctro/data#Intervention_25072> <http://ctro/data#hasFrequency> \"twice daily\"."
+18006, IOP, 1154, 1174, "intraocular pressure", "", "<http://ctro/data#IOP_25024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IOP>. <http://ctro/data#Endpoint_25023> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IOP_25024>."
+121, IOP, 1177, 1180, "IOP", "", 
+36932, TimePoint, 1205, 1213, "baseline", "", 
+36926, TimePoint, 1228, 1257, "0 . 5 , 3 , 6 , and 12 months", "", 
+36925, TimePoint, 1236, 1257, "3 , 6 , and 12 months", "", 
+36924, TimePoint, 1240, 1257, "6 , and 12 months", "", 
+4445, TimePoint, 1248, 1257, "12 months", "", 
+129, IOP, 1277, 1280, "IOP", "", 
+19522, TimePoint, 1312, 1321, "8 : 00 AM", "", 
+19523, TimePoint, 1324, 1336, "12 : 00 noon", "", 
+19524, TimePoint, 1339, 1348, "4 : 00 PM", "", 
+19525, TimePoint, 1355, 1364, "8 : 00 PM", "", 
+4273, Outflow_Facility_C, 1367, 1383, "Outflow facility", "", "<http://ctro/data#Endpoint_25028> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Outflow_Facility_C>."
+4274, Outflow_Facility_C, 1388, 1389, "C", "", 
+37, MeasurementDevice, 1467, 1495, "Schiotz electronic tonometer", "", "<http://ctro/data#MeasurementDevice_25032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#MeasurementDevice>. <http://ctro/data#Endpoint_25028> <http://ctro/data#hasMeasurementDevice> <http://ctro/data#MeasurementDevice_25032>."
+146, Latanoprost, 1664, 1675, "latanoprost", "", 
+147, Timolol, 1680, 1687, "timolol", "", 
+38, Diurnal_IOP, 1696, 1707, "Diurnal IOP", "", 
+135, IOP, 1778, 1781, "IOP", "", 
+4275, Outflow_Facility_C, 1788, 1789, "C", "", 
+148, Latanoprost, 1870, 1881, "latanoprost", "", 
+149, Timolol, 1886, 1893, "timolol", "", 
+150, IOP, 1944, 1947, "IOP", "", 
+152, IOP, 2028, 2031, "IOP", "", 
+79, Reduction, 2036, 2041, "6 . 0", "", "<http://ctro/data#Outcome_25101> <http://ctro/data#hasChangeValue> \"6 . 0\"."
+83, SdErrorChangeValue, 2048, 2053, "4 . 5", "", "<http://ctro/data#Outcome_25101> <http://ctro/data#hasSdErrorChangeValue> \"4 . 5\"."
+80, Reduction, 2058, 2063, "5 . 9", "", "<http://ctro/data#Outcome_25128> <http://ctro/data#hasChangeValue> \"5 . 9\"."
+84, SdErrorChangeValue, 2070, 2075, "4 . 6", "", "<http://ctro/data#Outcome_25128> <http://ctro/data#hasSdErrorChangeValue> \"4 . 6\"."
+42, Latanoprost, 2081, 2092, "latanoprost", "", 
+81, Reduction, 2097, 2102, "4 . 8", "", "<http://ctro/data#Outcome_25155> <http://ctro/data#hasChangeValue> \"4 . 8\"."
+85, SdErrorChangeValue, 2109, 2114, "3 . 0", "", "<http://ctro/data#Outcome_25155> <http://ctro/data#hasSdErrorChangeValue> \"3 . 0\"."
+82, Reduction, 2119, 2124, "4 . 6", "", "<http://ctro/data#Outcome_25182> <http://ctro/data#hasChangeValue> \"4 . 6\"."
+86, SdErrorChangeValue, 2131, 2136, "3 . 1", "", "<http://ctro/data#Outcome_25182> <http://ctro/data#hasSdErrorChangeValue> \"3 . 1\"."
+43, Timolol, 2142, 2149, "timolol", "", 
+36929, TimePoint, 2156, 2171, "6 and 12 months", "", "<http://ctro/data#Outcome_25101> <http://ctro/data#hasTimePoint> \"6 and 12 months\". <http://ctro/data#Outcome_25155> <http://ctro/data#hasTimePoint> \"6 and 12 months\"."
+36930, TimePoint, 2162, 2171, "12 months", "", "<http://ctro/data#Outcome_25128> <http://ctro/data#hasTimePoint> \"12 months\". <http://ctro/data#Outcome_25182> <http://ctro/data#hasTimePoint> \"12 months\"."
+44, Latanoprost, 2234, 2245, "latanoprost", "", 
+45, Timolol, 2250, 2257, "timolol", "", 
+161, PvalueDiff, 2293, 2304, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_13097> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\". <http://ctro/data#DiffBetweenGroups_25209> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+27015, TimePoint, 2321, 2342, "3 , 6 , and 12 months", "", 
+36922, TimePoint, 2325, 2342, "6 , and 12 months", "", 
+36923, TimePoint, 2333, 2342, "12 months", "", 
+50, Mean, 2345, 2349, "Mean", "", "<http://ctro/data#Mean_25025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_25023> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25025>. <http://ctro/data#Mean_25030> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_25028> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_25030>."
+18004, Outflow_Facility_C, 2352, 2353, "C", "", 
+51, RelativeIncrement, 2399, 2401, "30", "", "<http://ctro/data#Outcome_25245> <http://ctro/data#hasRelativeChangeValue> \"30\"."
+78, Percentage, 2402, 2403, "%", "", "<http://ctro/data#Endpoint_25028> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+52, Latanoprost, 2418, 2429, "latanoprost", "", 
+53, PValueChangeValue, 2475, 2486, "P = 0 . 017", "", "<http://ctro/data#Outcome_25245> <http://ctro/data#hasPValueChangeValue> \"P = 0 . 017\"."
+54, Mean, 2491, 2495, "Mean", "", 
+55, ConjunctivalHyperemia, 2496, 2518, "conjunctival hyperemia", "", "<http://ctro/data#Endpoint_25033> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#ConjunctivalHyperemia>."
+56, ResultMeasuredValue, 2533, 2538, "0 . 3", "", "<http://ctro/data#Outcome_25272> <http://ctro/data#hasResultMeasuredValue> \"0 . 3\"."
+57, Latanoprost, 2542, 2553, "latanoprost", "", 
+58, ResultMeasuredValue, 2573, 2578, "0 . 2", "", "<http://ctro/data#Outcome_25300> <http://ctro/data#hasResultMeasuredValue> \"0 . 2\"."
+59, Timolol, 2582, 2589, "timolol", "", 
+27016, IrisPigmentation, 2620, 2640, "change in iris color", "", "<http://ctro/data#IrisPigmentation_25039> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation>. <http://ctro/data#Endpoint_25038> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_25039>."
+61, NumberAffected, 2670, 2671, "1", "", "<http://ctro/data#Outcome_25327> <http://ctro/data#hasNumberAffected> \"1\"."
+27018, NumberPatientsArm, 2679, 2681, "18", "", 
+62, Latanoprost, 2704, 2715, "latanoprost", "", 
+92905, NumberAffected, 2720, 2724, "none", "", "<http://ctro/data#Outcome_25354> <http://ctro/data#hasNumberAffected> \"none\"."
+27019, NumberPatientsArm, 2732, 2734, "18", "", 
+63, Timolol, 2757, 2764, "timolol", "", 
+27020, EndPointDescription, 2767, 2806, "Darkening of the peripheral iris stroma", "Adverse effect", 
+19516, NumberAffected, 2824, 2827, "two", "", 
+181, Latanoprost, 2850, 2861, "latanoprost", "", 
+64, Timolol, 2871, 2878, "timolol", "", 
+183, HeartRate, 2887, 2897, "heart rate", "", "<http://ctro/data#HeartRate_25044> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#HeartRate>. <http://ctro/data#Endpoint_25043> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HeartRate_25044>."
+65, BaseLineValue, 2929, 2931, "72", "", "<http://ctro/data#Outcome_25381> <http://ctro/data#hasBaselineValue> \"72\"."
+66, SdErrorBL, 2938, 2939, "9", "", "<http://ctro/data#Outcome_25381> <http://ctro/data#hasSdErrorBL> \"9\"."
+67, ResultMeasuredValue, 2955, 2957, "67", "", "<http://ctro/data#Outcome_25381> <http://ctro/data#hasResultMeasuredValue> \"67\"."
+68, SdErrorResValue, 2964, 2966, "10", "", "<http://ctro/data#Outcome_25381> <http://ctro/data#hasSdErrorResValue> \"10\"."
+69, BioAndMedicalUnit, 2967, 2983, "beats per minute", "", "<http://ctro/data#BioAndMedicalUnit_25046> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_25043> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_25046>."
+70, TimePoint, 2987, 2996, "12 months", "", "<http://ctro/data#Outcome_25381> <http://ctro/data#hasTimePoint> \"12 months\"."
+27027, ConclusionComment, 3013, 3261, "Although further studies may need to confirm these data on a larger sample and to evaluate the side effect of increased iris pigmentation on long - term follow - up , in patients with pigmentary glaucoma , 0 . 005 % latanoprost taken once daily was", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasConclusionComment> \"Although further studies may need to confirm these data on a larger sample and to evaluate the side effect of increased iris pigmentation on long - term follow - up , in patients with pigmentary glaucoma , 0 . 005 % latanoprost taken once daily was\"."
+71, PigmentaryGlaucoma, 3197, 3216, "pigmentary glaucoma", "", 
+27037, DoseValue, 3219, 3226, "0 . 005", "", 
+25336, Percentage, 3227, 3228, "%", "", 
+72, Latanoprost, 3229, 3240, "latanoprost", "", 
+27036, Frequency, 3247, 3257, "once daily", "", 
+27028, ConclusionComment, 3262, 3352, "well tolerated and more effective in reducing IOP than 0 . 5 % timolol taken twice daily .", "", "<http://ctro/data#ClinicalTrial_24996> <http://ctro/data#hasConclusionComment> \"well tolerated and more effective in reducing IOP than 0 . 5 % timolol taken twice daily .\"."
+27029, DoseValue, 3317, 3322, "0 . 5", "", 
+25339, Percentage, 3323, 3324, "%", "", 
+74, Timolol, 3325, 3332, "timolol", "", 
+1, Frequency, 3339, 3350, "twice daily", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasPublicationYear> \"twice daily\"."
+75, PMID, 3408, 3416, "10080213", "", "<http://ctro/data#Publication_24986> <http://ctro/data#hasPMID> \"10080213\"."

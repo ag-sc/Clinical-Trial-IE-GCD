@@ -1,0 +1,144 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+20802, Journal, 0, 34, "Graefes Arch Clin Exp Ophthalmol .", "", "<http://ctro/data#Publication_30310> <http://ctro/data#hasJournal> \"Graefes Arch Clin Exp Ophthalmol .\"."
+1, PublicationYear, 35, 39, "2000", "", "<http://ctro/data#Publication_30310> <http://ctro/data#hasPublicationYear> \"2000\"."
+2, Title, 68, 187, "The additive intraocular pressure - lowering effect of latanoprost 0 . 005 % daily once and pilocarpine 2 % t . i . d .", "", "<http://ctro/data#Publication_30310> <http://ctro/data#hasTitle> \"The additive intraocular pressure - lowering effect of latanoprost 0 . 005 % daily once and pilocarpine 2 % t . i . d .\"."
+3, IOP, 81, 101, "intraocular pressure", "", 
+4, Latanoprost, 123, 134, "latanoprost", "", "<http://ctro/data#Latanoprost_30401> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Latanoprost>. <http://ctro/data#Medication_30400> <http://ctro/data#hasDrug> <http://ctro/data#Latanoprost_30401>."
+20814, DoseValue, 135, 142, "0 . 005", "", 
+27234, Percentage, 143, 144, "%", "", 
+20825, Frequency, 145, 155, "daily once", "", "<http://ctro/data#Intervention_30382> <http://ctro/data#hasFrequency> \"daily once\"."
+27224, Pilocarpine, 160, 171, "pilocarpine", "", 
+20847, DoseValue, 172, 173, "2", "", 
+20827, Percentage, 174, 175, "%", "", 
+66, Frequency, 176, 187, "t . i . d .", "", "<http://ctro/data#Intervention_30388> <http://ctro/data#hasFrequency> \"t . i . d .\"."
+12, OpenAngleGlaucoma, 205, 226, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+13, OcularHypertension, 230, 249, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+27231, Duration, 254, 263, "6 - month", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasCTduration> \"6 - month\"."
+61, Randomized, 266, 276, "randomized", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+62, Multicenter, 279, 290, "multicenter", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+77, Latanoprost, 306, 317, "Latanoprost", "", 
+58, Author, 332, 346, "Diestelhorst M", "", "<http://ctro/data#Publication_30310> <http://ctro/data#hasAuthor> \"Diestelhorst M\"."
+27233, Germany, 436, 443, "Germany", "", "<http://ctro/data#Population_30343> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+27225, ObjectiveDescription, 456, 646, "To compare the additional intraocular pressure - lowering effect of latanoprost 0 . 005 % administered once daily with that of pilocarpine 2 % administered three times daily in patients with", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasObjectiveDescription> \"To compare the additional intraocular pressure - lowering effect of latanoprost 0 . 005 % administered once daily with that of pilocarpine 2 % administered three times daily in patients with\"."
+80, IOP, 482, 502, "intraocular pressure", "", 
+26, Latanoprost, 524, 535, "latanoprost", "", 
+20815, DoseValue, 536, 543, "0 . 005", "", "<http://ctro/data#Medication_30400> <http://ctro/data#hasDoseValue> \"0 . 005\"."
+73, Percentage, 544, 545, "%", "", "<http://ctro/data#Medication_30400> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+20821, Frequency, 559, 569, "once daily", "", 
+27, Pilocarpine, 583, 594, "pilocarpine", "", "<http://ctro/data#Medication_30407> <http://ctro/data#hasDrug> <http://ctro/data#Pilocarpine>."
+20850, DoseValue, 595, 596, "2", "", "<http://ctro/data#Medication_30407> <http://ctro/data#hasDoseValue> \"2\"."
+20828, Percentage, 597, 598, "%", "", "<http://ctro/data#Medication_30407> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+20822, Frequency, 612, 629, "three times daily", "", 
+94, Precondition, 633, 757, "patients with primary open - angle glaucoma or ocular hypertension currently on monotherapy with timolol 0 . 5 % twice daily", "", "<http://ctro/data#Population_30343> <http://ctro/data#hasPrecondition> \"patients with primary open - angle glaucoma or ocular hypertension currently on monotherapy with timolol 0 . 5 % twice daily\"."
+20824, Primary_OpenAngleGlaucoma, 647, 676, "primary open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Primary_OpenAngleGlaucoma>."
+27226, ObjectiveDescription, 647, 759, "primary open - angle glaucoma or ocular hypertension currently on monotherapy with timolol 0 . 5 % twice daily .", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasObjectiveDescription> \"primary open - angle glaucoma or ocular hypertension currently on monotherapy with timolol 0 . 5 % twice daily .\"."
+29, OcularHypertension, 680, 699, "ocular hypertension", "", 
+30, Timolol, 730, 737, "timolol", "", 
+20845, DoseValue, 738, 743, "0 . 5", "", 
+20829, Percentage, 744, 745, "%", "", 
+20860, Frequency, 746, 757, "twice daily", "", 
+84, Duration, 775, 784, "6 - month", "", 
+85, Multicenter, 787, 798, "multicenter", "", 
+86, Randomized, 801, 811, "randomized", "", 
+18, OpenLabel, 814, 826, "open - label", "", 
+20809, Precondition, 837, 923, "patients with POAG or OH whose IOP was not controlled with timolol 0 . 5 % b . i . d .", "", "<http://ctro/data#Population_30343> <http://ctro/data#hasPrecondition> \"patients with POAG or OH whose IOP was not controlled with timolol 0 . 5 % b . i . d .\"."
+243, Primary_OpenAngleGlaucoma, 851, 855, "POAG", "", 
+20, OcularHypertension, 859, 861, "OH", "", 
+21, IOP, 868, 871, "IOP", "", 
+22, Timolol, 896, 903, "timolol", "", 
+20844, DoseValue, 904, 909, "0 . 5", "", 
+20833, Percentage, 910, 911, "%", "", 
+20862, Frequency, 912, 923, "b . i . d .", "", 
+31, Precondition, 940, 1021, "Eyes had not been treated with pilocarpine and latanoprost for at least 2 years .", "", "<http://ctro/data#Population_30343> <http://ctro/data#hasPrecondition> \"Eyes had not been treated with pilocarpine and latanoprost for at least 2 years .\"."
+112, Pilocarpine, 971, 982, "pilocarpine", "", 
+113, Latanoprost, 987, 998, "latanoprost", "", 
+27227, Duration, 1012, 1019, "2 years", "", 
+27238, Diurnal_IOP, 1053, 1064, "diurnal IOP", "", "<http://ctro/data#Endpoint_26776> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+36940, TimePoint, 1077, 1085, "baseline", "", 
+222, TimePoint, 1089, 1096, "month 6", "", 
+189, NumPatientsLeftArm, 1138, 1142, "Four", "", "<http://ctro/data#Arm_30364> <http://ctro/data#hasNumPatientsLeftArm> \"Four\"."
+46, Latanoprost, 1155, 1166, "latanoprost", "", 
+20826, DoseValue, 1167, 1174, "0 . 005", "", 
+20838, Percentage, 1175, 1176, "%", "", 
+190, NumPatientsLeftArm, 1181, 1183, "35", "", "<http://ctro/data#Arm_30373> <http://ctro/data#hasNumPatientsLeftArm> \"35\"."
+27237, Pilocarpine, 1187, 1198, "pilocarpine", "", 
+20853, DoseValue, 1199, 1200, "2", "", 
+20830, Percentage, 1201, 1202, "%", "", 
+34, NumberPatientsCT, 1248, 1269, "Two hundred and forty", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasNumberPatientsCT> \"Two hundred and forty\"."
+33, IntentionToTreat, 1300, 1319, "intent - to - treat", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#IntentionToTreat>."
+27239, Diurnal_IOP, 1355, 1366, "diurnal IOP", "", 
+33211, TimePoint, 1383, 1391, "6 months", "", "<http://ctro/data#Outcome_30422> <http://ctro/data#hasTimePoint> \"6 months\". <http://ctro/data#Outcome_30449> <http://ctro/data#hasTimePoint> \"6 months\"."
+35, PValueChangeValue, 1424, 1435, "P < 0 . 001", "", 
+36, IOP, 1440, 1443, "IOP", "", 
+37, Mean, 1446, 1450, "mean", "", 
+38, BaseLineValue, 1479, 1485, "23 . 3", "", 
+130, SdDevBL, 1492, 1497, "2 . 8", "", "<http://ctro/data#Outcome_30422> <http://ctro/data#hasSdDevBL> \"2 . 8\"."
+39, ResultMeasuredValue, 1501, 1507, "17 . 8", "", "<http://ctro/data#Outcome_30422> <http://ctro/data#hasResultMeasuredValue> \"17 . 8\"."
+133, SdDevResValue, 1514, 1519, "2 . 8", "", "<http://ctro/data#Outcome_30422> <http://ctro/data#hasSdDevResValue> \"2 . 8\"."
+132, Reduction, 1524, 1529, "5 . 6", "", "<http://ctro/data#Outcome_30422> <http://ctro/data#hasChangeValue> \"5 . 6\"."
+40, mmHg, 1532, 1536, "mmHg", "", "<http://ctro/data#Endpoint_26776> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+41, Latanoprost, 1544, 1555, "latanoprost", "", 
+20817, DoseValue, 1556, 1563, "0 . 005", "", 
+20841, Percentage, 1564, 1565, "%", "", 
+42, BaseLineValue, 1581, 1587, "23 . 0", "", "<http://ctro/data#Outcome_30449> <http://ctro/data#hasBaselineValue> \"23 . 0\"."
+138, SdDevBL, 1594, 1599, "3 . 2", "", "<http://ctro/data#Outcome_30449> <http://ctro/data#hasSdDevBL> \"3 . 2\"."
+43, ResultMeasuredValue, 1603, 1609, "18 . 5", "", "<http://ctro/data#Outcome_30449> <http://ctro/data#hasResultMeasuredValue> \"18 . 5\"."
+141, SdDevResValue, 1616, 1621, "2 . 4", "", "<http://ctro/data#Outcome_30449> <http://ctro/data#hasSdDevResValue> \"2 . 4\"."
+140, Reduction, 1626, 1631, "4 . 8", "", "<http://ctro/data#Outcome_30449> <http://ctro/data#hasChangeValue> \"4 . 8\"."
+44, mmHg, 1634, 1638, "mmHg", "", 
+27240, Pilocarpine, 1642, 1653, "pilocarpine", "", 
+20857, DoseValue, 1654, 1655, "2", "", 
+20856, Percentage, 1656, 1657, "%", "", 
+146, Frequency, 1658, 1667, "t . i . d", "", 
+147, Mean, 1691, 1695, "mean", "", 
+148, DiffGroupAbsValue, 1710, 1717, "- 0 . 8", "", "<http://ctro/data#DiffBetweenGroups_30566> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 8\"."
+151, mmHg, 1718, 1722, "mmHg", "", 
+194, PerProtocol, 1725, 1737, "per protocol", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasAnalysisApproach> <http://ctro/data#PerProtocol>."
+20834, PerProtocol, 1740, 1742, "PP", "", 
+149, DiffGroupAbsValue, 1749, 1756, "- 1 . 6", "", "<http://ctro/data#DiffBetweenGroups_30557> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 6\"."
+150, mmHg, 1757, 1761, "mmHg", "", 
+17771, IntentionToTreat, 1764, 1783, "intend - to - treat", "", 
+17772, IntentionToTreat, 1786, 1789, "ITT", "", 
+152, PvalueDiff, 1824, 1834, "P < 0 . 04", "", "<http://ctro/data#DiffBetweenGroups_30566> <http://ctro/data#hasPvalueDiff> \"P < 0 . 04\"."
+17781, PerProtocol, 1837, 1839, "PP", "", 
+153, PvalueDiff, 1842, 1853, "P < 0 . 001", "", "<http://ctro/data#DiffBetweenGroups_30557> <http://ctro/data#hasPvalueDiff> \"P < 0 . 001\"."
+17780, IntentionToTreat, 1856, 1859, "ITT", "", 
+154, Latanoprost, 1874, 1885, "latanoprost", "", 
+155, DoseValue, 1886, 1893, "0 . 005", "", 
+156, Percentage, 1894, 1895, "%", "", 
+17784, NumberAffected, 1898, 1901, "Two", "", "<http://ctro/data#Outcome_30476> <http://ctro/data#hasNumberAffected> \"Two\"."
+49, Latanoprost, 1920, 1931, "latanoprost", "", 
+48, IrisPigmentation, 1942, 1959, "iris color change", "", "<http://ctro/data#IrisPigmentation_30363> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#IrisPigmentation>. <http://ctro/data#Endpoint_30353> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#IrisPigmentation_30363>."
+17792, NumberAffected, 1962, 1974, "Thirty - six", "", "<http://ctro/data#Outcome_30503> <http://ctro/data#hasNumberAffected> \"Thirty - six\"."
+161, Latanoprost, 1991, 2002, "latanoprost", "", 
+162, NumberAffected, 2013, 2016, "106", "", "<http://ctro/data#Outcome_30530> <http://ctro/data#hasNumberAffected> \"106\"."
+27236, Pilocarpine, 2024, 2035, "pilocarpine", "", 
+164, DoseValue, 2036, 2037, "2", "", 
+165, Percentage, 2038, 2039, "%", "", 
+27228, EndPointDescription, 2055, 2076, "ocular adverse events", "Adverse Effect", "<http://ctro/data#EndPointDescription_30359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_30358> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_30359>."
+167, PValueNumAffected, 2079, 2090, "P < 0 . 001", "", 
+27241, ConclusionComment, 2108, 2203, "From the data we conclude that the additivity of latanoprost 0 . 005 % is at least as effective", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"From the data we conclude that the additivity of latanoprost 0 . 005 % is at least as effective\"."
+50, Latanoprost, 2157, 2168, "latanoprost", "", 
+20842, DoseValue, 2169, 2176, "0 . 005", "", 
+20843, Percentage, 2177, 2178, "%", "", 
+27242, ConclusionComment, 2204, 2234, "as pilocarpine 2 % t . i . d .", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"as pilocarpine 2 % t . i . d .\"."
+51, Pilocarpine, 2207, 2218, "pilocarpine", "", 
+20858, DoseValue, 2219, 2220, "2", "", 
+20835, Percentage, 2221, 2222, "%", "", 
+20812, Frequency, 2223, 2234, "t . i . d .", "", 
+27243, ConclusionComment, 2235, 2294, "in reducing IOP when added to eyes currently on monotherapy", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"in reducing IOP when added to eyes currently on monotherapy\"."
+55, IOP, 2247, 2250, "IOP", "", 
+27244, ConclusionComment, 2295, 2327, "with timolol 0 . 5 % b . i . d .", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"with timolol 0 . 5 % b . i . d .\"."
+52, Timolol, 2300, 2307, "timolol", "", 
+20844, DoseValue, 2308, 2313, "0 . 5", "", 
+20836, Percentage, 2314, 2315, "%", "", 
+20861, Frequency, 2316, 2327, "b . i . d .", "", 
+20810, ConclusionComment, 2328, 2407, "Latanoprost was better tolerated than pilocarpine 2 % eye drops in this study .", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"Latanoprost was better tolerated than pilocarpine 2 % eye drops in this study .\"."
+53, Latanoprost, 2328, 2339, "Latanoprost", "", 
+54, Pilocarpine, 2366, 2377, "pilocarpine", "", 
+20859, DoseValue, 2378, 2379, "2", "", 
+20837, Percentage, 2380, 2381, "%", "", 
+27235, Eyedrops, 2382, 2391, "eye drops", "", 
+20811, ConclusionComment, 2408, 2474, "The increase in iris pigmentation requires further investigation .", "", "<http://ctro/data#ClinicalTrial_30317> <http://ctro/data#hasConclusionComment> \"The increase in iris pigmentation requires further investigation .\"."
+251, IrisPigmentation, 2424, 2441, "iris pigmentation", "", 
+57, PMID, 2482, 2490, "10901475", "", "<http://ctro/data#Publication_30310> <http://ctro/data#hasPMID> \"10901475\"."

@@ -1,0 +1,115 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+39772, Journal, 0, 10, "Diabet Med", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasJournal> \"Diabet Med\"."
+39773, PublicationYear, 13, 17, "2011", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasPublicationYear> \"2011\"."
+39781, Title, 103, 274, "Efficacy and safety of linagliptin in persons with type 2 diabetes inadequately controlled by a combination of metformin and sulphonylurea : a 24 - week randomized study .", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasTitle> \"Efficacy and safety of linagliptin in persons with type 2 diabetes inadequately controlled by a combination of metformin and sulphonylurea : a 24 - week randomized study .\"."
+39774, Linagliptin, 126, 137, "linagliptin", "", 
+39775, Type2Diabetes, 154, 169, "type 2 diabetes", "", 
+39780, Precondition, 170, 241, "inadequately controlled by a combination of metformin and sulphonylurea", "", 
+39776, Metformin, 214, 223, "metformin", "", 
+39777, Drug, 228, 241, "sulphonylurea", "", 
+39778, Duration, 246, 255, "24 - week", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasCTduration> \"24 - week\"."
+39779, Randomized, 256, 266, "randomized", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+39782, Author, 275, 283, "Owens DR", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasAuthor> \"Owens DR\"."
+39783, Author, 292, 301, "Swallow R", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasAuthor> \"Swallow R\"."
+39784, Author, 304, 311, "Dugi KA", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasAuthor> \"Dugi KA\"."
+39785, Author, 314, 323, "Woerle HJ", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasAuthor> \"Woerle HJ\"."
+39786, UK, 395, 397, "UK", "", 
+39795, ObjectiveDescription, 531, 782, "To examine the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor linagliptin in persons with Type 2 diabetes mellitus inadequately controlled [ HbA ( 1c ) 53 - 86 mmol / mol ( 7 . 0 - 10 . 0 % ) ] by metformin and sulphonylurea combination", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasObjectiveDescription> \"To examine the efficacy and safety of the dipeptidyl peptidase - 4 inhibitor linagliptin in persons with Type 2 diabetes mellitus inadequately controlled [ HbA ( 1c ) 53 - 86 mmol / mol ( 7 . 0 - 10 . 0 % ) ] by metformin and sulphonylurea combination\"."
+39787, Linagliptin, 608, 619, "linagliptin", "", 
+39788, Type2Diabetes, 636, 660, "Type 2 diabetes mellitus", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+39789, Precondition, 661, 792, "inadequately controlled [ HbA ( 1c ) 53 - 86 mmol / mol ( 7 . 0 - 10 . 0 % ) ] by metformin and sulphonylurea combination treatment", "", "<http://ctro/data#Population_23529> <http://ctro/data#hasPrecondition> \"inadequately controlled [ HbA ( 1c ) 53 - 86 mmol / mol ( 7 . 0 - 10 . 0 % ) ] by metformin and sulphonylurea combination treatment\"."
+39790, HbA1c, 687, 697, "HbA ( 1c )", "", 
+39791, BioAndMedicalUnit, 706, 716, "mmol / mol", "", 
+39792, Percentage, 734, 735, "%", "", 
+39793, Metformin, 743, 752, "metformin", "", 
+39794, Drug, 757, 770, "sulphonylurea", "", 
+39796, ObjectiveDescription, 783, 794, "treatment .", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasObjectiveDescription> \"treatment .\"."
+39797, Multicenter, 807, 821, "multi - centre", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+39798, Duration, 824, 833, "24 - week", "", 
+39799, Randomized, 836, 846, "randomized", "", 
+39800, DoubleBlind, 849, 863, "double - blind", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+39801, Parallel, 866, 882, "parallel - group", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+39802, NumberPatientsCT, 892, 896, "1058", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasNumberPatientsCT> \"1058\"."
+39803, Linagliptin, 916, 927, "linagliptin", "", "<http://ctro/data#Medication_23579> <http://ctro/data#hasDrug> <http://ctro/data#Linagliptin>."
+39804, DoseValue, 930, 934, "5 mg", "", "<http://ctro/data#Medication_23579> <http://ctro/data#hasDoseValue> \"5 mg\"."
+39805, mg, 932, 934, "mg", "", "<http://ctro/data#Medication_23579> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+39806, Frequency, 935, 945, "once daily", "", "<http://ctro/data#Intervention_23555> <http://ctro/data#hasFrequency> \"once daily\"."
+39807, Placebo, 952, 959, "placebo", "", "<http://ctro/data#Medication_23586> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+39808, Metformin, 974, 983, "metformin", "", "<http://ctro/data#Medication_23587> <http://ctro/data#hasDrug> <http://ctro/data#Metformin>."
+39809, Drug, 989, 1002, "sulphonylurea", "", "<http://ctro/data#Drug_23601> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug>. <http://ctro/data#Medication_23594> <http://ctro/data#hasDrug> <http://ctro/data#Drug_23601>."
+39810, HbA1c, 1044, 1054, "HbA ( 1c )", "", 
+39811, TimePoint, 1061, 1069, "24 weeks", "", 
+39812, TimePoint, 1085, 1092, "week 24", "", 
+39813, Linagliptin, 1099, 1110, "linagliptin", "", 
+39814, Placebo, 1111, 1118, "placebo", "", 
+39815, HbA1c, 1131, 1141, "HbA ( 1c )", "", "<http://ctro/data#Endpoint_23621> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+39816, Mean, 1151, 1155, "mean", "", "<http://ctro/data#Mean_23623> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_23621> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_23623>."
+39817, TimePoint, 1168, 1176, "baseline", "", 
+39818, ChangeValue, 1181, 1184, "- 7", "", "<http://ctro/data#Outcome_23631> <http://ctro/data#hasChangeValue> \"- 7\"."
+39819, BioAndMedicalUnit, 1185, 1195, "mmol / mol", "", "<http://ctro/data#BioAndMedicalUnit_23624> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_23621> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_23624>."
+92458, ChangeValue, 1198, 1206, "- 0 . 62", "", 
+39821, Percentage, 1207, 1208, "%", "", 
+39822, ConfIntervalChangeValue, 1213, 1267, "95 % CI - 8 to - 6 mmol / mol ( - 0 . 73 to - 0 . 50 %", "", "<http://ctro/data#Outcome_23631> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI - 8 to - 6 mmol / mol ( - 0 . 73 to - 0 . 50 %\"."
+39823, Percentage, 1216, 1217, "%", "", 
+39825, BioAndMedicalUnit, 1232, 1242, "mmol / mol", "", 
+39824, Percentage, 1266, 1267, "%", "", 
+39826, PValueChangeValue, 1272, 1284, "P < 0 . 0001", "", "<http://ctro/data#Outcome_23631> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+39839, SubGroupDescription, 1294, 1361, "participants with baseline HbA ( 1c ) ≥ 53 mmol / mol ( ≥ 7 . 0 % )", "", "<http://ctro/data#Outcome_23685> <http://ctro/data#hasSubGroupDescription> \"participants with baseline HbA ( 1c ) ≥ 53 mmol / mol ( ≥ 7 . 0 % )\". <http://ctro/data#Outcome_23712> <http://ctro/data#hasSubGroupDescription> \"participants with baseline HbA ( 1c ) ≥ 53 mmol / mol ( ≥ 7 . 0 % )\"."
+39827, TimePoint, 1312, 1320, "baseline", "", 
+39828, HbA1c, 1321, 1331, "HbA ( 1c )", "", 
+39829, BioAndMedicalUnit, 1337, 1347, "mmol / mol", "", 
+39830, Percentage, 1358, 1359, "%", "", 
+39840, HbA1c_target, 1374, 1414, "HbA ( 1c ) < 53 mmol / mol ( < 7 . 0 % )", "", "<http://ctro/data#Endpoint_23626> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+39832, BioAndMedicalUnit, 1390, 1400, "mmol / mol", "", 
+39833, Percentage, 1411, 1412, "%", "", 
+39834, Linagliptin, 1420, 1431, "linagliptin", "", 
+39835, Placebo, 1446, 1453, "placebo", "", 
+39841, PercentageAffected, 1456, 1462, "29 . 2", "", "<http://ctro/data#Outcome_23685> <http://ctro/data#hasPercentageAffected> \"29 . 2\"."
+39836, Percentage, 1463, 1464, "%", "", 
+39842, PercentageAffected, 1470, 1475, "8 . 1", "", "<http://ctro/data#Outcome_23712> <http://ctro/data#hasPercentageAffected> \"8 . 1\"."
+39837, Percentage, 1476, 1477, "%", "", 
+39838, PvalueDiff, 1480, 1492, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_23739> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+39843, FastingBloodGlucose, 1497, 1519, "Fasting plasma glucose", "", "<http://ctro/data#Endpoint_23748> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingBloodGlucose>."
+39844, Linagliptin, 1537, 1548, "linagliptin", "", 
+39845, Placebo, 1561, 1568, "placebo", "", 
+39846, ChangeValue, 1571, 1578, "- 0 . 7", "", "<http://ctro/data#Outcome_23753> <http://ctro/data#hasChangeValue> \"- 0 . 7\"."
+39847, Millimoles_per_litre, 1579, 1587, "mmol / l", "", "<http://ctro/data#Endpoint_23748> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+39848, ConfIntervalChangeValue, 1590, 1616, "95 % CI - 1 . 0 to - 0 . 4", "", "<http://ctro/data#Outcome_23753> <http://ctro/data#hasConfIntervalChangeValue> \"95 % CI - 1 . 0 to - 0 . 4\"."
+39849, Percentage, 1593, 1594, "%", "", 
+39850, PValueChangeValue, 1619, 1631, "P < 0 . 0001", "", "<http://ctro/data#Outcome_23753> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 0001\"."
+39851, EndPointDescription, 1636, 1700, "Improvements in homeostasis model assessment of β- cell function", "", "<http://ctro/data#EndPointDescription_23781> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_23780> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_23781>."
+39852, Linagliptin, 1716, 1727, "linagliptin", "", 
+39853, PValueChangeValue, 1730, 1741, "P < 0 . 001", "", "<http://ctro/data#Outcome_23785> <http://ctro/data#hasPValueChangeValue> \"P < 0 . 001\"."
+39854, EndPointDescription, 1788, 1808, "severe adverse event", "", "<http://ctro/data#EndPointDescription_23813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_23812> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_23813>."
+39855, Linagliptin, 1834, 1845, "linagliptin", "", 
+39857, PercentageAffected, 1846, 1851, "2 . 4", "", "<http://ctro/data#Outcome_23817> <http://ctro/data#hasPercentageAffected> \"2 . 4\"."
+39859, Percentage, 1852, 1853, "%", "", 
+39856, Placebo, 1856, 1863, "placebo", "", 
+39858, PercentageAffected, 1864, 1869, "1 . 5", "", "<http://ctro/data#Outcome_23844> <http://ctro/data#hasPercentageAffected> \"1 . 5\"."
+39860, Percentage, 1870, 1871, "%", "", 
+39861, SymptomaticHypoglycemia, 1876, 1901, "Symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_23871> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+39862, PercentageAffected, 1914, 1920, "16 . 7", "", "<http://ctro/data#Outcome_23876> <http://ctro/data#hasPercentageAffected> \"16 . 7\"."
+39863, PercentageAffected, 1925, 1931, "10 . 3", "", "<http://ctro/data#Outcome_23903> <http://ctro/data#hasPercentageAffected> \"10 . 3\"."
+39864, Percentage, 1932, 1933, "%", "", 
+39865, Linagliptin, 1941, 1952, "linagliptin", "", 
+39866, Placebo, 1957, 1964, "placebo", "", 
+39867, Hypoglycemia, 1989, 2002, "Hypoglycaemia", "", 
+39868, SevereHypoglycemia, 2036, 2056, "severe hypoglycaemia", "", "<http://ctro/data#Endpoint_23930> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SevereHypoglycemia>."
+39869, PercentageAffected, 2073, 2078, "2 . 7", "", "<http://ctro/data#Outcome_23935> <http://ctro/data#hasPercentageAffected> \"2 . 7\"."
+39870, PercentageAffected, 2083, 2088, "4 . 8", "", "<http://ctro/data#Outcome_23962> <http://ctro/data#hasPercentageAffected> \"4 . 8\"."
+39871, Percentage, 2089, 2090, "%", "", 
+39872, SubGroupDescription, 2098, 2146, "participants experiencing hypoglycaemic episodes", "", "<http://ctro/data#Outcome_23935> <http://ctro/data#hasSubGroupDescription> \"participants experiencing hypoglycaemic episodes\". <http://ctro/data#Outcome_23962> <http://ctro/data#hasSubGroupDescription> \"participants experiencing hypoglycaemic episodes\"."
+39873, Linagliptin, 2154, 2165, "linagliptin", "", 
+39874, Placebo, 2170, 2177, "placebo", "", 
+39875, BodyWeight, 2217, 2223, "weight", "", 
+39884, ConclusionComment, 2259, 2438, "In patients with Type 2 diabetes , adding linagliptin to metformin given in combination with a sulphonylurea significantly improved glycaemic control and this was well tolerated .", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasConclusionComment> \"In patients with Type 2 diabetes , adding linagliptin to metformin given in combination with a sulphonylurea significantly improved glycaemic control and this was well tolerated .\"."
+39876, Type2Diabetes, 2276, 2291, "Type 2 diabetes", "", 
+39877, Linagliptin, 2301, 2312, "linagliptin", "", 
+39878, Metformin, 2316, 2325, "metformin", "", 
+39879, Drug, 2354, 2367, "sulphonylurea", "", 
+39880, Linagliptin, 2439, 2450, "Linagliptin", "", 
+39885, ConclusionComment, 2439, 2615, "Linagliptin could provide a valuable treatment option for individuals with inadequate glycaemic control despite ongoing combination therapy with metformin and a sulphonylurea .", "", "<http://ctro/data#ClinicalTrial_23513> <http://ctro/data#hasConclusionComment> \"Linagliptin could provide a valuable treatment option for individuals with inadequate glycaemic control despite ongoing combination therapy with metformin and a sulphonylurea .\"."
+39881, Precondition, 2514, 2613, "inadequate glycaemic control despite ongoing combination therapy with metformin and a sulphonylurea", "", 
+39882, Metformin, 2584, 2593, "metformin", "", 
+39883, Drug, 2600, 2613, "sulphonylurea", "", 
+39886, PMID, 2736, 2744, "21781152", "", "<http://ctro/data#Publication_23506> <http://ctro/data#hasPMID> \"21781152\"."

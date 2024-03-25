@@ -1,0 +1,139 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 12, "Diabetologia", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasJournal> \"Diabetologia\"."
+1, PublicationYear, 15, 19, "2014", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasPublicationYear> \"2014\"."
+139, Title, 113, 310, "HARMONY 4 : randomised clinical trial comparing once - weekly albiglutide and insulin glargine in patients with type 2 diabetes inadequately controlled with metformin with or without sulfonylurea .", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasTitle> \"HARMONY 4 : randomised clinical trial comparing once - weekly albiglutide and insulin glargine in patients with type 2 diabetes inadequately controlled with metformin with or without sulfonylurea .\"."
+2, Randomized, 125, 135, "randomised", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+3, Frequency, 161, 174, "once - weekly", "", 
+79658, Albiglutide, 175, 186, "albiglutide", "", "<http://ctro/data#Medication_67621> <http://ctro/data#hasDrug> <http://ctro/data#Albiglutide>."
+13, InsulinGlargine, 191, 207, "insulin glargine", "", 
+31, Precondition, 211, 308, "patients with type 2 diabetes inadequately controlled with metformin with or without sulfonylurea", "", "<http://ctro/data#Population_67571> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes inadequately controlled with metformin with or without sulfonylurea\"."
+22, Type2Diabetes, 225, 240, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+25, Metformin, 270, 279, "metformin", "", 
+28, Sulfonylureas, 296, 308, "sulfonylurea", "", 
+34, Author, 311, 322, "Weissman PN", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Weissman PN\"."
+35, Author, 331, 338, "Carr MC", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Carr MC\"."
+36, Author, 341, 345, "Ye J", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Ye J\"."
+37, Author, 348, 357, "Cirkel DT", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Cirkel DT\"."
+38, Author, 360, 369, "Stewart M", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Stewart M\"."
+39, Author, 372, 379, "Perry C", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Perry C\"."
+40, Author, 382, 391, "Pratley R", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasAuthor> \"Pratley R\"."
+41, USA, 494, 497, "USA", "", 
+47, ObjectiveDescription, 578, 716, "compare the efficacy and safety of once - weekly albiglutide with once - daily insulin glargine ( A21Gly , B31Arg , B32Arg human insulin )", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasObjectiveDescription> \"compare the efficacy and safety of once - weekly albiglutide with once - daily insulin glargine ( A21Gly , B31Arg , B32Arg human insulin )\"."
+42, Frequency, 613, 626, "once - weekly", "", 
+79660, Albiglutide, 627, 638, "albiglutide", "", 
+43, Frequency, 644, 656, "once - daily", "", 
+14, InsulinGlargine, 657, 673, "insulin glargine", "", 
+46, FixedCombDrug, 676, 714, "A21Gly , B31Arg , B32Arg human insulin", "", 
+48, ObjectiveDescription, 717, 817, "in patients with type 2 diabetes inadequately controlled on metformin with or without sulfonylurea .", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasObjectiveDescription> \"in patients with type 2 diabetes inadequately controlled on metformin with or without sulfonylurea .\"."
+32, Precondition, 720, 815, "patients with type 2 diabetes inadequately controlled on metformin with or without sulfonylurea", "", 
+23, Type2Diabetes, 734, 749, "type 2 diabetes", "", 
+153, Precondition, 750, 815, "inadequately controlled on metformin with or without sulfonylurea", "", 
+26, Metformin, 777, 786, "metformin", "", 
+29, Sulfonylureas, 803, 815, "sulfonylurea", "", 
+49, Randomized, 839, 849, "randomised", "", 
+50, OpenLabel, 852, 864, "open - label", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+51, Multicenter, 867, 878, "multicentre", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+52, Parallel, 895, 911, "parallel - group", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+53, CTDesign, 914, 931, "non - inferiority", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+54, NumberPatientsCT, 968, 971, "779", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasNumberPatientsCT> \"779\"."
+77564, Precondition, 1072, 1140, "Patients aged ≥ 18 years with type 2 diabetes treated with metformin", "", "<http://ctro/data#Population_67571> <http://ctro/data#hasPrecondition> \"Patients aged ≥ 18 years with type 2 diabetes treated with metformin\"."
+55, MinAge, 1088, 1090, "18", "", "<http://ctro/data#Population_67571> <http://ctro/data#hasMinAge> \"18\"."
+165, Year, 1091, 1096, "years", "", 
+24, Type2Diabetes, 1102, 1117, "type 2 diabetes", "", 
+27, Metformin, 1131, 1140, "metformin", "", 
+30, Sulfonylureas, 1145, 1157, "sulfonylurea", "", 
+183, Duration, 1173, 1181, "3 months", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasCTduration> \"3 months\"."
+169, TimePoint, 1189, 1197, "baseline", "", 
+56, HbA1c, 1198, 1203, "HbA1c", "", 
+57, Percentage, 1219, 1220, "%", "", 
+79683, Millimoles_per_mole, 1239, 1249, "mmol / mol", "", 
+60, Randomized, 1257, 1265, "randomly", "", 
+61, AllocationRatio, 1277, 1282, "2 : 1", "", "<http://ctro/data#AllocationRatio_67559> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_67559>."
+172, Randomized, 1312, 1325, "randomisation", "", 
+79659, Albiglutide, 1375, 1386, "albiglutide", "", 
+62, DoseValue, 1389, 1391, "30", "", "<http://ctro/data#Medication_67621> <http://ctro/data#hasDoseValue> \"30\"."
+64, mg, 1392, 1394, "mg", "", "<http://ctro/data#Medication_67621> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+44, Frequency, 1395, 1406, "once a week", "", "<http://ctro/data#Intervention_67597> <http://ctro/data#hasFrequency> \"once a week\"."
+66, NumberPatientsArm, 1415, 1418, "504", "", "<http://ctro/data#Arm_67579> <http://ctro/data#hasNumberPatientsArm> \"504\"."
+15, InsulinGlargine, 1424, 1440, "insulin glargine", "", "<http://ctro/data#Medication_67628> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+63, DoseValue, 1443, 1445, "10", "", "<http://ctro/data#Medication_67628> <http://ctro/data#hasDoseValue> \"10\"."
+179, Int_Unit, 1446, 1447, "U", "", "<http://ctro/data#Medication_67628> <http://ctro/data#hasDoseUnit> <http://ctro/data#Int_Unit>."
+45, Frequency, 1448, 1458, "once a day", "", "<http://ctro/data#Intervention_67603> <http://ctro/data#hasFrequency> \"once a day\"."
+67, NumberPatientsArm, 1467, 1470, "241", "", "<http://ctro/data#Arm_67588> <http://ctro/data#hasNumberPatientsArm> \"241\"."
+187, OpenLabel, 1536, 1546, "not masked", "", 
+68, DoseDescription, 1573, 1652, "Doses of each medication were adjusted on the basis of the glycaemic response .", "", "<http://ctro/data#Medication_67621> <http://ctro/data#hasDoseDescription> \"Doses of each medication were adjusted on the basis of the glycaemic response .\". <http://ctro/data#Medication_67628> <http://ctro/data#hasDoseDescription> \"Doses of each medication were adjusted on the basis of the glycaemic response .\"."
+70, TimePoint, 1690, 1698, "baseline", "", 
+69, HbA1c, 1702, 1707, "HbA1c", "", 
+71, TimePoint, 1711, 1718, "week 52", "", 
+79661, Albiglutide, 1738, 1749, "albiglutide", "", 
+75, HbA1c, 1758, 1763, "HbA1c", "", "<http://ctro/data#Endpoint_67668> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+77, BaseLineValue, 1778, 1784, "8 . 28", "", "<http://ctro/data#Outcome_67673> <http://ctro/data#hasBaselineValue> \"8 . 28\"."
+79, SdDevBL, 1789, 1795, "0 . 90", "", "<http://ctro/data#Outcome_67673> <http://ctro/data#hasSdDevBL> \"0 . 90\"."
+81, Percentage, 1796, 1797, "%", "", "<http://ctro/data#Endpoint_67668> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+78, BaseLineValue, 1800, 1806, "67 . 0", "", 
+80, SdDevBL, 1811, 1816, "9 . 8", "", 
+79685, Millimoles_per_mole, 1817, 1827, "mmol / mol", "", 
+203, Mean, 1832, 1836, "mean", "", "<http://ctro/data#Mean_67670> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_67668> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_67670>."
+73, TimePoint, 1849, 1857, "baseline", "", 
+86, ResultMeasuredValue, 1861, 1867, "7 . 62", "", "<http://ctro/data#Outcome_67673> <http://ctro/data#hasResultMeasuredValue> \"7 . 62\"."
+88, SdDevResValue, 1872, 1878, "1 . 12", "", "<http://ctro/data#Outcome_67673> <http://ctro/data#hasSdDevResValue> \"1 . 12\"."
+82, Percentage, 1879, 1880, "%", "", 
+87, ResultMeasuredValue, 1883, 1889, "59 . 8", "", 
+89, SdDevResValue, 1894, 1900, "12 . 2", "", 
+79694, Millimoles_per_mole, 1901, 1911, "mmol / mol", "", 
+72, TimePoint, 1917, 1924, "week 52", "", "<http://ctro/data#Outcome_67673> <http://ctro/data#hasTimePoint> \"week 52\"."
+16, InsulinGlargine, 1963, 1979, "insulin glargine", "", 
+93, BaseLineValue, 1988, 1994, "8 . 36", "", "<http://ctro/data#Outcome_67700> <http://ctro/data#hasBaselineValue> \"8 . 36\"."
+95, SdDevBL, 1999, 2005, "0 . 95", "", "<http://ctro/data#Outcome_67700> <http://ctro/data#hasSdDevBL> \"0 . 95\"."
+97, Percentage, 2006, 2007, "%", "", 
+92, ResultMeasuredValue, 2011, 2017, "7 . 55", "", "<http://ctro/data#Outcome_67700> <http://ctro/data#hasResultMeasuredValue> \"7 . 55\"."
+90, SdDevResValue, 2022, 2028, "1 . 04", "", "<http://ctro/data#Outcome_67700> <http://ctro/data#hasSdDevResValue> \"1 . 04\"."
+98, Percentage, 2029, 2030, "%", "", 
+94, BaseLineValue, 2033, 2039, "67 . 9", "", 
+96, SdDevBL, 2044, 2050, "10 . 4", "", 
+91, ResultMeasuredValue, 2054, 2060, "59 . 0", "", 
+99, SdDevResValue, 2065, 2071, "11 . 4", "", 
+79688, Millimoles_per_mole, 2072, 2082, "mmol / mol", "", 
+101, DiffGroupAbsValue, 2134, 2140, "0 . 11", "", "<http://ctro/data#DiffBetweenGroups_67727> <http://ctro/data#hasDiffGroupAbsValue> \"0 . 11\"."
+102, Percentage, 2141, 2142, "%", "", 
+105, ConfIntervalDiff, 2145, 2174, "95 % CI - 0 . 04 % , 0 . 27 %", "", "<http://ctro/data#DiffBetweenGroups_67727> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 0 . 04 % , 0 . 27 %\"."
+103, Percentage, 2162, 2163, "%", "", 
+104, Percentage, 2173, 2174, "%", "", 
+108, DiffGroupAbsValue, 2179, 2184, "1 . 2", "", 
+79690, Millimoles_per_mole, 2185, 2195, "mmol / mol", "", 
+106, ConfIntervalDiff, 2198, 2232, "95 % CI - 0 . 4 , 3 . 0 mmol / mol", "", 
+79697, Millimoles_per_mole, 2222, 2232, "mmol / mol", "", 
+79662, Albiglutide, 2268, 2279, "albiglutide", "", 
+17, InsulinGlargine, 2283, 2299, "insulin glargine", "", 
+228, Percentage, 2363, 2364, "%", "", 
+79692, Millimoles_per_mole, 2373, 2383, "mmol / mol", "", 
+110, PvalueDiff, 2386, 2400, "p  =  0 . 0086", "", "<http://ctro/data#DiffBetweenGroups_67727> <http://ctro/data#hasPvalueDiff> \"p  =  0 . 0086\"."
+112, BodyWeight, 2405, 2416, "Body weight", "", "<http://ctro/data#Endpoint_67736> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+113, ObservedResult, 2417, 2426, "increased", "", "<http://ctro/data#Outcome_67768> <http://ctro/data#hasObservedResult> \"increased\"."
+18, InsulinGlargine, 2434, 2450, "insulin glargine", "", 
+114, ObservedResult, 2461, 2470, "decreased", "", "<http://ctro/data#Outcome_67741> <http://ctro/data#hasObservedResult> \"decreased\"."
+79663, Albiglutide, 2478, 2489, "albiglutide", "", 
+236, Mean, 2505, 2509, "mean", "", "<http://ctro/data#Mean_67738> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_67736> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_67738>."
+115, DiffGroupAbsValue, 2534, 2542, "- 2 . 61", "", "<http://ctro/data#DiffBetweenGroups_67795> <http://ctro/data#hasDiffGroupAbsValue> \"- 2 . 61\"."
+116, Kg, 2543, 2545, "kg", "", "<http://ctro/data#Endpoint_67736> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+117, ConfIntervalDiff, 2548, 2575, "95 % CI - 3 . 20 , - 2 . 02", "", "<http://ctro/data#DiffBetweenGroups_67795> <http://ctro/data#hasConfIntervalDiff> \"95 % CI - 3 . 20 , - 2 . 02\"."
+118, PvalueDiff, 2578, 2592, "p  <  0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_67795> <http://ctro/data#hasPvalueDiff> \"p  <  0 . 0001\"."
+119, SymptomaticHypoglycemia, 2608, 2633, "symptomatic hypoglycaemia", "", "<http://ctro/data#Endpoint_67804> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+19, InsulinGlargine, 2685, 2701, "insulin glargine", "", 
+79664, Albiglutide, 2720, 2731, "albiglutide", "", 
+120, PercentageAffected, 2740, 2746, "27 . 4", "", "<http://ctro/data#Outcome_67836> <http://ctro/data#hasPercentageAffected> \"27 . 4\"."
+121, PercentageAffected, 2752, 2758, "17 . 5", "", "<http://ctro/data#Outcome_67809> <http://ctro/data#hasPercentageAffected> \"17 . 5\"."
+122, PvalueDiff, 2763, 2777, "p  =  0 . 0377", "", "<http://ctro/data#Outcome_67809> <http://ctro/data#hasPercentageAffected> \"17 . 5\"."
+79665, Albiglutide, 2813, 2824, "Albiglutide", "", 
+125, ConclusionComment, 2813, 2943, "Albiglutide was non - inferior to insulin glargine at reducing HbA1c at week 52 , with modest weight loss and less hypoglycaemia .", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasConclusionComment> \"Albiglutide was non - inferior to insulin glargine at reducing HbA1c at week 52 , with modest weight loss and less hypoglycaemia .\"."
+20, InsulinGlargine, 2847, 2863, "insulin glargine", "", 
+76, HbA1c, 2876, 2881, "HbA1c", "", 
+74, TimePoint, 2885, 2892, "week 52", "", 
+254, WeightReduction, 2907, 2918, "weight loss", "", 
+124, Hypoglycemia, 2928, 2941, "hypoglycaemia", "", 
+126, ConclusionComment, 2944, 2976, "Both drugs were well tolerated .", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasConclusionComment> \"Both drugs were well tolerated .\"."
+79666, Albiglutide, 2977, 2988, "Albiglutide", "", 
+127, ConclusionComment, 2977, 3070, "Albiglutide may be considered an alternative to insulin glargine in this patient population .", "", "<http://ctro/data#ClinicalTrial_67555> <http://ctro/data#hasConclusionComment> \"Albiglutide may be considered an alternative to insulin glargine in this patient population .\"."
+21, InsulinGlargine, 3025, 3041, "insulin glargine", "", 
+106275, PharmacySponsored, 3149, 3204, "This study was planned and conducted by GlaxoSmithKline", "", "<http://ctro/data#EvidenceQuality_91578> <http://ctro/data#isPharmacySponsored> \"This study was planned and conducted by GlaxoSmithKline\"."
+128, PMID, 3256, 3264, "25208756", "", "<http://ctro/data#Publication_67548> <http://ctro/data#hasPMID> \"25208756\"."

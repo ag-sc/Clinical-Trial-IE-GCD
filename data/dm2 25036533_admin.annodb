@@ -1,0 +1,108 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 23, "Diabetes Technol Ther .", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasJournal> \"Diabetes Technol Ther .\"."
+1, PublicationYear, 24, 28, "2014", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasPublicationYear> \"2014\"."
+88, Liraglutide, 115, 126, "Liraglutide", "", 
+20, Title, 115, 286, "Liraglutide ' s safety , tolerability , pharmacokinetics , and pharmacodynamics in pediatric type 2 diabetes : a randomized , double - blind , placebo - controlled trial .", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasTitle> \"Liraglutide ' s safety , tolerability , pharmacokinetics , and pharmacodynamics in pediatric type 2 diabetes : a randomized , double - blind , placebo - controlled trial .\"."
+8, Type2Diabetes, 208, 223, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+13, Randomized, 228, 238, "randomized", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+14, DoubleBlind, 241, 255, "double - blind", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+15, Placebo, 258, 265, "placebo", "", 
+21, Author, 287, 295, "Klein DJ", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Klein DJ\"."
+22, Author, 304, 315, "Battelino T", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Battelino T\"."
+23, Author, 318, 331, "Chatterjee DJ", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Chatterjee DJ\"."
+24, Author, 334, 345, "Jacobsen LV", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Jacobsen LV\"."
+25, Author, 348, 355, "Hale PM", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Hale PM\"."
+26, Author, 358, 369, "Arslanian S", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasAuthor> \"Arslanian S\"."
+27, USA, 718, 722, "Ohio", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+9, Type2Diabetes, 756, 771, "type 2 diabetes", "", 
+10, Type2Diabetes, 774, 777, "T2D", "", 
+28, Metformin, 830, 839, "metformin", "", 
+29, Insulin, 844, 851, "insulin", "", 
+36, ObjectiveDescription, 865, 1080, "The safety , tolerability , pharmacokinetics , and pharmacodynamics of liraglutide once daily in youth ( 10 - 17 years old ) with T2D were investigated in a randomized , double - blind , placebo - controlled trial .", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasObjectiveDescription> \"The safety , tolerability , pharmacokinetics , and pharmacodynamics of liraglutide once daily in youth ( 10 - 17 years old ) with T2D were investigated in a randomized , double - blind , placebo - controlled trial .\"."
+104, Liraglutide, 936, 947, "liraglutide", "", 
+30, Frequency, 948, 958, "once daily", "", 
+76187, Precondition, 962, 967, "youth", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasPrecondition> \"youth\". <http://ctro/data#Population_61676> <http://ctro/data#hasPrecondition> \"with T2D\"."
+31, MinAge, 970, 972, "10", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasMinAge> \"10\"."
+32, MaxAge, 975, 977, "17", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasMaxAge> \"17\"."
+108, Year, 978, 983, "years", "", 
+76187, Precondition, 990, 998, "with T2D", "", 
+11, Type2Diabetes, 995, 998, "T2D", "", 
+33, Randomized, 1022, 1032, "randomized", "", 
+34, DoubleBlind, 1035, 1049, "double - blind", "", 
+35, Placebo, 1052, 1059, "placebo", "", 
+42, Precondition, 1104, 1222, "Youth treated with diet / exercise alone or with metformin and having a hemoglobin A1c ( HbA1c ) level of 6 . 5 - 11 %", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasPrecondition> \"Youth treated with diet / exercise alone or with metformin and having a hemoglobin A1c ( HbA1c ) level of 6 . 5 - 11 %\"."
+37, Metformin, 1153, 1162, "metformin", "", 
+38, HbA1c, 1176, 1190, "hemoglobin A1c", "", 
+39, HbA1c, 1193, 1198, "HbA1c", "", 
+41, Percentage, 1221, 1222, "%", "", 
+43, Randomized, 1228, 1238, "randomized", "", 
+120, Liraglutide, 1242, 1253, "liraglutide", "", "<http://ctro/data#Medication_61714> <http://ctro/data#hasDrug> <http://ctro/data#Liraglutide>."
+44, NumberPatientsArm, 1260, 1262, "14", "", "<http://ctro/data#Arm_61684> <http://ctro/data#hasNumberPatientsArm> \"14\"."
+18, Placebo, 1268, 1275, "placebo", "", 
+45, NumberPatientsArm, 1282, 1283, "7", "", "<http://ctro/data#Arm_61693> <http://ctro/data#hasNumberPatientsArm> \"7\"."
+100514, DoseDescription, 1288, 1390, "Starting at 0 . 3 mg / day , doses were escalated weekly to 0 . 6 , 0 . 9 , 1 . 2 , and 1 . 8 mg / day", "", "<http://ctro/data#Medication_61714> <http://ctro/data#hasDoseDescription> \"Starting at 0 . 3 mg / day , doses were escalated weekly to 0 . 6 , 0 . 9 , 1 . 2 , and 1 . 8 mg / day\"."
+127, DoseValue, 1300, 1305, "0 . 3", "", 
+76181, mg, 1306, 1308, "mg", "", "<http://ctro/data#Medication_61714> <http://ctro/data#hasDoseUnit> <http://ctro/data#mg>."
+100519, Frequency, 1311, 1314, "day", "", "<http://ctro/data#Intervention_61702> <http://ctro/data#hasFrequency> \"day\"."
+129, DoseValue, 1348, 1353, "0 . 6", "", 
+130, DoseValue, 1356, 1361, "0 . 9", "", 
+131, DoseValue, 1364, 1369, "1 . 2", "", 
+46, DoseValue, 1376, 1381, "1 . 8", "", 
+48, mg, 1382, 1384, "mg", "", 
+100518, Frequency, 1387, 1390, "day", "", 
+16, Placebo, 1396, 1403, "placebo", "", 
+51, Duration, 1421, 1428, "5 weeks", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasCTduration> \"5 weeks\"."
+52, FinalNumPatientsCT, 1441, 1449, "Nineteen", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasFinalNumberPatientsCT> \"Nineteen\"."
+137, TimePoint, 1485, 1493, "Baseline", "", 
+138, Mean, 1545, 1549, "mean", "", 
+54, AvgAge, 1575, 1581, "14 . 8", "", "<http://ctro/data#Population_61676> <http://ctro/data#hasAvgAge> \"14 . 8\"."
+151, Year, 1592, 1597, "years", "", 
+55, BodyWeight, 1600, 1606, "weight", "", 
+60, BaseLineValue, 1610, 1617, "113 . 2", "", 
+148, SdDevBL, 1620, 1626, "35 . 6", "", 
+57, Kg, 1629, 1631, "kg", "", 
+58, Kg, 1651, 1653, "kg", "", 
+150, Year, 1695, 1700, "years", "", 
+62, HbA1c, 1707, 1712, "HbA1c", "", 
+61, BaseLineValue, 1722, 1727, "8 . 1", "", 
+63, Percentage, 1728, 1729, "%", "", 
+149, SdDevBL, 1732, 1737, "1 . 2", "", 
+65, Percentage, 1738, 1739, "%", "", 
+69, ObservedResult, 1744, 1769, "No serious adverse events", "", "<http://ctro/data#Outcome_61765> <http://ctro/data#hasObservedResult> \"No serious adverse events\". <http://ctro/data#Outcome_61792> <http://ctro/data#hasObservedResult> \"No serious adverse events\". <http://ctro/data#Outcome_61819> <http://ctro/data#hasObservedResult> \"No serious adverse events\". <http://ctro/data#Outcome_61846> <http://ctro/data#hasObservedResult> \"No serious adverse events\"."
+66, EndPointDescription, 1747, 1769, "serious adverse events", "", "<http://ctro/data#EndPointDescription_61756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61755> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61756>."
+67, EndPointDescription, 1772, 1775, "AEs", "", 
+68, SevereHypoglycemia, 1790, 1809, "severe hypoglycemia", "", "<http://ctro/data#Endpoint_61760> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SevereHypoglycemia>."
+70, GastrointestinalProblem, 1833, 1853, "gastrointestinal AEs", "", "<http://ctro/data#Endpoint_61873> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#GastrointestinalProblem>."
+71, ObservedResult, 1854, 1922, "were most common at lower liraglutide doses during dose escalation .", "", "<http://ctro/data#Outcome_61878> <http://ctro/data#hasObservedResult> \"were most common at lower liraglutide doses during dose escalation .\"."
+155, Liraglutide, 1880, 1891, "liraglutide", "", 
+73, EndPointDescription, 2020, 2032, "pancreatitis", "", 
+74, EndPointDescription, 2036, 2042, "lipase", "", 
+72, EndPointDescription, 2097, 2107, "calcitonin", "", 
+156, Liraglutide, 2154, 2165, "liraglutide", "", 
+47, DoseValue, 2166, 2171, "1 . 8", "", 
+49, mg, 2172, 2174, "mg", "", 
+157, Mean, 2177, 2181, "mean", "", "<http://ctro/data#Mean_61907> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_61905> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_61907>."
+160, EndPointDescription, 2182, 2193, "half - life", "", "<http://ctro/data#EndPointDescription_61906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61905> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61906>."
+162, ResultMeasuredValue, 2198, 2200, "12", "", "<http://ctro/data#Outcome_61915> <http://ctro/data#hasResultMeasuredValue> \"12\"."
+164, Hour, 2201, 2202, "h", "", "<http://ctro/data#Endpoint_61905> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Hour>."
+161, EndPointDescription, 2209, 2218, "clearance", "", "<http://ctro/data#EndPointDescription_61911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_61910> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_61911>."
+163, ResultMeasuredValue, 2223, 2228, "1 . 7", "", "<http://ctro/data#Outcome_61942> <http://ctro/data#hasResultMeasuredValue> \"1 . 7\"."
+165, BioAndMedicalUnit, 2229, 2234, "L / h", "", "<http://ctro/data#BioAndMedicalUnit_61913> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_61910> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_61913>."
+76, TimePoint, 2243, 2250, "5 weeks", "", "<http://ctro/data#Outcome_61979> <http://ctro/data#hasTimePoint> \"5 weeks\". <http://ctro/data#Outcome_62006> <http://ctro/data#hasTimePoint> \"5 weeks\". <http://ctro/data#Outcome_62033> <http://ctro/data#hasTimePoint> \"5 weeks\". <http://ctro/data#Outcome_62060> <http://ctro/data#hasTimePoint> \"5 weeks\"."
+40, HbA1c, 2268, 2273, "HbA1c", "", "<http://ctro/data#Endpoint_61969> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+168, Liraglutide, 2297, 2308, "liraglutide", "", 
+17, Placebo, 2316, 2323, "placebo", "", 
+77, Reduction, 2328, 2334, "0 . 86", "", "<http://ctro/data#Outcome_61979> <http://ctro/data#hasChangeValue> \"0 . 86\"."
+78, Increment, 2340, 2346, "0 . 04", "", "<http://ctro/data#Outcome_62006> <http://ctro/data#hasChangeValue> \"0 . 04\"."
+79, Percentage, 2347, 2348, "%", "", "<http://ctro/data#Endpoint_61969> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+80, PvalueDiff, 2351, 2363, "P = 0 . 0007", "", "<http://ctro/data#DiffBetweenGroups_62096> <http://ctro/data#hasPvalueDiff> \"P = 0 . 0007\"."
+174, Mean, 2376, 2380, "mean", "", "<http://ctro/data#Mean_61976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_61974> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_61976>."
+56, BodyWeight, 2381, 2392, "body weight", "", "<http://ctro/data#Endpoint_61974> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+81, Reduction, 2413, 2419, "0 . 50", "", "<http://ctro/data#Outcome_62033> <http://ctro/data#hasChangeValue> \"0 . 50\"."
+82, Reduction, 2427, 2433, "0 . 54", "", "<http://ctro/data#Outcome_62060> <http://ctro/data#hasChangeValue> \"0 . 54\"."
+59, Kg, 2434, 2436, "kg", "", "<http://ctro/data#Endpoint_61974> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+83, PvalueDiff, 2439, 2451, "P = 0 . 9703", "", "<http://ctro/data#DiffBetweenGroups_62087> <http://ctro/data#hasPvalueDiff> \"P = 0 . 9703\"."
+84, ConclusionComment, 2470, 2610, "Liraglutide was well tolerated in youth with T2D , with safety , tolerability , and pharmacokinetic profiles similar to profiles in adults .", "", "<http://ctro/data#ClinicalTrial_61660> <http://ctro/data#hasConclusionComment> \"Liraglutide was well tolerated in youth with T2D , with safety , tolerability , and pharmacokinetic profiles similar to profiles in adults .\"."
+180, Liraglutide, 2470, 2481, "Liraglutide", "", 
+12, Type2Diabetes, 2515, 2518, "T2D", "", 
+85, PMID, 2673, 2681, "25036533", "", "<http://ctro/data#Publication_61653> <http://ctro/data#hasPMID> \"25036533\"."

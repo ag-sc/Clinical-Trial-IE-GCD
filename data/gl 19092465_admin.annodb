@@ -1,0 +1,147 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 10, "J Glaucoma", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasJournal> \"J Glaucoma\"."
+1, PublicationYear, 13, 17, "2008", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasPublicationYear> \"2008\"."
+156, Title, 88, 339, "An eight - week , multicentric , randomized , interventional , open - label , phase 4 , parallel comparison of the efficacy and tolerability of the fixed combination of timolol maleate 0 . 5 % / brimonidine tartrate 0 . 2 % versus fixed combination of", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasTitle> \"An eight - week , multicentric , randomized , interventional , open - label , phase 4 , parallel comparison of the efficacy and tolerability of the fixed combination of timolol maleate 0 . 5 % / brimonidine tartrate 0 . 2 % versus fixed combination of\"."
+4, Duration, 91, 103, "eight - week", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasCTduration> \"eight - week\"."
+5, Multicenter, 106, 118, "multicentric", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+6, Randomized, 121, 131, "randomized", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+7, OpenLabel, 151, 163, "open - label", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+8, Parallel, 176, 184, "parallel", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+44428, Brimo/TimFC, 232, 311, "the fixed combination of timolol maleate 0 . 5 % / brimonidine tartrate 0 . 2 %", "", 
+82, Timolol, 257, 272, "timolol maleate", "", 
+86, DoseValue, 273, 278, "0 . 5", "", 
+87, Percentage, 279, 280, "%", "", 
+83, Brimonidine, 283, 303, "brimonidine tartrate", "", 
+88, DoseValue, 304, 309, "0 . 2", "", 
+89, Percentage, 310, 311, "%", "", 
+44429, Dorz/TimFC, 319, 381, "fixed combination of timolol maleate 0 . 5 % / dorzolamide 2 %", "", 
+84, Timolol, 340, 355, "timolol maleate", "", 
+92, DoseValue, 356, 361, "0 . 5", "", 
+90, Percentage, 362, 363, "%", "", 
+85, Dorzolamide, 366, 377, "dorzolamide", "", 
+93, DoseValue, 378, 379, "2", "", 
+91, Percentage, 380, 381, "%", "", 
+9, IOP, 408, 428, "intraocular pressure", "", 
+10, Author, 431, 441, "Hatanaka M", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasAuthor> \"Hatanaka M\"."
+11, Author, 450, 460, "Grigera DE", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasAuthor> \"Grigera DE\"."
+12, Author, 463, 473, "Barbosa WL", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasAuthor> \"Barbosa WL\"."
+13, Author, 476, 484, "Jordao M", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasAuthor> \"Jordao M\"."
+14, Author, 487, 499, "Susanna R Jr", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasAuthor> \"Susanna R Jr\"."
+94, Brazil, 588, 594, "Brazil", "", "<http://ctro/data#Population_71508> <http://ctro/data#hasCountry> <http://ctro/data#Brazil>."
+15, ObjectiveDescription, 635, 765, "To compare the efficacy and tolerability of the fixed combination of timolol maleate 0 . 5 % / brimonidine tartrate 0 . 2 % versus", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and tolerability of the fixed combination of timolol maleate 0 . 5 % / brimonidine tartrate 0 . 2 % versus\"."
+95, Timolol, 704, 719, "timolol maleate", "", 
+97, DoseValue, 720, 725, "0 . 5", "", 
+99, Percentage, 726, 727, "%", "", 
+96, Brimonidine, 730, 750, "brimonidine tartrate", "", 
+98, DoseValue, 751, 756, "0 . 2", "", 
+100, Percentage, 757, 758, "%", "", 
+16, ObjectiveDescription, 766, 898, "fixed combination of timolol maleate 0 . 5 % / dorzolamide 2 % in patients with elevated intraocular pressure ( IOP ) over 8 weeks .", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasObjectiveDescription> \"fixed combination of timolol maleate 0 . 5 % / dorzolamide 2 % in patients with elevated intraocular pressure ( IOP ) over 8 weeks .\"."
+44430, Dorz/TimFC, 787, 828, "timolol maleate 0 . 5 % / dorzolamide 2 %", "", 
+101, Timolol, 787, 802, "timolol maleate", "", 
+103, DoseValue, 803, 808, "0 . 5", "", 
+104, Percentage, 809, 810, "%", "", 
+102, Dorzolamide, 813, 824, "dorzolamide", "", 
+106, DoseValue, 825, 826, "2", "", 
+105, Percentage, 827, 828, "%", "", 
+17, IOP, 855, 875, "intraocular pressure", "", 
+18, IOP, 878, 881, "IOP", "", 
+19, Duration, 889, 896, "8 weeks", "", 
+20, Duration, 927, 935, "8 - week", "", 
+21, Multicenter, 938, 950, "multicentric", "", 
+129, Randomized, 970, 980, "randomized", "", 
+22, OpenLabel, 983, 995, "open - label", "", 
+23, Parallel, 998, 1012, "parallel group", "", 
+179, Brazil, 1049, 1055, "Brazil", "", 
+24, Argentina, 1072, 1081, "Argentina", "", "<http://ctro/data#Population_71508> <http://ctro/data#hasCountry> <http://ctro/data#Argentina>."
+25, OpenAngleGlaucoma, 1098, 1119, "open - angle glaucoma", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OpenAngleGlaucoma>."
+26, OcularHypertension, 1123, 1142, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+107, Randomized, 1148, 1158, "randomized", "", 
+44431, Brimo/TimFC, 1182, 1240, "fixed combination of brimonidine / timolol maleate 0 . 5 %", "", "<http://ctro/data#Medication_71557> <http://ctro/data#hasDrug> <http://ctro/data#Brimo/TimFC>."
+108, Brimonidine, 1203, 1214, "brimonidine", "", 
+109, Timolol, 1217, 1232, "timolol maleate", "", 
+110, DoseValue, 1233, 1238, "0 . 5", "", 
+111, Percentage, 1239, 1240, "%", "", 
+44432, Dorz/TimFC, 1244, 1298, "fixed combination of dorzolamide 2 % / timolol 0 . 5 %", "", "<http://ctro/data#Medication_71564> <http://ctro/data#hasDrug> <http://ctro/data#Dorz/TimFC>."
+112, Dorzolamide, 1265, 1276, "dorzolamide", "", 
+114, DoseValue, 1277, 1278, "2", "", 
+117, Percentage, 1279, 1280, "%", "", 
+113, Timolol, 1283, 1290, "timolol", "", 
+115, DoseValue, 1291, 1296, "0 . 5", "", 
+116, Percentage, 1297, 1298, "%", "", 
+27, Frequency, 1299, 1310, "twice daily", "", "<http://ctro/data#Intervention_71545> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_71551> <http://ctro/data#hasFrequency> \"twice daily\"."
+28, Peak_IOP, 1491, 1499, "IOP peak", "", 
+29, Diurnal_IOP, 1503, 1524, "diurnal tension curve", "", "<http://ctro/data#Endpoint_71517> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Diurnal_IOP>."
+118, TimePoint, 1549, 1557, "baseline", "", 
+119, TimePoint, 1562, 1570, "week - 8", "", 
+30, NumberPatientsCT, 1651, 1654, "210", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasNumberPatientsCT> \"210\"."
+120, Randomized, 1669, 1679, "randomized", "", 
+121, Brimonidine, 1682, 1693, "brimonidine", "", 
+44433, Brimo/TimFC, 1682, 1703, "brimonidine / timolol", "", 
+122, Timolol, 1696, 1703, "timolol", "", 
+31, NumberPatientsArm, 1710, 1713, "111", "", "<http://ctro/data#Arm_71527> <http://ctro/data#hasNumberPatientsArm> \"111\"."
+123, Dorzolamide, 1716, 1727, "dorzolamide", "", 
+44434, Dorz/TimFC, 1716, 1737, "dorzolamide / timolol", "", 
+124, Timolol, 1730, 1737, "timolol", "", 
+32, NumberPatientsArm, 1744, 1746, "99", "", "<http://ctro/data#Arm_71536> <http://ctro/data#hasNumberPatientsArm> \"99\"."
+33, Mean, 1751, 1755, "Mean", "", "<http://ctro/data#Mean_71519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71517> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71519>."
+34, IOP, 1765, 1768, "IOP", "", 
+35, BaseLineValue, 1773, 1780, "23 . 43", "", "<http://ctro/data#Outcome_71571> <http://ctro/data#hasBaselineValue> \"23 . 43\"."
+44437, SdDevBL, 1787, 1793, "3 . 22", "", "<http://ctro/data#Outcome_71571> <http://ctro/data#hasSdDevBL> \"3 . 22\"."
+37, mmHg, 1794, 1799, "mm Hg", "", "<http://ctro/data#Endpoint_71517> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+38, BaseLineValue, 1804, 1811, "23 . 43", "", "<http://ctro/data#Outcome_71598> <http://ctro/data#hasBaselineValue> \"23 . 43\"."
+44438, SdDevBL, 1818, 1824, "4 . 06", "", "<http://ctro/data#Outcome_71598> <http://ctro/data#hasSdDevBL> \"4 . 06\"."
+40, mmHg, 1825, 1830, "mm Hg", "", 
+210, Brimonidine, 1860, 1871, "brimonidine", "", 
+44435, Brimo/TimFC, 1860, 1881, "brimonidine / timolol", "", 
+211, Timolol, 1874, 1881, "timolol", "", 
+213, Dorzolamide, 1886, 1897, "dorzolamide", "", 
+44436, Dorz/TimFC, 1886, 1907, "dorzolamide / timolol", "", 
+212, Timolol, 1900, 1907, "timolol", "", 
+214, PvalueDiff, 1929, 1936, "0 . 993", "", 
+42, Mean, 1941, 1945, "Mean", "", 
+43, Diurnal_IOP, 1946, 1957, "diurnal IOP", "", 
+217, TimePoint, 1974, 1981, "8 weeks", "", "<http://ctro/data#Outcome_71571> <http://ctro/data#hasTimePoint> \"8 weeks\"."
+44, Reduction, 1987, 1993, "7 . 02", "", "<http://ctro/data#Outcome_71571> <http://ctro/data#hasChangeValue> \"7 . 02\"."
+256, SdDevChangeValue, 2000, 2006, "3 . 06", "", "<http://ctro/data#Outcome_71571> <http://ctro/data#hasSdDevChangeValue> \"3 . 06\"."
+46, mmHg, 2007, 2012, "mm Hg", "", 
+47, Reduction, 2017, 2023, "6 . 91", "", "<http://ctro/data#Outcome_71598> <http://ctro/data#hasChangeValue> \"6 . 91\"."
+257, SdDevChangeValue, 2030, 2036, "3 . 67", "", "<http://ctro/data#Outcome_71598> <http://ctro/data#hasSdDevChangeValue> \"3 . 67\"."
+49, mmHg, 2037, 2042, "mm Hg", "", 
+222, PvalueDiff, 2064, 2071, "0 . 811", "", "<http://ctro/data#DiffBetweenGroups_71625> <http://ctro/data#hasPvalueDiff> \"0 . 811\"."
+224, TimePoint, 2145, 2151, "week 8", "", 
+51, PvalueDiff, 2188, 2199, "P = 0 . 847", "", 
+52, Mean, 2204, 2208, "Mean", "", "<http://ctro/data#Mean_71524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71522> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71524>."
+57, Peak_IOP, 2222, 2226, "peak", "", "<http://ctro/data#Endpoint_71522> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+59, BaseLineValue, 2231, 2238, "27 . 79", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasBaselineValue> \"27 . 79\"."
+44439, SdDevBL, 2245, 2251, "4 . 29", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasSdDevBL> \"4 . 29\"."
+53, mmHg, 2252, 2257, "mm Hg", "", "<http://ctro/data#Mean_71524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71522> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71524>."
+125, Brimonidine, 2265, 2276, "brimonidine", "", 
+44441, Brimo/TimFC, 2265, 2286, "brimonidine / timolol", "", 
+126, Timolol, 2279, 2286, "timolol", "", 
+61, BaseLineValue, 2297, 2304, "27 . 68", "", "<http://ctro/data#Outcome_71661> <http://ctro/data#hasBaselineValue> \"27 . 68\"."
+259, SdDevBL, 2311, 2317, "5 . 46", "", "<http://ctro/data#Outcome_71661> <http://ctro/data#hasSdDevBL> \"5 . 46\"."
+54, mmHg, 2318, 2323, "mm Hg", "", 
+127, Dorzolamide, 2331, 2342, "dorzolamide", "", 
+44442, Dorz/TimFC, 2331, 2352, "dorzolamide / timolol", "", 
+128, Timolol, 2345, 2352, "timolol", "", 
+234, TimePoint, 2367, 2374, "8 weeks", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasTimePoint> \"8 weeks\". <http://ctro/data#Outcome_71661> <http://ctro/data#hasTimePoint> \"8 weeks\"."
+56, Mean, 2390, 2394, "mean", "", 
+58, Peak_IOP, 2399, 2404, "peaks", "", 
+63, ResultMeasuredValue, 2410, 2417, "20 . 94", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasResultMeasuredValue> \"20 . 94\"."
+239, SdDevResValue, 2424, 2430, "3 . 76", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasSdDevResValue> \"3 . 76\"."
+65, mmHg, 2431, 2436, "mm Hg", "", 
+66, PValueResValue, 2439, 2450, "P < 0 . 001", "", "<http://ctro/data#Outcome_71634> <http://ctro/data#hasPValueResValue> \"P < 0 . 001\"."
+67, ResultMeasuredValue, 2457, 2464, "20 . 98", "", "<http://ctro/data#Outcome_71661> <http://ctro/data#hasResultMeasuredValue> \"20 . 98\"."
+240, SdDevResValue, 2471, 2477, "4 . 19", "", "<http://ctro/data#Outcome_71661> <http://ctro/data#hasSdDevResValue> \"4 . 19\"."
+69, PValueResValue, 2480, 2491, "P < 0 . 001", "", "<http://ctro/data#Outcome_71661> <http://ctro/data#hasPValueResValue> \"P < 0 . 001\"."
+70, PvalueDiff, 2613, 2624, "P = 0 . 469", "", "<http://ctro/data#DiffBetweenGroups_71688> <http://ctro/data#hasPvalueDiff> \"P = 0 . 469\"."
+71, ConclusionComment, 2723, 2875, "Both fixed combinations were capable of significantly reducing the mean diurnal IOP , mean diurnal peak , and mean WDT peak after 8 weeks of treatment .", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasConclusionComment> \"Both fixed combinations were capable of significantly reducing the mean diurnal IOP , mean diurnal peak , and mean WDT peak after 8 weeks of treatment .\"."
+74, Mean, 2790, 2794, "mean", "", 
+73, Diurnal_IOP, 2795, 2806, "diurnal IOP", "", 
+75, Mean, 2809, 2813, "mean", "", 
+76, Peak_IOP, 2814, 2826, "diurnal peak", "", 
+77, Mean, 2833, 2837, "mean", "", 
+44443, Peak_IOP, 2842, 2846, "peak", "", 
+249, TimePoint, 2853, 2860, "8 weeks", "", 
+72, ConclusionComment, 2876, 2949, "Also , both fixed combinations are well tolerated with few side effects .", "", "<http://ctro/data#ClinicalTrial_71485> <http://ctro/data#hasConclusionComment> \"Also , both fixed combinations are well tolerated with few side effects .\"."
+79, PMID, 2998, 3006, "19092465", "", "<http://ctro/data#Publication_71474> <http://ctro/data#hasPMID> \"19092465\"."

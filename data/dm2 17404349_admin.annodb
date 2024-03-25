@@ -1,0 +1,133 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 16, "Ann Intern Med .", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasJournal> \"Ann Intern Med .\"."
+1, PublicationYear, 17, 21, "2007", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasPublicationYear> \"2007\"."
+124, Title, 53, 172, "The effect of adding exenatide to a thiazolidinedione in suboptimally controlled type 2 diabetes : a randomized trial .", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasTitle> \"The effect of adding exenatide to a thiazolidinedione in suboptimally controlled type 2 diabetes : a randomized trial .\"."
+2, Exenatide, 74, 83, "exenatide", "", 
+3, Drug, 89, 106, "thiazolidinedione", "", 
+6, Precondition, 110, 149, "suboptimally controlled type 2 diabetes", "", 
+4, Type2Diabetes, 134, 149, "type 2 diabetes", "", 
+5, Randomized, 154, 164, "randomized", "", 
+7, Author, 173, 181, "Zinman B", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Zinman B\"."
+8, Author, 190, 201, "Hoogwerf BJ", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Hoogwerf BJ\"."
+9, Author, 204, 222, "Dur á n Garc í a S", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Dur á n Garc í a S\"."
+10, Author, 225, 234, "Milton DR", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Milton DR\"."
+11, Author, 237, 248, "Giaconia JM", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Giaconia JM\"."
+12, Author, 251, 257, "Kim DD", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Kim DD\"."
+13, Author, 260, 272, "Trautmann ME", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Trautmann ME\"."
+14, Author, 275, 285, "Brodows RG", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasAuthor> \"Brodows RG\"."
+15, Canada, 424, 430, "Canada", "", 
+16, Exenatide, 667, 676, "Exenatide", "", 
+17, Metformin, 718, 727, "metformin", "", 
+18, Sulfonylureas, 731, 744, "sulfonylureas", "", 
+19, Type2Diabetes, 758, 773, "type 2 diabetes", "", 
+20, Drug, 776, 794, "Thiazolidinediones", "", 
+21, Drug, 797, 801, "TZDs", "", 
+23, Exenatide, 849, 858, "exenatide", "", 
+22, Drug, 866, 869, "TZD", "", 
+248, ObjectiveDescription, 906, 978, "To compare the effects of exenatide versus placebo on glycemic control .", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasObjectiveDescription> \"To compare the effects of exenatide versus placebo on glycemic control .\"."
+24, Exenatide, 932, 941, "exenatide", "", 
+25, Placebo, 949, 956, "placebo", "", 
+138, Placebo, 988, 995, "Placebo", "", 
+26, Randomized, 1007, 1017, "randomized", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+27, DoubleBlind, 1020, 1034, "double - blind", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+141, Placebo, 1037, 1044, "placebo", "", 
+251, Duration, 1079, 1102, "May 2004 to August 2005", "", 
+145, Multicenter, 1115, 1123, "49 sites", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+142, Canada, 1127, 1133, "Canada", "", "<http://ctro/data#Population_47084> <http://ctro/data#hasCountry> <http://ctro/data#Canada>."
+143, Spain, 1136, 1141, "Spain", "", "<http://ctro/data#Population_47084> <http://ctro/data#hasCountry> <http://ctro/data#Spain>."
+144, USA, 1152, 1165, "United States", "", "<http://ctro/data#Population_47084> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+28, NumberPatientsCT, 1179, 1182, "233", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasNumberPatientsCT> \"233\"."
+31, Exenatide, 1185, 1194, "exenatide", "", 
+29, NumberPatientsArm, 1207, 1210, "121", "", "<http://ctro/data#Arm_47124> <http://ctro/data#hasNumberPatientsArm> \"121\"."
+32, Placebo, 1213, 1220, "placebo", "", 
+30, NumberPatientsArm, 1233, 1236, "112", "", "<http://ctro/data#Arm_47133> <http://ctro/data#hasNumberPatientsArm> \"112\"."
+36, Precondition, 1239, 1350, "patients with type 2 diabetes that was suboptimally controlled with TZD treatment ( with or without metformin )", "", "<http://ctro/data#Population_47084> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes that was suboptimally controlled with TZD treatment ( with or without metformin )\"."
+33, Type2Diabetes, 1253, 1268, "type 2 diabetes", "", 
+34, Drug, 1307, 1310, "TZD", "", 
+35, Metformin, 1339, 1348, "metformin", "", 
+155, Mean, 1353, 1357, "Mean", "", 
+258, TimePoint, 1371, 1379, "baseline", "", 
+156, HbA1c, 1380, 1403, "glycated hemoglobin A1c", "", 
+38, BaseLineValue, 1414, 1419, "7 . 9", "", 
+39, Percentage, 1420, 1421, "%", "", 
+41, SdErrorBL, 1428, 1433, "0 . 1", "", 
+40, Percentage, 1434, 1435, "%", "", 
+161, SubcutaneousInjection, 1454, 1487, "Subcutaneous abdominal injections", "", "<http://ctro/data#Medication_47161> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#SubcutaneousInjection>. <http://ctro/data#Medication_47168> <http://ctro/data#hasDeliveryMethod> <http://ctro/data#SubcutaneousInjection>."
+43, DoseValue, 1491, 1493, "10", "", "<http://ctro/data#Medication_47161> <http://ctro/data#hasDoseValue> \"10\"."
+44, Microgram, 1494, 1500, "microg", "", "<http://ctro/data#Medication_47161> <http://ctro/data#hasDoseUnit> <http://ctro/data#Microgram>."
+45, Exenatide, 1504, 1513, "exenatide", "", "<http://ctro/data#Medication_47161> <http://ctro/data#hasDrug> <http://ctro/data#Exenatide>."
+46, Placebo, 1517, 1524, "placebo", "", "<http://ctro/data#Medication_47168> <http://ctro/data#hasDrug> <http://ctro/data#Placebo>."
+47, Frequency, 1525, 1536, "twice daily", "", "<http://ctro/data#Intervention_47142> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_47148> <http://ctro/data#hasFrequency> \"twice daily\"."
+48, Drug, 1550, 1553, "TZD", "", 
+49, Metformin, 1572, 1581, "metformin", "", 
+50, Duration, 1588, 1596, "16 weeks", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasCTduration> \"16 weeks\"."
+253, TimePoint, 1650, 1658, "baseline", "", 
+254, HbA1c, 1662, 1676, "hemoglobin A1c", "", 
+171, EndPointDescription, 1705, 1732, "fasting serum glucose level", "", 
+52, BodyWeight, 1735, 1746, "body weight", "", 
+255, BloodGlucose, 1749, 1779, "self - monitored blood glucose", "", 
+53, EndPointDescription, 1796, 1810, "adverse events", "", 
+54, Exenatide, 1823, 1832, "Exenatide", "", 
+256, HbA1c, 1851, 1870, "hemoglobin A ( 1c )", "", "<http://ctro/data#Endpoint_47094> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+202, Mean, 1879, 1883, "mean", "", "<http://ctro/data#Mean_47096> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_47094> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_47096>."
+59, DiffGroupAbsValue, 1897, 1905, "- 0 . 98", "", "<http://ctro/data#DiffBetweenGroups_47231> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 98\"."
+58, Percentage, 1906, 1907, "%", "", "<http://ctro/data#Endpoint_47094> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+55, ConfIntervalDiff, 1910, 1944, "95 % CI , - 1 . 21 % to - 0 . 74 %", "", "<http://ctro/data#DiffBetweenGroups_47231> <http://ctro/data#hasConfIntervalDiff> \"95 % CI , - 1 . 21 % to - 0 . 74 %\"."
+56, Percentage, 1929, 1930, "%", "", 
+57, Percentage, 1943, 1944, "%", "", 
+60, FastingPlasmaGlucose, 1951, 1972, "serum fasting glucose", "", "<http://ctro/data#Endpoint_47099> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+203, Mean, 1981, 1985, "mean", "", "<http://ctro/data#Mean_47101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_47099> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_47101>."
+61, DiffGroupAbsValue, 1999, 2007, "- 1 . 69", "", 
+62, Millimoles_per_litre, 2008, 2016, "mmol / L", "", "<http://ctro/data#Endpoint_47099> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+67, DiffGroupAbsValue, 2019, 2027, "- 30 . 5", "", "<http://ctro/data#DiffBetweenGroups_47294> <http://ctro/data#hasDiffGroupAbsValue> \"- 30 . 5\"."
+66, Mg_per_deciliter, 2028, 2035, "mg / dL", "", 
+63, ConfIntervalDiff, 2040, 2107, "CI , - 2 . 22 to - 1 . 17 mmol / L { - 40 . 0 to - 21 . 1 mg / dL }", "", "<http://ctro/data#DiffBetweenGroups_47294> <http://ctro/data#hasConfIntervalDiff> \"CI , - 2 . 22 to - 1 . 17 mmol / L { - 40 . 0 to - 21 . 1 mg / dL }\"."
+64, Millimoles_per_litre, 2066, 2074, "mmol / L", "", 
+65, Mg_per_deciliter, 2098, 2105, "mg / dL", "", 
+68, BodyWeight, 2118, 2129, "body weight", "", "<http://ctro/data#Endpoint_47104> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+204, Mean, 2132, 2136, "mean", "", "<http://ctro/data#Mean_47106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_47104> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_47106>."
+70, DiffGroupAbsValue, 2150, 2158, "- 1 . 51", "", "<http://ctro/data#DiffBetweenGroups_47357> <http://ctro/data#hasDiffGroupAbsValue> \"- 1 . 51\"."
+69, Kg, 2159, 2161, "kg", "", "<http://ctro/data#Endpoint_47104> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+72, ConfIntervalDiff, 2164, 2192, "CI , - 2 . 15 to - 0 . 88 kg", "", "<http://ctro/data#DiffBetweenGroups_47357> <http://ctro/data#hasConfIntervalDiff> \"CI , - 2 . 15 to - 0 . 88 kg\"."
+71, Kg, 2190, 2192, "kg", "", 
+76, RelNumPatientsLeftArm, 2199, 2206, "Sixteen", "", "<http://ctro/data#Arm_47124> <http://ctro/data#hasRelNumPatientsLeftArm> \"Sixteen\"."
+73, Exenatide, 2234, 2243, "exenatide", "", 
+75, RelNumPatientsLeftArm, 2254, 2255, "2", "", "<http://ctro/data#Arm_47133> <http://ctro/data#hasRelNumPatientsLeftArm> \"2\"."
+199, Percentage, 2256, 2257, "%", "", 
+74, Placebo, 2277, 2284, "placebo", "", 
+77, Exenatide, 2349, 2358, "exenatide", "", 
+78, PercentageAffected, 2367, 2369, "40", "", "<http://ctro/data#Outcome_47366> <http://ctro/data#hasPercentageAffected> \"40\"."
+79, NumberAffected, 2378, 2380, "48", "", "<http://ctro/data#Outcome_47366> <http://ctro/data#hasNumberAffected> \"48\"."
+80, Nausea, 2407, 2413, "nausea", "", "<http://ctro/data#Endpoint_47109> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Nausea>."
+81, SubGroupDescription, 2416, 2427, "mostly mild", "", "<http://ctro/data#Outcome_47393> <http://ctro/data#hasSubGroupDescription> \"mostly mild\"."
+214, EndPointDescription, 2423, 2427, "mild", "", 
+83, NumberAffected, 2434, 2436, "21", "", "<http://ctro/data#Outcome_47393> <http://ctro/data#hasNumberAffected> \"21\"."
+215, EndPointDescription, 2442, 2450, "moderate", "", 
+82, SubGroupDescription, 2442, 2450, "moderate", "", "<http://ctro/data#Outcome_47420> <http://ctro/data#hasSubGroupDescription> \"moderate\"."
+84, NumberAffected, 2457, 2459, "19", "", "<http://ctro/data#Outcome_47420> <http://ctro/data#hasNumberAffected> \"19\"."
+85, PercentageAffected, 2466, 2468, "13", "", "<http://ctro/data#Outcome_47447> <http://ctro/data#hasPercentageAffected> \"13\"."
+86, EndPointDescription, 2483, 2491, "vomiting", "", "<http://ctro/data#EndPointDescription_47115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_47114> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_47115>."
+87, PercentageAffected, 2498, 2500, "11", "", "<http://ctro/data#Outcome_47474> <http://ctro/data#hasPercentageAffected> \"11\"."
+88, Hypoglycemia, 2515, 2527, "hypoglycemia", "", "<http://ctro/data#Endpoint_47119> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+89, Placebo, 2537, 2544, "placebo", "", 
+90, PercentageAffected, 2553, 2555, "15", "", "<http://ctro/data#Outcome_47501> <http://ctro/data#hasPercentageAffected> \"15\"."
+93, Nausea, 2582, 2588, "nausea", "", 
+91, PercentageAffected, 2591, 2592, "1", "", "<http://ctro/data#Outcome_47528> <http://ctro/data#hasPercentageAffected> \"1\"."
+94, EndPointDescription, 2607, 2615, "vomiting", "", 
+92, PercentageAffected, 2622, 2623, "7", "", "<http://ctro/data#Outcome_47555> <http://ctro/data#hasPercentageAffected> \"7\"."
+95, Hypoglycemia, 2638, 2650, "hypoglycemia", "", 
+96, Drug, 2685, 2689, "TZDs", "", 
+97, Sulfonylureas, 2694, 2707, "sulfonylureas", "", 
+96530, RelativeFinalNumPatientsArm, 2769, 2771, "71", "", 
+96531, RelativeFinalNumPatientsArm, 2778, 2780, "86", "", 
+100, Exenatide, 2802, 2811, "exenatide", "", 
+101, Placebo, 2816, 2823, "placebo", "", 
+244, ConclusionComment, 2884, 3091, "Exenatide therapy improved glycemic control , reduced body weight , and caused gastrointestinal symptoms more than placebo in patients with type 2 diabetes that was suboptimally controlled with TZD therapy .", "", "<http://ctro/data#ClinicalTrial_47066> <http://ctro/data#hasConclusionComment> \"Exenatide therapy improved glycemic control , reduced body weight , and caused gastrointestinal symptoms more than placebo in patients with type 2 diabetes that was suboptimally controlled with TZD therapy .\"."
+102, Exenatide, 2884, 2893, "Exenatide", "", 
+103, BodyWeight, 2938, 2949, "body weight", "", 
+104, GastrointestinalProblem, 2963, 2988, "gastrointestinal symptoms", "", 
+105, Placebo, 2999, 3006, "placebo", "", 
+106, Type2Diabetes, 3024, 3039, "type 2 diabetes", "", 
+107, Drug, 3078, 3081, "TZD", "", 
+49487, Exenatide, 3173, 3182, "exenatide", "", 
+109, PMID, 3263, 3271, "17404349", "", "<http://ctro/data#Publication_47052> <http://ctro/data#hasPMID> \"17404349\"."

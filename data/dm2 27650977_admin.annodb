@@ -1,0 +1,139 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 13, "Diabetes Care", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasJournal> \"Diabetes Care\"."
+1, PublicationYear, 16, 20, "2016", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasPublicationYear> \"2016\"."
+154, Title, 72, 292, "Efficacy and Safety of LixiLan , a Titratable Fixed - Ratio Combination of Insulin Glargine Plus Lixisenatide in Type 2 Diabetes Inadequately Controlled on Basal Insulin and Metformin : The LixiLan - L Randomized Trial .", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasTitle> \"Efficacy and Safety of LixiLan , a Titratable Fixed - Ratio Combination of Insulin Glargine Plus Lixisenatide in Type 2 Diabetes Inadequately Controlled on Basal Insulin and Metformin : The LixiLan - L Randomized Trial .\"."
+25, FixedCombDrug, 95, 102, "LixiLan", "", 
+96789, FixedCombDrug, 147, 181, "Insulin Glargine Plus Lixisenatide", "", 
+24, InsulinGlargine, 147, 163, "Insulin Glargine", "", 
+96787, Lixisenatide, 169, 181, "Lixisenatide", "", 
+3, Type2Diabetes, 185, 200, "Type 2 Diabetes", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+155, Precondition, 185, 255, "Type 2 Diabetes Inadequately Controlled on Basal Insulin and Metformin", "", "<http://ctro/data#Population_74664> <http://ctro/data#hasPrecondition> \"Type 2 Diabetes Inadequately Controlled on Basal Insulin and Metformin\"."
+5, Insulin, 228, 241, "Basal Insulin", "", 
+6, Metformin, 246, 255, "Metformin", "", 
+26, FixedCombDrug, 262, 269, "LixiLan", "", 
+7, Randomized, 274, 284, "Randomized", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+8, Author, 293, 301, "Aroda VR", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Aroda VR\"."
+9, Author, 310, 322, "Rosenstock J", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Rosenstock J\"."
+10, Author, 331, 339, "Wysham C", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Wysham C\"."
+11, Author, 348, 355, "Unger J", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Unger J\"."
+12, Author, 364, 373, "Bellido D", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Bellido D\"."
+13, Author, 382, 405, "Gonz á lez - G á lvez G", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Gonz á lez - G á lvez G\"."
+14, Author, 414, 422, "Takami A", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Takami A\"."
+15, Author, 431, 436, "Guo H", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Guo H\"."
+16, Author, 445, 457, "Niemoeller E", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Niemoeller E\"."
+17, Author, 466, 475, "Souhami E", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Souhami E\"."
+18, Author, 485, 498, "Bergenstal RM", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasAuthor> \"Bergenstal RM\"."
+27, FixedCombDrug, 508, 515, "LixiLan", "", 
+167, USA, 720, 722, "TX", "", 
+168, USA, 759, 761, "WA", "", 
+169, USA, 808, 810, "CA", "", 
+19, Spain, 904, 909, "Spain", "", 
+20, Mexico, 1094, 1100, "Mexico", "", 
+21, Japan, 1126, 1131, "Japan", "", 
+175, UK, 1190, 1192, "NJ", "", 
+22, Germany, 1242, 1249, "Germany", "", 
+23, France, 1296, 1302, "France", "", 
+176, USA, 1390, 1392, "MN", "", 
+37, ObjectiveDescription, 1462, 1664, "This study was conducted to demonstrate the efficacy and safety of LixiLan ( iGlarLixi ) , a novel , titratable , fixed - ratio combination of insulin glargine ( iGlar ) ( 100 units ) and lixisenatide ,", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasObjectiveDescription> \"This study was conducted to demonstrate the efficacy and safety of LixiLan ( iGlarLixi ) , a novel , titratable , fixed - ratio combination of insulin glargine ( iGlar ) ( 100 units ) and lixisenatide ,\"."
+28, FixedCombDrug, 1529, 1536, "LixiLan", "", 
+54, FixedCombDrug, 1539, 1548, "iGlarLixi", "", 
+29, InsulinGlargine, 1605, 1621, "insulin glargine", "", 
+31, InsulinGlargine, 1624, 1629, "iGlar", "", 
+177, DoseValue, 1634, 1637, "100", "", 
+178, BioAndMedicalUnit, 1638, 1643, "units", "", 
+96790, Lixisenatide, 1650, 1662, "lixisenatide", "", 
+38, ObjectiveDescription, 1665, 1817, "compared with iGlar in patients with type 2 diabetes inadequately controlled on basal insulin with or without up to two oral glucose - lowering agents .", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasObjectiveDescription> \"compared with iGlar in patients with type 2 diabetes inadequately controlled on basal insulin with or without up to two oral glucose - lowering agents .\"."
+32, InsulinGlargine, 1679, 1684, "iGlar", "", 
+182, Precondition, 1688, 1815, "patients with type 2 diabetes inadequately controlled on basal insulin with or without up to two oral glucose - lowering agents", "", "<http://ctro/data#Population_74664> <http://ctro/data#hasPrecondition> \"patients with type 2 diabetes inadequately controlled on basal insulin with or without up to two oral glucose - lowering agents\"."
+33, Type2Diabetes, 1702, 1717, "type 2 diabetes", "", 
+35, Insulin, 1745, 1758, "basal insulin", "", 
+36, OralAntidiabeticAgent, 1785, 1815, "oral glucose - lowering agents", "", 
+39, Duration, 1856, 1864, "6 - week", "", 
+40, InsulinGlargine, 1879, 1884, "iGlar", "", 
+41, OralAntidiabeticAgent, 1932, 1955, "oral antidiabetic drugs", "", 
+42, Metformin, 1967, 1976, "metformin", "", 
+44, NumberPatientsCT, 1992, 1995, "736", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasNumberPatientsCT> \"736\"."
+43, Insulin, 1996, 2009, "basal insulin", "", 
+45, Mean, 2031, 2035, "mean", "", 
+47, Year, 2057, 2062, "years", "", 
+48, BMI, 2065, 2068, "BMI", "", 
+49, Kg_per_squareMeter, 2072, 2079, "kg / m2", "", 
+51, Randomized, 2087, 2097, "randomized", "", 
+194, AllocationRatio, 2098, 2103, "1 : 1", "", "<http://ctro/data#AllocationRatio_74652> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#AllocationRatio>. <http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasAllocationRatio> <http://ctro/data#AllocationRatio_74652>."
+52, OpenLabel, 2107, 2119, "open - label", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+53, Frequency, 2122, 2134, "once - daily", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+55, FixedCombDrug, 2135, 2144, "iGlarLixi", "", "<http://ctro/data#FixedCombDrug_74703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#FixedCombDrug>. <http://ctro/data#Medication_74702> <http://ctro/data#hasDrug> <http://ctro/data#FixedCombDrug_74703>."
+56, InsulinGlargine, 2148, 2153, "iGlar", "", "<http://ctro/data#Medication_74709> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+124, DoseDescription, 2161, 2269, "titrated to fasting plasma glucose < 100 mg / dL ( < 5 . 6 mmol / L ) up to a maximum dose of 60 units / day", "", "<http://ctro/data#Medication_74702> <http://ctro/data#hasDoseDescription> \"titrated to fasting plasma glucose < 100 mg / dL ( < 5 . 6 mmol / L ) up to a maximum dose of 60 units / day\". <http://ctro/data#Medication_74709> <http://ctro/data#hasDoseDescription> \"titrated to fasting plasma glucose < 100 mg / dL ( < 5 . 6 mmol / L ) up to a maximum dose of 60 units / day\"."
+57, FastingPlasmaGlucose_target, 2173, 2230, "fasting plasma glucose < 100 mg / dL ( < 5 . 6 mmol / L )", "", 
+58, Mg_per_deciliter, 2202, 2209, "mg / dL", "", 
+200, Millimoles_per_litre, 2220, 2228, "mmol / L", "", 
+96791, Int_Unit, 2258, 2263, "units", "", "<http://ctro/data#Medication_74702> <http://ctro/data#hasDoseUnit> <http://ctro/data#Int_Unit>. <http://ctro/data#Medication_74709> <http://ctro/data#hasDoseUnit> <http://ctro/data#Int_Unit>."
+96792, Interval, 2266, 2269, "day", "", 
+61, HbA1c, 2306, 2311, "HbA1c", "", 
+96793, Duration, 2322, 2330, "30 weeks", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasCTduration> \"30 weeks\"."
+63, HbA1c, 2343, 2348, "HbA1c", "", 
+208, BaseLineValue, 2364, 2369, "8 . 5", "", 
+64, Percentage, 2370, 2371, "%", "", "<http://ctro/data#Endpoint_74746> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+209, BaseLineValue, 2374, 2376, "69", "", 
+66, ConcentrationUnit, 2377, 2387, "mmol / mol", "", 
+220, ResultMeasuredValue, 2393, 2398, "8 . 1", "", 
+65, Percentage, 2399, 2400, "%", "", 
+221, ResultMeasuredValue, 2403, 2405, "65", "", 
+67, ConcentrationUnit, 2406, 2416, "mmol / mol", "", 
+205, TimePoint, 2419, 2445, "during the run - in period", "", 
+70, Randomized, 2454, 2467, "randomization", "", 
+71, FixedCombDrug, 2470, 2479, "iGlarLixi", "", 
+72, HbA1c, 2509, 2514, "HbA1c", "", "<http://ctro/data#Endpoint_74746> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+76, TimePoint, 2520, 2528, "baseline", "", 
+73, InsulinGlargine, 2543, 2548, "iGlar", "", 
+224, Reduction, 2553, 2558, "1 . 1", "", "<http://ctro/data#Outcome_74751> <http://ctro/data#hasChangeValue> \"1 . 1\"."
+74, Percentage, 2559, 2560, "%", "", 
+225, Reduction, 2568, 2573, "0 . 6", "", "<http://ctro/data#Outcome_74778> <http://ctro/data#hasChangeValue> \"0 . 6\"."
+75, Percentage, 2574, 2575, "%", "", 
+226, PvalueDiff, 2578, 2590, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_74805> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+77, Mean, 2606, 2610, "mean", "", "<http://ctro/data#Mean_74748> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_74746> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_74748>."
+78, HbA1c, 2617, 2622, "HbA1c", "", 
+228, ResultMeasuredValue, 2626, 2631, "6 . 9", "", "<http://ctro/data#Outcome_74751> <http://ctro/data#hasResultMeasuredValue> \"6 . 9\"."
+79, Percentage, 2632, 2633, "%", "", 
+229, ResultMeasuredValue, 2636, 2638, "52", "", 
+85, ConcentrationUnit, 2639, 2649, "mmol / mol", "", 
+230, ResultMeasuredValue, 2666, 2671, "7 . 5", "", "<http://ctro/data#Outcome_74778> <http://ctro/data#hasResultMeasuredValue> \"7 . 5\"."
+80, Percentage, 2672, 2673, "%", "", 
+231, ResultMeasuredValue, 2676, 2678, "58", "", 
+86, ConcentrationUnit, 2679, 2689, "mmol / mol", "", 
+81, InsulinGlargine, 2696, 2701, "iGlar", "", 
+91, HbA1c_target, 2704, 2737, "HbA1c < 7 . 0 % ( 53 mmol / mol )", "", "<http://ctro/data#Endpoint_74814> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+92, Percentage, 2718, 2719, "%", "", 
+93, ConcentrationUnit, 2725, 2735, "mmol / mol", "", 
+99, PercentageAffected, 2754, 2756, "55", "", "<http://ctro/data#Outcome_74819> <http://ctro/data#hasPercentageAffected> \"55\"."
+94, FixedCombDrug, 2762, 2771, "iGlarLixi", "", 
+98, PercentageAffected, 2795, 2797, "30", "", "<http://ctro/data#Outcome_74846> <http://ctro/data#hasPercentageAffected> \"30\"."
+95, InsulinGlargine, 2803, 2808, "iGlar", "", 
+100, Mean, 2811, 2815, "Mean", "", "<http://ctro/data#Mean_74875> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_74873> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_74875>."
+101, BodyWeight, 2816, 2827, "body weight", "", "<http://ctro/data#Endpoint_74873> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+105, Reduction, 2841, 2846, "0 . 7", "", "<http://ctro/data#Outcome_74878> <http://ctro/data#hasChangeValue> \"0 . 7\"."
+102, Kg, 2847, 2849, "kg", "", "<http://ctro/data#Endpoint_74873> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+107, FixedCombDrug, 2855, 2864, "iGlarLixi", "", 
+106, Increment, 2882, 2887, "0 . 7", "", "<http://ctro/data#Outcome_74905> <http://ctro/data#hasChangeValue> \"0 . 7\"."
+103, Kg, 2888, 2890, "kg", "", 
+108, InsulinGlargine, 2896, 2901, "iGlar", "", 
+109, DiffGroupAbsValue, 2904, 2909, "1 . 4", "", "<http://ctro/data#DiffBetweenGroups_74932> <http://ctro/data#hasDiffGroupAbsValue> \"1 . 4\"."
+104, Kg, 2910, 2912, "kg", "", 
+110, PvalueDiff, 2926, 2938, "P < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_74932> <http://ctro/data#hasPvalueDiff> \"P < 0 . 0001\"."
+245, ObservedResult, 2943, 3027, "Documented symptomatic hypoglycemia ( ≤ 70 mg / dL ) was comparable between groups .", "", "<http://ctro/data#Outcome_74946> <http://ctro/data#hasObservedResult> \"Documented symptomatic hypoglycemia ( ≤ 70 mg / dL ) was comparable between groups .\". <http://ctro/data#Outcome_74973> <http://ctro/data#hasObservedResult> \"Documented symptomatic hypoglycemia ( ≤ 70 mg / dL ) was comparable between groups .\"."
+243, SymptomaticHypoglycemia, 2954, 2978, "symptomatic hypoglycemia", "", "<http://ctro/data#Endpoint_74941> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#SymptomaticHypoglycemia>."
+112, Mg_per_deciliter, 2986, 2993, "mg / dL", "", 
+247, ObservedResult, 3028, 3114, "Mild gastrointestinal adverse effects were very low but more frequent with iGlarLixi .", "", "<http://ctro/data#Outcome_75005> <http://ctro/data#hasObservedResult> \"Mild gastrointestinal adverse effects were very low but more frequent with iGlarLixi .\"."
+246, GastrointestinalProblem, 3033, 3065, "gastrointestinal adverse effects", "", "<http://ctro/data#Endpoint_75000> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#GastrointestinalProblem>."
+113, FixedCombDrug, 3103, 3112, "iGlarLixi", "", 
+253, ConclusionComment, 3129, 3321, "Compared with iGlar , a substantially higher proportion of iGlarLixi - treated patients achieved glycemic targets with a beneficial effect on body weight , no additional risk of hypoglycemia ,", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasConclusionComment> \"Compared with iGlar , a substantially higher proportion of iGlarLixi - treated patients achieved glycemic targets with a beneficial effect on body weight , no additional risk of hypoglycemia ,\"."
+115, InsulinGlargine, 3143, 3148, "iGlar", "", 
+114, FixedCombDrug, 3188, 3197, "iGlarLixi", "", 
+116, BodyWeight, 3271, 3282, "body weight", "", 
+117, Hypoglycemia, 3307, 3319, "hypoglycemia", "", 
+254, ConclusionComment, 3322, 3461, "and low levels of gastrointestinal adverse effects in inadequately controlled , basal insulin - treated , long - standing type 2 diabetes .", "", "<http://ctro/data#ClinicalTrial_74648> <http://ctro/data#hasConclusionComment> \"and low levels of gastrointestinal adverse effects in inadequately controlled , basal insulin - treated , long - standing type 2 diabetes .\"."
+250, GastrointestinalProblem, 3340, 3372, "gastrointestinal adverse effects", "", 
+119, Insulin, 3402, 3415, "basal insulin", "", 
+118, Type2Diabetes, 3444, 3459, "type 2 diabetes", "", 
+123, PMID, 3545, 3553, "27650977", "", "<http://ctro/data#Publication_74641> <http://ctro/data#hasPMID> \"27650977\"."

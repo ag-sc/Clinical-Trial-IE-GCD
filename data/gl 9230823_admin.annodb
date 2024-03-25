@@ -1,0 +1,113 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 17, "Arch Ophthalmol .", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasJournal> \"Arch Ophthalmol .\"."
+1, PublicationYear, 18, 22, "1997", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasPublicationYear> \"1997\"."
+16, Title, 52, 133, "A 1 - year study of brimonidine twice daily in glaucoma and ocular hypertension .", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasTitle> \"A 1 - year study of brimonidine twice daily in glaucoma and ocular hypertension .\"."
+88, Duration, 54, 62, "1 - year", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTduration> \"1 - year\"."
+2, Brimonidine, 72, 83, "brimonidine", "", 
+3, Frequency, 84, 95, "twice daily", "", 
+4, Glaucoma, 99, 107, "glaucoma", "", "<http://ctro/data#Glaucoma_99356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Glaucoma>. <http://ctro/data#ClinicalTrial_99347> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Glaucoma_99356>."
+5, OcularHypertension, 112, 131, "ocular hypertension", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#analysesHealthCondition> <http://ctro/data#OcularHypertension>."
+24, Title, 134, 190, "A controlled , randomized , multicenter clinical trial .", "", 
+93, CTDesign, 136, 146, "controlled", "", "<http://ctro/data#CTDesign_99353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_99353>."
+6, Randomized, 149, 159, "randomized", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+7, Multicenter, 162, 173, "multicenter", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+84, Brimonidine, 199, 210, "Brimonidine", "", 
+9, Author, 225, 235, "Schuman JS", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"Schuman JS\"."
+10, Author, 244, 253, "Horwitz B", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"Horwitz B\"."
+11, Author, 256, 266, "Choplin NT", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"Choplin NT\"."
+12, Author, 269, 276, "David R", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"David R\"."
+13, Author, 279, 289, "Albracht D", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"Albracht D\"."
+14, Author, 292, 298, "Chen K", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasAuthor> \"Chen K\"."
+15, USA, 409, 412, "USA", "", "<http://ctro/data#Population_99370> <http://ctro/data#hasCountry> <http://ctro/data#USA>."
+17, Brimonidine, 510, 529, "Brimonidin tartrate", "", 
+18, ObjectiveDescription, 572, 729, "This study investigates the safety and efficacy of 0 . 2 % brimonidine administered twice daily for 1 year in patients with glaucoma or ocular hypertension .", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasObjectiveDescription> \"This study investigates the safety and efficacy of 0 . 2 % brimonidine administered twice daily for 1 year in patients with glaucoma or ocular hypertension .\"."
+19, DoseValue, 623, 628, "0 . 2", "", 
+25, Percentage, 629, 630, "%", "", 
+26, Brimonidine, 631, 642, "brimonidine", "", 
+20, Frequency, 656, 667, "twice daily", "", 
+21, Duration, 672, 678, "1 year", "", 
+54561, Precondition, 682, 727, "patients with glaucoma or ocular hypertension", "", "<http://ctro/data#Population_99370> <http://ctro/data#hasPrecondition> \"patients with glaucoma or ocular hypertension\"."
+22, Glaucoma, 696, 704, "glaucoma", "", 
+23, OcularHypertension, 708, 727, "ocular hypertension", "", 
+27, Multicenter, 763, 774, "multicenter", "", 
+28, DoubleBlind, 777, 792, "double - masked", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#DoubleBlind>."
+29, Randomized, 795, 805, "randomized", "", 
+30, Parallel, 808, 816, "parallel", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#Parallel>."
+117, CTDesign, 827, 846, "active - controlled", "", "<http://ctro/data#CTDesign_99367> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#CTDesign>. <http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasCTDesign> <http://ctro/data#CTDesign_99367>."
+32, DoseValue, 894, 899, "0 . 2", "", "<http://ctro/data#Medication_99444> <http://ctro/data#hasDoseValue> \"0 . 2\"."
+120, Percentage, 900, 901, "%", "", "<http://ctro/data#Medication_99444> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+34, Brimonidine, 902, 913, "brimonidine", "", "<http://ctro/data#Medication_99444> <http://ctro/data#hasDrug> <http://ctro/data#Brimonidine>."
+33, DoseValue, 917, 922, "0 . 5", "", "<http://ctro/data#Medication_99451> <http://ctro/data#hasDoseValue> \"0 . 5\"."
+36, Percentage, 923, 924, "%", "", "<http://ctro/data#Medication_99451> <http://ctro/data#hasDoseUnit> <http://ctro/data#Percentage>."
+35, Timolol, 925, 940, "timolol maleate", "", "<http://ctro/data#Medication_99451> <http://ctro/data#hasDrug> <http://ctro/data#Timolol>."
+37, Frequency, 941, 952, "twice daily", "", "<http://ctro/data#Intervention_99431> <http://ctro/data#hasFrequency> \"twice daily\". <http://ctro/data#Intervention_99438> <http://ctro/data#hasFrequency> \"twice daily\"."
+38, Duration, 957, 966, "12 months", "", 
+126, TimePoint, 995, 1003, "baseline", "", 
+127, TimePoint, 1006, 1012, "week 1", "", 
+54563, TimePoint, 1019, 1035, "months 1 , 2 , 3", "", 
+128, TimePoint, 1019, 1027, "months 1", "", 
+130, TimePoint, 1019, 1031, "months 1 , 2", "", 
+131, TimePoint, 1019, 1039, "months 1 , 2 , 3 , 6", "", 
+132, TimePoint, 1019, 1043, "months 1 , 2 , 3 , 6 , 9", "", 
+133, TimePoint, 1019, 1052, "months 1 , 2 , 3 , 6 , 9 , and 12", "", 
+134, TimePoint, 1092, 1098, "week 2", "", 
+39, NumberPatientsCT, 1114, 1117, "443", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasNumberPatientsCT> \"443\"."
+40, FinalNumPatientsCT, 1152, 1155, "374", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasFinalNumberPatientsCT> \"374\"."
+54564, FinalNumPatientsArm, 1181, 1184, "186", "", "<http://ctro/data#Arm_99413> <http://ctro/data#hasFinalNumPatientsArm> \"186\"."
+43, Brimonidine, 1194, 1205, "brimonidine", "", 
+42, FinalNumPatientsArm, 1210, 1213, "188", "", "<http://ctro/data#Arm_99422> <http://ctro/data#hasFinalNumPatientsArm> \"188\"."
+44, Timolol, 1223, 1230, "timolol", "", 
+45, Brimonidine, 1233, 1244, "Brimonidine", "", 
+46, Mean, 1282, 1286, "mean", "", "<http://ctro/data#Mean_99380> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_99378> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_99380>."
+142, Peak_IOP, 1287, 1291, "peak", "", "<http://ctro/data#Endpoint_99378> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+47, IOP, 1305, 1325, "intraocular pressure", "", 
+142, Peak_IOP, 1305, 1325, "intraocular pressure", "", "<http://ctro/data#Endpoint_99378> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Peak_IOP>."
+48, IOP, 1328, 1331, "IOP", "", 
+49, Reduction, 1337, 1342, "6 . 5", "", "<http://ctro/data#Outcome_99458> <http://ctro/data#hasChangeValue> \"6 . 5\"."
+50, mmHg, 1343, 1348, "mm Hg", "", "<http://ctro/data#Endpoint_99378> <http://ctro/data#hasBaselineUnit> <http://ctro/data#mmHg>."
+51, Timolol, 1351, 1358, "timolol", "", 
+52, Mean, 1384, 1388, "mean", "", 
+148, Peak_IOP, 1389, 1393, "peak", "", 
+148, Peak_IOP, 1407, 1410, "IOP", "", 
+53, IOP, 1407, 1410, "IOP", "", 
+54, Reduction, 1414, 1419, "6 . 1", "", "<http://ctro/data#Outcome_99485> <http://ctro/data#hasChangeValue> \"6 . 1\"."
+55, mmHg, 1420, 1425, "mm Hg", "", 
+106391, ObservedResult, 1428, 1528, "Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 ( P < . 03 )", "", "<http://ctro/data#Outcome_99512> <http://ctro/data#hasObservedResult> \"Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 ( P < . 03 )\". <http://ctro/data#Outcome_99539> <http://ctro/data#hasObservedResult> \"Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 ( P < . 03 )\". <http://ctro/data#Outcome_99566> <http://ctro/data#hasObservedResult> \"Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 ( P < . 03 )\". <http://ctro/data#Outcome_99593> <http://ctro/data#hasObservedResult> \"Brimonidine lowered mean peak IOP significantly more than timolol at week 2 and month 3 ( P < . 03 )\"."
+56, Brimonidine, 1428, 1439, "Brimonidine", "", 
+58, Mean, 1448, 1452, "mean", "", 
+57, Peak_IOP, 1453, 1461, "peak IOP", "", 
+59, Timolol, 1486, 1493, "timolol", "", 
+60, TimePoint, 1497, 1503, "week 2", "", "<http://ctro/data#Outcome_99512> <http://ctro/data#hasTimePoint> \"week 2\". <http://ctro/data#Outcome_99539> <http://ctro/data#hasTimePoint> \"week 2\"."
+61, TimePoint, 1508, 1515, "month 3", "", "<http://ctro/data#Outcome_99566> <http://ctro/data#hasTimePoint> \"month 3\". <http://ctro/data#Outcome_99593> <http://ctro/data#hasTimePoint> \"month 3\"."
+62, PvalueDiff, 1518, 1526, "P < . 03", "", "<http://ctro/data#DiffBetweenGroups_99620> <http://ctro/data#hasPvalueDiff> \"P < . 03\". <http://ctro/data#DiffBetweenGroups_99629> <http://ctro/data#hasPvalueDiff> \"P < . 03\"."
+158, Duration, 1638, 1646, "1 - year", "", 
+66, ObservedResult, 1725, 1787, "Allergy was seen in 9 % of subjects treated with brimonidine .", "", "<http://ctro/data#Outcome_99665> <http://ctro/data#hasObservedResult> \"Allergy was seen in 9 % of subjects treated with brimonidine .\"."
+105208, Ocular_Allergy, 1725, 1732, "Allergy", "", "<http://ctro/data#Endpoint_99383> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Ocular_Allergy>."
+64, PercentageAffected, 1745, 1746, "9", "", "<http://ctro/data#Outcome_99665> <http://ctro/data#hasPercentageAffected> \"9\"."
+65, Brimonidine, 1774, 1785, "brimonidine", "", 
+54568, EndPointDescription, 1788, 1797, "Dry mouth", "", "<http://ctro/data#EndPointDescription_99389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_99388> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_99389>."
+71, ObservedResult, 1788, 1909, "Dry mouth was more common in the brimonidine - treated group than in the timolol - treated group ( 33 . 0 % vs 19 . 4 % )", "", "<http://ctro/data#Outcome_99692> <http://ctro/data#hasObservedResult> \"Dry mouth was more common in the brimonidine - treated group than in the timolol - treated group ( 33 . 0 % vs 19 . 4 % )\". <http://ctro/data#Outcome_99719> <http://ctro/data#hasObservedResult> \"Dry mouth was more common in the brimonidine - treated group than in the timolol - treated group ( 33 . 0 % vs 19 . 4 % )\"."
+67, Brimonidine, 1821, 1832, "brimonidine", "", 
+68, Timolol, 1861, 1868, "timolol", "", 
+69, PercentageAffected, 1887, 1893, "33 . 0", "", "<http://ctro/data#Outcome_99692> <http://ctro/data#hasPercentageAffected> \"33 . 0\"."
+70, PercentageAffected, 1899, 1905, "19 . 4", "", "<http://ctro/data#Outcome_99719> <http://ctro/data#hasPercentageAffected> \"19 . 4\"."
+54576, EndPointDescription, 1916, 1950, "complaints of burning and stinging", "", "<http://ctro/data#EndPointDescription_99394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_99393> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_99394>."
+76, ObservedResult, 1916, 2067, "complaints of burning and stinging were more common in the timolol - treated group ( 41 . 9 % ) than in the brimonidine - treated patients ( 28 . 1 % )", "", "<http://ctro/data#Outcome_99746> <http://ctro/data#hasObservedResult> \"complaints of burning and stinging were more common in the timolol - treated group ( 41 . 9 % ) than in the brimonidine - treated patients ( 28 . 1 % )\". <http://ctro/data#Outcome_99773> <http://ctro/data#hasObservedResult> \"complaints of burning and stinging were more common in the timolol - treated group ( 41 . 9 % ) than in the brimonidine - treated patients ( 28 . 1 % )\"."
+54569, EndPointDescription, 1930, 1937, "burning", "", 
+54573, Stinging, 1942, 1950, "stinging", "", 
+73, Timolol, 1975, 1982, "timolol", "", 
+72, PercentageAffected, 2001, 2007, "41 . 9", "", 
+75, Brimonidine, 2024, 2035, "brimonidine", "", 
+74, PercentageAffected, 2057, 2063, "28 . 1", "", 
+172, Headache, 2070, 2078, "Headache", "", "<http://ctro/data#Endpoint_99398> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Headache>."
+77, ObservedResult, 2070, 2136, "Headache , fatigue , and drowsiness were similar in the 2 groups .", "", "<http://ctro/data#Outcome_99800> <http://ctro/data#hasObservedResult> \"Headache , fatigue , and drowsiness were similar in the 2 groups .\". <http://ctro/data#Outcome_99827> <http://ctro/data#hasObservedResult> \"Headache , fatigue , and drowsiness were similar in the 2 groups .\". <http://ctro/data#Outcome_99854> <http://ctro/data#hasObservedResult> \"Headache , fatigue , and drowsiness were similar in the 2 groups .\"."
+54577, EndPointDescription, 2081, 2088, "fatigue", "", "<http://ctro/data#EndPointDescription_99404> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_99403> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_99404>."
+54578, EndPointDescription, 2095, 2105, "drowsiness", "", "<http://ctro/data#EndPointDescription_99409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#EndPointDescription>. <http://ctro/data#Endpoint_99408> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#EndPointDescription_99409>."
+78, ObservedResult, 2137, 2194, "In general , the tolerance to medication was acceptable .", "", "<http://ctro/data#Outcome_99458> <http://ctro/data#hasObservedResult> \"In general , the tolerance to medication was acceptable .\". <http://ctro/data#Outcome_99485> <http://ctro/data#hasObservedResult> \"In general , the tolerance to medication was acceptable .\"."
+79, Brimonidine, 2209, 2220, "Brimonidine", "", 
+81, ConclusionComment, 2209, 2281, "Brimonidine is safe and effective in lowering IOP in glaucomatous eyes .", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasConclusionComment> \"Brimonidine is safe and effective in lowering IOP in glaucomatous eyes .\"."
+80, IOP, 2255, 2258, "IOP", "", 
+178, Glaucoma, 2262, 2274, "glaucomatous", "", 
+180, Brimonidine, 2282, 2293, "Brimonidine", "", 
+82, ConclusionComment, 2282, 2416, "Brimonidine provides a sustained long - term ocular hypotensive effect , is well tolerated , and has a low rate of allergic response .", "", "<http://ctro/data#ClinicalTrial_99347> <http://ctro/data#hasConclusionComment> \"Brimonidine provides a sustained long - term ocular hypotensive effect , is well tolerated , and has a low rate of allergic response .\"."
+83, PMID, 2475, 2482, "9230823", "", "<http://ctro/data#Publication_99335> <http://ctro/data#hasPMID> \"9230823\"."

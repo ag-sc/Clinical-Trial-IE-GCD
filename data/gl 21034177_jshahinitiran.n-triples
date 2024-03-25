@@ -1,0 +1,15 @@
+# RDF export of group: Publication
+# RDF export of group: ClinicalTrial
+# RDF export of group: Population
+# RDF export of group: Endpoint
+# RDF export of group: Arm
+# RDF export of group: Intervention
+# RDF export of group: Medication
+<http://ctro/data#Medication_19168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Medication> .
+<http://ctro/data#Medication_19168> <http://www.w3.org/2000/01/rdf-schema#label> "Medication 19168" .
+<http://ctro/data#Drug_19169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Drug> .
+<http://ctro/data#BioAndMedicalUnit_19171> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit> .
+<http://ctro/data#DeliveryMethod_19172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#DeliveryMethod> .
+# RDF export of group: Outcome
+# RDF export of group: DiffBetweenGroups
+# RDF export of group: EvidenceQuality

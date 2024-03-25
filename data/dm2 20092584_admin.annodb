@@ -1,0 +1,136 @@
+# AnnotationID, ClassType, DocCharOnset(incl), DocCharOffset(excl), Text, Meta, Instances
+0, Journal, 0, 21, "Diabetes Obes Metab .", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasJournal> \"Diabetes Obes Metab .\"."
+1, PublicationYear, 22, 26, "2010", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasPublicationYear> \"2010\"."
+108, Title, 110, 243, "Comparison between a basal - bolus and a premixed insulin regimen in individuals with type 2 diabetes - results of the GINGER study .", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasTitle> \"Comparison between a basal - bolus and a premixed insulin regimen in individuals with type 2 diabetes - results of the GINGER study .\"."
+55486, PremixedInsulin, 151, 167, "premixed insulin", "", 
+3, Type2Diabetes, 196, 211, "type 2 diabetes", "", 
+4, Author, 244, 254, "Fritsche A", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasAuthor> \"Fritsche A\"."
+5, Author, 263, 271, "Larbig M", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasAuthor> \"Larbig M\"."
+6, Author, 274, 281, "Owens D", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasAuthor> \"Owens D\"."
+7, Author, 284, 295, "H ä ring HU", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasAuthor> \"H ä ring HU\"."
+8, Germany, 507, 514, "Germany", "", "<http://ctro/data#Population_71731> <http://ctro/data#hasCountry> <http://ctro/data#Germany>."
+240, ObjectiveDescription, 652, 866, "To compare the efficacy and safety of an intensified insulin regimen , using insulin glargine ( glargine ) once daily and pre - meal insulin glulisine ( glulisine ) ( basal - bolus ) , with a conventional therapy ,", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasObjectiveDescription> \"To compare the efficacy and safety of an intensified insulin regimen , using insulin glargine ( glargine ) once daily and pre - meal insulin glulisine ( glulisine ) ( basal - bolus ) , with a conventional therapy ,\"."
+9, Insulin, 705, 712, "insulin", "", 
+10, InsulinGlargine, 729, 745, "insulin glargine", "", 
+11, InsulinGlargine, 748, 756, "glargine", "", 
+12, Frequency, 759, 769, "once daily", "", "<http://ctro/data#Intervention_71787> <http://ctro/data#hasFrequency> \"once daily\"."
+121, RelativeTime, 774, 784, "pre - meal", "", "<http://ctro/data#RelativeTime_71798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#RelativeTime>. <http://ctro/data#Intervention_71793> <http://ctro/data#hasRelativeFreqTime> <http://ctro/data#RelativeTime_71798>."
+13, InsulinGlulisine, 785, 802, "insulin glulisine", "", 
+14, InsulinGlulisine, 805, 814, "glulisine", "", 
+239, ObjectiveDescription, 867, 914, "using premixed insulin ( premix ) twice daily .", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasObjectiveDescription> \"using premixed insulin ( premix ) twice daily .\"."
+55488, PremixedInsulin, 873, 889, "premixed insulin", "", "<http://ctro/data#Medication_71819> <http://ctro/data#hasDrug> <http://ctro/data#PremixedInsulin>."
+55487, PremixedInsulin, 892, 898, "premix", "", 
+16, Frequency, 901, 912, "twice daily", "", "<http://ctro/data#Intervention_71799> <http://ctro/data#hasFrequency> \"twice daily\"."
+17, Duration, 930, 939, "52 - week", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasCTduration> \"52 - week\"."
+18, OpenLabel, 942, 954, "open - label", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasCTDesign> <http://ctro/data#OpenLabel>."
+19, Randomized, 957, 967, "randomized", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasCTDesign> <http://ctro/data#Randomized>."
+127, Multicenter, 970, 983, "multinational", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+20, Multicenter, 986, 997, "multicentre", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasCTDesign> <http://ctro/data#Multicenter>."
+21, NumberPatientsCT, 1013, 1016, "310", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasNumberPatientsCT> \"310\"."
+25, Precondition, 1017, 1092, "subjects with type 2 diabetes ( T2D ) on premix , with or without metformin", "", "<http://ctro/data#Population_71731> <http://ctro/data#hasPrecondition> \"subjects with type 2 diabetes ( T2D ) on premix , with or without metformin\"."
+22, Type2Diabetes, 1031, 1046, "type 2 diabetes", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#analysesHealthCondition> <http://ctro/data#Type2Diabetes>."
+23, Type2Diabetes, 1049, 1052, "T2D", "", 
+55489, PremixedInsulin, 1058, 1064, "premix", "", 
+24, Metformin, 1083, 1092, "metformin", "", 
+26, Randomized, 1104, 1114, "randomized", "", 
+27, InsulinGlargine, 1147, 1155, "glargine", "", "<http://ctro/data#Medication_71805> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlargine>."
+28, InsulinGlulisine, 1160, 1169, "glulisine", "", "<http://ctro/data#Medication_71812> <http://ctro/data#hasDrug> <http://ctro/data#InsulinGlulisine>."
+35, NumberPatientsArm, 1176, 1179, "153", "", "<http://ctro/data#Arm_71769> <http://ctro/data#hasNumberPatientsArm> \"153\"."
+170, Mean, 1182, 1186, "mean", "", 
+41, AvgAge, 1205, 1229, "60 . 2 + / - 7 . 5 years", "", "<http://ctro/data#Population_71731> <http://ctro/data#hasAvgAge> \"60 . 2 + / - 7 . 5 years\"."
+30, HbA1c, 1232, 1237, "HbA1c", "", 
+142, BaseLineValue, 1238, 1243, "8 . 6", "", "<http://ctro/data#Outcome_71826> <http://ctro/data#hasBaselineValue> \"8 . 6\"."
+146, SdDevBL, 1250, 1255, "0 . 8", "", "<http://ctro/data#Outcome_71826> <http://ctro/data#hasSdDevBL> \"0 . 8\"."
+31, Percentage, 1256, 1257, "%", "", 
+32, BodyWeight, 1260, 1266, "weight", "", 
+154, BaseLineValue, 1267, 1273, "87 . 0", "", "<http://ctro/data#Outcome_71880> <http://ctro/data#hasBaselineValue> \"87 . 0\"."
+148, SdDevBL, 1280, 1286, "15 . 1", "", "<http://ctro/data#Outcome_71880> <http://ctro/data#hasSdDevBL> \"15 . 1\"."
+33, Kg, 1287, 1289, "kg", "", 
+34, Type2Diabetes, 1292, 1295, "T2D", "", 
+55485, Duration, 1305, 1329, "12 . 8 + / - 5 . 8 years", "", 
+36, Frequency, 1335, 1348, "twice - daily", "", 
+55490, PremixedInsulin, 1349, 1355, "premix", "", 
+37, NumberPatientsArm, 1362, 1365, "157", "", "<http://ctro/data#Arm_71778> <http://ctro/data#hasNumberPatientsArm> \"157\"."
+40, AvgAge, 1372, 1396, "60 . 9 + / - 7 . 8 years", "", 
+42, HbA1c, 1399, 1404, "HbA1c", "", 
+143, BaseLineValue, 1405, 1410, "8 . 5", "", "<http://ctro/data#Outcome_71853> <http://ctro/data#hasBaselineValue> \"8 . 5\"."
+147, SdDevBL, 1417, 1422, "0 . 9", "", "<http://ctro/data#Outcome_71853> <http://ctro/data#hasSdDevBL> \"0 . 9\"."
+43, Percentage, 1423, 1424, "%", "", 
+44, BodyWeight, 1427, 1433, "weight", "", 
+155, BaseLineValue, 1434, 1440, "84 . 3", "", "<http://ctro/data#Outcome_71907> <http://ctro/data#hasBaselineValue> \"84 . 3\"."
+149, SdDevBL, 1447, 1453, "15 . 0", "", "<http://ctro/data#Outcome_71907> <http://ctro/data#hasSdDevBL> \"15 . 0\"."
+45, Kg, 1454, 1456, "kg", "", 
+46, Type2Diabetes, 1459, 1462, "T2D", "", 
+55484, Duration, 1472, 1496, "12 . 5 + / - 6 . 8 years", "", 
+47, HbA1c, 1536, 1541, "HbA1c", "", 
+242, TimePoint, 1547, 1555, "baseline", "", 
+243, TimePoint, 1559, 1567, "endpoint", "", 
+169, Mean, 1580, 1584, "Mean", "", "<http://ctro/data#Mean_71741> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71739> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71741>."
+244, TimePoint, 1597, 1605, "baseline", "", 
+245, TimePoint, 1613, 1621, "endpoint", "", 
+48, HbA1c, 1622, 1627, "HbA1c", "", "<http://ctro/data#Endpoint_71739> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c>."
+55491, PremixedInsulin, 1651, 1657, "premix", "", 
+49, Reduction, 1664, 1670, "1 . 31", "", "<http://ctro/data#Outcome_71826> <http://ctro/data#hasChangeValue> \"1 . 31\"."
+50, Reduction, 1678, 1684, "0 . 80", "", "<http://ctro/data#Outcome_71853> <http://ctro/data#hasChangeValue> \"0 . 80\"."
+51, Percentage, 1685, 1686, "%", "", "<http://ctro/data#Endpoint_71739> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Percentage>."
+52, DiffGroupAbsValue, 1702, 1711, "- 0 . 476", "", "<http://ctro/data#DiffBetweenGroups_71934> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 476\"."
+53, Percentage, 1712, 1713, "%", "", "<http://ctro/data#DiffBetweenGroups_71934> <http://ctro/data#hasDiffGroupAbsValue> \"- 0 . 476\"."
+54, ConfIntervalDiff, 1716, 1747, "95 % Cl : - 0 . 714 , - 0 . 238", "", "<http://ctro/data#DiffBetweenGroups_71934> <http://ctro/data#hasConfIntervalDiff> \"95 % Cl : - 0 . 714 , - 0 . 238\"."
+55, PvalueDiff, 1750, 1762, "p = 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_71934> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0001\"."
+56, HbA1c_target, 1798, 1818, "HbA1c < or = 7 . 0 %", "", "<http://ctro/data#Endpoint_71744> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#HbA1c_target>."
+180, Percentage, 1817, 1818, "%", "", 
+55492, PremixedInsulin, 1858, 1864, "premix", "", 
+57, NumberAffected, 1873, 1875, "68", "", "<http://ctro/data#Outcome_71943> <http://ctro/data#hasNumberAffected> \"68\"."
+59, PercentageAffected, 1878, 1884, "46 . 6", "", "<http://ctro/data#Outcome_71943> <http://ctro/data#hasPercentageAffected> \"46 . 6\"."
+58, NumberAffected, 1894, 1896, "43", "", "<http://ctro/data#Outcome_71970> <http://ctro/data#hasNumberAffected> \"43\"."
+60, PercentageAffected, 1899, 1905, "27 . 9", "", "<http://ctro/data#Outcome_71970> <http://ctro/data#hasPercentageAffected> \"27 . 9\"."
+61, PvalueDiff, 1912, 1924, "p = 0 . 0004", "", "<http://ctro/data#DiffBetweenGroups_71997> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0004\"."
+198, Mean, 1977, 1981, "mean", "", "<http://ctro/data#Mean_71746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71744> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71746>."
+55495, SubGroupDescription, 1996, 2003, "daytime", "", "<http://ctro/data#Outcome_72006> <http://ctro/data#hasSubGroupDescription> \"daytime\". <http://ctro/data#Outcome_72033> <http://ctro/data#hasSubGroupDescription> \"daytime\"."
+66, Reduction, 2008, 2013, "2 . 7", "", "<http://ctro/data#Outcome_72006> <http://ctro/data#hasChangeValue> \"2 . 7\"."
+70, SdDevChangeValue, 2020, 2025, "2 . 3", "", "<http://ctro/data#Outcome_72006> <http://ctro/data#hasSdDevChangeValue> \"2 . 3\"."
+67, Reduction, 2033, 2038, "2 . 3", "", "<http://ctro/data#Outcome_72033> <http://ctro/data#hasChangeValue> \"2 . 3\"."
+71, SdDevChangeValue, 2045, 2050, "2 . 5", "", "<http://ctro/data#Outcome_72033> <http://ctro/data#hasSdDevChangeValue> \"2 . 5\"."
+74, Millimoles_per_litre, 2051, 2059, "mmol / l", "", "<http://ctro/data#Endpoint_71749> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Millimoles_per_litre>."
+76, PvalueDiff, 2062, 2074, "p = 0 . 0033", "", "<http://ctro/data#DiffBetweenGroups_72060> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0033\"."
+55494, SubGroupDescription, 2081, 2093, "postprandial", "", "<http://ctro/data#Outcome_72069> <http://ctro/data#hasSubGroupDescription> \"postprandial\". <http://ctro/data#Outcome_72096> <http://ctro/data#hasSubGroupDescription> \"postprandial\"."
+68, Reduction, 2098, 2103, "3 . 1", "", "<http://ctro/data#Outcome_72069> <http://ctro/data#hasChangeValue> \"3 . 1\"."
+72, SdDevChangeValue, 2110, 2115, "2 . 6", "", "<http://ctro/data#Outcome_72069> <http://ctro/data#hasSdDevChangeValue> \"2 . 6\"."
+69, Reduction, 2123, 2128, "2 . 5", "", "<http://ctro/data#Outcome_72096> <http://ctro/data#hasChangeValue> \"2 . 5\"."
+73, SdDevChangeValue, 2135, 2140, "2 . 8", "", "<http://ctro/data#Outcome_72096> <http://ctro/data#hasSdDevChangeValue> \"2 . 8\"."
+75, Millimoles_per_litre, 2141, 2149, "mmol / l", "", 
+77, PvalueDiff, 2152, 2164, "p < 0 . 0001", "", "<http://ctro/data#DiffBetweenGroups_72123> <http://ctro/data#hasPvalueDiff> \"p < 0 . 0001\"."
+65, FastingPlasmaGlucose, 2167, 2180, "blood glucose", "", "<http://ctro/data#Endpoint_71749> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#FastingPlasmaGlucose>."
+252, TimePoint, 2183, 2191, "Endpoint", "", "<http://ctro/data#Outcome_72132> <http://ctro/data#hasTimePoint> \"Endpoint\". <http://ctro/data#Outcome_72159> <http://ctro/data#hasTimePoint> \"Endpoint\"."
+246, InsulinDose, 2192, 2211, "daily insulin doses", "", "<http://ctro/data#InsulinDose_71755> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#InsulinDose>. <http://ctro/data#Endpoint_71754> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#InsulinDose_71755>."
+78, ResultMeasuredValue, 2217, 2223, "98 . 0", "", "<http://ctro/data#Outcome_72132> <http://ctro/data#hasResultMeasuredValue> \"98 . 0\"."
+80, SdDevResValue, 2230, 2236, "48 . 7", "", "<http://ctro/data#Outcome_72132> <http://ctro/data#hasSdDevResValue> \"48 . 7\"."
+79, ResultMeasuredValue, 2242, 2248, "91 . 3", "", "<http://ctro/data#Outcome_72159> <http://ctro/data#hasResultMeasuredValue> \"91 . 3\"."
+81, SdDevResValue, 2255, 2261, "44 . 3", "", "<http://ctro/data#Outcome_72159> <http://ctro/data#hasSdDevResValue> \"44 . 3\"."
+212, Int_Unit, 2262, 2264, "IU", "", "<http://ctro/data#Endpoint_71754> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Int_Unit>."
+83, PvalueDiff, 2267, 2279, "p = 0 . 2104", "", "<http://ctro/data#DiffBetweenGroups_72186> <http://ctro/data#hasPvalueDiff> \"p = 0 . 2104\"."
+214, Mean, 2284, 2288, "mean", "", "<http://ctro/data#Mean_71761> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71759> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71761>."
+84, BodyWeight, 2289, 2295, "weight", "", "<http://ctro/data#Endpoint_71759> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#BodyWeight>."
+85, Increment, 2307, 2312, "3 . 6", "", "<http://ctro/data#Outcome_71880> <http://ctro/data#hasChangeValue> \"3 . 6\"."
+55496, SdDevChangeValue, 2319, 2324, "4 . 0", "", "<http://ctro/data#Outcome_71880> <http://ctro/data#hasSdDevChangeValue> \"4 . 0\"."
+86, Increment, 2332, 2337, "2 . 2", "", "<http://ctro/data#Outcome_71907> <http://ctro/data#hasChangeValue> \"2 . 2\"."
+55497, SdDevChangeValue, 2344, 2349, "4 . 5", "", "<http://ctro/data#Outcome_71907> <http://ctro/data#hasSdDevChangeValue> \"4 . 5\"."
+89, Kg, 2350, 2352, "kg", "", "<http://ctro/data#Endpoint_71759> <http://ctro/data#hasBaselineUnit> <http://ctro/data#Kg>."
+90, PvalueDiff, 2355, 2367, "p = 0 . 0073", "", "<http://ctro/data#DiffBetweenGroups_72195> <http://ctro/data#hasPvalueDiff> \"p = 0 . 0073\"."
+222, Mean, 2372, 2376, "Mean", "", "<http://ctro/data#Mean_71766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#Mean>. <http://ctro/data#Endpoint_71764> <http://ctro/data#hasAggregationMethod> <http://ctro/data#Mean_71766>."
+91, Hypoglycemia, 2395, 2408, "hypoglycaemic", "", "<http://ctro/data#Endpoint_71764> <http://ctro/data#hasEndoPointDescription> <http://ctro/data#Hypoglycemia>."
+55498, PremixedInsulin, 2439, 2445, "premix", "", 
+92, ResultMeasuredValue, 2450, 2457, "13 . 99", "", "<http://ctro/data#Outcome_72204> <http://ctro/data#hasResultMeasuredValue> \"13 . 99\"."
+93, ResultMeasuredValue, 2462, 2469, "18 . 54", "", "<http://ctro/data#Outcome_72231> <http://ctro/data#hasResultMeasuredValue> \"18 . 54\"."
+94, BioAndMedicalUnit, 2470, 2491, "events / patient year", "", "<http://ctro/data#BioAndMedicalUnit_71767> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ctro/data#BioAndMedicalUnit>. <http://ctro/data#Endpoint_71764> <http://ctro/data#hasBaselineUnit> <http://ctro/data#BioAndMedicalUnit_71767>."
+227, DiffGroupAbsValue, 2522, 2530, "- 3 . 90", "", "<http://ctro/data#DiffBetweenGroups_72258> <http://ctro/data#hasDiffGroupAbsValue> \"- 3 . 90\"."
+96, ConfIntervalDiff, 2533, 2561, "95 % CI : - 10 . 40 , 2 . 60", "", "<http://ctro/data#DiffBetweenGroups_72258> <http://ctro/data#hasConfIntervalDiff> \"95 % CI : - 10 . 40 , 2 . 60\"."
+97, PvalueDiff, 2564, 2576, "p = 0 . 2385", "", "<http://ctro/data#DiffBetweenGroups_72258> <http://ctro/data#hasPvalueDiff> \"p = 0 . 2385\"."
+247, ConclusionComment, 2595, 2842, "An intensified basal - bolus regimen using glargine / glulisine results in a significantly superior glycaemic control vs . premix therapy in a population with long - standing insulin - treated T2D , with no increase in the rates of hypoglycaemia .", "", "<http://ctro/data#ClinicalTrial_71711> <http://ctro/data#hasConclusionComment> \"An intensified basal - bolus regimen using glargine / glulisine results in a significantly superior glycaemic control vs . premix therapy in a population with long - standing insulin - treated T2D , with no increase in the rates of hypoglycaemia .\"."
+98, InsulinGlargine, 2638, 2646, "glargine", "", 
+99, InsulinGlulisine, 2649, 2658, "glulisine", "", 
+55499, PremixedInsulin, 2718, 2724, "premix", "", 
+100, Insulin, 2770, 2777, "insulin", "", 
+101, Type2Diabetes, 2788, 2791, "T2D", "", 
+102, Hypoglycemia, 2827, 2840, "hypoglycaemia", "", 
+103, PMID, 2903, 2911, "20092584", "", "<http://ctro/data#Publication_71701> <http://ctro/data#hasPMID> \"20092584\"."
