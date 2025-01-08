@@ -1,4 +1,8 @@
-# Artifact "Grammar-Constrained Decoding for Structured Information Extraction From Clinical Trial Abstracts with Finetuned Generative Models"
+# Artifact "Grammar-constrained decoding for structured information extraction with fine-tuned generative models applied to clinical trial abstracts"
+
+DOI: [http://doi.org/10.3389/frai.2024.1406857](http://doi.org/10.3389/frai.2024.1406857)
+
+Zenodo: [https://doi.org/10.5281/zenodo.10419785](https://doi.org/10.5281/zenodo.10419785)
 
 ## Setup
 
@@ -93,4 +97,23 @@ scripts-generative/eval-gen-nogcd.sh
 9. Generate evaluation summary with mean and standard deviations for training with best parameters (first activate virtual environment and set `PYTHONPATH` as shown above!). Some tables are only printed and generated if you run the command a second time because they are first only saved to pickle files.
 ```bash
 python src/eval_summary_best.py --results /path/to/results/folder/ 
+```
+
+
+
+## Citation
+
+Please consider citing our work if you find the provided resources useful:
+
+```bibtex
+@ARTICLE{schmidt-cimiano-2024-ct-ie-gcd,
+AUTHOR={Schmidt, David M.  and Cimiano, Philipp },
+TITLE={Grammar-constrained decoding for structured information extraction with fine-tuned generative models applied to clinical trial abstracts},
+JOURNAL={Frontiers in Artificial Intelligence},
+VOLUME={7},
+YEAR={2025},
+URL={https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1406857},
+DOI={10.3389/frai.2024.1406857},
+ISSN={2624-8212},
+}
 ```
